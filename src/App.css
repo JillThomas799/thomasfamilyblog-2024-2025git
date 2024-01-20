@@ -1,0 +1,110 @@
+body{
+  display:flex;
+  flex-direction:column;
+  background-color:#6B7A8F;
+}
+
+#menu ul{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+}
+
+#menu li{
+padding:10px;
+}
+
+#Members{
+  padding:5%;
+}
+
+#Members ul{
+    font: size 1.0em;
+    color:#92A8D1;
+    background-color: #92A8D1;
+    margin:10%;
+    padding:5%;
+    border:solid 3px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+#Members li{
+    color:grey;
+    list-style-type: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Months li{
+  list-style-type: none;
+}
+
+#menu ul li{
+  list-style-type: none;
+}
+
+p{
+  display:block;
+  background-color:#92A8D1;
+  color:black;
+  text-align:center;
+  font: size 50pt;
+  font-weight: bold;
+  border:solid 3px;
+  border-color:#92A8D1;
+  border-radius:20%;
+  padding:5%;
+  margin:10%;
+  -webkit-border-radius:20%;
+  -moz-border-radius:20%;
+  -ms-border-radius:20%;
+  -o-border-radius:20%;
+} 
+
+#myDiv ul{
+  list-style-type:none;
+}
+
+#myDiv li{
+  float:left;
+  padding-top:5px;
+  padding-bottom:10px;
+  padding-left: 10px;
+  padding-right:10px;
+  font-weight: bold;
+}
+
+ #button{
+  display:block;
+  position:absolute;
+  height:50px;
+  width:20%;
+  background-color:#4d648d;
+  border:black 2px solid;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color:white;
+  margin:5% 20% 5% 60%;
+  border-radius:15%;
+  -webkit-border-radius:15%;
+  -moz-border-radius:15%;
+  -ms-border-radius:15%;
+  -o-border-radius:15%;
+} 
+
+#menuUnderline{
+  text-decoration: underline;
+  color:whitesmoke;
+}
+
+#the_Thomas_Family_Blog{
+  color:white; 
+  text-align: center;
+  margin-top:25%;
+  font-family:sans-serif helvetica;
+}

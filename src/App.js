@@ -1,7 +1,9 @@
-
+import React from 'react';
 import './App.css';
 import { Button } from 'components/buttons';
 import { Navigation } from 'components/navbar';
+import JillBioImage from './images/JillBioImage.jpg';
+
 
 function MyMenu() {
   return (
@@ -15,30 +17,16 @@ function MyMenu() {
   );
 }
 
+
+
 function ProfileJill() {
-  const user = {
-    name: 'Jill',
-    imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
-    imageSize: 90,
-  };
-    
-  return (
-    <div>
-      <h1>{user.name}</h1>
-      <img
-        className="avatar"
-        src={user.imageUrl}
-        alt={'Photo of ' + user.name}
-          style={{
-          width: user.imageSize,
-          height: user.imageSize
-        }}
-      />
-    </div>
-  )
+  return ( 
+  <div>
+    <h1>Jill</h1>
+    <img src={JillBioImage} alt="Photo Jill" />
+  </div>
+);
 }
-
-
 
 export default function App() {
   return (

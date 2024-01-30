@@ -4,7 +4,7 @@ body{
   background-color:#6B7A8F;
 }
 
-#menu ul{
+ #menu ul{
   display:flex;
   flex-direction: row;
   width:100%;
@@ -12,39 +12,41 @@ body{
 
 #menu li{
 padding:10px;
-}
-
-#Members{
-  padding:5%;
-}
-
-#Members ul{
-    font: size 1.0em;
-    color:#92A8D1;
-    background-color: #92A8D1;
-    margin:10%;
-    padding:5%;
-    border:solid 3px;
-    border-radius: 20%;
-    -webkit-border-radius: 20%;
-    -moz-border-radius: 20%;
-    -ms-border-radius: 20%;
-    -o-border-radius: 20%;
-}
-
-#Members li{
-    color:grey;
-    list-style-type: none;
-    font-weight: bold;
-    text-align: center;
-}
-
-.Months li{
-  list-style-type: none;
+font-weight: bold;
+font-size: larger;
 }
 
 #menu ul li{
   list-style-type: none;
+} */
+
+a{
+  color:navy;
+  text-decoration: none;
+  /* text-decoration: underline; */
+  -moz-text-decoration: none; 
+}
+
+a link{
+  color:white;
+  text-decoration: underline;
+  -moz-text-decoration: none;
+}
+
+/* a visited{
+  color:#92A8D1;
+  text-decoration: none;
+  -moz-text-decoration: none;
+} */
+
+a:hover{
+  color:whitesmoke;
+  text-decoration: underline;
+  -moz-text-decoration: none; 
+}
+
+a:active {
+  background-color: paleturquoise;
 }
 
 p{
@@ -105,6 +107,88 @@ p{
 #the_Thomas_Family_Blog{
   color:white; 
   text-align: center;
-  margin-top:25%;
+  margin:15% 10% 10% 10%;
   font-family:sans-serif helvetica;
 }
+
+.gridContainer{
+  display:grid;
+  grid-template-columns: 20vw 20vw 20vw; /*specifies the number of columns in the grid*/
+  grid-template-rows: 20vh 20vh 20vh ; /*specifies the number of rows in the grid*/
+  column-gap: 15vw; /*specifies the size of the gaps between the columns*/
+  row-gap: 40vh; /*specifies the size of the gaps between the rows*/
+  margin:2%;
+}
+
+#Bernard_profile_photo{
+  height: auto;
+  width:auto; 
+  border:solid grey 5px;
+  border-radius: 15%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  padding:5%;
+  /* margin:7%; */
+}
+
+#Jill_profile_photo{
+  height:auto;
+  width:auto; 
+  border:solid grey 5px;
+  border-radius: 15%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  padding:5%;
+}
+
+#Elena_profile_photo{
+  height: auto;
+  width:auto; 
+  border:solid grey 5px;
+  border-radius: 15%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  padding:5%;
+  /* margin:7%; */
+}
+
+#Harry_profile_photo{
+  height: auto;
+  width:auto; 
+  border:solid grey 5px;
+  border-radius: 15%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  padding:5%;
+}
+
+
+#Lennie_profile_photo{
+  height: auto;
+  width:auto;
+  border:solid grey 5px;
+  border-radius: 15%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  padding:5%;
+  }
+
+  fig figcaption {
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    font-size:32px;
+    justify-content: center;
+  }
+  
+  

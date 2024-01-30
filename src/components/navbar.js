@@ -1,11 +1,36 @@
-export function Navigation() {
+import React from 'react';
+
+function Button(props) {
   return (
-    <div id="menu">
-      <ul>
-        <li><a className="nav-link" href = "April_2024.html"  title = "Click here to go to April 2024 blogs">April 2024</a></li>
-        <li><a className="nav-link" href = "May_2024.html"  title = "Click here to go to May 2024 blogs">May 2024</a></li>
-        <li><a className="nav-link" href = "June_2024.html" id="menu" title = "Click here to go to June 2024 blogs">June 2024</a></li>
-      </ul>
-    </div>
+    <button id="button" title="Click here to open dropdown menu" onClick={props.onClick}>
+      Menu
+    </button>
   );
 }
+
+export default Button;
+
+
+
+
+export function Navigation() { return (
+  <button id="button" title="Click here to open dropdown menu" onclick={props.onClick}><span id="menuUnderline">Menu</span></button>
+
+
+  // <div>
+  //   <div div id="myDiv" style = {{visibility: "hidden"}} >
+  //     <div div id="menu">
+  //      
+  //     </div>
+  //   </div>
+
+  
+
+// export function NavigationMembers() {
+//   return (
+//     <>
+//       <li><a className="Member" href = "indexbiojill" id="Jill" title="Click here to go to find out more about Jill" style={{color: "white"}}>Jill</a></li>
+//     </>
+//   );
+// }
+// href = "/indexbiojill/"

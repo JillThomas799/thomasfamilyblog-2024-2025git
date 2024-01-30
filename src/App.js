@@ -1,44 +1,81 @@
 import React from 'react';
-import './App.css';
+import { useState } from 'react'; //Adding 'state' to a component allows the component to 'remember' some specific information and display it. eg. count the number of times a button is clicked.
+import './App.css';//if importing from another file in the same folder use ./file name. ./ tells the import to look for the .js file in the same folder as the current file
+import JillBioImage from 'images/JillBioImage.jpg';//if importing from another src folder, just use this configuration
+import BernardBioImage from 'images/BernardBioImage.jpg';
+import LennieBioImage from 'images/LennieBioImage.jpg';
+import ElenaBioImage from 'images/ElenaBioImage.jpg';
+import HarryBioImage from 'images/HarryBioImage.jpg';
 import { Button } from 'components/buttons';
-import { Navigation } from 'components/navbar';
-import JillBioImage from './images/JillBioImage.jpg';
-
-
-function MyMenu() {
-  return (
-    <div id="menu">
-      <ul>
-        <li><a className="nav-link" href = "April_2024.html"  title = "Click here to go to April 2024 blogs">April 2024</a></li>
-        <li><a className="nav-link" href = "May_2024.html"  title = "Click here to go to May 2024 blogs">May 2024</a></li>
-        <li><a className="nav-link" href = "June_2024.html" id="menu" title = "Click here to go to June 2024 blogs">June 2024</a></li>
-      </ul>
-    </div>
-  );
-}
-
+import { Dropdown } from 'components/dropdown';
 
 
 function ProfileJill() {
   return ( 
   <div>
-    <h1>Jill</h1>
-    <img src={JillBioImage} alt="Photo Jill" />
+    <fig><img id="Jill_profile_photo" src={JillBioImage} alt="" /><figcaption>Jill</figcaption></fig>
+  </div>
+  );
+}
+
+function ProfileBernard() {
+  return ( 
+  <div>
+    <fig><img id="Bernard_profile_photo" src={BernardBioImage} alt="" /><figcaption>Bernard</figcaption></fig>
   </div>
 );
 }
 
+function ProfileLennie() {
+  return ( 
+  <div>
+    <fig><img id="Lennie_profile_photo" src={LennieBioImage} alt="" /><figcaption>Lennie</figcaption></fig>
+  </div>
+);
+}
+
+function ProfileElena() {
+  return ( 
+  <div>
+    <fig><img id="Elena_profile_photo" src={ElenaBioImage} alt="" /><figcaption>Elena</figcaption></fig>
+  </div>
+  );
+}
+
+function ProfileHarry() {
+  return ( 
+  <div>
+    <fig><img id="Harry_profile_photo" src={HarryBioImage} alt="" /><figcaption>Harry</figcaption></fig>
+  </div>
+  );
+}
+
 export default function App() {
+  const [isVisible, setIsVisible] = useState(false); // declares a state variable inside the component App:
+
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible);
+  };
+
   return (
+    
 <body>
   <div className="App">
-    <Button />
-    <Navigation />
+    <Button onClick={toggleVisibility} />
+    <Dropdown isVisible={isVisible} />
     <h1 id="the_Thomas_Family_Blog">Thomas Family Blog</h1>
-    <ProfileJill />
+    <div className = "gridContainer">
+      <ProfileBernard />
+      <div></div>
+      <ProfileJill />
+      <div></div>
+      <ProfileLennie />
+      <div></div>
+      <ProfileElena />
+      <div></div>
+      <ProfileHarry />
+    </div>
   </div>
 </body>
   );
 }
-
-

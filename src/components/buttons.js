@@ -1,5 +1,11 @@
-export function Button() {
+
+export function Button(props) {
   return (
-    <button id="button" title="Click here to open dropdown menu" onclick="myFunction()"><span id="menuUnderline" >Menu</span></button>
+    <button id="button" title="Click here to open dropdown menu" onClick={props.onClick}>
+      Menu
+    </button>
   );
-}
+};
+
+
+

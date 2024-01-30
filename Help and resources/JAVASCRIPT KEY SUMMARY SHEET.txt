@@ -1,0 +1,144 @@
+JAVASCRIPT KEY SUMMARY SHEET for REACT
+
+VARIABLES:
+	Variables are a means of storing values
+
+DECLARING A VARIABLE:
+	3 options const, let or var. Use const generally.
+	eg.
+	const age;
+
+DECLARING AND INITIALIZING A VARIABLE:
+	eg. const age = 10;
+	    const name = 'Jill';
+	Either double or single quotes can be used for declaring string variables in javascript. Numbers do not use quotes.
+
+NAMING A VARIABLE:
+	JavaScript variables must be given unique names known as identifiers.Identifiers can be short names (like x and y) or 	more descriptive names (age, sum, totalVolume).
+	General naming conventions are that names:
+		can contain letters, digits, underscores, and dollar signs.
+    		must begin with a letter.
+    		can also begin with $ and _ (but we will not use it in this tutorial).
+    		are case sensitive (y and Y are different variables).
+    		Reserved words (like JavaScript keywords) cannot be used as names.
+
+VARIABLE ARRAYS:
+	Arrays are placed between square brackets, separated by commas and use double quotes for strings and no quotes for 	numbers.
+	const arr = [10, "Lennie","cat"];
+
+
+FUNCTIONS:
+WRITING A FUNCTION:
+	function functionname () {return(
+	);
+	}
+
+
+NAMING FUNCTIONS:
+	Use camelCase for your functions: this means that the first word starts with a lowercase letter and new words start with 	a capital. That makes it a lot easier to read and keeps your code consistent.
+    
+	Make sure that the name describes what the function is doing: it’s better to call a number addition function addNumbers 	than myFunc.
+    
+	Use a verb to describe what the function is doing: make it an action. So instead of hiThere, call it sayHi.
+
+
+IMPORTING FUNCTIONS:
+	import allows you to choose which parts of a file or module to load.
+	
+	./ tells the import to look for the file.js file where the import is held in the same folder as the current file. The 	relative file path (./) and file extension (.js) are required when using import in this way.
+
+	You can import more than one item from the file by adding them in the import statement like this:
+	import { variable/functionname1, variable/functionname2 etc } from './file.js';
+
+	eg.
+	import { variable/functionname } from './file.js';
+
+	If you are importing from a file in another folder in the src folder, then rather than './file.js', need to use 	'foldername/file'. There is no need fdor the .js in this case. 	
+
+	eg.
+	import  { variable/functionname } from 'foldername/filename';
+
+	If importing images, do not need to use the curly brackets.
+	
+	
+INVOKING A FUNCTION:
+	To invoke a function, write the function name follwed by the round brackets, entering any arguments between the brackets 	if used, followed by a semicolon.
+
+	eg. for a drop down menu fucntion you have created:
+	dropdownMenu ();
+
+	or for a function which takes arguments including an input argument:
+	functionThatTakesInput("the input", 5, true);
+
+	eg. To write a function that asks for your name and then greets you:
+	function sayHello() {
+        let you = prompt("What's your name? ");
+        console.log("Hello", you + "!");
+    }
+
+	To call this function:
+	sayHello();
+
+NESTED FUNCTIONS:
+	Nested functions are functions which are inside functions.
+
+	In the following example, the outer function is calling its nested function. This nested function has access to the variables of the parent. The 	other way around, this is not the case. Variables defined inside the inner function have function scope. This means they 	are accessible inside the function where they are defined, which is in this case the inner function. 
+	
+	eg.
+	function doOuterFunctionStuff(nr) {
+      		console.log("Outer function");
+      		doInnerFunctionStuff(nr);
+      		function doInnerFunctionStuff(x) {
+        		console.log(x + 7);     
+        		console.log("I can access outer variables:", nr);
+     		}
+    	      }
+    	      doOuterFunctionStuff(2);
+
+	This will output:
+	Outer function
+    	9
+    	I can access outer variables: 2
+
+RETURN AND FUNCTIONS:
+	The word return ends the function and sends back whatever value comes after return. 
+
+	If you have a one-line arrow function, you can return without using the keyword return.
+
+	eg.
+	let addTwoNumbers (x, y) => x + y;
+	let result = addTwoNumbers(12, 15);
+    	console.log(result);
+
+ANONYMOUS/UNNAMED FUNCTIONS:
+	Functions can be created without names, but in this case the function must be stored inside a variable.
+	
+	eg.
+	let functionVariable = function () {
+     	console.log("Not so secret though.");
+    	};
+
+	The function above is called using:
+	functionVariable();
+
+	Storing functions inside variables is very useful as it for example, allows us to pass in in functions as parameters. 
+
+	eg.
+	function doFlexibleStuff(executeStuff) {
+     	executeStuff();
+     	console.log("Inside doFlexibleStuffFunction.");
+    	}
+
+	If this new function is called with the previously made anonymous function, functionVariable, like this:
+	doFlexibleStuff(functionVariable);
+
+	the output will be:
+	Not so secret though.
+   	Inside doFlexibleStuffFunction.
+	
+
+	
+
+	
+
+	

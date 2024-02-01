@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Dropdown(props) {
+export default function Dropdown(props) {
   return (
     <div>
       {props.isVisible ? (
@@ -23,4 +23,3 @@ export function Dropdown(props) {
   );
 }
 
-// export default Dropdown;

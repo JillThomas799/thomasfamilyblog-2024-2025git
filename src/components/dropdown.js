@@ -1,22 +1,21 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Dropdown(props) {
   return (
     <div>
       {props.isVisible ? (
       <div id="menu">
-        <ul>
-            <li><a className="nav-link" href="april2024.js" id="menu" title="Click here to go to April 2024 blogs">April 2024</a></li>
-            <li><a className="nav-link" href="may2024.js" id="menu" title="Click here to go to May 2024 blogs">May 2024</a></li>
-            <li><a className="nav-link" href="june2024.js" id="menu" title="Click here to go to June 2024 blogs">June 2024</a></li>
-            <li><a className="nav-link" href="july2024.js" id="menu" title="Click here to go to July 2024 blogs">July 2023</a></li>
-            <li><a className="nav-link" href="august2024.js" id="menu" title="Click here to go to August 2024 blogs">August 2023</a></li>
-            <li><a className="nav-link" href="september2024.js" id="menu" title="Click here to go to September 2024 blogs">September 2024</a></li>
-            <li><a className="nav-link" href="october2024.js" id="menu" title="Click here to go to October 2024 blogs">October 2024</a></li>
-            <li><a className="nav-link" href="november2024.js" id="menu" title="Click here to go to November 2024 blogs">November 2024</a></li>
-            <li><a className="nav-link" href="december2024.js" id="menu" title="Click here to go to December 2024 blogs"> December 2024</a></li>
-            <li><a className="nav-link" href="january2025.html" id="menu" title="Click here to go to January 2025 blogs">January 2025</a></li>
-           </ul> 
+          <ul>
+            {/* 
+              * Take the routes from index.js, and use those as your paths in the
+              * `to` argument. If you look in index.js, april2024 matches to an
+              * april2024 route.
+              * Add more routes here as needed. To make it cleaner, use a loop :)
+            */}
+            <Link to="/april2024">April 2024</Link>
+            <Link to="/may2024">May 2024</Link>
+          </ul> 
         </div>
       ) : null}
     </div>

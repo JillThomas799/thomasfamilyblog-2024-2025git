@@ -41,7 +41,12 @@ const JillPortalEntry = () => {
 const BernardPortalEntry = () =>  {
   return (    
   <div>
-    <a className="Member"  target="_blank" href= "{BernardBio}" title="Click here to go to find out more about Bernard" id="Bernard" style={{color:"white"}}><fig><img id="Bernard_profile_photo" src={BernardBioImage} alt="" /><figcaption>Bernard</figcaption></fig></a>
+    <fig>
+      <Link to="/bernard-bio">
+        <img id="Bernard_profile_photo" src={BernardBioImage} alt="" />
+        <figcaption>Bernard</figcaption>
+      </Link>
+    </fig>
   </div>
   );
 }
@@ -77,28 +82,27 @@ export default function App() {
     setIsVisible(!isVisible);
   };
 
-  return (
-    
-<body>
-  <div className="App">
-    <Button onClick={toggleVisibility} />
-    <Dropdown isVisible={isVisible} />
-    <h1 id="the_Thomas_Family_Blog">Thomas Family Blog</h1>
-    <div className = "gridContainer">
-      <BernardPortalEntry/>
-      <div></div>
-      <JillPortalEntry />
-      <div></div>
-      <LenniePortalEntry />
-      <div></div>
-      <ElenaPortalEntry />
-      <div></div>
-      <HarryPortalEntry />
-    </div>
-    {/* <BernardBio /> */}
-  </div>
+  return (   
+    <body>
+      <div className="App">
+        <Button onClick={toggleVisibility} />
+        <Dropdown isVisible={isVisible} />
+        <h1 id="the_Thomas_Family_Blog">Thomas Family Blog</h1>
+        <div className = "gridContainer">
+          <BernardPortalEntry/>
+          <div></div>
+          <JillPortalEntry />
+          <div></div>
+          <LenniePortalEntry />
+          <div></div>
+          <ElenaPortalEntry />
+          <div></div>
+          <HarryPortalEntry />
+        </div>
+        {/* <BernardBio /> */}
+      </div>
 
-  
-</body>
+      
+    </body>
   );
 }

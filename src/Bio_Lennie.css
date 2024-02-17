@@ -1,0 +1,537 @@
+body{
+    display:flex;
+    flex-direction:column;
+    overflow:scroll;
+  }
+  
+  h1{
+      display:block;
+      text-align: center;
+      font: size 1.0em;
+      color:white;
+      background-color:#92A8D1;
+      padding:10%;
+      border:solid 3px;
+      border-radius: 20%;
+      -webkit-border-radius: 20%;
+      -moz-border-radius: 20%;
+      -ms-border-radius: 20%;
+      -o-border-radius: 20%;
+  }
+
+  #about_us{
+    display:block;
+    color:white;
+    text-align: center;
+    padding:5%;
+    /* border-radius:20%;
+    -webkit-border-radius:20%;
+    -moz-border-radius:20%;
+    -ms-border-radius:20%;
+    -o-border-radius:20%; */
+} 
+
+#menu ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:contain;
+  }
+  
+  #menu li{
+  padding:10px;
+  }
+
+  #Members{
+    padding:5%;
+    /* border-radius:20%;
+    -webkit-border-radius:20%;
+    -moz-border-radius:20%;
+    -ms-border-radius:20%;
+    -o-border-radius:20%; */
+  }
+  
+  #Members ul{
+      font: size 1.0em;
+      color:#92A8D1;
+      background-color: #92A8D1;
+      margin:10%;
+      padding:5%;
+      border:solid 3px;
+      border-radius: 20%;
+      -webkit-border-radius: 20%;
+      -moz-border-radius: 20%;
+      -ms-border-radius: 20%;
+      -o-border-radius: 20%;
+  }
+  
+  #Members li{
+      color:grey;
+      list-style-type: none;
+      font-weight: bold;
+      text-align: center;
+  }
+  
+  .Months li{
+    list-style-type: none;
+  }
+  
+  img{
+    display: inline-block;
+    margin:10%;
+  }
+  
+  img alt{
+    color:white;
+    text-align: center;
+    background-color: #92A8D1;
+    border:solid 3px;
+  }
+  
+  img:hover{
+    transform: scale(1.75);
+    transition: 0.25s ease;
+    -webkit-transition: 0.25s ease;
+    -moz-transition: 0.25s ease;
+    -ms-transition: 0.25s ease;
+    -o-transition: 0.25s ease;
+    -webkit-transform: scale(1.75);
+    -moz-transform: scale(1.75);
+    -ms-transform: scale(1.75);
+    -o-transform: scale(1.75);
+  }
+  
+  .img2:hover{
+    transform: scale(2.50);
+    transition: 0.25s ease;
+    -webkit-transition: 0.25s ease;
+    -moz-transition: 0.25s ease;
+    -ms-transition: 0.25s ease;
+    -o-transition: 0.25s ease;
+    -webkit-transform: scale(2.50);
+    -moz-transform: scale(2.50);
+    -ms-transform: scale(2.50);
+    -o-transform: scale(2.50);
+  }
+  
+/*styling for elements of image as link*/
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text{
+    position: absolute;
+    top: 50%; 
+    left: 70%; 
+    transform: translate(-50%, -50%); 
+    background-color: #000000; 
+    color: #ffd200; 
+    padding: 5px 10px; 
+    font-size: 15px; 
+    text-align: center;
+  }
+  
+  a{
+    color:navy;
+    text-decoration: none;
+    text-decoration: underline;
+    -moz-text-decoration: none; 
+  }
+  
+  a link{
+    color:white;
+    text-decoration: underline;
+    -moz-text-decoration: none;
+  }
+  
+  a visited{
+    color:#92A8D1;
+    text-decoration: none;
+    -moz-text-decoration: none;
+  }
+  
+  a:hover{
+    color:whitesmoke;
+    text-decoration: underline;
+    -moz-text-decoration: none; 
+  }
+  
+  a:active {
+    background-color: paleturquoise;
+  }
+  
+  #myDiv{
+    width: contain;
+    height: contain;
+    visibility:hidden;
+    background-color: grey;
+    z-index: 1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+  }
+  
+  #myDiv ul{
+    list-style-type:none;
+  }
+  
+  #myDiv li{
+    float:left;
+    padding-top:5px;
+    padding-bottom:10px;
+    padding-left: 10px;
+    padding-right:10px;
+    font-weight: bold;
+  }
+  
+   #button{
+    display:block;
+    position:absolute;
+    height:50px;
+    width:20%;
+    background-color:gray;
+    border:black 2px solid;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color:white;
+    margin:5% 20% 5% 60%;
+    border-radius:15%;
+    -webkit-border-radius:15%;
+    -moz-border-radius:15%;
+    -ms-border-radius:15%;
+    -o-border-radius:15%;
+  } 
+  
+  #menuUnderline{
+    text-decoration: underline;
+    color:navy;
+  }
+  
+  .profileElena{
+    display:flex;
+    flex-direction:row;
+    Background-color:Aquamarine;
+  }
+  
+  .Profession{
+    background-color: steelblue;
+    color:white;
+    display:block;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding:20px;
+    text-align:center;
+  }
+
+  
+  
+  .Likes, .Dislikes, .FavouriteBooks, .FavouriteMusic{
+    background-color: steelblue;
+    color:white;
+    display:block;
+    margin:20px;
+    padding:20px;
+    text-align:center;
+    list-style-type: none;
+  }
+  
+  .Surprisingfacts{
+    background-color: steelblue;
+    color:white;
+    display:inline-block;
+    margin:5% 20% 5% 20%;
+    padding:5%;
+    list-style-type: none;
+    text-align:center;
+  }
+  
+  .Likes li, .Dislikes li, .Surprisingfacts li, .FavouriteBooks li, .FavouriteMusic li{
+    padding:10px;
+  }
+  
+  
+  fig{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right:auto;
+  }
+  
+  fig img {
+    vertical-align: top;
+  }
+  fig figcaption {
+    text-align: center;
+    font-family: bold;
+    color:white;
+  }
+  
+  #Bernard_profile_photo, #Jill_profile_photo, #Elena_profile_photo, #Harry_profile_photo, #Lennie_profile_photo {
+    display:block;
+    margin-right: 15%;
+    margin-left: 35%;
+    height: 25%;
+    width:25%; 
+    border:solid grey 3px;
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+  }
+  
+  article{
+    color:white;
+    display:inline-block;
+    text-align: center;
+    background-color: steelblue;
+    padding:20px;
+  }
+
+  .midnightblue{
+    background-color: midnightblue;
+  }
+  
+  .footer{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+    color:white;
+    font-weight:bold;
+    width:100%;
+    background-color:#64696c;
+    margin-top:10%;
+     
+  }
+  
+  .footer ul{
+     list-style-type: none;
+     display:flex;
+     flex-direction:row;
+     align-items:center;
+     justify-content:space-between;
+  }
+  
+  .footer li{
+    padding:15px;
+  }
+  
+  .buttonFooter{
+    border:none;
+    background-color:#64696c;
+    color:white;
+  }
+  
+  .buttonFooter a{
+    color:white;
+    text-decoration: none;
+    text-decoration: underline;
+    -moz-text-decoration: none; 
+    padding:10%;
+  }
+  
+  #sendFeedback{
+    width: contain;
+    height: contain;
+    padding:5% 15%;
+    visibility:hidden;
+    background-color: #0D98BA;
+    color:black;
+    z-index: 1;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+  }
+  
+  .feedbackLabel{
+    margin:5%;
+  }
+  
+  /*@MEDIA QUERIES*/
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other and enlarge Thomas Family photo home page */
+
+@media screen and (max-width: 600px) {
+    .blogPhotoDiv {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .datenewsDiv{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .profile{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #Bernard_profile_photo, #Jill_profile_photo, #Elena_profile_photo, #Harry_profile_photo, #Lennie_profile_photo {
+      display:block;
+      margin-right:13%;
+      margin-left: 13%;
+      height: 74%;
+      width:74%; 
+      border:solid grey 3px;
+      border-radius: 15%;
+      -webkit-border-radius: 15%;
+      -moz-border-radius: 15%;
+      -ms-border-radius: 15%;
+      -o-border-radius: 15%;
+    }
+  
+    #ThomasFamilyIntro,.Profession,.profile,.photo,.Dislikes,.Surprisingfacts,.FavouriteBooks,.FavouriteMusic,.blogDiv {
+      font-size: small;
+    }
+  
+    .img2:hover{
+      transform: scale(1.75);
+      transition: 0.25s ease;
+      -webkit-transition: 0.25s ease;
+      -moz-transition: 0.25s ease;
+      -ms-transition: 0.25s ease;
+      -o-transition: 0.25s ease;
+      -webkit-transform: scale(1.75);
+      -moz-transform: scale(1.75);
+      -ms-transform: scale(1.75);
+      -o-transform: scale(1.75);
+  }
+  
+  .blogPhoto1 img{
+      display: block;
+      margin-bottom:5%;
+      width:140px;
+      height:140px;
+      margin-left:auto;
+      margin-right: auto;
+      border:solid grey;
+      border-radius:30px;
+      -webkit-border-radius:30px;
+      -moz-border-radius:30px;
+      -ms-border-radius:30px;
+      -o-border-radius:30px;
+  }
+  
+  
+  #menu ul{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+  }
+  
+  
+  #button{
+    display:block;
+    position:absolute;
+    height:50px;
+    width:25%;
+    background-color:gray;
+    border:black 2px solid;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color:white;
+    margin:3% 15% 5% 70%;
+    border-radius:15%;
+    -webkit-border-radius:15%;
+    -moz-border-radius:15%;
+    -ms-border-radius:15%;
+    -o-border-radius:15%;
+  } 
+  
+  .footer ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+  }
+  
+  /*On screens that are 600px wide or less, ensure overlay-text and button does not exceed container size*/
+  .overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    color: #ffd200;
+    padding: 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+  
+  #button{
+    display:block;
+    position:absolute;
+    height:50px;
+    width:20%;
+    background-color:gray;
+    border:black 2px solid;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color:white;
+    margin:5% 55% 5% 45%;
+    border-radius:15%;
+    -webkit-border-radius:15%;
+    -moz-border-radius:15%;
+    -ms-border-radius:15%;
+    -o-border-radius:15%;
+  } 
+  }
+  
+    /*Ensure footer displays in columnar form on reduced screen sizes*/
+    @media screen and (max-width: 600px){
+      .footer{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        color:white;
+        font-weight:bold;
+        width:100%;
+        background-color:#71797E;
+      }   
+      
+      
+      .footer ul{
+         list-style-type: none;
+         display:flex;
+         flex-direction:column;
+         align-items:center;
+         justify-content:center
+      }
+      
+        
+      }
+  
+      /*On screens that are 600px wide or less, ensure Lennie Footer animation and blanket does not overrun*/
+      @media screen and (max-width: 600px){
+        .LennieImage_February_2024{
+          transform:scale(35%);
+          -webkit-transform:scale(35%);
+          -moz-transform:scale(35%);
+          -ms-transform:scale(35%);
+          -o-transform:scale(35%);
+          height:60vh;
+  }
+      }

@@ -8,6 +8,8 @@ body{
   display:flex;
   flex-direction: row;
   width:100%;
+  gap: 5%; /* Sets the desired spacing between flex items */
+  font-weight: bold;
 }
 
 #menu li{
@@ -32,12 +34,6 @@ a link{
   text-decoration: underline;
   -moz-text-decoration: none;
 }
-
-/* a visited{
-  color:#92A8D1;
-  text-decoration: none;
-  -moz-text-decoration: none;
-} */
 
 a:hover{
   color:whitesmoke;
@@ -113,11 +109,11 @@ p{
 
 .gridContainer{
   display:grid;
-  grid-template-columns: 20vw 20vw 20vw; /*specifies the number of columns in the grid*/
+  grid-template-columns: 35vw 35vw 35vw; /*specifies the number of columns in the grid*/
   grid-template-rows: 20vh 20vh 20vh ; /*specifies the number of rows in the grid*/
-  column-gap: 15vw; /*specifies the size of the gaps between the columns*/
-  row-gap: 40vh; /*specifies the size of the gaps between the rows*/
-  margin:2%;
+  column-gap: 0vw; /*specifies the size of the gaps between the columns*/
+  row-gap: 2vh; /*specifies the size of the gaps between the rows*/
+  margin:none;
 }
 
 #Bernard_profile_photo{
@@ -129,7 +125,6 @@ p{
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
-  padding:5%;
   /* margin:7%; */
 }
 
@@ -142,7 +137,6 @@ p{
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
-  padding:5%;
 }
 
 #Elena_profile_photo{
@@ -154,7 +148,6 @@ p{
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
-  padding:5%;
   /* margin:7%; */
 }
 
@@ -167,7 +160,6 @@ p{
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
-  padding:5%;
 }
 
 
@@ -180,7 +172,6 @@ p{
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
-  padding:5%;
   }
 
   fig figcaption {

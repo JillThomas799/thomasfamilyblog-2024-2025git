@@ -8,6 +8,8 @@ import ErrorPage from 'error-page';
 import April2024 from 'April2024';
 import May2024 from 'May2024';
 import { BernardBio } from 'indexbiobernard';
+import { ElenaBio } from 'indexbioelena';
+import { JillBio } from 'indexbiojill';
 
 // FIXME: this could be made a lot cleaner. Use a loop. Or something. :)
 // to explain what this does...
@@ -38,7 +40,19 @@ const router = createBrowserRouter([
     path: '/bernard-bio',
     element: <BernardBio/>,
     errorElement: <ErrorPage/>
-  }
+  },
+
+  {
+    path: '/elena-bio',
+    element: <ElenaBio/>,
+    errorElement: <ErrorPage/>
+  },
+
+  {
+    path: '/jill-bio',
+    element: <JillBio/>,
+    errorElement: <ErrorPage/>
+  } 
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

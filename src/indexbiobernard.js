@@ -1,5 +1,6 @@
 import React from 'react';
 import './Bio_bernard.css';
+import BernardBioImage from 'images/BernardBioImage.jpg';
 
 export function BernardBio() {
   return (
@@ -21,7 +22,7 @@ export function BernardBio() {
         </section>
         <section className="photo">
           <figure>
-            <img id="Bernard_profile_photo" src="resources\images\IMG_20221020_124457.jpg" alt="" />
+          <img id="Bernard_profile_photo" src={BernardBioImage} alt="" />
             <figcaption><strong /></figcaption></figure>
           <article>
             {" "}
@@ -53,7 +54,6 @@ export function BernardBio() {
           club which would have me as a member'
         </li>
       </section>
-      <p />
       </div>
     </div>
   );

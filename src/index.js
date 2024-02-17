@@ -10,6 +10,8 @@ import May2024 from 'May2024';
 import { BernardBio } from 'indexbiobernard';
 import { ElenaBio } from 'indexbioelena';
 import { JillBio } from 'indexbiojill';
+import { HarryBio } from 'indexbioharry';
+import { LennieBio } from 'indexbiolennie';
 
 // FIXME: this could be made a lot cleaner. Use a loop. Or something. :)
 // to explain what this does...
@@ -41,16 +43,24 @@ const router = createBrowserRouter([
     element: <BernardBio/>,
     errorElement: <ErrorPage/>
   },
-
   {
     path: '/elena-bio',
     element: <ElenaBio/>,
     errorElement: <ErrorPage/>
   },
-
   {
     path: '/jill-bio',
     element: <JillBio/>,
+    errorElement: <ErrorPage/>
+  } ,
+  {
+    path: '/lennie-bio',
+    element: <LennieBio/>,
+    errorElement: <ErrorPage/>
+  }, 
+  {
+    path: '/harry-bio',
+    element: <HarryBio/>,
     errorElement: <ErrorPage/>
   } 
 ])

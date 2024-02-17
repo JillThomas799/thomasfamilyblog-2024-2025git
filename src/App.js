@@ -17,6 +17,7 @@ import { BernardBio } from './indexbiobernard';
 import { JillBio } from './indexbiojill';
 import { ElenaBio } from './indexbioelena';
 import { LennieBio } from './indexbiolennie';
+import { HarryBio } from './indexbioharry';
 
 
 const RoutePlans = () => { 
@@ -27,6 +28,7 @@ const RoutePlans = () => {
                 <Route path="/indexbiojill" element={<JillBio />} />
                 <Route path="/indexbioelena" element={<ElenaBio />} />
                 <Route path="/indexbiolennie" element={<LennieBio />} />
+                <Route path="/indexbioharry" element={<HarryBio />} />
             </Routes>
         </Router>
 );
@@ -89,7 +91,13 @@ const LenniePortalEntry = () =>  {
 const HarryPortalEntry  = () =>  {
   return ( 
   <div>
-    <fig><img id="Harry_profile_photo" src={HarryBioImage} alt="" /><figcaption>Harry</figcaption></fig>
+     
+    <fig>
+      <Link to="/harry-bio">
+    <img id="Harry_profile_photo" src={HarryBioImage} alt="" />
+    <figcaption>Harry</figcaption>
+    </Link>
+    </fig>
   </div>
   );
 }

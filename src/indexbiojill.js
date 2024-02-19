@@ -1,11 +1,15 @@
 import React from 'react';
 import './Bio_jill.css';
 import JillBioImage from 'images/JillBioImage.jpg';
+import { Link } from "react-router-dom";
 
 export function JillBio() {
   return (
 <div>
 <div className="midnightblue">  
+<button id="backbutton">
+          <Link to="/" className="backbuttonLink">Back</Link>
+        </button>
 <section className="Profession">
         <h2>Profession</h2>
         <h3>Retired General Practitioner</h3>
@@ -34,7 +38,6 @@ export function JillBio() {
             <h2>Dislikes</h2>
             <li>Unkindness</li>
             <li>Intolerance of the underdog</li>
-            <li>Influencers</li>
             <li>Arrogance</li>
          </section>
     </div>

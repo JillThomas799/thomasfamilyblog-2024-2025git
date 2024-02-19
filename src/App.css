@@ -12,70 +12,6 @@ body{
   font-weight: bold;
 }
 
-#menu li{
-padding:10px;
-font-weight: bold;
-font-size: larger;
-}
-
-#menu ul li{
-  list-style-type: none;
-} */
-
-a{
-  color:navy;
-  text-decoration: none;
-  /* text-decoration: underline; */
-  -moz-text-decoration: none; 
-}
-
-a link{
-  color:white;
-  text-decoration: underline;
-  -moz-text-decoration: none;
-}
-
-a:hover{
-  color:whitesmoke;
-  text-decoration: underline;
-  -moz-text-decoration: none; 
-}
-
-a:active {
-  background-color: paleturquoise;
-}
-
-p{
-  display:block;
-  background-color:#92A8D1;
-  color:black;
-  text-align:center;
-  font: size 50pt;
-  font-weight: bold;
-  border:solid 3px;
-  border-color:#92A8D1;
-  border-radius:20%;
-  padding:5%;
-  margin:10%;
-  -webkit-border-radius:20%;
-  -moz-border-radius:20%;
-  -ms-border-radius:20%;
-  -o-border-radius:20%;
-} 
-
-#myDiv ul{
-  list-style-type:none;
-}
-
-#myDiv li{
-  float:left;
-  padding-top:5px;
-  padding-bottom:10px;
-  padding-left: 10px;
-  padding-right:10px;
-  font-weight: bold;
-}
-
  #button{
   display:block;
   position:absolute;
@@ -95,25 +31,29 @@ p{
   -o-border-radius:15%;
 } 
 
-#menuUnderline{
-  text-decoration: underline;
-  color:whitesmoke;
-}
-
 #the_Thomas_Family_Blog{
-  color:white; 
+  color:white;
   text-align: center;
-  margin:15% 10% 10% 10%;
+  margin-top:15%;
+  margin-bottom:5%;
   font-family:sans-serif helvetica;
+  padding:5%;
+  border-radius: 0%;
+  -webkit-border-radius: 0%;
+  -moz-border-radius: 0%;
+  -ms-border-radius: 0%;
+  -o-border-radius: 0%;
+  width:100%;
 }
 
 .gridContainer{
   display:grid;
-  grid-template-columns: 35vw 35vw 35vw; /*specifies the number of columns in the grid*/
+  grid-template-columns: 35vw 35vw 35vw; /*specifies the number of columns in the grid. The fr unit allows you to set the size of a track
+  as a fraction of the free space of the grid container. For example, this will set each item to one third the width of the grid container:*/
   grid-template-rows: 20vh 20vh 20vh ; /*specifies the number of rows in the grid*/
   column-gap: 0vw; /*specifies the size of the gaps between the columns*/
   row-gap: 2vh; /*specifies the size of the gaps between the rows*/
-  margin:none;
+  padding-bottom:25%;
 }
 
 #Bernard_profile_photo{
@@ -125,7 +65,6 @@ p{
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
-  /* margin:7%; */
 }
 
 #Jill_profile_photo{
@@ -148,7 +87,6 @@ p{
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
-  /* margin:7%; */
 }
 
 #Harry_profile_photo{
@@ -180,6 +118,11 @@ p{
     color:white;
     font-size:32px;
     justify-content: center;
+    margin-bottom:10%;
   }
   
+  .profileLink{
+    color:white;
+}
+
   

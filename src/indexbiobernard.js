@@ -1,15 +1,20 @@
 import React from 'react';
 import './Bio_bernard.css';
 import BernardBioImage from 'images/BernardBioImage.jpg';
+import { Link } from "react-router-dom";
 
 export function BernardBio() {
   return (
     <div>
       <div className="midnightblue">
       <section className="Profession">
+      <button id="backbutton">
+          <Link to="/" className="backbuttonLink">Back</Link>
+        </button>
         <h2>Profession</h2>
         <h3>Retired General Practitioner</h3>
       </section>
+      
 
       <div className="profile">
         <section className="Likes">
@@ -18,7 +23,6 @@ export function BernardBio() {
           <li>Cats</li>
           <li>Being retired</li>
           <li>Cooking</li>
-          <li>Crisps and toffees</li>
         </section>
         <section className="photo">
           <figure>

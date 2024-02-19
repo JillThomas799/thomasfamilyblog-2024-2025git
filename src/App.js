@@ -37,25 +37,34 @@ const RoutePlans = () => {
 const BernardPortalEntry = () =>  {
   return (    
   <div>
+    
     <fig>
-      <Link to="/bernard-bio">
-        <img id="Bernard_profile_photo" src={BernardBioImage} alt="" />
+      <Link to="/bernard-bio" className="profileLink">
+        <img id="Bernard_profile_photo" src={BernardBioImage} alt="" title="Click here to go to Bernard's profile"/>
+        </Link>
+        <Link to="/bernard-bio" className="profileLink">
         <figcaption>Bernard</figcaption>
-      </Link>
-    </fig>
+        </Link>
+        </fig> 
+
   </div>
   );
 }
 
+
 const JillPortalEntry = () => {
   return ( 
   <div>
+    
     <fig>
-    <Link to="/jill-bio">
-        <img id="Jill_profile_photo" src={JillBioImage} alt="" />
+    <Link to="/jill-bio" className="profileLink">
+        <img id="Jill_profile_photo" src={JillBioImage} alt="" title="Click here to go to Jill's profile"/>
+    </Link>
+    <Link to="/jill-bio" className="profileLink">
         <figcaption>Jill</figcaption>
     </Link>
     </fig>
+
   </div>
   );
 }
@@ -63,9 +72,12 @@ const JillPortalEntry = () => {
 const ElenaPortalEntry  = () =>  {
   return ( 
   <div>
+    
     <fig>
-      <Link to="/elena-bio">
-        <img id="Elena_profile_photo" src={ElenaBioImage} alt="" />
+      <Link to="/elena-bio" className="profileLink">
+        <img id="Elena_profile_photo" src={ElenaBioImage} alt="" title="Click here to go to Elena's profile" />
+      </Link>
+      <Link to="/elena-bio" className="profileLink">
         <figcaption>Elena</figcaption>
       </Link>
       </fig>
@@ -76,25 +88,28 @@ const ElenaPortalEntry  = () =>  {
 const LenniePortalEntry = () =>  {
   return ( 
   <div>
+    
     <fig>
-      <Link to="/lennie-bio">
-      <img id="Lennie_profile_photo" src={LennieBioImage} alt="" />
-      <figcaption>Lennie</figcaption>
+      <Link to="/lennie-bio" className="profileLink">
+        <img id="Lennie_profile_photo" src={LennieBioImage} alt="" title="Click here to go to Lennie's profile"/>
       </Link>
-    </fig>
+      <Link to="/lennie-bio" className="profileLink">
+          <figcaption>Lennie</figcaption>
+      </Link>
+      </fig>
   </div>
 );
 }
-
-
 
 const HarryPortalEntry  = () =>  {
   return ( 
   <div>
      
     <fig>
-      <Link to="/harry-bio">
-    <img id="Harry_profile_photo" src={HarryBioImage} alt="" />
+      <Link to="/harry-bio" className="profileLink">
+    <img id="Harry_profile_photo" src={HarryBioImage} alt="" title="Click here to go to Harry's profile" />
+    </Link>
+    <Link to="/harry-bio" className="profileLink">
     <figcaption>Harry</figcaption>
     </Link>
     </fig>
@@ -125,8 +140,8 @@ export default function App() {
           <ElenaPortalEntry />
           <div></div>
           <HarryPortalEntry />
-        <div></div></div>
-        {/* <BernardBio /> */}
+        <div></div>
+        </div>
       </div>
     </body>
   );

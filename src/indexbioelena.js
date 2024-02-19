@@ -1,11 +1,15 @@
 import React from 'react';
 import './Bio_Elena.css';
 import ElenaBioImage from 'images/ElenaBioImage.jpg';
+import { Link } from "react-router-dom";
 
 export function ElenaBio() {
   return (
 <div>
-    <div className="midnightblue">
+    <div className="AquamarineBlue">
+    <button id="backbutton">
+          <Link to="/" className="backbuttonLink">Back</Link>
+        </button>
       <section className="Profession">
         <h2>Profession</h2>
         <h3>Software Devops Engineer at the Economist</h3>
@@ -35,11 +39,9 @@ export function ElenaBio() {
           <li>Excess drama </li>
           <li>Warm weather</li>
         </section>
-      </div>
       <section className="Surprisingfacts">
         <h2>Surprising Facts</h2>
         <li>Elena was once on the TV</li>
-        <li />
       </section>
       <section className="FavouriteBooks">
         <h2>Favourite books</h2>
@@ -51,6 +53,7 @@ export function ElenaBio() {
         <li>Indie pop</li>
         <li>Orchestral</li>
       </section>
+      </div>
     </div>
   </div>
   );

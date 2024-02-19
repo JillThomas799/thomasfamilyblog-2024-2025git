@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './dropdown.css';
 
 export default function Dropdown(props) {
   return (
@@ -13,8 +14,9 @@ export default function Dropdown(props) {
               * april2024 route.
               * Add more routes here as needed. To make it cleaner, use a loop :)
             */}
-            <Link to="/april2024">April 2024</Link>
-            <Link to="/may2024">May 2024</Link>
+            
+            <Link to="/april2024" className="monthLink">April 2024 Blog</Link>
+            <Link to="/may2024" className="monthLink">May 2024 Blog</Link>
           </ul> 
         </div>
       ) : null}

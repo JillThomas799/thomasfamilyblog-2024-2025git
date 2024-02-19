@@ -1,14 +1,18 @@
 import React from 'react';
 import './Bio_Lennie.css';
 import LennieBioImage from 'images/LennieBioImage.jpg';
+import { Link } from "react-router-dom";
 
 export function LennieBio() {
   return (
 <div>
-<div className="midnightblue">  
+<div className="midnightblue"> 
+<button id="backbutton">
+          <Link to="/" className="backbuttonLink">Back</Link>
+        </button> 
 <section className="Profession">
           <h2>Profession</h2>
-          <h3>Top Cat</h3>
+          <h3>Top Cat</h3 >
         </section>
 
     <div className="profile"  >     

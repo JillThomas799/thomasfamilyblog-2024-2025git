@@ -1,11 +1,15 @@
 import React from 'react';
 import './Bio_Harry.css';
 import HarryBioImage from 'images/HarryBioImage.jpg';
+import { Link } from "react-router-dom";
 
 export function HarryBio() {
     return (
       <div>
         <div className="midnightblue">
+        <button id="backbutton">
+          <Link to="/" className="backbuttonLink">Back</Link>
+        </button>
         <section className="Profession">
           <h2>Profession</h2>
           <h3>Final year PhD student in computational chemistry, Cardiff University</h3>
@@ -16,7 +20,6 @@ export function HarryBio() {
             <h2>Likes</h2>
             <li>Cats</li>
             <li>Seagulls</li>
-            <li>Cardiff and environs (see above)</li>
             <li>Bratwurst and chocolate-based desserts</li>
             <li>Computer games</li>
             <li></li>

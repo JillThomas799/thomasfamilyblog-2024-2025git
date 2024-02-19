@@ -1,0 +1,18 @@
+#button{
+    display:block;
+    position:absolute;
+    height:50px;
+    width:20%;
+    background-color:gray;
+    border:black 2px solid;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color:white;
+    margin:5% 20% 5% 60%;
+    border-radius:15%;
+    -webkit-border-radius:15%;
+    -moz-border-radius:15%;
+    -ms-border-radius:15%;
+    -o-border-radius:15%;
+  } 

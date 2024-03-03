@@ -1,5 +1,4 @@
-import React from 'react';
-// import { ReactDOM } from 'react';
+import React from 'react'; // imports React from 'react';
 import { useState } from 'react'; //Adding 'state' to a component allows the component to 'remember' some specific information and display it. eg. count the number of times a button is clicked.
 import './App.css';//if importing from another file in the same folder use ./file name. ./ tells the import to look for the .js file in the same folder as the current file
 import JillBioImage from 'images/JillBioImage.jpg';//if importing from another src folder, just use this configuration
@@ -10,7 +9,7 @@ import HarryBioImage from 'images/HarryBioImage.jpg';
 import Button from 'components/buttons'; //imported as default function from components/buttons
 import Dropdown from 'components/dropdown'; //imported as default function from components/dropdown
 
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom" ;
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom" ;
 import { Link } from "react-router-dom";
 
 import { BernardBio } from './indexbiobernard';
@@ -20,19 +19,19 @@ import { LennieBio } from './indexbiolennie';
 import { HarryBio } from './indexbioharry';
 
 
-const RoutePlans = () => { 
-  return ( <Router>
-            <Routes>
-                <Route exact path="/" element={<App />} />
-                <Route path="/indexbiobernard" element={<BernardBio />} />
-                <Route path="/indexbiojill" element={<JillBio />} />
-                <Route path="/indexbioelena" element={<ElenaBio />} />
-                <Route path="/indexbiolennie" element={<LennieBio />} />
-                <Route path="/indexbioharry" element={<HarryBio />} />
-            </Routes>
-        </Router>
-);
-}
+// const RoutePlans = () => { 
+//   return ( <Router>
+//             <Routes>
+//                 <Route exact path="/" element={<App />} />
+//                 <Route path="/indexbiobernard" element={<BernardBio />} />
+//                 <Route path="/indexbiojill" element={<JillBio />} />
+//                 <Route path="/indexbioelena" element={<ElenaBio />} />
+//                 <Route path="/indexbiolennie" element={<LennieBio />} />
+//                 <Route path="/indexbioharry" element={<HarryBio />} />
+//             </Routes>
+//         </Router>
+// );
+// }
 
 const BernardPortalEntry = () =>  {
   return (    

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/thomasfamilyblog-2024-2025git/static/css/main.7a6152c8.css",
-    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.d6952a6d.js",
-    "static/js/845.28fe41d9.chunk.js": "/thomasfamilyblog-2024-2025git/static/js/845.28fe41d9.chunk.js",
-    "static/media/BernardBioImage.jpg": "/thomasfamilyblog-2024-2025git/static/media/BernardBioImage.6770bb08faca10f489c5.jpg",
-    "static/media/ElenaBioImage.jpg": "/thomasfamilyblog-2024-2025git/static/media/ElenaBioImage.68a049cb835713e04f8a.jpg",
-    "static/media/LennieBioImage.jpg": "/thomasfamilyblog-2024-2025git/static/media/LennieBioImage.8d6a22161ed8812b4aa8.jpg",
-    "static/media/HarryBioImage.jpg": "/thomasfamilyblog-2024-2025git/static/media/HarryBioImage.90356534dcb8d0176f78.jpg",
-    "static/media/JillBioImage.jpg": "/thomasfamilyblog-2024-2025git/static/media/JillBioImage.2a61c9330c757782db1c.jpg",
-    "index.html": "/thomasfamilyblog-2024-2025git/index.html",
-    "main.7a6152c8.css.map": "/thomasfamilyblog-2024-2025git/static/css/main.7a6152c8.css.map",
-    "main.d6952a6d.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.d6952a6d.js.map",
-    "845.28fe41d9.chunk.js.map": "/thomasfamilyblog-2024-2025git/static/js/845.28fe41d9.chunk.js.map"
+    "main.css": "/static/css/main.6cd96333.css",
+    "main.js": "/static/js/main.3e87f3b5.js",
+    "static/js/453.bcd4ada2.chunk.js": "/static/js/453.bcd4ada2.chunk.js",
+    "static/media/BernardBioImage.jpg": "/static/media/BernardBioImage.6770bb08faca10f489c5.jpg",
+    "static/media/ElenaBioImage.jpg": "/static/media/ElenaBioImage.68a049cb835713e04f8a.jpg",
+    "static/media/LennieBioImage.jpg": "/static/media/LennieBioImage.8d6a22161ed8812b4aa8.jpg",
+    "static/media/HarryBioImage.jpg": "/static/media/HarryBioImage.90356534dcb8d0176f78.jpg",
+    "static/media/JillBioImage.jpg": "/static/media/JillBioImage.2a61c9330c757782db1c.jpg",
+    "index.html": "/index.html",
+    "main.6cd96333.css.map": "/static/css/main.6cd96333.css.map",
+    "main.3e87f3b5.js.map": "/static/js/main.3e87f3b5.js.map",
+    "453.bcd4ada2.chunk.js.map": "/static/js/453.bcd4ada2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a6152c8.css",
-    "static/js/main.d6952a6d.js"
+    "static/css/main.6cd96333.css",
+    "static/js/main.3e87f3b5.js"
   ]
 }

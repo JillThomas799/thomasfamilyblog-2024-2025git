@@ -21,49 +21,52 @@ import { LennieBio } from 'indexbiolennie';
 // you must pass the component you want to render on the page as the element.
 // this should be exported from each of your pages using `export function MyPage`
 // (the name will be different, but you still want to export the function)
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App/>,
-    errorElement: <ErrorPage/>
-  },
-  {
-    path: '/april2024',
-    element: <April2024/>,
-    errorElement: <ErrorPage/>
-  },
-  {
-    path: '/may2024',
-    element: <May2024/>,
-    errorElement: <ErrorPage/>
-  },
-  // bios
-  {
-    path: '/bernard-bio',
-    element: <BernardBio/>,
-    errorElement: <ErrorPage/>
-  },
-  {
-    path: '/elena-bio',
-    element: <ElenaBio/>,
-    errorElement: <ErrorPage/>
-  },
-  {
-    path: '/jill-bio',
-    element: <JillBio/>,
-    errorElement: <ErrorPage/>
-  } ,
-  {
-    path: '/lennie-bio',
-    element: <LennieBio/>,
-    errorElement: <ErrorPage/>
-  }, 
-  {
-    path: '/harry-bio',
-    element: <HarryBio/>,
-    errorElement: <ErrorPage/>
-  } 
-])
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <App/>,
+      errorElement: <ErrorPage/>
+    },
+    {
+      path: '/april2024',
+      element: <April2024/>,
+      errorElement: <ErrorPage/>
+    },
+    {
+      path: '/may2024',
+      element: <May2024/>,
+      errorElement: <ErrorPage/>
+    },
+    // bios
+    {
+      path: '/bernard-bio',
+      element: <BernardBio/>,
+      errorElement: <ErrorPage/>
+    },
+    {
+      path: '/elena-bio',
+      element: <ElenaBio/>,
+      errorElement: <ErrorPage/>
+    },
+    {
+      path: '/jill-bio',
+      element: <JillBio/>,
+      errorElement: <ErrorPage/>
+    } ,
+    {
+      path: '/lennie-bio',
+      element: <LennieBio/>,
+      errorElement: <ErrorPage/>
+    },
+    {
+      path: '/harry-bio',
+      element: <HarryBio/>,
+      errorElement: <ErrorPage/>
+    }
+  ],
+  {basename: process.env.PUBLIC_URL}
+)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // this is all that is needed to route pages. The router is defined above on line 19.

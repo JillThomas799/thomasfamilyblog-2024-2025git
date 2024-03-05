@@ -9,29 +9,7 @@ import HarryBioImage from 'images/HarryBioImage.jpg';
 import Button from 'components/buttons'; //imported as default function from components/buttons
 import Dropdown from 'components/dropdown'; //imported as default function from components/dropdown
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom" ;
 import { Link } from "react-router-dom";
-
-import { BernardBio } from './indexbiobernard';
-import { JillBio } from './indexbiojill';
-import { ElenaBio } from './indexbioelena';
-import { LennieBio } from './indexbiolennie';
-import { HarryBio } from './indexbioharry';
-
-
-// const RoutePlans = () => { 
-//   return ( <Router>
-//             <Routes>
-//                 <Route exact path="/" element={<App />} />
-//                 <Route path="/indexbiobernard" element={<BernardBio />} />
-//                 <Route path="/indexbiojill" element={<JillBio />} />
-//                 <Route path="/indexbioelena" element={<ElenaBio />} />
-//                 <Route path="/indexbiolennie" element={<LennieBio />} />
-//                 <Route path="/indexbioharry" element={<HarryBio />} />
-//             </Routes>
-//         </Router>
-// );
-// }
 
 const BernardPortalEntry = () =>  {
   return (    

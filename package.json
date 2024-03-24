@@ -24,7 +24,8 @@
     "serialize-javascript": ">=3.1.0",
     "shell-quote": ">=1.7.3",
     "terser": ">=4.8.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack-dev-middleware": "^7.1.1"
   },
   "scripts": {
     "start": "react-scripts start --openssl-legacy-provider",

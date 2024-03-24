@@ -12,25 +12,6 @@ body{
   font-weight: bold;
 }
 
- #button{
-  display:block;
-  position:absolute;
-  height:50px;
-  width:20%;
-  background-color:#4d648d;
-  border:black 2px solid;
-  text-align: center;
-  font-size: large;
-  font-weight: bold;
-  color:white;
-  margin:5% 20% 5% 60%;
-  border-radius:15%;
-  -webkit-border-radius:15%;
-  -moz-border-radius:15%;
-  -ms-border-radius:15%;
-  -o-border-radius:15%;
-} 
-
 #the_Thomas_Family_Blog{
   color:white;
   text-align: center;
@@ -125,4 +106,23 @@ body{
     color:white;
 }
 
-  
+#MenuDropdown {
+  margin-bottom: 10em;
+}
+
+@media screen and (max-width:401px) {
+#the_Thomas_Family_Blog{
+  color:white;
+  text-align: center;
+  margin-top:25%;
+  margin-bottom:5%;
+  font-family:sans-serif helvetica;
+  padding:5%;
+  border-radius: 0%;
+  -webkit-border-radius: 0%;
+  -moz-border-radius: 0%;
+  -ms-border-radius: 0%;
+  -o-border-radius: 0%;
+  width:100%;
+}
+}

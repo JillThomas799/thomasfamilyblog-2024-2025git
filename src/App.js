@@ -101,9 +101,9 @@ export default function App() {
     setIsVisible(!isVisible);
   };
 
-  return (   
+  return (
     <body>
-      <div className="App">
+      < div className="App">
         <Button onClick={toggleVisibility} />
         <Dropdown isVisible={isVisible} />
         <h1 id="the_Thomas_Family_Blog">Thomas Family Blog</h1>

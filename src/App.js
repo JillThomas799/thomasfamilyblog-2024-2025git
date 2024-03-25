@@ -8,6 +8,7 @@ import ElenaBioImage from 'images/ElenaBioImage.jpg';
 import HarryBioImage from 'images/HarryBioImage.jpg';
 import Button from 'components/buttons'; //imported as default function from components/buttons
 import Dropdown from 'components/dropdown'; //imported as default function from components/dropdown
+import Footer from 'components/footer'; //imported as default function from components/footer
 
 import { Link } from "react-router-dom";
 
@@ -119,6 +120,7 @@ export default function App() {
           <HarryPortalEntry />
         <div></div>
         </div>
+        <Footer />
       </div>
     </body>
   );

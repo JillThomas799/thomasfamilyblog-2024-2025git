@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './April2024.css';
+import ChocolateEasterEggs from "./images/ChocolateEasterEggs.jpg";
 
 export default function April2024() {
   return (
-    <div >
+    <div>
       <div className="April2024header"> 
       <button id="backbuttonApril">
           <Link to="/" className="backbuttonLink">Back</Link>
@@ -228,7 +229,36 @@ export default function April2024() {
           <use xlinkHref="#swaledaleSheep2" x={1500} y={350} style={{transform:"scale(70%)"}} />
           </svg>
           
-          </svg>{/*Closing tag for mountains class*/}   
+          </svg>{/*Closing tag for mountains class*/}  
+          
+          <div className="datenewsDiv">
+            <section className="date">1st-30th April 2024</section>
+            <br />
+            <section className="news">Welcome to our April 2024 blog launched from our new site! We hope you like the site's new look and improved functionality. 
+            <br />
+            <br />
+            This month's theme is the local North Cumbrian Swaledale sheep in the area where we live and their very cute lambs which have been entertaining us, gambling around in the fields recently. For those people 
+            who may be interested, the April header design this month has been created from first-principals using Scalable Vector Graphics (SVG). Firstly, pictures were taken of the local <br /> Swaledales and their lambs, then the mountains,
+            sheep and lambs were carefully plotted and their colours and features matched as closely as possible. The new site uses React, a javascript library and so is principally written
+            using javascript with cascading style sheets(CSS) as styling.
+            <br />
+            <br />
+            Swaledale sheep are a breed of sheep named after the Yorkshire valley of Swaledale in England. In this area of Northern Cumbria, 
+            which is the located in the Pennine fells of Cumbria, they are the principal sheep breed which is reared. They are especially suited to this area
+            as they are very hardy, able-bodied, thick-coated and bold. More information about Swaledales can be found <Link Link to = "https://en.wikipedia.org/wiki/Swaledale_sheep" target="_blank" title="Please click here to discover more about Swaledale sheep"><strong>here</strong></Link>
+            </section>    
+          </div> 
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={ChocolateEasterEggs} alt="" /><figcaption><strong>Chocolate Easter Eggs</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ChocolateEasterEggs} alt="" /><figcaption><strong>Chocolate Easter Eggs</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ChocolateEasterEggs} alt="" /><figcaption><strong>Chocolate Easter Eggs</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ChocolateEasterEggs} alt="" /><figcaption><strong>Chocolate Easter Eggs</strong></figcaption></section>
+            </fig>
+          </div>
 
     </div> {/* Closing tag April2024header */} 
 
@@ -237,5 +267,8 @@ export default function April2024() {
 
   
 }
+    
+   
+    
 
 

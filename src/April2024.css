@@ -174,5 +174,28 @@
     overflow: visible;
 }
 
+.blogPhotoDiv{
+  display:flex;
+  flex-direction: column;
+  background-color: #b3e5ab;
+  padding-bottom: 15%;
+  padding-top: 5%;
+  margin-top:2%;
+}
+
+.April2024header {
+  display:block;
+  text-align: center;
+  font-size: 1.75em;
+  color:white;
+  font-weight: bold;
+  border:solid 3px;
+  width: 100vw;
+  height: 50vh;
+  background: #e1eae7;
+  position:absolute; 
+
 } 
+
+}
 

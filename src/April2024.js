@@ -154,7 +154,7 @@ export default function April2024() {
             <g id="swaledaleSheep2rearlegleft"><rect x="509" y="493" rx="6" ry="6" width="7" height="29" fill=" url(#GradLambLeg)" ></rect></g>
             <g id="swaledaleSheep2body" ><rect x="450" y="460" rx="30" ry="13" width="70" height="40" fill="url(#Gradsheepfur)" ></rect></g>
             <g id="idmarkerswaledaleSheep2"><rect x="485" y="460" rx="2" ry="30" width="7" height="10" fill="#880808" opacity="0.5" filter="url(#blur2)" ></rect></g>
-            
+
             <g id="relocatesheephornsswaledaleSheep2" style={{transform:"translate(-152px, 37px)"}}>
             <g id="swaledaleSheep2upperhornleft"><path fill="#c4915e" stroke="#c4915e" strokeWidth="3" d="M 604 418 A 30,30 20 0,0 590 422" /></g>
             <g id="swaledaleSheep2lowerhornleft"><path fill="#c4915e" stroke="#c4915e" strokeWidth="2" d="M 590 422 A 30,40 0 0, 0 598 434" /></g>
@@ -174,7 +174,10 @@ export default function April2024() {
             <g id="swaledaleSheep2eyeleftinner"><ellipse cx="616" cy="426" rx="3" ry="1.5" fill="#36454F" opacity="0.9" style={{transform:"rotate(-20deg,616,425)"}}></ellipse></g> 
             <g id="swaledaleSheep2mouth"><path d="M 606 438 Q 610 443 617 438" fill="#36454F" /></g>
             <g id="swaledaleSheep2noseleft"><path d="M 605 435 Q 607 436 610 439" fill="#36454F" /></g>  
-            </g>   
+            </g>  
+
+            <g id="swaledaleSheep2tail"  transform="rotate(-5,514, 473)"><rect x="514" y="473" rx="3" ry="3" width="8" height="30" fill=" url(#Gradsheepfur)" opacity="0.9"></rect></g>
+
           </svg>
 
           <svg id="lamb1" width="100vw" height="83vh" filter="url(#blur4)">
@@ -185,7 +188,7 @@ export default function April2024() {
 
             <g id="lambbody1"><rect x="392" y="500" rx="10" ry="10" width="49" height="20" fill=" url(#GradLambBody)" opacity="1.0" /><text fill=" 	#880808" font-size="12" font-family="Serif" fontStyle="italic" x="409" y="512">55</text></g>
            
-            <g id="lambtail1"><rect x="433" y="506" rx="3" ry="3" width="6" height="25" fill=" url(#GradLambTail)" opacity="0.9"></rect></g>
+            <g id="lambtail1" transform="rotate(-30,530, 485)"><rect x="530" y="485" rx="3" ry="3" width="6" height="25" fill=" url(#GradLambTail)" opacity="0.9"></rect></g>
             
             <g id="lambhead1top"><path d ="M 387 497 A 2 2 30 1 1 408 499" fill="#f6f6da" stroke="#efefe3" strokeWidth="0.2"></path></g>
             <g id="lambhead1bottom"><path d= "M 387 494 A 10 15 0 1 0 408 497" fill="#f6f6da" stroke="#efefe3" strokeWidth="0.2"> </path></g>

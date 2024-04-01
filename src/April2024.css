@@ -53,24 +53,27 @@
   }
   
   .date{
-    color:black;
+    color:#36454F;
     border:solid 3px #757c88;
     background-color:#b3e5ab;
     text-align: center;
     padding:10px 10px 10px 10px;
     margin:5px;
-    font-size:large;
+    font-size:0.8em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   .news{
-    color:black;
+    color:#36454F;
     border:solid 3px #757c88;
     background-color:#b3e5ab;
     text-align: center;
     padding:10px 10px 10px 10px;
     margin:5px;
     font-size:medium;
-    font-weight:bold;
+    /* font-weight:bold; */
+    font-size:0.6em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .blogPhotoDiv{
@@ -105,8 +108,9 @@
       fig figcaptionApril {
         text-align: center;
         font-family: bold;
-        color:black;
-        font-size:80%;
+        color:#36454F;
+        font-size:70%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
   
 

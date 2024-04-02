@@ -2,6 +2,17 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './April2024.css';
 import ChocolateEasterEggs from "./images/ChocolateEasterEggs.jpg";
+import CentralVillageSceneApril24 from "./images/CentralVillageSceneApril24.jpg";
+import FarmDaffodilsApril24 from "./images/FarmDaffodilsApril24.jpg";
+import DaffodilsVillageExitApril24 from "./images/DaffodilsVillageExitApril24.jpg";
+import HarryTarnApril24 from "./images/HarryTarnApril24.jpg";
+import DaffodilsVillageCatApril24 from "./images/DaffodilsVillageCatApril24.jpg";
+import CatDaffodilsApril24 from "./images/CatDaffodilsApril24.jpg";
+import EasterBunniesandEggsBowness from "./images/EasterBunniesandEggsBowness.jpg";
+import HarryVillageCentreApril24 from "./images/HarryVillageCentreApril24.jpg";
+import ApproachingBroughamHall from "./images/ApproachingBroughamHall.jpg";
+import BroughamHall from "./images/BroughamHall.jpg";
+import BroughamHallDoorKocker from "./images/BroughamHallDoorKnocker.jpg";
 
 export default function April2024() {
   return (
@@ -238,28 +249,55 @@ export default function April2024() {
             <section className="date">1st-30th April 2024</section>
             <br />
             <section className="news">Welcome to our April 2024 blog launched from our new site! We hope you like the site's new look and improved functionality. 
+            Please note and bookmark the new web address which is displayed in your browser above.
             <br />
             <br />
-            This month's theme is the local North Cumbrian Swaledale sheep in the area where we live and their very cute lambs which have been entertaining us, gambling around in the fields recently. For those people 
-            who may be interested, the April header design this month has been created from first-principals using Scalable Vector Graphics (SVG). Firstly, pictures were taken of the local Swaledales and their lambs, then the mountains,
-            sheep and lambs were carefully plotted and their colours and features matched as closely as possible. The new site uses React, a javascript library and so is principally written
-            using javascript with cascading style sheets(CSS) as styling.
-            <br />
-            <br />
+            This month's theme is the local North Cumbrian Swaledale sheep in the area where we live and their very cute lambs who have been entertaining us, gambling around in the fields recently. 
             Swaledale sheep are a breed of sheep named after the Yorkshire valley of Swaledale in England. In this area of Northern Cumbria, 
-            which is the located in the Pennine fells of Cumbria, they are the principal sheep breed which is reared. They are especially suited to this area
+            which is located in the Pennine fells of Cumbria, they are the main breed of sheep to be reared. They are especially suited to this area
             as they are very hardy, able-bodied, thick-coated and bold. More information about Swaledales can be found <Link Link to = "https://en.wikipedia.org/wiki/Swaledale_sheep" target="_blank" title="Please click here to discover more about Swaledale sheep"><strong>here</strong></Link>.
+            <br />
+            <br />
+            For those people who may be interested, the April header design this month has been created from first-principals using Scalable Vector Graphics (SVG). Firstly, pictures were taken of the local Swaledale sheep and their lambs, then the mountains,
+            sheep and lambs were carefully plotted and their colours and features matched as closely as possible. The new site uses React, a javascript library which allows a webpage to be described using small, reusable components. 
+            <br />
+            <br />
+            Meanwhile, the Easter weekend has brought us some pleasanter weather. The daffodils are in bloom in the village and people are out and about, smiling, cheerful and chatty, catching up on local news after the windy and wet early Spring.
+            The daffodils are always lovely and the grass the fresh green of early Spring. 
             </section>    
           </div> 
 
           <div className="blogPhotoDiv">
-          <fig><section className = "blogPhoto" ><img src={ChocolateEasterEggs} alt="" /><figcaptionApril><strong>Chocolate Easter Eggs</strong></figcaptionApril></section>
+          <fig><section className = "blogPhoto" ><img src={ChocolateEasterEggs} alt="" /><figcaptionApril><strong>Easter Eggs at <Link to = "https://www.castle-chocolates.co.uk/" target = "_blank" title = "Click here to discover more about Castle Chocolates, Carlisle">Castle Chocolates</Link>, <br />Carlisle for Easter</strong></figcaptionApril></section>
             </fig>
-            <fig><section className = "blogPhoto" ><img src={ChocolateEasterEggs} alt="" /><figcaptionApril><strong>Chocolate Easter Eggs</strong></figcaptionApril></section>
+            <fig><section className = "blogPhoto" ><img src={CentralVillageSceneApril24} alt="" /><figcaptionApril><strong>Good Friday...a lovely warm, sunny day in the <br />village centre with daffodils everywhere..</strong></figcaptionApril></section>
             </fig>
-            <fig><section className = "blogPhoto" ><img src={ChocolateEasterEggs} alt="" /><figcaptionApril><strong>Chocolate Easter Eggs</strong></figcaptionApril></section>
+            <fig><section className = "blogPhoto" ><img src={FarmDaffodilsApril24} alt="" /><figcaptionApril><strong>...at the central village farm</strong></figcaptionApril></section>
             </fig>
-            <fig><section className = "blogPhoto" ><img src={ChocolateEasterEggs} alt="" /><figcaptionApril><strong>Chocolate Easter Eggs</strong></figcaptionApril></section>
+            <fig><section className = "blogPhoto" ><img src={DaffodilsVillageExitApril24} alt="" /><figcaptionApril><strong>...on exiting the village</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          <div className="blogPhotoDiv">
+            <fig><section className = "blogPhoto" ><img src={DaffodilsVillageCatApril24} alt="" /><figcaptionApril><strong>...and on entering the village</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CatDaffodilsApril24} alt="" /><figcaptionApril><strong>..where there is also one of the village cats, nicknamed 'bread cat' because it likes eating bread <br /> 
+            (Ps. Lennie hates it - both the cat and bread!)</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={HarryTarnApril24} alt="" /><figcaptionApril><strong>Harry enjoying the fine weather at the tarn</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={HarryVillageCentreApril24} alt="" /><figcaptionApril><strong>..and the walk back into the center village</strong></figcaptionApril></section>
+            </fig>  
+          </div>
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={EasterBunniesandEggsBowness} alt="" /><figcaptionApril><strong>Over Easter we have been for a number of long walks including at <Link to = "https://www.solwaycoastaonb.org.uk/2019/places-to-explore/historic-hamlets/bowness-on-solway/" target="_blank" title="Click here to discover more about Bowness-on-Solway">Bowness-on-Solway</Link><br /> on Easter Saturday where we found these <br /> Easter bunnies and eggs </strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ApproachingBroughamHall} alt="" /><figcaptionApril><strong>And on Easter Monday in the countryside <br /> around <Link to = "https://www.broughamhall.co.uk/" target="_blank" title="Please click here to discover more about Brougham Hall">Brougham Hall</Link> (seen here),<br /> and <Link to = "https://www.english-heritage.org.uk/visit/places/brough-castle/" target="_blank" title="Click here to discover more about Brough Castle">Brough Castle</Link></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={BroughamHall} alt="" /><figcaptionApril><strong><Link to = "https://www.broughamhall.co.uk/" target="_blank" title="Please click here to discover more about Brougham Hall">Brougham Hall</Link></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={BroughamHallDoorKocker} alt="" /><figcaptionApril><strong><Link to = "https://www.broughamhall.co.uk/history/the-brougham-door-knocker/" target="_blank" title="Please click here to discover more about the door knocker at Brougham Hall">12th century style door knocker Brougham Hall</Link></strong>, <br /> quite an interesting story to this</figcaptionApril></section>
             </fig>
           </div>
 

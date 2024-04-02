@@ -18,7 +18,6 @@
     color: 	#52555c;
 }
 
-    
  #backbuttonApril{
     display:block;
     position:absolute;
@@ -70,8 +69,6 @@
     text-align: center;
     padding:10px 10px 10px 10px;
     margin:5px;
-    font-size:medium;
-    /* font-weight:bold; */
     font-size:0.6em;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
@@ -80,7 +77,7 @@
     display:flex;
     flex-direction: row;
     background-color: #b3e5ab;
-    padding-bottom: 15%;
+    padding-bottom: 20%;
     padding-top: 5%;
     margin-top:2%;
   }
@@ -109,13 +106,36 @@
         text-align: center;
         font-family: bold;
         color:#36454F;
-        font-size:70%;
+        font-size:60%;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        overflow-wrap:normal;
+        padding:5%;
       }
-  
+ 
+      /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+@media screen and (min-width:402px) and (max-width:900px){
+  .blogPhotoDiv{
+    display:flex;
+    flex-direction: column;
+    background-color: #b3e5ab;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    margin-top:2%;
+  }
 
+    /*To ensure on ipad screens and larger mobiles that the ground extends to meet the upper margin of the darker body colour */
+    #ground{
+      width:400vw;
+      x:-50px;
+      y:480px;
+      height:400px;
+   } 
+
+}
 
 @media screen and (max-width:401px) {
+
+   /*To ensure on mobile screens below 401px width (this includes one plus phones) that relevant components of the site are displayed with the best dimensions for the smaller devices*/
 
 .mountainForeground, .mountainMiddle, .mountainBackground{
     transform:scale(50%) translate(-150px,0px);
@@ -134,21 +154,28 @@
 }
 
 #ground{
-   width:400vw;
-   x:-50px;
-   y:250px;
-   height:100px;
-}
+  width:400vw;
+  x:-50px;
+  y:260px;
+  height:400px;
+} 
 
-.April2024header{
-    height:50vh;
-}
+.April2024header {
+  display:block;
+  text-align: center;
+  font-size: 1.75em;
+  color:white;
+  font-weight: bold;
+  border:solid 3px;
+  width: 100vw;
+  height: 50vh;
+  background: #e1eae7;
+  position:absolute; 
 
-
+} 
 
 #swaledaleSheep1{ transform:scale(50%) translate(-200px,0px); -webkit-transform:scale(50%) translate(-200px,0px); -moz-transform:scale(50%) translate(-200px,0px); -ms-transform:scale(50%) translate(-200px,0px); -o-transform:scale(50%) translate(-200px,0px); overflow: visible;
 }
-
 
 #swaledaleSheep2{
     transform:scale(50%) translate(-600px,0px);
@@ -178,6 +205,7 @@
     overflow: visible;
 }
 
+/*To ensure on mobile screens below 401px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
 .blogPhotoDiv{
   display:flex;
   flex-direction: column;
@@ -186,20 +214,6 @@
   padding-top: 5%;
   margin-top:2%;
 }
-
-.April2024header {
-  display:block;
-  text-align: center;
-  font-size: 1.75em;
-  color:white;
-  font-weight: bold;
-  border:solid 3px;
-  width: 100vw;
-  height: 50vh;
-  background: #e1eae7;
-  position:absolute; 
-
-} 
 
 }
 

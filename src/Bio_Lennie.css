@@ -55,10 +55,11 @@ img:hover{
   color:white
   } 
 
-.profile{
-  display:flex;
-  flex-direction:row;
-}
+  .profile{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+  }
 
 .Profession{
   background-color: steelblue;
@@ -81,14 +82,16 @@ img:hover{
   list-style-type: none;
 }
 
+
 .Surprisingfacts{
   background-color: steelblue;
   color:white;
-  display:inline-block;
-  margin:5% 20% 5% 20%;
-  padding:5%;
+  display:block;
+  margin:20px;
+  padding:20px;
   list-style-type: none;
   text-align:center;
+
 }
 
 .Likes li, .Dislikes li, .Surprisingfacts li, .FavouriteBooks li, .FavouriteMusic li{

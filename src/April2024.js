@@ -13,6 +13,14 @@ import HarryVillageCentreApril24 from "./imagesresized/HarryVillageCentreApril24
 import ApproachingBroughamHall from "./imagesresized/ApproachingBroughamHall.jpg";
 import BroughamHall from "./imagesresized/BroughamHall.jpg";
 import BroughamHallDoorKocker from "./imagesresized/BroughamHallDoorKnocker.jpg";
+import CatWill1 from "./imagesresized/CatWill1_16032024.jpg";
+import CatWill2 from "./imagesresized/CatWill2_16032024.jpg";
+import CatWill3photo from "./imagesresized/CatWill3photo.jpg";
+import CatWillCumbrianFelt from "./imagesresized/CatWillCumbrianFelt.jpg";
+import CatWillTribute from "./imagesresized/CatWillTribute.jpg";
+import CatWillPoem from "./imagesresized/CatWillPoem.jpg";
+import CatWillPetShopNotice from "./imagesresized/CatWillPetShopNotice.jpg";
+import CatWillPrint from "./imagesresized/CatWillPrint.jpg";
 
 export default function April2024() {
   return (
@@ -300,6 +308,87 @@ export default function April2024() {
             <fig><section className = "blogPhoto" ><img src={BroughamHallDoorKocker} alt="" /><figcaptionApril><strong><Link to = "https://www.broughamhall.co.uk/history/the-brougham-door-knocker/" target="_blank" title="Please click here to discover more about the door knocker at Brougham Hall">12th century style door knocker Brougham Hall</Link></strong>, <br /> quite an interesting story to this</figcaptionApril></section>
             </fig>
           </div>
+
+          <div className="datenewsDiv">
+            <section className="date">5th April 2024</section>
+            <br />
+            <section className="news">Some sad news from Carlisle....
+            <br />
+            <br />
+            In our 16th March blog entry, we went out to the Greek restaurant in Carlisle for our Mother's Day meal and we enclosed a photo of the very popular and well-known cat, whom the 
+            pet shop on Bank Street feeds and look after (see below for those people who missed the photos first time around). 
+            <br />
+            <br />
+            We have since discovered and regret having to announce that he sadly died peacefully of old-age 10 days later on the 26th March, 2024, at the grand old cat-age of 16 years. His name was Will and he had adopted Nixon's pet shop 
+            on Bank Street as his owners some years ago. He featured in a full article in the local paper which you can read by opening the link below and which 
+            tells how he used to sleep in the cat baskets and curl up on the counter near the treats :
+            <br />
+            <br />
+            <Link to ="https://www.newsandstar.co.uk/news/24213986.tributes-paid-beloved-carlisle-pet-shop-cat-will/" target="_blank" title="click on link
+            to read all about Will">News and Star Article on Will, the Bank Street cat</Link>. 
+            <br />
+            <br />
+            He was known by many of the local population and has received some lovely 
+            epitaphs, including the poem below which says:
+            <br />
+            <br />
+            <em>"
+              When tomorrow 
+              <br />
+              starts
+              <br />
+              without me
+              <br />
+              Don't think we're
+              <br />
+              far apart
+              <br />
+              For every time you
+              <br />
+              think of me
+              <br />
+              I'm right here
+              <br />
+              inside your heart" </em>
+            <br />
+            <br />
+            and the beautiful Cumbrian felt picture of Will (shown below) a local artist has created of him with the inscription:
+            <br />
+            <br />
+            <em>
+            Bank Street Cat William (Will) 2008 - 26th March 2024
+            <br />
+            By Tina Cumbrian Felts
+            </em>
+
+            <br />
+            <br />
+           
+            </section>    
+          </div> 
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={CatWill1} alt="" /><figcaptionApril><strong>Will, 10 days before he died peacefully of old age</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CatWill2} alt="" /><figcaptionApril><strong>Will fighting bravely on, shortly before he died...</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CatWill3photo} alt="" /><figcaptionApril><strong>Will, a handsome cat in his younger days</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CatWillPetShopNotice} alt="" /><figcaptionApril><strong>Pet shop announcement of Will's death</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          <div className="blogPhotoDiv">
+            <fig><section className = "blogPhoto" ><img src={CatWillPrint} alt="" /><figcaptionApril><strong>Print of Will created by local artist</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CatWillTribute} alt="" /><figcaptionApril><strong>Tribute to Cat Will</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CatWillPoem} alt="" /><figcaptionApril><strong>Poem written for Will (see above)</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CatWillCumbrianFelt} alt="" /><figcaptionApril><strong>Beautiful Cumbrian Felt picture and memoriam of Will, created by local artist</strong></figcaptionApril></section>
+            </fig>  
+          </div>
+
 
     </div> {/* Closing tag April2024header */} 
 

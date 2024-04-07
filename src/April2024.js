@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './April2024.css';
-import ChocolateEasterEggs from "./images/ChocolateEasterEggs.jpg";
-import CentralVillageSceneApril24 from "./images/CentralVillageSceneApril24.jpg";
-import FarmDaffodilsApril24 from "./images/FarmDaffodilsApril24.jpg";
-import DaffodilsVillageExitApril24 from "./images/DaffodilsVillageExitApril24.jpg";
-import HarryTarnApril24 from "./images/HarryTarnApril24.jpg";
-import DaffodilsVillageCatApril24 from "./images/DaffodilsVillageCatApril24.jpg";
-import CatDaffodilsApril24 from "./images/CatDaffodilsApril24.jpg";
-import EasterBunniesandEggsBowness from "./images/EasterBunniesandEggsBowness.jpg";
-import HarryVillageCentreApril24 from "./images/HarryVillageCentreApril24.jpg";
-import ApproachingBroughamHall from "./images/ApproachingBroughamHall.jpg";
-import BroughamHall from "./images/BroughamHall.jpg";
-import BroughamHallDoorKocker from "./images/BroughamHallDoorKnocker.jpg";
+import ChocolateEasterEggs from "./imagesresized/ChocolateEasterEggs.jpg";
+import CentralVillageSceneApril24 from "./imagesresized/CentralVillageSceneApril24.jpg";
+import FarmDaffodilsApril24 from "./imagesresized/FarmDaffodilsApril24.jpg";
+import DaffodilsVillageExitApril24 from "./imagesresized/DaffodilsVillageExitApril24.jpg";
+import HarryTarnApril24 from "./imagesresized/HarryTarnApril24.jpg";
+import DaffodilsVillageCatApril24 from "./imagesresized/DaffodilsVillageCatApril24.jpg";
+import CatDaffodilsApril24 from "./imagesresized/CatDaffodilsApril24.jpg";
+import EasterBunniesandEggsBowness from "./imagesresized/EasterBunniesandEggsBowness.jpg";
+import HarryVillageCentreApril24 from "./imagesresized/HarryVillageCentreApril24.jpg";
+import ApproachingBroughamHall from "./imagesresized/ApproachingBroughamHall.jpg";
+import BroughamHall from "./imagesresized/BroughamHall.jpg";
+import BroughamHallDoorKocker from "./imagesresized/BroughamHallDoorKnocker.jpg";
 
 export default function April2024() {
   return (

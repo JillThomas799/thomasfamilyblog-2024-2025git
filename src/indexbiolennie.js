@@ -1,6 +1,6 @@
 import React from 'react';
 import './Bio_Lennie.css';
-import LennieBioImage from 'images/LennieBioImage.jpg';
+import LennieBioImage from 'imagesresized/LennieBioImage.jpg';
 import { Link } from "react-router-dom";
 
 export function LennieBio() {

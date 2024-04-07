@@ -1,6 +1,6 @@
 import React from 'react';
 import './Bio_Elena.css';
-import ElenaBioImage from 'images/ElenaBioImage.jpg';
+import ElenaBioImage from 'imagesresized/ElenaBioImage.jpg';
 import { Link } from "react-router-dom";
 
 export function ElenaBio() {

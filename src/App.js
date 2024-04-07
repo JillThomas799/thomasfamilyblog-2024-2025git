@@ -1,11 +1,11 @@
 import React from 'react'; // imports React from 'react';
 import { useState } from 'react'; //Adding 'state' to a component allows the component to 'remember' some specific information and display it. eg. count the number of times a button is clicked.
 import './App.css';//if importing from another file in the same folder use ./file name. ./ tells the import to look for the .js file in the same folder as the current file
-import JillBioImage from 'images/JillBioImage.jpg';//if importing from another src folder, just use this configuration
-import BernardBioImage from 'images/BernardBioImage.jpg';
-import LennieBioImage from 'images/LennieBioImage.jpg';
-import ElenaBioImage from 'images/ElenaBioImage.jpg';
-import HarryBioImage from 'images/HarryBioImage.jpg';
+import JillBioImage from 'imagesresized/JillBioImage.jpg';//if importing from another src folder, just use this configuration
+import BernardBioImage from 'imagesresized/BernardBioImage.jpg';
+import LennieBioImage from 'imagesresized/LennieBioImage.jpg';
+import ElenaBioImage from 'imagesresized/ElenaBioImage.jpg';
+import HarryBioImage from 'imagesresized/HarryBioImage.jpg';
 import Button from 'components/buttons'; //imported as default function from components/buttons
 import Dropdown from 'components/dropdown'; //imported as default function from components/dropdown
 import Footer from 'components/footer'; //imported as default function from components/footer

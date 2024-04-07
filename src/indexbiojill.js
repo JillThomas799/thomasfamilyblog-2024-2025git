@@ -1,6 +1,6 @@
 import React from 'react';
 import './Bio_jill.css';
-import JillBioImage from 'images/JillBioImage.jpg';
+import JillBioImage from 'imagesresized/JillBioImage.jpg';
 import { Link } from "react-router-dom";
 
 export function JillBio() {

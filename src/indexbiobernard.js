@@ -1,6 +1,6 @@
 import React from 'react';
 import './Bio_bernard.css';
-import BernardBioImage from 'images/BernardBioImage.jpg';
+import BernardBioImage from 'imagesresized/BernardBioImage.jpg';
 import { Link } from "react-router-dom";
 
 export function BernardBio() {

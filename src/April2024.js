@@ -21,6 +21,10 @@ import CatWillTribute from "./imagesresized/CatWillTribute.jpg";
 import CatWillPoem from "./imagesresized/CatWillPoem.jpg";
 import CatWillPetShopNotice from "./imagesresized/CatWillPetShopNotice.jpg";
 import CatWillPrint from "./imagesresized/CatWillPrint.jpg";
+import BlossomSizerghApril2024 from "./imagesresized/BlossomSizerghApril2024.jpg";
+import GardenSizerghApril2024 from "./imagesresized/GardenSizerghApril2024.jpg";
+import HoleslackFarmSizergh from "./imagesresized/HoleslackFarmSizergh.jpg";
+import ViewMorecambeBayApril2024 from "./imagesresized/ViewMorecambeBayApril2024.jpg";
 
 export default function April2024() {
   return (
@@ -311,8 +315,9 @@ export default function April2024() {
 
           <div className="datenewsDiv">
             <section className="date">5th April 2024</section>
+            <section className="news">Some sad news from Carlisle....</section>  
             <br />
-            <section className="news">Some sad news from Carlisle....
+            <section className="news">
             <br />
             <br />
             In our 16th March blog entry, we went out to the Greek restaurant in Carlisle for our Mother's Day meal and we enclosed a photo of the very popular and well-known cat, whom the 
@@ -389,6 +394,60 @@ export default function April2024() {
             </fig>  
           </div>
 
+          <div className="datenewsDiv">
+            <section className="date">6th April 2024</section> 
+            <section className="news">Our first trip of the year to meet up with friends - <Link to = "https://www.nationaltrust.org.uk/visit/lake-district/sizergh" target="_blank" title="Click here to discover more about Sizergh Castle">Sizergh Castle and Walk</Link></section>  
+            <br />
+            <section className="news">There are signs that Spring is arriving at last with the arrival of the blossom on the trees and the daffodils. Also just as importantly, the arrival of our first outing to meet with friends this year. 
+            <br />
+            <br />
+            An old favourite, Sizergh Castle in South Cumbria was selected as our venue, not least because it has a good café, <em>(we know, we know...it always seems to be about the café...but these things are important)</em>, and there are a range of walks with some spectacular views on offer. 
+            <br />
+            <br />
+            It was great to meet up with our friends, one of whom Jill has known since she was 11 years old and was bridesmaid at our wedding, and to catch up on news. There were some rainy showers, so for the first time we also 
+            looked around the interior of Sizergh Castle, which was worth seeing. It was very busy as it was still the Easter holidays. By after lunch the weather had brightened, though it remained quite stormy, so we 
+            worked out a relatively tree-free route up to <Link to = "https://www.nationalchurchestrust.org/church/st-john-evangelist-helsington" target="_blank" title="Click here to discover more about St John the Evangelist Church, Hetherington">St John the Evangelist Church, Hetherington</Link>, from where
+            there are fantastic, sweeping views across to Morecambe Bay, the Lyth Valley and the distant Lakeland Fells. 
+            <br />
+            <br />
+            Sizergh Castle remains one of our favourite National Trust properties, probably because of its size (it is relatively small), and the fact there are a variety of mixed-level walks which can be undertaken. It is also quite accessible, not being far off the M6 Junction 36 exit. 
+            It is quite a popular location for visitors, as can be seen from the <Link to = "https://www.tripadvisor.co.uk/Attraction_Review-g186326-d218255-Reviews-or10-Sizergh_Castle-Kendal_Lake_District_Cumbria_England.html" target="_blank">Trip Advisor Reviews</Link>. </section>
+          
+          </div> 
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={BlossomSizerghApril2024} alt="" /><figcaptionApril><strong>Signs of Spring...<br />
+          the blossom out in the gardens</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={GardenSizerghApril2024} alt="" /><figcaptionApril><strong>...and the daffodils on the lawns</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={HoleslackFarmSizergh} alt="" /><figcaptionApril><strong>It was quite stormy so we chose a <br /> (relatively) tree-free route. <br /> Up by Holeslack Farmhouse ....</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ViewMorecambeBayApril2024} alt="" /><figcaptionApril><strong>... and on up to St John the Evangelist church, <br /> from where there are fantastic views <br /> over the Lyth Valley, distant fells and Morecambe Bay</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          {/* <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig>
+          </div> */}
+
+          {/* <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig>
+          </div> */}
 
     </div> {/* Closing tag April2024header */} 
 

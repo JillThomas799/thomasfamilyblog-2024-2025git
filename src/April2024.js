@@ -25,6 +25,10 @@ import BlossomSizerghApril2024 from "./imagesresized/BlossomSizerghApril2024.jpg
 import GardenSizerghApril2024 from "./imagesresized/GardenSizerghApril2024.jpg";
 import HoleslackFarmSizergh from "./imagesresized/HoleslackFarmSizergh.jpg";
 import ViewMorecambeBayApril2024 from "./imagesresized/ViewMorecambeBayApril2024.jpg";
+import StudyBefore from "./imagesresized/StudyBefore.jpg";
+import StudyComplete1 from "./imagesresized/StudyComplete1.jpg";
+import StudyComplete2 from "./imagesresized/StudyComplete2.jpg";
+import StudyComplete3 from "./imagesresized/StudyComplete3.jpg";
 
 export default function April2024() {
   return (
@@ -424,6 +428,33 @@ export default function April2024() {
             <fig><section className = "blogPhoto" ><img src={HoleslackFarmSizergh} alt="" /><figcaptionApril><strong>It was quite stormy so we chose a <br /> (relatively) tree-free route. <br /> Up by Holeslack Farmhouse ....</strong></figcaptionApril></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={ViewMorecambeBayApril2024} alt="" /><figcaptionApril><strong>... and on up to St John the Evangelist church, <br /> from where there are fantastic views <br /> over the Lyth Valley, distant fells and Morecambe Bay</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          <div className="datenewsDiv">
+            <section className="date">21st April 2024</section> 
+            <section className="news">The Study/Home Office Makeover reaches its rightful conclusion</section>  
+            <br />
+            <section className="news">Today the make-over of the Study/ Home Office reached its conclusion and after much running up and down stairs returning all
+            the books, which had been having a holiday on the 2nd floor, the finishing touches were applied. We worked out that the height climbed
+            up the stairs repeatedly was the equivalent of climbing a 366 meter (1,200 feet) fell!
+            <br />
+            <br />
+            It has all been worth it though and we are very happy with the result. For anyone who may be interested, here are the before and after photos below.
+            The fitted furniture is from <Link to = "https://www.hammonds-uk.com/" target="_blank" title="Click here to discover more about Hammonds Furniture">Hammond's Furniture</Link>. The chair and rug are from <Link to = "https://www.next.co.uk/homeware"
+            target="_blank" title = "Click here to discover more about Next Home">Next Home</Link>.
+            </section>
+          
+          </div> 
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={StudyBefore} alt="" /><figcaptionApril><strong>Study - Before</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={StudyComplete1} alt="" /><figcaptionApril><strong>Study - After (1)</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={StudyComplete2} alt="" /><figcaptionApril><strong>Study - After (2)</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={StudyComplete3} alt="" /><figcaptionApril><strong>Study - After (3)</strong></figcaptionApril></section>
             </fig>
           </div>
 

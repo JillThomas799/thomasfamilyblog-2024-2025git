@@ -29,6 +29,24 @@ import StudyBefore from "./imagesresized/StudyBefore.jpg";
 import StudyComplete1 from "./imagesresized/StudyComplete1.jpg";
 import StudyComplete2 from "./imagesresized/StudyComplete2.jpg";
 import StudyComplete3 from "./imagesresized/StudyComplete3.jpg";
+import CyclingApril2320241 from "./imagesresized/CyclingApril2320241.jpg";
+import CyclingApril2320242 from "./imagesresized/CyclingApril2320242.jpg";
+import CyclingApril2320243 from "./imagesresized/CyclingApril2320243.jpg";
+import CyclingApril2320244 from "./imagesresized/CyclingApril2320244.jpg";
+import LambsFieldTarn2 from "./imagesresized/LambsFieldTarn2.jpg";
+import HerdwickLamb from "./imagesresized/HerdwickLamb.jpg";
+import PatDermotBlacksmiths from "./imagesresized/PatDermotBlacksmiths.jpg";
+import DucklingsTalkin042024 from "./imagesresized/DucklingsTalkin042024.jpg";
+import ArchiePub from "./imagesresized/ArchiePub.jpg";
+import ArchieCatFood from "./imagesresized/ArchieCatFood.jpg";
+import LennieArchie from "./imagesresized/LennieArchie.jpg";
+import LowtherCastle20042024 from "./imagesresized/LowtherCastle20042024.jpg";
+import CelebrationGoldMassam2 from "./imagesresized/CelebrationGoldMassam2.jpg";
+import CelebrationGoldMassam1 from "./imagesresized/CelebrationGoldMassam1.jpg";
+import HarryDaffodilsLowther20042024 from "./imagesresized/HarryDaffodilsLowther20042024.jpg";
+import JapaneseGarden20042024 from "./imagesresized/JapaneseGarden20042024.jpg";
+import JillJapaneseGardenLowther from "./imagesresized/JillJapaneseGardenLowther.jpg";
+import BernardJapaneseGardenLowther from "./imagesresized/BernardJapaneseGardenLowther.jpg";
 
 export default function April2024() {
   return (
@@ -432,6 +450,100 @@ export default function April2024() {
           </div>
 
           <div className="datenewsDiv">
+            <section className="date">17th April 2024</section> 
+            <section className="news">Visit from our friends Pat and Dermot</section>  
+            <br />
+            <section className="news">It was lovely to meet up in our home with our long-standing friends Pat and Dermot and their (quite crazy, but adorable) dog Archie today,
+            and a good opportunity to catch up on all the news. We really enjoyed our day, walking about 6 miles. We saw plenty of lambs, but unfortunately not the ducklings on the tarn on this occasion. 
+            <br />
+            <br />
+            We had to have a pre-prepared plan for how we would manage Lennie for the day, as he is a little unsure about dogs, and we did not want it to turn out
+            to be the trailer for 'Cats and Dogs 3' (a sequel to <Link to = "https://en.wikipedia.org/wiki/Cats_%26_Dogs:_The_Revenge_of_Kitty_Galore" target="_blank"
+            title="Click here to find more about the Cats and Dogs 2 film">'Cats and Dogs 2'</Link>). 
+            Fortunately, he was not around when Archie was finishing off his food from his bowl in the kitchen....
+            However, by the next morning Lennie seemed to have recovered ....(see photos below).
+            <br />
+            <br />
+            
+            </section>
+          
+         <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={PatDermotBlacksmiths} alt="" /><figcaptionApril><strong>Pat and Dermot relaxing at the pub <br/> en route on the walk</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ArchiePub} alt="" /><figcaptionApril><strong>Archie, also having a well-earned <br/> rest at the pub</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={HerdwickLamb} alt="" /><figcaptionApril><strong>Pat and I have been comparing the lambs. Pat has been <br/> with the Herdwicks, who have black lambs  (shown here)....</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={LambsFieldTarn2} alt="" /><figcaptionApril><strong>Whilst we have been with the Swaledale Lambs, as shown here near the tarn</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={DucklingsTalkin042024} alt="" /><figcaptionApril><strong>The tarn ducklings were unfortunately nowhere <br/> to be seen on this particular day...</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ArchieCatFood} alt="" /><figcaptionApril><strong>Later in the day, Archie is helping himself to the left-overs <br/> of Lennie's cat food...</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={LennieArchie} alt="" /><figcaptionApril><strong>By the following morning however, Lennie seems to <br/> have recovered....</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          </div> 
+
+          <div className="datenewsDiv">
+            <section className="date">20th April 2024</section> 
+            <section className="news">Visit to Lowther Castle including the new 'Story of Lowther' exhibition, the renovated Japanese Gardens and the
+            <Link to = "https://www.bbc.co.uk/news/articles/cz96n7n1revo" target="_blank">'Celebration of Gold' Exhibition</Link> by artist 
+            Steve Massam.
+            <br />
+            </section>
+            <section className="news">
+              We had a very pleasant trip to Lowther castle today. It was time for renewal of our annual membership, so this year we have obtained 
+              <Link to = "https://www.historichouses.org/become-a-member/" target="_blank" title="Click here to discover more about Historic Houses membership"> Historic Houses membership</Link>,
+              which not only gains us entrance to Lowther Castle, but also <Link to="https://www.historichouses.org/houses/?q=penrith" target ="_blank"
+              title="Click here to discover some of the houses to which Historic Houses membership will gain you entrance">many other Historic Houses</Link>. 
+              So that is all a bonus.
+              <br/>
+              <br/>
+              Firstly, we explored the new, revamped Lowther Exhibition which tells the story of Lowther and has just been fully opened. We felt it has been done really well. 
+              In contrast to the design of the previous exhibition, the story of Lowther and its renovation is told through objects. 
+              The rooms are dark and the graphics gold. There is also an interesting video to watch. So this is well worth a visit.
+              <br/>
+              <br/>
+              Then as we came out from within the Castle into the Parterre Gardens, 
+              we caught our first glimpse of the Durham artist Steven Massam's temporary exhibition 'Celebration in Gold'. It is on site until the 6th May 2024. More information about Steven Massam and 
+              this exhibition can be found in this BBC article  <Link to = "https://www.bbc.co.uk/news/articles/cz96n7n1revo" target="_blank">'Massive gold flag artwork opens to public at castle'</Link>.
+              <br/>
+              <br/>
+              The renovation of the Japanese Garden is nearing its completion. We have been watching its progress with interest for some months,
+              but it is really lovely now and certainly a transformation on how it was before. It has been created to be an area of relaxation. 
+              </section>
+          </div>
+          
+
+            <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={LowtherCastle20042024} alt="" /><figcaptionApril><strong>Lowther Castle from the Parterre Garden</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CelebrationGoldMassam2} alt="" /><figcaptionApril><strong></strong>First sight of Steven Massam's 'Celebration of Gold' Exhibition</figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CelebrationGoldMassam1} alt="" /><figcaptionApril><strong>....and looking towards the exhibition from just up from the Rose Garden</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={HarryDaffodilsLowther20042024} alt="" /><figcaptionApril><strong>Harry and the beds of daffodils at Lowther</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={JapaneseGarden20042024} alt="" /><figcaptionApril><strong>The renovated Japanese Garden, Lowther</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={JillJapaneseGardenLowther} alt="" /><figcaptionApril><strong>Jill in the renovated Japanese Garden, Lowther</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={BernardJapaneseGardenLowther} alt="" /><figcaptionApril><strong>and Bernard ...</strong></figcaptionApril></section>
+            </fig>
+            {/* <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig> */}
+          </div>
+
+
+          <div className="datenewsDiv">
             <section className="date">21st April 2024</section> 
             <section className="news">The Study/Home Office Makeover reaches its rightful conclusion</section>  
             <br />
@@ -458,7 +570,37 @@ export default function April2024() {
             </fig>
           </div>
 
-          {/* <div className="blogPhotoDiv">
+          
+          <div className="datenewsDiv">
+            <section className="date">23rd April 2024</section> 
+            <section className="news">Our first cycling trip of the year today - 13 miles - to Lanercost Priory and along by Hadrian's Wall to the village of Walton</section>  
+            <br />
+            <section className="news">Today the bikes were taken out of storage and dusted down as it was our first cycling trip of the year. We cycled over to Lanercost Priory,
+            where we took a break at the café, and then continued on the quieter back roads to the little village of <Link to = "https://en.wikipedia.org/wiki/Walton,_Cumbria"
+            target="_blank" title="Click here to discover more about Walton village, Cumbria">Walton </Link>, greeting a number of walkers undertaking a walk in 
+            support of one of the Breast Cancer charities en route. The view of St Mary's church, ascending the hill into Walton village is lovely. There are some great views of the Tindale Fells 
+            en route and a feeling that this is countryside which is little changed from Roman times. We also understand
+            there is a great little café in Walton, called the <Link to = "https://www.waltoncumbria.uk/tearoom/" target = "_blank" title='Click here to find out about the Walton tea room and menu'>Walton Tearoom</Link>, although we have not...as of yet... frequented it.
+            That will have to wait until another day....
+            <br />
+            <br />
+            </section>
+          
+          </div> 
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={CyclingApril2320241} alt="" /><figcaptionApril><strong>Jill, taking a break at Lanercost tea room</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CyclingApril2320242} alt="" /><figcaptionApril><strong>....and Bernard...</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CyclingApril2320244} alt="" /><figcaptionApril><strong>Taking the opportunity to admire the view from Walton village</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CyclingApril2320243} alt="" /><figcaptionApril><strong>....as there are fantastic views out towards the Tindale Fells from there..</strong></figcaptionApril></section>
+            </fig>
+            
+          </div>
+
+           {/* <div className="blogPhotoDiv">
           <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
@@ -482,13 +624,13 @@ export default function April2024() {
 
     </div> {/* Closing tag April2024header */} 
 
-    </div> /* Closing tag for root div*/ 
-  );
+</div> /* Closing tag for root div*/ 
+);
 
-  
+
 }
-    
-   
-    
 
 
+
+
+         

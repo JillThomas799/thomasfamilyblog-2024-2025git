@@ -47,6 +47,19 @@ import HarryDaffodilsLowther20042024 from "./imagesresized/HarryDaffodilsLowther
 import JapaneseGarden20042024 from "./imagesresized/JapaneseGarden20042024.jpg";
 import JillJapaneseGardenLowther from "./imagesresized/JillJapaneseGardenLowther.jpg";
 import BernardJapaneseGardenLowther from "./imagesresized/BernardJapaneseGardenLowther.jpg";
+import BernardBackTalkin42024 from "./imagesresized/BernardBackTalkin42024.jpg";
+import GreyGooseFFF1 from "./imagesresized/GreyGooseFFF1.jpg";
+import GreyGooseFFF2 from "./imagesresized/GreyGooseFFF2.jpg";
+import GreyGooseFFF3 from "./imagesresized/GreyGooseFFF3.jpg";
+import Deer24042024 from "./imagesresized/Deer24042024.jpg";
+import DeerCloseup24042024 from "./imagesresized/DeerCloseup24042024.jpg";
+import ForestHead24042024 from "./imagesresized/ForestHead24042024.jpg";
+import SheepLambsBackTalkin24042024 from "./imagesresized/SheepLambsBackTalkin24042024.jpg";
+import BernardForestHead24042024 from "./imagesresized/BernardForestHead24042024.jpg";
+import Jill1BeyondForestHead24042024 from "./imagesresized/Jill1BeyondForestHead24042024.jpg";
+import Jill2BeyondForestHead24042024 from "./imagesresized/Jill2BeyondForestHead24042024.jpg";
+import SheepLambsKirkhouse24042024 from "./imagesresized/SheepLambsKirkhouse24042024.jpg";
+
 
 export default function April2024() {
   return (
@@ -598,6 +611,60 @@ export default function April2024() {
             <fig><section className = "blogPhoto" ><img src={CyclingApril2320243} alt="" /><figcaptionApril><strong>....as there are fantastic views out towards the Tindale Fells from there..</strong></figcaptionApril></section>
             </fig>
             
+          </div>
+
+          <div className="datenewsDiv">
+            <section className="date">24th April 2024</section> 
+            <section className="news">6.5 mile walk around the back of Talkin Fell and the Tindale Fells</section>  
+            <br />
+            <section className="news">
+              It was a lovely sunny day today, although cold, and so we set out for a walk with the aim to see how we got on...the final result being that we ended up walking the full 6.5 mile circuit 
+              into the wildnerness behind Talkin and the Tindale Fells, North Pennines and had a lovely afternoon. 
+              <br/>
+              <br/>
+              This area comes into the <Link to="https://www.northpennines.org.uk/wp-content/uploads/2019/03/Fellfoot-Forward_LCAP-Part-1_May-20-compressed.pdf
+" target="_blank" title="Click here to discover the full background and information on the 'Fell Foot Foward' Project">Fellfoot Forward Project</Link>, led by the North Pennines Area of Outstanding Natural Beauty (AONB)
+Partnership and supported by the National Lottery Heritage Fund. The link provided will take you to the full 146 page Fellfoot Forward Action Plan which is very detailed. For those who are interested, thie is a very interesting and informative document,
+ but for anyone who wants a briefer overview, pages 20, 21, 25 and 32 talk about the landscape in the area within which we were walking today. Pg 59 talks about the breeding of Swaledales, Section 6 looks at the threats and opportunities in the Fellfoot Landscape,
+and Section 7.2 deals with Aims and Objectives of the scheme.
+<br/>
+<br/>
+  Today there was evidence of much tree-planting having been going on and re-wilding taking place. We also saw some new pond areas, with surrounding vegetation, on  which a couple of grey geese were seen to be resting happily....
+            </section>
+          
+          </div> 
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={BernardBackTalkin42024} alt="" /><figcaptionApril><strong>Bernard, with Talkin Fell in the background</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={GreyGooseFFF1} alt="" /><figcaptionApril><strong>Grey geese (1)</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={GreyGooseFFF2} alt="" /><figcaptionApril><strong>Grey goose in close up...</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={GreyGooseFFF3} alt="" /><figcaptionApril><strong></strong>Grey geese enjoying the water...</figcaptionApril></section>
+            </fig>
+          </div>
+
+           <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={Deer24042024} alt="" /><figcaptionApril><strong>A deer has been spotted in the distance, <br/> we once saw 10 deer up here...</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={DeerCloseup24042024} alt="" /><figcaptionApril><strong>...and closer up</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={SheepLambsBackTalkin24042024} alt="" /><figcaptionApril><strong>... on past the Swaledales with their lambs....</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ForestHead24042024} alt="" /><figcaptionApril><strong>...through the picturesque hamlet of <br/> Forest Head</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={BernardForestHead24042024} alt="" /><figcaptionApril><strong>Bernard, with the Tindale Fells in the background</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={Jill1BeyondForestHead24042024} alt="" /><figcaptionApril><strong>On a clear day like to day, there are amazing views across the Border Country...</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={Jill2BeyondForestHead24042024} alt="" /><figcaptionApril><strong>...and out for miles into Scotland...</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={SheepLambsKirkhouse24042024} alt="" /><figcaptionApril><strong>Then, on the final stretch home,  <br/> more Swaledales and their lambs, looking very comfortable enjoying the sun... </strong></figcaptionApril></section>
+            </fig>
           </div>
 
            {/* <div className="blogPhotoDiv">

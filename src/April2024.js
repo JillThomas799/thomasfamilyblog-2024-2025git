@@ -619,7 +619,7 @@ export default function April2024() {
             <br />
             <section className="news">
               It was a lovely sunny day today, although cold, and so we set out for a walk with the aim to see how we got on...the final result being that we ended up walking the full 6.5 mile circuit 
-              into the wildnerness behind Talkin and the Tindale Fells, North Pennines and had a lovely afternoon. 
+              into the wilderness behind Talkin and the Tindale Fells, North Pennines and had a lovely afternoon. 
               <br/>
               <br/>
               This area comes into the <Link to="https://www.northpennines.org.uk/wp-content/uploads/2019/03/Fellfoot-Forward_LCAP-Part-1_May-20-compressed.pdf

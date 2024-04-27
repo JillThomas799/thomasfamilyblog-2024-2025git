@@ -496,7 +496,7 @@ export default function April2024() {
             </fig>
             <fig><section className = "blogPhoto" ><img src={ArchieCatFood} alt="" /><figcaptionApril><strong>Later in the day, Archie is helping himself to the left-overs <br/> of Lennie's cat food...</strong></figcaptionApril></section>
             </fig>
-            <fig><section className = "blogPhoto" ><img src={LennieArchie} alt="" /><figcaptionApril><strong>By the following morning however, Lennie seems to <br/> have recovered....</strong></figcaptionApril></section>
+            <fig><section className = "blogPhoto" ><img src={LennieArchie} alt="" /><figcaptionApril><strong>By the following morning however, Lennie seems to <br/> have recovered....or just about....</strong></figcaptionApril></section>
             </fig>
           </div>
 
@@ -657,9 +657,9 @@ and Section 7.2 deals with Aims and Objectives of the scheme.
           </div>
 
           <div className="blogPhotoDiv">
-          <fig><section className = "blogPhoto" ><img src={BernardForestHead24042024} alt="" /><figcaptionApril><strong>Bernard, with the Tindale Fells in the background</strong></figcaptionApril></section>
+          <fig><section className = "blogPhoto" ><img src={BernardForestHead24042024} alt="" /><figcaptionApril><strong>...Bernard, the other side of Forest Head, <br/> with the Tindale Fells in the background</strong></figcaptionApril></section>
             </fig>
-            <fig><section className = "blogPhoto" ><img src={Jill1BeyondForestHead24042024} alt="" /><figcaptionApril><strong>On a clear day like to day, there are amazing views across the Border Country...</strong></figcaptionApril></section>
+            <fig><section className = "blogPhoto" ><img src={Jill1BeyondForestHead24042024} alt="" /><figcaptionApril><strong>On a clear day like to day, there are amazing views from here across the Border Country...</strong></figcaptionApril></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={Jill2BeyondForestHead24042024} alt="" /><figcaptionApril><strong>...and out for miles into Scotland...</strong></figcaptionApril></section>
             </fig>

@@ -59,7 +59,18 @@ import BernardForestHead24042024 from "./imagesresized/BernardForestHead24042024
 import Jill1BeyondForestHead24042024 from "./imagesresized/Jill1BeyondForestHead24042024.jpg";
 import Jill2BeyondForestHead24042024 from "./imagesresized/Jill2BeyondForestHead24042024.jpg";
 import SheepLambsKirkhouse24042024 from "./imagesresized/SheepLambsKirkhouse24042024.jpg";
-
+import DevilsPorridgeMuseum from "./imagesresized/DevilsPorridgeMuseum.jpg";
+import DevilsPorridgeArrival from "./imagesresized/DevilsPorridgeArrival.jpg";
+import DevilsPorridgeAnimalMemorial from "./imagesresized/DevilsPorridgeAnimalMemorial.jpg";
+import FirelessLocomotiveSirJames from "./imagesresized/FirelessLocomotiveSirJames.jpg";
+import DevilsPorridgeCafe from "./imagesresized/DevilsPorridgeCafe.jpg";
+import DevilsPorridgeJill from "./imagesresized/DevilsPorridgeJill.jpg";
+import GretnaGreenBlacksmithsHarry from "./imagesresized/GretnaGreenBlacksmithsHarry.jpg";
+import ScotsPiperGretna from "./imagesresized/ScotsPiperGretna.jpg";
+import QuintinshillWalkDeparture from "./imagesresized/QuintinshillWalkDeparture.jpg";
+import QuintinshillWalkInfoBoard from "./imagesresized/QuintinshillWalkInfoBoard.jpg";
+import BabyCowsQuintinshill from "./imagesresized/BabyCowsQuintinshill.jpg";
+import CuckooFlowerWildGretna from "./imagesresized/CuckooFlowerWildGretna.jpg";
 
 export default function April2024() {
   return (
@@ -624,7 +635,7 @@ export default function April2024() {
               <br/>
               This area comes into the <Link to="https://www.northpennines.org.uk/wp-content/uploads/2019/03/Fellfoot-Forward_LCAP-Part-1_May-20-compressed.pdf
 " target="_blank" title="Click here to discover the full background and information on the 'Fell Foot Foward' Project">Fellfoot Forward Project</Link>, led by the North Pennines Area of Outstanding Natural Beauty (AONB)
-Partnership and supported by the National Lottery Heritage Fund. The link provided will take you to the full 146 page Fellfoot Forward Action Plan which is very detailed. For those who are interested, thie is a very interesting and informative document,
+Partnership and supported by the National Lottery Heritage Fund. The link provided will take you to the full 146 page Fellfoot Forward Action Plan which is very detailed. For those who are interested, this is a very interesting and informative document,
  but for anyone who wants a briefer overview, pages 20, 21, 25 and 32 talk about the landscape in the area within which we were walking today. Pg 59 talks about the breeding of Swaledales, Section 6 looks at the threats and opportunities in the Fellfoot Landscape,
 and Section 7.2 deals with Aims and Objectives of the scheme.
 <br/>
@@ -667,7 +678,85 @@ and Section 7.2 deals with Aims and Objectives of the scheme.
             </fig>
           </div>
 
-           {/* <div className="blogPhotoDiv">
+          <div className="datenewsDiv">
+            <section className="date">28th April 2024</section> 
+            <section className="news">Visit to the Devil's Porridge Museum and walk Gretna Green</section>  
+            <br />
+            <section className="news">
+              We had a very interesting and pleasant day today, visiting a museum which we had long intended to see, and never until today got around to, the 'Devil's Porridge'
+              Museum at Eastrigg, near Gretna Green, Scotland. The <Link to="https://www.devilsporridge.org.uk/" target="_blank" title="Click here to discover more about the Devil's Porridge Museum">Devil's Porridge Museum</Link>, recounts the 
+              story of the huge ammunition factory based at Gretna in WW1 where the cordite (given the name 'Devil's Porridge') was made, and the stories of the people who lived and worked there. It is a popular museum, which receives good <Link to="https://www.tripadvisor.co.uk/Attraction_Review-g2222050-d2216930-Reviews-The_Devil_s_Porridge_Museum-Eastriggs_Dumfries_and_Galloway_Scotland.html"
+              target="_blank" title="Click here to read the reviews of the Devil's Porridge Museum">reviews</Link>.
+              <br/>
+              <br/>
+              There were some really good aspects to the museum and how it has been set up and run which we really liked. The museum seemed to
+              go out of its way to involve interested local young people who were working hard to make our visit an enjoyable experience, both serving in the entrance booth and also in the café. 
+              It was also an interested group of local young people who went out to interview Bettie from Carlisle, who worked as a Landgirl in the Women's Land Army in Cumbria during the Second World War, and create 'The Story of a Landgirl' film which was shown at the museum and was very interesting, and also entertaining.
+              More information about the making of 'The Story of a Landgirl' film with this group of young people, and Bettie's motivation in undertaking the project can be found in this <Link to="https://womenshistorynetwork.org/sharing-stories-of-women-in-war-betties-story-by-judith-hewitt-manager-of-the-devils-porridge-museum/"
+              target="_blank" title="Click here to discover more about Bettie's Story">Women's History Network article</Link>. 
+              <br/>
+              <br/>
+              Like most museums now, there were some fun, interactive sections. Bernard had a great time undertaking the simulated creation of cordite via an interactive game 
+              which takes you through the various stages required to make the cordite and transport it safely.
+              <br/>
+              <br/>
+              Then it was on into Gretna village to park by the <Link to="https://www.gretnagreen.com/the-famous-blacksmiths-shop-a1034" target="_blank">Gretna Green Village Blacksmith's shop</Link>, which is the famous home of the <Link to="https://www.gretnagreen.com/traditions-of-a-gretna-green-wedding-a742" target="_blank"> anvil  wedding</Link> . Find out more about 
+              Gretna Green <Link to="https://en.wikipedia.org/wiki/Gretna_Green"
+              target="_blank" >here</Link>. We then set off on the 
+              <Link to="https://info.dumgal.gov.uk/CorePathMaps/Walking/Quintinshill.pdf" target="_blank"> Quintinshill Walk</Link>, before returning home for a late lunch. 
+              Everyone seemed to have enjoyed the trip.
+
+            </section>
+          
+          </div> 
+           <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={DevilsPorridgeMuseum} alt="" /><figcaptionApril><strong><Link to="https://www.devilsporridge.org.uk/" target="_blank" title="Click here to discover more about the Devil's Porridge Museum">Devil's Porridge Museum</Link></strong>, Annan Road, Eastrigg</figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={DevilsPorridgeArrival} alt="" /><figcaptionApril><strong>We arrived promptly at the Devil's Porridge Museum when it opened, so it was nice and quiet...</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={FirelessLocomotiveSirJames} alt="" /><figcaptionApril><strong>Bernard and Harry, by the renovated fireless locomotive, St James, which was used to transport the 'Devil's Porridge' Paste safely
+              through the HM Gretna factory  <br/> for it to be made into cordite</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={DevilsPorridgeAnimalMemorial} alt="" /><figcaptionApril><strong>The Devils Porridge animal memorial. Dogs and <br/> horses, 2 pigeons but only one cat had received a medal. Cats were used to catch mice and rats but also for companionship </strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={DevilsPorridgeCafe} alt="" /><figcaptionApril><strong>The museum has a good, reasonably-priced café, which was proving quite popular</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={DevilsPorridgeJill} alt="" /><figcaptionApril><strong>Then it was time to say goodbye to the museum, and head off into Gretna village <br/> to start the walk....</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={GretnaGreenBlacksmithsHarry} alt="" /><figcaptionApril><strong>Harry in front of the famous Gretna village Blacksmith's shop</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ScotsPiperGretna} alt="" /><figcaptionApril><strong>The Scottish piper was good, playing for all the tourists, who were arriving in ever increasing numbers</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={QuintinshillWalkDeparture} alt="" /><figcaptionApril><strong>Then it was time to start the <br/> Quintinshill walk in the countryside around Gretna...</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={QuintinshillWalkInfoBoard} alt="" /><figcaptionApril><strong>Firstly, past the information board,<br/> telling the story of the tragic <br/> <Link to="https://www.nrscotland.gov.uk/research/learning/first-world-war/quintinshill-disaster"
+            target="_blank" title="Click here to discover more about the Quintinshill Rail Disaster">Quintinshill Rail Disaster</Link>
+            </strong></figcaptionApril></section></fig>
+            <fig><section className = "blogPhoto" ><img src={BabyCowsQuintinshill} alt="" /><figcaptionApril><strong>Past the Holstein dairy farm, where there were these baby calfs...</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={CuckooFlowerWildGretna} alt="" /><figcaptionApril><strong>Then finally, we headed back into Gretna, noting the wild <Link to="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/cuckooflower" 
+            target="_blank" title="Click here to discover more about cuckoo flower">Cuckoo flower</Link> growing in the hedgerows around...</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          {/* <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
+            </fig>
+          </div> */}
+
+          {/* <div className="blogPhotoDiv">
           <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>

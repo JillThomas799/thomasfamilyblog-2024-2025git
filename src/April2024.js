@@ -738,7 +738,7 @@ and Section 7.2 deals with Aims and Objectives of the scheme.
             <fig><section className = "blogPhoto" ><img src={QuintinshillWalkInfoBoard} alt="" /><figcaptionApril><strong>Firstly, past the information board,<br/> telling the story of the tragic <br/> <Link to="https://www.nrscotland.gov.uk/research/learning/first-world-war/quintinshill-disaster"
             target="_blank" title="Click here to discover more about the Quintinshill Rail Disaster">Quintinshill Rail Disaster</Link>
             </strong></figcaptionApril></section></fig>
-            <fig><section className = "blogPhoto" ><img src={BabyCowsQuintinshill} alt="" /><figcaptionApril><strong>Past the Holstein dairy farm, where there were these baby calfs...</strong></figcaptionApril></section>
+            <fig><section className = "blogPhoto" ><img src={BabyCowsQuintinshill} alt="" /><figcaptionApril><strong>Past the Holstein dairy farm, where there were these baby calves...</strong></figcaptionApril></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={CuckooFlowerWildGretna} alt="" /><figcaptionApril><strong>Then finally, we headed back into Gretna, noting the wild <Link to="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/cuckooflower" 
             target="_blank" title="Click here to discover more about cuckoo flower">Cuckoo flower</Link> growing in the hedgerows around...</strong></figcaptionApril></section>

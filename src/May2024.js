@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './May2024.css';
+import LindisfarneCastle from "./imagesresized/LindisfarneCastle.jpg";
+import JillLindisfarne1993 from "./imagesresized/JillLindisfarne1993.jpg";
 
 export default function May2024() {
   return (
@@ -40995,6 +40997,110 @@ export default function May2024() {
       />
     </svg>
 
-    </div>
+<div className="datenewsDiv">
+            <section className="date">1st - 31st May 2024</section>
+            <section className="newsheader">Welcome to our May 2024 blog</section> 
+            <section className="news">This month's picture is an svg (Scalable Vector Graphics) image of a picture of the bluebells in Quarry Beck Wood, Cumbria
+            which was created using Adobe Express software to convert an image we had taken. Inkscape is also a popular tool to use for this type of project. 
+            The bluebells in Quarrybeck Wood are always lovely at this time of year, so it seemed a good idea to have them 
+            as the feature of our May header.
+            <br />
+            <br />
+            
+            </section>
+            </div>
+
+<div className="datenewsDiv">
+            <section className="date">1st May 2024</section> 
+            <section className="newsheader">Our day trip to the Holy Island of Lindisfarne</section>  
+            <br />
+            <section className="news">
+              It was the first of May, so what better time to attempt one of our planned trips for this year, a day out to visit the 
+               <Link to = "https://www.lindisfarne.org.uk/" target="_blank" title="Click here to discover more about the Holy Island of Lindisfarne"> Holy Island of Lindisfarne</Link>?
+               We had last visited the island briefly in March 1994, when taking a short break in Berwick-on Tweed, and had long planned to return so now was our opportunity <em>( Ok, ok, I know
+                it has taken us 30 years.....)</em>.
+                <br/>
+                <br/>
+                
+                
+                <figMay><figcaptionMay><em>Here is a photo of Jill on the Holy Island of Lindisfarne back in March 1993...</em></figcaptionMay><img id="JillLindisfarne1993img" src={JillLindisfarne1993} ></img></figMay>
+               <br/> 
+               <br/>
+               The Holy Island of Lindisfarne is situated in the North Sea and is a tidal island, which is approached via a paved causeway. It is cut off from the mainland twice 
+               daily by high tides. Its significance is that it was one of the most important centres of early English Christianity, being the base chosen 
+               in AD 635 by a group of 7th century Irish missionaries, led by <Link to = "https://en.wikipedia.org/wiki/Aidan_of_Lindisfarne" target="_blank" title="Click here 
+              to discover more about St Aidan of Lindisfarne">St Aidan</Link> , who came to Lindisfarne from Iona, and who built the first monastery here, with the aim to 
+               take Christianity to Northumbria by converting the pagan northern Anglo-Saxons.
+              The monastery quickly became a renowned centre for Christian life and learning. It was here at the monastery that the 
+               <Link to="https://www.lindisfarne.org.uk/gospels/" target="_blank" title="Click here to discover about the Lindisfarne Gospels"> Lindisfarne Gospels </Link>
+               were created by the monks. Much of the information known today about the monks comes from Venerable <Link to = "https://en.wikipedia.org/wiki/Bede"
+               target="_blank" title="Click here to discover more about Bede"> Bede’s </Link> <Link to="https://en.wikipedia.org/wiki/Ecclesiastical_History_of_the_English_People"
+               target="blank"><em>Ecclesiastical History of the English Nation”</em></Link> , which tells how King Oswald, when he gained the crown of Northumbria, 
+               sent to the monastic community of Iona for missionaries to convert his people. At first the mission was unsuccessful; but when a 
+               monk by the name of Aidan took over the work things quickly changed. 
+              <br/>
+              <br/>
+              Following on from the death of <Link to = "https://en.wikipedia.org/wiki/Aidan_of_Lindisfarne" target="_blank" title="Click here 
+              to discover more about St Aidan of Lindisfarne">St Aidan</Link>  in 651, in 670 Lindisfarne became the home of <Link to = "https://www.holyisland-stcuthbert.org/st-cuthbert/"
+              target="_blank" title="Click here to find more about St Cutbert">Cuthbert (later St Cuthbert)</Link> , a young shepherd boy who had been inspired by a vision of Aidan's soul
+               rising to heaven. After Cuthbert's death in 687, he was interred at Lindisfarne, but when his casket was opened 11 years later, his corpse was found to be preserved 
+               and miracles were attributed to him. Lindisfarne became the most important pilgrimage centre in the North. When the Vikings raided 
+               the island in 793, the monks were forced to flee to safety on the mainland, taking Cuthbert's remains with them. Cuthbert's body accompanied 
+               the monks as they travelled, but eventually came to rest in Durham.                
+               <br/>
+               <br/>
+               It is a 2hr drive from home to Holy Island. Crossing when the tide to Holy Island  is safe is critical, 
+            so we had checked the <Link to = "https://holyislandcrossingtimes.northumberland.gov.uk/" target="_blank" title="Click here to check the Holy Island tide timetable"> tide timetable</Link> carefully. We were going to be a little early for the first safe time for crossing, 
+            so a break was called for at <Link to = "https://purdylodge.co.uk/" target="_blank">Purdy Lodge Services</Link> on the A1. After our break,
+            we set off on the very atmospheric journey across the causeway to arrive safely at Holy Island. 
+            With the parking all sorted for the day (£9.50), we set off on our 6 mile walk. To join us on our walk, read about our adventure and see the photos
+            please either <Link to = "https://photos.app.goo.gl/NVX3qrBW2GEf9xg57" target="_blank">click here</Link> or alternatively, click on the image below...
+            <br/>
+            <br/>
+            It is important to allow sufficient time to undertake this walk, as walking across sand dunes is slower than on firm ground.
+            In addition, this is a wildlife haven with spectacular views and atmosphere so there is lots to see. It is helpful to take a pair of binoculars
+            to see the birds and wildlife in more detail....
+            <br/>
+            <br/>
+            We saw many things of interest during our day including, the ruins of <Link to = "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/"
+            target="_blank" title="Click here to discover more about Lindisfarne Priory">Lindisfarne Priory and Priory Museum</Link> , which are owned by English Heritage and 
+            a variety of birds including the eider or Cuddy ducks (Cuthbert, when living on the island, decreed protection for the nesting eider ducks, which today are known locally as Cuddy ducks), 
+            pale-bellied Brent geese, Reed buntings and Sedge warblers.  <Link to = "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/"
+            target="_blank" title="Click here to discover more about Lindisfarne Priory Museum">Lindisfarne Priory Museum</Link> is especially worth a visit.
+            It is only small, but contains on display a number of items from the excavation of the Lindisfarne Priory site, including some Anglo-Saxon
+            stones of historical significance as they preserve some important indicators which aid understanding of what was happening in the 7th and 8th centuries 
+            in this area, and Anglo-Saxon coins. 
+            <br/>
+            <br/>
+            We had ample opportunity to see from the outside <Link to = "https://www.nationaltrust.org.uk/visit/north-east/lindisfarne-castle" target="_blank"
+            title="Click here to discover more about Lindisfarne Castle">Lindisfarne Castle</Link> , which is owned and run by the National Trust. It was built in the 16th century, around 1540
+            with the purpose of protecting the harbour and it was used by troops as a base when they had to deal with Border risings between England and Scotland. In 1901,
+            it was bought by the publisher Edward Hudson, whose friend Edwin Lutyens transformed it into a comfortable house. It was eventually donated to the National
+            Trust in 1944 by the Merchant Banker, Sir Edward de Stein.
+
+            We opted however, not to explore inside this building on this occasion, as we had only a day on the island and wished to concentrate on the walk and wildlife reserve 
+            together with the Priory and Museum. 
+             
+            <br/>
+            <br/>
+            Finally, we made our way to the village, where the <Link to = "https://www.pilgrimscoffee.com/" target="_blank" 
+            title="Click here to discover more about Pilgrims Coffee">Pilgrims Coffee Roastery and Coffee House</Link> awaited...
+            Then it was time to head back safely across the causeway, and onwards towards home.... 
+            </section>
+            </div>
+
+
+            <div className="SlideshowHostPhoto">
+            <Link to ="https://photos.app.goo.gl/NVX3qrBW2GEf9xg57" target="_blank" title="Click on the link to accompany us on our visit to Holy Island" 
+                    ><strong>
+            <div className="slideshowinstructions"><strong><em>Click on the image below to accompany us on our visit to the Holy
+            Island of Lindisfarne</em></strong>
+            </div>   {/*Closing div slideshowinstructions*/}
+
+            <img className="slideshowentry" src={LindisfarneCastle} alt="" />
+            </strong></Link>
+            </div> {/*Closing div SlideshowHostPhoto*/}
+
+  </div>
   )
 }

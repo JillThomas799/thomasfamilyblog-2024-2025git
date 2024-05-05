@@ -71,6 +71,18 @@ import QuintinshillWalkDeparture from "./imagesresized/QuintinshillWalkDeparture
 import QuintinshillWalkInfoBoard from "./imagesresized/QuintinshillWalkInfoBoard.jpg";
 import BabyCowsQuintinshill from "./imagesresized/BabyCowsQuintinshill.jpg";
 import CuckooFlowerWildGretna from "./imagesresized/CuckooFlowerWildGretna.jpg";
+import ArmathwaiteWoodsJill1 from "./imagesresized/ArmathwaiteWoodsJill1.jpg";
+import EdenNorthArmathwaite from "./imagesresized/EdenNorthArmathwaite.jpg";
+import EdenSouthArmathwaite from "./imagesresized/EdenSouthArmathwaite.jpg";
+import WildWoodAnenomes from "./imagesresized/WildWoodAnenomes.jpg";
+import ArmathwaiteCastle from "./imagesresized/ArmathwaiteCastle.jpg";
+import BernardCoombsWood from "./imagesresized/BernardCoombsWood.jpg";
+import RiverEdenViewpoint from "./imagesresized/RiverEdenViewpoint.jpg";
+import DucksSheepLongdales from "./imagesresized/DucksSheepLongdales.jpg";
+import ViewNPennineRidge from "./imagesresized/ViewNPennineRidge.jpg";
+import ApproachingArmathwaite from "./imagesresized/ApproachingArmathwaite.jpg";
+import FoxandPheasant from "./imagesresized/FoxandPheasant.jpg";
+import Caninemenu from "./imagesresized/Caninemenu.jpg";
 
 export default function April2024() {
   return (
@@ -361,7 +373,7 @@ export default function April2024() {
 
           <div className="datenewsDiv">
             <section className="date">5th April 2024</section>
-            <section className="news">Some sad news from Carlisle....</section>  
+            <section className="newsheader">Some sad news from Carlisle....</section>  
             <br />
             <section className="news">
             <br />
@@ -375,14 +387,17 @@ export default function April2024() {
             tells how he used to sleep in the cat baskets and curl up on the counter near the treats :
             <br />
             <br />
-            <Link to ="https://www.newsandstar.co.uk/news/24213986.tributes-paid-beloved-carlisle-pet-shop-cat-will/" target="_blank" title="click on link
+            <div style={{textAlign:"center"}}>
+            <Link to ="https://www.newsandstar.co.uk/news/24213986.tributes-paid-beloved-carlisle-pet-shop-cat-will/" target="_blank" title="click on link 
             to read all about Will">News and Star Article on Will, the Bank Street cat</Link>. 
+            </div>
             <br />
             <br />
             He was known by many of the local population and has received some lovely 
             epitaphs, including the poem below which says:
             <br />
             <br />
+            <div style={{textAlign:"center"}}>
             <em>"
               When tomorrow 
               <br />
@@ -401,16 +416,19 @@ export default function April2024() {
               I'm right here
               <br />
               inside your heart" </em>
+              </div>
             <br />
             <br />
             and the beautiful Cumbrian felt picture of Will (shown below) a local artist has created of him with the inscription:
             <br />
             <br />
+            <div style={{textAlign:"center"}}>
             <em>
             Bank Street Cat William (Will) 2008 - 26th March 2024
             <br />
             By Tina Cumbrian Felts
             </em>
+            </div>
 
             <br />
             <br />
@@ -442,7 +460,7 @@ export default function April2024() {
 
           <div className="datenewsDiv">
             <section className="date">6th April 2024</section> 
-            <section className="news">Our first trip of the year to meet up with friends - <Link to = "https://www.nationaltrust.org.uk/visit/lake-district/sizergh" target="_blank" title="Click here to discover more about Sizergh Castle">Sizergh Castle and Walk</Link></section>  
+            <section className="newsheader">Our first trip of the year to meet up with friends - <Link to = "https://www.nationaltrust.org.uk/visit/lake-district/sizergh" target="_blank" title="Click here to discover more about Sizergh Castle">Sizergh Castle and Walk</Link></section>  
             <br />
             <section className="news">There are signs that Spring is arriving at last with the arrival of the blossom on the trees and the daffodils. Also just as importantly, the arrival of our first outing to meet with friends this year. 
             <br />
@@ -475,7 +493,7 @@ export default function April2024() {
 
           <div className="datenewsDiv">
             <section className="date">17th April 2024</section> 
-            <section className="news">Visit from our friends Pat and Dermot</section>  
+            <section className="newsheader">Visit from our friends Pat and Dermot</section>  
             <br />
             <section className="news">It was lovely to meet up in our home with our long-standing friends Pat and Dermot and their (quite crazy, but adorable) dog Archie today,
             and a good opportunity to catch up on all the news. We really enjoyed our day, walking about 6 miles. We saw plenty of lambs, but unfortunately not the ducklings on the tarn on this occasion. 
@@ -515,7 +533,7 @@ export default function April2024() {
 
           <div className="datenewsDiv">
             <section className="date">20th April 2024</section> 
-            <section className="news">Visit to Lowther Castle including the new 'Story of Lowther' exhibition, the renovated Japanese Gardens and the
+            <section className="newsheader">Visit to Lowther Castle including the new 'Story of Lowther' exhibition, the renovated Japanese Gardens and the
             <Link to = "https://www.bbc.co.uk/news/articles/cz96n7n1revo" target="_blank">'Celebration of Gold' Exhibition</Link> by artist 
             Steve Massam.
             <br />
@@ -569,7 +587,7 @@ export default function April2024() {
 
           <div className="datenewsDiv">
             <section className="date">21st April 2024</section> 
-            <section className="news">The Study/Home Office Makeover reaches its rightful conclusion</section>  
+            <section className="newsheader">The Study/Home Office Makeover reaches its rightful conclusion</section>  
             <br />
             <section className="news">Today the make-over of the Study/ Home Office reached its conclusion and after much running up and down stairs returning all
             the books, which had been having a holiday on the 2nd floor, the finishing touches were applied. We worked out that the height climbed
@@ -597,7 +615,7 @@ export default function April2024() {
           
           <div className="datenewsDiv">
             <section className="date">23rd April 2024</section> 
-            <section className="news">Our first cycling trip of the year today - 13 miles - to Lanercost Priory and along by Hadrian's Wall to the village of Walton</section>  
+            <section className="newsheader">Our first cycling trip of the year today - 13 miles - to Lanercost Priory and along by Hadrian's Wall to the village of Walton</section>  
             <br />
             <section className="news">Today the bikes were taken out of storage and dusted down as it was our first cycling trip of the year. We cycled over to Lanercost Priory,
             where we took a break at the café, and then continued on the quieter back roads to the little village of <Link to = "https://en.wikipedia.org/wiki/Walton,_Cumbria"
@@ -626,7 +644,7 @@ export default function April2024() {
 
           <div className="datenewsDiv">
             <section className="date">24th April 2024</section> 
-            <section className="news">6.5 mile walk around the back of Talkin Fell and the Tindale Fells</section>  
+            <section className="newsheader">6.5 mile walk around the back of Talkin Fell and the Tindale Fells</section>  
             <br />
             <section className="news">
               It was a lovely sunny day today, although cold, and so we set out for a walk with the aim to see how we got on...the final result being that we ended up walking the full 6.5 mile circuit 
@@ -680,7 +698,7 @@ and Section 7.2 deals with Aims and Objectives of the scheme.
 
           <div className="datenewsDiv">
             <section className="date">28th April 2024</section> 
-            <section className="news">Visit to the Devil's Porridge Museum and walk Gretna Green</section>  
+            <section className="newsheader">Visit to the Devil's Porridge Museum and walk Gretna Green</section>  
             <br />
             <section className="news">
               We had a very interesting and pleasant day today, visiting a museum which we had long intended to see, and never until today got around to, the 'Devil's Porridge'
@@ -744,6 +762,74 @@ and Section 7.2 deals with Aims and Objectives of the scheme.
             target="_blank" title="Click here to discover more about cuckoo flower">Cuckoo flower</Link> growing in the hedgerows around...</strong></figcaptionApril></section>
             </fig>
           </div>
+
+          <div className="datenewsDiv">
+            <section className="date">30th April 2024</section> 
+            <section className="newsheader">Walk by the river Eden and through Coombs Wood, Armathwaite, Cumbria</section>  
+            <br />
+            <section className="news">
+            The walk from Armathwaite through Coombs Wood and the Longsdales has long been a favourite of ours, especially when we lived in the Eden Valley, when we walked this route regularly.
+            However, following our move, we had not been here to walk since November 2022. It was a sunny, reasonably warm Spring day today and it was bluebell season, meaning the bluebells would be in flower in Coombs wood,
+            so we decided to go walking here in the afternoon.
+            <br/>
+            <br/>
+            We had forgotten how really lovely it is. <Link to = "https://www.visitcumbria.com/evnp/armathwaite/" target="_blank" title='Click here to find out more about Armathwaite>
+          '>Armathwaite</Link> is a small village situated at the crossing of the River Eden, with the most amazing bridge, which during the 2015 floods 
+          in Cumbria was, as we discovered from personal experience, one of the last bridges remaining open and safe to cross.
+          We parked on the bridge, from where you can see the River Eden, which is renowned for its salmon fishing and <Link to = "https://en.wikipedia.org/wiki/Armathwaite_Castle"
+          target="_blank" title="Click here to discover more about Armathwaite Castle">Armathwaite Castle</Link>, which with its 4-sided Pele tower, was built in the 15th Century 
+          to protect the Eden Valley from Scottish raiders. 
+          <br/>
+          <br/>
+          Descending by the bridge, we followed the lovely tree-lined footpath by the Eden, past Armathwaite Castle 
+          and up as far as the old mill weir, from where we started to ascend into Coombs Wood.
+          On meeting the main bridleway through the wood, there is a lovely viewpoint looking down through the trees on to the River Eden, where there are some carved and sculpted stones (forming the stone sculpture <em>Vista</em>) to sit on.
+          We made use of these for a momentary pause before continually ascending upwards through the wood. Eventually, we reached the top of the wood and exited 
+          on to the minor road leading into the Longsdales hamlet. From here we followed the bridleway which drops back down towards the road running between Armathwaite and Ainstable,
+          with excellent views over to the Pennine ridge, including its highest point, Cross Fell. Once back on the road, we returned along this, dropping gradually down into 
+          Armathwaite village to end at one of our favourite pubs, the  <Link to = "https://www.foxandpheasantarmathwaite.co.uk/" target="_blank" title='Click
+          here to find more about the Fox and Pheasant Inn, Armathwaite'>Fox and Pheasant</Link>, where they even have a canine menu now, so that is something 
+          to remember for our canine visitors for the future....
+
+            </section>
+          
+         <div className="blogPhotoDiv">
+            <fig><section className = "blogPhoto" ><img src={EdenNorthArmathwaite} alt="" /><figcaptionApril><strong>Looking North up the River Eden, from the bridge at Armathwaite</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={EdenSouthArmathwaite} alt="" /><figcaptionApril>View of <Link to = "https://en.wikipedia.org/wiki/Armathwaite_Castle" target="_blank" title=
+            "Click here to discover more about Armathwaite Castle">Armathwaite Castle</Link>, seen from the bridge over the River Eden <strong></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ArmathwaiteWoodsJill1} alt="" /><figcaptionApril><strong>Jill, on the footpath through the woods by the River Eden</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={WildWoodAnenomes} alt="" /><figcaptionApril><strong>Wild wood anenomes</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={ArmathwaiteCastle} alt="" /><figcaptionApril><strong>Armathwaite Castle...peeping throught the trees</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={BernardCoombsWood} alt="" /><figcaptionApril><strong>Bernard by the <em>Vista</em> sculptures at the viewpoint, Coombs Wood</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={RiverEdenViewpoint} alt="" /><figcaptionApril><strong>View looking up the River Eden from the <em>Vista</em> viewpoint Coombs Wood</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={DucksSheepLongdales} alt="" /><figcaptionApril><strong>Cute sheep, lambs and ducks, the Longsdales</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={ViewNPennineRidge} alt="" /><figcaptionApril><strong>The Pennine Ridge viewed from the bridleway</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ApproachingArmathwaite} alt="" /><figcaptionApril><strong>Returning into Armathwaite village</strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={FoxandPheasant} alt="" /><figcaptionApril><strong>..to visit one of our favourite pubs..<Link to = "https://foxandpheasantarmathwaite.co.uk/"
+            target="_blank" >The Fox and Pheasant</Link></strong></figcaptionApril></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={Caninemenu} alt="" /><figcaptionApril><strong>...where they even have a Canine menu...</strong></figcaptionApril></section>
+            </fig>
+          </div>
+
+          </div> 
+
 
           {/* <div className="blogPhotoDiv">
           <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaptionApril><strong></strong></figcaptionApril></section>

@@ -41093,8 +41093,8 @@ export default function May2024() {
             <div className="SlideshowHostPhoto">
             <Link to ="https://photos.app.goo.gl/NVX3qrBW2GEf9xg57" target="_blank" title="Click on the link to accompany us on our visit to Holy Island" 
                     ><strong>
-            <div className="slideshowinstructions"><strong><em>Click on the image below to accompany us on our visit to the Holy
-            Island of Lindisfarne</em></strong>
+            <div className="slideshowinstructions"><strong><em>Click on the image below to accompany us on our visit to the Holy Island of Lindisfarne, and then on the individual photos to read the story
+              of our visit. </em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
 
             <img className="slideshowentry" src={LindisfarneCastle} alt="" />

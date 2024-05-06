@@ -41020,10 +41020,8 @@ export default function May2024() {
                We had last visited the island briefly in March 1994, when taking a short break in Berwick-on Tweed, and had long planned to return so now was our opportunity <em>( Ok, ok, I know
                 it has taken us 30 years.....)</em>.
                 <br/>
-                <br/>
-                
-                
-                <figMay><figcaptionMay><em>Here is a photo of Jill on the Holy Island of Lindisfarne back in March 1994...</em></figcaptionMay><img id="JillLindisfarne1993img" src={JillLindisfarne1993} alt="photo Jill Holy Island 1994"></img></figMay>
+                <br/>             
+                <figmay><figcaptionmay><em>Here is a photo of Jill on the Holy Island of Lindisfarne back in March 1994...</em></figcaptionmay><img id="JillLindisfarne1993img" src={JillLindisfarne1993} alt="photo Jill Holy Island 1994"></img></figmay>
                <br/> 
                <br/>
                The Holy Island of Lindisfarne is situated in the North Sea and is a tidal island, which is approached via a paved causeway. It is cut off from the mainland twice 

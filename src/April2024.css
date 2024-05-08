@@ -48,6 +48,7 @@
   flex-direction:column;
   margin-top: 10vh;
   margin-bottom:5vh;
+  padding-top: 10%;
 }
 
 .date{
@@ -123,6 +124,52 @@
       padding:5%;
     }
 
+    /*To ensure on laptops that the sheep are not submerged into the ground*/
+@media screen and (min-width:901px) and (max-width:1600px){
+  #swaledaleSheep1{ transform: translate(-200px,0px); -webkit-transform: translate(-200px,0px); -moz-transform: translate(-200px,0px); -ms-transform: translate(-200px,0px); -o-transform: translate(-200px,0px); overflow: visible;
+}
+  
+  #swaledaleSheep2{
+    transform: translate(-600px,0px);
+    -webkit-transform: translate(-600px,0px);
+    -moz-transform: translate(-600px,0px);
+    -ms-transform: translate(-600px,0px);
+    -o-transform: translate(-600px,0px);
+    overflow: visible;
+}
+  
+  #lamb1{
+    transform: translate(-200px,-20px);
+    -webkit-transform: translate(-200px,-20px);
+    -moz-transform: translate(-200px,-20px);
+    -ms-transform: translate(-200px,-20px);
+    -o-transform: translate(-200px,-20px);
+    overflow: visible;
+}
+  
+  
+  #lamb2{
+    transform: translate(-200px,-20px);
+    -webkit-transform: translate(-200px,-20px);
+    -moz-transform: translate(-200px,-20px);
+    -ms-transform: translate(-200px,-20px);
+    -o-transform: translate(-200px,-20px);
+    overflow: visible;
+}
+
+.April2024header {
+  height:90vh;
+}
+
+#ground{
+  width:400vw;
+  x:-50px;
+  y:480px;
+  height:400px;
+} 
+}
+  
+
     /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
 @media screen and (min-width:402px) and (max-width:900px){
 .blogPhotoDiv{
@@ -141,6 +188,8 @@
     y:480px;
     height:400px;
  } 
+
+
 
 }
 

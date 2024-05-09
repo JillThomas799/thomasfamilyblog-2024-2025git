@@ -171,7 +171,7 @@
   
 
     /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
-@media screen and (min-width:402px) and (max-width:900px){
+@media screen and (min-width:480px) and (max-width:900px){
 .blogPhotoDiv{
   display:flex;
   flex-direction: column;
@@ -181,7 +181,7 @@
   margin-top:2%;
 }
 
-  /*To ensure on ipad screens and larger mobiles that the ground extends to meet the upper margin of the darker body colour */
+  /*To ensure on ipad screens and larger mobiles (min-width 480px, max-width 900px) that the ground extends to meet the upper margin of the darker body colour */
   #ground{
     width:400vw;
     x:-50px;
@@ -190,7 +190,60 @@
  } 
 
 
+/*To ensure on ipad screens and larger mobiles (min-width 480px, max-width 900px) that the sheep and lambs are correctly positioned*/
+ #swaledaleSheep1{ transform: translate(-200px,0px); -webkit-transform: translate(-200px,0px); -moz-transform: translate(-200px,0px); -ms-transform: translate(-200px,0px); -o-transform: translate(-200px,0px); overflow: visible;
+ }
+   
+   #swaledaleSheep2{
+     transform: translate(-600px,0px);
+     -webkit-transform: translate(-600px,0px);
+     -moz-transform: translate(-600px,0px);
+     -ms-transform: translate(-600px,0px);
+     -o-transform: translate(-600px,0px);
+     overflow: visible;
+}
+   
+   #lamb1{
+     transform: translate(-200px,-50px);
+     -webkit-transform:rotate(-30,530, 485);
+     -moz-transform:rotate(-30,530, 485);
+     -ms-transform:rotate(-30,530, 485);
+     -o-transform:rotate(-30,530, 485);
+     overflow: visible;
+}
 
+#lambtail1{
+  transform:translate(5px,10px);
+  -webkit-transform:translate(5px,10px);
+  -moz-transform:translate(5px,10px);
+  -ms-transform:translate(5px,10px);
+  -o-transform:translate(5px,10px);
+}
+
+#lambtail2{
+  transform:translate(0px, -10px);
+  -webkit-transform:translate(0px, -10px);
+  -moz-transform:translate(0px, -10px);
+  -ms-transform:translate(0px, -10px);
+  -o-transform:translate(0px, -10px);
+}
+
+#lamb2
+{
+     transform: translate(-200px,-40px);
+     -webkit-transform: translate(-200px,-40px);
+     -moz-transform: translate(-200px,-40px);
+     -ms-transform: translate(-200px,-40px);
+     -o-transform: translate(-200px,-40px);
+     overflow: visible;
+}
+
+}
+
+/*To ensure on devices  (min-width 598px, max-width 699px) that the April2024header height is correct size*/
+.April2024header{
+  height:90vh;
+  
 }
 
 @media screen and (max-width:480px) {

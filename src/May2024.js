@@ -18,6 +18,7 @@ import ViewfromClachaigInn from "./imagesresized/ViewfromClachaigInn.jpg";
 import ViewBroadfordEveningd1 from "./imagesresized/ViewBroadfordEveningd1.jpg";
 import ViewfromMoerakid1 from "./imagesresized/ViewfromMoerakid1.jpg";
 import MoerakiCottaged1 from "./imagesresized/MoerakiCottaged1.jpg";
+import BernardIntrepidExplorer from "./imagesresized/BernardIntrepidExplorer.jpg";
 
 export default function May2024() {
   return (
@@ -41026,7 +41027,7 @@ export default function May2024() {
             </div>
 
 <div className="datenewsDiv">
-            <section className="date">1st May 2024</section> 
+            <section className="date">1st May 2024, Wednesday</section> 
             <section className="newsheader">Our day trip to the Holy Island of Lindisfarne</section>  
             <br />
             <section className="news">
@@ -41036,7 +41037,7 @@ export default function May2024() {
                 it has taken us 30 years.....)</em>.
                 <br/>
                 <br/>             
-                <figmay><figcaptionmay><em>Here is a photo of Jill on the Holy Island of Lindisfarne back in March 1994...</em></figcaptionmay><img id="JillLindisfarne1993img" src={JillLindisfarne1993} alt="photo Jill Holy Island 1994"></img></figmay>
+                <figmay><figcaptionmay><em> <div className="SlideshowHostPhoto">Here is a photo of Jill on the Holy Island of Lindisfarne back in March 1994...</div></em></figcaptionmay><img id="JillLindisfarne1993img" src={JillLindisfarne1993} alt="photo Jill Holy Island 1994"></img></figmay>
                <br/> 
                <br/>
                The Holy Island of Lindisfarne is situated in the North Sea and is a tidal island, which is approached via a paved causeway. It is cut off from the mainland twice 
@@ -41106,8 +41107,8 @@ export default function May2024() {
             <div className="SlideshowHostPhoto">
             <Link to ="https://photos.app.goo.gl/NVX3qrBW2GEf9xg57" target="_blank" title="Click on the link to accompany us on our visit to Holy Island" 
                     ><strong>
-            <div className="slideshowinstructions"><strong><em>Click on the image below to accompany us on our visit to the Holy Island of Lindisfarne, and then on the individual photos to read the story
-              of our visit. </em></strong>
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/NVX3qrBW2GEf9xg57" target="_blank">Click here</Link> or on the image below to accompany us on our visit to the Holy Island of Lindisfarne.
+            <br /> <br />The individual comments on the photos will take you through the full story of our visit. </em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
 
             <img className="slideshowentry" src={LindisfarneCastle} alt="" />
@@ -41115,7 +41116,7 @@ export default function May2024() {
             </div> {/*Closing div SlideshowHostPhoto*/}
 
             <div className="datenewsDiv">
-            <section className="date">11th May 2024</section>
+            <section className="date">11th May 2024, Saturday</section>
             <section className="newsheader">Day 1 of our holiday in the Isle of Skye - Home to Broadford, Isle of Skye via Loch Lomond, Glencoe and Fort William 292 miles. Depart 8.10 Arrive 16.33</section> 
             <section className="news">Today we (Bernard and Jill) were off on our holiday to Broadford on the Isle of Skye, which is a long but very beautiful drive. Elena and Harry were working back at the house
             with the additional responsibility of minding Lennie, who seemed happy not to have to go into the cattery this time...
@@ -41187,6 +41188,27 @@ export default function May2024() {
             <fig><section className = "blogPhoto" ><img src={Sundown2Broadford} alt="" /><figcaption className='mayfigcaption'><strong>...until finally night fell...</strong></figcaption></section>
             </fig>
           </div>
+
+          <div className="datenewsDiv">
+            <section className="date">12th May 2024, Sunday</section>
+            <section className="newsheader">Day 2 of our holiday in the Isle of Skye - Walk on the Rubha Ardnish Peninsula 5.5 miles</section> 
+            <section className="news">
+              For day 2 of our holiday we decided to undertake a walk which we had not had the opportunity to previously, but has been described as being excellent for 
+               <Link to="https://www.walkhighlands.co.uk/skye/rubhaardnish.shtml" target="_blank"> bird and widlife-watching</Link>, the Rubha Ardnish Peninsula walk.
+            We had the advantage also that, by lengthening the walk by a couple of miles, we could walk on foot from our accommodation...
+            </section>
+            </div> 
+
+            <div className="SlideshowHostPhoto">
+            <Link to ="https://photos.app.goo.gl/4zSUkh2Hihr8q8GV9" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our visit to the Rubha Ardnish Peninsula, Broadford, Isle of Skye" 
+                    ><strong>
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/4zSUkh2Hihr8q8GV9" target="_blank">Click here </Link> or on the image below to open the photo album of our visit to the Rubha Ardnish Peninsula, Broadford, Isle of Skye. 
+            <br /> <br />The individual comments on the photos will take you through the full story of our trip.</em></strong>
+            </div>   {/*Closing div slideshowinstructions*/}
+
+            <img className="slideshowentry" src={BernardIntrepidExplorer} alt="" />
+            </strong></Link>
+            </div> {/*Closing div SlideshowHostPhoto*/}
 
           {/* <div className="blogPhotoDiv">
           <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>

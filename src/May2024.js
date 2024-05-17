@@ -3,6 +3,21 @@ import { Link } from "react-router-dom";
 import './May2024.css';
 import LindisfarneCastle from "./imagesresized/LindisfarneCastle.jpg";
 import JillLindisfarne1993 from "./imagesresized/JillLindisfarne1993.jpg";
+import ApproachingErskine from "./imagesresized/ApproachingErskine.jpg";
+import BernardAnTorrWoodland from "./imagesresized/BernardAnTorrWoodland.jpg";
+import LennieHappyNoSnuggles from "./imagesresized/LennieHappyNoSnuggles.jpg";
+import BernardCostaHamiltonservices from "./imagesresized/BernardCostaHamiltonservices.jpg";
+import BernardMoerakid1 from "./imagesresized/BernardMoerakid1.jpg";
+import ClachaigInn from "./imagesresized/ClachaigInn.jpg";
+import JillClachaigInn from "./imagesresized/JillClachaigInn.jpg";
+import JillMoerakid1 from "./imagesresized/JillMoerakid1.jpg";
+import SkyeBridged1 from "./imagesresized/SkyeBridged1.jpg";
+import Sundown1Broadford from "./imagesresized/Sundown1Broadford.jpg";
+import Sundown2Broadford from "./imagesresized/Sundown2Broadford.jpg";
+import ViewfromClachaigInn from "./imagesresized/ViewfromClachaigInn.jpg";
+import ViewBroadfordEveningd1 from "./imagesresized/ViewBroadfordEveningd1.jpg";
+import ViewfromMoerakid1 from "./imagesresized/ViewfromMoerakid1.jpg";
+import MoerakiCottaged1 from "./imagesresized/MoerakiCottaged1.jpg";
 
 export default function May2024() {
   return (
@@ -41098,6 +41113,107 @@ export default function May2024() {
             <img className="slideshowentry" src={LindisfarneCastle} alt="" />
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
+
+            <div className="datenewsDiv">
+            <section className="date">11th May 2024</section>
+            <section className="newsheader">Day 1 of our holiday in the Isle of Skye - Home to Broadford, Isle of Skye via Loch Lomond, Glencoe and Fort William 292 miles. Depart 8.10 Arrive 16.33</section> 
+            <section className="news">Today we (Bernard and Jill) were off on our holiday to Broadford on the Isle of Skye, which is a long but very beautiful drive. Elena and Harry were working back at the house
+            with the additional responsibility of minding Lennie, who seemed happy not to have to go into the cattery this time...
+            <br />
+            <br />            
+            This was our 5th visit to the island, and on the last visit there had been two serious accidents en route: the first necessitating a very lengthy 2 hour diversion and the 
+            second closing the road for 5 hours the traffic only getting moving when Elena donned a high-vis jacket and strode down the road saying she was 'going to see what was going on'...miraculously,
+            at that point, the traffic started to move...! These delays meant however that we only arrived at our destination near Dunvegan at 5am! We were hoping this time that all would run smoothly.
+            <br />
+            <br />
+            First stop was the Hamilton motorway services 10 miles south of Glasgow and then on through Glasgow and over the Erskine Bridge, along the banks of Loch Lomond 
+            and on through Crianlarich and Bridge of Orchy into the Glencoe valley, where we intended to have lunch at the Glencoe Visitor's Centre. However a loss of 3G/4G connection
+            meant Google took us instead to the <Link to="https://clachaig.com/" target="_blank" title="Click here to find more about the
+            Clachaig Inn">Clachaig Inn, Glencoe</Link>, which was fine as we had a drink there and then walked down through <Link to ="https://www.wildlochaber.com/glencoe/walking/an-torr-and-signal-rock" target="_blank">An Torr Wood</Link> and sat to have our sandwiches by the River Coe. 
+            Unfortunately, there was not time to walk a little further to see Signal Rock where, according to legend, the signal was given by the Campbells for the Glencoe Massacre.
+            Then after lunch it was on to Fort William, where there are a number of stores (including Aldi, M and S Food to Go and Morrisons stores) to stock up with provisions before reaching Skye.
+            Finally, it was northwards to Inverrary, Shiel Bridge and Kyle of Lochalsh before crossing the bridge to Skye and after a short drive, reaching our accommodation.
+            <br />
+            <br />
+            Previously we had stayed all over the Isle of Skye both down on the Sleat Peninsula, near to Dunvegan on 2 occasions and in Portree town once. On this 
+            occasion we were staying close to Broadford, which is just 7.5 miles after the Skye Bridge. Whilst Broadford can be a bit busy for our liking, as we tend to prefer somewhere quieter and more remote, the accomodation we had chosen
+             had the distinct advantage of being within walking distance of the Coop <em>(very important)</em> on the safety of a pavement (not always the case in Skye). There are also a number 
+             of walks from Broadford which do not necessitate taking the car out.
+             <br />
+             <br />
+             The good news was that this time we had arrived safely with no problems, so time to unpack, go for a walk to explore the village and relax to watch the sun go down ....
+            
+            </section>
+            </div> 
+
+            <div className="blogPhotoDiv">
+            <fig><section className = "blogPhoto" ><img src={LennieHappyNoSnuggles} alt="" /><figcaption className='mayfigcaption'><strong>We left Lennie happy ... <br /> at home rather than in the cattery....</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={BernardCostaHamiltonservices} alt="" /><figcaption className='mayfigcaption'><strong>After an hour and a half we took <br /> a break at Hamilton services <br /> just before Glasgow...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ApproachingErskine} alt="" /><figcaption className='mayfigcaption'><strong>Then it was on through Glasgow <br /> and over the Erskine Bridge, <br /> the first way-marker on our journey.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ClachaigInn} alt="" /><figcaption className='mayfigcaption'><strong>Clachaig Inn, Glencoe ... </strong></figcaption></section>
+            </fig>
+          </div>
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={JillClachaigInn} alt="" /><figcaption className='mayfigcaption'><strong>....where we enjoyed a lunchtime <br /> drink in the sunshine...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ViewfromClachaigInn} alt="" /><figcaption className='mayfigcaption'><strong>..and from where there are amazing views <br /> of the Glencoe mountains including towards <br /> Stob Coire nan Beith and Stob Coire nan Lochan...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={BernardAnTorrWoodland} alt="" /><figcaption className='mayfigcaption'><strong>Then we walked through An Torr Wood <br /> and sat to have our sandwiches <br /> by the River Coe...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={SkyeBridged1} alt="" /><figcaption className='mayfigcaption'><strong>Onwards with our journey <br /> until we reach the bridge to Skye...</strong></figcaption></section>
+            </fig>
+          </div>
+
+          <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={MoerakiCottaged1} alt="" /><figcaption className='mayfigcaption'><strong>...and finally, we arrived at our accommodation....</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={ViewfromMoerakid1} alt="" /><figcaption className='mayfigcaption'><strong>...and admired the view...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={BernardMoerakid1} alt="" /><figcaption className='mayfigcaption'><strong>...Bernard taking the opportunity to <br /> make the most of the lovely weather...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={JillMoerakid1} alt="" /><figcaption className='mayfigcaption'><strong>...and also Jill...</strong></figcaption></section>
+            </fig>
+          </div>
+
+           <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={ViewBroadfordEveningd1} alt="" /><figcaption className='mayfigcaption'><strong>As the evening came in, we admired the view </strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={Sundown1Broadford} alt="" /><figcaption className='mayfigcaption'><strong>...and watched the sun going down...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={Sundown2Broadford} alt="" /><figcaption className='mayfigcaption'><strong>...until finally night fell...</strong></figcaption></section>
+            </fig>
+          </div>
+
+          {/* <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
+            </fig>
+          </div> */}
+
+          {/* <div className="blogPhotoDiv">
+          <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
+            </fig>
+          </div> */}
+
+
+
+
+
 
   </div>
   )

@@ -135,11 +135,11 @@
         vertical-align: top;
       }
 
-      figmay figcaptionmay {
+      .mayfigcaption {
         text-align: center;
         font-family: bold;
         color:#36454F;
-        font-size: 1.2em;
+        font-size: 1.0rem;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         overflow-wrap:normal;
         padding-top:5%;

@@ -19,6 +19,7 @@ import ViewBroadfordEveningd1 from "./imagesresized/ViewBroadfordEveningd1.jpg";
 import ViewfromMoerakid1 from "./imagesresized/ViewfromMoerakid1.jpg";
 import MoerakiCottaged1 from "./imagesresized/MoerakiCottaged1.jpg";
 import BernardIntrepidExplorer from "./imagesresized/BernardIntrepidExplorer.jpg";
+import JillCoireChatAchanWalk from "./imagesresized/JillCoireChatAchanWalk.jpg";
 
 export default function May2024() {
   return (
@@ -41207,6 +41208,48 @@ export default function May2024() {
             </div>   {/*Closing div slideshowinstructions*/}
 
             <img className="slideshowentry" src={BernardIntrepidExplorer} alt="" />
+            </strong></Link>
+            </div> {/*Closing div SlideshowHostPhoto*/}
+
+            <div className="datenewsDiv">
+            <section className="date">13th May 2024, Monday</section>
+            <section className="newsheader">Day 3 of our holiday in the Isle of Skye - Walk to Coire Chat-Achan 9 miles</section> 
+            <section className="news">
+              For day 3 of our holiday we set off at 9.30 am on a walk which we have done in the past and remember enjoying. This should have been 
+              a relatively straightforward 5 3/4 mile circular walk from Harrapool, Broadford to Coire  Chat-Achan, but ended up being somewhat of a 9 mile trek due to an 
+              <Link to="https://en.wikipedia.org/wiki/Uncharted_4:_A_Thief%27s_End" target="_blank">'Uncharted'</Link>
+              -type detour up the lower slopes of <Link to="https://www.walkhighlands.co.uk/corbetts/beinn-dearg-mor" target="_blank" title="Click here to discover 
+              more about Beinn Dearg Mòr ">Beinn Dearg Mòr</Link>. 
+              <br />
+              <br />
+              <Link to="https://canmore.org.uk/site/11588/skye-coire-chat-achan" target="_blank" title="Click here to discover more about Coire Chat-Achan">Coire Chat-Achan </Link> 
+               is the now ruined old mansion house of the Chief of the Mackinnon's where Dr Samuel Johnson author of the first dictionary of the English language, poet, playwright and essayist along with his travelling companion 
+              James Boswell himself a renowned writer, were entertained in 1773 on their travels around Scotland as part of the tour that would form the 
+              basis for his much acclaimed works; <Link to="https://en.wikipedia.org/wiki/A_Journey_to_the_Western_Islands_of_Scotland" target="_blank"> A Journey to the Western Islands of Scotland (Johnson) </Link> and The Journal of a Tour to the Hebrides with 
+              Samuel Johnson, LL.D (Boswell). At the time there were no roads on the Isle of Skye.... 
+              
+              <br />
+              <br />
+              Today however, we were commencing our walk a mile further down the road from Broadford in the other direction, which is where our accommodation 
+              was situated and it was all going to turn into a bit of an adventure. Bernard loved it as he went into full <Link to="https://en.wikipedia.org/wiki/Uncharted_4:_A_Thief%27s_End" target="_blank">'Uncharted' </Link> 
+              mode and had us going through bogs and fording streams until I pointed out we were at risk of getting totally lost and that we appeared to be 
+              completely off-course. Join us below on our adventure....
+              <br />
+              <br />
+              
+            </section>
+            </div> 
+
+            <div className="SlideshowHostPhoto">
+            <Link to ="https://photos.app.goo.gl/kBwdPJxH4fiRnY1U9" target="_blank" title="Click on the link and read the full comments on each 
+            photo to accompany us on our walk to Coire Chat-Achan, Broadford, Isle of Skye">
+                    <strong>
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/kBwdPJxH4fiRnY1U9" target="_blank">Click here </Link> or on the image below to open the photo album 
+            of our walk to Coire Chat-Achan, Broadford, Isle of Skye. 
+            <br /> <br />The individual comments on the photos will take you through the full story of our trip.</em></strong>
+         </div>   {/*Closing div slideshowinstructions*/}
+
+            <img className="slideshowentry" src={JillCoireChatAchanWalk} alt="" />
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
 

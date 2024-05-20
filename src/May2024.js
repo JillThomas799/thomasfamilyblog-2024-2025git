@@ -20,6 +20,8 @@ import ViewfromMoerakid1 from "./imagesresized/ViewfromMoerakid1.jpg";
 import MoerakiCottaged1 from "./imagesresized/MoerakiCottaged1.jpg";
 import BernardIntrepidExplorer from "./imagesresized/BernardIntrepidExplorer.jpg";
 import JillCoireChatAchanWalk from "./imagesresized/JillCoireChatAchanWalk.jpg";
+import JillArmadale from "./imagesresized/JillArmadale.jpg";
+import BernardLochCoruisk from "./imagesresized/BernardLochCoruisk.jpg";
 
 export default function May2024() {
   return (
@@ -41250,6 +41252,94 @@ export default function May2024() {
          </div>   {/*Closing div slideshowinstructions*/}
 
             <img className="slideshowentry" src={JillCoireChatAchanWalk} alt="" />
+            </strong></Link>
+            </div> {/*Closing div SlideshowHostPhoto*/}
+
+            <div className="datenewsDiv">
+            <section className="date">14th May 2024, Tuesday</section>
+            <section className="newsheader">Day 4 of our holiday in the Isle of Skye - Visit to Armadale Castle and Chocolates of Glenshiel</section> 
+            <section className="news">
+             <Link to="https://www.armadalecastle.com/" target="_blank" title="Click here to discover more about Armadale Castle"> Armadale Castle</Link> , Sleat, 
+             in the south of Skye, has long been a favourite place of ours to visit when we are here on the Isle of Skye. We particularly like it because it has a spectacular and sheltered location,
+            enjoys stunning views across the Sound of Sleat to the mountains of Knoydart on the Scottish mainland and gives access in total to about
+             40 acres including several walking trails, gardens, a ruined castle which was the former manor house of the Macdonald chiefs, and the <Link to="https://www.armadalecastle.com/explore/museum/"
+             target="_blank" title="Click here to discover more about Museum of the Isles">Museum of the Isles</Link> where there is much to be learned about Macdonald and Highland history.
+             Since 1971, it has, together with the castle gardens and the surrounding highland estate been owned and managed by the <Link to="https://www.armadalecastle.com/about/who-we-are/"
+             target="_blank">Clan Donald Lands Trust</Link> , a Scottish charitable trust dedicated to promoting and preserving 
+             it for future generations.
+             <br />
+             <br />
+             It was raining when we arrived at the castle, so it was an opportunity to grab a coffee in <em>The Stables</em> café. After a while 
+             however the rain slackened and we were able to go round the gardens where the Rhodedendra were in flower. After a light lunch
+              we walked up round one of the longer trails on the highland estate. There were lots of bluebells in flower so it was very pretty
+              with some spectacular views.
+            <br />      
+            <br />
+            Once we had finished at the castle, we headed off to <Link to="https://www.chocolatesofglenshiel.com/" target="_blank"
+            title="Click here to discover more about Glenshiel chocolates">Glenshiel Chocolates</Link> on the mainland as we needed some presents
+            and these chocolate producers seemed to have a good reputation. It would seem so anyway, as when we arrived at the shop,
+            which is only small and is situated at the side of the A87, at the foot of <em>The Five Sisters of Kintail</em>, it was extremely busy. They were also doing a good trade 
+            in coffees, which was great as we could avail ourselves of one before our return journey.
+            </section>
+            </div> 
+
+            <div className="SlideshowHostPhoto">
+            <Link to ="https://photos.app.goo.gl/kdtqMoPk7uS8fNfu9" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our visit to Armadale Castle and Chocolates of Glenshiel, Isle of Skye" 
+                    ><strong>
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/kdtqMoPk7uS8fNfu9" target="_blank">Click here </Link> or on the image below to open the photo album of our visit to Armadale Castle and Chocolates of Glenshiel, Isle of Skye. 
+            <br /> <br />The individual comments on the photos will take you through the full story of our trip.</em></strong>
+            </div>   {/*Closing div slideshowinstructions*/}
+
+            <img className="slideshowentry" src={JillArmadale} alt="" />
+            </strong></Link>
+            </div> {/*Closing div SlideshowHostPhoto*/}
+
+            <div className="datenewsDiv">
+            <section className="date">15th May 2024, Tuesday</section>
+            <section className="newsheader">Day 5 of our holiday in the Isle of Skye - Loch Coruisk Misty Isle Boat Trip and at last, the otter makes an appearance! </section> 
+            <section className="news">
+             Today was the day for heading the 15 miles on the single track road all the way over to Elgol, to travel to Loch Coruisk on our 
+              <Link to="https://mistyisleboattrips.co.uk/" target="_blank" title="Click here ot discover more about the Misty Isle Boat Trips"> Misty Isle Boat Trip</Link>,
+              which is a  <Link to="https://mistyisleboattrips.co.uk/about/our-people/" target="_blank"> local family-owned business </Link>  since 1969. The previous 
+              occasions when we had driven this road it had been moderately challenging due to the distance involved as a single-track, although there are frequent passing places.
+              This time around, after living in our current home which can only be accessed by a single track road for the past few years, it seemed much more straightforward, although
+              care is still required as the vehicles can be travelling very quickly.
+              <br />
+              <br />
+             There are currently two companies which run these trips, <Link to="https://mistyisleboattrips.co.uk/" target="_blank" title="Click here ot discover more about the Misty Isle Boat Trips"> Misty Isle Boat Trips </Link>
+              and <Link to="https://www.bellajane.co.uk/" target="_blank" title="Click here to discover more about the Bella Jane Boat Trips"> Bella Jane Boat Trips</Link> . We can only comment on the 
+             <Link to="https://mistyisleboattrips.co.uk/" target="_blank" title="Click here ot discover more about the Misty Isle Boat Trips"> Misty Isle Boat Trip</Link>, as this is the one we went on, but both seem popular 
+             from both <Link to="https://www.tripadvisor.co.uk/Attraction_Review-g1224708-d1544341-Reviews-Misty_Isle_Boat_Trips-Elgol_Isle_of_Skye_The_Hebrides_Scotland.html" target="_blank">Misty Isle Boat reviews</Link> and
+             <Link to="https://www.tripadvisor.co.uk/Attraction_Review-g1224708-d2287003-Reviews-Bella_Jane_Boat_Trips_AquaXplore-Elgol_Isle_of_Skye_The_Hebrides_Scotland.html" target="_blank"> Bella Jane Boat reviews</Link>. 
+             <br />
+             <br />
+             Firstly, on leaving Elgol and approaching the Black Cuillins by boat, it is necessary to cross Loch Scavaig. The loch is nearly 2 miles (3 kilometres) long, but only about 400 yards (370 metres) wide.
+             On disembarking at the jetty, one climbs up over a rocky path towards Loch Coruisk. Before long, From the southern end the Scavaig River, only a few hundred yards long can be seen discharging into Loch Scavaig. 
+            Loch Coruisk is an inland fresh-water loch, lying at the foot of the Black Cuillin, which can only be reached by either a long walk from Sligachan
+             or from Kilmarie or Elgol via the notorious <Link to="https://www.youtube.com/watch?v=bXFUQJBrbuY" target="_blank">'Bad Step'</Link>. 
+             <br />
+             <br />
+             We had a fantastic day and could not have hoped for better weather. We were also fortunate in being able to undertake this trip outside peak-season
+             as we learned it can get very busy at peak times....
+             <br/>
+             <br />
+             We invite you to join us below on our adventure....
+            </section>
+            </div> 
+
+            <div className="SlideshowHostPhoto">
+            <Link to ="https://photos.app.goo.gl/ah3B1KL8xyfdn8LM6" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our Loch Coruisk Misty Isle Boat Trip and the appearance of the otter" 
+                    ><strong>
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/ah3B1KL8xyfdn8LM6" target="_blank">Click here </Link> or on the image below to open the photo and video album of our Loch Coruisk Misty Isle Boat Trip and the appearance of the otter. 
+            <br /> <br />The individual comments on the photos will take you through the full story of our trip. 
+            <br />
+            <br />
+            For anyone who may have trouble 
+            with the streaming of the videos in this album, they are also available via these You Tube links: <Link to="https://youtu.be/fg5GMTLEeEs" target="_blank"> See the Seals </Link>
+             and <Link to="https://youtu.be/u6uCUjkHEMs" target="_blank">See the Otter</Link> </em></strong>
+            </div>   {/*Closing div slideshowinstructions*/}
+
+            <img className="slideshowentry" src={BernardLochCoruisk} alt="" />
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
 

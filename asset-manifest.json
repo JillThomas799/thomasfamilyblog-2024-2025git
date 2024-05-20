@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thomasfamilyblog-2024-2025git/static/css/main.f534ad86.css",
-    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.3f600da7.js",
+    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.a8467a97.js",
     "static/js/488.6f20adc3.chunk.js": "/thomasfamilyblog-2024-2025git/static/js/488.6f20adc3.chunk.js",
     "static/media/WildWoodAnenomes.jpg": "/thomasfamilyblog-2024-2025git/static/media/WildWoodAnenomes.a0ad7c80ae9d413bddf2.jpg",
     "static/media/ArmathwaiteCastle.jpg": "/thomasfamilyblog-2024-2025git/static/media/ArmathwaiteCastle.e266340064b690131c2d.jpg",
@@ -66,6 +66,7 @@
     "static/media/CatWillCumbrianFelt.jpg": "/thomasfamilyblog-2024-2025git/static/media/CatWillCumbrianFelt.16e2fda5bc7e6faa408a.jpg",
     "static/media/DaffodilsVillageExitApril24.jpg": "/thomasfamilyblog-2024-2025git/static/media/DaffodilsVillageExitApril24.9c1314348c617a8ba0ef.jpg",
     "static/media/QuintinshillWalkDeparture.jpg": "/thomasfamilyblog-2024-2025git/static/media/QuintinshillWalkDeparture.0046c9de07b82c4ea0f9.jpg",
+    "static/media/BernardLochCoruisk.jpg": "/thomasfamilyblog-2024-2025git/static/media/BernardLochCoruisk.058f630406682872b098.jpg",
     "static/media/CatWillPetShopNotice.jpg": "/thomasfamilyblog-2024-2025git/static/media/CatWillPetShopNotice.bd497251414837225108.jpg",
     "static/media/FirelessLocomotiveSirJames.jpg": "/thomasfamilyblog-2024-2025git/static/media/FirelessLocomotiveSirJames.0b7826afba50d62697f1.jpg",
     "static/media/ArchieCatFood.jpg": "/thomasfamilyblog-2024-2025git/static/media/ArchieCatFood.0a794ca59ebd2ac0b7e3.jpg",
@@ -112,11 +113,11 @@
     "static/media/JillLindisfarne1993.jpg": "/thomasfamilyblog-2024-2025git/static/media/JillLindisfarne1993.354226dad246673c3824.jpg",
     "index.html": "/thomasfamilyblog-2024-2025git/index.html",
     "main.f534ad86.css.map": "/thomasfamilyblog-2024-2025git/static/css/main.f534ad86.css.map",
-    "main.3f600da7.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.3f600da7.js.map",
+    "main.a8467a97.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.a8467a97.js.map",
     "488.6f20adc3.chunk.js.map": "/thomasfamilyblog-2024-2025git/static/js/488.6f20adc3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f534ad86.css",
-    "static/js/main.3f600da7.js"
+    "static/js/main.a8467a97.js"
   ]
 }

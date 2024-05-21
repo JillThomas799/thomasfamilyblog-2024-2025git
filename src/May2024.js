@@ -22,6 +22,8 @@ import BernardIntrepidExplorer from "./imagesresized/BernardIntrepidExplorer.jpg
 import JillCoireChatAchanWalk from "./imagesresized/JillCoireChatAchanWalk.jpg";
 import JillArmadale from "./imagesresized/JillArmadale.jpg";
 import BernardLochCoruisk from "./imagesresized/BernardLochCoruisk.jpg";
+import NyeProgramme from "./imagesresized/NyeProgramme.jpg";
+import PortreeHarbour from "./imagesresized/PortreeHarbour.jpg";
 
 export default function May2024() {
   return (
@@ -41119,6 +41121,37 @@ export default function May2024() {
             </div> {/*Closing div SlideshowHostPhoto*/}
 
             <div className="datenewsDiv">
+            <section className="date">9th May 2024, Thursday</section>
+            <section className="newsheader">'Nye', National Theatre Live</section> 
+            <section className="news">
+              This evening we all met up at the <Link to="https://rheged.com/" target="_blank" title="Click here to discover more about the Rheged Centre">
+              Rheged Centre</Link> for the <Link to="https://nye.ntlive.com/"
+              target="_blank">National Theatre Live </Link> performance of  <Link to="https://www.nationaltheatre.org.uk/productions/nye/"
+              target="_blank" title="Click here to discover more about Tim Price's new play 'Nye'">'Nye'</Link> , which was being shown on Screen 1.
+              We had heard and read some very positive <Link to="https://www.theguardian.com/commentisfree/2024/mar/14/michael-sheen-nye-aneurin-bevan-nhs-welsh-actor-national-theatre"
+              target="_blank">reviews</Link> about this play and whilst we had been to a <em>Live Streaming</em> performance at the Alhambra Cinema in Penrith
+              previously, we had never seen any <em>Live Streaming</em> performances at the <Link to="https://rheged.com/" target="_blank" title="Click here to discover more about the Rheged Centre">
+              Rheged Centre</Link>.
+              <br />
+              <br />
+              There was a very good audience turn out and with Screen 1 being the largest of the 2 Rheged cinema screens, together with  the impressive
+              audio surround sound and visual effects, it gave an immersive effect similar to sitting in a live theatre. <Link to="https://www.nationaltheatre.org.uk/artists/michael-sheen/" target="_blank"
+              title="Click here to discover more about Michael Sheen"> Michael Sheen </Link> was excellent as <Link to="https://en.wikipedia.org/wiki/Aneurin_Bevan" target="_blank"
+                title="Click here to discover more about Aneurin Bevin">Aneurin 'Nye' Bevin</Link>. 
+                <br />
+                <br />
+              Being so far away from London, we will be exploring seeing more <em>Live Streaming</em> performances at this location as there are regular performances scheduled
+              of plays, operas, ballets, music performances and art exhibitions. From our own personal point of view we prefer it to London as it is quieter, cheaper,
+              and there is parking immediately outside making it an altogether pleasanter experience, but naturally for people who enjoy the hustle and bustle and dining scene of the West End   
+              in London, it may be a less preferable experience. </section>
+            </div> 
+
+            <div className="SlideshowHostPhoto">
+            <img className="slideshowentry1" src={NyeProgramme} alt="" />
+            </div> {/*Closing div SlideshowHostPhoto*/}
+
+
+            <div className="datenewsDiv">
             <section className="date">11th May 2024, Saturday</section>
             <section className="newsheader">Day 1 of our holiday in the Isle of Skye - Home to Broadford, Isle of Skye via Loch Lomond, Glencoe and Fort William 292 miles. Depart 8.10 Arrive 16.33</section> 
             <section className="news">Today we (Bernard and Jill) were off on our holiday to Broadford on the Isle of Skye, which is a long but very beautiful drive. Elena and Harry were working back at the house
@@ -41295,7 +41328,7 @@ export default function May2024() {
             </div> {/*Closing div SlideshowHostPhoto*/}
 
             <div className="datenewsDiv">
-            <section className="date">15th May 2024, Tuesday</section>
+            <section className="date">15th May 2024, Wednesday</section>
             <section className="newsheader">Day 5 of our holiday in the Isle of Skye - Loch Coruisk Misty Isle Boat Trip and at last, the otter makes an appearance! </section> 
             <section className="news">
              Today was the day for heading the 15 miles on the single track road all the way over to Elgol, to travel to Loch Coruisk on our 
@@ -41342,6 +41375,43 @@ export default function May2024() {
             <img className="slideshowentry" src={BernardLochCoruisk} alt="" />
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
+
+            <div className="datenewsDiv">
+            <section className="date">16th May 2024, Thursday</section>
+            <section className="newsheader">Day 6 of our holiday in the Isle of Skye - Scorrybreac and the Bile, Portree and Irishman's Point, Broadford </section> 
+            <section className="news">
+             Today, we decided to drive to Portree, the capital of Skye in the morning in order to undertake the short <Link to="https://www.isleofskye.com/skye-guide/top-ten-skye-walks/scorrybreac" target="_blank">
+              walk round Scorrybreac and the Bile</Link>. This is a popular walk and whilst it is only short, it is of average severity as it involves a short but steepish climb at one point 
+              and some slightly rough areas underfoot. There are however some lovely views of Portree Bay and Harbour Front and Ben Tianavaig mountain. 
+              <br />
+              <br />
+              We had noticed an American HAL cruise ship moored in the bay as we were undertaking the walk, so that when we returned into Portree town to 
+              do some shopping, the town was extremely busy, so we returned back to Broadford.
+              <br />
+              <br />
+              In the afternoon, it was beautifully sunny so we walked over to <Link to="https://www.walkhighlands.co.uk/skye/irishmanspoint.shtml" target="_blank"
+              title="Click here to discover more about Rubh an Eireannaich, Broadford">Rubh an Eireannaich/Irishman's Point</Link>.
+              <br />
+              <br />
+             We invite you to join us below on our adventure....
+            </section>
+            </div> 
+
+            <div className="SlideshowHostPhoto">
+            <Link to ="https://photos.app.goo.gl/QeEq5Pi9WNXz1g9v5" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our Loch Coruisk Misty Isle Boat Trip and the appearance of the otter" 
+                    ><strong>
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/QeEq5Pi9WNXz1g9v5" target="_blank">Click here </Link> or on the image below to open the photo album of our Scorrybreac and the Bile, Portree and Irishman's Point, Broadford. 
+            <br /> <br />The individual comments on the photos will take you through the full story of our trip. 
+            <br />
+            <br />
+            </em></strong>
+            </div>   {/*Closing div slideshowinstructions*/}
+
+            <img className="slideshowentry" src={PortreeHarbour} alt="" />
+            </strong></Link>
+            </div> {/*Closing div SlideshowHostPhoto*/}
+
+            
 
           {/* <div className="blogPhotoDiv">
           <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>

@@ -24,6 +24,7 @@ import JillArmadale from "./imagesresized/JillArmadale.jpg";
 import BernardLochCoruisk from "./imagesresized/BernardLochCoruisk.jpg";
 import NyeProgramme from "./imagesresized/NyeProgramme.jpg";
 import PortreeHarbour from "./imagesresized/PortreeHarbour.jpg";
+import FerryOriginalGlenelg from "./imagesresized/FerryOriginalGlenelg.jpg";
 
 export default function May2024() {
   return (
@@ -41408,6 +41409,77 @@ export default function May2024() {
             </div>   {/*Closing div slideshowinstructions*/}
 
             <img className="slideshowentry" src={PortreeHarbour} alt="" />
+            </strong></Link>
+            </div> {/*Closing div SlideshowHostPhoto*/}
+
+            <div className="datenewsDiv">
+            <section className="date">17th May 2024, Friday</section>
+            <section className="newsheader">Day 6 of our holiday in the Isle of Skye - Kyle Station Museum, The Original Skye Ferry Crossing from Kylerhea to Glenelgh and the Kylerhea Otter Hide </section> 
+            <section className="news">
+              In the morning, as the weather was dull, we headed over to Kyle of Lochalsh to visit the <Link to="https://www.kylestationmuseum.org/" target="_blank" title="Click here to discover more about the Kyle Station Museum">
+                Kyle Station Museum</Link>. Whilst small, it is a very interesting museum which is run by volunteers and tells the story of Kyle harbour, West Coast fishing and the Kyle Line railway. 
+                It also tells the very sad story of the <Link to="https://www.bbc.co.uk/news/uk-scotland-46522918" target="_blank" title="Click here to find out more about the Iolaire disaster">
+                Iolaire Disaster </Link> in January 1919 .
+                It cost £5.00 each for us to enter and takes between 30-45 minutes to look around. It contains, amongst other things, information about how people 
+                travelled ‘over the sea to Skye’ before the Skye Bridge opened on the 16 October 1995. This latter set us up for later in the day, when we travelled on the Old Military Road from Glenshiel,
+                over the mountain to Glenelg, to undertake the 550 metre crossing across the Kyle Rhea Strait, which is the narrowest point between the mainland and Skye and was previously 
+                used as the main crossing point to and from the island. 
+                <br />
+                <br />
+                
+                We travelled across the Kyle Rhea Strait using the <Link to="https://skyeferry.co.uk/" target="_blank" title="Click here to discover more about the Original Skye Ferry between Kylerhea and Glenelg">Old Skye Ferry</Link> crossing.
+                The boat we travelled on was the <Link to="https://skyeferry.co.uk/the-glenachulish-ferry/" target="_blank">MV Glenachulish</Link> . This boat was built in 1969 and is a manually-operated turntable ferry (as far as we are aware, the last of its 
+                kind operating in the world). The ferry has a capacity of 6 cars but will allow any variation of foot passengers and vehicles within its safety specifications (maximum 12 passengers).
+                The ferry initially served near Ballachulish on Loch Leven but in 1975 was replaced there by a bridge, so in 1982 the ferry came to serve at the strait between Kylerhea and Glenelg.
+                <br />
+                <br />
+                The drive over to the ferry from Glenshiel via the <Link to="https://www.secret-scotland.com/blog/scotland-travel-blog-january-2015"
+                target="_blank">Bealach Ratagain</Link> may bring back memories for those who, like us, have driven some of the high European passes,
+                the route being on a narrow single track road with passing places and some spectacular views. A short video of a motorcyclist and his dog driving this route down
+                to the ferry can be found on this <Link to="https://skyeferry.co.uk/journey/" target="_blank" title="Click here to experience the exhilarating ride down to the ferry"> Journey to the Ferry </Link> link (keep a 
+                look out for the motorcyclist's very entertaining dog!). There is also our footage of part of this journey via the link to our photo and video album below. 
+                Keep an eye out also for the sign as you enter Glenelg village explaining that 'GLENELG(earth) is twinned with GLENELG(Mars). In fact, Glenelg is recognised by 
+                Nasa as the twin of the Glenelg Intrigue on the Red Planet as is explained in <Link to="https://www.scottishdailyexpress.co.uk/lifestyle/remote-scottish-village-twinned-mars-31202633"
+                target="_blank"> this </Link> article .
+                <br />
+                <br/>
+
+                On arrival at the ferry, we had a short wait as the 2 ferrymen were taking their well-earned lunch break, then it was time for them to 
+                bring the ferry over, operate the turntable ferry to off-load the passengers and reload for the return journey. More additional interesting information about the
+                ferry can be found in this informative article <Link to="https://www.myhighlands.de/en/glenelg-skye-ferry/" target="_blank"> here </Link> . The dogs mentioned in the article were both there
+                on the day we travelled and magically, as we crossed the Strait, there were 2 seals swimming along in the water at the side of the ferry....
+             <br />
+             <br />
+            Once safely on the other side, we headed to undertake the walk at the 
+             <Link to="https://www.isleofskye.com/skye-guide/skye-walks/island-walks/kylerhea-otter-hide" target="_blank" title="Click here to discover more about the Kylerhea Otter Hide"> Kylerhea Otter Hide </Link> .
+             We did not see any otters on this particular day, but having seen an otter in close up <Link to="https://youtu.be/u6uCUjkHEMs" target="_blank">earlier in the week</Link> . It is worth mentioning that if you are visiting the Kylerhea otter hides,
+             the Forestry Commission own the land and parking is chargeable via <em>Ring to Go</em> . Having said that, there is adequate parking, the path is clear and in good condition 
+             underfoot, there are bathroom facilities and a picnic area and there are spectacular views down the Strait. You may also be lucky and see otters, a Minke whale, dolphins and/or sea eagles
+             but patience is required.   On leaving the sanctuary, it was back out on to the single track road for the 7 miles back to Breakish and on to our accommodation.
+             <br />
+             <br />
+              Together with the Boat Trip to Loch Coruisk, this was the best outing of the week and we would highly recommend it if travelling this way, not least because the ferry relies on donations 
+              to keep it open and running and needs people to continue using it. We were also exceptionally lucky as it was beautiful weather.
+              <br />
+             <br />
+              We invite you to join us below on our adventure....
+
+            </section>
+            </div> 
+
+            <div className="SlideshowHostPhoto">
+            <Link to ="https://photos.app.goo.gl/Prbt5u4XG6FXk2sj6" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our Kyle Station Museum, The Original Skye Ferry from Glenelgh to Kylerhea and the Kylerhea Otter Hide" 
+                    ><strong>
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/Prbt5u4XG6FXk2sj6" target="_blank">Click here </Link> or on the image below to open the photo and video album of our Kyle Station Museum, The Original Skye Ferry from Glenelgh to Kylerhea and the Kylerhea Otter Hide. 
+            <br /> <br />The individual comments on the photos will take you through the full story of our trip. 
+            <br />
+            <br />
+            For anyone who may have trouble 
+            with the streaming of the videos in this album, they are also available via these You Tube links: <Link to="https://youtu.be/bxY2L1iDPNo" target="_blank"> On the Glenelg to Kylerhea Ferry Crossing </Link>
+            </em></strong>
+            </div>   {/*Closing div slideshowinstructions*/}
+
+            <img className="slideshowentry" src={FerryOriginalGlenelg} alt="" />
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
 

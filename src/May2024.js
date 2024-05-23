@@ -41357,7 +41357,7 @@ export default function May2024() {
              as we learned it can get very busy at peak times....
              <br/>
              <br />
-             We invite you to join us below on our adventure....
+             <div style={{textAlign:"center"}}>We invite you to join us below on our adventure....</div>
             </section>
             </div> 
 
@@ -41390,11 +41390,11 @@ export default function May2024() {
               do some shopping, the town was extremely busy, so we returned back to Broadford.
               <br />
               <br />
-              In the afternoon, it was beautifully sunny so we walked over to <Link to="https://www.walkhighlands.co.uk/skye/irishmanspoint.shtml" target="_blank"
-              title="Click here to discover more about Rubh an Eireannaich, Broadford">Rubh an Eireannaich/Irishman's Point</Link>.
+              <div style={{textAlign:"center"}}>In the afternoon, it was beautifully sunny so we walked over to <Link to="https://www.walkhighlands.co.uk/skye/irishmanspoint.shtml" target="_blank"
+              title="Click here to discover more about Rubh an Eireannaich, Broadford">Rubh an Eireannaich/Irishman's Point</Link>.</div>
               <br />
               <br />
-             We invite you to join us below on our adventure....
+              <div style={{textAlign:"center"}}>We invite you to join us below on our adventure....</div>
             </section>
             </div> 
 
@@ -41462,7 +41462,7 @@ export default function May2024() {
               to keep it open and running and needs people to continue using it. We were also exceptionally lucky as it was beautiful weather.
               <br />
              <br />
-              We invite you to join us below on our adventure....
+             <div style={{textAlign:"center"}}>We invite you to join us below on our adventure....</div>
 
             </section>
             </div> 
@@ -41483,7 +41483,13 @@ export default function May2024() {
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
 
-            
+            <div className="datenewsDiv">
+            <section className="date">18th May 2024, Saturday</section>
+            <section className="newsheader">Our return home from the Isle of Skye</section> 
+            <section className="news">
+             <div style={{textAlign:"center"}}>It was time today to return home from the Isle of Skye and to catch up with news of what Lennie had been up to whilst we had been away....</div>
+            </section>
+            </div> 
 
           {/* <div className="blogPhotoDiv">
           <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>

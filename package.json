@@ -1,6 +1,6 @@
 {
   "name": "thomasfamilyblog-2024-2025",
-  "homepage": "https://jillthomas799.github.io/thomasfamilyblog-2024-2025git/",
+  "homepage": "/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,6 +22,7 @@
     "react-scripts": "^5.0.1",
     "scripts": "^0.1.0",
     "serialize-javascript": ">=6.0.2",
+    "serve": "^14.2.3",
     "shell-quote": ">=1.8.1",
     "terser": ">=5.29.2",
     "web-vitals": "^3.5.2",
@@ -33,7 +34,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "serve": "npm run build && serve -s build",
+    "serve:localhost": "PUBLIC_URL=/ npm run build && serve -s build"
   },
   "eslintConfig": {
     "extends": [

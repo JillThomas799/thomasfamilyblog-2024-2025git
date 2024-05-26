@@ -2,6 +2,32 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Usage
+
+### Raspberry Pi
+
+To run on a Raspberry Pi, a local server, you should run:
+
+```shell
+# builds the optimised website and runs 'serve'
+$ npm run serve:localhost &>log-output.log &
+# to run on a specific port:
+$ npm run serve:localhost -- -l <port> &>log-output.log &
+$ npm run serve:localhost -- -l 4000 &>log-output.log &
+```
+
+Then, to stop this subprocess:
+
+```shell
+# find all processes with the word 'node' in them
+$ ps aux | grep node
+elena       2075  3.9  0.6 5025952 56576 tty1    Sl   17:09   0:00 node /home/elena/Documents/repositories/thomasfamilyblog-2024-2025git/node_modules/.bin/serve -s build
+elena       2308  0.0  0.0   6240  1536 pts/0    S+   17:09   0:00 grep --color=auto node
+
+# then kill the website process
+$ kill -9 2075
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

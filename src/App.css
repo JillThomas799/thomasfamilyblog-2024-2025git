@@ -15,10 +15,10 @@ body{
 #the_Thomas_Family_Blog{
   color:white;
   text-align: center;
-  margin-top:15%;
+  margin-top:20%;
   margin-bottom:5%;
   font-family:sans-serif helvetica;
-  padding:5%;
+  padding:2%;
   border-radius: 0%;
   -webkit-border-radius: 0%;
   -moz-border-radius: 0%;
@@ -125,4 +125,5 @@ body{
   -o-border-radius: 0%;
   width:100%;
 }
+
 }

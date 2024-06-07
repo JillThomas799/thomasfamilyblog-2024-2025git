@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ErrorPage from 'error-page';
 import April2024 from 'April2024';
 import May2024 from 'May2024';
+import Hwp2024 from 'Hwp2024';
 import { BernardBio } from 'indexbiobernard';
 import { ElenaBio } from 'indexbioelena';
 import { JillBio } from 'indexbiojill';
@@ -38,6 +39,12 @@ const router = createBrowserRouter(
       element: <May2024/>,
       errorElement: <ErrorPage/>
     },
+    {
+      path: '/hwp2024',
+      element: <Hwp2024/>,
+      errorElement: <ErrorPage/>
+    },
+
     // bios
     {
       path: '/bernard-bio',

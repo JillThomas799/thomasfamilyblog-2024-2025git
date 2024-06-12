@@ -1,0 +1,61 @@
+/* svg {
+	transform: translate(0px, 0px );
+	perspective: 1200px;
+	transform-style: preserve-3d;
+	transition: all 1s ease;
+	-webkit-transform: translate(0px, 0px );
+	-moz-transform: translate(0px, 0px );
+	-ms-transform: translate(0px, 0px );
+	-o-transform: translate(0px, 0px );
+} */
+
+#Laag_1{
+	transform:scale(70%) translate(0px, 0px);
+	-webkit-transform:scale(70%) translate(0px, 0px);
+	-moz-transform:scale(70%) translate(0px, 0px);
+	-ms-transform:scale(70%) translate(0px, 0px);
+	-o-transform:scale(70%) translate(0px, 0px);
+	margin-bottom:-10%;
+}
+
+@media screen and (max-width:480px) {
+	/*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of the site are displayed with the best dimensions for the smaller devices*/
+	#Laag_1{
+		transform:scale(70%) translate(0px,0px);
+		-webkit-transform:scale(70%) translate(0px,0px);
+		-moz-transform:scale(70%) translate(0px,0px);
+		-ms-transform:scale(70%) translate(0px,0px);
+		-o-transform:scale(70%) translate(0px,0px);
+		margin-bottom:-20%;
+		width:75%;
+		height:auto;
+}
+}
+
+@media screen and  (min-width:480px) and (max-width:901px) {
+	/*To ensure on mobile screens between 480px and 901px width (this includes ipads) that relevant components of the site are displayed with the best dimensions for the smaller devices*/
+	#Laag_1{
+		transform:scale(65%) translate(0px,0px);
+		-webkit-transform:scale(65%) translate(0px,0px);
+		-moz-transform:scale(65%) translate(0px,0px);
+		-ms-transform:scale(65%) translate(0px,0px);
+		-o-transform:scale(65%) translate(0px,0px);
+		margin-bottom:-20%;
+		width:75%;
+		height:auto;
+}
+}
+
+@media screen and (min-width:3000px) {
+	/*To ensure on mobile screens above 3000px width (this includes one plus phones) that relevant components of the site are displayed with the best dimensions for the smaller devices*/
+	#Laag_1{
+		transform:scale(70%) translate(0px,0px);
+		-webkit-transform:scale(70%) translate(0px,-5%);
+		-moz-transform:scale(70%) translate(0px,0px);
+		-ms-transform:scale(70%) translate(0px,0px);
+		-o-transform:scale(70%) translate(0px,0px);
+		margin-bottom:-20%;
+		width:75%;
+		height:auto;
+}
+}

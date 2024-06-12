@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './Hwp2024.css';
+import Romaneagle from 'components/eagle';
 import NewcastleQuayside from "./imagesresized/NewcastleQuayside.jpg";
 import HwpIntro from "./imagesresized/HwpIntro.jpg";
 
@@ -15,11 +16,12 @@ export default function Hwp2024() {
           </button>
           </div>
         <h1 style={{backgroundColor:"#66023c", borderRadius:"0"}}>Hadrian's Wall Path 2024
+        <Romaneagle />
         <div className="introHostPhotoHwp">
         <img className="hwpIntroPhoto" src={HwpIntro} alt="" />
         </div>
         </h1>
-        
+      
 
         <div className="datenewsDivHwp">
         <section className="dateHwp">1st June, 2024 onwards.... Hadrian's Wall Long Distance Path </section>

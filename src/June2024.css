@@ -1,0 +1,215 @@
+.headerPhoto{
+    width:70%;
+    height:auto;
+    border:#757c88 solid 8px;
+    margin:auto;
+    pointer-events: none; 
+}
+
+.backbuttonLink{
+    color:white
+    } 
+  
+  .datenewsDiv{
+    border:solid #757c88 4px;
+    background-color:#9bc4d4;
+    display:flex;
+    flex-direction:column;
+    margin-top: 10vh;
+    margin-bottom:5vh;
+}
+  
+  .date{
+    color:#36454F;
+    border:solid 3px #757c88;
+    background-color:#8bb285;
+    text-align: center;
+    padding:10px 10px 10px 10px;
+    margin:5px;
+    font-size:1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+  
+  .newsheader{
+    color:#36454F;
+    border:solid 3px #757c88;
+    background-color:#8bb285;
+    text-align: center;
+    padding:10px 10px 10px 10px;
+    margin:5px;
+    font-size:1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+  }
+  
+  .news{
+    color:#36454F;
+    border:solid 3px #757c88;
+    background-color:#8bb285;
+    text-align: left;
+    padding:10px 10px 10px 10px;
+    margin:5px;
+    font-size:1.0rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+  }
+  
+  #JillLindisfarne1993img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* pointer-events:none;  */
+    width:35%;
+    height:auto;
+    border:solid grey 2px;
+    border-radius:50%;
+    margin-top:3%;
+    margin-bottom:5%;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -ms-border-radius:40px;
+    -o-border-radius:40px;
+  }
+  
+  .blogPhotoDiv{
+    display:flex;
+    flex-direction: row;
+    background-color: #8bb285;
+    padding-bottom: 20%;
+    padding-top: 5%;
+    margin-top:2%;
+  }
+  
+  
+  
+  .blogPhoto img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    height:70%;
+    border:solid grey;
+    border-radius:30px;
+    }
+  
+    figmay{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right:auto;
+      }
+      
+      figmay img {
+        vertical-align: top;
+      }
+  
+      .mayfigcaption {
+        text-align: center;
+        font-family: bold;
+        color:#36454F;
+        font-size: 1.0rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        overflow-wrap:normal;
+        padding-top:5%;
+      }
+  
+    .slideshowentry {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events:none; 
+    width:25%;
+    height:auto;
+    border:solid grey 2px;
+    border-radius:50%;
+    margin-top:3%;
+    margin-bottom:5%;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -ms-border-radius:40px;
+    -o-border-radius:40px;
+  }      
+  
+  .slideshowentry1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events:none; 
+  width:15%;
+  height:auto;
+  border:solid grey 2px;
+  border-radius:50%;
+  margin-top:3%;
+  margin-bottom:5%;
+  -webkit-border-radius:40px;
+  -moz-border-radius:40px;
+  -ms-border-radius:40px;
+  -o-border-radius:40px;
+  }      
+  
+  .slideshowinstructions {
+    margin-top:5%;
+    margin-bottom:2%;
+    font-size:1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:inline-block;
+    color:#36454F; 
+  }
+  
+  .SlideshowHostPhoto{
+    display:flex;
+    flex-direction: column;
+    background-color: #8bb285;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-top:2%;
+    justify-content:center;
+    text-align:center;
+  }
+  
+      /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+  @media screen and (min-width:402px) and (max-width:900px){
+  .blogPhotoDiv{
+    display:flex;
+    flex-direction: column;
+    background-color: #8bb285;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    margin-top:2%;
+  }
+  
+  }
+  
+  @media screen and (max-width:401px) {
+  
+   /*To ensure on mobile screens below 401px width (this includes one plus phones) that relevant components of 
+   the site are displayed with the best dimensions for the smaller devices*/
+  
+  
+  .June2024header {
+  display:block;
+  text-align: center;
+  font-size: 1.75em;
+  color:white;
+  font-weight: bold;
+  /* border:solid 3px; */
+  width: 100vw;
+  /* height: 50vh; */
+  height:auto;
+  background: #e1eae7;
+  position:absolute; 
+  
+  } 
+  
+  /*To ensure on mobile screens below 401px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+  .blogPhotoDiv{
+  display:flex;
+  flex-direction: column;
+  background-color: #8bb285;
+  padding-bottom: 15%;
+  padding-top: 5%;
+  margin-top:2%;
+  }
+  
+  }

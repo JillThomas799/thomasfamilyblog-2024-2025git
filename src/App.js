@@ -9,6 +9,7 @@ import HarryBioImage from 'imagesresized/HarryBioImage.jpg';
 import Button from 'components/buttons'; //imported as default function from components/buttons
 import Dropdown from 'components/dropdown'; //imported as default function from components/dropdown
 import Footer from 'components/footer'; //imported as default function from components/footer
+import Romaneagle from 'components/eagle'; //imported as default function from components/buttons
 
 import { Link } from "react-router-dom";
 

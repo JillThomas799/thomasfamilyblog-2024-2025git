@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ErrorPage from 'error-page';
 import April2024 from 'April2024';
 import May2024 from 'May2024';
+import June2024 from 'June2024';
 import Hwp2024 from 'Hwp2024';
 import { BernardBio } from 'indexbiobernard';
 import { ElenaBio } from 'indexbioelena';
@@ -39,6 +40,13 @@ const router = createBrowserRouter(
       element: <May2024/>,
       errorElement: <ErrorPage/>
     },
+
+    {
+      path: '/june2024',
+      element: <June2024/>,
+      errorElement: <ErrorPage/>
+    },
+
     {
       path: '/hwp2024',
       element: <Hwp2024/>,

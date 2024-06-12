@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/thomasfamilyblog-2024-2025git/static/css/main.a416e66c.css",
-    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.3015a7d4.js",
+    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.9ea9747d.js",
     "static/js/488.6f20adc3.chunk.js": "/thomasfamilyblog-2024-2025git/static/js/488.6f20adc3.chunk.js",
     "static/media/June2024HeaderPhoto1.jpg": "/thomasfamilyblog-2024-2025git/static/media/June2024HeaderPhoto1.f89a5a5affb3ca6033a4.jpg",
     "static/media/NewcastleQuayside.jpg": "/thomasfamilyblog-2024-2025git/static/media/NewcastleQuayside.dfe94db8c13a70b7afd6.jpg",
@@ -119,11 +119,11 @@
     "static/media/JillLindisfarne1993.jpg": "/thomasfamilyblog-2024-2025git/static/media/JillLindisfarne1993.354226dad246673c3824.jpg",
     "index.html": "/thomasfamilyblog-2024-2025git/index.html",
     "main.a416e66c.css.map": "/thomasfamilyblog-2024-2025git/static/css/main.a416e66c.css.map",
-    "main.3015a7d4.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.3015a7d4.js.map",
+    "main.9ea9747d.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.9ea9747d.js.map",
     "488.6f20adc3.chunk.js.map": "/thomasfamilyblog-2024-2025git/static/js/488.6f20adc3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a416e66c.css",
-    "static/js/main.3015a7d4.js"
+    "static/js/main.9ea9747d.js"
   ]
 }

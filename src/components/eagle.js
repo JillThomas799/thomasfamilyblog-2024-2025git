@@ -27,9 +27,9 @@ export default function Romaneagle() {
 			<clipPath id="SVGID_2_">
 				<use xlinkHref="#SVGID_1_"  overflow="visible"/>
 			</clipPath>
-			<circle cx="410px" cy="175px" r="230" style={{stroke:"black", fill:"#D19B2F"}}/>
-			<circle cx="410px" cy="175px" r="185" style={{stroke:"black", fill:"#66023c"}}/>
-			<rect width="300" height="100" x="260" y="405" rx="0" ry="0" fill="#D19B2F" /><text fill="black" fontSize="36" font-family="Serif" fontWeight="bold" x="350" y="460">S P Q R</text>
+			<circle cx="410px" cy="175px" r="230" stroke="black" stroke-width="1" fill="#D19B2F"/>
+			<circle cx="410px" cy="175px" r="185" stroke="black" stroke-width="1" fill="#66023c"/>
+			<rect width="300" height="100" x="260" y="405" rx="0" ry="0" stroke="black" stroke-width="1" fill="#D19B2F" /><text fill="black" fontSize="36" font-family="Serif" fontWeight="bold" x="350" y="460">S P Q R</text>
 			<path id="feather1" fill="#D19B2F" clip-path="url(#SVGID_2_)" d="M399,323.333c4.046,20.44-2.049,40.029-16,50c-7.206,5.15-14.953,6.623-20.333,7
 				c5.461-4.643,11.787-11.359,16.666-20.666c16.002-30.52,2.814-62.865,0.334-68.667"/>
 			<path id="feather2" fill="#D19B2F" clip-path="url(#SVGID_2_)" d="M395.667,339.333c0.786,6.357,1.039,15.415-1.667,25.667

@@ -25,6 +25,7 @@ import GoatsbeardBorder from "./imagesresized/GoatsbeardBorder.jpg";
 import GardenView from "./imagesresized/GardenView.jpg";
 import FoxglovesPatio3 from "./imagesresized/FoxglovesPatio3.jpg";
 import BlueTitNesting from "./imagesresized/BlueTitNesting.jpg";
+import HeaderPhotoMysteryTour from "./imagesresized/HeaderPhotoMysteryTour.jpg";
 
 export default function June2024() {
     return (
@@ -182,6 +183,50 @@ export default function June2024() {
             </fig>          
           </div>
           </div>
+
+          <div className="datenewsDivJune">
+            <section className="dateJune">15th June 2024, Saturday</section>
+            <section className="newsheaderJune">Father's Day Mystery Trip</section> 
+            <section className="newsJune">It is Father's Day time again and this year it is on Sunday 16th June,2024. Unfortunately, we will be meeting with friends on that date, so it has been agreed
+              that Father's Day celebrations should be brought forward by a day. <br /> <br /> This year, Elena and Harry have bought Bernard 'The Uncharted Original Trilogy' computer game and arranged a mystery trip
+                 (in actual fact a trip to the <Link to ="https://www.solway-aviation-museum.co.uk/" target="_blank" title="Click here to discover more about Solway Aviation Museum"> Solway Aviation Museum </Link> 
+                including tickets for a talk by Mac Craghill, who was navigator on Tornado GR1s on operation in the Gulf War and who was giving a talk about his experiences.) 
+                Bernard has always wanted to visit the Solway Aviation Museum, but had never until now fulfilled that wish, so it seemed a good opportunity to undertake this trip.
+                <br />
+                <br /> 
+                There are an interesting selection of planes to see at the museum including the: 
+                <ul>
+                  <li>Avro Vulcan B.2 XJ823</li>
+                  <li>Hawker Hunter F51 XG190</li>
+                  <li>English Electric Canberra T4</li>
+                  <li>Percival Sea Prince T Mk. 1 WP314</li>
+                  <li>McDonnell-Douglas F4 Phantom GR2 XV406</li>
+                  <li>Armstrong Whitworth Meteor NF14, WS832</li>
+                  <li>Fairey Ganet ECM6 XA459</li>
+                  <li>English Electric Lightning F53 ZF583</li>
+                </ul>
+
+                A tour of the Vulcan bomber's cockpit is included in the ticket price.... you just need to be careful climbing into the aircraft 
+                and back out again! However, it is well worth the effort as it is very interesting....
+
+                In the evening, a meal at the <Link to ="https://www.thebeltedwill.co.uk/" target="_blank" title="Click here to discover 
+                more about the Belted Will Inn">Belted Will Inn</Link> had been arranged.
+              
+            </section>
+            </div> 
+
+            <div className="SlideshowHostPhotoJune">
+            <Link to ="https://photos.app.goo.gl/uPQbymKAUYbsEMJJ8" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our mystery Father's Day trip to Solway Aviation Museum" ><strong>
+            <div className="slideshowinstructionsJune"><strong> Click on the image below to open the photo album of our mystery Father's Day trip to Solway Aviation Museum. 
+            <br /> <br />The individual comments on the photos will take you through the full story of our trip.</strong>
+            </div>   {/*Closing div slideshowinstructionsJune*/}
+
+            <img className="slideshowentryJune" src={HeaderPhotoMysteryTour} alt="" />
+            </strong> 
+            </Link>
+            </div> 
+            {/*Closing div SlideshowHostPhotoJune*/}
+
 
         
         </div>

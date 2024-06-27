@@ -26,6 +26,22 @@ import GardenView from "./imagesresized/GardenView.jpg";
 import FoxglovesPatio3 from "./imagesresized/FoxglovesPatio3.jpg";
 import BlueTitNesting from "./imagesresized/BlueTitNesting.jpg";
 import HeaderPhotoMysteryTour from "./imagesresized/HeaderPhotoMysteryTour.jpg";
+import Charnock from "./imagesresized/Charnock.jpg";
+import CharnockStarbucks from "./imagesresized/CharnockStarbucks.jpg";
+import MiddletonJill1 from "./imagesresized/MiddletonJill1.jpg";
+import MiddletonJill2 from "./imagesresized/MiddletonJill2.jpg";
+import MiddletonBernard1 from "./imagesresized/MiddletonBernard1.jpg";
+import MiddletonBernard2 from "./imagesresized/MiddletonBernard2.jpg";
+import MiddletonBernard3 from "./imagesresized/MiddletonBernard3.jpg";
+import MiddletonGarden1 from "./imagesresized/MiddletonGarden1.jpg";
+import MiddletonGarden2 from "./imagesresized/MiddletonGarden2.jpg";
+import MiddletonInterior from "./imagesresized/MiddletonInterior.jpg";
+import Lennie30pieces from "./imagesresized/Lennie30pieces.jpg";
+import OldBell from "./imagesresized/OldBell.jpg";
+import JettiedBuilding from "./imagesresized/JettiedBuilding.jpg";
+import MiddletonEntrance from "./imagesresized/MiddletonEntrance.jpg";
+import MiddletonJillCourtyard from "./imagesresized/MiddletonJillCourtyard.jpg";
+import MiddletonCat from "./imagesresized/MiddletonCat.jpg";
 
 export default function June2024() {
     return (
@@ -227,7 +243,85 @@ export default function June2024() {
             </div> 
             {/*Closing div SlideshowHostPhotoJune*/}
 
+            <div className="datenewsDivJune">
+            <section className="dateJune">20th June 2024, Thursday</section>
+            <section className="newsheaderJune">Off to London and environs for a few days to visit relatives - the journey down South.</section>  
+            <br />
+            <section className="newsJune">Today, we set off to visit relatives in London, the South and South-East of England, so we had a long journey ahead of us. To provide light relief 
+              on the lengthy motorway journey, we stopped off for lunch at <Link to="https://www.middleton-hall.co.uk/" target="_blank" title="Click here to discover more about Middleton Hall and Gardens">
+               Middleton Hall and Gardens </Link> in North Warwickshire, which is run by an independent charitable trust and has an interesting <Link to="https://www.middleton-hall.co.uk/our-history"
+               target="_blank">history</Link>, with there having been evidence of a residence on this site as long ago as Norman times in the late 11th century.
+               <br />
+               <br />
+               By 1977, the hall had fallen into severe disrepair and thanks to the tenacity and action of a group of ramblers from Tamworth Civic Society, in 1980
+               Middleton Hall Trust was founded. Thanks to the owners, Amey Roadstone, who granted a sum of £25,000 per year for ten years to be spent purely on materials, 
+               and by the tireless work of a fearless group of volunteers, Middleton Hall was saved . Volunteers continue to play a key role in the ongoing repair and maintenance of the hall 
+               and gardens today.
+               <br />
+               <br />
+               There is an impressive jettied building, which was built in 1530. The term 'jettied' refers to the fact that the first floor juts out over the ground floor
+               in order to take the weight of the windows and the living space. It is thought that when Queen Elizabeth I visited the hall in 1575 to knight Henry Willoughby in the Great Hall,
+               this was the building in which her entourage stayed for the duration of their stay.
+               <br />
+               <br />
+               The walled garden was built in 1717 by Thomas Willoughby and was originally a garden which contained just vegetable beds. It was a very early example of a heated walled garden, 
+               the effect being to lengthen the growing season. Today the garden is planted around a Georgian bed design with lots of colourful herbaceous perennials.
+               <br />
+               <br />
+               Then it was time to be on our way again and several hours later we arrived safely at our destination. 
+            </section>
+          </div> 
 
+          <div className="blogPhotoDivJune">
+          <fig><section className = "blogPhotoJune" ><img src={Charnock} alt="" /><figcaption className='junefigcaption'><strong>First stop was Charnock Richard Services, <br /> where it was amazingly quiet...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJune" ><img src={CharnockStarbucks} alt="" /><figcaption className='junefigcaption'>..even more so in Starbucks.<strong></strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJune" ><img src={MiddletonJill1} alt="" /><figcaption className='junefigcaption'><strong>Having safely arrived at <br /> <Link to="https://www.middleton-hall.co.uk/" target="_blank" title="Click here to discover more about Middleton Hall and Gardens">
+            Middleton Hall and Gardens, </Link> <br /> it is time for some lunch. <br /></strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJune" ><img src={MiddletonJillCourtyard} alt="" /><figcaption className='junefigcaption'><strong>
+            There are picnic tables where you <br /> are allowed to bring and eat your own <br /> food,  or there is a <Link to="https://bake180coffeeshop.co.uk/" target="_blank">courtyard café</Link> . <br /></strong></figcaption></section>
+            </fig> 
+           
+           
+          </div>
+
+          <div className="blogPhotoDivJune">
+          <fig><section className = "blogPhotoJune" ><img src={MiddletonBernard1} alt="" /><figcaption className='junefigcaption'><strong>Bernard enjoying the lunchtime sunshine.</strong></figcaption></section>
+          </fig>
+          <fig><section className = "blogPhotoJune" ><img src={MiddletonBernard2} alt="" /><figcaption className='junefigcaption'><strong>Then it is time  to <br /> have a look around...</strong></figcaption></section>
+          </fig>
+          <fig><section className = "blogPhotoJune" ><img src={MiddletonEntrance} alt="" /><figcaption className='junefigcaption'><strong></strong>...past the entrance sign...</figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJune" ><img src={MiddletonBernard3} alt="" /><figcaption className='junefigcaption'><strong>..across the bridge...</strong></figcaption></section>
+            </fig>
+          </div>
+
+          <div className="blogPhotoDivJune">
+          <fig><section className = "blogPhotoJune" ><img src={MiddletonJill2} alt="" /><figcaption className='junefigcaption'><strong></strong>...with a quick pause for <br /> a photo stop.</figcaption></section>
+          </fig>
+          <fig><section className = "blogPhotoJune" ><img src={MiddletonCat} alt="" /><figcaption className='junefigcaption'><strong>Under the watchful cat statues, <br /> on the archway roof...</strong></figcaption></section>
+          </fig>   
+          <fig><section className = "blogPhotoJune" ><img src={JettiedBuilding} alt="" /><figcaption className='junefigcaption'><strong>The jettied building...on the left</strong></figcaption></section>
+            </fig>       
+            <fig><section className = "blogPhotoJune" ><img src={MiddletonInterior} alt="" /><figcaption className='junefigcaption'><strong>The interior of the jettied building</strong></figcaption></section>
+            </fig>
+            
+          </div>
+
+          <div className="blogPhotoDivJune">
+          <fig><section className = "blogPhotoJune" ><img src={MiddletonGarden1} alt="" /><figcaption className='junefigcaption'><strong>View of the lake in the garden.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJune" ><img src={MiddletonGarden2} alt="" /><figcaption className='junefigcaption'><strong>Bernard in the walled garden.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJune" ><img src={OldBell} alt="" /><figcaption className='junefigcaption'><strong></strong>Later in the day, having <br /> safely arrived at our destination <br />
+            we decamped to one of the local pubs for our evening meal </figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJune" ><img src={Lennie30pieces} alt="" /><figcaption className='junefigcaption'>Meanwhile, back at home <br /> Lennie has accidentally been fed <br /> more dried cat food than he was due <br /> to receive by Harry <br /> but is saying that 
+            <br /> he is not complaining...<strong></strong></figcaption></section>
+            </fig>            
+          </div>
         
         </div>
     );

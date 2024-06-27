@@ -64,7 +64,7 @@
     border:solid 2px #757c88;
     background-color:#48AAAD;
     text-align: left;
-    padding:10px 10px 10px 10px;
+    padding:20px 20px 20px 20px;
     margin-top:1%;
     margin-bottom: 0vh;
     font-size:1.0rem;
@@ -77,7 +77,7 @@
     flex-direction: row;
     border:solid 2px #757c88;
     background-color: #48AAAD;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
     padding-top: 5%;
     margin-top:0vh;
   }

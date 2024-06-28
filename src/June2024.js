@@ -42,6 +42,7 @@ import JettiedBuilding from "./imagesresized/JettiedBuilding.jpg";
 import MiddletonEntrance from "./imagesresized/MiddletonEntrance.jpg";
 import MiddletonJillCourtyard from "./imagesresized/MiddletonJillCourtyard.jpg";
 import MiddletonCat from "./imagesresized/MiddletonCat.jpg";
+import LegionExhibitionEntrance from "./imagesresized/LegionExhibitionEntrance.jpg";
 
 export default function June2024() {
     return (
@@ -244,6 +245,18 @@ export default function June2024() {
             {/*Closing div SlideshowHostPhotoJune*/}
 
             <div className="datenewsDivJune">
+            <section className="dateJune">16th June 2024, Sunday</section>
+            <section className="newsheaderJune">Visit to the World Caerlaverlock Wetland Centre, near Dumfries, to meet up with friends, who were on their way to Stranraer 
+              for the ferry to Belfast.</section> 
+            <section className="newsJune">Today we were journeying into Scotland to meet our friends at the <Link to="https://www.wwt.org.uk/wetland-centres/caerlaverock/"
+            target="_blank" title="Click here to discover more about Caerlaverlock Wetland Centre">Caerlaverlock Wetland Centre</Link> which is situated on the Solway coast,
+            near to Dumfries. It also lies on the C2C cycle route. Our friends were traveling on holiday to Northern Ireland via the ferry from Stranraer
+            so it was lovely to be able to have the opportunity to meet up and catch up on news and enjoy the birds and wildlife in the nature reserve at the Centre. It was mixed weather but fortunately extremely quiet
+            and this section of the Solway Coast always holds a particular appeal for us.
+            </section>
+            </div> 
+
+            <div className="datenewsDivJune">
             <section className="dateJune">20th June 2024, Thursday</section>
             <section className="newsheaderJune">Off to London and environs for a few days to visit relatives - the journey down South.</section>  
             <br />
@@ -322,6 +335,42 @@ export default function June2024() {
             <br /> he is not complaining...<strong></strong></figcaption></section>
             </fig>            
           </div>
+
+          <div className="datenewsDivJune">
+            <section className="dateJune">21st June 2024, Friday</section>
+            <section className="newsheaderJune">Visit to the South East of England to see Jill's relatives</section> 
+            <section className="newsJune">Traveled over to Essex today to visit Jill's relatives and catch up on the news of their on-going garden project. 
+              A restful day relaxing and catching up on news after the last few days and before tomorrow, and a chance  to sit out in the garden. 
+
+            </section>
+            </div> 
+
+
+          <div className="datenewsDivJune">
+            <section className="dateJune">22nd June 2024, Saturday</section>
+            <section className="newsheaderJune">Visit to London to see Bernard's relative and the 'Legion: Life in the Roman Army Exhibition' at the British Museum.</section> 
+            <section className="newsJune">Today was a great day. We took the train into London to meet up with Bernard's brother and visit the 'Legion:Life in the Roman
+              Army' Exhibition at the British Museum. Then it was lunch at Gaia on Great Russell Street and in the afternoon, we took the tube via Piccadilly Circus 
+              to Regent's Park and St John's Lodge Park.<br /><br /> We then walked several miles across the city, exploring as we went along, to reach the
+              <Link to="https://www.germangymnasium.com/" target="_blank" title="Click here to discover more about the German Gymnasium Restaurant"
+              > German Gymnasium </Link> Restaurant on King's Boulevard, King's Cross, where we had a very enjoyable meal.              
+            </section>
+            </div> 
+
+            <div className="SlideshowHostPhotoJune">
+            <Link to ="https://photos.app.goo.gl/ZQ7doyTucnoWWYmM7" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our visit to London" ><strong>
+            <div className="slideshowinstructionsJune"><strong> Click on the image below to open the photo album of our visit to London. 
+            <br /> <br />The individual comments on the photos will take you through the full story of our trip.
+            <br /><br />  Please note: The 2 photos from inside the exhibition ie. the Roman legionary's shield or scutum <br /> and the Draco's head have been permitted to be taken
+            for non-commercial purposes only.<br /><br />
+            </strong>
+            </div>   {/*Closing div slideshowinstructionsJune*/}
+
+            <img className="slideshowentryJune" src={LegionExhibitionEntrance} alt="" />
+            </strong> 
+            </Link>
+            </div> 
+            {/*Closing div SlideshowHostPhotoJune*/}
         
         </div>
     );

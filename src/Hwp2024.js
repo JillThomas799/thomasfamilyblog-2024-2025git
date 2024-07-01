@@ -4,6 +4,7 @@ import './Hwp2024.css';
 import Romaneagle from 'components/eagle';
 import NewcastleQuayside from "./imagesresized/NewcastleQuayside.jpg";
 import HwpIntro from "./imagesresized/HwpIntro.jpg";
+import ChollerfordBroccolitia from "./imagesresized/ChollerfordBroccolitia.jpg";
 
 
 export default function Hwp2024() {
@@ -63,9 +64,8 @@ export default function Hwp2024() {
       
 
         <div className="datenewsDivHwp">
-            <section className="dateHwp">1st June 2024, Saturday</section>
-            <section className="newsheaderHwp"><strong>Day 1 - Wallsend to Newcastle Swing Bridge</strong>
-            </section> 
+            <section className="newsheaderHwp"><strong>Day 1 - Wallsend to Newcastle Swing Bridge</strong></section>
+            <section className="dateHwp">1st June 2024, Saturday</section> 
             <div className="newsHwp">
              <div className="componentWalkDetails">     
             <strong className="headTitles">Details of the Walk </strong>
@@ -153,6 +153,81 @@ export default function Hwp2024() {
           <fig>
             <Link to="https://photos.app.goo.gl/sRhBPqCMEbCajSdf9" target="_blank">
             <img className="slideshowentryHwp" src={NewcastleQuayside} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+
+      </div>
+
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>Day 6 - Chollerford to Broccolitia/Carrawburgh Fort</strong></section>
+            <section className="dateHwp">29th June 2024, Saturday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails">     
+            <strong className="headTitles">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Parking:</strong><br />Broccolitia Roman Fort Car Park and lay-by on B6320 just north of the roundabout at Chollerford.</li>
+                <li><strong className="titles">Paths: </strong><br />The Hadrian's Wall path is well-marked, clear and easy to following in this segment, just follow the Acorn signs. </li>
+                <li><strong className="titles">Distance:</strong><br /> 4 miles on the Hadrian's Wall Path<strong>  Ascent:</strong> 215 metres, 705 feet.</li>
+                <li><strong className="titles">Refreshments:</strong><br />English Heritage Café at Chester's Roman Fort. There is also the Corbridge Coffee Company mobile van daily on Broccolitia Fort car park.</li> 
+                </ul>    
+
+            <strong className="headTitles">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titles">Views :</strong><br />We gained over 700 feet on this walk, as we climbed out of the valley at Chollerford through which 
+                the North Tyne River runs and up onto the ridge. There were therefore some extensive and impressive views looking in all directions as the 
+                terrain opened out.</li>
+                <li><strong className="titles">Walk : </strong><br />Very enjoyable walk with extensive views. Easy to navigate.</li> 
+                <li><strong className="titles">History : </strong><br />Chester's Roman Fort, which is , together with Vindolanda and Housesteads,
+                one of the most outstanding Roman Forts on the Hadrian's Wall path and we would suggest setting aside 2 hours to visit the fort and museum.</li> 
+                <li><strong className="titles">Paths: </strong><br />The rangers keep a wide path of grass cut shorter and request that you walk 2 abreast to reduce the risk of erosion, which we attempted as much as possible to do.
+                This made walking on the paths very straightforward.</li>
+                <li><strong className="titles">Weather: </strong><br /> Whilst a rather cloudy day, the wind had dropped from the previous day and the rainy showers which had been forecast did not
+                  materialise until later in the day. </li>
+                </div>
+                </ul>
+                <br />
+            <strong className="headTitles">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Public Transport</strong><br />The AD122 bus, which we had planned on taking from Broccolitia Fort back to 
+                Chollerford only runs every 2 hours, which meant that, in order to have plenty time to see Chester's Fort, on this occasion we had to take 2 cars, which was not so good. 
+                </li>
+                </ul>
+            <strong className="headTitles">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titles">9 (out of 10):</strong> </li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            <br />
+            <div className="hwpDailyNarrative">
+           This was a reasonably short walk today, being only 4 miles, but we had chosen this option deliberately to allow us plenty of time to see 
+           <Link to="https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/" target="_blank"
+           title="Click here to discover more about Chester's Roman Fort"> Chester's Roman Fort and Museum </Link> . 
+           <br />
+           <br />
+           This segment is the first of 4 segments which form what is widely considered to be the finest section of the Hadrian's Wall Path (HWP). These 4 sections are also 
+           the best-preserved segments of the wall and it becomes obvious as you walk along the path of the wall why this should be, as the landscape becomes increasingly wild and 
+           rugged.
+           <br />
+           <br />
+           First of all though, it was time to get our passports stamped at Chester's Fort. The only problem being it was not very clear which section of the passport
+           was for which stamp, so we ended up mistakenly stamping Chester's in the Housesteads slot! Not to worry though, we are sure Northumberland National 
+           Parks were used to this and Elena said it was all part and parcel of the Hadrian's Wall experience!...
+            <br />
+            <br />
+            If anyone is visiting the Chester's site, we would strongly advise making sure you also have time to see the Museum and the Chester's Bridge abutment detour right down to the river.
+            <br /> 
+            <br /> 
+            Join us on our 6th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            
+
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <Link to="https://photos.app.goo.gl/v2pBu6efu65sxcvy6" target="_blank">
+            <img className="slideshowentryHwp" src={ChollerfordBroccolitia} alt="" />
             </Link>
           </fig>
            </div>  {/* Closing div SlideshowHostPhotoHwp */}

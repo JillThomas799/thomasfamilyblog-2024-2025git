@@ -43,6 +43,15 @@ import MiddletonEntrance from "./imagesresized/MiddletonEntrance.jpg";
 import MiddletonJillCourtyard from "./imagesresized/MiddletonJillCourtyard.jpg";
 import MiddletonCat from "./imagesresized/MiddletonCat.jpg";
 import LegionExhibitionEntrance from "./imagesresized/LegionExhibitionEntrance.jpg";
+import GiraffesKnebworth from "./imagesresized/GiraffesKnebworth.jpg";
+import GardensKnebworth1 from "./imagesresized/GardensKnebworth1.jpg";
+import DinosaursKnebworth from "./imagesresized/DinosaursKnebworth.jpg";
+import RosegardenKnebworth from "./imagesresized/RosegardenKnebworth.jpg";
+import HerbgardenKnebworth from "./imagesresized/HerbgardenKnebworth.jpg";
+import HouseKnebworth from "./imagesresized/HouseKnebworth.jpg";
+import JillAlanKnebworth from "./imagesresized/JillAlanKnebworth.jpg";
+import SunsetCumbria from "./imagesresized/SunsetCumbria.jpg";
+
 
 export default function June2024() {
     return (
@@ -361,8 +370,7 @@ export default function June2024() {
             <Link to ="https://photos.app.goo.gl/ZQ7doyTucnoWWYmM7" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our visit to London" ><strong>
             <div className="slideshowinstructionsJune"><strong> Click on the image below to open the photo album of our visit to London. 
             <br /> <br />The individual comments on the photos will take you through the full story of our trip.
-            <br /><br />  Please note: The 2 photos from inside the exhibition ie. the Roman legionary's shield or scutum <br /> and the Draco's head have been permitted to be taken
-            for non-commercial purposes only.<br /><br />
+            <br /><br /> 
             </strong>
             </div>   {/*Closing div slideshowinstructionsJune*/}
 
@@ -371,7 +379,52 @@ export default function June2024() {
             </Link>
             </div> 
             {/*Closing div SlideshowHostPhotoJune*/}
+
+            <div className="datenewsDivJune">
+            <section className="dateJune">23rd June 2024, Sunday</section>
+            <section className="newsheaderJune">Visit to Knebworth House and Gardens, Stevenage</section>  
+            <br />
+            <section className="newsJune">
+              Today we decided on a visit out to <Link to="https://knebworthhouse.com/" target="_blank" title="Click here 
+              to discover more about Knebworth House and Gardens">Knebworth House and Gardens</Link> ; well the gardens really
+               as it was a pleasant day and they are 28 acres of formal gardens in total, which include a dinosaur trail. The house and gardens
+               are situated 29 miles north of London, just off junction 7 of the A1(M) motorway. It is important to follow the SG1 2AX postcode setting rather than google directions
+               to accurately find the visitors entrance.
+               It is the historic home of the Lyttons since 1490 and for Historic Houses members, entrance is free.  There is also plenty free parking and a large tea room. 
+               <br />
+               <br />
+               The architect Edward Lutyens was responsible for simplifying the ornate beds and statuary of the Victorian garden with lawns and avenues of 
+               pollarded lime trees. I thought the names 'Lutyens' and Gertrude Jekyll rang a bell from recently, and indeed it was Edward Lutyens together with Gertrude jekyll who 
+               refurbished Lindisfarne Castle, Holy Island, Northumbria for Edward Hudson of Country Life Magazine when Edward Hudson took on the lease in 1901.
+               <br />
+               <br /> 
+               After an enjoyable few days away, we headed on the long journey north back to Cumbria, deftly avoiding a long hold-up on the M1 by taking a diversion
+               remembered from decades ago when Jill used to drive this route  daily and knew many quieter diversions when the motorway ground to a halt. Our later departure, to avoid the worst of the traffic hold-ups,
+               meant we only arrived home about 23.30 but it was still just about light and we were welcomed by a beautiful Cumbrian sunset....
+              </section>
+          </div> 
+
+          <div className="blogPhotoDivJune">
+          <fig><section className = "blogPhotoJune" ><img src={GiraffesKnebworth} alt="" /><figcaption className='junefigcaption'><strong>Giraffes wandering in the garden <br /> at Knebworth....well, models of <br /> giraffes anyway, not the real thing...</strong></figcaption></section>
+          </fig>
+          <fig><section className = "blogPhotoJune" ><img src={GardensKnebworth1} alt="" /><figcaption className='junefigcaption'><strong>Wandering through the gardens, Knebworth House</strong></figcaption></section>
+          </fig>
+          <fig><section className = "blogPhotoJune" ><img src={DinosaursKnebworth} alt="" /><figcaption className='junefigcaption'><strong>Model of Pteranodon <br /> Dinosaur - from the Cretaceous <br /> period, 135 million years ago</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJune" ><img src={HerbgardenKnebworth} alt="" /><figcaption className='junefigcaption'><strong>Herb garden Knebworth House</strong></figcaption></section>
+            </fig>
+          </div>
         
+          <div className="blogPhotoDivJune">
+          <fig><section className = "blogPhotoJune" ><img src={JillAlanKnebworth} alt="" /><figcaption className='junefigcaption'><strong>Enjoying the gardens <br /> at Knebworth</strong></figcaption></section>
+          </fig>
+          <fig><section className = "blogPhotoJune" ><img src={RosegardenKnebworth} alt="" /><figcaption className='junefigcaption'><strong>Rose garden, Knebworth</strong></figcaption></section>
+          </fig>
+          <fig><section className = "blogPhotoJune" ><img src={HouseKnebworth} alt="" /><figcaption className='junefigcaption'><strong>Knebworth House</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJune" ><img src={SunsetCumbria} alt="" /><figcaption className='junefigcaption'><strong>Arriving home to <br /> a beautiful Cumbrian <br /> sunset at 23.00</strong></figcaption></section>
+            </fig>
+          </div>
         </div>
     );
 }

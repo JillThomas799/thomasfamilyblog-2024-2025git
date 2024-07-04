@@ -5,6 +5,7 @@ import Romaneagle from 'components/eagle';
 import NewcastleQuayside from "./imagesresized/NewcastleQuayside.jpg";
 import HwpIntro from "./imagesresized/HwpIntro.jpg";
 import ChollerfordBroccolitia from "./imagesresized/ChollerfordBroccolitia.jpg";
+import MithrasTemple from "./imagesresized/MithrasTemple.jpg";
 
 
 export default function Hwp2024() {
@@ -161,15 +162,15 @@ export default function Hwp2024() {
       </div>
 
       <div className="datenewsDivHwp">
-            <section className="newsheaderHwp"><strong>Day 6 - Chollerford to Broccolitia/Carrawburgh Fort</strong></section>
+            <section className="newsheaderHwp"><strong>Day 6 - Chollerford to Brocolitia/Carrawburgh Roman Fort</strong></section>
             <section className="dateHwp">29th June 2024, Saturday</section>
              <div className="newsHwp">
              <div className="componentWalkDetails">     
             <strong className="headTitles">Details of the Walk </strong>
             <ul className="hwpIntroList">
-                <li><strong className="titles">Parking:</strong><br />Broccolitia Roman Fort Car Park and lay-by on B6320 just north of the roundabout at Chollerford.</li>
+                <li><strong className="titles">Parking:</strong><br />Brocolitia Roman Fort Car Park and lay-by on B6320 just north of the roundabout at Chollerford.</li>
                 <li><strong className="titles">Paths: </strong><br />The Hadrian's Wall path is well-marked, clear and easy to following in this segment, just follow the Acorn signs. </li>
-                <li><strong className="titles">Distance:</strong><br /> 4 miles on the Hadrian's Wall Path<strong>  Ascent:</strong> 215 metres, 705 feet.</li>
+                <li><strong className="titles">Distance:</strong><br /> 4 miles on the Hadrian's Wall Path<strong>  Ascent:</strong> 184 metres, 604 feet.</li>
                 <li><strong className="titles">Refreshments:</strong><br />English Heritage Café at Chester's Roman Fort. There is also the Corbridge Coffee Company mobile van daily on Broccolitia Fort car park.</li> 
                 </ul>    
 
@@ -218,6 +219,8 @@ export default function Hwp2024() {
             <br />
             <br />
             If anyone is visiting the Chester's site, we would strongly advise making sure you also have time to see the Museum and the Chester's Bridge abutment detour right down to the river.
+            A narrow footbridge originally carried the Wall across the River North Tyne, but the Romans later replaced this with an impressive stone road bridge.
+            The remains of the stone abutment that joined the bridge to the riverbank survive, along with the foundations of the tower and a section of the wall.
             <br /> 
             <br /> 
             Join us on our 6th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
@@ -228,6 +231,104 @@ export default function Hwp2024() {
           <fig>
             <Link to="https://photos.app.goo.gl/v2pBu6efu65sxcvy6" target="_blank">
             <img className="slideshowentryHwp" src={ChollerfordBroccolitia} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+
+      </div>
+
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>Day 7 - Brocolitia/Carrawburgh Roman Fort to Housesteads Roman Fort</strong></section>
+            <section className="dateHwp">30th June 2024, Sunday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails">     
+            <strong className="headTitles">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Parking:</strong><br />Brocolitia Roman Fort Car Park and Housesteads Car Park. Both of these car parks are run by Northumberland National Park and we had bought an annual 
+                Hadrian's Wall parking pass for one of the cars, so that helped.</li>
+                <li><strong className="titles">Paths: </strong><br />The Hadrian's Wall path is well-marked, clear and easy to following in this segment, just follow the Acorn signs. The views become more dramatic as you
+                progress towards Housesteads.</li>
+                <li><strong className="titles">Distance:</strong><br /> 5.7 miles on the Hadrian's Wall Path, 6.7 miles in total.<strong>  Ascent:</strong> 215 metres, 705 feet.</li>
+                <li><strong className="titles">Refreshments:</strong><br />National Trust Café at Housestead's Roman Fort entrance by the car park. There is also the Corbridge Coffee Company mobile van daily on Brocolitia Fort car park.</li> 
+                </ul>    
+
+            <strong className="headTitles">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titles">Views :</strong><br />The countryside really opens out as you climb on to the Whin Sill at Sewingshield Crags and it is possible
+                to experience to some degree what it must have really been like for the Romans and civilians living in these areas and also the challenges of building the wall.</li>
+                <li><strong className="titles">Walk : </strong><br />Very enjoyable walk with extensive views. Easy to navigate.</li> 
+                <li><strong className="titles">History : </strong><br />It would be easy to get totally absorbed in the finer detail of the history, but in some ways that might be best done in 
+                exhibitions such as the <em>Legion; Life in the Roman Army </em> Exhibition at the British Museum. The real difference in undertaking the Hadrian's Wall Path is to get some idea in the live
+                as to what it must have actually been like, battling the elements, the terrain and the hostile forces North of the Wall.</li> 
+                <li><strong className="titles">Paths: </strong><br />The paths are clear, and well-marked.</li>
+                <li><strong className="titles">Weather: </strong><br />It had been forecast for quite a bit of rain, but thankfully, whilst a grey and overcast day, the rain managed to 
+                just about hold off until we had returned home.</li>
+                </div>
+                </ul>
+                <br />
+            <strong className="headTitles">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Refreshments</strong><br />On arrival at Housesteads Fort, the café is back down the hill at the car park entrance, so our well-earned
+                refreshments had to wait until the end.</li>
+                <li><strong className="titles">Cattle alert</strong><br />We had to cross a field of cows and their calves. At least there was no bull this time,
+                as others have experienced at this point. However, we are well-used to the strategies needed for crossing cattle-filled fields so all was well.</li>
+                </ul>
+            <strong className="headTitles">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titles">9 (out of 10):</strong> </li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            <br />
+            <div className="hwpDailyNarrative">
+           It was a prompt start this morning to head once again towards Brocolitia Roman Fort car park. Brocolitia/Carrawburgh Fort lies mid-way between Chester's Roman Fort and Housesteads Roman Fort
+           and from the road, it does not look to be exceptional, especially in relation to the larger Chester's and Housesteads Forts. However, we would argue 
+           it is an important stopping point for anyone visiting Hadrian's Wall, as it is here you can visit a unique monument on the wall, the <Link to="https://www.undiscoveredscotland.co.uk/hexham/templeofmithras/index.html"
+           target="_blank" title="Click here to discover more about the Brocolitia Mithraeum or Temple of Mithras"> Brocolitia Mithraeum or Temple of Mithras </Link> . 
+           <br />
+           <br />
+          Mithraism was what was called a mystery cult. In these cults, devotees met in small groups to have the mysteries of the divine revealed to them and to undergo complex initiation rites. 
+          These cults drew on many aspects of Roman ritual practice but often claimed eastern origins; eg. the god Mithras was thought to be a manifestation of the Persian god Mithra.
+          Followers used Latin in their rituals, erected altars and made vows in the traditional Roman manner, but they also depicted the god and his attendants in ‘Persian’ dress. 
+          The temples of the mystery cults in the frontier zone tended to be smaller than those associated with other practices and were enclosed so that the rites of the initiates 
+          were concealed from non-members. The Temple of Mithras is small and secluded, being located under the vicus of the Fort, being built to resemble the cave in which Mithras was said to have killed a bull and feasted 
+          with the God of the Sun, Soll and today it includes replicas of three altars and a number of statues; the originals are located in the Great North Museum in Newcastle upon Tyne. Someone had dutifully left a few penny coins in the basin of one of the replica altars. The original altars and statues were colorfully painted.
+          
+          <br />
+          <br />           
+             The original fort remains only as a three and a half acre bump in the field as <Link to="https://en.wikipedia.org/wiki/George_Wade"
+            target="_blank" title="Click here to discover more about General Wade"> General Wade </Link>  (1673-7148) removed the stones from the Fort 
+            to reuse as rubble fill for the construction of the Military Road (which is now the B6318), which he planned to try to address the difficulties 
+            he encountered marching his troops cross-country from Newcastle to Carlisle during the Jacobite rising in 1745.
+            Wade helped plan the road but had died before construction began in 1751. it should not be confused with the Military Way built by the Romans immediately south of Hadrian's Wall.
+            <br /> 
+            <br /> 
+            After exploring Brocolitia/Carrawburgh Fort and the Temple of Mithras, it was time to cross the Old Military Road with care and continue following the Hadrian's Wall Path out towards 
+            Housestead's Fort just over 5 miles distant. 
+            <br />
+            <br />
+            Key points and way-marks on the walk after leaving the Mithras Temple today were the Sewingshields Wall situated precipitously on the edge of Sewing Shields Crags, a high rocky outcrop
+             which features Milecastle 35 and Turret 35a which are all built on the Whin Sill, Busy Gap and King's Wicket Gate, Turret 36, Knag Burn Gateway and Housesteads Roman Fort. 
+             King's Wicket gate is the name of the wicket gate in the line of Hadrian's Wall in Busy Gap. The feature is thought to be a stock enclosure
+             associated with a traditional drove road running through the Wall at this point. The date is uncertain, but in the late Middle Ages Busy Gap was a notorious 
+             haunt for bandits and raiders, known as 'Busy Gap rogues', as the stock held in the enclosure may not always have been there with the owner's consent.
+            <br />
+            <br />
+            Housesteads Fort lies at about the mid-point of Hadrian's Wall and housed an infantry regiment of 800, the First Cohort of Tungrians raised in eastern Belgium.
+           It is the the best preserved of the 16 forts on the Hadrian's Wall frontier and also  contains the finest preserved latrines from Roman Britain. It was abandoned between the early 5th until the 16th Century, when it was taken over by the Border Reivers,
+            a lawless community on the Anglo-Scottish border.
+            <br /> 
+            <br /> 
+
+            Join us on our 7th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            
+
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <Link to="https://photos.app.goo.gl/n89VM6fbi7B8hBZL8" target="_blank">
+            <img className="slideshowentryHwp" src={MithrasTemple} alt="" />
             </Link>
           </fig>
            </div>  {/* Closing div SlideshowHostPhotoHwp */}

@@ -6,6 +6,7 @@ import NewcastleQuayside from "./imagesresized/NewcastleQuayside.jpg";
 import HwpIntro from "./imagesresized/HwpIntro.jpg";
 import ChollerfordBroccolitia from "./imagesresized/ChollerfordBroccolitia.jpg";
 import MithrasTemple from "./imagesresized/MithrasTemple.jpg";
+import LegionExhibitionEntrance from "./imagesresized/LegionExhibitionEntrance.jpg";
 
 
 export default function Hwp2024() {
@@ -158,9 +159,9 @@ export default function Hwp2024() {
           </fig>
            </div>  {/* Closing div SlideshowHostPhotoHwp */}
            </div> {/* Closing tag datenewsDivHwp */}
-
       </div>
 
+      
       <div className="datenewsDivHwp">
             <section className="newsheaderHwp"><strong>Day 6 - Chollerford to Brocolitia/Carrawburgh Roman Fort</strong></section>
             <section className="dateHwp">29th June 2024, Saturday</section>
@@ -170,14 +171,14 @@ export default function Hwp2024() {
             <ul className="hwpIntroList">
                 <li><strong className="titles">Parking:</strong><br />Brocolitia Roman Fort Car Park and lay-by on B6320 just north of the roundabout at Chollerford.</li>
                 <li><strong className="titles">Paths: </strong><br />The Hadrian's Wall path is well-marked, clear and easy to following in this segment, just follow the Acorn signs. </li>
-                <li><strong className="titles">Distance:</strong><br /> 4 miles on the Hadrian's Wall Path<strong>  Ascent:</strong> 184 metres, 604 feet.</li>
+                <li><strong className="titles">Distance:</strong><br /> 4 miles on the Hadrian's Wall Path<strong>  Ascent:</strong> 215 metres, 705 feet. </li>
                 <li><strong className="titles">Refreshments:</strong><br />English Heritage Café at Chester's Roman Fort. There is also the Corbridge Coffee Company mobile van daily on Broccolitia Fort car park.</li> 
                 </ul>    
 
             <strong className="headTitles">Good</strong> 
             <ul className="hwpIntroList">
               <div className="listItemsAlign">
-                <li><strong className="titles">Views :</strong><br />We gained over 700 feet on this walk, as we climbed out of the valley at Chollerford through which 
+                <li><strong className="titles">Views :</strong><br />We gained over 200 metres on this walk, as we climbed out of the valley at Chollerford through which 
                 the North Tyne River runs and up onto the ridge. There were therefore some extensive and impressive views looking in all directions as the 
                 terrain opened out.</li>
                 <li><strong className="titles">Walk : </strong><br />Very enjoyable walk with extensive views. Easy to navigate.</li> 
@@ -215,12 +216,50 @@ export default function Hwp2024() {
            <br />
            First of all though, it was time to get our passports stamped at Chester's Fort. The only problem being it was not very clear which section of the passport
            was for which stamp, so we ended up mistakenly stamping Chester's in the Housesteads slot! Not to worry though, we are sure Northumberland National 
-           Parks were used to this and Elena said it was all part and parcel of the Hadrian's Wall experience!...
+           Parks are used to this and Elena said it was all part and parcel of the Hadrian's Wall experience!...
             <br />
             <br />
-            If anyone is visiting the Chester's site, we would strongly advise making sure you also have time to see the Museum and the Chester's Bridge abutment detour right down to the river.
-            A narrow footbridge originally carried the Wall across the River North Tyne, but the Romans later replaced this with an impressive stone road bridge.
-            The remains of the stone abutment that joined the bridge to the riverbank survive, along with the foundations of the tower and a section of the wall.
+            Key points and way-marks on the walk from Chollerford to Brocolitia/Carrawburgh Roman Fort include Chester's Roman Fort, Black Carts wall and Turret (29A), Limestone Corner, 
+            the trig point at 250 metres and Limestone corner.
+            <br />
+            <br />
+            Turret 29A (Black Carts): Black Carts is a 200 metre section of narrow wall. However, the accompanying Black Carts Turret was built in 122AD for the originally planned 3 metre width broad wall, 
+            before the decision was made to build with a reduced width of 1.8 metres. The turrets and small section of wall were built first and then the rest of the wall afterwards. 
+            Just to the north of Black Carts Turret the ditch can clearly be seen where, when John Clayton first excavated the site in 1873, he found 3 'centurial' stones showing the names
+            of soldiers who built the section of wall.
+            <br />
+            <br />
+            Trig point at 250 metres: Following a climb of about 200 metres from Chollerford, the views now started to open up here. The Cheviot Hills came into view in the north and <Link to="https://www.chipchasecastle.com/"
+            target="_blank">Chipchase Castle</Link> which has a 14th century Pele tower and a 17th century Jacobean house attached. It is a scheduled ancient monument and Grade 1 listed building.
+            <br />
+            <br />
+            Limestone Corner: At Limestone Corner, there is an unfinished section of ditch filled with abandoned stone blocks: one slab still show the holes chiselled by the Romans to split the rock.
+            The stone here is hard basalt and it appears that the Romans found this too hard to work with and gave up trying to complete this part of the ditch. Unfortunately, we did not take any photos
+            of Limestone Corner, but this <Link to="https://perlineamvalli.wordpress.com/tag/limestone-corner/" target="_blank"> Per Lineam Valli </Link> website has some interesting information and photographs
+            <br />
+            <br />
+            Once we had successfully reached Brocolitia/Carrawburgh Military Fort we returned to the car in order to travel back to Chester's Roman Fort and spent
+            the remainder of the afternoon there exploring fully the fort and museum, leaving the exploration of Brocolitia Fort for the following morning.
+            <br />
+            <br />
+            <Link to="https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/" target="_blank"
+           title="Click here to discover more about Chester's Roman Fort"> Chester's Roman Fort and Museum </Link> are managed by English Heritage so members 
+           can obtain free entry using their membership cards. Chester's Roman Fort is one of the best preserved Roman Ruins in Britain and is certainly,
+           together with <Link to="https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/history/collection/" target="_blank"> John Clayton's museum </Link> , one of our favourites. 
+           In 1843, John Clayton inherited the site from his father, who had previously turfed over the ruins.
+           John Clayton excavated many parts of the fort and created the museum to house and maintain the many exhibits both from the fort and other segments of the wall. He also developed such a 
+           fascination for Hadrian's Wall that he bought up many other large areas of the wall. By the time John died in 1890 he owned five forts – Chesters, Carrawburgh, Housesteads, Vindolanda and Carvoran – 
+           as well as most of the Wall within this 20 mile stretch.
+           <br />
+           <br />
+           If you are visiting the Chesters site, we would strongly advise making sure that you leave enough time and that you also have time to see the John Clayton Museum 
+           and the Chester's Bridge abutment detour right down to the river, where a narrow footbridge originally carried the Wall across the River North Tyne, but the Romans later replaced this 
+           with an impressive stone road bridge. The remains of the stone abutment that joined the bridge to the riverbank survive, along with the foundations of the tower and a section of the wall.
+           <br />
+           <br />
+           The fort was situated astride Hadrian's Wall, guarding the bridge over the river North Tyne and was occupied by a 500 strong cavalry regiment, the 
+           ala II Asturum (Second Asturian Cavalry Unit) from Asturia in Northern Western Spain. There are plenty of information boards to provide further explanation
+           for the various areas as you go around the fort.
             <br /> 
             <br /> 
             Join us on our 6th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
@@ -249,7 +288,7 @@ export default function Hwp2024() {
                 Hadrian's Wall parking pass for one of the cars, so that helped.</li>
                 <li><strong className="titles">Paths: </strong><br />The Hadrian's Wall path is well-marked, clear and easy to following in this segment, just follow the Acorn signs. The views become more dramatic as you
                 progress towards Housesteads.</li>
-                <li><strong className="titles">Distance:</strong><br /> 5.7 miles on the Hadrian's Wall Path, 6.7 miles in total.<strong>  Ascent:</strong> 215 metres, 705 feet.</li>
+                <li><strong className="titles">Distance:</strong><br /> 5.7 miles on the Hadrian's Wall Path, 6.7 miles in total.<strong>  Ascent:</strong>  184 metres, 604 feet.  </li>
                 <li><strong className="titles">Refreshments:</strong><br />National Trust Café at Housestead's Roman Fort entrance by the car park. There is also the Corbridge Coffee Company mobile van daily on Brocolitia Fort car park.</li> 
                 </ul>    
 

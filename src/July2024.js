@@ -104,9 +104,17 @@ export default function July2024() {
           </fig>
            </div>  {/* Closing div SlideshowHostPhotoJuly */}
             </section>
-
-            
          </div>
+
+         <div className="datenewsDivJuly">
+            <section className="dateJuly">6th July 2024</section> 
+            <section className="newsheaderJuly"> Stage 8 of our Hadrian's Wall Path Expedition successfully completed</section>  
+            <br />
+            <section className="newsJuly">Today we successfully completed Stage 8 of our Hadrian's Wall Path Expedition, Housesteads Fort to Cawfield Quarry (3e and 4a).
+             All the information about this trip for today and for the remaining stages over the forthcoming weeks and months, please come and join us at our  
+             <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link>
+            </section>
+            </div>
 
 ;        
 

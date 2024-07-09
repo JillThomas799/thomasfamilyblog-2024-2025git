@@ -7,6 +7,7 @@ import HwpIntro from "./imagesresized/HwpIntro.jpg";
 import ChollerfordBroccolitia from "./imagesresized/ChollerfordBroccolitia.jpg";
 import MithrasTemple from "./imagesresized/MithrasTemple.jpg";
 import LegionExhibitionEntrance from "./imagesresized/LegionExhibitionEntrance.jpg";
+import HousesteadsCawfieldQuarry from "./imagesresized/HousesteadsCawfieldQuarry.jpg";
 
 
 export default function Hwp2024() {
@@ -368,6 +369,82 @@ export default function Hwp2024() {
           <fig>
             <Link to="https://photos.app.goo.gl/n89VM6fbi7B8hBZL8" target="_blank">
             <img className="slideshowentryHwp" src={MithrasTemple} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+
+      </div>
+
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>Day 8 - Housesteads Roman Fort to Cawfield Quarry - (PS: This is the best day of the walk!)</strong></section>
+            <section className="dateHwp">6th July 2024, Saturday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails">     
+            <strong className="headTitles">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Parking:</strong><br />We parked at <Link to="https://www.english-heritage.org.uk/visit/places/housesteads-roman-fort-hadrians-wall/plan-your-visit/facilities/"
+                target="_blank" title="Click here to discover more about Housesteads Car Park"> Housesteads Car Park </Link> and <Link to="https://www.northumberlandnationalpark.org.uk/places-to-visit/hadrians-wall/cawfields/"
+                target="_blank" title="Click here to discover more about Cawfield Quarry Car Park"> Cawfield Quarry Car Park </Link>. Both of these car parks are run by Northumberland National Park and we had bought an annual 
+                Hadrian's Wall parking pass for one of the cars. <Link to="https://www.northumberlandnationalpark.org.uk/visitor-info/car-parks/" target="_blank"> Annual passes </Link> are available from <Link to="https://www.thesill.org.uk/" target="_blank" title="Click here to discover more about The Sill Visitor's Centre"> The Sill </Link> .</li> 
+                <li><strong className="titles">Paths: </strong><br />Well-defined path over the numerous crags between Housesteads Fort and Cawfields Quarry. The walk is reasonably strenuous as there are repeated ascents and descents 
+                along the line of the crags.</li>
+                <li><strong className="titles">Distance:</strong><br /> 6 miles on the Hadrian's Wall Path, 6.5 miles in total.<strong>  Ascent:</strong>  309 metres, 1014 feet.  </li>
+                <li><strong className="titles">Refreshments:</strong><br />Café at The Sill Visitor's Centre.</li> 
+                </ul>    
+
+            <strong className="headTitles">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titles">Walk: </strong>This is without exception the most awesome and stunning section of the Hadrian's Wall Path, as you walk along a series of ridges of the Whin Sill along which this section of the wall was built.
+                Together with the wildness and remoteness of the landscape, which remains to this day largely uninhabited, this is a really impressive walk and has been our favourite day's walking on the Wall so far.<br /></li>
+                <li><strong className="titles">Path: </strong><br />We had walked the section of the Wall between Cawfield Quarry and Peel Gap in 2014 as part of a 6 3/4 mile circular walk and it had been quite a lot more strenuous than we had anticipated,
+                not least because conditions underfoot were not great. However, the National Trust seem to have undertaken a lot of work improving the footpath to reduce erosion and this 
+                was certainly an improvement underfoot compared to previously.</li> 
+                <li><strong className="titles"> Weather: </strong><br />Brilliant sunshine and not too hot, so ideal walking weather - what more can I say!</li> 
+                </div>
+                </ul>
+                <br />
+
+            <strong className="headTitles">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titles"> Tragedy of the Sycamore Gap Tree: </strong> As many of you will know, on the morning of 28th September 2023, the iconic <Link to="https://en.wikipedia.org/wiki/Sycamore_Gap_tree"
+                target="_blank" title="Click here to discover more about the Sycamore Gap Tree"> Sycamore Gap tree </Link> which stood in Sycamore Gap,
+                a dramatic dip in the landscape of Hadrian's Wall, was maliciously felled. The tree had been described as one of the most photographed trees in the country 
+                and an emblem for the North East of England. It derived its alternative name from featuring in a prominent scene in the 1991 film Robin Hood: Prince of Thieves. 
+                It was well-known by everyone locally and a there has been a huge amount of anger and sadness at its loss.<br /></li>
+                <li><strong className="titles"> Weather warning: </strong>We were very fortunate and the good weather held out until just after we had returned to the car and safely
+                settled ourselves in the café at the Sill Visitors Centre. At that point, the heavens opened and it was raining so hard, blowing in sheets, that even hardened walkers 
+                with full rain-proof gear were not venturing across the car park. For anyone who has not experienced weather in this area, this can come as 
+                somewhat of a shock! Our advice would be; always come prepared and be willing to change route to a safer option from that planned if necessary (there are a number 
+                of 'escape' routes off the Wall) . Do not rely too heavily on the weather forecast, conditions can change totally within a minute at times..... <br /></li>
+                </ul>
+                <br />
+            <strong className="headTitles">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titles">10 (out of 10):</strong> </li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            <br />
+            <div className="hwpDailyNarrative">
+            It was an 8.20am start this morning, as the weather forecast for the afternoon was poor, so we were already at Housesteads car park in the sunshine and peace 
+            and quiet by 8.40am. First of all, we had to climb back up to the point on Hadrian's Wall at which we had finished yesterday's walk, namely Knag Burn gate.
+            Whilst the fort itself, which is owned by the National Trust, does not open until 10am, there is a public footpath which runs up around the edge of the fort 
+            which can be accessed at anytime. Once on the path, we headed off in a westerly direction towards Cawfield Quarry Car Park.
+            <br /> 
+            <br /> 
+            Todays walk was to include Hotbank Crags, Crag Lough and Highshield Crags, Sycamore Gap, Peel Crags, Steel Rigg, Shield on the Wall, Whinshield Crags, Caw Gap and Cawfield Quarry.
+            It was to be a brilliant day and our best walking day on the wall so far.
+            <br /> 
+            <br /> 
+            We invite you to join us on our 8th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            
+
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <Link to="https://photos.app.goo.gl/xhjYZ7WvttfxMbsB6" target="_blank">
+            <img className="slideshowentryHwp" src={HousesteadsCawfieldQuarry} alt="" />
             </Link>
           </fig>
            </div>  {/* Closing div SlideshowHostPhotoHwp */}

@@ -1,0 +1,5 @@
+July2024 Header
+
+
+h1 style={{background:"#6B7A8F", borderRadius:"0", marginBottom:"0px", border:"0" }}><img src= {July2024HeaderPhoto1} alt="" className="headerPhotoJuly" />
+        </h1>

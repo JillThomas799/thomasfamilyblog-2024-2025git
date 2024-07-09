@@ -18,6 +18,7 @@ export default function Dropdown(props) {
             <Link to="/april2024" className="monthLink">April 2024 Blog</Link>
             <Link to="/may2024" className="monthLink">May 2024 Blog</Link>
             <Link to="/june2024" className="monthLink">June 2024 Blog</Link>
+            <Link to="/july2024" className="monthLink">July 2024 Blog</Link>
             <Link to="/hwp2024" className="monthLink">Hadrian's Wall Path 2024 Blog</Link>
           </ul> 
         </div>

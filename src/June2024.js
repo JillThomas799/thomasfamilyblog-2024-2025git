@@ -425,6 +425,27 @@ export default function June2024() {
             <fig><section className = "blogPhotoJune" ><img src={SunsetCumbria} alt="" /><figcaption className='junefigcaption'><strong>Arriving home to <br /> a beautiful Cumbrian <br /> sunset at 23.00</strong></figcaption></section>
             </fig>
           </div>
-        </div>
+
+          <div className="datenewsDivJune">
+            <section className="dateJune">29th June 2024</section> 
+            <section className="newsheaderJune"> Stage 6 of our Hadrian's Wall Path Expedition successfully completed</section>  
+            <br />
+            <section className="newsJune">Today we successfully completed Stage 6 of our Hadrian's Wall Path Expedition, Chollerford to Carrawburgh/Broccolitia Fort ( 3a and 3b).
+             All the information about this trip for today and for the remaining stages over the forthcoming weeks and months, please come and join us at our  
+             <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link>
+            </section>
+            </div>
+
+            <div className="datenewsDivJune">
+            <section className="dateJune">30th June 2024</section> 
+            <section className="newsheaderJune"> Stage 7 of our Hadrian's Wall Path Expedition successfully completed</section>  
+            <br />
+            <section className="newsJune">Today we successfully completed Stage 7 of our Hadrian's Wall Path Expedition, Carrawburgh/Broccolitia Fort to Housesteads Roman Fort( 3c and 3d).
+             All the information about this trip for today and for the remaining stages over the forthcoming weeks and months, please come and join us at our  
+             <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link>
+            </section>
+            </div>
+            
+          </div>
     );
 }

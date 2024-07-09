@@ -1,0 +1,355 @@
+<div class="super">
+  <h2>Day-5</h2>
+  <div className="main">
+    <div className="allcloud">
+      <div className="cloud"></div>
+      <div className="cloud"></div>
+      <div className="cloud"></div>
+
+       <div class="rain">
+      <ul>
+        <li class="drop-water drop-1"></li>
+        <li class="drop-water drop-2"></li>
+        <li class="drop-water drop-3"></li>
+        <li class="drop-water drop-4"></li>
+        <li class="drop-water drop-5"></li>
+        <li class="drop-water drop-6"></li>
+        <li class="drop-water drop-7"></li>
+        <li class="drop-water drop-8"></li>
+        <li class="drop-min min-1"></li>
+        <li class="drop-min min-2"></li>
+        <li class="drop-min min-3"></li>
+        <li class="drop-min min-4"></li>
+        <li class="drop-min min-5"></li>
+        <li class="drop-min min-6"></li>
+        <li class="drop-min min-7"></li>
+        <li class="drop-min min-8"></li>
+        <li class="drop-min min-9"></li>
+        <li class="drop-min min-10"></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+.super {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background: #efecec;
+}
+
+.main {
+  width: 400px;
+  height: 400px;
+  background: #1a2238;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+h2 {
+  text-align: center;
+}
+
+ul li {
+  display: block;
+}
+.dot,
+.dot:after,
+.dot:before {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 9px;
+  left: 28px;
+  border-radius: 10px;
+  background: #ece1a8;
+}
+.dot-1.dot,
+.dot-4.dot,
+.dot-1:after,
+.dot-1:before,
+.dot-4:after,
+.dot-4:before {
+  width: 5px;
+  height: 5px;
+}
+.dot-1.dot {
+  top: 15px;
+  left: 15px;
+}
+.dot-4.dot {
+  top: 45px;
+  left: 15px;
+}
+.dot-2.dot,
+.dot-5.dot {
+  width: 8px;
+  height: 8px;
+}
+.dot-2.dot {
+  top: 10px;
+  left: 44px;
+}
+.dot-5.dot {
+  top: 50px;
+  left: 25px;
+}
+.dot-3,
+.dot-3:after,
+.dot-3:before,
+.dot-1:after,
+.dot-1:before,
+.dot-4:after,
+.dot-4:before,
+.dot-2:after,
+.dot-2:before,
+.dot-5:after,
+.dot-5:before {
+  content: "";
+}
+.dot-5:after {
+  top: -20px;
+  left: 0;
+}
+.dot-5:before {
+  top: 0;
+  left: -20px;
+}
+.dot-3:after {
+  top: 16px;
+  left: -23px;
+}
+.dot-3:before {
+  top: 26px;
+  left: 20px;
+}
+.cloud {
+  display: inline-block;
+  background: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+  top: -30px;
+  -webkit-filter: blur(6px);
+  z-index: 11;
+  left: -50px;
+  opacity: 0.76;
+  zoom: 0.5;
+}
+
+.cloud:before {
+  content: "";
+  display: inline-block;
+  background: white;
+  width: 100px;
+  height: 100px;
+  -webkit-filter: blur(3px);
+  position: relative;
+  border-radius: 50%;
+  top: -30px;
+  left: 60px;
+}
+
+.cloud:after {
+  content: "";
+  display: inline-block;
+  background: white;
+  width: 200px;
+  height: 100px;
+  -webkit-filter: blur(3px);
+  position: relative;
+  border-radius: 50%;
+  top: -80px;
+  left: 70px;
+}
+
+.cloud:nth-child(1) {
+  top: 70px;
+  left: -180px;
+}
+.cloud:nth-child(2) {
+  top: 70px;
+  left: 180px;
+}
+.cloud:nth-child(3) {
+  top: 50px;
+  left: 500px;
+}
+
+@keyframes cloudAnimation {
+  0% {
+    transform: translate(-500px, 0);
+  }
+  100% {
+    transform: translate(500px, 0);
+  }
+}
+.allcloud {
+  animation: 15000ms cloudAnimation linear infinite;
+}
+.drop-water {
+  position: absolute;
+  z-index: 20;
+  left: 284px;
+  bottom: 0px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #7fc1f9;
+  -webkit-animation: drop 0.8s linear 0.44s infinite;
+  animation: drop 0.8s linear 0.44s infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  transform-origin: 50% 100%;
+}
+.drop-water:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -2px;
+  left: 1px;
+  width: 6px;
+  height: 6px;
+  background: #7fc1f9;
+  border-radius: 3px;
+}
+.drop-water:after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -5px;
+  left: 2px;
+  width: 4px;
+  height: 10px;
+  background: #7fc1f9;
+  border-radius: 50%;
+}
+@keyframes drop {
+  0% {
+    transform: translate3d(40px, -320px, 0) scaleX(1) scaleY(1) rotate(17deg);
+  }
+  85% {
+    transform: translate3d(0, 0, 0) scaleX(1) scaleY(1) rotate(17deg);
+  }
+  100% {
+    transform: translate3d(0, 0, 0) scaleX(3) scaleY(0) rotate(0deg);
+  }
+}
+.drop-1 {
+  left: 02px;
+  animation: drop 0.8s linear 0.44s infinite;
+}
+.drop-2 {
+  left: 52px;
+  animation: drop 0.9s linear 1.44s infinite;
+}
+.drop-3 {
+  left: 102px;
+  animation: drop 0.8s linear 1.44s infinite;
+}
+.drop-4 {
+  left: 152px;
+  animation: drop 0.8s linear 1.24s infinite;
+}
+.drop-5 {
+  left: 202px;
+  animation: drop 0.8s linear 0.54s infinite;
+}
+.drop-6 {
+  left: 252px;
+  animation: drop 0.8s linear 1.04s infinite;
+}
+.drop-7 {
+  left: 302px;
+  animation: drop 0.8s linear 1.64s infinite;
+}
+.drop-8 {
+  left: 352px;
+  animation: drop 0.8s linear 0.44s infinite;
+}
+.drop-min {
+  left: 18px;
+  opacity: 0.3;
+  width: 4px;
+  height: 4px;
+  -webkit-animation: drop 2s linear 1.92s infinite;
+  animation: drop 2s linear 1.92s infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  bottom: 0;
+}
+.drop-min:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -2px;
+  left: 1px;
+  width: 6px;
+  height: 6px;
+  background: #7fc1f9;
+  border-radius: 3px;
+}
+.drop-min:after {
+  position: absolute;
+  content: "";
+  display: block;
+  top: -5px;
+  left: 2px;
+  width: 4px;
+  height: 10px;
+  background: #7fc1f9;
+  border-radius: 50%;
+}
+.min-2 {
+  left: 56px;
+  animation: drop 2s linear 1s infinite;
+}
+.min-3 {
+  left: 94px;
+  animation: drop 2s linear 0.44s infinite;
+}
+.min-4 {
+  left: 132px;
+  animation: drop 2s linear 1.52s infinite;
+}
+.min-5 {
+  left: 162px;
+  animation: drop 2s linear 1.88s infinite;
+}
+.min-6 {
+  left: 190px;
+  animation: drop 2.1s linear 0.44s infinite;
+}
+.min-7 {
+  left: 232px;
+  animation: drop 2.2s linear 1.22s infinite;
+}
+.min-8 {
+  left: 262px;
+  animation: drop 2.3s linear 1.82s infinite;
+}
+.min-9 {
+  left: 292px;
+  animation: drop 2.1s linear 1.92s infinite;
+}
+.min-10 {
+  left: 332px;
+  animation: drop 2.2s linear 0.42s infinite;
+}
+.rain {
+    position: absolute;
+    top: -20px;
+    height:420px;
+    animation: full 0.2s 2s;
+}
+@keyframes full {
+  0% {
+      opacity: 0;  
+  }
+  100% {
+  opacity: 1;   
+  }
+}

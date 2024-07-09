@@ -252,10 +252,10 @@
 
 .mountainForeground, .mountainMiddle, .mountainBackground{
   transform:scale(50%) translate(-150px,0px);
-  -webkit-transform:scale(50%) translate(-150px,0px);
-  -moz-transform:scale(50%) translate(-150px,0px);
-  -ms-transform:scale(50%) translate(-150px,0px);
-  -o-transform:scale(50%) translate(-150px,0px);
+  -webkit-transform:;
+  -moz-transform:;
+  -ms-transform:;
+  -o-transform:;
 }
 
 #gradSpringSun{

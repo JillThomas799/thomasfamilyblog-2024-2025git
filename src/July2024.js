@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './July2024.css';
 import July2024HeaderPhoto1 from "./imagesresized/July2024HeaderPhoto1.jpg";
 import AlnwickGardens from "./imagesresized/AlnwickGardens.jpg";
+import PantaloonsIOEheader from "./imagesresized/PantaloonsIOEheader.jpg";
 
 export default function July2024() {
     return (
@@ -63,7 +64,9 @@ export default function July2024() {
             <br />
             <br />
             Otherwise this month, we have been continuing at the weekends to walk the Hadrian's Wall Path and with it being the Summer, we have 
-            been undertaking the most strenuous and awesome sections of the walk, including the section from Chollerford to Banks.
+            been undertaking the most strenuous and awesome sections of the walk, including the section from Chollerford to Banks. For all information 
+            about this trip so far and over the forthcoming months, please come and join us at our  
+            <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link> . The page will be updated regularly to keep pace with our progress!
 
             </section>
          </div>
@@ -106,6 +109,37 @@ export default function July2024() {
             </section>
          </div>
 
+;        <div className="datenewsDivJuly">
+        <div className="datenewsDivJuly">
+          <section className = "dateJuly">Thursday, July 4th, 2024 (General Election day)</section>
+          <section className="newsheaderJuly">Outdoor Theatre production of Oscar Wilde's <Link to="https://thepantaloons.co.uk/ernest/" target="_blank"
+        title="Click here to discover more about the performance"> The Importance of being Ernest' </Link>  performed by the <Link to="https://thepantaloons.co.uk/" 
+        target ="_blank" title="Click here to find more about the Pantaloons Theatre Company" >Pantaloons theatre Company</Link> at the tarn. </section> 
+          <section className = "newsJuly"> 
+        This evening we went to see the outdoor production of <Link to="https://thepantaloons.co.uk/ernest/" target="_blank"
+        title="Click here to discover more about the performance"> The Importance of being Ernest' </Link> by Oscar Wilde performed by <Link to="https://thepantaloons.co.uk/" 
+        target ="_blank" title="Click here to find more about the Pantaloons Theatre Company" > The Pantaloons theatre Company </Link> in the evening at the tarn between 19.00 and 21.00. 
+        <br />
+        <br />
+        This was our second time at one of these productions. Last year it had been pouring with rain at the start and then cleared into a beautiful evening.
+        Sure enough it was raining again at the start today, but soon cleared and was very pleasant. We were better prepared than last time and had made sure we were 
+        there when the doors open so we could obtain a place undercover by the café, which was once again open.
+        <br />
+        <br />
+        It was a very entertaining performance and everyone enjoyed it. As was the case last year, the view of the tarn was lovely as the sun started to set.
+        
+        <div className="slideshowHostPhotoJuly">
+          <fig>
+            <Link to="https://photos.app.goo.gl/NvuREtutgFu1oWdh8" target="_blank">
+            <img className="slideshowentryJuly" src={PantaloonsIOEheader} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoJuly */}
+        </section>
+ 
+        
+ </div>
+
          <div className="datenewsDivJuly">
             <section className="dateJuly">6th July 2024</section> 
             <section className="newsheaderJuly"> Stage 8 of our Hadrian's Wall Path Expedition successfully completed</section>  
@@ -114,10 +148,18 @@ export default function July2024() {
              All the information about this trip for today and for the remaining stages over the forthcoming weeks and months, please come and join us at our  
              <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link>
             </section>
-            </div>
+            </div>       
+         </div>
 
-;        
-
+         <div className="datenewsDivJuly">
+            <section className="dateJuly">7th July 2024</section> 
+            <section className="newsheaderJuly"> Stage 9 of our Hadrian's Wall Path Expedition successfully completed</section>  
+            <br />
+            <section className="newsJuly">Today we successfully completed Stage 9 of our Hadrian's Wall Path Expedition, Cawfields Quarry to Gilsland (4b and 4c).
+             All the information about this trip for today and for the remaining stages over the forthcoming weeks and months, please come and join us at our  
+             <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link>
+            </section>
+            </div>       
          </div>
 
 );

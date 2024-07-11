@@ -8,6 +8,7 @@ import ChollerfordBroccolitia from "./imagesresized/ChollerfordBroccolitia.jpg";
 import MithrasTemple from "./imagesresized/MithrasTemple.jpg";
 import LegionExhibitionEntrance from "./imagesresized/LegionExhibitionEntrance.jpg";
 import HousesteadsCawfieldQuarry from "./imagesresized/HousesteadsCawfieldQuarry.jpg";
+import ThirlwallElena1 from "./imagesresized/ThirlwallElena1.jpg";
 
 
 export default function Hwp2024() {
@@ -449,8 +450,114 @@ export default function Hwp2024() {
           </fig>
            </div>  {/* Closing div SlideshowHostPhotoHwp */}
            </div> {/* Closing tag datenewsDivHwp */}
-
       </div>
+
+
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>Day 9 - Cawfields Quarry to Gilsland</strong></section>
+            <section className="dateHwp">7th July 2024, Sunday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails">     
+            <strong className="headTitles">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Parking:</strong><br />We parked at <Link to="https://www.northumberlandnationalpark.org.uk/places-to-visit/hadrians-wall/cawfields/"
+                target="_blank" title="Click here to discover more about Cawfield Quarry Car Park"> Cawfield Quarry Car Park </Link> and on Railway Terrace in Gilsland, where there is free on-road parking. Cawfields Car Park is run by Northumberland National Park and we had bought an annual 
+                Hadrian's Wall parking pass for one of the cars, so we left the car with the pass at Cawfield Quarry. <Link to="https://www.northumberlandnationalpark.org.uk/visitor-info/car-parks/" target="_blank"> Annual passes </Link> are available from <Link to="https://www.thesill.org.uk/" target="_blank" title="Click here to discover more about The Sill Visitor's Centre"> The Sill </Link> .</li> 
+                <li><strong className="titles">Paths: </strong><br />A clear, well-defined path firstly through the ruins of Aesica (Great Chesters) Roman Fort and then a gradual climb up onto Walltown Crags, with some ascents and descents similar to yesterday before dropping down to the visitor's centre at Walltown Quarry. 
+                On leaving the Quarry, the terrain evens out considerably and becomes more undulating as it heads out towards Gilsland.</li>
+                <li><strong className="titles">Distance:</strong><br /> 6 miles on the Hadrian's Wall Path.<strong>  Ascent:</strong>  325 metres, 1066 feet.  </li>
+                <li><strong className="titles">Refreshments:</strong><br />Lanercost Priory tearooms.</li> 
+                </ul>    
+
+            <strong className="headTitles">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titles">Views: </strong><br />Spectacularly good views from the top of Walltown Crags, stretching for miles. It is really easy to get a feeling 
+                of lived-experience of being a legionnary up on the wall patrolling and keeping guard from the milecastles and turrets. The views were better today than expected
+                and come a close second to those of yesterday's walk.</li>
+                <li><strong className="titles">History: </strong><br />The ruins of Aesica (Great Chesters) Fort are less well organised and therefore have more of a romantic feel 
+                than some of the other forts. The opportunity to go and look at the 14th century Thirlwall Castle en route to Gilsland was also very interesting. </li> 
+                <li><strong className="titles"> Walk: </strong><br />Another high level walk and interestingly, a greater overall ascent than yesterday. The wall is pretty well-preserved
+              in the section running down to Walltown Quarry Car Park and Visitor's Centre and the Roman Army Museum/Magnis (Carvoran) Fort.  </li> 
+                </div>
+                </ul>
+                <br />
+
+            <strong className="headTitles">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Path on the descents Walltown Crags: </strong> <br />Whilst the path was at all times clearly marked and signposted,
+                the paths were not maintained on the descents as well as on the previous days section of walking between Housesteads and Cawfields Quarry, presumably
+                in part because this section of the path is not under the care of the National Trust.
+                </li>
+                <li><strong className="titles">Aesica fort : </strong> <br />Whilst in one respect, the lack of any information boards at Aesica Fort led to a 
+                more romantic feel, it would have been helpful to have some additional information on site. We have a feeling we may have missed some things here
+                and so intend to return for a shorter walk and more detailed visit one day in the coming months.
+                </li>
+                </ul>
+                <br />
+            <strong className="headTitles">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titles">10 (out of 10):</strong> </li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ } 
+
+            <br />
+            <div className="hwpDailyNarrative">
+            Todays walk was to start in Cawfields car park and end in Gilsland village taking in Aesica (Great Chesters) Roman Fort, past the sites of Turrets 43a and 43b where no visible remains exist, 
+            Walltown Crags including Turrets 44b(Mucklebank) and 45a and the site of the previous Milecastle 45, Walltown Quarry, 
+            Thirlwall Castle , Holmhead Guesthouse, Gap Farm and Gilsland, 2 nesting kestrels and a Texel Mule cross bred sheep.
+            <br /> 
+            <br /> 
+            Aesica Fort, whose modern name is Great Chesters (not to be confused with Chesters Fort at Chollerford) was the ninth fort on Hadrian's Wall. It lies 6.0 miles to the east of 
+            Housesteads (Roman name Vercovicium) and 6.5 miles to the west of Birdoswald Fort (Roman name Banna). Its main purpose was to guard the Caw Gap where the Haltwhistle Burn 
+            crosses the Wall. It was built relatively late (AD128), over the site of the exisiting Milecastle 43. There are no visible remains of Milecastle 43's two accompanying
+            turrets: turret 43A and turret 43B either. At 3 acres Aesica Fort was smaller than some of the other forts. More information about Aesica fort can be found <Link to="https://perlineamvalli.wordpress.com/2015/10/17/the-best-bits-of-hadrians-wall-the-forts-great-chesters/"
+            target="_blank"> here </Link> and <Link to="https://www.u3ahadrianswall.co.uk/great-chester-roman-fortaesica/" target="_blank"> here </Link> .
+            <br /> 
+            <br /> 
+            Walltown Crags: There are a number of routes over Walltown Crags and any can be used, but the top route offers the most spectacular views and is well worth the climb, so this was the route we used. It is 
+            also the route we suggest to others to use if walking this route (as long as you are up for the climb).
+            We passed the previous site of Milecastle 45 which is located on the top of Walltown Crags. The walls have been robbed, so little remains. We understand however that the site is still <Link to="https://en.wikipedia.org/wiki/Milecastle_45"
+            target="_blank"> visible as earthworks on aerial photographs </Link> . As we walked along the crags, we saw 2 Kestrels circling overhead which appeared 
+            to be nesting in the walls of the crag.
+            <br /> 
+            <br /> 
+            Turret 44b (Mucklebank) has magnificent views over the surrounding landscape. It is unusual in that it is built into a corner of Hadrian's Wall. Dropping down below
+            Turret 44b(Mucklebank) is the alleged site of King Arthur's Well , although there is no sign of it today.
+            Turret 45a is built high on Walltown Crags. It is thought that the wall and turret were built separately as, whilst the Wall's foundations run through the turret, above 
+            ground the wall and turret are separate structures and there are no wing walls and the wall meets the turret at an angle.This suggests they were probably built separately.
+            <br /> 
+            <br /> 
+            Finally we dropped down to the Walltown Quarry car park where there is a very pleasant small Visitors Centre, where you can buy some 
+            hot drinks from a machine and there are picnic tables to sit on by the quarry. We took the opportunity to have some lunch here.
+            There are also a number of walks you can do from this site, for which there are information boards. It is one of the pick up points for the 
+            <Link to="https://www.gonortheast.co.uk/ad122" target="_blank" title="Click here to discover more 
+            about the AD 122 busservice"> AD122 bus </Link> run by Go North East and in fact the bus arrived whilst we were there. The <Link to="https://romanarmymuseum.com/"
+            target="_blank" title="Click here to discover more about the Roman Army Museum"> Roman Army Museum </Link> on the site of the old Roman Fort Magnis (Carvoran) 
+            is near here, although this reqires a full half-day visit, so we will return to this on a separate occasion on a poor-weather day over the forthcoming months.
+            <br /> 
+            <br /> 
+            We then headed over to <Link to="https://www.northumberlandnationalpark.org.uk/places-to-visit/hadrians-wall/thirlwall-castle/"
+            target="_blank" title="Click here to discover more about Thirlwall Castle"> Thirlwall Castle </Link> , which is a 12th century castle which was later 
+            strengthened using stones from nearby Hadrian’s Wall. This link also includes a hyperlink to an interesting leaflet about Thirlwall castle produced 
+            by Northumberland National Park. It was then time to cross the railway line carefully and head on for the final couple of miles towards Gilsland where we would end the walk.
+            <br /> 
+            <br /> 
+            We invite you to join us on our 9th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            
+
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <Link to="https://photos.app.goo.gl/X2NPiiG1bZnzoBASA" target="_blank">
+            <img className="slideshowentryHwp" src={ThirlwallElena1 } alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+      </div>
+
+      
       </div> 
       
       

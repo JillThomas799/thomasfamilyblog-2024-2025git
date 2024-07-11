@@ -35,7 +35,7 @@ export default function Hwp2024() {
         < div className="hwpDailyNarrative">
           <div>If this were a novel, it might possibly commence with the following....... <br /> <br /></div>
           <em>'When they looked back afterwards, no one could quite recall how they had arrived 
-            at the decision to walk this 84 mile wild and windswept path from the East to the West Coast of England, encompassing both current-day Northumberland and Cumbria. 
+            at the decision to walk this 73 mile wild and windswept path from the East to the West Coast of England, encompassing both current-day Northumberland and Cumbria. 
             Or at least, if anyone did recall, no one was now admitting to it, in case they might have to accept responsibility....'
             <br />
             <br /> 
@@ -45,7 +45,6 @@ export default function Hwp2024() {
         <ul id="hwpIntroList">
         <li>Complete the Hadrian's Wall Path on separate days over a number of months.</li>
         <li>Ensure there is ample opportunity to visit the many museums and sites of interest en route and to enjoy the fantastic views.</li>
-        <li>Minimize the carbon footprint by walking or using public transport where possible, and where not, to use only one car.</li>
         <li>Try and keep the trip as 'green' as possible.</li>
         <li>Make a blog record of the journey, which others considering this trip might find useful.</li>
         <li>Try where possible to support local and regional businesses, organisations and charities.</li> 

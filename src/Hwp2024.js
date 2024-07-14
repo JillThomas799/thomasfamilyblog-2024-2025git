@@ -35,7 +35,7 @@ export default function Hwp2024() {
         < div className="hwpDailyNarrative">
           <div>If this were a novel, it might possibly commence with the following....... <br /> <br /></div>
           <em>'When they looked back afterwards, no one could quite recall how they had arrived 
-            at the decision to walk this 73 mile wild and windswept path from the East to the West Coast of England, encompassing both current-day Northumberland and Cumbria. 
+            at the decision to walk this 84 mile wild and windswept path from the East to the West Coast of England, encompassing both current-day Northumberland and Cumbria. 
             Or at least, if anyone did recall, no one was now admitting to it, in case they might have to accept responsibility....'
             <br />
             <br /> 
@@ -164,7 +164,7 @@ export default function Hwp2024() {
 
       
       <div className="datenewsDivHwp">
-            <section className="newsheaderHwp"><strong>Day 6 - Chollerford to Brocolitia/Carrawburgh Roman Fort</strong></section>
+            <section className="newsheaderHwp"><strong>Day 5 - Chollerford to Brocolitia/Carrawburgh Roman Fort</strong></section>
             <section className="dateHwp">29th June 2024, Saturday</section>
              <div className="newsHwp">
              <div className="componentWalkDetails">     
@@ -279,7 +279,7 @@ export default function Hwp2024() {
       </div>
 
       <div className="datenewsDivHwp">
-            <section className="newsheaderHwp"><strong>Day 7 - Brocolitia/Carrawburgh Roman Fort to Housesteads Roman Fort</strong></section>
+            <section className="newsheaderHwp"><strong>Day 6 - Brocolitia/Carrawburgh Roman Fort to Housesteads Roman Fort</strong></section>
             <section className="dateHwp">30th June 2024, Sunday</section>
              <div className="newsHwp">
              <div className="componentWalkDetails">     
@@ -377,7 +377,7 @@ export default function Hwp2024() {
       </div>
 
       <div className="datenewsDivHwp">
-            <section className="newsheaderHwp"><strong>Day 8 - Housesteads Roman Fort to Cawfield Quarry - (PS: This is the best day of the walk!)</strong></section>
+            <section className="newsheaderHwp"><strong>Day 7 - Housesteads Roman Fort to Cawfield Quarry - (PS: This is the best day of the walk!)</strong></section>
             <section className="dateHwp">6th July 2024, Saturday</section>
              <div className="newsHwp">
              <div className="componentWalkDetails">     
@@ -453,7 +453,7 @@ export default function Hwp2024() {
 
 
       <div className="datenewsDivHwp">
-            <section className="newsheaderHwp"><strong>Day 9 - Cawfields Quarry to Gilsland</strong></section>
+            <section className="newsheaderHwp"><strong>Day 8 - Cawfields Quarry to Gilsland</strong></section>
             <section className="dateHwp">7th July 2024, Sunday</section>
              <div className="newsHwp">
              <div className="componentWalkDetails">     

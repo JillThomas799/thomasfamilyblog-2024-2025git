@@ -162,6 +162,16 @@ export default function Hwp2024() {
            </div> {/* Closing tag datenewsDivHwp */}
       </div>
 
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>Day 2 - Newcastle Swing Bridge to Tyne Riverside Country Park: 6.7 miles</strong></section>
+            <section className="dateHwp"><em>Yet to be completed</em></section>
+      </div>
+
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>Day 3 - Tyne Riverside Country Park to Whittle Dene Reservoirs: 8.6 miles</strong></section>
+            <section className="dateHwp"><em>Yet to be completed</em></section>
+      </div>
+
       
       <div className="datenewsDivHwp">
             <section className="newsheaderHwp"><strong>Day 5 - Chollerford to Brocolitia/Carrawburgh Roman Fort</strong></section>

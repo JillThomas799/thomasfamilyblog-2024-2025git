@@ -9,6 +9,7 @@ import MithrasTemple from "./imagesresized/MithrasTemple.jpg";
 import LegionExhibitionEntrance from "./imagesresized/LegionExhibitionEntrance.jpg";
 import HousesteadsCawfieldQuarry from "./imagesresized/HousesteadsCawfieldQuarry.jpg";
 import ThirlwallElena1 from "./imagesresized/ThirlwallElena1.jpg";
+import WhittleChollerford from "./imagesresized/WhittleChollerford.jpg";
 
 
 export default function Hwp2024() {
@@ -67,7 +68,7 @@ export default function Hwp2024() {
       
 
         <div className="datenewsDivHwp">
-            <section className="newsheaderHwp"><strong>Day 1 - Wallsend to Newcastle Swing Bridge</strong></section>
+            <section className="newsheaderHwp"><strong>Day 1 - Wallsend to Newcastle Swing Bridge: 5.1 miles on the Hadrian's Wall Path, 7.5 miles total</strong></section>
             <section className="dateHwp">1st June 2024, Saturday</section> 
             <div className="newsHwp">
              <div className="componentWalkDetails">     
@@ -172,9 +173,123 @@ export default function Hwp2024() {
             <section className="dateHwp"><em>Yet to be completed</em></section>
       </div>
 
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>Day 4 - Whittle Dene Reservoirs to Chollerford with Brunton Turret(26a) and Chesters Bridge Abutment: 12.6 miles</strong></section>
+            <section className="dateHwp">13th July 2024, Sunday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails">     
+            <strong className="headTitles">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Parking:</strong><br />We parked for free on roadside-parking at Whittle dene reservoirs and the 
+                lay-by on the B6320 just north of the roundabout at Chollerford.</li> 
+                <li><strong className="titles">Paths: </strong><br />A clear, well-defined path firstly through the ruins of Aesica (Great Chesters) Roman Fort and then a gradual climb up onto Walltown Crags, with some ascents and descents similar to yesterday before dropping down to the visitor's centre at Walltown Quarry. 
+                On leaving the Quarry, the terrain evens out considerably and becomes more undulating as it heads out towards Gilsland.</li>
+                <li><strong className="titles">Distance:</strong><br /> 12.6 miles in total, of which  on the Hadrian's Wall Path.<strong>  Ascent:</strong>  246 metres, 810 feet.  </li>
+                <li><strong className="titles">Refreshments:</strong><br />Coffees and drinks at the Robin Hood Inn, lunch at the Errington Coffee House. </li> 
+                </ul>    
+
+            <strong className="headTitles">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titles">Navigation: </strong><br />This section of the Hadrian's Wall Path is 
+                very well-signposted and easy to follow on a clear path.</li>
+                <li><strong className="titles">Vallum: </strong><br />Whilst there is not much wall to see in this section,
+                there is plenty to see of the vallum, which can be observed quite clearly.
+                </li> 
+                <li><strong className="titles">Local hospitality: </strong><br />A big plus for the hospitality of the Robin Hood inn and Errington coffee house en-route.
+                especially given the weather. They were a life-saver.
+                </li> 
+                </div>
+                </ul>
+                <br />
+
+            <strong className="headTitles">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Weather: </strong> <br />It was unfortunately raining all morning, which was a shame.
+                </li>
+                <li><strong className="titles">Distance: </strong> <br />This was (together with the detours), at 12.6 miles, at the upper end of an acceptable 
+                walk length for the day. However, we did not regret having pushed on that bit extra to see the Brunton Turret and Chesters Wall 
+                Abutment detours.
+                </li>
+                </ul>
+                <br />
+            <strong className="headTitles">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titles">8 (out of 10):</strong> </li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ } 
+
+            <br />
+            <div className="hwpDailyNarrative">
+            Todays walk was to start at <Link to="https://www.nwt.org.uk/nature-reserves/whittle-dene" target="_blank" 
+            title="Click here to discover more about Whittledene reservoirs and nature reserve"> Whittle dene reservoirs and nature reserve </Link> and end back at the car at Chollerford roundabout taking in <Link to="https://www.nwt.org.uk/nature-reserves/whittle-dene" target="_blank" 
+            title="Click here to discover more about Whittledene reservoirs and nature reserve"> Whittle dene reservoirs and nature reserve </Link>, the 
+            sites of turrets 17a to 26b and milecastles 17 to 26, <Link to="https://robinhoodinnhadrianswall.co.uk/" target="_blank"
+            title="Click here to discover more about the Robin Hood Inn"> Robin Hood Inn </Link> at East Wallhouses (also a stamping station), site of <Link to="https://www.u3ahadrianswall.co.uk/halton-chesters-roman-fort/"
+            target="_blank" title="Click here to discover more about Halton Chesters Fort (Onnum)"> Halton Chesters Fort (Onnum) </Link> ,
+            <Link to="https://www.roman-britain.co.uk/places/portgate/" target="_blank"> Port Gate </Link>, <Link to="https://www.tripadvisor.co.uk/ShowUserReviews-g1051961-d1508482-r953594113-The_Errington_Coffee_House-Corbridge_Northumberland_England.html"
+            target="_blank" title="Click here to discover more about the Errington Coffee House"> Errington Coffee House </Link>, <Link to="https://fabulousnorth.com/heavenfield/"
+            target="_blank" title="Click here to discover more about Heavenfield Battle Site and St Oswald's Church"> Heavenfield Battle site and Church of St Oswald </Link> , <Link to="https://www.english-heritage.org.uk/visit/places/planetrees-roman-wall-hadrians-wall/"
+            target="_blank" title="Click here to discover more about"> Planetrees </Link> , <Link to="https://www.english-heritage.org.uk/visit/places/brunton-turret-hadrians-wall/" target="_blank"
+            title="Click here to discover more about Brunton Turret"> Brunton Turret (26a) </Link> , and the <Link to="https://www.english-heritage.org.uk/visit/places/chesters-bridge-abutment-hadrians-wall/"
+            target="_blank" title="Click here to discover more about Chesters Bridge Abutment"> Chesters Bridge Abutment </Link> .
+            <br /> 
+            <br /> 
+            After parking the car, we left <Link to="https://www.nwt.org.uk/nature-reserves/whittle-dene" target="_blank" 
+            title="Click here to discover more about Whittledene reservoirs and nature reserve"> Whittle dene reservoirs and nature reserve </Link> just before 9.30am in steady rain. 
+            Our first stop was intended to be the <Link to="https://robinhoodinnhadrianswall.co.uk/" target="_blank"
+            title="Click here to discover more about the Robin Hood Inn"> Robin Hood Inn </Link> at East Wallhouses, which is also a stamping station for our Hadrian's Wall passports.
+            The Inn apparently dates back to 1752 and is constructed with traditional stone, which is thought to have been sourced from Hadrian’s Wall. The Inn is often mentioned by Hadrian's Wall walkers
+            and local people and in our opinion, having been there, with good reason. In spite of it being 10am in the morning and the owners in the middle of cleaning after breakfast, when
+            we appeared through the door soaking wet, they were more than happy to get us seated, serve us some coffees and chat about their experience
+            doing what we are doing ie. walking the Wall in stages at the weekend, last year. We understand that there is also the Vallum Farm Tearoom  
+            on the other side of the road as a possible place for refreshments, although we have not personally visited and it is important to distinguish this 
+            from the restaurant at that location.
+            <br /> 
+            <br /> 
+            Fully refreshed and dried out a little, and with our passports successfully stamped, we recommenced our journey. The path follows parallel to the B6318 but does cross
+            this road a number of times, so it is necessary to take care. There are many stiles also along this section, which can become a little tiring after a while, but we would not advise being tempted to walk on the
+            road, as some people were doing as the traffic travels very fast and your chances of surviving intact are questionable! The path anyway is well demarcated and signposted 
+            and whilst there is a reasonable ascent on all this stretch today, it is very gradual and therefore you do not really notice it.
+            It is also a great stretch for visualising at length, and really getting a feel for the <Link to="https://en.wikipedia.org/wiki/Vallum_(Hadrian%27s_Wall)"
+            target="_blank" title="Click here to discover more about the Vallum"> Vallum </Link> , and you cannot achieve this the same from the road. 
+            <br/>
+            <br/>
+            Eventually, we came to the site of <Link to="https://www.u3ahadrianswall.co.uk/halton-chesters-roman-fort/"
+            target="_blank" title="Click here to discover more about Halton Chesters Fort (Onnum)"> Halton Chesters Fort (Onnum) </Link>, near Halton Castle before finally reaching 
+            Errington roundabout, the site of <Link to="https://www.roman-britain.co.uk/places/portgate/" target="_blank"> Port Gate </Link>, and our lunch stop <em>(yeah!)</em> <Link to="https://www.tripadvisor.co.uk/ShowUserReviews-g1051961-d1508482-r953594113-The_Errington_Coffee_House-Corbridge_Northumberland_England.html"
+            target="_blank" title="Click here to discover more about the Errington Coffee House"> Errington Coffee House </Link> , which was <em>extremely</em> busy, so we would advise
+            making sure you are there promptly if you are intending to eat there. It is very reasonably-priced.
+            <br/>
+            <br/>
+            After lunch, it was time to head towards an important 7th century battle site, the  <Link to="https://fabulousnorth.com/heavenfield/"
+            target="_blank" title="Click here to discover more about Heavenfield Battle Site and St Oswald's Church"> Heavenfield Battle site and Church of St Oswald </Link> and then <Link to="https://www.english-heritage.org.uk/visit/places/planetrees-roman-wall-hadrians-wall/"
+            target="_blank" title="Click here to discover more about"> Planetrees </Link> which was where can be seen a really good example of a piece of the Roman Wall which demonstrates the reduction from the building of 
+            the Wall initially as broad gauge and subsequently, seemingly for the purposes of increased speed and reduction in cost, as narrow gauge.
+            We were quite tired by now but it was decided that we could not venture out all this way without also adding in the detours to <Link to="https://www.english-heritage.org.uk/visit/places/brunton-turret-hadrians-wall/" target="_blank"
+            title="Click here to discover more about Brunton Turret"> Brunton Turret (26a) </Link> , and the <Link to="https://www.english-heritage.org.uk/visit/places/chesters-bridge-abutment-hadrians-wall/"
+            target="_blank" title="Click here to discover more about Chesters Bridge Abutment"> Chesters Bridge Abutment </Link>. The Chesters Bridge Abutment detour, alongside the east bank 
+            of the river North Tyne does, at the end of a long day, seem like a bit of a trek, but having undertaken it, it is in our opinion well worth the effort.
+             <br/>
+             <br/>
+            We invite you to join us on our 4th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            
+
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <Link to="https://photos.app.goo.gl/hL1BhXrSTocuc3Vq9" target="_blank">
+            <img className="slideshowentryHwp" src={WhittleChollerford } alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+      </div>
+
+
       
       <div className="datenewsDivHwp">
-            <section className="newsheaderHwp"><strong>Day 5 - Chollerford to Brocolitia/Carrawburgh Roman Fort</strong></section>
+            <section className="newsheaderHwp"><strong>Day 5 - Chollerford to Brocolitia/Carrawburgh Roman Fort: 4miles</strong></section>
             <section className="dateHwp">29th June 2024, Saturday</section>
              <div className="newsHwp">
              <div className="componentWalkDetails">     
@@ -264,7 +379,7 @@ export default function Hwp2024() {
            <br />
            <br />
            If you are visiting the Chesters site, we would strongly advise making sure that you leave enough time and that you also have time to see the John Clayton Museum 
-           and the Chester's Bridge abutment detour right down to the river, where a narrow footbridge originally carried the Wall across the River North Tyne, but the Romans later replaced this 
+           and the Chester's Bridge abutment detour right down to the river (see our previous, Day 4 entry regarding the Chesters Bridge abutment detour), where a narrow footbridge originally carried the Wall across the River North Tyne, but the Romans later replaced this 
            with an impressive stone road bridge. The remains of the stone abutment that joined the bridge to the riverbank survive, along with the foundations of the tower and a section of the wall.
            <br />
            <br />
@@ -273,7 +388,7 @@ export default function Hwp2024() {
            for the various areas as you go around the fort.
             <br /> 
             <br /> 
-            Join us on our 6th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            Join us on our 5th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
             </div> {/*Closing tag for hwpDailyNarrative div */}
             
 
@@ -289,7 +404,7 @@ export default function Hwp2024() {
       </div>
 
       <div className="datenewsDivHwp">
-            <section className="newsheaderHwp"><strong>Day 6 - Brocolitia/Carrawburgh Roman Fort to Housesteads Roman Fort</strong></section>
+            <section className="newsheaderHwp"><strong>Day 6 - Brocolitia/Carrawburgh Roman Fort to Housesteads Roman Fort: 5.7 miles on the Hadrian's Wall Path, 6.7 miles in total.</strong></section>
             <section className="dateHwp">30th June 2024, Sunday</section>
              <div className="newsHwp">
              <div className="componentWalkDetails">     
@@ -371,7 +486,7 @@ export default function Hwp2024() {
             <br /> 
             <br /> 
 
-            Join us on our 7th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            Join us on our 6th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
             </div> {/*Closing tag for hwpDailyNarrative div */}
             
 
@@ -447,7 +562,7 @@ export default function Hwp2024() {
             It was to be a brilliant day and our best walking day on the wall so far.
             <br /> 
             <br /> 
-            We invite you to join us on our 8th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            We invite you to join us on our 7th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
             </div> {/*Closing tag for hwpDailyNarrative div */}
             
 
@@ -552,7 +667,7 @@ export default function Hwp2024() {
             by Northumberland National Park. It was then time to cross the railway line carefully and head on for the final couple of miles towards Gilsland where we would end the walk.
             <br /> 
             <br /> 
-            We invite you to join us on our 9th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            We invite you to join us on our 8th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
             </div> {/*Closing tag for hwpDailyNarrative div */}
             
 
@@ -565,6 +680,7 @@ export default function Hwp2024() {
            </div>  {/* Closing div SlideshowHostPhotoHwp */}
            </div> {/* Closing tag datenewsDivHwp */}
       </div>
+
 
       
       </div> 

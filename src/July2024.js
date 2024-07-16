@@ -142,7 +142,7 @@ export default function July2024() {
 
          <div className="datenewsDivJuly">
             <section className="dateJuly">6th July 2024</section> 
-            <section className="newsheaderJuly"> Stage 8 of our Hadrian's Wall Path Expedition successfully completed</section>  
+            <section className="newsheaderJuly"> Stage 7 of our Hadrian's Wall Path Expedition successfully completed</section>  
             <br />
             <section className="newsJuly">Today we successfully completed Stage 8 of our Hadrian's Wall Path Expedition, Housesteads Fort to Cawfield Quarry (3e and 4a).
              All the information about this trip for today and for the remaining stages over the forthcoming weeks and months, please come and join us at our  
@@ -153,14 +153,28 @@ export default function July2024() {
 
          <div className="datenewsDivJuly">
             <section className="dateJuly">7th July 2024</section> 
-            <section className="newsheaderJuly"> Stage 9 of our Hadrian's Wall Path Expedition successfully completed</section>  
+            <section className="newsheaderJuly"> Stage 8 of our Hadrian's Wall Path Expedition successfully completed</section>  
             <br />
             <section className="newsJuly">Today we successfully completed Stage 9 of our Hadrian's Wall Path Expedition, Cawfields Quarry to Gilsland (4b and 4c).
              All the information about this trip for today and for the remaining stages over the forthcoming weeks and months, please come and join us at our  
              <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link>
             </section>
-            </div>       
-         </div>
+          </div>       
+         
+
+          <div className="datenewsDivJuly">
+            <section className="dateJuly">13th July 2024</section> 
+            <section className="newsheaderJuly"> Stage 4 of our Hadrian's Wall Path Expedition successfully completed</section>  
+            <br />
+            <section className="newsJuly">Today we successfully completed Stage 4 of our Hadrian's Wall Path Expedition, Whittle Dene Reservoirs and Nature Reserve to Chollerford (2c, 2d and 2e).
+            All the information about this trip for today and for the remaining stages over the forthcoming weeks and months, please come and join us at our  
+            <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link>
+            </section>
+          </div>       
+          
+          </div>
+
+         
 
 );
 }

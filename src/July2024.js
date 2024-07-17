@@ -170,7 +170,20 @@ export default function July2024() {
             All the information about this trip for today and for the remaining stages over the forthcoming weeks and months, please come and join us at our  
             <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link>
             </section>
+          </div>  
+
+          <div className="datenewsDivJuly">
+            <section className="dateJuly">14th July 2024</section> 
+            <section className="newsheaderJuly"> ADDITIONAL DAY - Visit to the Roman Army Museum and Vindolanda</section>  
+            <br />
+            <section className="newsJuly"> We had walked a long way (12.6 miles) on Saturday, 13th July in poor, wet weather. So rather than undertaking another stage
+           of our Hadrian's Wall walk on the Sunday, given it was forecast for rain again, we decided it was time for a catch-up day in which we would take the opportunity to visit the 
+           Roman Army Museum and Vindolanda in a relaxed fashion.
+            All the information about this trip for today and for the remaining stages over the forthcoming weeks and months, please come and join us at our  
+            <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link>
+            </section>
           </div>       
+               
           
           </div>
 

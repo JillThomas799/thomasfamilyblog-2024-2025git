@@ -10,6 +10,9 @@ import LegionExhibitionEntrance from "./imagesresized/LegionExhibitionEntrance.j
 import HousesteadsCawfieldQuarry from "./imagesresized/HousesteadsCawfieldQuarry.jpg";
 import ThirlwallElena1 from "./imagesresized/ThirlwallElena1.jpg";
 import WhittleChollerford from "./imagesresized/WhittleChollerford.jpg";
+import RomanArmyMuseumT from "./imagesresized/RomanArmyMuseumT.jpg";
+
+
 
 
 export default function Hwp2024() {
@@ -681,9 +684,49 @@ export default function Hwp2024() {
            </div> {/* Closing tag datenewsDivHwp */}
       </div>
 
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>ADDITIONAL DAY - Visit to the Roman Army Museum and Vindolanda </strong></section>
+            <section className="dateHwp">14th July 2024, Sunday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails"> 
+            <div className="hwpDailyNarrative">
+           We had walked a long way (12.6 miles) on Saturday, 13th July in poor, wet weather. So rather than undertaking another stage
+           of our Hadrian's Wall walk on the Sunday, given it was forecast for rain again, we decided it was time for a catch-up day in which we would take the opportunity to visit the 
+           Roman Army Museum and Vindolanda in a relaxed fashion.
+           <br /> 
+            <br /> 
+          The Roman Army Museum: We have visited Vindolanda previously, but not the Roman Army Museum and so had long planned a visit. 
+          We commenced the visit by watching the Edge of Empire The Eagle's Eye film. The actual film is 20-30 minutes long and was originally 
+          filmed in 3D. We understand that the reason the 3D version can no longer be seen is that the 3D licence had become unaffordable,
+          so now it is shown in 2D. Nonetheless, it is a very impressive film, and the screen it is shown on is a reasonable size. It really brings 
+          life on this section of the Wall in Roman times to life.
+          <br /> 
+          <br /> 
+          There is also a 10 minute film produced by the Vindolanda Trust, talking about the making of the Edge of Empire The Eagle's Eye film which can be found on You Tube videos. It is a really
+          interesting short film as the filming was undertaken using a combination of an eagle who came from the local Kielder bird of prey centre, and whose name we discovered was Sima and a helicopter.
+          The eagle had a camera strapped to its chest.
+            <br /> 
+            <br /> 
+            Both museums are well woth a visit although we would recommend taking a full day for Vindolanda and a separate half-day for the Roman Army Museum.
+            We went on free guided tours at both sites which were very interesting.
+            <br /> 
+            <br /> 
+            We invite you to join us on our visit to the Roman Army and Vindolanda Museums by clicking on the album below and following our narrative by clicking on the added comments.          
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            </div>
 
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <Link to="https://photos.app.goo.gl/7UbS3Bujzjgc79C87" target="_blank">
+            <img className="slideshowentryHwp" src={RomanArmyMuseumT } alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+      </div>
       
       </div> 
+      
       
       
     );

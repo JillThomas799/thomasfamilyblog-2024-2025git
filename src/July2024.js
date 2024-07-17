@@ -53,7 +53,7 @@ export default function July2024() {
          <div className="datenewsDivJuly" >
             <section className="dateJuly">1st - 31st July 2024</section>
             <section className="newsheaderJuly">Welcome to our July 2024 blog</section> 
-            <section className="newsJuly"><div style={{textAlign:"center"}}>Welcome to this, our July 2024 blog. </div>
+            <section className="newsJuly"><div style={{textAlign:"center", fontSize:"1.2rem"}}>Welcome to this, our July 2024 blog. </div>
             <br />
             <br />
             The header picture this month was taken in the garden recently and has then been converted into an SVG image for artistic effect.

@@ -12,7 +12,8 @@
   .headerPhotoJuly{
       width:40%;
       height:auto;
-      border:#E0DBD1 solid 5px;
+      /* border:#E0DBD1 solid 5px; */
+      border: solid black 2px;
       border-radius: 25%;
       margin:auto;
       pointer-events: none;

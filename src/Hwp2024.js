@@ -11,6 +11,7 @@ import HousesteadsCawfieldQuarry from "./imagesresized/HousesteadsCawfieldQuarry
 import ThirlwallElena1 from "./imagesresized/ThirlwallElena1.jpg";
 import WhittleChollerford from "./imagesresized/WhittleChollerford.jpg";
 import RomanArmyMuseumT from "./imagesresized/RomanArmyMuseumT.jpg";
+import HeddonItalianClosed2Text from "./imagesresized/HeddonItalianClosed2Text.jpg";
 
 
 
@@ -108,7 +109,7 @@ export default function Hwp2024() {
             <ul className="hwpIntroList">
             <li><strong className="titles">8 (out of 10):</strong> Better walk than expected so don't let some people's complaints about its urban setting on line put you off.
             It is walking on firm surfaces all the way though. Many people walk this section combining 3 segments known as 1a, 1b and 1c, from Wallsend to Heddon-on-the-Wall, but we would advise against this if possible
-            as there is so much to do, see and learn that undertaking so much in one day does not allow to spend time in the sites and museums. Also we would not advise walking on firm 
+            as there is so much to do, to see and to learn that undertaking so much in one day does not allow for time to be spent in the sites and museums. Also we would not advise walking on firm 
             surfaces for such a distance.</li>
             </ul>
             </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
@@ -128,14 +129,14 @@ export default function Hwp2024() {
             <br />
             The Hadrian's Wall Path starts at Wallsend, and on disembarking at Wallsend metro station, it is a well-signed posted and short (3 minute) walk to  
             <Link to="https://segedunumromanfort.org.uk/" target="_blank" title="Click here to discover more about Segedunum Fort"> Segedunum Roman Fort. </Link>
-            Entry was half-price as the 3rd floor of the museum and also the reconstructed bath house were currently closed awaiting repairs to flooding damage. 
+            Entry was half-price as the 3rd floor of the museum and also the reconstructed bath house were currently closed, awaiting repairs to flooding damage. 
             These are due to be completed by the end of August as this <Link to ="https://www.bbc.com/news/articles/cndd2wppy3xo" target="_blank" title="Click here to open the article"> recent BBC article</Link> explains, so in no way let this put you off 
             visiting as this is still an excellent, informative museum and site and there are some amazing views from the viewing tower. Our intention is to have a further visit 
             when the repairs are complete.
             <br />
             <br />
             From there, we went on to join the Hadrian's Wall Path which, for the first 12 miles runs not along the original line of Hadrian's Wall
-            but along the route 72 cycle and pedestrian way alongside the River Tyne. This path is much pleasanter than might be imagined, despite
+            but along the route 72 cycle and pedestrian way along the Northern bank of the River Tyne. This path is much pleasanter than might be imagined, despite
             it being through quite an urban area. It is also a cycle path, so you just need to keep a look out for cyclists to let them past. Our favourite 
             section was when we dropped down to be right beside the River Tyne. The Ropery formed a good spot for a packed lunch as there was a bench to 
             sit on. 
@@ -172,21 +173,110 @@ export default function Hwp2024() {
       </div>
 
       <div className="datenewsDivHwp">
-            <section className="newsheaderHwp"><strong>Day 3 - Tyne Riverside Country Park to Whittle Dene Reservoirs: 8.6 miles</strong></section>
-            <section className="dateHwp"><em>Yet to be completed</em></section>
+            <section className="newsheaderHwp"><strong>Day 3 - Tyne Riverside Country Park to Whittle Dene Reservoirs: 8.6 miles on the Hadrian's Wall Path, 9.56 miles in total.</strong></section>
+            <section className="dateHwp">20th July, 2024</section>
+
+            <div className="newsHwp">
+             <div className="componentWalkDetails">     
+            <strong className="headTitles">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Parking:</strong><br />Free parking at Tyne Riverside Country Park car park and on the roadside-parking in the lay-by at Whittle dene reservoirs.</li>
+                <li><strong className="titles">Paths: </strong><br />Clear, well-defined and sign-posted paths once you reach the far-side of Tyne Riverside Country Park.</li>
+                <li><strong className="titles">Distance:</strong><br /> 9.56 miles in total, of which 8.6 miles on the Hadrian's Wall Path.<strong>  Ascent:</strong>  159 metres, 521 feet.  </li>
+                <li><strong className="titles">Refreshments:</strong><br />Limited on this section, depending on the time when you are undertaking the walk. A special mention is therefore necessary
+                for <Link to="https://www.spar.co.uk/store-locator/hal22784-spar-heddon" target="_blank">Spar Petrol Station, Heddon-on-the-Wall</Link> who sell take-away coffees and a 
+                good range of drinks and snacks . There is also a bathroom here which you can use, as long as you are purchasing something at the shop. </li> 
+                </ul>    
+
+            <strong className="headTitles">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titles">Heddon-on-the-Wall : </strong> is an interesting and pretty village, situated up on the hill. There are some lovely 
+                views from here. There is also, with a small detour, the longest existing segment of the original broad section of Hadrian's Wall. There are plenty of information signs.
+                Most of the year, the Italian bistro and deli should be open, we were just unlucky in it being their summer break.<br /></li> 
+                <li><strong className="titles">History : </strong> The remains of <Link to="https://rudchester.org/fort.html" target="_blank" title="Click here to discover more 
+                about Vindobala/Rudchester Fort"> Vindobala/Rudchester Fort</Link> and the information board there are very interesting. <br /></li> 
+                <li><strong className="titles">Weather:</strong> Whilst cloudy, it was warm and a pleasant day with no rain. <br /></li>
+                </div>
+                </ul>
+                <br />
+            <strong className="headTitles">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Waymarking initially: </strong>Google maps will not take you to the correct place on Tyne Riverside Country Park, as we were 
+                parking on the main car park by Hedley's Riverside Coffee Shop. To get there, when you are following Google Maps and 
+                entering Tyne Riverside Country Park, take a left by the Keelman and Big Lamp Brewery; this will take you to the desired car park immediately 
+                behind Hedley's Riverside Coffee Shop. <br /> On leaving the car, walk directly towards the River Tyne, by the side of the playground,
+                and on meeting the main path, turn right towards Wylam (ie. away from Newcastle). Keep following this path until you see the Acorn sign pointing to the 
+                right, at which point you will leave the main path and follow the Hadrian's Walk Path. </li>
+                <li><strong className="titles">Mud and flood!:</strong> There were occasional extremely muddy sections and one section where the path was completely submerged 
+                in water up to mid-calf depth, calling for an <Link to="https://en.wikipedia.org/wiki/Uncharted_4:_A_Thief%27s_End" target="_blank">'Uncharted'</Link> type manoeuvre (see photo album). <br /> </li>
+                <li><strong className="titles">Refreshments - Lack of:</strong> Refreshments are limited on this section, depending on the time when you are undertaking the walk. See "Refreshments" in the "Details of the Walk" section above. <br /> </li>
+                <li><strong className="titles"></strong><br /> </li>
+                </ul>
+            <strong className="headTitles">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titles">8 (out of 10):</strong> What can we say....we have to deduct several points for the muddiness underfoot in sections, the flood and the limited opportunity for 
+            refreshments en-route!</li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            <br />
+            <div className="hwpDailyNarrative">
+            We were walking today from Tyne Riverside Country Park, which is located 7 miles from the centre of Newcastle, up via Heddon-on-the-Wall and over to Whittle dene reservoir.
+            On leaving the Tyne Riverside Country Park, we shortly joined the <Link to="https://co-curate.ncl.ac.uk/wylam-wagonway/" target="_blank">  Wylam Waggonway
+            </Link> , before starting to head up hill towards Heddon-on-the-Wall. 
+            <br />
+            <br />
+            This climb up to Heddon-on-the-Wall is the very final stage of Day 1 for East to West Hadrian's Wall Path walkers who are undertaking the 
+            trek over a week, and they complain about it a lot. We can see why....we would have not liked to climb up here after 16-18 miles walking. However, it was at the start of our walk, so all was well
+            and good and we were soon in Heddon-on-the-Wall. 
+            <br />
+            <br />
+            It had been quite a long drive out to Tyne Riverside Country Park, so we felt it was time for coffees and refreshments. However, it was only 11.10am 
+            and so the <Link to="https://www.facebook.com/THREETUNSHEDDON/?_rdr" target="_blank">The Three Tuns</Link> and <Link to="https://www.vintageinn.co.uk/restaurants/north-east/swan-at-heddon?utm_source=google&utm_medium=organic&utm_campaign=gmb-homepage#/"
+            target="_blank"> Swan </Link> inns were not yet open. Elena identified an alternative, the <Link to="https://www.tripadvisor.co.uk/Restaurant_Review-g1653233-d25194372-Reviews-Bell_E_Buon-Heddon_on_the_Wall_Northumberland_England.html"
+            target="_blank"> Bell e Buon </Link> Italian Bistro and Deli. However, when we arrived it was closed and there was a sign on the door; they were closed for their annual holiday.....
+            After taking a small detour to see the longest remaining segment of the broad (2.9 metre thickness) section of Hadrian's Wall, we were rescued by the <Link to="https://www.spar.co.uk/store-locator/hal22784-spar-heddon" target="_blank"> Spar Petrol Station </Link> where we could buy drinks and snacks and use the bathroom facilities.
+            So five stars to the Spar Petrol Station, Heddon-on-the-Wall!
+            <br />
+            <br />
+            After a short rest, we set on our way again towards the remains of <Link to="https://rudchester.org/fort.html" target="_blank" title="Click here to discover more 
+            about Vindobala/Rudchester Fort"> Vindobala/Rudchester Fort</Link> . Then it was on towards Ironsign Farm B and B, which we circumnavigated and headed onwards towards
+            Harlow Hill, some 2.25 miles away. There are some very muddy parts on this segment (see photos). But these soon sank into insignificance, when we came 
+            to <em>the great flood</em>, which was located just before Albermale Barracks. This necessitated some very creative thinking, as demonstrated in the photo album.
+            <br />
+            <br />
+            Finally, we were back at Whittle dene Reservoirs and it was time for a well-earned lunch, sitting on the picnic tables by the reservoir. Then it was time to pack our gear back 
+            in the car, return to pick up the 2nd car from Tyne Riverside Country Park and to return to <Link to="https://www.tripadvisor.co.uk/ShowUserReviews-g1051961-d1508482-r953594113-The_Errington_Coffee_House-Corbridge_Northumberland_England.html"
+            target="_blank" title="Click here to discover more about the Errington Coffee House"> Errington Coffee House </Link> for some coffees and home-baked cakes.
+            <br />
+            <br />
+            Join us on our 3rd day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            <br />
+            <br />
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <Link to="https://photos.app.goo.gl/rnn51hGg2vQVA3tFA" target="_blank">
+            <img className="slideshowentryHwp" src={HeddonItalianClosed2Text} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
       </div>
+      
 
       <div className="datenewsDivHwp">
             <section className="newsheaderHwp"><strong>Day 4 - Whittle Dene Reservoirs to Chollerford with Brunton Turret(26a) and Chesters Bridge Abutment: 12.6 miles</strong></section>
-            <section className="dateHwp">13th July 2024, Sunday</section>
+            <section className="dateHwp">13th July 2024, Saturday</section>
              <div className="newsHwp">
              <div className="componentWalkDetails">     
             <strong className="headTitles">Details of the Walk </strong>
             <ul className="hwpIntroList">
                 <li><strong className="titles">Parking:</strong><br />We parked for free on roadside-parking at Whittle dene reservoirs and the 
                 lay-by on the B6320 just north of the roundabout at Chollerford.</li> 
-                <li><strong className="titles">Paths: </strong><br />A clear, well-defined path firstly through the ruins of Aesica (Great Chesters) Roman Fort and then a gradual climb up onto Walltown Crags, with some ascents and descents similar to yesterday before dropping down to the visitor's centre at Walltown Quarry. 
-                On leaving the Quarry, the terrain evens out considerably and becomes more undulating as it heads out towards Gilsland.</li>
+                <li><strong className="titles">Paths: </strong>Clear, well-marked and sign-posted paths along the entire route. There is a requirement to 
+                cross the road at several points, where care is needed. This section has the most stiles of any section of the walk.<br />
+                </li>
                 <li><strong className="titles">Distance:</strong><br /> 12.6 miles in total, of which  on the Hadrian's Wall Path.<strong>  Ascent:</strong>  246 metres, 810 feet.  </li>
                 <li><strong className="titles">Refreshments:</strong><br />Coffees and drinks at the Robin Hood Inn, lunch at the Errington Coffee House. </li> 
                 </ul>    
@@ -505,7 +595,7 @@ export default function Hwp2024() {
       </div>
 
       <div className="datenewsDivHwp">
-            <section className="newsheaderHwp"><strong>Day 7 - Housesteads Roman Fort to Cawfield Quarry - (PS: This is the best day of the walk!)</strong></section>
+            <section className="newsheaderHwp"><strong>Day 7 - Housesteads Roman Fort to Cawfield Quarry (PS. This is the best day of the walk!): 6 miles on the Hadrian's Wall Path, 6.5 miles in total.</strong></section>
             <section className="dateHwp">6th July 2024, Saturday</section>
              <div className="newsHwp">
              <div className="componentWalkDetails">     
@@ -581,7 +671,7 @@ export default function Hwp2024() {
 
 
       <div className="datenewsDivHwp">
-            <section className="newsheaderHwp"><strong>Day 8 - Cawfields Quarry to Gilsland</strong></section>
+            <section className="newsheaderHwp"><strong>Day 8 - Cawfields Quarry to Gilsland: 6 miles.</strong></section>
             <section className="dateHwp">7th July 2024, Sunday</section>
              <div className="newsHwp">
              <div className="componentWalkDetails">     

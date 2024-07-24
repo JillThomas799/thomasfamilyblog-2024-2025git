@@ -83,6 +83,7 @@ img:hover{
 
 .Likes li, .Dislikes li, .Surprisingfacts li, .FavouriteBooks li, .FavouriteMusic li{
   padding:10px;
+  text-align:center;
 }
 
 

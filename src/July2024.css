@@ -106,11 +106,10 @@
     .blogPhotoDivJuly{
       display:flex;
       flex-direction: row;
-      border:solid 2px #757c88;
-      background-color: #C291A4;
+      background-color: #745762;
       padding-bottom: 8%;
       padding-top: 5%;
-      margin-top:0vh;
+      margin-top:5vh;
     }
     
     .blogPhotoJuly img{
@@ -119,13 +118,13 @@
       margin-right: auto;
       width:70%;
       height:70%;
-      border:solid #b5a642 10px;
-      border-radius:50%;
-      -webkit-border-radius:50%;
-      -moz-border-radius:50%;
-      -ms-border-radius:50%;
-      -o-border-radius:50%;
-  }
+      border:solid black 2px;
+      border-radius:10%;
+      -webkit-border-radius:10%;
+      -moz-border-radius:10%;
+      -ms-border-radius:10%;
+      -o-border-radius:10%;
+}
   
   figjuly{
     display: flex;
@@ -174,15 +173,21 @@
     color:white; 
   }
   
-  .SlideshowHostPhotoJuly{
+  .slideshowHostPhotoJuly{
     display:flex;
     flex-direction: column;
-    background-color: #C291A4;
+    background-color: #745762;
     padding-bottom: 5%;
     padding-top: 5%;
-    margin-top:0vh;
+    margin-top:5vh;
     justify-content:center;
     text-align:center;
+  }
+
+  .slideshowHostPhotoJuly img{
+    width:70%;
+    height:auto;
+    border:solid black 2px;
   }
 
   /*css to run rain and cloud animation*/

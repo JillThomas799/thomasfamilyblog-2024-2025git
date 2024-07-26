@@ -4,6 +4,14 @@ import './July2024.css';
 import July2024HeaderPhoto1 from "./imagesresized/July2024HeaderPhoto1.jpg";
 import AlnwickGardens from "./imagesresized/AlnwickGardens.jpg";
 import PantaloonsIOEheader from "./imagesresized/PantaloonsIOEheader.jpg";
+import GardenCentreCat from "./imagesresized/GardenCentreCat.jpg";
+import HarringtonArmsFront from "./imagesresized/HarringtonArmsFront.jpg";
+import HarringtonArmsSide from "./imagesresized/HarringtonArmsSide.jpg";
+import HarringtonArmsFood from "./imagesresized/HarringtonArmsFood.jpg";
+import RidgegateReservoir from "./imagesresized/RidgegateReservoir.jpg";
+import InfoBoardMacForest from "./imagesresized/InfoBoardMacForest.jpg";
+import TrentabankReservoir from "./imagesresized/TrentabankReservoir.jpg";
+import WalksMacForest from "./imagesresized/WalksMacForest.jpg";
 
 export default function July2024() {
     return (
@@ -128,6 +136,7 @@ export default function July2024() {
         <br />
         It was a very entertaining performance and everyone enjoyed it. As was the case last year, the view of the tarn was lovely as the sun started to set.
         
+        
         <div className="slideshowHostPhotoJuly">
           <fig>
             <Link to="https://photos.app.goo.gl/NvuREtutgFu1oWdh8" target="_blank">
@@ -141,7 +150,7 @@ export default function July2024() {
  </div>
 
          <div className="datenewsDivJuly">
-            <section className="dateJuly">6th July 2024</section> 
+            <section className="dateJuly">6th July 2024, Saturday</section> 
             <section className="newsheaderJuly"> Stage 7 of our Hadrian's Wall Path Expedition successfully completed</section>  
             <br />
             <section className="newsJuly">Today we successfully completed Stage 8 of our Hadrian's Wall Path Expedition, Housesteads Fort to Cawfield Quarry (3e and 4a).
@@ -152,7 +161,7 @@ export default function July2024() {
          </div>
 
          <div className="datenewsDivJuly">
-            <section className="dateJuly">7th July 2024</section> 
+            <section className="dateJuly">7th July 2024, Sunday</section> 
             <section className="newsheaderJuly"> Stage 8 of our Hadrian's Wall Path Expedition successfully completed</section>  
             <br />
             <section className="newsJuly">Today we successfully completed Stage 9 of our Hadrian's Wall Path Expedition, Cawfields Quarry to Gilsland (4b and 4c).
@@ -163,7 +172,7 @@ export default function July2024() {
          
 
           <div className="datenewsDivJuly">
-            <section className="dateJuly">13th July 2024</section> 
+            <section className="dateJuly">13th July 2024, Saturday</section> 
             <section className="newsheaderJuly"> Stage 4 of our Hadrian's Wall Path Expedition successfully completed</section>  
             <br />
             <section className="newsJuly">Today we successfully completed Stage 4 of our Hadrian's Wall Path Expedition, Whittle Dene Reservoirs and Nature Reserve to Chollerford (2c, 2d and 2e).
@@ -173,7 +182,7 @@ export default function July2024() {
           </div>  
 
           <div className="datenewsDivJuly">
-            <section className="dateJuly">14th July 2024</section> 
+            <section className="dateJuly">14th July 2024, Sunday</section> 
             <section className="newsheaderJuly"> ADDITIONAL DAY - Visit to the Roman Army Museum and Vindolanda</section>  
             <br />
             <section className="newsJuly"> We had walked a long way (12.6 miles) on Saturday, 13th July in poor, wet weather. So rather than undertaking another stage
@@ -185,7 +194,50 @@ export default function July2024() {
           </div>     
 
           <div className="datenewsDivJuly">
-            <section className="dateJuly">20th July 2024</section> 
+            <section className="dateJuly">18th July 2024, Thursday</section> 
+            <section className="newsheaderJuly"> Day out in Cheshire visiting family.</section>  
+            <br />
+            <section className="newsJuly"> 
+             Today we went to Cheshire for the day to visit Bernard's brother who was staying there for a couple of weeks. Fortunately, it was a lovely, sunny day.
+             We had planned to stop for a coffee and a break at the first motorway services after the Thelwall viaduct, but subsequently discovered that these services were only 
+             after we were due to exit the motorway. So, a rescue plan for a coffee had to be put into action and we ended up instead at Fryer's Garden Centre 
+             near Knutsford, where the most pampered and comfortable cat seemed to live.... (see photo).
+             <br />
+             <br />
+             For lunch, we had a pretty drive out to Gawsworth village where there is the <Link to="https://www.robinsonsbrewery.com/pubs/harrington-arms-gawsworth/" target="_blank">
+             Harrington Arms</Link> and as it was such good weather, we had lunch in the garden.
+             <br />
+             <br />
+             After lunch we drove up into <Link to="https://www.tripadvisor.co.uk/Attraction_Review-g191278-d12711431-Reviews-Macclesfield_Forest-Macclesfield_Cheshire_England.html"> Macclesfield Forest </Link> , where we had a pleasant walk.
+             We had not visited Macclesfield Forest before and the drive out there was very pleasant. It was also great to have the opportunity to catch up on news and returned Bernard's brother's bicycle,
+             which Bernard had been repairing, to him. Before long though, it was time for the long drive home, after what had been a very enjoyable day.
+
+            <div className="blogPhotoDivJuly">
+            <fig><section className = "blogPhotoJuly" ><img src={GardenCentreCat} alt="" /><figcaption className='julyfigcaption'><strong>The resident cat at Fryer's Garden Centre,<br /> Knutsford having a very comfortable life...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJuly" ><img src={HarringtonArmsFront} alt="" /><figcaption className='julyfigcaption'><strong>The Harrington Arms, Gawsworth. <br /> A lovely location for lunch...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJuly" ><img src={HarringtonArmsSide} alt="" /><figcaption className='julyfigcaption'><strong>...where because of the lovely weather, <br /> we were able to sit in the garden <br /> to eat our food.</strong></figcaption></section>
+              </fig>
+              <fig><section className = "blogPhotoJuly" ><img src={HarringtonArmsFood} alt="" /><figcaption className='julyfigcaption'><strong>...where the food was good <br /> and reasonably priced...</strong></figcaption></section>
+              </fig>
+            </div>
+
+            <div className="blogPhotoDivJuly">
+            <fig><section className = "blogPhotoJuly" ><img src={InfoBoardMacForest} alt="" /><figcaption className='julyfigcaption'><strong>There were some useful information signs <br /> which was just as well, because <br /> we were otherwise somewhat lost... </strong></figcaption></section>
+            </fig>
+              <fig><section className = "blogPhotoJuly" ><img src={WalksMacForest} alt="" /><figcaption className='julyfigcaption'><strong>We used the information boards <br /> to look at the possible walks ...</strong></figcaption></section>
+              </fig>
+            <fig><section className = "blogPhotoJuly" ><img src={TrentabankReservoir} alt="" /><figcaption className='julyfigcaption'><strong>Trentabank Reservoir, Macclesfield Forest</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJuly" ><img src={RidgegateReservoir} alt="" /><figcaption className='julyfigcaption'><strong>Ridgegate Reservoir, Macclesfield Forest</strong></figcaption></section>
+            </fig>
+            </div> 
+             </section>
+          </div>    
+
+          <div className="datenewsDivJuly">
+            <section className="dateJuly">20th July 2024, Saturday</section> 
             <section className="newsheaderJuly"> Stage 3 of our Hadrian's Wall Path Expedition successfully completed</section>  
             <br />
             <section className="newsJuly">Today we successfully completed Stage 3 of our Hadrian's Wall Path Expedition, Tyne Riverside Park to Whittle dene Reservoirs (2a and 2b).

@@ -16,6 +16,10 @@ background-color:#850f55;
     height: auto;
 } 
 
+h1 .hadrianswallTitle{
+  font-size:0.5rem;
+}
+
  #hwp2024title {
     display:block;
     text-align: center;
@@ -229,14 +233,21 @@ ul .listItemsAlign{
     padding-bottom: 15%;
     padding-top: 5%;
     margin-top:2%;
-  }
+    -webkit-transform:size(1.2);
+    -moz-transform:size(1.2);
+    -ms-transform:size(1.2);
+    -o-transform:size(1.2);
+}
 }
 
-@media screen and (max-width:401px) {
+@media screen and (max-width:480px) {
 
-   /*To ensure on mobile screens below 401px width (this includes one plus phones) that relevant components of 
+   /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
    the site are displayed with the best dimensions for the smaller devices*/
 
+   .hwp2024header h1 {
+  margin-bottom:-30%;
+}
 
 .hwp2024header {
   display:block;
@@ -249,10 +260,9 @@ ul .listItemsAlign{
   /* height: 50vh; */
   height:auto;
   position:absolute; 
-
 } 
 
-/*To ensure on mobile screens below 401px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+/*To ensure on mobile screens below 480px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
 .blogPhotoDivHwp{
   display:flex;
   flex-direction: column;
@@ -261,7 +271,65 @@ ul .listItemsAlign{
   padding-top: 5%;
   margin-top:2%;
 }
+
+.hwpIntroPhoto {
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events:none;
+  width:65%;
+  height:auto;
+  border:solid #66023c 8px;
+  border-radius:80%;
+  margin-top:1%;
+  margin-bottom:1%;
+  -webkit-border-radius:80%;
+  -moz-border-radius:80%;
+  -ms-border-radius:80%;
+  -o-border-radius:80%;
+}   
 }
 
+@media screen and (min-width:481) and (max-width:902px) {
 
-  
+  /*To ensure on mobile screens below 902px width (this includes one plus phones) that relevant components of 
+  the site are displayed with the best dimensions for the smaller devices*/
+
+.hwp2024header {
+ display:block;
+ text-align: center;
+ font-size: 1.75em;
+ color:white;
+ font-weight: bold;
+ /* border:solid 3px; */
+ width: 100vw;
+ /* height: 50vh; */
+ height:auto;
+ position:absolute; 
+} 
+
+/*To ensure on mobile screens above 480px but below 902px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+.blogPhotoDivHwp{
+ display:flex;
+ flex-direction: column;
+ background-color: #66023c;
+ padding-bottom: 15%;
+ padding-top: 5%;
+ margin-top:2%;
+}
+
+.hwpIntroPhoto {
+ margin-left: auto;
+ margin-right: auto;
+ pointer-events:none;
+ width:65%;
+ height:auto;
+ border:solid #66023c 8px;
+ border-radius:80%;
+ margin-top:1%;
+ margin-bottom:1%;
+ -webkit-border-radius:80%;
+ -moz-border-radius:80%;
+ -ms-border-radius:80%;
+ -o-border-radius:80%;
+}   
+} 

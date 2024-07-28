@@ -12,6 +12,7 @@ import ThirlwallElena1 from "./imagesresized/ThirlwallElena1.jpg";
 import WhittleChollerford from "./imagesresized/WhittleChollerford.jpg";
 import RomanArmyMuseumT from "./imagesresized/RomanArmyMuseumT.jpg";
 import HeddonItalianClosed2Text from "./imagesresized/HeddonItalianClosed2Text.jpg";
+import HWPThermometer from 'components/charityfundraisingthermometer';
 
 
 
@@ -27,8 +28,10 @@ export default function Hwp2024() {
           </div>
         <h1 style={{backgroundColor:"#66023c", borderRadius:"0"}}>Hadrian's Wall Path 2024
         <Romaneagle />
+        <HWPThermometer />
         <div className="introHostPhotoHwp">
         <img className="hwpIntroPhoto" src={HwpIntro} alt="" />
+      
         </div>
         </h1>
       

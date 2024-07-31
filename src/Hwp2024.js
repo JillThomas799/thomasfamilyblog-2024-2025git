@@ -13,6 +13,7 @@ import WhittleChollerford from "./imagesresized/WhittleChollerford.jpg";
 import RomanArmyMuseumT from "./imagesresized/RomanArmyMuseumT.jpg";
 import HeddonItalianClosed2Text from "./imagesresized/HeddonItalianClosed2Text.jpg";
 import HWPThermometer from 'components/charityfundraisingthermometer';
+import WillowfordDay9 from "./imagesresized/WillowfordDay9.jpg";
 
 
 
@@ -26,12 +27,11 @@ export default function Hwp2024() {
             <Link to="/" className="backbuttonLink" style={{color:"black"}}>Back</Link>
           </button>
           </div>
-        <h1 style={{backgroundColor:"#66023c", borderRadius:"0"}}>Hadrian's Wall Path 2024
+        <h1 className="hadrianswallTitle" style={{backgroundColor:"#66023c", borderRadius:"0"}}>Hadrian's Wall Path 2024
         <Romaneagle />
         <HWPThermometer />
         <div className="introHostPhotoHwp">
         <img className="hwpIntroPhoto" src={HwpIntro} alt="" />
-      
         </div>
         </h1>
       
@@ -64,7 +64,7 @@ export default function Hwp2024() {
         To enter into the theme, the background 
         colours for the Hadrian's Wall Path blog have been chosen for their significance to the Romans and the Roman Empire, with the
         key colour being Tyrian Purple, the colour worn by the Roman Emperor.  This <Link to="https://www.ncl.ac.uk/press/articles/latest/2024/05/tyrianpurplecarlisle/" target="_blank"
-        title="Click here to learn more about information produced by Newcastle University about Tyrian purple"> article </Link> from Newcastle University explains more about the source
+        title="Click here to learn more about information produced by Newcastle University about Tyrian purple" className="LinkHWP"> article </Link> from Newcastle University explains more about the source
         and importance of Tyrian purple, which only the emperor was allowed to wear.
 
         
@@ -83,9 +83,9 @@ export default function Hwp2024() {
             <ul className="hwpIntroList">
                 <li><strong className="titles">Parking:</strong><br />Quayside Car Park (owned by Newcastle City Council). £11.00 for the day. Payment is via the <Link to="https://www.paybyphone.co.uk/" target="_blank">Pay by Phone</Link> app on your mobile phone.</li>
                 <li><strong className="titles">Public Transport: </strong><br /> Metro yellow line heading to South Shields via Whitley Bay between <strong>Manors</strong> and <strong>Wallsend</strong> metro stations. 
-                Routes and live updates can be viewed on the Nexus <Link to="https://www.nexus.org.uk/ticket-information/pop/pop-app" target="_blank" title="Click here to go to the Pop app Information page of the Nexus site">Pop app</Link>. Cost £5.60 per adult for All Day Rover ticket.</li>
+                Routes and live updates can be viewed on the Nexus <Link to="https://www.nexus.org.uk/ticket-information/pop/pop-app" target="_blank" title="Click here to go to the Pop app Information page of the Nexus site" className="LinkHWP">Pop app</Link>. Cost £5.60 per adult for All Day Rover ticket.</li>
                 <li><strong className="titles">Distance:</strong><br /> 5.1 miles on the Hadrian's Wall Path, 7.5 miles total, <strong> Ascent:</strong> 22 metres, 72 feet,  <strong>Descent:</strong> 30 metres, 98 feet. </li>
-                <li><strong className="titles">Refreshments:</strong><br /><Link to="https://oswinproject.org.uk/our-work/cafe-16-at-newcastle-cathedral/" target="_blank" title="Click here to discover more about Café 16, St Nicholas' Cathedral ">Café 16, St Nicholas' Cathedral</Link>, Newcastle.
+                <li><strong className="titles">Refreshments:</strong><br /><Link to="https://oswinproject.org.uk/our-work/cafe-16-at-newcastle-cathedral/" target="_blank" title="Click here to discover more about Café 16, St Nicholas' Cathedral " className="LinkHWP">Café 16, St Nicholas' Cathedral</Link>, Newcastle.
                 The café is supplied with fresh produce from the charity’s bakery in HMP Northumberland, where the café's trained bakers allow prisoners to learn new skills and find a new direction on release.</li> 
                 </ul>    
 
@@ -93,8 +93,8 @@ export default function Hwp2024() {
             <ul className="hwpIntroList">
               <div className="listItemsAlign">
                 <li><strong className="titles">Museums :</strong><br /><Link to="https://segedunumromanfort.org.uk/" target="_blank" title="Click here
-            to discover more about Segedunum Fort"> Segedunum Fort </Link>, <Link to="https://www.newcastlecastle.co.uk/" target="_blank" title="Click 
-            here to discover more about Newcastle Castle">Newcastle Castle</Link></li>
+            to discover more about Segedunum Fort" className="LinkHWP"> Segedunum Fort </Link>, <Link to="https://www.newcastlecastle.co.uk/" target="_blank" title="Click 
+            here to discover more about Newcastle Castle" className="LinkHWP">Newcastle Castle</Link></li>
                 <li><strong className="titles">Walk : </strong><br />The section of the walk which runs right beside the River Tyne was our favourite, watching the speed boats, fishing boats and seagulls.</li> 
                 <li><strong className="titles">History : </strong><br />Learnt not just about Roman history but also about the docks and the ships built there and the medieval history of Newcastle Castle.</li> 
                 <li><strong className="titles">Information boards:</strong><br />Really interesting and informative information boards en route during the walks.</li>
@@ -120,20 +120,20 @@ export default function Hwp2024() {
             <div className="hwpDailyNarrative">
             We were up early on this, the first day of our Hadrian's Wall walk and left promptly in order to be in Newcastle by 9.30am. We chose to park on one of the Newcastle City Council car parks.
             Be forewarned, these no longer accept cash payments, so it is worth setting up the 
-             <Link to="https://www.paybyphone.co.uk/" target="_blank"> Pay by Phone app</Link> on your phone before you go, so that payment can be made quickly and easily.
-            We used the <Link to="https://www.getintonewcastle.co.uk/venues/quayside-multi-storey-car-park" target="_blank" title="Click here to discover more about the Quayside Car Park"> Quayside Car Park </Link> 
+             <Link to="https://www.paybyphone.co.uk/" target="_blank" className="LinkHWP"> Pay by Phone app</Link> on your phone before you go, so that payment can be made quickly and easily.
+            We used the <Link to="https://www.getintonewcastle.co.uk/venues/quayside-multi-storey-car-park" target="_blank" title="Click here to discover more about the Quayside Car Park" className="LinkHWP"> Quayside Car Park </Link> 
             which is reasonably priced by city standards (£11.00 for the day) and parking after 18.00 is free. 
             <br />
             <br />
-            After a short 10 minute walk (0.3 mile), we arrived at Manors Metro Station. The Metro services in Newcastle are run by <Link to="https://www.nexus.org.uk/" target="_blank" title="Click here to go to the Nexus website">Nexus</Link>.
-            Their <Link to="https://www.nexus.org.uk/ticket-information/pop/pop-app" target="_blank" title="Click here to go to the Pop app Information page of the Nexus site"> Pop app </Link>
+            After a short 10 minute walk (0.3 mile), we arrived at Manors Metro Station. The Metro services in Newcastle are run by <Link to="https://www.nexus.org.uk/" target="_blank" title="Click here to go to the Nexus website" className="LinkHWP">Nexus</Link>.
+            Their <Link to="https://www.nexus.org.uk/ticket-information/pop/pop-app" target="_blank" title="Click here to go to the Pop app Information page of the Nexus site" className="LinkHWP"> Pop app </Link>
             can be downloaded to your phone and allows you to plan your journey and access live updates. Day tickets need to be purchased at the ticket machine located just inside the entrance to the station, but are straightforward to acquire.
             <br />
             <br />
             The Hadrian's Wall Path starts at Wallsend, and on disembarking at Wallsend metro station, it is a well-signed posted and short (3 minute) walk to  
-            <Link to="https://segedunumromanfort.org.uk/" target="_blank" title="Click here to discover more about Segedunum Fort"> Segedunum Roman Fort. </Link>
+            <Link to="https://segedunumromanfort.org.uk/" target="_blank" title="Click here to discover more about Segedunum Fort" className="LinkHWP"> Segedunum Roman Fort. </Link>
             Entry was half-price as the 3rd floor of the museum and also the reconstructed bath house were currently closed, awaiting repairs to flooding damage. 
-            These are due to be completed by the end of August as this <Link to ="https://www.bbc.com/news/articles/cndd2wppy3xo" target="_blank" title="Click here to open the article"> recent BBC article</Link> explains, so in no way let this put you off 
+            These are due to be completed by the end of August as this <Link to ="https://www.bbc.com/news/articles/cndd2wppy3xo" target="_blank" title="Click here to open the article" className="LinkHWP"> recent BBC article</Link> explains, so in no way let this put you off 
             visiting as this is still an excellent, informative museum and site and there are some amazing views from the viewing tower. Our intention is to have a further visit 
             when the repairs are complete.
             <br />
@@ -147,9 +147,9 @@ export default function Hwp2024() {
             <br />
             After lunch, it was a leisurely wander into Newcastle city centre via the Quayside. It was a beautifully sunny Saturday afternoon so people were making full use 
             of the riverside and rooftop bars and restaurants. On arrival in Newcastle city centre, it was time for some refreshments and we went to <Link to="https://oswinproject.org.uk/our-work/cafe-16-at-newcastle-cathedral/" 
-            target="_blank" title="Click here to discover more about Café 16, St Nicholas' Cathedral ">Café 16, St Nicholas' Cathedral</Link> who have excellent cakes, before
+            target="_blank" title="Click here to discover more about Café 16, St Nicholas' Cathedral " className="LinkHWP">Café 16, St Nicholas' Cathedral</Link> who have excellent cakes, before
             heading down the road to <Link to="https://www.newcastlecastle.co.uk/" target="_blank" title="Click 
-            here to discover more about Newcastle Castle">Newcastle Castle</Link> to visit the Black Gate and to climb the Keep, from which there are some fantastic views 
+            here to discover more about Newcastle Castle" className="LinkHWP">Newcastle Castle</Link> to visit the Black Gate and to climb the Keep, from which there are some fantastic views 
             of Newcastle's iconic bridges. 
             <br />
             <br />
@@ -187,7 +187,7 @@ export default function Hwp2024() {
                 <li><strong className="titles">Paths: </strong><br />Clear, well-defined and sign-posted paths once you reach the far-side of Tyne Riverside Country Park.</li>
                 <li><strong className="titles">Distance:</strong><br /> 9.56 miles in total, of which 8.6 miles on the Hadrian's Wall Path.<strong>  Ascent:</strong>  159 metres, 521 feet.  </li>
                 <li><strong className="titles">Refreshments:</strong><br />Limited on this section, depending on the time when you are undertaking the walk. A special mention is therefore necessary
-                for <Link to="https://www.spar.co.uk/store-locator/hal22784-spar-heddon" target="_blank">Spar Petrol Station, Heddon-on-the-Wall</Link> who sell take-away coffees and a 
+                for <Link to="https://www.spar.co.uk/store-locator/hal22784-spar-heddon" target="_blank" className="LinkHWP">Spar Petrol Station, Heddon-on-the-Wall</Link> who sell take-away coffees and a 
                 good range of drinks and snacks . There is also a bathroom here which you can use, as long as you are purchasing something at the shop. </li> 
                 </ul>    
 
@@ -198,7 +198,7 @@ export default function Hwp2024() {
                 views from here. There is also, with a small detour, the longest existing segment of the original broad section of Hadrian's Wall. There are plenty of information signs.
                 Most of the year, the Italian bistro and deli should be open, we were just unlucky in it being their summer break.<br /></li> 
                 <li><strong className="titles">History : </strong> The remains of <Link to="https://rudchester.org/fort.html" target="_blank" title="Click here to discover more 
-                about Vindobala/Rudchester Fort"> Vindobala/Rudchester Fort</Link> and the information board there are very interesting. <br /></li> 
+                about Vindobala/Rudchester Fort" className="LinkHWP"> Vindobala/Rudchester Fort</Link> and the information board there are very interesting. <br /></li> 
                 <li><strong className="titles">Weather:</strong> Whilst cloudy, it was warm and a pleasant day with no rain. <br /></li>
                 </div>
                 </ul>
@@ -212,7 +212,7 @@ export default function Hwp2024() {
                 and on meeting the main path, turn right towards Wylam (ie. away from Newcastle). Keep following this path until you see the Acorn sign pointing to the 
                 right, at which point you will leave the main path and follow the Hadrian's Walk Path. </li>
                 <li><strong className="titles">Mud and flood!:</strong> There were occasional extremely muddy sections and one section where the path was completely submerged 
-                in water up to mid-calf depth, calling for an <Link to="https://en.wikipedia.org/wiki/Uncharted_4:_A_Thief%27s_End" target="_blank">'Uncharted'</Link> type manoeuvre (see photo album). <br /> </li>
+                in water up to mid-calf depth, calling for an <Link to="https://en.wikipedia.org/wiki/Uncharted_4:_A_Thief%27s_End" target="_blank" className="LinkHWP">'Uncharted'</Link> type manoeuvre (see photo album). <br /> </li>
                 <li><strong className="titles">Refreshments - Lack of:</strong> Refreshments are limited on this section, depending on the time when you are undertaking the walk. See "Refreshments" in the "Details of the Walk" section above. <br /> </li>
                 <li><strong className="titles"></strong><br /> </li>
                 </ul>
@@ -225,7 +225,7 @@ export default function Hwp2024() {
             <br />
             <div className="hwpDailyNarrative">
             We were walking today from Tyne Riverside Country Park, which is located 7 miles from the centre of Newcastle, up via Heddon-on-the-Wall and over to Whittle dene reservoir.
-            On leaving the Tyne Riverside Country Park, we shortly joined the <Link to="https://co-curate.ncl.ac.uk/wylam-wagonway/" target="_blank">  Wylam Waggonway
+            On leaving the Tyne Riverside Country Park, we shortly joined the <Link to="https://co-curate.ncl.ac.uk/wylam-wagonway/" target="_blank" className="LinkHWP">  Wylam Waggonway
             </Link> , before starting to head up hill towards Heddon-on-the-Wall. 
             <br />
             <br />
@@ -235,22 +235,22 @@ export default function Hwp2024() {
             <br />
             <br />
             It had been quite a long drive out to Tyne Riverside Country Park, so we felt it was time for coffees and refreshments. However, it was only 11.10am 
-            and so the <Link to="https://www.facebook.com/THREETUNSHEDDON/?_rdr" target="_blank">The Three Tuns</Link> and <Link to="https://www.vintageinn.co.uk/restaurants/north-east/swan-at-heddon?utm_source=google&utm_medium=organic&utm_campaign=gmb-homepage#/"
-            target="_blank"> Swan </Link> inns were not yet open. Elena identified an alternative, the <Link to="https://www.tripadvisor.co.uk/Restaurant_Review-g1653233-d25194372-Reviews-Bell_E_Buon-Heddon_on_the_Wall_Northumberland_England.html"
-            target="_blank"> Bell e Buon </Link> Italian Bistro and Deli. However, when we arrived it was closed and there was a sign on the door; they were closed for their annual holiday.....
-            After taking a small detour to see the longest remaining segment of the broad (2.9 metre thickness) section of Hadrian's Wall, we were rescued by the <Link to="https://www.spar.co.uk/store-locator/hal22784-spar-heddon" target="_blank"> Spar Petrol Station </Link> where we could buy drinks and snacks and use the bathroom facilities.
+            and so the <Link to="https://www.facebook.com/THREETUNSHEDDON/?_rdr" target="_blank" className="LinkHWP">The Three Tuns</Link> and <Link to="https://www.vintageinn.co.uk/restaurants/north-east/swan-at-heddon?utm_source=google&utm_medium=organic&utm_campaign=gmb-homepage#/"
+            target="_blank" className="LinkHWP"> Swan </Link> inns were not yet open. Elena identified an alternative, the <Link to="https://www.tripadvisor.co.uk/Restaurant_Review-g1653233-d25194372-Reviews-Bell_E_Buon-Heddon_on_the_Wall_Northumberland_England.html"
+            target="_blank" className="LinkHWP"> Bell e Buon </Link> Italian Bistro and Deli. However, when we arrived it was closed and there was a sign on the door; they were closed for their annual holiday.....
+            After taking a small detour to see the longest remaining segment of the broad (2.9 metre thickness) section of Hadrian's Wall, we were rescued by the <Link to="https://www.spar.co.uk/store-locator/hal22784-spar-heddon" target="_blank" className="LinkHWP"> Spar Petrol Station </Link> where we could buy drinks and snacks and use the bathroom facilities.
             So five stars to the Spar Petrol Station, Heddon-on-the-Wall!
             <br />
             <br />
             After a short rest, we set on our way again towards the remains of <Link to="https://rudchester.org/fort.html" target="_blank" title="Click here to discover more 
-            about Vindobala/Rudchester Fort"> Vindobala/Rudchester Fort</Link> . Then it was on towards Ironsign Farm B and B, which we circumnavigated and headed onwards towards
+            about Vindobala/Rudchester Fort" className="LinkHWP"> Vindobala/Rudchester Fort</Link> . Then it was on towards Ironsign Farm B and B, which we circumnavigated and headed onwards towards
             Harlow Hill, some 2.25 miles away. There are some very muddy parts on this segment (see photos). But these soon sank into insignificance, when we came 
             to <em>the great flood</em>, which was located just before Albermale Barracks. This necessitated some very creative thinking, as demonstrated in the photo album.
             <br />
             <br />
             Finally, we were back at Whittle dene Reservoirs and it was time for a well-earned lunch, sitting on the picnic tables by the reservoir. Then it was time to pack our gear back 
             in the car, return to pick up the 2nd car from Tyne Riverside Country Park and to return to <Link to="https://www.tripadvisor.co.uk/ShowUserReviews-g1051961-d1508482-r953594113-The_Errington_Coffee_House-Corbridge_Northumberland_England.html"
-            target="_blank" title="Click here to discover more about the Errington Coffee House"> Errington Coffee House </Link> for some coffees and home-baked cakes.
+            target="_blank" title="Click here to discover more about the Errington Coffee House" className="LinkHWP"> Errington Coffee House </Link> for some coffees and home-baked cakes.
             <br />
             <br />
             Join us on our 3rd day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
@@ -318,23 +318,23 @@ export default function Hwp2024() {
             <br />
             <div className="hwpDailyNarrative">
             Todays walk was to start at <Link to="https://www.nwt.org.uk/nature-reserves/whittle-dene" target="_blank" 
-            title="Click here to discover more about Whittledene reservoirs and nature reserve"> Whittle dene reservoirs and nature reserve </Link> and end back at the car at Chollerford roundabout taking in <Link to="https://www.nwt.org.uk/nature-reserves/whittle-dene" target="_blank" 
-            title="Click here to discover more about Whittledene reservoirs and nature reserve"> Whittle dene reservoirs and nature reserve </Link>, the 
+            title="Click here to discover more about Whittledene reservoirs and nature reserve" className="LinkHWP"> Whittle dene reservoirs and nature reserve </Link> and end back at the car at Chollerford roundabout taking in <Link to="https://www.nwt.org.uk/nature-reserves/whittle-dene" target="_blank" 
+            title="Click here to discover more about Whittledene reservoirs and nature reserve" className="LinkHWP"> Whittle dene reservoirs and nature reserve </Link>, the 
             sites of turrets 17a to 26b and milecastles 17 to 26, <Link to="https://robinhoodinnhadrianswall.co.uk/" target="_blank"
-            title="Click here to discover more about the Robin Hood Inn"> Robin Hood Inn </Link> at East Wallhouses (also a stamping station), site of <Link to="https://www.u3ahadrianswall.co.uk/halton-chesters-roman-fort/"
-            target="_blank" title="Click here to discover more about Halton Chesters Fort (Onnum)"> Halton Chesters Fort (Onnum) </Link> ,
-            <Link to="https://www.roman-britain.co.uk/places/portgate/" target="_blank"> Port Gate </Link>, <Link to="https://www.tripadvisor.co.uk/ShowUserReviews-g1051961-d1508482-r953594113-The_Errington_Coffee_House-Corbridge_Northumberland_England.html"
-            target="_blank" title="Click here to discover more about the Errington Coffee House"> Errington Coffee House </Link>, <Link to="https://fabulousnorth.com/heavenfield/"
-            target="_blank" title="Click here to discover more about Heavenfield Battle Site and St Oswald's Church"> Heavenfield Battle site and Church of St Oswald </Link> , <Link to="https://www.english-heritage.org.uk/visit/places/planetrees-roman-wall-hadrians-wall/"
-            target="_blank" title="Click here to discover more about"> Planetrees </Link> , <Link to="https://www.english-heritage.org.uk/visit/places/brunton-turret-hadrians-wall/" target="_blank"
-            title="Click here to discover more about Brunton Turret"> Brunton Turret (26a) </Link> , and the <Link to="https://www.english-heritage.org.uk/visit/places/chesters-bridge-abutment-hadrians-wall/"
-            target="_blank" title="Click here to discover more about Chesters Bridge Abutment"> Chesters Bridge Abutment </Link> .
+            title="Click here to discover more about the Robin Hood Inn" className="LinkHWP"> Robin Hood Inn </Link> at East Wallhouses (also a stamping station), site of <Link to="https://www.u3ahadrianswall.co.uk/halton-chesters-roman-fort/"
+            target="_blank" title="Click here to discover more about Halton Chesters Fort (Onnum)" className="LinkHWP"> Halton Chesters Fort (Onnum) </Link> ,
+            <Link to="https://www.roman-britain.co.uk/places/portgate/" target="_blank" className="LinkHWP"> Port Gate </Link>, <Link to="https://www.tripadvisor.co.uk/ShowUserReviews-g1051961-d1508482-r953594113-The_Errington_Coffee_House-Corbridge_Northumberland_England.html"
+            target="_blank" title="Click here to discover more about the Errington Coffee House" className="LinkHWP"> Errington Coffee House </Link>, <Link to="https://fabulousnorth.com/heavenfield/"
+            target="_blank" title="Click here to discover more about Heavenfield Battle Site and St Oswald's Church" className="LinkHWP"> Heavenfield Battle site and Church of St Oswald </Link> , <Link to="https://www.english-heritage.org.uk/visit/places/planetrees-roman-wall-hadrians-wall/"
+            target="_blank" title="Click here to discover more about" className="LinkHWP"> Planetrees </Link> , <Link to="https://www.english-heritage.org.uk/visit/places/brunton-turret-hadrians-wall/" target="_blank"
+            title="Click here to discover more about Brunton Turret" className="LinkHWP"> Brunton Turret (26a) </Link> , and the <Link to="https://www.english-heritage.org.uk/visit/places/chesters-bridge-abutment-hadrians-wall/"
+            target="_blank" title="Click here to discover more about Chesters Bridge Abutment" className="LinkHWP"> Chesters Bridge Abutment </Link> .
             <br /> 
             <br /> 
             After parking the car, we left <Link to="https://www.nwt.org.uk/nature-reserves/whittle-dene" target="_blank" 
-            title="Click here to discover more about Whittledene reservoirs and nature reserve"> Whittle dene reservoirs and nature reserve </Link> just before 9.30am in steady rain. 
+            title="Click here to discover more about Whittledene reservoirs and nature reserve" className="LinkHWP"> Whittle dene reservoirs and nature reserve </Link> just before 9.30am in steady rain. 
             Our first stop was intended to be the <Link to="https://robinhoodinnhadrianswall.co.uk/" target="_blank"
-            title="Click here to discover more about the Robin Hood Inn"> Robin Hood Inn </Link> at East Wallhouses, which is also a stamping station for our Hadrian's Wall passports.
+            title="Click here to discover more about the Robin Hood Inn" className="LinkHWP"> Robin Hood Inn </Link> at East Wallhouses, which is also a stamping station for our Hadrian's Wall passports.
             The Inn apparently dates back to 1752 and is constructed with traditional stone, which is thought to have been sourced from Hadrian’s Wall. The Inn is often mentioned by Hadrian's Wall walkers
             and local people and in our opinion, having been there, with good reason. In spite of it being 10am in the morning and the owners in the middle of cleaning after breakfast, when
             we appeared through the door soaking wet, they were more than happy to get us seated, serve us some coffees and chat about their experience
@@ -348,23 +348,23 @@ export default function Hwp2024() {
             road, as some people were doing as the traffic travels very fast and your chances of surviving intact are questionable! The path anyway is well demarcated and signposted 
             and whilst there is a reasonable ascent on all this stretch today, it is very gradual and therefore you do not really notice it.
             It is also a great stretch for visualising at length, and really getting a feel for the <Link to="https://en.wikipedia.org/wiki/Vallum_(Hadrian%27s_Wall)"
-            target="_blank" title="Click here to discover more about the Vallum"> Vallum </Link> , and you cannot achieve this the same from the road. 
+            target="_blank" title="Click here to discover more about the Vallum" className="LinkHWP"> Vallum </Link> , and you cannot achieve this the same from the road. 
             <br/>
             <br/>
             Eventually, we came to the site of <Link to="https://www.u3ahadrianswall.co.uk/halton-chesters-roman-fort/"
-            target="_blank" title="Click here to discover more about Halton Chesters Fort (Onnum)"> Halton Chesters Fort (Onnum) </Link>, near Halton Castle before finally reaching 
-            Errington roundabout, the site of <Link to="https://www.roman-britain.co.uk/places/portgate/" target="_blank"> Port Gate </Link>, and our lunch stop <em>(yeah!)</em> <Link to="https://www.tripadvisor.co.uk/ShowUserReviews-g1051961-d1508482-r953594113-The_Errington_Coffee_House-Corbridge_Northumberland_England.html"
-            target="_blank" title="Click here to discover more about the Errington Coffee House"> Errington Coffee House </Link> , which was <em>extremely</em> busy, so we would advise
+            target="_blank" title="Click here to discover more about Halton Chesters Fort (Onnum)" className="LinkHWP"> Halton Chesters Fort (Onnum) </Link>, near Halton Castle before finally reaching 
+            Errington roundabout, the site of <Link to="https://www.roman-britain.co.uk/places/portgate/" target="_blank" className="LinkHWP"> Port Gate </Link>, and our lunch stop <em>(yeah!)</em> <Link to="https://www.tripadvisor.co.uk/ShowUserReviews-g1051961-d1508482-r953594113-The_Errington_Coffee_House-Corbridge_Northumberland_England.html"
+            target="_blank" title="Click here to discover more about the Errington Coffee House" className="LinkHWP"> Errington Coffee House </Link> , which was <em>extremely</em> busy, so we would advise
             making sure you are there promptly if you are intending to eat there. It is very reasonably-priced.
             <br/>
             <br/>
             After lunch, it was time to head towards an important 7th century battle site, the  <Link to="https://fabulousnorth.com/heavenfield/"
-            target="_blank" title="Click here to discover more about Heavenfield Battle Site and St Oswald's Church"> Heavenfield Battle site and Church of St Oswald </Link> and then <Link to="https://www.english-heritage.org.uk/visit/places/planetrees-roman-wall-hadrians-wall/"
-            target="_blank" title="Click here to discover more about"> Planetrees </Link> which was where can be seen a really good example of a piece of the Roman Wall which demonstrates the reduction from the building of 
+            target="_blank" title="Click here to discover more about Heavenfield Battle Site and St Oswald's Church" className="LinkHWP"> Heavenfield Battle site and Church of St Oswald </Link> and then <Link to="https://www.english-heritage.org.uk/visit/places/planetrees-roman-wall-hadrians-wall/"
+            target="_blank" title="Click here to discover more about" className="LinkHWP"> Planetrees </Link> which was where can be seen a really good example of a piece of the Roman Wall which demonstrates the reduction from the building of 
             the Wall initially as broad gauge and subsequently, seemingly for the purposes of increased speed and reduction in cost, as narrow gauge.
             We were quite tired by now but it was decided that we could not venture out all this way without also adding in the detours to <Link to="https://www.english-heritage.org.uk/visit/places/brunton-turret-hadrians-wall/" target="_blank"
-            title="Click here to discover more about Brunton Turret"> Brunton Turret (26a) </Link> , and the <Link to="https://www.english-heritage.org.uk/visit/places/chesters-bridge-abutment-hadrians-wall/"
-            target="_blank" title="Click here to discover more about Chesters Bridge Abutment"> Chesters Bridge Abutment </Link>. The Chesters Bridge Abutment detour, alongside the east bank 
+            title="Click here to discover more about Brunton Turret" className="LinkHWP"> Brunton Turret (26a) </Link> , and the <Link to="https://www.english-heritage.org.uk/visit/places/chesters-bridge-abutment-hadrians-wall/"
+            target="_blank" title="Click here to discover more about Chesters Bridge Abutment" style={{color:"blue"}}> Chesters Bridge Abutment </Link>. The Chesters Bridge Abutment detour, alongside the east bank 
             of the river North Tyne does, at the end of a long day, seem like a bit of a trek, but having undertaken it, it is in our opinion well worth the effort.
              <br/>
              <br/>
@@ -428,7 +428,7 @@ export default function Hwp2024() {
             <div className="hwpDailyNarrative">
            This was a reasonably short walk today, being only 4 miles, but we had chosen this option deliberately to allow us plenty of time to see 
            <Link to="https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/" target="_blank"
-           title="Click here to discover more about Chester's Roman Fort"> Chester's Roman Fort and Museum </Link> . 
+           title="Click here to discover more about Chester's Roman Fort" className="LinkHWP"> Chester's Roman Fort and Museum </Link> . 
            <br />
            <br />
            This segment is the first of 4 segments which form what is widely considered to be the finest section of the Hadrian's Wall Path (HWP). These 4 sections are also 
@@ -452,12 +452,12 @@ export default function Hwp2024() {
             <br />
             <br />
             Trig point at 250 metres: Following a climb of about 200 metres from Chollerford, the views now started to open up here. The Cheviot Hills came into view in the north and <Link to="https://www.chipchasecastle.com/"
-            target="_blank">Chipchase Castle</Link> which has a 14th century Pele tower and a 17th century Jacobean house attached. It is a scheduled ancient monument and Grade 1 listed building.
+            target="_blank" className="LinkHWP">Chipchase Castle</Link> which has a 14th century Pele tower and a 17th century Jacobean house attached. It is a scheduled ancient monument and Grade 1 listed building.
             <br />
             <br />
             Limestone Corner: At Limestone Corner, there is an unfinished section of ditch filled with abandoned stone blocks: one slab still show the holes chiselled by the Romans to split the rock.
             The stone here is hard basalt and it appears that the Romans found this too hard to work with and gave up trying to complete this part of the ditch. Unfortunately, we did not take any photos
-            of Limestone Corner, but this <Link to="https://perlineamvalli.wordpress.com/tag/limestone-corner/" target="_blank"> Per Lineam Valli </Link> website has some interesting information and photographs
+            of Limestone Corner, but this <Link to="https://perlineamvalli.wordpress.com/tag/limestone-corner/" target="_blank" className="LinkHWP"> Per Lineam Valli </Link> website has some interesting information and photographs
             <br />
             <br />
             Once we had successfully reached Brocolitia/Carrawburgh Military Fort we returned to the car in order to travel back to Chester's Roman Fort and spent
@@ -465,9 +465,9 @@ export default function Hwp2024() {
             <br />
             <br />
             <Link to="https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/" target="_blank"
-           title="Click here to discover more about Chester's Roman Fort"> Chester's Roman Fort and Museum </Link> are managed by English Heritage so members 
+           title="Click here to discover more about Chester's Roman Fort" className="LinkHWP"> Chester's Roman Fort and Museum </Link> are managed by English Heritage so members 
            can obtain free entry using their membership cards. Chester's Roman Fort is one of the best preserved Roman Ruins in Britain and is certainly,
-           together with <Link to="https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/history/collection/" target="_blank"> John Clayton's museum </Link> , one of our favourites. 
+           together with <Link to="https://www.english-heritage.org.uk/visit/places/chesters-roman-fort-and-museum-hadrians-wall/history/collection/" target="_blank" className="LinkHWP"> John Clayton's museum </Link> , one of our favourites. 
            In 1843, John Clayton inherited the site from his father, who had previously turfed over the ruins.
            John Clayton excavated many parts of the fort and created the museum to house and maintain the many exhibits both from the fort and other segments of the wall. He also developed such a 
            fascination for Hadrian's Wall that he bought up many other large areas of the wall. By the time John died in 1890 he owned five forts – Chesters, Carrawburgh, Housesteads, Vindolanda and Carvoran – 
@@ -546,7 +546,7 @@ export default function Hwp2024() {
            It was a prompt start this morning to head once again towards Brocolitia Roman Fort car park. Brocolitia/Carrawburgh Fort lies mid-way between Chester's Roman Fort and Housesteads Roman Fort
            and from the road, it does not look to be exceptional, especially in relation to the larger Chester's and Housesteads Forts. However, we would argue 
            it is an important stopping point for anyone visiting Hadrian's Wall, as it is here you can visit a unique monument on the wall, the <Link to="https://www.undiscoveredscotland.co.uk/hexham/templeofmithras/index.html"
-           target="_blank" title="Click here to discover more about the Brocolitia Mithraeum or Temple of Mithras"> Brocolitia Mithraeum or Temple of Mithras </Link> . 
+           target="_blank" title="Click here to discover more about the Brocolitia Mithraeum or Temple of Mithras" className="LinkHWP"> Brocolitia Mithraeum or Temple of Mithras </Link> . 
            <br />
            <br />
           Mithraism was what was called a mystery cult. In these cults, devotees met in small groups to have the mysteries of the divine revealed to them and to undergo complex initiation rites. 
@@ -559,7 +559,7 @@ export default function Hwp2024() {
           <br />
           <br />           
              The original fort remains only as a three and a half acre bump in the field as <Link to="https://en.wikipedia.org/wiki/George_Wade"
-            target="_blank" title="Click here to discover more about General Wade"> General Wade </Link>  (1673-7148) removed the stones from the Fort 
+            target="_blank" title="Click here to discover more about General Wade" className="LinkHWP"> General Wade </Link>  (1673-7148) removed the stones from the Fort 
             to reuse as rubble fill for the construction of the Military Road (which is now the B6318), which he planned to try to address the difficulties 
             he encountered marching his troops cross-country from Newcastle to Carlisle during the Jacobite rising in 1745.
             Wade helped plan the road but had died before construction began in 1751. it should not be confused with the Military Way built by the Romans immediately south of Hadrian's Wall.
@@ -605,9 +605,9 @@ export default function Hwp2024() {
             <strong className="headTitles">Details of the Walk </strong>
             <ul className="hwpIntroList">
                 <li><strong className="titles">Parking:</strong><br />We parked at <Link to="https://www.english-heritage.org.uk/visit/places/housesteads-roman-fort-hadrians-wall/plan-your-visit/facilities/"
-                target="_blank" title="Click here to discover more about Housesteads Car Park"> Housesteads Car Park </Link> and <Link to="https://www.northumberlandnationalpark.org.uk/places-to-visit/hadrians-wall/cawfields/"
-                target="_blank" title="Click here to discover more about Cawfield Quarry Car Park"> Cawfield Quarry Car Park </Link>. Both of these car parks are run by Northumberland National Park and we had bought an annual 
-                Hadrian's Wall parking pass for one of the cars. <Link to="https://www.northumberlandnationalpark.org.uk/visitor-info/car-parks/" target="_blank"> Annual passes </Link> are available from <Link to="https://www.thesill.org.uk/" target="_blank" title="Click here to discover more about The Sill Visitor's Centre"> The Sill </Link> .</li> 
+                target="_blank" title="Click here to discover more about Housesteads Car Park" className="LinkHWP"> Housesteads Car Park </Link> and <Link to="https://www.northumberlandnationalpark.org.uk/places-to-visit/hadrians-wall/cawfields/"
+                target="_blank" title="Click here to discover more about Cawfield Quarry Car Park" className="LinkHWP"> Cawfield Quarry Car Park </Link>. Both of these car parks are run by Northumberland National Park and we had bought an annual 
+                Hadrian's Wall parking pass for one of the cars. <Link to="https://www.northumberlandnationalpark.org.uk/visitor-info/car-parks/" target="_blank" className="LinkHWP"> Annual passes </Link> are available from <Link to="https://www.thesill.org.uk/" target="_blank" title="Click here to discover more about The Sill Visitor's Centre"> The Sill </Link> .</li> 
                 <li><strong className="titles">Paths: </strong><br />Well-defined path over the numerous crags between Housesteads Fort and Cawfields Quarry. The walk is reasonably strenuous as there are repeated ascents and descents 
                 along the line of the crags.</li>
                 <li><strong className="titles">Distance:</strong><br /> 6 miles on the Hadrian's Wall Path, 6.5 miles in total.<strong>  Ascent:</strong>  309 metres, 1014 feet.  </li>
@@ -630,7 +630,7 @@ export default function Hwp2024() {
             <strong className="headTitles">Not so good</strong> 
             <ul className="hwpIntroList">
                 <li><strong className="titles"> Tragedy of the Sycamore Gap Tree: </strong> As many of you will know, on the morning of 28th September 2023, the iconic <Link to="https://en.wikipedia.org/wiki/Sycamore_Gap_tree"
-                target="_blank" title="Click here to discover more about the Sycamore Gap Tree"> Sycamore Gap tree </Link> which stood in Sycamore Gap,
+                target="_blank" title="Click here to discover more about the Sycamore Gap Tree" className="LinkHWP"> Sycamore Gap tree </Link> which stood in Sycamore Gap,
                 a dramatic dip in the landscape of Hadrian's Wall, was maliciously felled. The tree had been described as one of the most photographed trees in the country 
                 and an emblem for the North East of England. It derived its alternative name from featuring in a prominent scene in the 1991 film Robin Hood: Prince of Thieves. 
                 It was well-known by everyone locally and a there has been a huge amount of anger and sadness at its loss.<br /></li>
@@ -681,8 +681,8 @@ export default function Hwp2024() {
             <strong className="headTitles">Details of the Walk </strong>
             <ul className="hwpIntroList">
                 <li><strong className="titles">Parking:</strong><br />We parked at <Link to="https://www.northumberlandnationalpark.org.uk/places-to-visit/hadrians-wall/cawfields/"
-                target="_blank" title="Click here to discover more about Cawfield Quarry Car Park"> Cawfield Quarry Car Park </Link> and on Railway Terrace in Gilsland, where there is free on-road parking. Cawfields Car Park is run by Northumberland National Park and we had bought an annual 
-                Hadrian's Wall parking pass for one of the cars, so we left the car with the pass at Cawfield Quarry. <Link to="https://www.northumberlandnationalpark.org.uk/visitor-info/car-parks/" target="_blank"> Annual passes </Link> are available from <Link to="https://www.thesill.org.uk/" target="_blank" title="Click here to discover more about The Sill Visitor's Centre"> The Sill </Link> .</li> 
+                target="_blank" title="Click here to discover more about Cawfield Quarry Car Park" style={{color:"blue"}}> Cawfield Quarry Car Park </Link> and on Railway Terrace in Gilsland, where there is free on-road parking. Cawfields Car Park is run by Northumberland National Park and we had bought an annual 
+                Hadrian's Wall parking pass for one of the cars, so we left the car with the pass at Cawfield Quarry. <Link to="https://www.northumberlandnationalpark.org.uk/visitor-info/car-parks/" target="_blank" style={{color:"blue"}}> Annual passes </Link> are available from <Link to="https://www.thesill.org.uk/" target="_blank" title="Click here to discover more about The Sill Visitor's Centre" style={{color:"blue"}}> The Sill </Link> .</li> 
                 <li><strong className="titles">Paths: </strong><br />A clear, well-defined path firstly through the ruins of Aesica (Great Chesters) Roman Fort and then a gradual climb up onto Walltown Crags, with some ascents and descents similar to yesterday before dropping down to the visitor's centre at Walltown Quarry. 
                 On leaving the Quarry, the terrain evens out considerably and becomes more undulating as it heads out towards Gilsland.</li>
                 <li><strong className="titles">Distance:</strong><br /> 6 miles on the Hadrian's Wall Path.<strong>  Ascent:</strong>  325 metres, 1066 feet.  </li>
@@ -732,13 +732,13 @@ export default function Hwp2024() {
             Housesteads (Roman name Vercovicium) and 6.5 miles to the west of Birdoswald Fort (Roman name Banna). Its main purpose was to guard the Caw Gap where the Haltwhistle Burn 
             crosses the Wall. It was built relatively late (AD128), over the site of the exisiting Milecastle 43. There are no visible remains of Milecastle 43's two accompanying
             turrets: turret 43A and turret 43B either. At 3 acres Aesica Fort was smaller than some of the other forts. More information about Aesica fort can be found <Link to="https://perlineamvalli.wordpress.com/2015/10/17/the-best-bits-of-hadrians-wall-the-forts-great-chesters/"
-            target="_blank"> here </Link> and <Link to="https://www.u3ahadrianswall.co.uk/great-chester-roman-fortaesica/" target="_blank"> here </Link> .
+            target="_blank" style={{color:"blue"}}> here </Link> and <Link to="https://www.u3ahadrianswall.co.uk/great-chester-roman-fortaesica/" target="_blank" style={{color:"blue"}}> here </Link> .
             <br /> 
             <br /> 
             Walltown Crags: There are a number of routes over Walltown Crags and any can be used, but the top route offers the most spectacular views and is well worth the climb, so this was the route we used. It is 
             also the route we suggest to others to use if walking this route (as long as you are up for the climb).
             We passed the previous site of Milecastle 45 which is located on the top of Walltown Crags. The walls have been robbed, so little remains. We understand however that the site is still <Link to="https://en.wikipedia.org/wiki/Milecastle_45"
-            target="_blank"> visible as earthworks on aerial photographs </Link> . As we walked along the crags, we saw 2 Kestrels circling overhead which appeared 
+            target="_blank" style={{color:"blue"}}> visible as earthworks on aerial photographs </Link> . As we walked along the crags, we saw 2 Kestrels circling overhead which appeared 
             to be nesting in the walls of the crag.
             <br /> 
             <br /> 
@@ -753,12 +753,12 @@ export default function Hwp2024() {
             There are also a number of walks you can do from this site, for which there are information boards. It is one of the pick up points for the 
             <Link to="https://www.gonortheast.co.uk/ad122" target="_blank" title="Click here to discover more 
             about the AD 122 busservice"> AD122 bus </Link> run by Go North East and in fact the bus arrived whilst we were there. The <Link to="https://romanarmymuseum.com/"
-            target="_blank" title="Click here to discover more about the Roman Army Museum"> Roman Army Museum </Link> on the site of the old Roman Fort Magnis (Carvoran) 
+            target="_blank" title="Click here to discover more about the Roman Army Museum" style={{color:"blue"}}> Roman Army Museum </Link> on the site of the old Roman Fort Magnis (Carvoran) 
             is near here, although this reqires a full half-day visit, so we will return to this on a separate occasion on a poor-weather day over the forthcoming months.
             <br /> 
             <br /> 
             We then headed over to <Link to="https://www.northumberlandnationalpark.org.uk/places-to-visit/hadrians-wall/thirlwall-castle/"
-            target="_blank" title="Click here to discover more about Thirlwall Castle"> Thirlwall Castle </Link> , which is a 12th century castle which was later 
+            target="_blank" title="Click here to discover more about Thirlwall Castle" style={{color:"blue"}}> Thirlwall Castle </Link> , which is a 12th century castle which was later 
             strengthened using stones from nearby Hadrian’s Wall. This link also includes a hyperlink to an interesting leaflet about Thirlwall castle produced 
             by Northumberland National Park. It was then time to cross the railway line carefully and head on for the final couple of miles towards Gilsland where we would end the walk.
             <br /> 
@@ -775,6 +775,154 @@ export default function Hwp2024() {
           </fig>
            </div>  {/* Closing div SlideshowHostPhotoHwp */}
            </div> {/* Closing tag datenewsDivHwp */}
+      </div>
+
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>Day 9 - Gilsland to Lanercost: 6.5 miles on the Hadrian's Wall Path, 7.5 miles in total.</strong></section>
+            <section className="dateHwp">28th July 2024, Sunday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails">     
+            <strong className="headTitles">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Parking:</strong><br />The free car park by the River Irthing at Lanercost and the free on-street parking at Railway Terrace, Gilsland.</li>
+                <li><strong className="titles">Paths: </strong><br />The paths are clear and well-signposted. There is a diversion in place (hopefully only temporary) between Poltross Burn Milecastle
+                and the Willowford segment of the wall, but in actual fact this takes you through Gilsland village which is an interesting little village with the possibility 
+                of refreshments (within opening hours) at the <Link to="https://www.facebook.com/houseofmegtearooms/?locale=en_GB" target="_blank" className="LinkHWP">House of Meg</Link> , 
+                or the <Link to="https://www.facebook.com/bridgeinngilsland/?locale=en_GB" target="_blank" className="LinkHWP"> Bridge Inn </Link> . Normally, there is also 
+                the <Link to="https://www.thesamson.co.uk/" target="_blank" className="LinkHWP"> Samson Inn </Link> which is a community pub owned by three local farmers. However it is currently closed
+                for refurbishment. </li>
+                <li><strong className="titles">Distance:</strong><br /> 6.5 miles on the Hadrian's Wall Path, 7.5 miles in total<strong>  Ascent:</strong> 191 metres, 623 feet. </li>
+                <li><strong className="titles">Refreshments:</strong><br /> The <Link to="https://www.facebook.com/houseofmegtearooms/?locale=en_GB" target="_blank" className="LinkHWP">House of Meg</Link> and the <Link to="https://www.facebook.com/bridgeinngilsland/?locale=en_GB" target="_blank" className="LinkHWP"> Bridge Inn </Link> .</li> </ul>    
+
+            <strong className="headTitles">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+              <li><strong className="titles">History : </strong><br />There was a surprising amount of things of historical interest on this stretch; certainly more than we had anticipated, including some really well-preserved segments of wall, 
+                the Willowford Bridge abutment showing evidence that even the Roman's experienced damage due to flooding, a centurial stone, Birdoswald Roman Fort and the only known Roman signal tower
+                together with Lanercost Priory. </li>
+                <li><strong className="titles">Countryside :</strong><br />Picturesque, lush, rolling countryside.</li>
+                <li><strong className="titles">Refreshments : </strong><br />There was ample opportunity for refreshments both in Gilsland, at Birdoswald café and at Lanercost tearooms. </li> 
+                <li><strong className="titles">Weather: </strong><br />It was a pleasantly warm, sunny day; great walking weather. </li>
+                </div>
+                </ul>
+                <br />
+            <strong className="headTitles">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Summer holiday season</strong><br />It is now the peak Summer holiday season and the number of visitors reflected that.</li>
+                </ul>
+            <strong className="headTitles">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titles">10 (out of 10):</strong> This was a far more enjoyable and interesting section of the wall than we had anticipated. There are still some significant sections of Roman Wall remaining
+            and the line of the ditch can be followed easily. It helped for the first time to cement an understanding of how Lanercost Priory fits into the history
+            and landscape of Hadrian's Wall. It also enabled us to discover Gilsland, a small village we had previously only driven through to reach elsewhere...</li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            <br />
+            <div className="hwpDailyNarrative">
+            
+           <br />
+           <br />
+           Today we walked the 9th stage of the Hadrian's Wall path, taking us from <Link to="https://www.visitcumbria.com/car/gilsland/" target="_blank"
+           title ="Click here to discover more about Gilsland" className="LinkHWP"> Gilsland </Link> , via <Link to="https://www.english-heritage.org.uk/visit/places/birdoswald-roman-fort-hadrians-wall/"
+           target="_blank" title="Click here to discover more about Birdoswald Fort" className="LinkHWP"> Birdoswald Fort </Link> , over to <Link to="https://www.english-heritage.org.uk/visit/places/lanercost-priory/"
+           target="_blank" title="Click here to discover more about Lanercost Priory" className="LinkHWP"> Lanercost Priory </Link>. 
+           <br />
+           <br />
+            Key points and way-marks on the walk from Gilsland to Lanercost Priory include Poltross Burns Milecastle (number 48), Gilsland village, 
+            the Willowford section of Hadrian's Wall with turrets 48a and 48b, Willowford Farm B and B and self-catering accomodation where there is a Roman centurial 
+            stone built into the barn wall, Willowford Bridge abutment and the new Millenium bridge over the River Irthing, Harrows Scar (site of Milecastle 49), Birdoswald Roman Fort, Turret 49a,
+            Piper Sike Turret (number 51a), Pike Hill Signal Tower, Banks East Turret (number 52a), Hare Hill with a 3m high section of Hadrian's Wall and Lanercost Priory.
+            <br />
+            <br />
+            <Link to="https://www.english-heritage.org.uk/visit/places/poltross-burn-milecastle-hadrians-wall/history/" target="_blank" title="Click here to discover more about 
+            Poltross Burn Milecastle" className="LinkHWP"> Poltross Burn Milecastle, Gilsland </Link> : This is one of the best preserved milecastles on Hadrian's Wall. It is bigger than usual, and inside are the remains of 2 
+            barrack blocks. Broad Wall foundations on the East wing indicate that it was built, at least in part , before the decision was taken to narrow the width of Hadrian's Wall. 
+            In the North West corner there are remains of ovens and in the North East corner the only surviving set of steps, probably leading up to the ramparts.
+            <br />
+            <br />
+            <Link to="https://www.visitcumbria.com/car/gilsland/" target="_blank"
+           title ="Click here to discover more about Gilsland" className="LinkHWP"> Gilsland village </Link> : A small village which today has a good community spirit and focuses a large part of its trade on providing accomodation and refreshments 
+            for walkers on the Hadrian's Wall path and cyclists. 
+            <br />
+            <br />
+            <Link to="https://www.english-heritage.org.uk/visit/places/willowford-wall-turrets-and-bridge-hadrians-wall/history/" target="_blank"
+            title="Click here to discover more about the Willowford section of Hadrian's Wall" className="LinkHWP"> Willowford section of the wall with Turrets 48a and 48b </Link> : Here well-preserved sections of the wall and ditch and several turrets (48a and 48b) can be seen. 
+            <br />
+            <br />
+            <Link to="https://willowford.co.uk/" target="_blank" className="LinkHWP"> Willowford Farm B and B and self-catering accomodation </Link> : This is a popular and very pleasant stop-over location for Hadrian's Wall walkers where there is a Roman centurial 
+            stone built into the barn wall.
+            <br />
+            <br />
+            <Link to="https://www.english-heritage.org.uk/visit/places/willowford-wall-turrets-and-bridge-hadrians-wall/history/" target="_blank"
+            title="Click here to discover more about the Willowford Bridge abutment" className="LinkHWP"> Willowford Bridge abutment </Link> : The East abutment is all that is left of the Romans' Bridge over the River Irthing. It is now on dry land because the course of the Irthing has 
+            moved West over time. There were a number of bridges built at this site but the earliest one was probably built under Hadrian at the same time as Hadrians Wall. On the North 
+            side of the abutment, there are two sluices with an open channel beside them: the channel was possibly a mill race with the sluices helping to control the flow of water through it.
+            In 1999 a new Millenium bridge over the River Irthing was designed by the architectural firm Napper and constructed and lowered into place using a RAF helicopter.
+            <br />
+            <br />
+            <Link to="https://www.english-heritage.org.uk/visit/places/harrows-scar-milecastle-and-wall-hadrians-wall/history/" target="_blank"
+            title="Click here to discover more about Harrow's Scar" className="LinkHWP"> Harrows Scar (site of Milecastle 49) </Link> : Little remains of this milecastle, but there are still some points of interest. In the 17th century, a cottage was built inside the ruins 
+            and you can still see its foundations in the South West corner. More about the milecastle and its exact location cane be found <Link to="https://en.wikipedia.org/wiki/Milecastle_49" target="_blank" title="Click here to discover more about Milecastle 49 and turrets 49a and 49b"
+            className="LinkHWP"> here </Link> . Milecastle 49 is immediately west of the gorge of the River Irthing where the Wall was carried over the river by the bridge at Willowford. The scar or cliff and hence the milecastle are named after an ancient tenement called The Harrows which stood nearby.
+            <br />
+            <br />
+            <Link to="https://www.english-heritage.org.uk/visit/places/birdoswald-roman-fort-hadrians-wall/history-and-stories/history/" target="_blank"
+            title="Click here to discover more about Birdoswald Roman Fort" className="LinkHWP"> Birdoswald Roman Fort </Link> : The Romans occupied Birdoswald Fort for 300 years from the 
+            2nd to the 5th centuries and Birdoswald's defences are the best preserved of any of the forts on the line of the wall. Birdoswald is interesting also because it was occupied after the 
+            Romans had left; in the Dark Ages and then again in medieval times going on to be a fortified farm subject to raids by the Border Reivers. It also contains  the only drill and exercise hall 
+            ever to have been found in a Roman auxiliary fort.
+            <br />
+            <br />
+            <Link to="https://en.wikipedia.org/wiki/Milecastle_49" target="_blank" title="Click here to discover more about Milecastle 49 and turrets 49a and 49b"
+            className="LinkHWP"> Turret 49b, Birdoswald West </Link>: There is no turret 49a, as it was positioned right in the centre of Birdoswald Fort. 
+            Turret 49b is situated to the west of the River Irthing. Hadrian's Wall was originally built as a turf wall, but later it was replaced by a stone wall which followed a 
+            different course for 2 Roman miles between milecastle 49 and 51. Turret 49b was built on the line of, and around the same time as, 
+            the stone wall and was fully bonded with it.
+            <br />
+            <br />
+            <Link to="https://hadrianswallcountry.co.uk/attraction/leahill-turret-and-piper-sike-turret/" target="_blank" className="LinkHWP"> Piper Sike Turret, number 51a </Link> : 
+            Unlike Turret 49b, this turret was not bonded fully with Hadrian's Wall. It was originally constructed for the turf wall. When the turf wall was 
+            replaced by the stone wall, the turret then had to be integrated into it.
+            <br />
+            <br />
+            <Link to="https://en.wikipedia.org/wiki/Pike_Hill_Signal_Tower" target="_blank" className="LinkHWP"> Pike Hill Signal Tower </Link>: Unfortunately, there is little left of the only known signal tower on Hadrian's Wall. 
+            It overlooked the Stanegate, a key Roman Road which ran E-W from Corbridge to Carlisle. Soldiers would have been able to signal to the nearby forts at Nether Denton and Castle Hill. The tower was built under 
+            Trajan, long before Hadrian's Wall. The wall was built with a deliberate kink to incorporate the tower.
+            <br />
+            <br />
+            <Link to="https://en.wikipedia.org/wiki/Milecastle_52" target="_blank" title="Click here to discover more about Turret 52a and also Milecasle 52 and turret 52b"
+            className="LinkHWP"> Turret 52a, Banks East Turret </Link> : Turret 52a is one of the 2 turrets associated with milecastle 52, which today is unfortunately no longer visible, but is 
+            occupied by Bankshead House and Garden. Turret 52B (grid reference NY57006457) has never been located. Its position has been estimated in relation to Turret 52A and Milecastle 53.
+            It may lie beneath the modern road. Unlike Turret 49b, this turret was not bonded fully with Hadrian's Wall. It was originally constructed for the turf wall. When the turf wall was replaced by the stone wall, 
+            the turret then had to be integrated into it. 
+            <br />
+            <br />
+            <Link to="https://www.english-heritage.org.uk/visit/places/hare-hill-hadrians-wall/" target="_blank" className="LinkHWP"> Hare Hill section of Hadrian's Wall </Link> : This contains a 3m high piece of Hadrian's Wall. 
+            Although it is often claimed to be the highest remaining section of Hadrian's Wall and the central core is original, the north side of it was actually rebuilt in the 19th century using Roman stones.
+            There is a centurial stone built into the north side of the wall at about head height, but it is very difficult to spot. The stone was taken from a different part of Hadrian's Wall.
+            <br />
+            <br />
+            <Link to="https://www.english-heritage.org.uk/visit/places/lanercost-priory/"
+           target="_blank" title="Click here to discover more about Lanercost Priory" className="LinkHWP"> Lanercost Priory </Link> : Standing close to Hadrian’s Wall, and built in large part from stone sourced from the nearby sections of Hadrian's Wall, it suffered frequent attacks during the long Anglo-Scottish wars, once by Robert 
+            Bruce in person. The mortally sick King Edward I rested here for five months in 1306-7, shortly before his death on his final campaign. Today it is looked after by English Heritage.
+            We have visited Lanercost Priory severl times in the past, so concentrated today on the walk itself. However, we will be returning here when we return to 
+            Birdoswald Fort in the forthcoming months.
+            <br />
+            <br />
+            Join us on our 9th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            <br />
+           <br />
+
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <Link to="https://photos.app.goo.gl/FuAKD2gL1mYdsh2f8" target="_blank">
+            <img className="slideshowentryHwp" src={WillowfordDay9} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+
       </div>
 
       <div className="datenewsDivHwp">
@@ -817,8 +965,9 @@ export default function Hwp2024() {
            </div>  {/* Closing div SlideshowHostPhotoHwp */}
            </div> {/* Closing tag datenewsDivHwp */}
       </div>
-      
+     
       </div> 
+      
       
       
       

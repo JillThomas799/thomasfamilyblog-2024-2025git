@@ -1,0 +1,688 @@
+/*Creating August header with animated cyclist*/
+#AugustHeader{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    top:0px;
+    background-image: radial-gradient(circle closest-corner at 10% 30%,   #FFD437 ,    #FFD437 15%,    #ffff66 16%,     #bbeeff 40% 40%) ;
+    border-radius:0;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
+
+   }
+
+   #AugustTitle{
+     font-weight:bold;
+     color:gray;
+     font-size: 1.75rem;
+     position:absolute;
+     top:30%;
+   }
+
+   .bikeRiding {
+     display:flex;
+     flex-direction:column;
+     transform: scale(0.7);
+}
+   
+   .cyclist {
+     position: relative;
+     animation: ride 1s linear infinite;
+     top:300px;
+}
+   
+   /*Style for my bike:*/
+   
+   .bike {
+     position: relative;
+     background-color: #B2AC88;
+     width:5%;
+     height: 5%;
+     border-radius:10px;
+     box-shadow: inset 10px -3px rgba(0,0,0,0.1);
+   }
+   
+   .bike:before, .bike:after {
+     content:"";
+     position: absolute;
+     background-color: #B2AC88;
+     width:8px;
+     height: 140px;
+     top:-10px;
+   }
+   
+   .bike:before {
+     transform: rotate(35deg);
+     left:126px;
+     box-shadow: -120px 85px #B2AC88, 0px -30px #B2AC88;
+   }
+   
+   .bike:after {
+     transform: rotate(-35deg);
+     left:49px;
+     box-shadow: 120px 85px #B2AC88, 0px -30px #B2AC88;
+   }
+
+  .leftTyre, .rightTyre {
+     width:170px;
+     height:170px;
+     position: absolute;
+     border: 10px solid #333;
+     border-radius:50%;
+     z-index:1;
+     top:30px;
+     animation: spin 1s linear infinite;
+   }
+   
+   .leftTyre {
+     left:-140px;
+   }
+   
+   .rightTyre {
+     left:155px;
+   }
+   
+   .leftTyre:before, .rightTyre:before {
+     content:"";
+     position: absolute;
+     width:135px;
+     height:135px;
+     border-radius:50%;
+     border: 8px solid #fcfffc;
+   }
+   
+   .leftTyre:after, .rightTyre:after {
+     content:"";
+     position: absolute;
+     width:2px;
+     height: 145px;
+     left:75px;
+     top:0;
+     background-color: #fcfffc;
+   }
+   
+   .spokes {
+     position: absolute;
+     width:145x;
+     height: 2px;
+     background-color: #fcfffc;
+     top:75px;
+   }
+   
+   .spokes:before, .spokes:after {
+     content:"";
+     position: absolute;
+      width:145px;
+     height: 2px;
+     background-color: #fcfffc;  
+     left:3px;
+   }
+   
+   .spokes:before {
+     transform: rotate(45deg);
+   }
+   
+   .spokes:after {
+     transform: rotate(-45deg);
+   }
+   
+   .wheel {
+     z-index:6;
+     position: absolute;
+     border-radius:50%;
+     background-color: #71706e;
+     width:20px;
+     height:20px;
+     top:105px;
+     left:-65px;
+     box-shadow: 295px 0 #71706e, 146px 0px #71706e;
+   }
+   
+   .wheel:before {
+     content:"";
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     border-radius:100%;
+     border-top: 11px solid silver;
+     border-left: 8px solid #B2AC88;
+     border-bottom: 8px solid transparent;
+     border-right: 8px solid transparent;
+     transform: rotate(20deg);
+     top:-140px;
+     left:240.2px;
+     -webkit-transform: rotate(20deg);
+     -moz-transform: rotate(20deg);
+     -ms-transform: rotate(20deg);
+     -o-transform: rotate(20deg);
+     -webkit-border-radius:100%;
+     -moz-border-radius:100%;
+     -ms-border-radius:100%;
+     -o-border-radius:100%;
+   }
+   
+   .shadow {
+     position: absolute;
+     width:1520px;
+     height:20px;
+     background-color: rgba(90,83,72);
+     top:485px;
+     left: -600px;
+     border-radius:10px;
+     animation: scale 2s linear reverse infinite;
+     -webkit-animation: scale 2s linear reverse infinite;
+}
+
+   /*CSS Bike Animation*/
+   
+   /*CSS Bike Animation*/
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@keyframes scale {
+  0% {transform: scaleX(1);}
+  25% {transform: scaleX(0.9);}
+  50% {transform: scaleX(1);}
+  75% {transform: scaleX(0.9);}
+  100% {transform: scaleX(1);}
+}
+
+   
+   /*Add pedals and the chain:*/
+   
+   .pedals {
+     position: relative;
+     z-index:7;
+     width:50px;
+     height:50px;
+     border: 5px solid black; 
+     border-radius:50%;
+     top:85px;
+     left:60px;
+     animation: spin 1s linear infinite; 
+   }
+   
+   .pedals:before {
+     content:"";
+     position: absolute;
+     border-radius: 10px;
+     background-color: black;
+     height: 30px;
+     width:5px;
+     left:22px;
+     top:-5px;
+   }
+   
+   .chain {
+    position: absolute;
+    top:81px;
+  }
+  
+  .chain:before, .chain:after {
+    content:"";
+    position: absolute;
+    background-color: #333;
+    width:138px;
+    height:2px;
+    left:-50px;
+  }
+  
+  .chain:before {
+    top:17px;
+    transform: rotate(-10deg);
+  }
+  
+  .chain:after {
+    top:41px;
+    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+    -moz-transform: rotate(9deg);
+    -ms-transform: rotate(9deg);
+    -o-transform: rotate(9deg);
+  }
+   
+   /*CSS Bike*/
+   
+   /*Style the cyclist:*/
+   
+   .girl {
+     position: absolute;
+   }
+   
+   .top {
+     position: absolute;
+     width:150px;
+     height: 140px;
+     border-top: 50px solid #32CD32;
+     border-left: 50px solid #32CD32;
+     border-top-left-radius:100%;
+     top:-190px;
+     left:-18px;
+     z-index:1;
+   }
+   
+   .top:before {
+     content:"";
+     position: absolute;
+     width:50px;
+     height: 50px;
+     border-radius:50%;
+     background-color: #32CD32;
+     left:35px;
+     top:-25px;
+     box-shadow: -10px 10px#32CD32;
+   }
+   
+   .rightArm, .leftArm {
+     position: absolute;
+     width:17px;
+     height: 100px;
+     border-radius:20px;
+     transform: rotate(-30deg);
+   }
+   
+   .rightArm {
+     background-color: #32CD32;
+     left:130px;
+     top:-175px;
+     z-index:8;
+   }
+   
+   .leftArm {
+     background-color: #32CD32;
+     left:105px;
+     top:-185px;
+     z-index:-1;
+   }
+   
+   .rightArm:before, .leftArm:before {
+     content:"";
+     position: absolute;
+     width:15px;
+     height: 100px;
+     border-radius:20px;
+     top:85px;
+     left:15px;
+     transform: rotate(-20deg);
+   }
+   
+   .rightArm:before {
+     background-color: #32CD32;
+   }
+   
+   .leftArm:before {
+     background-color: #32CD32;
+   }
+   
+   .head {
+     position: absolute;
+     background-color: #cd9777;
+     width: 40px;
+     height:20px;
+     top:-190px;
+     left:110px;
+     z-index:-1;
+     transform: rotate(-20deg);
+   }
+   
+   .head:before, .head:after {
+     content:"";
+     position: absolute;
+     background-color: #deab90;
+     border-radius: 50%;
+   }
+   
+   .head:before {
+     width: 75px;
+     height: 75px;
+     left:30px;
+     top:-30px;
+   }
+   
+   .head:after {
+     width:20px;
+     height:20px;
+     left:78px;
+     top:25px;
+   }
+   
+   .hair {
+     position: absolute;
+     width: 80px;
+     height:40px;
+     border-radius:0 100% 0 0;
+     background-color: #D0D9cd;
+     top:-245px;
+     left:142px; 
+     z-index:10;
+   }
+   
+   .hair:after {
+     content:"";
+     position: absolute;
+     height:40px;
+     width:40px;
+     border-radius:50%;
+     background-color: #D0D9cd;
+     left:-20px;
+   }
+   
+   .hair:before {
+     content:"";
+     position: absolute;
+     width: 80px;
+     height:25px;
+     border-radius:50% 0/100% 0;
+     background-color: #ee9b00;
+     transform-origin: right;
+     left:-44px;
+     top:37px;
+     animation: hair 1s linear infinite;
+   }
+   
+   @keyframes hair {
+     0% {transform: rotate(0);}
+     25% {transform: rotate(10deg);}
+     50% {transform: rotate(0);}
+     75% {transform: rotate(10deg);}
+     100% {transform: rotate(0);}
+   }
+   
+   .strap {
+     position: absolute;
+     background-color: #333;
+     width:7px;
+     height:7px;
+     border-radius:50%;
+     top:-197px;
+     left:197px;
+   }
+   
+   .strap:after {
+     content:"";
+     position: absolute;
+     background-color: #333;
+     width:7px;
+     height:60px;
+     border-radius:10px;
+     transform: rotate(-15deg);
+     top:-22px;
+     left:-30px;
+   }
+   
+   .strap:before {
+     content:"";
+     position: absolute;
+     background-color: #ee9b00;
+     width:60px;
+     height:30px;
+     border-radius: 50px 50px 50px 0;
+     left:-60px;
+     top:-30px;
+   }
+   
+   /*Add and animate the legs:*/
+   
+   .trousers {
+     position: absolute;
+     top:-70px;
+     left:-20px;
+}
+   
+   .rightLeg {
+     position: absolute;
+     background-color: #85929e;
+     width: 120px;
+     height:37px;
+     top:17px;
+     left:12px;
+     border-radius: 0 10px 0 30px;
+     transform-origin: top left;
+     z-index:7;
+     animation: rotate 1s linear infinite;
+   }
+   
+   .trousers:after {
+     content:"";
+     position: absolute;
+     width: 60px;
+     height: 60px;
+     border-radius: 0 25px 50px 50px;
+     left:-5px;
+     background-color: #85929e ;
+     transform: rotate(20deg);  
+   }
+   
+   .trousers:before {
+     content:"";
+     position: absolute;
+     background-color:  #85929e ;
+     width:65px;
+     height:25px;
+     border-radius: 20px;
+     left:-10px;
+     top:50px;
+   }
+   
+   .leftLeg {
+     position: absolute;
+     background-color:  #85929e;
+     width: 120px;
+     height:37px;
+     top:14px;
+     left:13px;
+     border-radius: 0 10px 0 30px;
+     transform-origin: top left;
+     z-index:-4;
+     animation: rotate 1s linear infinite;
+     animation-delay: .5s;
+   }
+   
+   @keyframes rotate {
+    0% {transform: rotate(0);}
+     25% {transform: rotate(15deg);}
+     55% {transform: rotate(30deg);}
+     80% {transform: rotate(15deg);}
+     100% {transform: rotate(0);}
+   }
+   
+   .calf {
+     position: absolute;
+     transform-origin: top;
+     width:33px;
+     height: 120px;
+     background-color:  #85929e ;
+     left:87px;
+     top:9px;
+     border-radius: 0 10px 0 0;
+     animation: cycle 1s linear infinite;
+   }
+   
+   .leftcalf {
+     position: absolute;
+     transform-origin: top;
+     width:33px;
+     height: 120px;
+     background-color:  #85929e ;
+     left:87px;
+     top:9px;
+     border-radius: 0 10px 0 0;
+     animation: cycle 1s linear infinite;
+     animation-delay: .5s;
+   }
+   
+   .leftcalf:before, .calf:before {
+     content:"";
+     position: absolute;
+     background-color: #85929e ;
+     width:55px;
+     height: 30px;
+     border-radius:0 20px 0 0;
+     top:70px;
+     box-shadow: inset 0 -10px #fff;
+   }
+   
+   .leftcalf:after, .calf:after {
+     content:"";
+     position: absolute;
+     background-color:  #85929e ;
+     width:35px;
+     height:10px;
+     border-radius:10px;
+     top:100px;
+     left:10px;
+   }
+   
+   @keyframes cycle {
+    0% {transform: rotate(0);}
+    25% {transform: rotate(-27deg);}
+    50% {transform: rotate(-32deg);}
+    75% {transform: rotate(-10deg);}
+    100% {transform: rotate(0);}
+   }
+
+
+   @media screen and (min-width:2000px) {
+    /*To ensure on screensabove 2000 width that relevant components of 
+    the site are displayed with the best dimensions for the larger devices*/
+    .bikeRiding {
+      display:flex;
+      flex-direction:column;
+      transform:scale(0.8);
+      -webkit-transform:scale(0.8);
+      -moz-transform:scale(0.8);
+      -ms-transform:scale(0.8);
+      -o-transform:scale(0.8);
+}
+
+.chain {
+  position: absolute;
+  top:81px;
+}
+
+.chain:before, .chain:after {
+  content:"";
+  position: absolute;
+  background-color: #333;
+  width:138px;
+  height:2px;
+  left:-50px;
+}
+
+.chain:before {
+  top:17px;
+  transform: rotate(-10deg);
+}
+
+.chain:after {
+  top:41px;
+  transform: rotate(9deg);
+  -webkit-transform: rotate(9deg);
+  -moz-transform: rotate(9deg);
+  -ms-transform: rotate(9deg);
+  -o-transform: rotate(9deg);
+}
+
+#AugustTitle{
+  font-weight:bold;
+  color:gray;
+  font-size: 1.75rem;
+  position:absolute;
+  top:30%;
+  transform: scale(2.0);
+  -webkit-transform: scale(2.0);
+  -moz-transform: scale(2.0);
+  -ms-transform: scale(2.0);
+  -o-transform: scale(2.0);
+}
+  }
+
+  @media screen and (max-width: 1200px) and (min-width: 481px)   {
+    #AugustHeader{
+      display: flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items: center;
+      height: 90vh;
+      width: 100vw;
+      top:0px;
+      background-image: radial-gradient(circle closest-corner at 20% 30%,   #FFD437 ,    #FFD437 15%,    #ffff66 16%,     #bbeeff 40% 40%) ;
+      border-radius:0;
+      -webkit-border-radius:0;
+      -moz-border-radius:0;
+      -ms-border-radius:0;
+      -o-border-radius:0;
+     }
+
+     .cyclist {
+      position: relative;
+      animation: ride 1s linear infinite;
+      top:400px;
+      transform:scale(0.8);
+      -webkit-transform:scale(0.8) ;
+      -moz-transform:scale(0.8) ;
+      -ms-transform:scale(0.8) ;
+      -o-transform:scale(0.8) ;
+}
+
+.shadow {
+  position: absolute;
+  width:1150px;
+  height:20px;
+  background-color: rgba(90,83,72);
+  top:550px;
+  left: -550px;
+  border-radius:10px;
+  animation: scale 2s linear reverse infinite;
+  -webkit-animation: scale 2s linear reverse infinite;
+}
+} 
+
+@media screen and (max-width: 480px) {
+  
+   #AugustHeader{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    height: 95vh;
+    width: 100vw;
+    top:0px;
+    background-image: radial-gradient(circle closest-corner at 20% 30%,   #FFD437 ,    #FFD437 15%,    #ffff66 16%,     #bbeeff 40% 40%) ;
+    border-radius:0;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
+   } 
+
+   .shadow {
+    position: absolute;
+    width:600px;
+    height:20px;
+    background-color: rgba(90,83,72);
+    top:490px;
+    left: -250px;
+    border-radius:10px;
+    animation: scale 2s linear reverse infinite;
+    -webkit-animation: scale 2s linear reverse infinite;
+
+}
+
+
+.bikeRiding {
+  display:flex;
+  flex-direction:column;
+  transform: scale(0.5);
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  -o-transform: scale(0.5);
+}
+  }

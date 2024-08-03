@@ -13,8 +13,7 @@
     -moz-border-radius:0;
     -ms-border-radius:0;
     -o-border-radius:0;
-
-   }
+  }
 
    #AugustTitle{
      font-weight:bold;
@@ -22,23 +21,22 @@
      font-size: 1.75rem;
      position:absolute;
      top:30%;
-   }
+  }
 
    .bikeRiding {
      display:flex;
      flex-direction:column;
      transform: scale(0.7);
-}
+  }
    
    .cyclist {
      position: relative;
      animation: ride 1s linear infinite;
      top:300px;
-}
+  }
    
    /*Style for my bike:*/
-   
-   .bike {
+    .bike {
      position: relative;
      background-color: #B2AC88;
      width:5%;
@@ -179,8 +177,6 @@
 }
 
    /*CSS Bike Animation*/
-   
-   /*CSS Bike Animation*/
 @keyframes spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
@@ -248,7 +244,6 @@
   }
    
    /*CSS Bike*/
-   
    /*Style the cyclist:*/
    
    .girl {
@@ -428,8 +423,7 @@
    }
    
    /*Add and animate the legs:*/
-   
-   .trousers {
+    .trousers {
      position: absolute;
      top:-70px;
      left:-20px;
@@ -547,11 +541,10 @@
     100% {transform: rotate(0);}
    }
 
-
-   @media screen and (min-width:2000px) {
-    /*To ensure on screensabove 2000 width that relevant components of 
+/*To ensure on screens above 2000 width that relevant components of 
     the site are displayed with the best dimensions for the larger devices*/
-    .bikeRiding {
+   @media screen and (min-width:2000px) {
+     .bikeRiding {
       display:flex;
       flex-direction:column;
       transform:scale(0.8);
@@ -601,6 +594,7 @@
   -ms-transform: scale(2.0);
   -o-transform: scale(2.0);
 }
+
   }
 
   @media screen and (max-width: 1200px) and (min-width: 481px)   {
@@ -645,8 +639,7 @@
 } 
 
 @media screen and (max-width: 480px) {
-  
-   #AugustHeader{
+    #AugustHeader{
     display: flex;
     flex-direction:column;
     justify-content:center;
@@ -662,6 +655,14 @@
     -o-border-radius:0;
    } 
 
+   #AugustTitle{
+    font-weight:bold;
+    color:gray;
+    font-size: 1.75rem;
+    position:absolute;
+    top:50%;
+ }
+
    .shadow {
     position: absolute;
     width:600px;
@@ -674,7 +675,6 @@
     -webkit-animation: scale 2s linear reverse infinite;
 
 }
-
 
 .bikeRiding {
   display:flex;

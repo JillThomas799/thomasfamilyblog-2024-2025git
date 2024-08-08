@@ -14,7 +14,17 @@ import RomanArmyMuseumT from "./imagesresized/RomanArmyMuseumT.jpg";
 import HeddonItalianClosed2Text from "./imagesresized/HeddonItalianClosed2Text.jpg";
 import HWPThermometer from 'components/charityfundraisingthermometer';
 import WillowfordDay9 from "./imagesresized/WillowfordDay9.jpg";
-
+import Branzinos from "./imagesresized/Branzinos.jpg";
+import GatesheadMillennium from "./imagesresized/GatesheadMillennium.jpg";
+import TyneKingGeorge from "./imagesresized/TyneKingGeorge.jpg";
+import Swing from "./imagesresized/Swing.jpg";
+import HighLevel from "./imagesresized/HighLevel.jpg";
+import QEii from "./imagesresized/QEii.jpg";
+import KingEdwardVII from "./imagesresized/KingEdwardVII.jpg";
+import DunstonStaithes from "./imagesresized/DunstonStaithes.jpg";
+import DentonHallTurret from "./imagesresized/DentonHallTurret.jpg";
+import Lemington from "./imagesresized/Lemington.jpg";
+import Newburn from "./imagesresized/Newburn.jpg";
 
 
 
@@ -171,9 +181,191 @@ export default function Hwp2024() {
       </div>
 
       <div className="datenewsDivHwp">
-            <section className="newsheaderHwp"><strong>Day 2 - Newcastle Swing Bridge to Tyne Riverside Country Park: 6.7 miles</strong></section>
-            <section className="dateHwp"><em>Yet to be completed</em></section>
+            <section className="newsheaderHwp"><strong>Day 2 - Newcastle Gateshead Millenium Bridge to Tyne Riverside Country Park: 8.7 miles (including a 1 mile detour to Denton Hall turret).</strong></section>
+            <section className="dateHwp">3rd August 2024, Saturday</section>
       </div>
+
+      <div className="newsHwp">
+             <div className="componentWalkDetails">     
+            <strong className="headTitles">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Parking:</strong><br />Free parking at Tyne Riverside car park and parking for £4.60 for the day on a Saturday at St Ann's Car Park, Sandgate, Newcastle Upon Tyne.</li>
+                <li><strong className="titles">Distance:</strong><br /> 8.7 miles on the Hadrian's Wall Path, including the Denton Hall turret diversion<strong> Ascent:</strong> 56 metres, 184 feet,  <strong>Descent:</strong> 45 metres, 148 feet. </li>
+                <li><strong className="titles">Refreshments:</strong><br />Coffees and cakes at <Link to="https://www.getintonewcastle.co.uk/venues/starbucks-malmaison" target="_blank" title="Click here to discover more about Starbucks at Malmaison, Newcastle" className="LinkHWP">Starbucks at Malmaison</Link>, Newcastle
+                and soft drinks at <Link to="https://www.branzinorestaurant.co.uk/" target="_blank" title="Click here to discover more about Branzinos" className="LinkHWP"> Branzino's Italian restaurant </Link> , the Boat House, Newburn, Newcastle. </li> 
+                </ul>    
+
+            <strong className="headTitles">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titles">Points of Interest :</strong><br />There are a surprising number of points of interest on this segment of the walk, far more than
+                we had anticipated. They include the Blacksmith's Needle, the seven key Newcastle bridges, the old fish market, Dunston Staith, Elswick and Scotwood and the history of William Armstrong and his importance
+                in armament production and ship building on the Tyne, the Lemington glassworks, the battle of Newburn Ford and Tyne Riverside Park.</li>
+                <li><strong className="titles">Walk : </strong><br />The initial part of this walk runs alongside the River Tyne, with plenty of historical features and points of interest to note..</li> 
+                <li><strong className="titles">History : </strong><br />Learnt lots more about the industrial history of the River Tyne, especially its very important role in ship building and armament production.</li> 
+                <li><strong className="titles">Information boards:</strong><br />There is a plethora of interesting and informative information boards en route during the walks.</li>
+                <li><strong className="titles">Weather:</strong><br /> It was a beautiful, sunny day.</li>
+                </div>
+                </ul>
+                <br />
+            <strong className="headTitles">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Traffic congestion</strong><br />Due to the Red Bull Tyne Ride Event, a significant number of roads in the centre of Newcastle 
+                were closed, which added to the fact it was Saturday lunchtime, made the short journey between Tyne Riverside Country Park and the parking in the city centre
+                quite slow and challenging. </li>
+                </ul>
+            <strong className="headTitles">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titles">8 (out of 10):</strong> This was an interesting and enjoyable walk. There was more opportunity to sit down than on Stage 1 of the walk
+            and especially on the stretch along the Tyne riverside, a significant amount of history to learn about. This really gave a feel, not just of history relating to Roman times,
+            but also the medieval and 17th - 19th century  development of Newcastle city and the surrounding areas.</li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            <br />
+
+          <div className="hwpDailyNarrative">
+           Today, we were heading back into Newcastle City Centre to undertake Stage 2 of the Hadrian's Wall Path, between Newcastle Gateshead Millenium Bridge and 
+           Tyne Riverside Country Park. We were keen to finally get this segment completed as it had already had to be postponed on several occasions and the 
+           annual Great North Run Event is due to be on at the beginning of September, making access into the city, which is overwhelmingly busy, very restricted at that time.
+           <br />
+           <br />
+           What we had not counted on though was the fact that today there was another large event on in Newcastle, the <Link to="https://www.redbull.com/gb-en/events/red-bull-tyne-ride"
+           target="_blank" className="LinkHWP"> Red Bull Tyne Ride Event </Link> . As a result, it took us over 24 minutes to cover just 7 miles in heavily congested traffic through the centre 
+           of Newcastle both in the morning, and also on our return in the evening....           
+            <br />
+            <br />
+            There was plenty to see on today's walk though including Blacksmith's Needle, the seven famous bridges of Newcastle upon Tyne, the old Fish Market, Dunston Staith, Elswick and Scotwood and the history of William Armstrong and his importance
+            in armament production and ship building on the Tyne, the Lemington glassworks, the battle of Newburn Ford and Tyne Riverside Park.
+            <br />
+            <br />
+            <strong style={{fontSize:"1.2rem"}}>Blacksmith's Needle :</strong> was made by the British Artist Blacksmiths Association and unveiled in May 1997, with it's constituent parts made at different forges around the country.
+            <br />
+            <br />
+            <strong style={{fontSize:"1.2rem"}}>The seven famous bridges of Newcastle upon Tyne (from East to West) :</strong>
+            <br />
+            <br />
+            <ol>
+              <li><strong>Gateshead Millenium Bridge :</strong> <br /> was opened on September 17th, 2001. It was designed to link Newcastle's north bank with Gateshead Quays, the new arts and cultural quarter to the south. 
+              The bridge consists of two steel arches, a deck that acts as the pedestrian and cycle path and a supporting arch. It was the world's first tilting bridge.
+              <fig><section className = "blogPhoto1HWP" ><img src={GatesheadMillennium} alt="" /><figcaption className='HWPfigcaption'><strong>Gateshead Millennium Bridge <br /> (seen in the foreground)</strong></figcaption></section>
+              </fig>
+               </li>
+              <li><strong>George V or Tyne Bridge :</strong> <br /> was officially opened on 10 October 1928 by King George V, who was first to cross it with Queen Mary. It was built of Cornish granite by the engineering firm Mott, Hay and Anderson and is today Grade II listed and  
+              recognised as being a key symbol of Newcastle's identity. It was built for the new age of the motorised-vehicle and to cope with increasing traffic crossing the Tyne. 
+              At the time of its construction, the Tyne Bridge was the world’s longest span bridge. 
+              <fig><section className = "blogPhoto1HWP" ><img src={TyneKingGeorge} alt="" /><figcaption className='HWPfigcaption'><strong>Tyne Bridge</strong></figcaption></section>
+              </fig></li>
+              <li><strong>Swing Bridge :</strong> <br /> stands on the site of the Old Tyne Bridges of 1270 and 1781, and probably of the original Roman Pons Aelius bridge, which was both a very important
+              part of the Roman infrastructure, but also a site of religious worship as revealed by the presence of two altars, dedicated to the water gods Neptune and Oceanus, which were found on the site 
+              of the bridge in the late 19th century. <br /> The new bridge was opened in 1876 and is a swinging bridge of electric/hydraulic operation. It was necessary to replace the old Georgian Bridge as the old bridge was low level and prevented larger vessels from moving up river. This meant that keels were needed to transport coal from the riverbank staiths at Dunston, Derwenthaugh and beyond to the ships further down river, 
+                an inefficient and time-consuming process. Armstrong's factories at Elswick were held back due to the impossibility of ships reaching there. Trade was greatly stimulated after the Swing Bridge opened. 
+                Armstrong's Elswick shipyard commenced in 1884 and various other works benefited. Coal shipments from northwest Durham became much easier and facilitated the opening of new staiths at Dunston in 1893 and 1903.
+                <fig><section className = "blogPhoto1HWP" ><img src={Swing} alt="" /><figcaption className='HWPfigcaption'><strong>Swing Bridge (The low-level red and cream bridge <br /> seen in the foreground)</strong></figcaption></section>
+              </fig></li>
+              <li><strong>High Level Bridge :</strong> <br /> over which the intercity train line runs and which was designed by Robert Stephenson opened in 1849 aand was part of the objective to create a continuous line from London to Edinburgh 
+              being the first in the world  to combine rail and road traffic
+              <fig><section className = "blogPhoto1HWP" ><img src={HighLevel} alt="" /><figcaption className='HWPfigcaption'><strong>High Level Bridge (seen in the foreground)</strong></figcaption></section>
+              </fig></li>
+              <li><strong>Queen Elizabeth II Bridge  :</strong> <br /> was built as part of the Tyne and Wear Metro system and opened on the 6th November 1981, 9 days before the regular Metro service began,
+              <fig><section className = "blogPhoto1HWP" ><img src={QEii} alt="" /><figcaption className='HWPfigcaption'><strong>Queen Elizabeth II bridge (seen in the foreground)</strong></figcaption></section>
+              </fig></li>
+              <li><strong>King Edward VII Bridge : </strong> <br /> The King Edward VII Bridge spans the River Tyne between Newcastle upon Tyne and Gateshead. This bridge, together with the High Level Bridge completed a loop of railway tracks using both sides of the Tyne making train movements easier. 
+              Trains from north or south of Newcastle could enter or leave via the new bridge and the west end of Central Station, which now became a through station for north-south trains. 
+              At the Gateshead end are two viaducts, one turning west and one east so that trains can be sent in either direction. <br /> Construction began in July 1902 and the bridge was opened 
+              by King Edward VII and Queen Alexandra on 10 July 1906.Today it carries the main East Coast railway and is Listed Grade II. 
+              <fig><section className = "blogPhoto1HWP" ><img src={KingEdwardVII} alt="" /><figcaption className='HWPfigcaption'><strong>King Edward VII Bridge (seen in the background, <br /> behind the blue Queen Elizabeth II Bridge)</strong></figcaption></section>
+              </fig>
+            </li>
+              <li><strong>Redheugh Bridge :</strong> 
+<br />
+There have been 3 Redheugh Bridges spanning the River Tyne and currently carrying the A189 road. 
+
+    The first Redheugh Bridge, built by Thomas Bouch, was opened in 1871. It needed to be replaced because of structural faults.
+    The second bridge, built by Sir William Arrol & Co, was opened on 13th August 1901.
+    The third and current Redheugh Bridge was built by Edmund Nuttall Ltd and opened on 18th May 1983 by Princess Diana.
+</li>
+<br />
+<br />
+              </ol>
+          
+              This additional <Link to="https://englandsnortheast.co.uk/newcastle-quayside-history/" target="_blank"
+            title="Click here to discover more about Newcastle's seven bridges and quayside" className="LinkHWP">article</Link> also has some really interesting information about the bridges and the history of Newcastle 
+            quayside.
+
+            <br />
+            <br />
+            <strong style={{fontSize:"1.2rem"}}> Fish Market : </strong>
+             There have been fish stalls on Sandhill going back to Medieval times. From 1823 the fish market was held in the new covered section of the Guildhall designed by John Dobson.
+            In 1880 a new purpose-built indoor fish market was built on Sandhill. Later the fish market moved to Clayton Street and then eventually relocated as a dedicated section of the Green Market.
+            Today,  the old Fish Market, is now 'Riverside', a  popular live music venue. 
+            <br />
+            <br />
+            <strong style={{fontSize:"1.2rem"}}> Dunston Staiths : </strong>
+             Dunston Staiths, on the River Tyne, is believed to be the largest timber structure in Europe. 
+            It is a Scheduled Monument, Grade II listed and is owned by registered charity Tyne and Wear Building Preservation Trust (TWBPT). 
+            Opened in 1893 by the North East Railway Company, it was built to allow large quantities of coal arriving by rail from the Durham 
+            Coalfields to be loaded directly onto waiting colliers (coal ships) ready for the onward journey to customers in London and abroad. 
+            At the coal industry's peak around 5.5 million tons of coal was moved this way each year.    
+            <br />
+            <br />
+            <fig><section className = "blogPhoto1HWP" ><img src={DunstonStaithes} alt="" /><figcaption className='HWPfigcaption'><strong>Dunston Staithes</strong></figcaption></section>
+           </fig>
+            <strong style={{fontSize:"1.2rem"}}> Elswick and Scotwood : </strong>
+            At its zenith, around the turn of the century, William Armstrong's Elswick and Scotswood works employed over 20,000 people.
+            This workforce together with their families and the many small trades, industries, shops and the like 
+            which served them, accounted for the growth of most of the western suburbs of Newcastle. Scotswood and 
+            Elswick, along with four other small townships Jesmond, Heaton, Byker and Westgate – were taken into the 
+            boundaries of Newcastle Upon Tyne under the Municiple Corporation Act of 1835.
+            This expansion of the city brought the spread of housing into the suburbs. 
+            Fuelled by the growth of industry on the riverbank, the construction of houses in Elswick and Scotswood took 
+            place at a rapid and constant pace. In 1851 the population of Elswick was 3,539.
+            <br />
+            <br />
+            <strong style={{fontSize:"1.2rem"}}> Lemington Glassworks : </strong>
+            The glassworks site was leased from the Duke of Northumberland by a group of local businessmen under the name 
+            of the Northumberland Glass Company in 1787. Initially flat glass was produced from 4 large glass cones. This 
+            company owned the glassworks until 1837 when three of the glass houses were demolished, leaving the huge cone 
+            which is still in existence. 
+            <br />
+            <br />
+            <fig><section className = "blogPhoto1HWP" ><img src={Lemington} alt="" /><figcaption className='HWPfigcaption'><strong>Lemington</strong></figcaption></section>
+           </fig>
+            <strong style={{fontSize:"1.2rem"}}> Battle of Newburn Ford : </strong>
+            The Battle of Newburn Ford took place in Summer 1640 when a Scottish Covenanter army of 20,000 under Alexander Leslie 
+            defeated an English force of 5,000, led by Lord Conway. The only significant military action of the Second Bishop's War, 
+            victory enabled the Scots to take Newcastle, which provided the bulk of London's coal supplies, and allowed them to put 
+            pressure on the central government. It is important because it had far-reaching consequences for King Charles, 
+            setting the scene for a civil  war in which King Charles lost his throne and his head and England became a republic for 
+            the first and last time under Oliver Cromwell. The main cause of the confrontation was religion, particularly as Archbishop 
+            William Laud has attempted to impose a new prayer book on the Scots.
+            <br />
+            <br />
+            <fig><section className = "blogPhoto1HWP" ><img src={Newburn} alt="" /><figcaption className='HWPfigcaption'><strong>Site of Battle of Newburn Ford</strong></figcaption></section>
+           </fig>
+            <strong style={{fontSize:"1.2rem"}}> Denton Hall Turret : </strong>
+            Denton Hall Turret lies in the western suburbs of Newcastle, part of a 63-metre section of Hadrian’s Wall in a small public space adjacent to the A186.
+            Built of unusually large stones, the turret has a platform in one corner, which probably served as the base for a ladder to reach the upper floors. 
+            Another 60-metre section of the Wall survives 300 metres west, alongside the south verge of the A69.
+            <br />
+            <br />
+            <fig><section className = "blogPhoto1HWP" ><img src={DentonHallTurret} alt="" /><figcaption className='HWPfigcaption'><strong>Denton Hall Turret </strong></figcaption></section>
+           </fig>
+            Join us on our 2nd day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+
+          </div>
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <Link to="https://photos.app.goo.gl/VWvo8FVKnFQaRuQ38" target="_blank">
+            <img className="slideshowentryHwp" src={Branzinos} alt="" />
+            </Link>
+          </fig>
+          <br />
+          <br />
+         
+          
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+                       
 
       <div className="datenewsDivHwp">
             <section className="newsheaderHwp"><strong>Day 3 - Tyne Riverside Country Park to Whittle Dene Reservoirs: 8.6 miles on the Hadrian's Wall Path, 9.56 miles in total.</strong></section>

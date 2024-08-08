@@ -123,6 +123,31 @@ h1 .hadrianswallTitle{
       border-radius:30px;
       }
 
+      .blogPhoto1HWP img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:30%;
+        height:auto;
+        border:solid #36454F 4px;
+        border-radius:30px;
+        margin-top:2%;
+        margin-bottom:1%;
+        pointer-events: none;
+        }
+
+        .HWPfigcaption {
+          text-align: center;
+          font-family: bold;
+          color:#36454F;
+          font-size:1.2rem;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          overflow-wrap:normal;
+          padding:1%;
+          margin-top:1%;
+          margin-bottom:1%;
+        }
+
       .slideshowentryHwp {
         display: column;
         justify-content: center;
@@ -247,6 +272,21 @@ ul .listItemsAlign{
     -ms-transform:size(1.2);
     -o-transform:size(1.2);
 }
+
+.blogPhoto1HWP img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  height:auto;
+  border:solid #36454F 4px;
+  border-radius:30px;
+  margin-top:2%;
+  margin-bottom:1%;
+  
+  }
+
+
 }
 
 @media screen and (max-width:480px) {
@@ -295,7 +335,19 @@ ul .listItemsAlign{
   -moz-border-radius:80%;
   -ms-border-radius:80%;
   -o-border-radius:80%;
-}   
+}  
+
+.blogPhoto1HWP img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  height:auto;
+  border:solid #36454F 4px;
+  border-radius:30px;
+  margin-top:2%;
+  margin-bottom:1%;
+  }
 }
 
 @media screen and (min-width:481) and (max-width:902px) {

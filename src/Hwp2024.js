@@ -25,6 +25,7 @@ import DunstonStaithes from "./imagesresized/DunstonStaithes.jpg";
 import DentonHallTurret from "./imagesresized/DentonHallTurret.jpg";
 import Lemington from "./imagesresized/Lemington.jpg";
 import Newburn from "./imagesresized/Newburn.jpg";
+import WaltonTearoomnamed from "./imagesresized/WaltonTearoomnamed.jpg";
 
 
 
@@ -1116,6 +1117,109 @@ There have been 3 Redheugh Bridges spanning the River Tyne and currently carryin
            </div> {/* Closing tag datenewsDivHwp */}
 
       </div>
+
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>Day 10 - Lanercost to Low Crosby village: 8.75 miles on the Hadrian's Wall Path, 9.75 miles in total.</strong></section>
+            <section className="dateHwp">10th August 2024, Saturday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails">     
+            <strong className="headTitles">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Parking:</strong><br />Free parking on the car park by the River Irthing and Old Bridge at Lanercost and free on-street parking in the centre of Low Crosby village.</li>
+                <li><strong className="titles">Paths: </strong><br /> As for all the Hadrian's Wall national trail, the path is mainly a green sward cut into the grass, which makes navigation
+                straightforward. In areas where it can become very muddy and boggy in wet weather, there are stones or matting which have been inserted. We would advise
+                people to use the Acorn signs, Hadrian's Wall Path signposts and the Carlisle OS map number 315 to navigate and <em>not</em> Google maps, otherwise 
+                you will end up going around the front of Bleatarn Farm, which will not make the farmer very happy! (see photo in album)..... </li>
+                <li><strong className="titles">Distance:</strong><br /> 8.75 miles on the Hadrian's Wall Path, 9.75 miles in total <strong>  Ascent:</strong> 108 metres, 355 feet. </li>
+                <li><strong className="titles">Refreshments:</strong><br /> <Link to="https://www.waltoncumbria.uk/tearoom/index.htm" target="_blank"
+            title="Click here to look at the opening times and sample menu for Walton Tearoom" className="LinkHWP">Walton Tearoom </Link> and Lanercost Tea Rooms. </li> </ul>    
+
+            <strong className="headTitles">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+              <li><strong className="titles">History : </strong><br /></li>
+                <li><strong className="titles">Countryside :</strong><br />Whilst this section of the walk does not have the rugged splendour of the Chollerford to Walltown Quarry section of the path,
+                none the less it is through some lovely verdant and rolling countryside with spectacular views south west towards Blencathra and the northern Lake District peaks
+                and to the south towards Cold Fell and the North Pennines.</li>
+                <li><strong className="titles">Refreshments : </strong><br />This was a definite plus on this section of the walk, as the opportunities
+                to pick up refreshments and or sit down turned out to be at key strategic points. <Link to="https://www.waltoncumbria.uk/tearoom/index.htm" target="_blank"
+            title="Click here to look at the opening times and sample menu for Walton Tearoom" className="LinkHWP">Walton Tearoom </Link> is definitely worth a visit and
+            the proprietors are very welcoming. It is open 10.00-17.00 every day. The picnic bench at Newtown green was a great spot for lunch and then of course
+            Lanercost tearoom, at the end of the walk is always very pleasant and serves good food and cakes. </li> 
+                <li><strong className="titles">Weather: </strong><br />It was a pleasantly warm, sunny day; great walking weather. </li>
+                </div>
+                </ul>
+                <br />
+            <strong className="headTitles">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Summer holiday season :</strong><br />It was now the peak Summer holiday season and, whilst not as busy as some of the 
+                central sections of the trail, there were still a steady number of walkers whom we passed en route.</li>
+                <li><strong className="titles">Remaining segments of the wall :</strong><br />From Dovecote Bridge onwards, there are no remaining segments of the wall visible, which might be disappointing for some people.
+                However, the route does actually follow the line of the wall extremely closely and the path runs by the Roman ditch, which is visible for a large part of the way.
+                </li>
+                </ul>
+            <strong className="headTitles">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titles">9 (out of 10):</strong> An enjoyable days walking through lovely countryside and with some spectacular views.</li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            <br />
+            <div className="hwpDailyNarrative">
+            
+           <br />
+           <br />
+           Today we walked the 10th stage of the Hadrian's Wall path, taking us from Lanercost to Low Crosby village.
+           <br />
+           <br />
+            Key points and way-marks on the walk from  Lanercost to Low Crosby village include: Lanercost Exit and some remaining segments of Hadrian's wall, 
+            Dovecote Bridge, Walton village and church, 
+            Bleatarn Farm
+            <br />
+            <br />
+            <strong style={{ fontSize: "rem1.2"}}> Lanercost Exit:  </strong> On continuing west shortly after Lanercost Exit, there are some sections of Hadrian's Wall in the trees on the right.
+            <br />
+            <br />
+            <strong style={{ fontSize: "rem1.2"}}> Dovecote Bridge (just outside of Walton): </strong>There used to be a visible section of Hadrian's Wall at this bridge. The bridge
+             was however made of Cumbrian red sandstone and as a result, did not weather well. After being exposed for just 20 years, it had sustained significant damage by the elements. In 1983 therefore,
+            it was reburied in order to preserve it.
+            <br />
+            <br />  
+            <strong style={{ fontSize: "rem1.2"}}>Walton village, St Mary's church and Walton Tearoom:</strong><Link to="https://www.visitcumbria.com/car/walton/" target="_blank" title="Click here to discover 
+            more about Walton village, St Mary's church and Walton Tearoom, North Cumbria" className="LinkHWP"> Walton village and St Mary's church </Link> are on the path of Hadrian's Wall. Walton is only a 
+            small village but is very pretty with some great views out towards Cold Fell and the North Pennines and has one very important feature for all walkers on the Hadrian's Wall path, the <Link to="https://www.waltoncumbria.uk/tearoom/index.htm" target="_blank"
+            title="Click here to look at the opening times and sample menu for Walton Tearoom" className="LinkHWP">Walton Tearoom </Link> . This is open from 10.00-17.00 daily 
+            and is <Link to="https://www.tripadvisor.co.uk/ShowUserReviews-g8715454-d8155353-r941402870-The_Reading_Room_at_Walton-Walton_Brampton_Cumbria_England.html" target="_blank" className="LinkHWP"> 
+            very popular </Link> with Hadrian's Wall walkers.
+            <br />
+            <br /> 
+            <strong style={{ fontSize: "rem1.2"}}> Castlesteads House: </strong> <Link to="https://perlineamvalli.wordpress.com/tag/castlesteads/" target="_blank" 
+            title="Click here to discover more about Castlesteads House" className="LinkHWP"> Castlesteads House </Link> is an 18th century mansion built on the site
+            of the earlier Walton House. It is situated between Walton and Newtown, to the left of the Hadrian's Wall Path and is situated on the site of 
+            <Link to="https://www.u3ahadrianswall.co.uk/castlesteads-roman-fort-camboglanna/" target="_blank" className="LinkHWP" title=
+            "Click here to discover more about Campoglanna Roman Fort"> Camboglanna Roman Fort </Link>.
+            <br />
+            <br />   
+           <strong style={{ fontSize: "rem1.2"}}> Bleatarn Farm: </strong> The ground around Bleatarn Farm was used by the Romans to gather stone 
+           for Hadrian's Wall and the mounds created by the debris from the quarry activity can still be seen.
+            <br />
+            <br />
+         
+            Join us on our 10th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            <br />
+           <br />
+
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <Link to="https://photos.app.goo.gl/bruTNaavSFaWnL5q6" target="_blank">
+            <img className="slideshowentryHwp" src={WaltonTearoomnamed} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+
+      </div>
+
 
       <div className="datenewsDivHwp">
             <section className="newsheaderHwp"><strong>ADDITIONAL DAY - Visit to the Roman Army Museum and Vindolanda </strong></section>

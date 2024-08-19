@@ -45,6 +45,138 @@
     display: block;
   }
   
+  .slideshowentryAugust {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events:none;
+    width:25%;
+    height:auto;
+    border-radius:50%;
+    margin-top:3%;
+    margin-bottom:5%;
+    -webkit-border-radius:20%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    border: solid #8bb285 4px;
+}     
+
+.liAugust {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content:center;
+  font-size:1.2rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 1%;
+  }
+
+  .newsAugust {
+     background-color: #eae374;
+     margin:3%;
+     padding-top: 3%;
+     padding-bottom: 5%;
+     padding-right: 10%;
+     padding-left: 10%;
+     border: solid #8bb285 3px;
+     font-weight: bold;
+     font-size:1.1rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.dateAugust{
+  color:#36454F;
+  border:solid 3px #757c88;
+  background-color:#b3e5ab;
+  text-align: center;
+  padding:10px 10px 10px 10px;
+  margin:5px;
+  font-size:1.1rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.newsheaderAugust{
+  color:#36454F;
+  border:solid 3px #757c88;
+  background-color:#b3e5ab;
+  text-align: center;
+  padding:10px 10px 10px 10px;
+  margin:5px;
+  font-size:1.1rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.datenewsDivAugust{
+  background-color:#8bb285 ;
+  display:flex;
+  flex-direction:column;
+  margin-top: 0vh;
+  margin-bottom:0vh;
+  padding-top: 10vh;
+  padding-bottom:5vh;
+ 
+}
+
+.blogPhoto1August img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  height:auto;
+  border: solid #8bb285 4px;
+  border-radius:30px;
+  margin-top:2%;
+  margin-bottom:1%;
+  pointer-events: none;
+  margin-top: 5%;
+  pointer-events: all;
+  }
+
+  .LinkAugust{
+    color:blueviolet;
+    font-weight: bold;
+  }
+
+  
+  .blogPhotoAugust img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+    height:auto;
+    border:solid #8bb285  4px;
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+
+.blogPhotoDivAugust{
+  display:flex;
+  flex-direction: row;
+  background-color:#eae374 ;
+  padding-bottom: 8%;
+  padding-top: 5%;
+  margin-top:5vh;
+}
+
+.augustfigcaption {
+  text-align: center;
+  font-family: bold;
+  color:black;
+  font-size: 1.0rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  overflow-wrap:normal;
+  padding-top:5%;
+}
+
+  /*Styling for animated cyclist display*/
+
   .cloudCyclist {
     display: inline-block;
     background: white;
@@ -188,7 +320,6 @@
 
 .slideshowentryAugust {
 display: block;
-background-color: #C291A4;
 margin-left: auto;
 margin-right: auto;
 pointer-events:none;
@@ -300,7 +431,6 @@ margin-bottom:5%;
 
  .slideshowentryAugust {
    display: block;
-   background-color: #C291A4;
    margin-left: auto;
    margin-right: auto;
    pointer-events:none;

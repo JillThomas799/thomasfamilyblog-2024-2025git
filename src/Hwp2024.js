@@ -26,6 +26,7 @@ import DentonHallTurret from "./imagesresized/DentonHallTurret.jpg";
 import Lemington from "./imagesresized/Lemington.jpg";
 import Newburn from "./imagesresized/Newburn.jpg";
 import WaltonTearoomnamed from "./imagesresized/WaltonTearoomnamed.jpg";
+import KingEdward1 from "./imagesresized/KingEdward1.jpg";
 
 
 
@@ -1219,6 +1220,100 @@ There have been 3 Redheugh Bridges spanning the River Tyne and currently carryin
            </div> {/* Closing tag datenewsDivHwp */}
 
       </div>
+
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>Day 11 - Low Crosby village to Burgh-by-Sands: 11.8 miles.</strong></section>
+            <section className="dateHwp">18th August 2024, Sunday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails">     
+            <strong className="headTitles">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Parking:</strong><br />Free on-street parking in the centre of Low Crosby village and parking for a contribution of £2.00 into the honesty box on the village green car park at Burgh-by-Sands.</li>
+                <li><strong className="titles">Paths: </strong><br /> As for all the Hadrian's Wall national trail, the path is in rural areas a green sward cut into the grass, which makes navigation
+                straightforward. In more urban areas such as through the central section in Carlisle it is on more firm surfaces. This section of the path is once again well-signposted.</li>
+                <li><strong className="titles">Distance:</strong><br /> 11.8 miles <strong>  Ascent:</strong> approx 80 metres, approx 262 feet. </li>
+                <li><strong className="titles">Refreshments:</strong><br /> TG café Bitt's Park, Carlisle and the Greyhound Inn Burgh-by-Sands </li> </ul>    
+
+            <strong className="headTitles">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+              <li><strong className="titles">History : </strong><br /> Whilst there are no visible remains of Hadrian Wall to be seen now on this segment of the walk, nonetheless there is plenty of historical interest.
+              Roman history lies everywhere as demonstrated by the evidence found in Rickerby. Many buildings such as Carlisle Castle </li>
+                <li><strong className="titles">Walk :</strong><br /> Whilst lengthy, this was an easier walk than many of the earlier stretches (or maybe we are just getting fitter...). The stop for lunch in Carlisle at about 
+                the half-way point worked well.</li>
+                <li><strong className="titles">Refreshments : </strong><br /> There was plenty of opportunity for refreshments. We went to TG's café in Bitts Park, Carlisle (although with a short detour there are numerous places 
+                to eat and drink in Carlisle. We particularly like Carlisle cathedral café). 
+                </li> 
+                <li><strong className="titles">Weather: </strong><br /> It did not rain....what more can I say? That is all that matters.</li>
+                </div>
+                </ul>
+                <br />
+            <strong className="headTitles">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Time Available :</strong><br />The length of this segment of the walk meant there was not adequate time to explore in more depth some of the 
+                sites and resources of interest such as Carlisle Castle, Tullie Museum, St Mary's church Beaumont, St Michael's church Burgh-by-Sands and St Edward's Monument on Burgh Marsh.
+                However, a catch-up visit to all these sights to allow us plenty of time to explore these fully is scheduled for the weeks after we have finished the walk, so we will not 
+                miss out on them.</li>
+                </ul>
+            <strong className="headTitles">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titles">8 (out of 10):</strong> An enjoyable days walking which, despite the length, did not seem too challenging.</li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            <br />
+            <div className="hwpDailyNarrative">
+            
+           <br />
+           <br />
+           Today we walked the 11th stage of the Hadrian's Wall path, taking us from  Low Crosby village to Burgh-by-Sands.
+           <br />
+           <br />
+            Key points and way-marks on the walk from   Low Crosby village to Burgh-by-Sands include: the River Eden, 
+            Carlisle and Carlisle Castle, St Mary's church Beaumont, Burgh-by-Sands with St Michael's church and King Edward I's monument and statue.
+            <br />
+            <br />
+            <strong style={{ fontSize: "rem1.2"}}> River Eden:  </strong> The River Eden originates in Black Fell Moss, Mallerstang and
+            flows through the Eden District of Cumbria down to the Solway Firth. Its Roman name was <em>Itouna</em> derived from the Celtic word 
+            <em> ituna </em> , meaning water or rushing. The river supports Atlantic salmon and Eurasian otter. It is, together with its tributaries, 
+            designated a Special Area of Conservation under the European Union's Habitats Directive.
+            <br />
+            <br />
+            <strong style={{ fontSize: "rem1.2"}}> Carlisle: </strong> There is not much in the way of wall or excavated remains now but Carlisle was 
+            the site of an important Roman fortress, Luguvalium, for many years. The fort was established by Quintus Petillius Cerialis in about AD 72, as the 
+            Romans took their invasion North from Chester and York. It was an extremely good strategic location as it guarded the crossing over the river Eden
+            and provided important support to Agricola's invasion over the years AD 78 -84 into Scotland. The fort today lies largely below the Castle Keep and the 
+            present day castle is partly constructed from Roman stone. The vicus (the supporting settlement) lay to the East of the fort.
+            There is also an impressive collection of local Roman remains at the Tullie House museum. 
+            <br />  
+            <br />
+            <strong style={{ fontSize: "rem1.2"}}>St Mary's church, Beaumont :</strong> This is the only church which stands on the line of Hadrian's wall. 
+            It was built in the 12th century on the site of Turret 70a and was constructed from sandstone , partly using stones from Hadrian's Wall.
+            Little remains of the original structure as the church was restored on a number of occasions, most recently in the late 19th century. The roof dates from the 16th century.
+            <br />
+            <br /> 
+            <strong style={{ fontSize: "rem1.2"}}> Burgh-by-Sands: </strong> St Michael's church in Burgh-by-Sands was built in the 12th century with Roman stones. 
+            There is the head of a pagan god which can be seen in the eastern wall. The church is more famous as the place where King Edward I was laid out after he died of dysentery. 
+            A statue of Edward I can be seen in the centre of the village and there is a monument to King Edward I at the site of his death a short distance away on Burgh Marsh.
+            <br />
+            <br />   
+           
+            Join us on our 11th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            <br />
+           <br />
+
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <Link to="https://photos.app.goo.gl/9KSM8naKSH2qRduWA" target="_blank">
+            <img className="slideshowentryHwp" src={KingEdward1} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+
+      </div>
+
+
 
 
       <div className="datenewsDivHwp">

@@ -269,6 +269,25 @@ export default function August2024() {
            </section>
 
            <div className="datenewsDivAugust">
+            <section className="dateAugust">15th August 2024, Thursday</section> 
+            <section className="newsheaderAugust"> IMPORTANT DAY TODAY! - Harry's scientific paper is published in the <Link to="https://www.rsc.org/journals-books-databases/about-journals/catalysis-science-technology/"
+            target="_blank" title="Click here to read more about the Catalysis Science and Technology Journal" className="LinkAugust">Catalysis Science and Technology Journal</Link> .
+              Congratulations Harry and well-deserved after all your hard work! </section>  
+            <br />
+            <div className="news">
+            <section className="newsAugust"> A really special and important day today as Harry heard that the scientific paper he has been working on has been published in the <Link to="https://www.rsc.org/journals-books-databases/about-journals/catalysis-science-technology/"
+            target="_blank" title="Click here to read more about the Catalysis Science and Technology Journal" className="LinkAugust">Catalysis Science and Technology Journal</Link>. 
+              As anyone working in the field of scientific research will know, to succeed in getting a paper published in a scientific journal of this repute is no small achievement.
+              Harry is the first named author and the paper can be accessed by clicking on this link <Link to="https://pubs.rsc.org/en/content/articlelanding/2024/cy/d4cy00284a"
+              target="_blank" className="LinkAugust">First principles investigation of manganese catalyst structure and coordination in the p-xylene oxidation process</Link>.
+            </section>
+            </div>
+          </div> 
+           
+            <br />
+           <br />
+
+           <div className="datenewsDivAugust">
             <section className="dateAugust">18th August 2024, Sunday</section> 
             <section className="newsheaderAugust"> Stage 11 of our Hadrian's Wall Path Expedition successfully completed</section>  
             <br />

@@ -25,7 +25,7 @@ export default function HWPThermometer() {
   </ul>
 
   <ul className="chartLabels">
-  <li> 90.18% Completed by August 18th 2024</li>
+  <li> 100% Completed by August 24th 2024 ! - we made it......</li>
   {/* <li>73.93% Completed by August 3rd 2024</li> */}
   {/* <li>July 13th 2024 - 46.9%</li>
   <li>July 7th 2024 - 31.9%</li>

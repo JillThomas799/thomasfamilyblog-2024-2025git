@@ -27,6 +27,8 @@ import Lemington from "./imagesresized/Lemington.jpg";
 import Newburn from "./imagesresized/Newburn.jpg";
 import WaltonTearoomnamed from "./imagesresized/WaltonTearoomnamed.jpg";
 import KingEdward1 from "./imagesresized/KingEdward1.jpg";
+import Day12Album from "./imagesresized/Day12Album.jpg";
+import TheEnd from "./imagesresized/TheEnd.jpg";
 
 
 
@@ -1312,6 +1314,206 @@ There have been 3 Redheugh Bridges spanning the River Tyne and currently carryin
            </div> {/* Closing tag datenewsDivHwp */}
 
       </div>
+
+
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>Day 12 - Burgh-by-Sands to Bowness-on-Solway. THE FINAL DAY OF THE HADRIAN'S WALL PATH!: 8.5 miles.</strong></section>
+            <section className="dateHwp">24th August 2024, Saturday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails">     
+            <strong className="headTitles">Details of the Walk </strong>
+            <br />
+            <br />
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Parking:</strong><br />Parking for a contribution of £2.00 into the honesty box on the village green car park at Burgh-by-Sands and paid parking of 
+                £4.60 for the day at the car park in the centre of Bowness-on-Solway village.</li>
+                <li><strong className="titles">Paths: </strong><br /> The path for today's walk runs along the road (which is also the Cycle route 72) from Burgh-by-Sands to Drumburgh. 
+                It then turns off in Drumburgh on to a broad farm track which continues as a path across the fields into Glasson. On leaving Glasson, the path follows the line of 
+                the vallum until, just past a caravan site, it crosses the main road and follows the disused railway embankment into Port Carlisle. The final stretch into 
+                Bowness-on-Solway is on the road.</li>
+                <li><strong className="titles">Distance:</strong><br /> 11.8 miles <strong>  Ascent:</strong> approx 20 metres, approx 33 feet. </li>
+                <li><strong className="titles">Refreshments:</strong><br /> Solway Lounge and Garrison Bistro and the Kings Arms (both in Bowness-on-Solway)
+                followed by the Drover's Rest at Monkhill for our final end of trail celebratory meal. </li> 
+                <br />
+                <br />
+                </ul>    
+                
+            <strong className="headTitles">Good</strong> 
+            <br />
+            <br />
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+              <li><strong className="titles"> Final Day: </strong><br /> It was THE FINAL DAY OF THE HADRIAN'S WALL PATH - what more can I say?</li>
+              <br />
+              <br />
+                <li><strong className="titles">Landscape of the Solway Firth :</strong><br /> The landscape of the Solway Firth has that sense of being a 'liminal zone', where the definition of liminality
+                is a physical space between one destination and the next', in this case the marshland as the boundary between the land and the sea. There is nothing that can really capture it, it needs to be experienced....</li>
+                <br />
+                <br />
+                <li><strong className="titles">Refreshments : </strong><br /> Solway Lounge and Garrison Bistro for refreshments before we started the walk and the Kings Arms  for drinks 
+                at the end (both in Bowness-on-Solway). Our first opportunity to try out the <Link to="https://www.droversrestinn.com/" target="_blank" title="Click here to find out more about the Drover's Rest"
+                className="LinkHWP">Drover's Rest</Link> at Monkhill for our final end-of-trail celebratory meal, which was a unique and delightful experience.
+                </li> 
+                <br />
+                <br />
+                <li><strong className="titles">Weather: </strong><br /> The forecast had been for some not great weather, but in the end it turned out to be windy 
+                but generally pretty sunny and pleasant.</li>
+                <br />
+                <br />
+                <li><strong className="titles">Seating: </strong><br /> A distinct positive on this section of the walk was that there were a number of 
+                benches along the way to sit and admire the view (and take a rest of course!) </li>
+                <br />
+                <br />
+                <li><strong className="titles">History: </strong><br /> Burgh-by-Sands, Drumburgh Castle and Bowness-on-Solway all have interesting histories as this is an area
+                not just of the time of Hadrian's Wall and the time of the Roman occupation but also of the centuries long conflicts between the English and the Scots and the Border Reiver families. </li> 
+                </div>
+                <br />
+                <br />
+                </ul>
+            <strong className="headTitles">Not so good</strong> 
+                <br />
+                <br />
+            <ul className="hwpIntroList">
+                <li><strong className="titles">Road-walking :</strong><br />There was a reasonable amount of road-walking today and whilst the road was a B road,
+                it was quite busy and the drivers were not always as considerate as they might have been. Care was needed. It is also a stretch of road where there 
+                are frequently grazing cattle. These can vary from being no trouble at all to being very numerous and tricky to negotiate.
+                </li>
+                <br />
+                <br />
+                <li><strong className="titles">Final day: </strong><br /> It was a sad occasion too, as our trek was coming to and end and we were all quite sad....
+                </li>
+                <br />
+                <br />
+                </ul>
+            <strong className="headTitles">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titles">8 (out of 10):</strong> The final day of our Hadrian's Wall Path Trail so a happy but sad day also. 
+            The landscape and views are beautiful both looking out on to the Solway Firth and inland towards Skiddaw and the North Lakeland peaks.
+            The walking was straightforward. We have deducted a couple of points for the sections on the road where the car-drivers could have 
+            been more considerate.</li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            <br />
+            <div className="hwpDailyNarrative">
+            
+           <br />
+           <br />
+           Today we walked the 12th stage of the Hadrian's Wall path, taking us from  Burgh-by-Sands to Bowness-on-Solway.
+           <br />
+           <br />
+            Key points and way-marks on the walk from  Burgh-by-Sands to Bowness-on-Solway  include: Burgh-by-Sands, Drumburgh, Views, 
+            Port Carlisle, Bowness-on-Solway
+            <br />
+            <br />
+            <strong style={{ fontSize: "rem1.2"}}> Burgh-by-Sands:  </strong> is a village which lies near the Solway Firth in the 
+            Solway Outstanding Area of Natural Beauty. It is best known as the place where in 1307, King Edward 1 died out on Burgh Marsh on his way to
+            fight Robert the Bruce. His body was laid to rest in the 12th century St Michael's church within the village before making its way back to London.
+            Hadrian's Wall travels through the village and St Michael's church was constructed on the fort and much of the stone used in its Construction
+            came from the wall. 
+            <br />
+            <br />
+            <strong style={{ fontSize: "rem1.2"}}> Drumburgh: </strong>  previously the site of a small fort Coggabata. 
+            It was the smallest of all the forts along the wall, being only 2 acres.  Drumburgh Castle, a fortified house 
+            dating back to the 13th century, with an entrance at first floor level only, making it easier to defend. 
+            Its importance is confirmed by the heraldic birds carved over the entrance. It also has altar stones from a 
+            Roman temple as garden ornaments. 
+            <br />  
+            <br />
+            <strong style={{ fontSize: "rem1.2"}}>Views :</strong> to the South - Skiddaw and the North Lakeland peaks, to the North - huge expanses of 
+            salt marshes and the sandbanks, where the flows of the Eden and the Esk combine. This area is notable for its population 
+            of seabirds and waders. There are many oystercatchers, which are the symbol of the Solway Coast.
+            <br />
+            <br /> 
+            <strong style={{ fontSize: "rem1.2"}}> Port Carlisle: </strong> 
+               A BBC TV programme last year, <em>(for those of you who have an up to date BBC UK TV licence only!)</em> currently available on <Link to="https://www.bbc.co.uk/iplayer/episode/m001s1y5/villages-by-the-sea-series-4-2-port-carlisle" 
+               target="_blank" title="If you hold an upto date TV licence, click on this link to load the programme"  className="LinkHWP"> BBC iplayer </Link> talked about the history of Port Carlisle, a little-known 
+               village on the Solway Firth in Cumbria (which borders England and Scotland). 
+               <br />
+               <br />
+               Ben Robinson, the archeologist presenter, explains how in the early 1800s Port Carlisle, as a result of the industrial revolution,  was hoping to be a competitor for great northern port cities such as Liverpool and in 1819, work was started on a wide and 
+               9 feet deep canal, which could carry ships up to 120 tonnes between Carlisle and the Solway Firth.
+               <br />
+               <br />
+               Prior to 1800, the location was known as Fisher's Cross and there had been very few houses. The building of the canal however, led to the rapid expansion of the village. Today, the main street is made up terraces of these 
+               prestigious houses dating from the period of the 1810s, 20s and 30s and built for people who had money.   Features of late Georgian architecture can still be seen on many of the houses. One of these houses was owned by one of 
+               Port Carlisle's shipping magnates.
+               <br />
+               <br />
+               The remains of the large harbour construction, are still clearly visible out into the water.This harbour construction can be seen to lead into the start of what was then the Carlisle Ship Canal.
+               The investors for the development were the businessmen of Carlisle. By building the canal from Port Carlisle they could take goods, especially coal which was much in demand for the industrial revolution,straight into 
+               Carlisle and export them to the continent more cheaply. It cost £80,0000 (nearly 10 million pounds in today's money). The canal not only brought trade but also passengers wanting to escape the industrial northern towns and cities, leading to development 
+               in the village to cater for these visitors such as the Solway Hotel and a private bath house (now a private residence).
+               <br />
+               <br />
+               The canal took 3 years to build and opened in 1823. By 1845 Port Carlisle appeared on the surface to be thriving, with the canal busy and tourists bringing in additional money but things were very soon to change with the arrival of the railways. Trains 
+               could carry more cargo and were much quicker, reducing the time of transit from Carlisle to Port Carlisle from 1 hour 45 minutes to 35 minutes. In 1853, 30 years after it was first opened and despite the initial cost of the build, the canal was drained to make way for a rail track
+               in its bed and in 1854 the railway line opened. 
+               <br/><br/>
+               However, this railway line also did not last for long as by 1859, the Burghers of Carlisle were interested in developing a new port 8 or 9 miles down the coast at Silloth.The railway down from Carlisle to Silloth opened in 1856. The steam railway from Carlisle 
+               to Port Carlisle therefore lasted only 3 years. However, the rail track at Port Carlisle was developed into having a unique use, being the track for a horse-drawn dandy car from Port Carlisle to Drumburgh which people could travel on. Eventually though, Port Carlisle's growth 
+               faded and today the village with all the historic reminders remains.
+               <br /><br />
+               There is also further information about Port Carlisle and the Solway Firth to be found in this fascinating link for those interested <Link to = "https://solwayshorewalker.co.uk/2018/10/13/port-carlisle-canals-and-ships-and-trains/" target="_blank" title="Click here to discover more.." className="LinkHWP">Solway shore-walker</Link> by Ann Lingard who also has written the excellent book  
+               <Link to ="https://www.amazon.co.uk/Fresh-Salt-Story-Solway/dp/1780276931/ref=sr_1_1?crid=1V7OLFGZ4S6IV&keywords=the+fresh+and+the+salt&qid=1700393297&sprefix=the+fresh+and+the+salt%2Caps%2C184&sr=8-1" target="_blank"  title="Click here to discover more about Ann Lingard's book" className="LinkHWP"> The Fresh and the Salt: The story of the Solway </Link> .
+            <br />
+            <br />  
+            <strong style={{ fontSize: "rem1.2"}}> Bowness-on-Solway: </strong>  Bowness-On-Solway is situated on the site of the Roman fort called Maia, which was the second largest on Hadrian's Wall (the largest on the wall being Uxelodunum at Stanwix, Carlisle). There was also a small civilian settlement (vicus) outside the south gate of the fort.
+            In AD122, when Hadrian's Wall was built, it marked the northern most extremity of the Roman Empire and it is here that the Western end of Hadrian's Wall ended.
+            Today nothing is visible in Bowness-on-Solway of either the original fort or the wall. A woman and dog tombstone was found in the churchyard in 1878 during grave digging and is thought to date back to the 2nd and 3rd centuries.
+            It can be seen today in the Tullie museum at Carlisle.
+
+
+            <br />
+            <br />  
+            Join us on our 12th day of the Hadrian's Wall Path by clicking on the album below and following our narrative by clicking on the added comments.          
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            <br />
+           <br />
+
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <Link to="https://photos.app.goo.gl/S6Gd7nzR4Bi5wbq47" target="_blank">
+            <img className="slideshowentryHwp" src={Day12Album} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+
+      </div>
+
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>THE END</strong></section>
+            <section className="dateHwp">24th August 2024, Saturday</section>
+             <div className="newsHwp">
+         
+            <br />
+            <div className="hwpDailyNarrative">
+            <br />
+           <br />
+            
+            So on the 24th August 2024 we finished our Hadrian's Wall Path Trail which had started on the 1st June 2024. 
+            In total we walked  99.16 miles over a total of 12 days of which 91.15 was on the official Hadrian's Wall Path. The longest stretch we walked 
+            was 12.6 miles.
+            <br />
+            <br />
+            So now it is time to put our feet up for a while (metaphorically speaking of course, because we will be out walking regularly as usual) 
+            and, as we have been 'bitten by the long distance walk bug' we need to plan our next trip which will be in 2025. More on that to come....
+            <br />
+            <br />
+            <div style={{textAlign:"center"}}>We hope you have all enjoyed our Hadrian's wall blog.</div>
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            <br />
+           <br />
+
+          <div className="slideshowHostPhotoHwp">
+          <fig>
+            <img className="slideshowentryHwp" src={TheEnd} alt="" />
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+
+      </div>
+
 
 
 

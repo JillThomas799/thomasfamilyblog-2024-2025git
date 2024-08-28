@@ -274,7 +274,9 @@ export default function August2024() {
             target="_blank" title="Click here to read more about the Catalysis Science and Technology Journal" className="LinkAugust">Catalysis Science and Technology Journal</Link> .
               Congratulations Harry and well-deserved after all your hard work! </section>  
             <br />
-            <div className="news">
+            <div className="newsCongrats">
+              <div className="CongratsMessage">CONGRATULATIONS ON YOUR PUBLICATION HARRY!</div> 
+              <br />
             <section className="newsAugust"> A really special and important day today as Harry heard that the scientific paper he has been working on has been published in the <Link to="https://www.rsc.org/journals-books-databases/about-journals/catalysis-science-technology/"
             target="_blank" title="Click here to read more about the Catalysis Science and Technology Journal" className="LinkAugust">Catalysis Science and Technology Journal</Link>. 
               As anyone working in the field of scientific research will know, to succeed in getting a paper published in a scientific journal of this repute is no small achievement.
@@ -292,7 +294,23 @@ export default function August2024() {
             <section className="newsheaderAugust"> Stage 11 of our Hadrian's Wall Path Expedition successfully completed</section>  
             <br />
             <div className="news">
-            <section className="newsAugust">Today we successfully completed Stage 11 of our Hadrian's Wall Path Expedition, Low Crosby to Burgh-By-Sands, 5e to 6b inclusive, 11.8 miles.
+            <section className="newsAugust">Today we successfully completed Stage 11 of our Hadrian's Wall Path Expedition, Low Crosby to Burgh-By-Sands, 5e to 6b and part of 6c, 11.8 miles.
+            <br /><br />
+            For all the information about this trip for today and for the previous and remaining stages over the forthcoming weeks and months, please come and join us at our  
+            <Link to="/hwp2024" className="LinkAugust"> Hadrian's Wall Path Expedition page </Link> .
+            </section>
+            </div>
+          </div> 
+            
+            <br />
+           <br />
+           <div className="datenewsDivAugust">
+            <section className="dateAugust">24th August 2024, Sunday</section> 
+            <section className="newsheaderAugust"> Stage 12 and final stage of our Hadrian's Wall Path Expedition successfully completed</section>  
+            <br />
+            <div className="news">
+            <section className="newsAugust">Today we successfully completed Stage 12, which is the final stage of our Hadrian's Wall Path Expedition, Burgh-By-Sands to Bowness-on-Solway, 
+              part of 6c, 6d and 6e inclusive, 8.5 miles.
             <br /><br />
             For all the information about this trip for today and for the previous and remaining stages over the forthcoming weeks and months, please come and join us at our  
             <Link to="/hwp2024" className="LinkAugust"> Hadrian's Wall Path Expedition page </Link> .

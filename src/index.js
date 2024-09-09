@@ -10,6 +10,7 @@ import May2024 from 'May2024';
 import June2024 from 'June2024';
 import July2024 from 'July2024';
 import August2024 from 'August2024';
+import September2024 from 'September2024';
 import Hwp2024 from 'Hwp2024';
 import { BernardBio } from 'indexbiobernard';
 import { ElenaBio } from 'indexbioelena';
@@ -60,6 +61,12 @@ const router = createBrowserRouter(
     {
       path: '/august2024',
       element: <August2024/>,
+      errorElement: <ErrorPage/>
+    },
+
+    {
+      path: '/september2024',
+      element: <September2024/>,
       errorElement: <ErrorPage/>
     },
 

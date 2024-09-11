@@ -18,6 +18,14 @@ import ElenaGarden1 from "./imagesresized/ElenaGarden1.jpg";
 import ElenaGarden4 from "./imagesresized/ElenaGarden4.jpg";
 import ElenaGarden5 from "./imagesresized/ElenaGarden5.jpg";
 import ElenaGarden7 from "./imagesresized/ElenaGarden7.jpg";
+import MoorDivockPooleyBridge from "./imagesresized/MoorDivockPooleyBridge.jpg";
+import SummitLoadPotJill from "./imagesresized/SummitLoadPotJill.jpg";
+import LoneRangerLoadPot from "./imagesresized/LoneRangerLoadPot.jpg";
+import EHRomanHighStreet from "./imagesresized/EHRomanHighStreet.jpg";
+import FinalAscent from "./imagesresized/FinalAscent.jpg";
+import AscentFusedale from "./imagesresized/AscentFusedale.jpg";
+import PooleyJetty from "./imagesresized/PooleyJetty.jpg";
+import LunchFusedale from "./imagesresized/LunchFusedale.jpg";
 
 export default function August2024() {
 
@@ -318,10 +326,84 @@ export default function August2024() {
             </div>
           </div> 
             </div> {/*Closing tag for hwpDailyNarrative div */}
+                    
+
+<div className="datenewsDivAugust">
+<section className="dateAugust">31st August 2024, Saturday</section> 
+<section className="newsheaderAugust"> Lake District National Park: Walk Loadpot Hill from Howtown via <br /> the Ullswater steamer from Pooley Bridge to Howtown and ascent up the Fusedale Valley, 9 miles, 560 metres (1,837 feet) of ascent</section>  
+<br />
+<br />
+<div className="newsAugust">
+<strong className="headTitlesAugust">Details of the Walk </strong>
+            <ul className="AugustIntroList">
+                <li><strong className="titlesAugust">Parking:</strong> There is plenty of paid parking at Pooley Bridge, as long as you are there promptly.
+                Just a note that the closer you park to Pooley Bridge village, the more expensive it becomes to park! Also, check first as some car parks 
+                are payable on a phone app only and some payable by cash only.</li>
+                <li><strong className="titlesAugust">Distance:</strong> 9 miles, 560 metres (1,837 feet) of ascent. </li>
+                <li><strong className="titlesAugust">Refreshments:</strong> There is a café at the Howtown jetty at the start and then subsequently
+                on your return into Pooley Bridge where there are a number of pubs and cafés. </li>
+                </ul>   
+                <br />
+                <br />     
+            <strong className="headTitlesAugust">Good</strong> 
+            <ul className="AugustIntroList" style={{fontWeight:"normal"}}>
+              <div className="listItemsAlign" style={{fontWeight:"bold"}}>
+                <li><strong className="titlesAugust">Steamer ride:</strong> It was some years since we had taken the Ullswater steamer and it was 
+                a beautiful day for it. It cost us £10.00 each for a single ticket to Howtown, which is the first stop. These tickets 
+                can be purchase on-line in advance or from the ticket office at the jetty on the day.</li>
+                <li><strong className="titlesAugust">The challenge :</strong> This is a brilliant walk for a good day. It has the advantage of being not 
+                one of the highly popular high-level routes such as Helvellyn so it is not as busy. Nonetheless it is still quite 
+                a challenging walk, particularly the last section of steep ascent out of the Fusedale Valley and up on to the Roman road.</li> 
+                <li><strong className="titlesAugust">Views: </strong> There are some spectacular views (see the selection of photos below.)</li> 
+                <li><strong className="titlesAugust">Weather:</strong>This was lovely, sunny and pleasantly warm but not boiling hot, the latter never being 
+                good for hiking.</li>
+                </div>
+                </ul>
+                <br />
+                <br />
+            <strong className="headTitlesAugust">Not so good</strong> 
+            <ul className="AugustIntroList">
+                <li style={{textAlign:"center"}}>There was nothing bad about this walk really. It was a brilliant day out.<br />
+                Just one quick word of warning, a number of people who have walked this route when it has been misty on the summit have reported getting lost as there 
+                are a number of routes off the Load Pot Hill summit, some leading down towards Haweswater Reservoir rather than Ullswater and Pooley Bridge.
+                It is for this reason best avoided in misty weather.</li>
+                </ul>
+                <br />
+                <br />
+            <strong className="headTitlesAugust">Hike Rating</strong><div style={{textAlign:"center"}}>9 (out of 10)</div> 
+          </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
             <br />
-           <br />
-           </div>
+            </div>
+
+<div className="news">
+<section className="newsAugust">
+  
+  <div className="blogPhotoDivAugustColumn">
+<fig><section className = "blogPhotoAugust" ><img src={PooleyJetty} alt="" /><figcaption className='augustfigcaption'><strong>Safely arrived at Pooley Bridge Jetty <br /> ....waiting for the steamer to take us to Howtown.</strong></figcaption></section>
+</fig>
+  <fig><section className = "blogPhotoAugust" ><img src={AscentFusedale} alt="" /><figcaption className='augustfigcaption'><strong>Ascending Fusedale above the beck, <br /> even Harry is tired ...</strong></figcaption></section>
+  </fig>
+<fig><section className = "blogPhotoAugust" ><img src={LunchFusedale} alt="" /><figcaption className='augustfigcaption'>Decided to have lunch just before we reached the summit ridge...
+  <br /> a good plan as it was very windy on the top and there are some <br /> superb views from here...<strong></strong></figcaption></section>
+</fig>
+<fig><section className = "blogPhotoAugust" ><img src={FinalAscent} alt="" /><figcaption className='augustfigcaption'>The final steep ascent from Fusedale <br /> up on to High Street Roman Road, <br /> need I say more....</figcaption></section>
+</fig>
+</div> 
+
+<div className="blogPhotoDivAugustColumn">
+<fig><section className = "blogPhotoAugust" ><img src={EHRomanHighStreet} alt="" /><figcaption className='augustfigcaption'><strong>Elena and Harry now successfully <br /> up on High Street Roman Road....</strong></figcaption></section>
+</fig>
+  <fig><section className = "blogPhotoAugust" ><img src={LoneRangerLoadPot} alt="" /><figcaption className='augustfigcaption'><strong>The Lone Ranger or Last Man Standing.....<br /> a.k.a Bernard on High Street Roman Road....</strong></figcaption></section>
+  </fig>
+<fig><section className = "blogPhotoAugust" ><img src={SummitLoadPotJill} alt="" /><figcaption className='augustfigcaption'><strong>Jill has made it to the summit of Load Pot Hill....</strong></figcaption></section>
+</fig>
+<fig><section className = "blogPhotoAugust" ><img src={MoorDivockPooleyBridge} alt="" /><figcaption className='augustfigcaption'><strong>After many miles walking, Jill still smiling <br /> on the final descent from Moor Divock <br /> into Pooley Bridge.</strong></figcaption></section>
+</fig>
+</div> 
+</section>
+</div >
+</div>
+
 
     );
 };
-

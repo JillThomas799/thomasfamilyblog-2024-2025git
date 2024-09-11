@@ -195,7 +195,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:50%;
+  width:30%;
   height:auto;
   border: solid #8bb285 4px;
   border-radius:30px;
@@ -235,6 +235,15 @@
   margin-top:5vh;
 }
 
+.blogPhotoDivAugustColumn{
+  display:flex;
+  flex-direction:column;
+  background-color:#eae374 ;
+  padding-bottom: 8%;
+  padding-top: 5%;
+  margin-top:5vh;
+}
+
 .augustfigcaption {
   text-align: center;
   font-family: bold;
@@ -243,6 +252,25 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   overflow-wrap:normal;
   padding-top:5%;
+}
+
+.titlesAugust{
+  font-weight: bold;
+  font-size: 1.2rem;
+
+}
+
+.headTitlesAugust{
+  padding-left:1%;
+  text-decoration: underline;
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.AugustIntroList{
+  padding-left:2%;
+  font-weight:bold;
 }
 
   /*Styling for animated cyclist display*/

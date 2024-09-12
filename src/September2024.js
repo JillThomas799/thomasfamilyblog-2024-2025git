@@ -13,6 +13,7 @@ import BustWalterScott from "./imagesresized/BustWalterScott.jpg";
 import DrawingRoomAbbotsford from "./imagesresized/DrawingRoomAbbotsford.jpg";
 import HallShieldsAbbotsford from "./imagesresized/HallShieldsAbbotsford.jpg";
 import HallAbbotsford from "./imagesresized/HallAbbotsford.jpg";
+import DoddSummitTitled from "./imagesresized/DoddSummitTitled.jpg";
 
 export default function September2024() {
     return (
@@ -145,6 +146,97 @@ export default function September2024() {
  
           
           </div> 
+
+          <div className="datenewsDivSeptember">
+            <section className="newsheaderSeptember"><strong>Dodd Summit, Wood and Mirehouse, Bassenthwaite</strong></section>
+            <section className="dateSeptember">7th September 2024, Saturday</section>
+             <div className="newsSeptember">
+             <div className="componentWalkDetails">     
+            <strong className="headTitlesSeptember">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titlesSeptember">Parking:</strong><br />The Forestry Commission car park by the Old Sawmill Tearoom, across the road from Mirehouse house and gardens. This cost £8.50 for our stay.</li>
+                <li><strong className="titlesSeptember">Paths: </strong><br /> The paths are clear, well-maintained and well-signposted.  </li>
+                <li><strong className="titlesSeptember">Distance:</strong><br /> 7.2 miles in total <strong>  Ascent:</strong> 530 metres, 1,740 feet. </li>
+                <li><strong className="titlesSeptember">Refreshments:</strong> <Link to="https://www.mirehouse.co.uk/plan-your-visit/the-old-sawmill-tearoom/" target="_blank"
+            title="Click here to look at the opening times for the Old Sawmill Tearoom" className="LinkSeptember">Old Sawmill Tearoom</Link></li> </ul>    
+
+            <strong className="headTitlesSeptember">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titlesSeptember">Walk :</strong><br /> Really enjoyable walk with over 500 metres in ascent so a steady climb, and not dissimilar to Haystacks at Buttermere in actual fact.
+                Really interesting combination of a moderately energetic climb, spectacular views once out of the wood and then the lovely and interesting Mirehouse
+                gardens and Lakeside walk across the road. </li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember">Mirehouse Gardens :</strong><br /> <Link to="https://www.mirehouse.co.uk/" target="_blank"
+                title="Click here to discover more about Mirehouse" className="LinkSeptember">Mirehouse house and gardens</Link> are situated by Lake Bassenthwaite.  
+                As the <Link to="https://www.mirehouse.co.uk/" target="_blank"
+                title="Click here to discover more about Mirehouse" className="LinkSeptember">Mirehouse website </Link> explains, the present house was built in 1666 by the 8th Earl of Derby for visits to his Cumbrian estates. 
+                In 1688 he sold it to his agent Roger Gregg. The Greggs and their kinsmen, the Storys owned it until Thomas Story left it to John Spedding of Armathwaite Hall in 1802.
+                Mirehouse has had fascinating links to significant literary figures over the years including Alfred Lord Tennyson who was a close friend of James Spedding and visited Mirehouse twice, 
+                bringing his wife Emily here on their honeymoon.  He met Edward Fitzgerald at Mirehouse. James Spedding was Francis Bacon’s editor and biographer and as a result manuscripts and books from Bacon’s time are found in the house.   
+                <br />
+                <br />
+                The house itself is open a couple of days a week in season, but the gardens are open every
+                day in season. There is a fee for entry to both, but for ourselves it is included in our <Link to="https://www.historichouses.org/become-a-member/"
+                target="_blank" title="Click here to discover more about Historic Houses membership" className="LinkSeptember">Historic Houses Membership.</Link> </li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember">Refreshments : </strong><br />The Old Sawmill Tearoom, Mirehouse provides great drinks, cakes and lunches. 
+                It is open 10am to 16.30 during the season. Check website for details <Link to="https://www.mirehouse.co.uk/plan-your-visit/the-old-sawmill-tearoom/" target="_blank"
+            title="Click here to look at the opening times for the Old Sawmill Tearoom" className="LinkSeptember">Old Sawmill Tearoom</Link></li> 
+                <br />
+                <br />
+                <li><strong className="titlesSeptember">Weather: </strong><br />It was a lovely day, beautifully sunny and warm but not too hot. As with all summits, it was 
+                quite breezy on the top!</li>
+                <br />
+                <br />
+                </div>
+                </ul>
+                
+            <strong className="headTitlesSeptember">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titlesSeptember">Moderately busy :</strong><br />Although the schools have returned now, September remains a very popular 
+                month for visitors to the national park so it was reasonably busy, without being overly so. Certainly, the number of visitors did 
+                not detract from the enjoyment. It did get busier as the day went on, so an early start is quite beneficial and also means it is easier 
+                to obtain a place on the car park.</li>
+                <br />
+                <br />
+                </ul>
+               
+            <strong className="headTitlesSeptember">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titlesSeptember">9.5 (out of 10):</strong> An enjoyable days walking and climbing  in a beautiful location with some spectacular views.
+            Mirehouse itself is also very interesting and the Lakeside walk takes you down by Bassenthwaite lake.</li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            <br />
+           
+            <div className="hwpDailyNarrative">
+            
+           <br />
+           <br />
+           Today we walked up to Dodd summit through Dodd Wood, Bassenthwaite and afterwards into Mirehouse Gardens to walk the Lakeside walk..
+           <br />
+           <br />
+           
+            Join us on our day out to Dodd Summit, Wood and Mirehouse by clicking on the album below and following our narrative by clicking on the added comments.          
+           
+            <br />
+           <br />
+
+          <div className="slideshowHostPhotoSeptember">
+          <fig>
+            <Link to="https://photos.app.goo.gl/vxKMk4pgjxCRD1eo8" target="_blank">
+            <img className="slideshowentrySeptember" src={DoddSummitTitled} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoSeptember */}
+           </div> {/* Closing tag datenewsDivSeptember */}
+           </div> {/*Closing tag for hwpDailyNarrative div */}
+
+      </div>
+
           </div>
 
 );

@@ -167,6 +167,7 @@ export default function August2024() {
             <br />
             <section className="news"> 
             <ul className="ulAugust">
+           
             <div className="newsAugust"><li className="liAugust"><strong>Monday, 12th August 2024 :</strong></li> Today we set off on our journey to Pencoed in South Wales for a 4 day mini-break.
            Lennie was happy, as he was safe back at home in Cumbria with Elena. <br /> <br /> It has been many years now since we traveled long distance during the main school summer holiday period and had forgotten
            just how busy it can be! There were even cars queuing back on to the motorway at some service stations... <br /> <br /> Finally, we arrived and the accommodation was lovely, so that was great, and it was time for 
@@ -174,6 +175,7 @@ export default function August2024() {
            <fig><section className = "blogPhoto1August" ><img src={LennieAtHome} alt="" /><figcaption className='julyfigcaption'><strong style={{color:"black"}}>Lennie, happy at home back in Cumbria</strong></figcaption></section>
             </fig>
            </div>
+         
            <div className="newsAugust"><li className="liAugust"><strong>Tuesday, 13th August 2024 :</strong></li> Today we set off for Caerleon, near Newport, to go and visit the <Link to="https://museum.wales/roman/" target="_blank" className="LinkAugust">
            National Roman Legion Museum</Link> , <Link to="https://cadw.gov.wales/visit/places-to-visit/caerleon-roman-fortress-and-baths" target="_blank" className="LinkAugust">Roman Baths</Link> and <Link to="https://cadw.gov.wales/visit/places-to-visit/caerleon-amphitheatre"
            target="_blank" className="LinkAugust">Roman Amphitheatre</Link>. 
@@ -216,6 +218,7 @@ export default function August2024() {
             <img className="slideshowentryAugust" src={Caerleon13082024} alt="" />
             </Link>
           </fig></div>
+         
            <div className="newsAugust"><li className="liAugust"><strong>Wednesday, 14th August 2024 :</strong></li> Today, Harry needed to be in Cardiff, so we combined the visit to Cardiff in the afternoon with a preceding visit to Penarth in the morning.
            The old haunts were visited including the Danish pastry shop and the café on the pier... 
            <div className="blogPhotoDivAugust">
@@ -228,6 +231,8 @@ export default function August2024() {
             <fig><section className = "blogPhotoAugust" ><img src={AneurinBevan} alt="" /><figcaption className='augustfigcaption'><strong>Then into Cardiff in the afternoon to say hello to <br /> the founder of the NHS, <br /> Aneurin Bevan.</strong></figcaption></section>
             </fig>
             </div>  </div>
+
+         
            <div className="newsAugust"><li className="liAugust"><strong>Thursday, 15th August 2024 :</strong></li>Today was our last full day away on holiday before our return journey,
            so we decided to revisit the Mumbles near Swansea in the morning and then to drive over to visit <Link to="https://cadw.gov.wales/visit/places-to-visit/castell-coch"
            target="_blank" title="Click here to discover more about Coch Castle" className="LinkAugust"> Castell Coch </Link> , near Cardiff in the afternoon. We had passed Castell Coch from afar
@@ -268,6 +273,7 @@ export default function August2024() {
             <img className="slideshowentryAugust" src={MumblesCastellCoch} alt="" />
             </Link>
           </fig></div>
+        
            <div className="newsAugust"><li className="liAugust"><strong>Friday, 16th August 2024 :</strong></li> It was time to return to Cumbria today. Well, what can I say?
            It was summer holidays, on a Friday and a beautiful sunny day so the traffic was <em>extremely</em> busy with a number of hold ups. it was a <em>long, long </em> journey!
            However eventually we were safely home again and it was time for a rest.... It had been a very busy two weeks. </div>

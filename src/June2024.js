@@ -61,7 +61,12 @@ export default function June2024() {
             <Link to="/" className="backbuttonLink">Back</Link>
           </button>
         </div>
-        <h1 style={{background:"#0492c2", borderRadius:"0", marginBottom:"0px", border:"solid #b5a642 4px" }}><img src= {June2024HeaderPhoto1} alt="" className="headerPhotoJune" /></h1>
+       
+            <div className="newsCongratsJune">
+            <h1 style={{background:"#B0C4DE", borderRadius:"0", marginBottom:"0px"}} className="Juneh1"><br />
+            <img src= {June2024HeaderPhoto1} alt="" className="headerPhotoJune" />
+              <div className="CongratsMessageJune">COWS ON THE MOOOVE!....</div></h1> 
+              <br /></div>
 
         <div className="datenewsDivJune" style={{marginTop:"5%"}}>
             <section className="dateJune">1st - 30th June 2024</section>

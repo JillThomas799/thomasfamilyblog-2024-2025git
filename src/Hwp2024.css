@@ -256,6 +256,16 @@ ul .listItemsAlign{
   justify-content:center;
   text-align:center;
 }
+
+
+.blogPhotoDivHwp{
+  display:flex;
+  flex-direction: row;
+  background-color: #D19B2F;
+  padding-bottom: 20%;
+  padding-top: 5%;
+  margin-top:2%;
+}
       
 
        /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
@@ -263,7 +273,7 @@ ul .listItemsAlign{
   .blogPhotoDivHwp{
     display:flex;
     flex-direction: column;
-    background-color: #66023c;
+    background-color: #D19B2F;
     padding-bottom: 15%;
     padding-top: 5%;
     margin-top:2%;
@@ -279,7 +289,7 @@ ul .listItemsAlign{
   margin-right: auto;
   width:50%;
   height:auto;
-  border:solid #36454F 4px;
+  border:solid #D5544F 4px;
   border-radius:30px;
   margin-top:2%;
   margin-bottom:1%;
@@ -315,7 +325,7 @@ ul .listItemsAlign{
 .blogPhotoDivHwp{
   display:flex;
   flex-direction: column;
-  background-color: #66023c;
+  background-color: #D19B2F;
   padding-bottom: 15%;
   padding-top: 5%;
   margin-top:2%;
@@ -337,13 +347,24 @@ ul .listItemsAlign{
   -o-border-radius:80%;
 }  
 
-.blogPhoto1HWP img{
+
+.blogPhotoHwp img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:20%;
+  height:auto;
+  border:solid #D5544F;
+  border-radius:30px;
+  }
+
+.blogPhoto1Hwp img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width:60%;
   height:auto;
-  border:solid #36454F 4px;
+  border:solid #D5544F 4px;
   border-radius:30px;
   margin-top:2%;
   margin-bottom:1%;

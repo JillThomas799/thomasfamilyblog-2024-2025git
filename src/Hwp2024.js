@@ -29,6 +29,10 @@ import WaltonTearoomnamed from "./imagesresized/WaltonTearoomnamed.jpg";
 import KingEdward1 from "./imagesresized/KingEdward1.jpg";
 import Day12Album from "./imagesresized/Day12Album.jpg";
 import TheEnd from "./imagesresized/TheEnd.jpg";
+import GreatNorthern from "./imagesresized/GreatNorthern.jpg";
+import MithrasAltar from "./imagesresized/MithrasAltar.jpg";
+import DisplayGreatNorthern from "./imagesresized/DisplayGreatNorthern.jpg";
+import TombAureliaAureliana from "./imagesresized/TombAureliaAureliana.jpg";
 
 
 
@@ -1167,6 +1171,7 @@ There have been 3 Redheugh Bridges spanning the River Tyne and currently carryin
             </ul>
             </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
             <br />
+           
             <div className="hwpDailyNarrative">
             
            <br />
@@ -1556,6 +1561,49 @@ There have been 3 Redheugh Bridges spanning the River Tyne and currently carryin
             </Link>
           </fig>
            </div>  {/* Closing div SlideshowHostPhotoHwp */}
+           </div> {/* Closing tag datenewsDivHwp */}
+      </div>
+
+
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>ADDITIONAL DAY - Visit to the Hadrian's Wall Gallery at the Great North Museum, Newcastle upon Tyne. </strong></section>
+            <section className="dateHwp">5th September 2024, Sunday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails"> 
+            <div className="hwpDailyNarrative">
+           The Great North Museum has been on our list of additional visits whilst undertaking the Hadrian's Wall Path. 
+           It is situated in Newcastle upon Tyne close to the university and is a museum of natural history and ancient civilisations. 
+            It was established in 1884, being formerly known as the Hancock Museum. As a result,the café at the museum is now called the 'Hancock café'.
+            <br />
+            <br />
+            On the ground floor of the museum is the Hadrian’s Wall gallery, which relates the history of the Hadrian's Wall World Heritage Site
+            together with information about all the forts, milecastles and associated museums that can be visited today. The gallery includes a large number 
+            of archaeological finds from across the 73 mile stretch of Hadrian’s Wall.
+            <br />
+            <br />
+            Today, we took the opportunity to take the train into Newcastle upon Tyne and to go and visit the Hadrian's Wall Gallery at the Great North Museum.
+            There are some very interesting exhibits. Especially impressive is the reproduction model of the entire wall, forts and milecastles which
+            gives a real sense of the geography and scale of the endeavour. The overhead drone footage of the remaining wall sites in Newcastle itself was also
+            a really helpful tool as it is possible to obtain a much clearer and informative view from an aerial photograph.
+            
+            <br />
+            <br />
+           
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            </div>
+
+            <div className="blogPhotoDivHwp">
+            <fig><section className = "blogPhoto" ><img src={GreatNorthern} alt="" style={{border: "solid 4px #D5544F"}}/><figcaption className='augustfigcaption'><strong>The Great North Museum, <br /> Newcastle upon Tyne</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={DisplayGreatNorthern} alt="" style={{border: "solid 4px #D5544F"}}/><figcaption className='augustfigcaption'><strong></strong>One of the impressive displays at the <br /> museum, taking us on a drone's-eye view of < br /> the  remaining wall sites through Newcastle</figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={MithrasAltar} alt="" style={{border: "solid 4px #D5544F"}}/><figcaption className='augustfigcaption'><strong>Altar dedicated to Mithras by <br /> Pubicius Proculinus and his son <br /> Proculus, 
+            Housesteads Mithraeum <br /> 1822  </strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={TombAureliaAureliana} alt="" style={{border: "solid 4px #D5544F"}}/><figcaption className='augustfigcaption'><strong>Tombstone of Aurelia Aureliana, <br /> 
+            set up for her by her husband Ulpius <br /> Apolinaris, mid 3rd century AD, found in the Roman cemetery on Gallows Hill, Carlisle</strong></figcaption></section>
+            </fig>  
+          </div>
            </div> {/* Closing tag datenewsDivHwp */}
       </div>
      

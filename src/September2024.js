@@ -262,12 +262,25 @@ export default function September2024() {
             </div>
 
             </section>
- 
-          
-          </div> 
+           </div> 
 
-          
-            <div className="datenewsDivSeptember">
+           <div className="datenewsDivSeptember">
+            <section className="dateSeptember">5th September 2024, Sunday</section> 
+            <section className="newsheaderSeptember"> ADDITIONAL DAY - Visit to the Great North Museum, Newcastle upon Tyne</section>  
+            <br />
+            <section className="newsSeptember" style={{textAlign:"center"}}> 
+            Today, we took the opportunity to take the train into Newcastle upon Tyne and to go and visit the Hadrian's Wall Gallery at the Great North Museum.
+            There are some very interesting exhibits. Especially impressive is the reproduction model of the entire wall, forts and milecastles which
+            gives a real sense of the geography and scale of the endeavour. The overhead drone footage of the remaining wall sites in Newcastle itself was also
+            a really helpful tool as it is possible to obtain a much clearer and informative view from an aerial photograph.
+            <br />
+            <br />
+            For all the information about this trip today, please come and join us at our  
+            <Link to="/hwp2024" className="LinkSeptember"> Hadrian's Wall Path Expedition page </Link>
+            </section>
+          </div>    
+
+           <div className="datenewsDivSeptember">
             <section className="dateSeptember">7th September 2024, Saturday</section>
             <section className="newsheaderSeptember"><strong>Dodd Summit, Wood and Mirehouse, Bassenthwaite</strong></section>
              <div className="newsSeptember">

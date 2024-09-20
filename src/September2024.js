@@ -14,6 +14,7 @@ import DrawingRoomAbbotsford from "./imagesresized/DrawingRoomAbbotsford.jpg";
 import HallShieldsAbbotsford from "./imagesresized/HallShieldsAbbotsford.jpg";
 import HallAbbotsford from "./imagesresized/HallAbbotsford.jpg";
 import DoddSummitTitled from "./imagesresized/DoddSummitTitled.jpg";
+import SummitColdFell from "./imagesresized/SummitColdFell.jpg";
 
 export default function September2024() {
     return (
@@ -98,7 +99,7 @@ export default function September2024() {
             <g id="swaledaleSheep2rearlegright"><rect x="498" y="493" rx="6" ry="6" width="7" height="29" fill=" url(#GradLambLeg)" ></rect></g>
             <g id="swaledaleSheep2rearlegleft"><rect x="509" y="493" rx="6" ry="6" width="7" height="29" fill=" url(#GradLambLeg)" ></rect></g>
             <g id="swaledaleSheep2body" ><rect x="450" y="460" rx="30" ry="13" width="70" height="40" fill="url(#Gradsheepfur)" ></rect></g>
-            <g id="idmarkerswaledaleSheep2"><rect x="485" y="460" rx="2" ry="30" width="7" height="10" fill="#880808" opacity="0.5" filter="url(#blur2)" ></rect></g>
+            <g id="idmarkerswaledaleSheep2"><rect x="485" y="460" rx="2" ry="30" width="7" height="10" fill="red" opacity="0.5" filter="url(#blur2)" ></rect></g>
 
             <g id="relocatesheephornsswaledaleSheep2" style={{transform:"translate(-152px, 37px)"}}>
             <g id="swaledaleSheep2upperhornleft"><path fill="#c4915e" stroke="#c4915e" strokeWidth="8" d="M 604 418 A 30,30 25 0,0 594 422" /></g>
@@ -284,7 +285,7 @@ export default function September2024() {
             <section className="dateSeptember">7th September 2024, Saturday</section>
             <section className="newsheaderSeptember"><strong>Dodd Summit, Wood and Mirehouse, Bassenthwaite</strong></section>
              <div className="newsSeptember">
-             <div className="componentWalkDetails">     
+             <div className="componentWalkDetailsSeptember">     
             <strong className="headTitlesSeptember">Details of the Walk </strong>
             <ul className="hwpIntroList">
                 <li><strong className="titlesSeptember">Parking:</strong><br />The Forestry Commission car park by the Old Sawmill Tearoom, across the road from Mirehouse house and gardens. This cost £8.50 for our stay.</li>
@@ -343,10 +344,10 @@ export default function September2024() {
             Mirehouse itself is also very interesting and the Lakeside walk takes you down by Bassenthwaite lake.</li>
             </ul>
             </div>    {/* Closing tag ComponentWalkDetails Class*/ }    
-            </div>      
+              
             <br />
            
-            <div className="hwpDailyNarrative">
+            <div className="SeptemberDailyNarrative">
             
            <br />
            <br />
@@ -368,8 +369,129 @@ export default function September2024() {
            </div>  {/* Closing div SlideshowHostPhotoSeptember */}
            </div> {/* Closing tag datenewsDivSeptember */}
            </div> {/*Closing tag for hwpDailyNarrative div */}
+           </div>   
+
+           <div className="datenewsDivSeptember">
+            <section className="dateSeptember">13th September 2024, Friday</section>
+            <section className="newsheaderSeptember"><strong>Ascent up to the boggy, treacherous summit of Cold Fell, Geltsdale and beyond.</strong></section>
+             <div className="newsSeptember">
+             <div className="componentWalkDetailsSeptember">     
+            <strong className="headTitlesSeptember">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titlesSeptember">Parking:</strong><br />There is free parking at the RSPB Geltsdale road-end car park beyond Clesketts
+                (NY 589 585). To get to the car park, from Hallbankgate on the A689, branch off at the Belted Will Inn and follow
+                Crossgates Road via Park Terrace to reach the car park.</li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember">Paths:</strong><br /> There is a 70% discernible path on the ascent, which apparently
+                  was formerly a track  created to support grouse management and shooting parties. Initially after leaving the 
+                  summit to commence the descent, there is a similarly discernible heading north west, which fades away at the point the fence 
+                  line takes a sharp right and you commence the slow descent towards Brown Fell, making this segment of descent very tricky and slow-going.  </li>
+                  <br />
+                  <br />
+                <li><strong className="titlesSeptember">Distance:</strong><br /> 6.6 miles in total <strong>  Ascent:</strong> 621 metres, 2,037 feet. </li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember">Refreshments:</strong><br /> If you are down in time, refreshments are available at the Community Hub, Hallbankgate (closes at 16.00)</li>    
+                <br />
+                <br />
+                </ul> 
+           
+            <strong className="headTitlesSeptember">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titlesSeptember">Spectacular and far-reaching views :</strong><br /> This climb, albeit very tough underfoot with paths 
+                which are at times indistinct and frankly absent, has the most spectacular and extensive views in all directions, including the high
+                fells of the Lake District National Park, along the Pennine Ridge towards the Hartside pass and Cross Fell, across
+                over Hadrian's Wall to the Cheviot Hills in Scotland and out towards the Solway Firth and across the border to Criffel in Scotland. </li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember"> Peace and tranquillity:</strong><br /> Whilst it is usually steadily busy at the RSPB Geltsdale car park (there 
+                are 8 spaces), after departing from there we did not see anyother people for the whole day's hike.</li>
+                <br /> 
+                <br />
+                <li><strong className="titlesSeptember">Historical interest : </strong><br />All this area was a site in which there is much evidence of prehistoric settlement.
+                For example, when walking up the path away from the RSPB Geltsdale car park, after passing the white cottage neamed Tortie cottage on the left, can be 
+                seen a large boulder in the field to the left which is the 'Tortie Stone' and which bears small cup marks,  prehistoric rock art which is very prevalent 
+                in Northumberland but rarer in Cumbria.
+                <br />
+                <br />
+                In addition, the modern cairn at the summit of Cold Fell is stood on the stones of an ancient bronze-age memorial thought to be that of an important chieftain.
+                We were wondering how they managed to navigate the boggy ground, but decided they would probably have had long wooden poles to test the ground, a little like
+                us with our sticks!....
+                <br />
+                <br />
+                There is also all the historical interest of the whole Tindale area and its mining history during the industrial revolution, which is tied 
+                in with George Stephenson. This <Link to="https://www.bookscumbria.com/product/uk-books/countryside-and-nature/tindale/" target="_blank" title="Click here to discover more 
+                about this local book on the Tindale area" style={{color:"#D23736"}}>Tindale book</Link> by Nancy Priest has some very interesting detail of the history of all this area.</li> 
+                <br />
+                <br />
+                <li><strong className="titlesSeptember">Weather: </strong><br />It was a beautifully sunny, and thankfully not too windy (although as always, the 
+                summit was a bit breezy!). As a note, this is relatively unusual for Cold Fell, as it can be <em>very</em> windy!</li>
+                <br />
+                <br />
+                </div>
+                </ul>
+                
+            <strong className="headTitlesSeptember">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titlesSeptember">Lack of clear paths, particularly on the descent :</strong><br /> Initially on leaving the summit, the path remains clear enough to make it out,
+                although it is very hard going underfoot. Once you reach the point at which the fence swings sharply right (taking care not to head left, as the alternative fence leads over Tarnmonath Fell),
+                and you have crossed the fence at the junction then there is initially a quad bike track which is to be followed but after that the path deteriorates and disappears
+                totally. 
+                <br />
+                <br />
+                Our advice in retrospect and reading what other intrepid explorers have done, we would suggest sticking to a descent with the fence nearby to the right of you
+                down on to Brown Fell and subsequently to the path which runs along the disused Gairs Colliery Railway track.   </li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember">Terrains :</strong><br /> It is very hard going underfoot. There are some very boggy patches which can be quite treacherous. In one of the You tube videos of walking on Cold Fell, 
+                an experienced walker still managed to sink in up to at least his thighs!. We found walking poles really useful in this sense,
+                as the principal reason we use them is to test ground and mud depth!  </li>
+                <br />
+                <br />
+                </ul>
+               
+            <strong className="headTitlesSeptember">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titlesSeptember">6 (out of 10):</strong><br />This is a tough walk, which is classified as <em>'hard - steep, boggy in places'</em></li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }    
+            <br />
+            <br />
+            <div className="SeptemberDailyNarrative">
+            
+           <br />
+           <br />
+           Today we ascended Cold Fell, the northermost fell of the Pennine chain. We had been discussing undertaking this walk for some time,
+           as Cold Fell is the northermost fell of the Pennine chain and at 621 metres (just over 2000 feet) is a prominent site on the skyline for 
+           miles around. It was set to be a beautiful day, so we set off early, armed with some sandwiches and most importantly leg gaters, walking poles
+           and the OS maps app on our mobile phone together with a decent battery bank. We had been advised that it would be <em>very</em> boggy underfoot. 
+           <br />
+           <br />
+           We will not include a full description of the walk route here, but for anyone who is in the area and may be interested in undertaking this challenge,
+           then this <Link to="https://northpennines.org.uk/location/cold-fell-walk/" target="_blank" title="Click here to access leaflet on Cold Fell Walk" style={{color:"#D23736"}}>
+           North Pennines National Landscape Cold Fell High Level walk leaflet</Link> provides all the details. The walk follows paths over moorland which is tussocky and crosses wet peat bogs in places. 
+           There are steep sections to the walk. The recommendation is to allow 4 hours, but including stops for lunch and the very slow progress of our descent,
+           as we had to pick our way carefully down the hillside, we would advise to allow 5 hours to 5 hours 30.
+           <br />
+           <br />
+            Join us on our day out to Cold Fell by clicking on the album below and following our narrative by clicking on the added comments.          
+           
+            <br />
+           <br />
+
+          <div className="slideshowHostPhotoSeptember">
+          <fig>
+            <Link to="https://photos.app.goo.gl/qKiRrU1nHCZd5bYM7" target="_blank">
+            <img className="slideshowentrySeptember" src={SummitColdFell} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoSeptember */}
+           </div> {/* Closing tag datenewsDivSeptember */}
+           </div> {/*Closing tag for hwpDailyNarrative div */}
            </div>
           
-           
+           </div>  
                      );
 };

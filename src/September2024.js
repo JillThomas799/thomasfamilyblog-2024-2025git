@@ -15,6 +15,7 @@ import HallShieldsAbbotsford from "./imagesresized/HallShieldsAbbotsford.jpg";
 import HallAbbotsford from "./imagesresized/HallAbbotsford.jpg";
 import DoddSummitTitled from "./imagesresized/DoddSummitTitled.jpg";
 import SummitColdFell from "./imagesresized/SummitColdFell.jpg";
+import BernardCroglin from "./imagesresized/BernardCroglin.jpg";
 
 export default function September2024() {
     return (
@@ -305,7 +306,7 @@ export default function September2024() {
                 <li><strong className="titlesSeptember">Mirehouse Gardens :</strong><br /> <Link to="https://www.mirehouse.co.uk/" target="_blank"
                 title="Click here to discover more about Mirehouse" className="LinkSeptember">Mirehouse house and gardens</Link> are situated by Lake Bassenthwaite.  
                 As the <Link to="https://www.mirehouse.co.uk/" target="_blank"
-                title="Click here to discover more about Mirehouse" className="LinkSeptember">Mirehouse website </Link> explains, the present house was built in 1666 by the 8th Earl of Derby for visits to his Cumbrian estates. 
+                title="Click here to discover more about Mirehouse" style={{color:"#D23736"}}>Mirehouse website </Link> explains, the present house was built in 1666 by the 8th Earl of Derby for visits to his Cumbrian estates. 
                 In 1688 he sold it to his agent Roger Gregg. The Greggs and their kinsmen, the Storys owned it until Thomas Story left it to John Spedding of Armathwaite Hall in 1802.
                 Mirehouse has had fascinating links to significant literary figures over the years including Alfred Lord Tennyson who was a close friend of James Spedding and visited Mirehouse twice, 
                 bringing his wife Emily here on their honeymoon.  He met Edward Fitzgerald at Mirehouse. James Spedding was Francis Bacon’s editor and biographer and as a result manuscripts and books from Bacon’s time are found in the house.   
@@ -313,12 +314,12 @@ export default function September2024() {
                 <br />
                 The house itself is open a couple of days a week in season, but the gardens are open every
                 day in season. There is a fee for entry to both, but for ourselves it is included in our <Link to="https://www.historichouses.org/become-a-member/"
-                target="_blank" title="Click here to discover more about Historic Houses membership" className="LinkSeptember">Historic Houses Membership.</Link> </li>
+                target="_blank" title="Click here to discover more about Historic Houses membership" style={{color:"#D23736"}}>Historic Houses Membership.</Link> </li>
                 <br />
                 <br />
                 <li><strong className="titlesSeptember">Refreshments : </strong><br />The Old Sawmill Tearoom, Mirehouse provides great drinks, cakes and lunches. 
                 It is open 10am to 16.30 during the season. Check website for details <Link to="https://www.mirehouse.co.uk/plan-your-visit/the-old-sawmill-tearoom/" target="_blank"
-            title="Click here to look at the opening times for the Old Sawmill Tearoom" className="LinkSeptember">Old Sawmill Tearoom</Link></li> 
+            title="Click here to look at the opening times for the Old Sawmill Tearoom" style={{color:"#D23736"}}>Old Sawmill Tearoom</Link></li> 
                 <br />
                 <br />
                 <li><strong className="titlesSeptember">Weather: </strong><br />It was a lovely day, beautifully sunny and warm but not too hot. As with all summits, it was 
@@ -491,6 +492,94 @@ export default function September2024() {
            </div> {/* Closing tag datenewsDivSeptember */}
            </div> {/*Closing tag for hwpDailyNarrative div */}
            </div>
+
+           <div className="datenewsDivSeptember">
+            <section className="dateSeptember">16th September 2024, Monday</section>
+            <section className="newsheaderSeptember"><strong>Walk Croglin and Newbiggin, 5 miles</strong></section>
+             <div className="newsSeptember">
+             <div className="componentWalkDetailsSeptember">     
+            <strong className="headTitlesSeptember">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titlesSeptember">Parking:</strong><br />There is free parking on the roadside verge at the far end (fellside) of the village of Newbiggin NY557491,
+                the main part of which is located along a side road  off the B6413.
+                </li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember">Paths:</strong><br /> This is a walk along well-established bridleways and minor country roads throughout.  </li>
+                  <br />
+                  <br />
+                <li><strong className="titlesSeptember">Distance:</strong><br /> 5 miles in total <strong>, Ascent:</strong> 220 metres, 720 feet. </li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember">Refreshments:</strong><br />There are pubs in both Croglin (The Robin Hood Inn) and Newbiggin(The Sun Inn). 
+                The opening times of both these establishments can vary, so it is probably best to take some additional refreshment supplies of your own.  </li>    
+                <br />
+                <br />
+                </ul> 
+           
+            <strong className="headTitlesSeptember">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titlesSeptember">Spectacular and far-reaching views :</strong><br /> There are some particularly spectacular views of the 
+                North Lakes fells including Blencathra from this walk and over towards Croglin fell and the Pennine ridge. </li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember"> Peace and tranquillity:</strong><br /> This area is always beautifully peaceful, perhaps because 
+                these are both very small, self-contained villages which are at some distance from the nearest larger villages and towns.</li>
+                <br /> 
+                <br />
+                <li><strong className="titlesSeptember">Weather: </strong><br />It was a beautifully sunny day with clear skies.</li>
+                <br />
+                <br />
+                </div>
+                </ul>
+                
+            <strong className="headTitlesSeptember">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titlesSeptember">Everything was great.</strong><br /> 
+                <br />
+                <br />
+                  </li>
+                
+                </ul>
+               
+            <strong className="headTitlesSeptember">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titlesSeptember">10 (out of 10):</strong><br /></li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }    
+            <br />
+            <br />
+            <div className="SeptemberDailyNarrative">
+            We have walked this route, which can be found on OS map OL5 and also is walk number 23 in <Link to="https://www.bookscumbria.com/product/cumbrian-books/cumbrian-outdoors/walking/hadrians-wall-the-borders/walking-in-cumbria-s-eden-valley/"
+            target="_blank" style={{color:"#D23736"}}>Cicerone's 'Walking in Cumbria's Eden Valley' </Link> book many times in the past but of more recent times have not had the opportunity to visit here quite so much, which is a great
+            shame as it is one of our favourite parts of Cumbria and this is a manageable and highly enjoyable walk. 
+            <br />
+           <br />
+            The weather was beautiful today but we have undertaken
+            this walk in many different weather conditions, from rain to cloud, mist, ice and snow. We have taken the liberty of including in the album below some scenes 
+            from this walk which were taken at other times and more adverse weather condtions over the years.
+           <br />
+           <br />
+           It was great to be back here again on this beautiful day, undertaking one of our all time favourite walks.
+           <br />
+           <br />
+            Join us on our day out on the Croglin and Newbiggin walk by clicking on the album below and following our narrative by clicking on the added comments.          
+           
+            <br />
+           <br />
+
+          <div className="slideshowHostPhotoSeptember">
+          <fig>
+            <Link to="https://photos.app.goo.gl/54EF1SVdAJ2bnZYn7" target="_blank">
+            <img className="slideshowentrySeptember" src={BernardCroglin} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoSeptember */}
+           </div> {/* Closing tag datenewsDivSeptember */}
+           </div> {/*Closing tag for hwpDailyNarrative div */}
+           </div>
+          
           
            </div>  
                      );

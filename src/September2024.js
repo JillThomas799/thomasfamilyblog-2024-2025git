@@ -16,6 +16,7 @@ import HallAbbotsford from "./imagesresized/HallAbbotsford.jpg";
 import DoddSummitTitled from "./imagesresized/DoddSummitTitled.jpg";
 import SummitColdFell from "./imagesresized/SummitColdFell.jpg";
 import BernardCroglin from "./imagesresized/BernardCroglin.jpg";
+import GreatAshbyScar from './imagesresized/GreatAshbyScar.jpg';
 
 export default function September2024() {
     return (
@@ -259,7 +260,7 @@ export default function September2024() {
             <fig><section className = "blogPhotoSeptember" ><img src={AbbotsfordfromGarden} alt="" /><figcaption className='augustfigcaption'><strong>View of Abbotsford from a seat in the walled garden.</strong></figcaption></section>
             </fig>
             <fig><section className = "blogPhotoSeptember" ><img src={WalterScottsCat} alt="" /><figcaption className='augustfigcaption'><strong>Although Walter Scott was a passionate dog-lover, <br /> in later life he also grew to like cats.  He said <br /> ' Cats are a very mysterious kind of folk. 
-              There is always more passing in their minds than we are <br /> aware of. Here is a painting of his cat, Hinse of Hinsefeldt ....</strong></figcaption></section>
+              There is always more passing in their minds than we are <br /> aware of.' Here is a painting of his cat, Hinse of Hinsefeldt ....</strong></figcaption></section>
             </fig>
             </div>
 
@@ -304,7 +305,7 @@ export default function September2024() {
                 <br />
                 <br />
                 <li><strong className="titlesSeptember">Mirehouse Gardens :</strong><br /> <Link to="https://www.mirehouse.co.uk/" target="_blank"
-                title="Click here to discover more about Mirehouse" className="LinkSeptember">Mirehouse house and gardens</Link> are situated by Lake Bassenthwaite.  
+                title="Click here to discover more about Mirehouse" style={{color:"#D23736"}}>Mirehouse house and gardens</Link> are situated by Lake Bassenthwaite.  
                 As the <Link to="https://www.mirehouse.co.uk/" target="_blank"
                 title="Click here to discover more about Mirehouse" style={{color:"#D23736"}}>Mirehouse website </Link> explains, the present house was built in 1666 by the 8th Earl of Derby for visits to his Cumbrian estates. 
                 In 1688 he sold it to his agent Roger Gregg. The Greggs and their kinsmen, the Storys owned it until Thomas Story left it to John Spedding of Armathwaite Hall in 1802.
@@ -579,6 +580,120 @@ export default function September2024() {
            </div> {/* Closing tag datenewsDivSeptember */}
            </div> {/*Closing tag for hwpDailyNarrative div */}
            </div>
+
+           <div className="datenewsDivSeptember">
+            <section className="dateSeptember">17th September 2024, Tuesday</section>
+            <section className="newsheaderSeptember"><strong>Walk Great Ashby Scar and Orton, 10 miles</strong></section>
+             <div className="newsSeptember">
+             <div className="componentWalkDetailsSeptember">     
+            <strong className="headTitlesSeptember">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titlesSeptember">Parking:</strong><br />We parked on the free parking on a small layby with a litter-bin on the B6261, 400m east of Orton (NY 629080).
+                However there is also adequate on road free parking (with care so as not to inconvenience local residents) within Orton village itself.
+                </li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember">Paths:</strong><br /> The route is on bridleways on open limestone moorland and tracks. It includes
+                a 1.5km section on the <Link to="https://www.coasttocoast.uk/" target="_blank" style={{color:"#D23736"}}>Coast to Coast Path</Link> .
+                This walk is walk 6 of <Link to="https://www.bookscumbria.com/product/cumbrian-books/cumbrian-outdoors/walking/hadrians-wall-the-borders/walking-in-cumbria-s-eden-valley/"
+            target="_blank" style={{color:"#D23736"}}>Cicerone's 'Walking in Cumbria's Eden Valley' </Link> book, Great Ashby Scar plus an additional segment we added in to
+            go to Orton village for refreshments and to purchase chocolates for presents at the <Link to="https://www.kennedyschocolates.co.uk/orton-chocolate-shop/"
+            target="_blank" style={{color:"#D23736"}}>chocolate factory</Link> . </li>
+                  <br />
+                  <br />
+                <li><strong className="titlesSeptember">Distance:</strong><br /> Just under 10 miles in total <strong>, Ascent:</strong> 317 metres, 1040 feet. </li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember">Refreshments:</strong><br />We obtained refreshments at the Orton Scar Café in Orton village, but there is
+                also a popular café at the chocolate factory in Orton (a very popular place for stocking up with chocolate supplies) and there is the George Hotel in Orton, so plenty of choice.</li>    
+                <br />
+                <br />
+                </ul> 
+           
+            <strong className="headTitlesSeptember">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titlesSeptember">Spectacular and far-reaching views :</strong><br />South towards the impressive Howgills and the Lune Gorge beyond Tebay.
+                North, the rolling landscape of the Eden Valley. West, the fells around Shap and the eastern lake District and East 
+                across the Eden Valley to the lNorthern Pennine chain. </li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember"> Peace and tranquillity:</strong><br />It is the Yorkshire Dales and Malham Cove which attract most of the visitors for limestone pavements,
+                and Great Ashby and Orton scars are little visited. However these scars in Cumbria are some of the most extensive in Britain. Apparently, it is never busy at all, and is one of the quietest walking areas of Cumbria. Other than a group of 3 people walking the Coast to Coast Path when we were
+                on that stretch early on in the day, we only briefly saw 2 other people all day, until we returned into Orton village, when all of a sudden it became very busy.
+                </li>
+                <br /> 
+                <br />
+                <li><strong className="titlesSeptember">Weather: </strong><br />It really was a phenomenal day weather-wise with a clear blue sky and the low 20s 
+                in temperature so warm but not boiling hot which was good as the latter can be very problematic when on a limestone pavement as
+                the pavement reflects the light and heat, as discovered when walking on Malham limestone pavement in very hot weather many years ago.</li>
+                <br />
+                <br />
+                <li><strong className="titlesSeptember">Refreshments:</strong><br />We were ready for refreshments at the Orton Scar café in Orton village
+                by the time we got there. It was really pleasant with plenty of indoor and outdoor seating and great drinks, food and cakes. </li>  
+                </div>
+                <br />
+                <br />
+                </ul>
+                
+            <strong className="headTitlesSeptember">Not so good</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titlesSeptember"> Cows:</strong><br />We counted at least 5 fields containing cows which had to be traveresed with care.
+            Some had calves with them and there was one field with large numbers of cattle just before we reached Ashby Great Scar SSSI. </li>
+                <br /> 
+                <br />
+                <li><strong className="titlesSeptember"> Paths:</strong><br />As stated above, the route is on bridleways on open limestone moorland and tracks.
+                However, due to there being cattle in a number of the fields the ground had become a little churned up at points, so care was needed 
+                underfoot in these areas. There were also 2 points at which we took the wrong direction. However, use of the maps on the OS app soon
+                alerted us to this fact and we were easily able to correct our errors. </li>
+                <br />
+                <br />                
+                </ul>
+               
+            <strong className="headTitlesSeptember">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titlesSeptember">8.5 (out of 10):</strong><br />We have deducted 1.5 points for the cattle and the occasional times when the path was 
+            not entirely clear.</li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }    
+            <br />
+            <br />
+            <div className="SeptemberDailyNarrative">
+            Great Asby Scar is an area of high ground lying between the villages of Orton and Great Asby. It contains some of the best examples of Limestone Pavement in Britain. 
+            Limestone pavements are rare in this country and have been extensively damaged by removal for garden rockery stone. 
+            They are formed by weathering of the limestone since the glaciers of the last ice age melted (about 10,000 years ago),  which has created deep fissures, or grikes, which divide the pavement into blocks called clints.
+            <br />
+            <br />
+            This has resulted in this area being designated an SSSI - a site of Special Scientific Interest. Woodland plants grow in the limestone fissures. 
+            Among them are harts tongue fern, wood anemone, dog’s mercury, rigid buckler fern, and limestone fern. 
+            Uncommon herbs such as angular solomon’s seal and bloody cranesbill grow in the pavements. Trees include small hawthorn, hazel, and ash.
+            <br />
+            <br />
+            The highest point of the Scar is called The Knott at 412m (1352 feet) with <Link to="https://en.wikipedia.org/wiki/Castle_Folds" 
+            target="_blank" title="Click here to discover more about Castle Folds" style={{color:"#D23736"}}>Castle Folds</Link> , a Romano-British defended 
+            stone walled enclosure containing a hut circle settlement and a later medieval shieling which is found high on the limestone fells.
+           <br />
+           <br />
+           We have had one of these scars on the limestone pavements in this area on our walking list for sometime and never got round to undertaking the walk,
+           so it was great today to have the opportunity to go up on to the pavement at last.
+           <br />
+           <br />
+            Join us on our day out on the Great Ashby Scar and Orton walk by clicking on the album below and following our narrative by clicking on the added comments.          
+           
+            <br />
+           <br />
+
+          <div className="slideshowHostPhotoSeptember">
+          <fig>
+            <Link to="https://photos.app.goo.gl/cMVKJvE9aAwjnmoV9" target="_blank">
+            <img className="slideshowentrySeptember" src={GreatAshbyScar} alt="" />
+            </Link>
+          </fig>
+           </div>  {/* Closing div SlideshowHostPhotoSeptember */}
+           </div> {/* Closing tag datenewsDivSeptember */}
+           </div> {/*Closing tag for hwpDailyNarrative div */}
+           </div>
+          
           
           
            </div>  

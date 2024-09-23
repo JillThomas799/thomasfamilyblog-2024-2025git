@@ -20,7 +20,7 @@ import GreatAshbyScar from './imagesresized/GreatAshbyScar.jpg';
 
 export default function September2024() {
     return (
-      <div style={{background:"#98964D"}}>
+      <div style={{backgroundColor:"#98964D"}}>
         <div className="SeptemberHeader"> 
           <button id="backbuttonSeptember">
             <Link to="/" className="backbuttonLink">Back</Link>
@@ -144,10 +144,8 @@ export default function September2024() {
         
 
         <div className="datenewsDivSeptember" style={{marginTop:"5%"}}>
-            {/* <section className="dateSeptember">1st - 30th September 2024</section> */}
             <section className="newsheaderSeptember">Welcome to our September 2024 blog</section> 
             <section className="newsSeptember" style={{textAlign:"center"}}>
-            {/* Welcome to our September blog.  */}
             The summer is almost over, but despite the poor weather and the cold, we have still managed to have a very enjoyable time over the summer.
             As we have previously written, we managed to successfully complete our Hadrian's Wall Path trek and now the schools are back and it is a little quieter, there is still
             a long list of walks we would like to do and trips we would like to take so hopefully this month we will be able to bring a little news about those.
@@ -162,7 +160,7 @@ export default function September2024() {
             To start off with though, here is our blog about the first of these trips, a long-awaited visited to Abbotsford, Walter Scott's home in the 
             Scottish Borders. This is well worth a visit if you are in the area......
             </section>
-            </div>
+            </div> {/* Closing tag datenewsDivSeptember */}
 
             <div className="datenewsDivSeptember">
             <section className="dateSeptember">3rd September 2024</section> 
@@ -248,7 +246,6 @@ export default function September2024() {
               <fig><section className = "blogPhotoSeptember" ><img src={AbbotsfordGargoyles} alt="" /><figcaption className='augustfigcaption'><strong>Sir Walter Scott's armoury, intended for the display of his collections of fine arms and armoury but often used as his private sitting room.
               Walter Scott loved gothic architecture and weird and grotesque carvings...</strong></figcaption></section>
             </fig>
-           
             </div>
 
             <div className="blogPhotoDivSeptember">
@@ -281,7 +278,7 @@ export default function September2024() {
             For all the information about this trip today, please come and join us at our  
             <Link to="/hwp2024" className="LinkSeptember"> Hadrian's Wall Path Expedition page </Link>
             </section>
-          </div>    
+          </div>    {/* Closing tag datenewsDivSeptember */}
 
            <div className="datenewsDivSeptember">
             <section className="dateSeptember">7th September 2024, Saturday</section>
@@ -690,12 +687,41 @@ export default function September2024() {
             </Link>
           </fig>
            </div>  {/* Closing div SlideshowHostPhotoSeptember */}
-           </div> {/* Closing tag datenewsDivSeptember */}
-           </div> {/*Closing tag for hwpDailyNarrative div */}
+           </div> {/* Closing tag datenewsDivSeptember*/}
+           {/* </div> Closing tag for hwpDailyNarrative div  */}
            </div>
-          
-          
+           
+
+           <div className="datenewsDivSeptember" style={{backgroundColor:"#000000"}} >
+            <section className="dateSeptember">23rd September 2024, Monday</section>
+            <div className="CongratulationsPhD">
+               <div className="pyro">
+                    <div className="before"></div>
+                    <div className="after"></div>
+                    <div className="newsCongratsPhD">
+             
+              <section className="CongratsMessagePhD">
+                <div className="CongratsMessagePhD-content">
+                <p className="CongratsMessagePhD-description">CONGRATULATIONS <br /><div style={{color:"red"}}>DOCTOR</div>  HARRY THOMAS</p>
+                <h2 className="CongratsMessagePhD-body">ON YOUR SUCCESS <br /> IN YOUR PHD</h2>
+                </div>
+              </section>
+              <br />
+              </div> {/* Closing tag CongratsMessagePhD */}
+              </div> {/*Closing tag newsCongratsPhD*/ }
+                </div> {/* Closing tag pyro */}
+                
+                <div className="newsheaderSeptember">
+           Today Harry aced his long-awaited PhD viva (as we knew he would). So join us is in congratulating him on all his hard work over the past 4 years,
+           and wishing him all the very best for the future. Well done Harry!
+           
+           </div> {/*Closing tag newsheaderSeptember*/}
+                </div> {/*Closing tag CongratulationsPhD */}
+                </div> {/* Closing tag datenewsDivSeptember*/}
+                 
           
            </div>  
+           
+          
                      );
 };

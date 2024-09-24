@@ -702,8 +702,8 @@ export default function September2024() {
              
               <section className="CongratsMessagePhD">
                 <div className="CongratsMessagePhD-content">
-                <p className="CongratsMessagePhD-description">CONGRATULATIONS <br /><div style={{color:"red"}}>DOCTOR</div>  HARRY THOMAS</p>
-                <h2 className="CongratsMessagePhD-body">ON YOUR SUCCESS <br /> IN YOUR PHD</h2>
+                <p className="CongratsMessagePhD-description">CONGRATULATIONS HARRY </p>
+                <h2 className="CongratsMessagePhD-body">ON YOUR SUCCESS <br /> IN YOUR PHD VIVA</h2>
                 </div>
               </section>
               <br />
@@ -711,7 +711,7 @@ export default function September2024() {
               </div> {/*Closing tag newsCongratsPhD*/ }
                 </div> {/* Closing tag pyro */}
                 
-                <div className="newsheaderSeptember">
+                <div className="newsheaderSeptember" >
            Today Harry aced his long-awaited PhD viva (as we knew he would). So join us is in congratulating him on all his hard work over the past 4 years,
            and wishing him all the very best for the future. Well done Harry!
            

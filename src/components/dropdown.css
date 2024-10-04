@@ -14,3 +14,10 @@
 .monthLink{
     color:white;
 }
+
+@media screen and (max-width:480px){
+    #menu ul{
+        display:flex;
+        flex-direction:column;
+    }
+}

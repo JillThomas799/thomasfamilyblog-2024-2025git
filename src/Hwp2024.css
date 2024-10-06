@@ -133,7 +133,7 @@ h1 .hadrianswallTitle{
         border-radius:30px;
         margin-top:2%;
         margin-bottom:1%;
-        pointer-events: none;
+        /* pointer-events: none; */
         }
 
         .HWPfigcaption {
@@ -153,7 +153,7 @@ h1 .hadrianswallTitle{
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
-        pointer-events:none;
+        /* pointer-events:none; */
         width:80%;
         height:auto;
         border:solid #D5544F 5px;
@@ -268,109 +268,6 @@ ul .listItemsAlign{
 }
       
 
-       /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
-@media screen and (min-width:402px) and (max-width:900px){
-  .blogPhotoDivHwp{
-    display:flex;
-    flex-direction: column;
-    background-color: #D19B2F;
-    padding-bottom: 15%;
-    padding-top: 5%;
-    margin-top:2%;
-    -webkit-transform:size(1.2);
-    -moz-transform:size(1.2);
-    -ms-transform:size(1.2);
-    -o-transform:size(1.2);
-}
-
-.blogPhoto1HWP img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:50%;
-  height:auto;
-  border:solid #D5544F 4px;
-  border-radius:30px;
-  margin-top:2%;
-  margin-bottom:1%;
-  
-  }
-
-
-}
-
-@media screen and (max-width:480px) {
-
-   /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
-   the site are displayed with the best dimensions for the smaller devices*/
-
-   .hwp2024header h1 {
-  margin-bottom:-30%;
-}
-
-.hwp2024header {
-  display:block;
-  text-align: center;
-  font-size: 1.75em;
-  color:white;
-  font-weight: bold;
-  /* border:solid 3px; */
-  width: 100vw;
-  /* height: 50vh; */
-  height:auto;
-  position:absolute; 
-} 
-
-/*To ensure on mobile screens below 480px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
-.blogPhotoDivHwp{
-  display:flex;
-  flex-direction: column;
-  background-color: #D19B2F;
-  padding-bottom: 15%;
-  padding-top: 5%;
-  margin-top:2%;
-}
-
-.hwpIntroPhoto {
-  margin-left: auto;
-  margin-right: auto;
-  pointer-events:none;
-  width:65%;
-  height:auto;
-  border:solid #66023c 8px;
-  border-radius:80%;
-  margin-top:1%;
-  margin-bottom:1%;
-  -webkit-border-radius:80%;
-  -moz-border-radius:80%;
-  -ms-border-radius:80%;
-  -o-border-radius:80%;
-}  
-
-
-.blogPhotoHwp img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:20%;
-  height:auto;
-  border:solid #D5544F;
-  border-radius:30px;
-  }
-
-.blogPhoto1Hwp img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width:60%;
-  height:auto;
-  border:solid #D5544F 4px;
-  border-radius:30px;
-  margin-top:2%;
-  margin-bottom:1%;
-  }
-}
-
 @media screen and (min-width:481) and (max-width:902px) {
 
   /*To ensure on mobile screens below 902px width (this includes one plus phones) that relevant components of 
@@ -415,3 +312,202 @@ ul .listItemsAlign{
  -o-border-radius:80%;
 }   
 } 
+
+@media screen and (min-width:402px) and (max-width:900px){
+  .blogPhotoDivHwp{
+    display:flex;
+    flex-direction: column;
+    background-color: #D19B2F;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    margin-top:2%;
+    transform:size(1.2);
+    -webkit-transform:size(1.2);
+    -moz-transform:size(1.2);
+    -ms-transform:size(1.2);
+    -o-transform:size(1.2);
+}
+
+.blogPhoto1HWP img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  height:auto;
+  border:solid #D5544F 4px;
+  border-radius:30px;
+  margin-top:2%;
+  margin-bottom:1%;
+  
+  }
+}
+
+@media screen and (max-width:480px) {
+
+  /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
+  the site are displayed with the best dimensions for the smaller devices*/
+
+  .hadrianswallTitle{
+    padding-top:30%;
+    font-size:1.5rem;
+  }
+ 
+  .hwp2024header h1 {
+ margin-bottom:-30%;
+}
+
+.hwp2024header {
+ display:block;
+ text-align: center;
+ font-size: 1.75em;
+ color:white;
+ font-weight: bold;
+ /* border:solid 3px; */
+ width: 100vw;
+ /* height: 50vh; */
+ height:auto;
+ position:absolute; 
+} 
+
+/*To ensure on mobile screens below 480px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+.blogPhotoDivHwp{
+ display:flex;
+ flex-direction: column;
+ background-color: #D19B2F;
+ padding-bottom: 15%;
+ padding-top: 5%;
+ margin-top:2%;
+}
+
+.hwpIntroPhoto {
+ margin-left: auto;
+ margin-right: auto;
+ pointer-events:none;
+ width:65%;
+ height:auto;
+ border:solid #66023c 8px;
+ border-radius:80%;
+ margin-top:1%;
+ margin-bottom:1%;
+ -webkit-border-radius:80%;
+ -moz-border-radius:80%;
+ -ms-border-radius:80%;
+ -o-border-radius:80%;
+}  
+
+
+.blogPhotoHwp img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width:20%;
+ height:auto;
+ border:solid #D5544F;
+ border-radius:30px;
+ }
+
+.blogPhoto1Hwp img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width:60%;
+ height:auto;
+ border:solid #D5544F 4px;
+ border-radius:30px;
+ margin-top:2%;
+ margin-bottom:1%;
+ }
+
+ .datenewsDivHwp{
+  color:white;
+  background-color:#850f55	;
+  display:flex;
+  flex-direction:column;
+  margin-top: 2%;
+  margin-bottom:1%;
+  padding:4%;
+}
+
+.dateHwp{
+  color:white;;
+  background-color:#66023c;
+  text-align: center;
+  padding:10px 10px 10px 10px;
+  margin:5px;
+  font-size:1.0rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.newsheaderHwp{
+  color:white;;
+  background-color:#66023c;
+  text-align: center;
+  padding:1%;
+  margin:5px;
+  font-size:1.0rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.newsHwp{
+  color:white;;
+  /* border:solid 3px white; */
+  background-color:#66023c;
+  text-align: left;
+  padding:10px 10px 10px 10px;
+  margin:5px;
+  font-size:1.0rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.hwpDailyNarrative{
+  background-color: #D19B2F	;
+  text-Align:left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  padding-left:2%;
+  color:black;
+  font-size:1.0rem;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+.titles{
+  color:#66023c;
+  font-size:1.1rem;
+}
+
+.headTitles{
+  color:#66023c;
+  font-size:1.1rem; 
+  text-decoration: underline;
+}
+
+.componentWalkDetails{
+  background-color: #D19B2F	;
+  /* border:solid 4px grey; */
+  text-Align:center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right:2%;
+  color:black;
+  display:flex;
+  flex-direction:column;
+  font-size:1.1rem;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+.blogPhoto1HWP img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  height:auto;
+  border:solid #36454F 4px;
+  border-radius:30px;
+  margin-top:2%;
+  margin-bottom:1%;
+  }
+}

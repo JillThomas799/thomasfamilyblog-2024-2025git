@@ -4,7 +4,6 @@ import './charityfundraisingthermometer.css';
 export default function HWPThermometer() {
   return (
     <div>
-
 <div className="chartWrapper">
   <ul className="chartY">
   <li>100%</li>
@@ -38,6 +37,5 @@ export default function HWPThermometer() {
 
 </div>
 </div>
-
-  );
+);
 };

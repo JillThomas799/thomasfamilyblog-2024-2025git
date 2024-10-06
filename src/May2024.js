@@ -41033,40 +41033,40 @@ export default function May2024() {
             </div>
 
 <div className="datenewsDiv">
-            <section className="date">1st May 2024, Wednesday</section> 
-            <section className="newsheader">Our day trip to the Holy Island of Lindisfarne</section>  
+            <section className="date">1st May 2024, Wednesday</section>
+            <section className="newsheader">Our day trip to the Holy Island of Lindisfarne</section>
             <br />
             <section className="news">
-              It was the first of May, so what better time to attempt one of our planned trips for this year, a day out to visit the 
+              It was the first of May, so what better time to attempt one of our planned trips for this year, a day out to visit the
                <Link to = "https://www.lindisfarne.org.uk/" target="_blank" title="Click here to discover more about the Holy Island of Lindisfarne"> Holy Island of Lindisfarne</Link>?
                We had last visited the island briefly in March 1994, when taking a short break in Berwick-on Tweed, and had long planned to return so now was our opportunity <em>( Ok, ok, I know
                 it has taken us 30 years.....)</em>.
                 <br/>
-                <br/>             
-                <figmay><figcaptionmay><em> <div className="SlideshowHostPhoto">Here is a photo of Jill on the Holy Island of Lindisfarne back in March 1994...</div></em></figcaptionmay><img id="JillLindisfarne1993img" src={JillLindisfarne1993} alt="photo Jill Holy Island 1994"></img></figmay>
+                <br/>
+                <em> <div className="SlideshowHostPhoto">Jill on the Holy Island of Lindisfarne back in March 1994...</div></em><img id="JillLindisfarne1993img" src={JillLindisfarne1993} alt="Jill Holy Island 1994"></img>
                <br/> 
                <br/>
-               The Holy Island of Lindisfarne is situated in the North Sea and is a tidal island, which is approached via a paved causeway. It is cut off from the mainland twice 
-               daily by high tides. Its significance is that it was one of the most important centres of early English Christianity, being the base chosen 
-               in AD 635 by a group of 7th century Irish missionaries, led by <Link to = "https://en.wikipedia.org/wiki/Aidan_of_Lindisfarne" target="_blank" title="Click here 
-              to discover more about St Aidan of Lindisfarne">St Aidan</Link> , who came to Lindisfarne from Iona, and who built the first monastery here, with the aim to 
+               The Holy Island of Lindisfarne is situated in the North Sea and is a tidal island, which is approached via a paved causeway. It is cut off from the mainland twice
+               daily by high tides. Its significance is that it was one of the most important centres of early English Christianity, being the base chosen
+               in AD 635 by a group of 7th century Irish missionaries, led by <Link to = "https://en.wikipedia.org/wiki/Aidan_of_Lindisfarne" target="_blank" title="Click here
+              to discover more about St Aidan of Lindisfarne">St Aidan</Link> , who came to Lindisfarne from Iona, and who built the first monastery here, with the aim to
                take Christianity to Northumbria by converting the pagan northern Anglo-Saxons.
-              The monastery quickly became a renowned centre for Christian life and learning. It was here at the monastery that the 
+              The monastery quickly became a renowned centre for Christian life and learning. It was here at the monastery that the
                <Link to="https://www.lindisfarne.org.uk/gospels/" target="_blank" title="Click here to discover about the Lindisfarne Gospels"> Lindisfarne Gospels </Link>
                were created by the monks. Much of the information known today about the monks comes from Venerable <Link to = "https://en.wikipedia.org/wiki/Bede"
                target="_blank" title="Click here to discover more about Bede"> Bede’s </Link> <Link to="https://en.wikipedia.org/wiki/Ecclesiastical_History_of_the_English_People"
-               target="blank"><em>Ecclesiastical History of the English Nation”</em></Link> , which tells how King Oswald, when he gained the crown of Northumbria, 
-               sent to the monastic community of Iona for missionaries to convert his people. At first the mission was unsuccessful; but when a 
-               monk by the name of Aidan took over the work things quickly changed. 
+               target="blank"><em>Ecclesiastical History of the English Nation”</em></Link> , which tells how King Oswald, when he gained the crown of Northumbria,
+               sent to the monastic community of Iona for missionaries to convert his people. At first the mission was unsuccessful; but when a
+               monk by the name of Aidan took over the work things quickly changed.
               <br/>
               <br/>
-              Following on from the death of <Link to = "https://en.wikipedia.org/wiki/Aidan_of_Lindisfarne" target="_blank" title="Click here 
+              Following on from the death of <Link to = "https://en.wikipedia.org/wiki/Aidan_of_Lindisfarne" target="_blank" title="Click here
               to discover more about St Aidan of Lindisfarne">St Aidan</Link>  in 651, in 670 Lindisfarne became the home of <Link to = "https://www.holyisland-stcuthbert.org/st-cuthbert/"
               target="_blank" title="Click here to find more about St Cutbert">Cuthbert (later St Cuthbert)</Link> , a young shepherd boy who had been inspired by a vision of Aidan's soul
-               rising to heaven. After Cuthbert's death in 687, he was interred at Lindisfarne, but when his casket was opened 11 years later, his corpse was found to be preserved 
-               and miracles were attributed to him. Lindisfarne became the most important pilgrimage centre in the North. When the Vikings raided 
-               the island in 793, the monks were forced to flee to safety on the mainland, taking Cuthbert's remains with them. Cuthbert's body accompanied 
-               the monks as they travelled, but eventually came to rest in Durham.                
+               rising to heaven. After Cuthbert's death in 687, he was interred at Lindisfarne, but when his casket was opened 11 years later, his corpse was found to be preserved
+               and miracles were attributed to him. Lindisfarne became the most important pilgrimage centre in the North. When the Vikings raided
+               the island in 793, the monks were forced to flee to safety on the mainland, taking Cuthbert's remains with them. Cuthbert's body accompanied
+               the monks as they travelled, but eventually came to rest in Durham.
                <br/>
                <br/>
                It is a 2hr drive from home to Holy Island. Crossing when the tide to Holy Island  is safe is critical, 
@@ -41485,39 +41485,11 @@ export default function May2024() {
 
             <div className="datenewsDiv">
             <section className="date">18th May 2024, Saturday</section>
-            <section className="newsheader">Our return home from the Isle of Skye</section> 
+            <section className="newsheader">Our return home from the Isle of Skye</section>
             <section className="news">
              <div style={{textAlign:"center"}}>It was time today to return home from the Isle of Skye and to catch up with news of what Lennie had been up to whilst we had been away....</div>
             </section>
-            </div> 
-
-          {/* <div className="blogPhotoDiv">
-          <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
-            </fig>
-            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
-            </fig>
-            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
-            </fig>
-            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
-            </fig>
-          </div> */}
-
-          {/* <div className="blogPhotoDiv">
-          <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
-            </fig>
-            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
-            </fig>
-            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
-            </fig>
-            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='mayfigcaption'><strong></strong></figcaption></section>
-            </fig>
-          </div> */}
-
-
-
-
-
-
+            </div>
   </div>
   )
 }

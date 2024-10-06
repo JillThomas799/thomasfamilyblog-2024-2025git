@@ -80,7 +80,7 @@ export default function October2024() {
             <br /> <br />The individual comments on the photos will take you through the full story of our trip.
             </div>   {/*Closing div slideshowinstructionsOctober*/}
 
-            <img className="slideshowentryJune" src={PenrithStationTitled} alt="" />
+            <img className="slideshowentryOctober" src={PenrithStationTitled} alt="" />
             </strong> 
             </Link>
             </div> 

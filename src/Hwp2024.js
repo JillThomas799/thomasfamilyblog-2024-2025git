@@ -6,7 +6,6 @@ import NewcastleQuayside from "./imagesresized/NewcastleQuayside.jpg";
 import HwpIntro from "./imagesresized/HwpIntro.jpg";
 import ChollerfordBroccolitia from "./imagesresized/ChollerfordBroccolitia.jpg";
 import MithrasTemple from "./imagesresized/MithrasTemple.jpg";
-import LegionExhibitionEntrance from "./imagesresized/LegionExhibitionEntrance.jpg";
 import HousesteadsCawfieldQuarry from "./imagesresized/HousesteadsCawfieldQuarry.jpg";
 import ThirlwallElena1 from "./imagesresized/ThirlwallElena1.jpg";
 import WhittleChollerford from "./imagesresized/WhittleChollerford.jpg";
@@ -40,7 +39,7 @@ export default function Hwp2024() {
     return (
 
         <div className="bodyHwp">
-        <div className="hwp2024Header"> 
+        <div className="hwp2024Header">
           <button id="backbutton" style={{backgroundColor:"#D19B2F"}}>
             <Link to="/" className="backbuttonLink" style={{color:"black"}}>Back</Link>
           </button>
@@ -52,7 +51,6 @@ export default function Hwp2024() {
         <img className="hwpIntroPhoto" src={HwpIntro} alt="" />
         </div>
         </h1>
-      
 
         <div className="datenewsDivHwp">
         <section className="dateHwp">1st June, 2024 onwards.... Hadrian's Wall Long Distance Path </section>
@@ -64,8 +62,8 @@ export default function Hwp2024() {
             at the decision to walk this 84 mile wild and windswept path from the East to the West Coast of England, encompassing both current-day Northumberland and Cumbria. 
             Or at least, if anyone did recall, no one was now admitting to it, in case they might have to accept responsibility....'
             <br />
-            <br /> 
-            </em>  
+            <br />
+            </em>
         On a more serious note though, what is clear are the aims of this undertaking, which are to:
         <br />
         <ul id="hwpIntroList">
@@ -79,18 +77,13 @@ export default function Hwp2024() {
         Over the coming weeks and months we will section by section be adding news of our Hadrian's Wall Path Expedition. 
         <br />
         <br />
-        To enter into the theme, the background 
-        colours for the Hadrian's Wall Path blog have been chosen for their significance to the Romans and the Roman Empire, with the
+        To enter into the theme, the background colours for the Hadrian's Wall Path blog have been chosen for their significance to the Romans and the Roman Empire, with the
         key colour being Tyrian Purple, the colour worn by the Roman Emperor.  This <Link to="https://www.ncl.ac.uk/press/articles/latest/2024/05/tyrianpurplecarlisle/" target="_blank"
         title="Click here to learn more about information produced by Newcastle University about Tyrian purple" className="LinkHWP"> article </Link> from Newcastle University explains more about the source
         and importance of Tyrian purple, which only the emperor was allowed to wear.
-
-        
         </div> {/*Closing tab for hwpDailyNarrative div */}
         </div>  {/*Closing tab for newsHwp div */}
         </div>  {/*Closing tab for datenewsDivHwp div */}
-
-      
 
         <div className="datenewsDivHwp">
             <section className="newsheaderHwp"><strong>Day 1 - Wallsend to Newcastle Swing Bridge: 5.1 miles on the Hadrian's Wall Path, 7.5 miles total</strong></section>
@@ -105,7 +98,7 @@ export default function Hwp2024() {
                 <li><strong className="titles">Distance:</strong><br /> 5.1 miles on the Hadrian's Wall Path, 7.5 miles total, <strong> Ascent:</strong> 22 metres, 72 feet,  <strong>Descent:</strong> 30 metres, 98 feet. </li>
                 <li><strong className="titles">Refreshments:</strong><br /><Link to="https://oswinproject.org.uk/our-work/cafe-16-at-newcastle-cathedral/" target="_blank" title="Click here to discover more about Café 16, St Nicholas' Cathedral " className="LinkHWP">Café 16, St Nicholas' Cathedral</Link>, Newcastle.
                 The café is supplied with fresh produce from the charity’s bakery in HMP Northumberland, where the café's trained bakers allow prisoners to learn new skills and find a new direction on release.</li> 
-                </ul>    
+                </ul>
 
             <strong className="headTitles">Good</strong> 
             <ul className="hwpIntroList">
@@ -133,14 +126,14 @@ export default function Hwp2024() {
             as there is so much to do, to see and to learn that undertaking so much in one day does not allow for time to be spent in the sites and museums. Also we would not advise walking on firm 
             surfaces for such a distance.</li>
             </ul>
-            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }
             <br />
             <div className="hwpDailyNarrative">
             We were up early on this, the first day of our Hadrian's Wall walk and left promptly in order to be in Newcastle by 9.30am. We chose to park on one of the Newcastle City Council car parks.
-            Be forewarned, these no longer accept cash payments, so it is worth setting up the 
+            Be forewarned, these no longer accept cash payments, so it is worth setting up the
              <Link to="https://www.paybyphone.co.uk/" target="_blank" className="LinkHWP"> Pay by Phone app</Link> on your phone before you go, so that payment can be made quickly and easily.
             We used the <Link to="https://www.getintonewcastle.co.uk/venues/quayside-multi-storey-car-park" target="_blank" title="Click here to discover more about the Quayside Car Park" className="LinkHWP"> Quayside Car Park </Link> 
-            which is reasonably priced by city standards (£11.00 for the day) and parking after 18.00 is free. 
+            which is reasonably priced by city standards (£11.00 for the day) and parking after 18.00 is free.
             <br />
             <br />
             After a short 10 minute walk (0.3 mile), we arrived at Manors Metro Station. The Metro services in Newcastle are run by <Link to="https://www.nexus.org.uk/" target="_blank" title="Click here to go to the Nexus website" className="LinkHWP">Nexus</Link>.
@@ -160,15 +153,15 @@ export default function Hwp2024() {
             but along the route 72 cycle and pedestrian way along the Northern bank of the River Tyne. This path is much pleasanter than might be imagined, despite
             it being through quite an urban area. It is also a cycle path, so you just need to keep a look out for cyclists to let them past. Our favourite 
             section was when we dropped down to be right beside the River Tyne. The Ropery formed a good spot for a packed lunch as there was a bench to 
-            sit on. 
+            sit on.
             <br />
             <br />
             After lunch, it was a leisurely wander into Newcastle city centre via the Quayside. It was a beautifully sunny Saturday afternoon so people were making full use 
             of the riverside and rooftop bars and restaurants. On arrival in Newcastle city centre, it was time for some refreshments and we went to <Link to="https://oswinproject.org.uk/our-work/cafe-16-at-newcastle-cathedral/" 
             target="_blank" title="Click here to discover more about Café 16, St Nicholas' Cathedral " className="LinkHWP">Café 16, St Nicholas' Cathedral</Link> who have excellent cakes, before
-            heading down the road to <Link to="https://www.newcastlecastle.co.uk/" target="_blank" title="Click 
+            heading down the road to <Link to="https://www.newcastlecastle.co.uk/" target="_blank" title="Click
             here to discover more about Newcastle Castle" className="LinkHWP">Newcastle Castle</Link> to visit the Black Gate and to climb the Keep, from which there are some fantastic views 
-            of Newcastle's iconic bridges. 
+            of Newcastle's iconic bridges.
             <br />
             <br />
             All in all it had been a great first day of the Hadrian's Wall Path with everyone looking forward to the next stage....
@@ -194,16 +187,16 @@ export default function Hwp2024() {
       </div>
 
       <div className="newsHwp">
-             <div className="componentWalkDetails">     
+             <div className="componentWalkDetails">
             <strong className="headTitles">Details of the Walk </strong>
             <ul className="hwpIntroList">
                 <li><strong className="titles">Parking:</strong><br />Free parking at Tyne Riverside car park and parking for £4.60 for the day on a Saturday at St Ann's Car Park, Sandgate, Newcastle Upon Tyne.</li>
                 <li><strong className="titles">Distance:</strong><br /> 8.7 miles on the Hadrian's Wall Path, including the Denton Hall turret diversion<strong> Ascent:</strong> 56 metres, 184 feet,  <strong>Descent:</strong> 45 metres, 148 feet. </li>
                 <li><strong className="titles">Refreshments:</strong><br />Coffees and cakes at <Link to="https://www.getintonewcastle.co.uk/venues/starbucks-malmaison" target="_blank" title="Click here to discover more about Starbucks at Malmaison, Newcastle" className="LinkHWP">Starbucks at Malmaison</Link>, Newcastle
                 and soft drinks at <Link to="https://www.branzinorestaurant.co.uk/" target="_blank" title="Click here to discover more about Branzinos" className="LinkHWP"> Branzino's Italian restaurant </Link> , the Boat House, Newburn, Newcastle. </li> 
-                </ul>    
+                </ul>
 
-            <strong className="headTitles">Good</strong> 
+            <strong className="headTitles">Good</strong>
             <ul className="hwpIntroList">
               <div className="listItemsAlign">
                 <li><strong className="titles">Points of Interest :</strong><br />There are a surprising number of points of interest on this segment of the walk, far more than
@@ -216,19 +209,19 @@ export default function Hwp2024() {
                 </div>
                 </ul>
                 <br />
-            <strong className="headTitles">Not so good</strong> 
+            <strong className="headTitles">Not so good</strong>
             <ul className="hwpIntroList">
                 <li><strong className="titles">Traffic congestion</strong><br />Due to the Red Bull Tyne Ride Event, a significant number of roads in the centre of Newcastle 
                 were closed, which added to the fact it was Saturday lunchtime, made the short journey between Tyne Riverside Country Park and the parking in the city centre
                 quite slow and challenging. </li>
                 </ul>
-            <strong className="headTitles">Hike Rating</strong> 
+            <strong className="headTitles">Hike Rating</strong>
             <ul className="hwpIntroList">
             <li><strong className="titles">8 (out of 10):</strong> This was an interesting and enjoyable walk. There was more opportunity to sit down than on Stage 1 of the walk
             and especially on the stretch along the Tyne riverside, a significant amount of history to learn about. This really gave a feel, not just of history relating to Roman times,
             but also the medieval and 17th - 19th century  development of Newcastle city and the surrounding areas.</li>
             </ul>
-            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }
             <br />
 
           <div className="hwpDailyNarrative">
@@ -239,7 +232,7 @@ export default function Hwp2024() {
            <br />
            What we had not counted on though was the fact that today there was another large event on in Newcastle, the <Link to="https://www.redbull.com/gb-en/events/red-bull-tyne-ride"
            target="_blank" className="LinkHWP"> Red Bull Tyne Ride Event </Link> . As a result, it took us over 24 minutes to cover just 7 miles in heavily congested traffic through the centre 
-           of Newcastle both in the morning, and also on our return in the evening....           
+           of Newcastle both in the morning, and also on our return in the evening....
             <br />
             <br />
             There was plenty to see on today's walk though including Blacksmith's Needle, the seven famous bridges of Newcastle upon Tyne, the old Fish Market, Dunston Staith, Elswick and Scotwood and the history of William Armstrong and his importance
@@ -284,9 +277,9 @@ export default function Hwp2024() {
               <fig><section className = "blogPhoto1HWP" ><img src={KingEdwardVII} alt="" /><figcaption className='HWPfigcaption'><strong>King Edward VII Bridge (seen in the background, <br /> behind the blue Queen Elizabeth II Bridge)</strong></figcaption></section>
               </fig>
             </li>
-              <li><strong>Redheugh Bridge :</strong> 
+              <li><strong>Redheugh Bridge :</strong>
 <br />
-There have been 3 Redheugh Bridges spanning the River Tyne and currently carrying the A189 road. 
+There have been 3 Redheugh Bridges spanning the River Tyne and currently carrying the A189 road.
 
     The first Redheugh Bridge, built by Thomas Bouch, was opened in 1871. It needed to be replaced because of structural faults.
     The second bridge, built by Sir William Arrol & Co, was opened on 13th August 1901.
@@ -295,7 +288,6 @@ There have been 3 Redheugh Bridges spanning the River Tyne and currently carryin
 <br />
 <br />
               </ol>
-          
               This additional <Link to="https://englandsnortheast.co.uk/newcastle-quayside-history/" target="_blank"
             title="Click here to discover more about Newcastle's seven bridges and quayside" className="LinkHWP">article</Link> also has some really interesting information about the bridges and the history of Newcastle 
             quayside.
@@ -305,41 +297,41 @@ There have been 3 Redheugh Bridges spanning the River Tyne and currently carryin
             <strong style={{fontSize:"1.2rem"}}> Fish Market : </strong>
              There have been fish stalls on Sandhill going back to Medieval times. From 1823 the fish market was held in the new covered section of the Guildhall designed by John Dobson.
             In 1880 a new purpose-built indoor fish market was built on Sandhill. Later the fish market moved to Clayton Street and then eventually relocated as a dedicated section of the Green Market.
-            Today,  the old Fish Market, is now 'Riverside', a  popular live music venue. 
+            Today,  the old Fish Market, is now 'Riverside', a  popular live music venue.
             <br />
             <br />
             <strong style={{fontSize:"1.2rem"}}> Dunston Staiths : </strong>
-             Dunston Staiths, on the River Tyne, is believed to be the largest timber structure in Europe. 
-            It is a Scheduled Monument, Grade II listed and is owned by registered charity Tyne and Wear Building Preservation Trust (TWBPT). 
-            Opened in 1893 by the North East Railway Company, it was built to allow large quantities of coal arriving by rail from the Durham 
-            Coalfields to be loaded directly onto waiting colliers (coal ships) ready for the onward journey to customers in London and abroad. 
-            At the coal industry's peak around 5.5 million tons of coal was moved this way each year.    
+             Dunston Staiths, on the River Tyne, is believed to be the largest timber structure in Europe.
+            It is a Scheduled Monument, Grade II listed and is owned by registered charity Tyne and Wear Building Preservation Trust (TWBPT).
+            Opened in 1893 by the North East Railway Company, it was built to allow large quantities of coal arriving by rail from the Durham
+            Coalfields to be loaded directly onto waiting colliers (coal ships) ready for the onward journey to customers in London and abroad.
+            At the coal industry's peak around 5.5 million tons of coal was moved this way each year.
             <br />
             <br />
             <fig><section className = "blogPhoto1HWP" ><img src={DunstonStaithes} alt="" /><figcaption className='HWPfigcaption'><strong>Dunston Staithes</strong></figcaption></section>
            </fig>
             <strong style={{fontSize:"1.2rem"}}> Elswick and Scotwood : </strong>
             At its zenith, around the turn of the century, William Armstrong's Elswick and Scotswood works employed over 20,000 people.
-            This workforce together with their families and the many small trades, industries, shops and the like 
-            which served them, accounted for the growth of most of the western suburbs of Newcastle. Scotswood and 
-            Elswick, along with four other small townships Jesmond, Heaton, Byker and Westgate – were taken into the 
+            This workforce together with their families and the many small trades, industries, shops and the like
+            which served them, accounted for the growth of most of the western suburbs of Newcastle. Scotswood and
+            Elswick, along with four other small townships Jesmond, Heaton, Byker and Westgate – were taken into the
             boundaries of Newcastle Upon Tyne under the Municiple Corporation Act of 1835.
-            This expansion of the city brought the spread of housing into the suburbs. 
-            Fuelled by the growth of industry on the riverbank, the construction of houses in Elswick and Scotswood took 
+            This expansion of the city brought the spread of housing into the suburbs.
+            Fuelled by the growth of industry on the riverbank, the construction of houses in Elswick and Scotswood took
             place at a rapid and constant pace. In 1851 the population of Elswick was 3,539.
             <br />
             <br />
             <strong style={{fontSize:"1.2rem"}}> Lemington Glassworks : </strong>
-            The glassworks site was leased from the Duke of Northumberland by a group of local businessmen under the name 
-            of the Northumberland Glass Company in 1787. Initially flat glass was produced from 4 large glass cones. This 
-            company owned the glassworks until 1837 when three of the glass houses were demolished, leaving the huge cone 
-            which is still in existence. 
+            The glassworks site was leased from the Duke of Northumberland by a group of local businessmen under the name
+            of the Northumberland Glass Company in 1787. Initially flat glass was produced from 4 large glass cones. This
+            company owned the glassworks until 1837 when three of the glass houses were demolished, leaving the huge cone
+            which is still in existence.
             <br />
             <br />
             <fig><section className = "blogPhoto1HWP" ><img src={Lemington} alt="" /><figcaption className='HWPfigcaption'><strong>Lemington</strong></figcaption></section>
            </fig>
             <strong style={{fontSize:"1.2rem"}}> Battle of Newburn Ford : </strong>
-            The Battle of Newburn Ford took place in Summer 1640 when a Scottish Covenanter army of 20,000 under Alexander Leslie 
+            The Battle of Newburn Ford took place in Summer 1640 when a Scottish Covenanter army of 20,000 under Alexander Leslie
             defeated an English force of 5,000, led by Lord Conway. The only significant military action of the Second Bishop's War, 
             victory enabled the Scots to take Newcastle, which provided the bulk of London's coal supplies, and allowed them to put 
             pressure on the central government. It is important because it had far-reaching consequences for King Charles, 

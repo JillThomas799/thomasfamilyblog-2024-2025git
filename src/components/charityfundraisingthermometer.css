@@ -67,27 +67,6 @@ a {
   margin-left: 30%;
 }
 
-@media screen and (max-width: 480px) {
-  /*To ensure on mobile screens below 900px width (this includes one plus phones) that relevant components of 
-  the site are displayed with the best dimensions for the smaller devices*/ 
-    .chartWrapper {
-      display: grid;
-      justify-content:center;
-      grid-column-gap: 3rem;
-      grid-template-columns: 30% auto 30%;
-      margin-top: 10%;
-      margin-bottom:-70%;
-      -webkit-transform:scale(0.5);
-      -moz-transform:scale(0.5);
-      -ms-transform:scale(0.5);
-      -o-transform:scale(0.5);
-}
-
-.chartY{ transform:scale(0.9); -webkit-transform:scale(0.9); -moz-transform:scale(0.9); -ms-transform:scale(0.9); -o-transform:scale(0.9); }
-.chartX{ transform:scale(0.9); -webkit-transform:scale(0.9); -moz-transform:scale(0.9); -ms-transform:scale(0.9); -o-transform:scale(0.9); }
-  
-}
-
 @media screen and (min-width: 481px) and (max-width: 902px){
   .chartWrapper {
     display: grid;
@@ -101,5 +80,35 @@ a {
     -ms-transform:scale(0.5);
     -o-transform:scale(0.5);
 }
+
+.chartLabels {
+  margin-top:100%;
+  font-size: 1.8rem;
+  margin-left: 30%;
 }
+}
+
+
+@media screen and (max-width: 480px) {
+  /*To ensure on mobile screens below 900px width (this includes one plus phones) that relevant components of 
+  the site are displayed with the best dimensions for the smaller devices*/ 
+    .chartWrapper {
+      display: grid;
+      justify-content:center;
+      grid-column-gap: 2rem;
+      grid-template-columns: 40% 20% 40%;
+      margin-top: 30%;
+      margin-bottom:-50%;
+      transform:scale(0.7);
+      -webkit-transform:scale(0.7);
+      -moz-transform:scale(0.7);
+      -ms-transform:scale(0.7);
+      -o-transform:scale(0.7);
+}
+
+.chartY{ transform:scale(0.9); -webkit-transform:scale(0.9); -moz-transform:scale(0.9); -ms-transform:scale(0.9); -o-transform:scale(0.9); }
+.chartX{ transform:scale(0.9); -webkit-transform:scale(0.9); -moz-transform:scale(0.9); -ms-transform:scale(0.9); -o-transform:scale(0.9); } 
+
+}
+
 

@@ -1,526 +1,468 @@
 .SeptemberHeader{
-    font-size: 38px;
-    font-weight:bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#eec170;
-    text-align: center;
-    padding-bottom:5%;
-    padding-top:10%;
-   }
+  font-size: 38px;
+  font-weight:bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:#eec170;
+  text-align: center;
+  padding-bottom:5%;
+  padding-top:10%;
+ }
 
-  #backbuttonSeptember{
-    display:block;
-    position:absolute;
-    height:50px;
-    width:15%;
-    background-color: #D23736 ;
-    border:grey 2px solid;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    color:black;
-    top:10%;
-    text-decoration: underline;
-    margin: 5% 25% 5% 75%;
-    border-radius:15%;
-    -webkit-border-radius:15%;
-    -moz-border-radius:15%;
-    -ms-border-radius:15%;
-    -o-border-radius:15%;
-  } 
+#backbuttonSeptember{
+  display:block;
+  position:absolute;
+  height:50px;
+  width:15%;
+  background-color: #D23736 ;
+  border:grey 2px solid;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color:black;
+  top:10%;
+  text-decoration: underline;
+  margin: 5% 25% 5% 75%;
+  border-radius:15%;
+  -webkit-border-radius:15%;
+  -moz-border-radius:15%;
+  -ms-border-radius:15%;
+  -o-border-radius:15%;
+} 
 
-  .backbuttonLink{
-      color:white;
-      } 
+.backbuttonLink{
+    color:white;
+    } 
 
-  .LinkSeptember{
-    color:whitesmoke;
+.LinkSeptember{
+  color:whitesmoke;
+}
+
+.SeptemberList{
+  padding-left: 10%;
+  list-style-type: disc;
+  list-style-position: inside;
   }
 
- .SeptemberList{
-    padding-left: 10%;
-    list-style-type: disc;
-    list-style-position: inside;
-    }
-
-    .datenewsDivSeptember{
-      background-color: "#585123";
-      display:flex;
-      flex-direction:column;
-      margin-top: 0vh;
-      margin-bottom:0vh;
-      padding-top: 5vh;
-      padding-bottom:5vh;
-  }
-    
-    .dateSeptember{
-      color:black;
-      border:solid 2px #757c88;
-      background-color:#ff9136 ;
-      text-align: center;
-      margin:0%;
-      padding-top: 2%;
-      padding-bottom: 2%;
-      padding-right: 5%;
-      padding-left: 5%;
-      font-size:1.2rem;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-weight: bold;
-    }
-
-    .newsheaderSeptember{
-      color:black;
-      border:solid 2px #757c88;
-      background-color:#ff9136;
-      text-align: center;
-      padding:10px 10px 10px 10px;
-      margin: 2% 20% 2% 20%;
-      font-size:1.2rem;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-weight:bold;
-    }
-    
-    .newsSeptember{
-      color:black;
-      border:solid 2px #757c88;
-      background-color:#ff9136;
-      text-align: left;
-      padding:20px 20px 20px 20px;
-      margin-top:1%;
-      margin-bottom: 0vh;
-      font-size:1.2rem;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-weight:bold;
-    }
-  
-    .blogPhotoDivSeptember{
-      display:flex;
-      flex-direction: row;
-      border:solid 2px #757c88;
-      background-color: #f2e3d6;
-      padding-bottom: 5%;
-      padding-top: 3%;
-      padding-left: 2%;
-      padding-right:2%;
-      margin-top:5vh;
-    }
-    
-    .blogPhotoSeptember img{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width:70%;
-      height:auto;
-      border:solid #757c88 3px;
-  }
-  
-  .slideshowentrySeptember {
-    display: column;
-    justify-content: center;
-    margin-left: 40%;
-    margin-right: 40%;
-    pointer-events:none;
-    width:20%;
-    height:auto;
-    border:solid #757c88 3px;
-    border-radius:30%;
-    margin-top:5%;
-    margin-bottom:5%;
-    -webkit-border-radius:30%;
-    -moz-border-radius:30%;
-    -ms-border-radius:30%;
-    -o-border-radius:30%;
+  .datenewsDivSeptember{
+    background-color: "#585123";
+    display:flex;
+    flex-direction:column;
+    margin-top: 0vh;
+    margin-bottom:0vh;
+    padding-top: 5vh;
+    padding-bottom:5vh;
 }
   
-  .SlideshowHostPhotoSeptember{
-    display:flex;
-    flex-direction: column;
-    background-color: #f2e3d6;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    margin-top:0vh;
-    justify-content:center;
-    text-align:center;
+  .dateSeptember{
+    color:black;
+    border:solid 2px #757c88;
+    background-color:#ff9136 ;
+    text-align: center;
+    margin:0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%;
+    font-size:1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
   }
 
+  .newsheaderSeptember{
+    color:black;
+    border:solid 2px #757c88;
+    background-color:#ff9136;
+    text-align: center;
+    padding:10px 10px 10px 10px;
+    margin: 2% 20% 2% 20%;
+    font-size:1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+  }
   
+  .newsSeptember{
+    color:black;
+    border:solid 2px #757c88;
+    background-color:#ff9136;
+    text-align: left;
+    padding:20px 20px 20px 20px;
+    margin-top:1%;
+    margin-bottom: 0vh;
+    font-size:1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+  }
+
+  .blogPhotoDivSeptember{
+    display:flex;
+    flex-direction: row;
+    border:solid 2px #757c88;
+    background-color: #f2e3d6;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right:2%;
+    margin-top:5vh;
+  }
+  
+  .blogPhotoSeptember img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    height:auto;
+    border:solid #757c88 3px;
+}
+
+.slideshowentrySeptember {
+  display: column;
+  justify-content: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  pointer-events:none;
+  width:20%;
+  height:auto;
+  border:solid #757c88 3px;
+  border-radius:30%;
+  margin-top:5%;
+  margin-bottom:5%;
+  -webkit-border-radius:30%;
+  -moz-border-radius:30%;
+  -ms-border-radius:30%;
+  -o-border-radius:30%;
+}
+
+.SlideshowHostPhotoSeptember{
+  display:flex;
+  flex-direction: column;
+  background-color: #f2e3d6;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top:0vh;
+  justify-content:center;
+  text-align:center;
+}
+
+
 .SeptemberDailyNarrative{
-  background-color: #f2e3d6	;
-  text-Align:left;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-right: 10%;
-  padding-left:10%;
-  color:black;
-  font-size:1.2rem;
-  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+background-color: #f2e3d6	;
+text-Align:left;
+padding-top: 2%;
+padding-bottom: 2%;
+padding-right: 10%;
+padding-left:10%;
+color:black;
+font-size:1.2rem;
+font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
 }
 
 .componentWalkDetailsSeptember{
-  background-color: #f2e3d6	;
-  /* border:solid 4px grey; */
-  text-Align:center;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-right:2%;
+background-color: #f2e3d6	;
+/* border:solid 4px grey; */
+text-Align:center;
+padding-top: 2%;
+padding-bottom: 2%;
+padding-right:2%;
+color:black;
+display:flex;
+flex-direction:column;
+font-size:1.2rem;
+font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+.titlesSeptember{
   color:black;
-  display:flex;
-  flex-direction:column;
-  font-size:1.2rem;
-  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+  font-size:1.3rem;
 }
 
-  .titlesSeptember{
-    color:black;
-    font-size:1.3rem;
-  }
-  
-  .headTitlesSeptember{
-    color:black;
-    font-size:1.3rem; 
-    text-decoration: underline;
-  }
-
-  #sheepAdultLamb1{
-    overflow-x: visible;
-    overflow-y: visible;
-  }
-
-  #sheepAdultLamb2{
-    overflow-x: visible;
-    overflow-y: visible;
-  }
-  
-  /*CSS for Harry's PhD congratulations firework display */
-  .CongratulationsPhD  {
-  background-color: black;
-  text-Align:center;
-  padding-top: 2%;
-  padding-bottom: 40%;
-  padding-right:2%;
-  color:white;
-  display:flex;
-  flex-direction:column;
-  font-size:1.2rem;
-  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+.headTitlesSeptember{
+  color:black;
+  font-size:1.3rem; 
+  text-decoration: underline;
 }
 
-  .CongratulationsPhD .pyro > .before, .CongratulationsPhD .pyro > .after {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
-    animation: 1s bang ease-out infinite backwards, 1s gravity ease-in infinite backwards, 5s position linear infinite backwards;
+#sheepAdultLamb1{
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+#sheepAdultLamb2{
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+/*CSS for Harry's PhD congratulations firework display */
+.CongratulationsPhD  {
+background-color: black;
+text-Align:center;
+padding-top: 2%;
+padding-bottom: 40%;
+padding-right:2%;
+color:white;
+display:flex;
+flex-direction:column;
+font-size:1.2rem;
+font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+}
+
+.CongratulationsPhD .pyro > .before, .CongratulationsPhD .pyro > .after {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff, 0 0 #fff;
+  animation: 1s bang ease-out infinite backwards, 1s gravity ease-in infinite backwards, 5s position linear infinite backwards;
+}
+.CongratulationsPhD .pyro > .after {
+  animation-delay: 1.25s, 1.25s, 1.25s;
+  animation-duration: 1.25s, 1.25s, 6.25s;
+}
+@keyframes bang {
+  to {
+    box-shadow: -241px -137.6666666667px hsl(195, 100%, 50%), -171px 71.3333333333px hsl(162, 100%, 50%), 195px -271.6666666667px hsl(47, 100%, 50%), -173px -260.6666666667px hsl(51, 100%, 50%), 92px -5.6666666667px hsl(219, 100%, 50%), -141px -184.6666666667px hsl(65, 100%, 50%), 162px -409.6666666667px hsl(293, 100%, 50%), 202px -300.6666666667px hsl(205, 100%, 50%), -141px -191.6666666667px hsl(260, 100%, 50%), -104px -220.6666666667px hsl(97, 100%, 50%), -99px 14.3333333333px hsl(343, 100%, 50%), -37px -40.6666666667px hsl(345, 100%, 50%), -98px -401.6666666667px hsl(18, 100%, 50%), 108px -93.6666666667px hsl(115, 100%, 50%), 177px -390.6666666667px hsl(76, 100%, 50%), -41px -293.6666666667px hsl(172, 100%, 50%), -217px -117.6666666667px hsl(208, 100%, 50%), -103px -161.6666666667px hsl(170, 100%, 50%), -12px -118.6666666667px hsl(23, 100%, 50%), -175px 10.3333333333px hsl(271, 100%, 50%), -60px -410.6666666667px hsl(248, 100%, 50%), -242px -222.6666666667px hsl(319, 100%, 50%), 2px -288.6666666667px hsl(340, 100%, 50%), 167px 21.3333333333px hsl(158, 100%, 50%), 142px -411.6666666667px hsl(301, 100%, 50%), 76px -63.6666666667px hsl(355, 100%, 50%), 155px -342.6666666667px hsl(66, 100%, 50%), 58px -297.6666666667px hsl(9, 100%, 50%), -165px -345.6666666667px hsl(211, 100%, 50%), 29px -19.6666666667px hsl(46, 100%, 50%), -216px 71.3333333333px hsl(156, 100%, 50%), -107px -189.6666666667px hsl(308, 100%, 50%), -87px -153.6666666667px hsl(294, 100%, 50%), -228px -277.6666666667px hsl(88, 100%, 50%), -118px -65.6666666667px hsl(339, 100%, 50%), 3px -244.6666666667px hsl(323, 100%, 50%), -81px -73.6666666667px hsl(31, 100%, 50%), -129px -343.6666666667px hsl(94, 100%, 50%), -201px 72.3333333333px hsl(357, 100%, 50%), 245px -132.6666666667px hsl(341, 100%, 50%), 177px -316.6666666667px hsl(8, 100%, 50%), -224px -306.6666666667px hsl(349, 100%, 50%), 233px -24.6666666667px hsl(169, 100%, 50%), 178px -144.6666666667px hsl(232, 100%, 50%), -248px -43.6666666667px hsl(196, 100%, 50%), -197px -46.6666666667px hsl(338, 100%, 50%), -132px -2.6666666667px hsl(34, 100%, 50%), 50px -70.6666666667px hsl(42, 100%, 50%), -47px 31.3333333333px hsl(355, 100%, 50%), 81px -320.6666666667px hsl(42, 100%, 50%), 233px -83.6666666667px hsl(36, 100%, 50%);
   }
-  .CongratulationsPhD .pyro > .after {
-    animation-delay: 1.25s, 1.25s, 1.25s;
-    animation-duration: 1.25s, 1.25s, 6.25s;
+}
+@keyframes gravity {
+  to {
+    transform: translateY(200px);
+    -moz-transform: translateY(200px);
+    -webkit-transform: translateY(200px);
+    -o-transform: translateY(200px);
+    -ms-transform: translateY(200px);
+    opacity: 0;
   }
-  @keyframes bang {
-    to {
-      box-shadow: -241px -137.6666666667px hsl(195, 100%, 50%), -171px 71.3333333333px hsl(162, 100%, 50%), 195px -271.6666666667px hsl(47, 100%, 50%), -173px -260.6666666667px hsl(51, 100%, 50%), 92px -5.6666666667px hsl(219, 100%, 50%), -141px -184.6666666667px hsl(65, 100%, 50%), 162px -409.6666666667px hsl(293, 100%, 50%), 202px -300.6666666667px hsl(205, 100%, 50%), -141px -191.6666666667px hsl(260, 100%, 50%), -104px -220.6666666667px hsl(97, 100%, 50%), -99px 14.3333333333px hsl(343, 100%, 50%), -37px -40.6666666667px hsl(345, 100%, 50%), -98px -401.6666666667px hsl(18, 100%, 50%), 108px -93.6666666667px hsl(115, 100%, 50%), 177px -390.6666666667px hsl(76, 100%, 50%), -41px -293.6666666667px hsl(172, 100%, 50%), -217px -117.6666666667px hsl(208, 100%, 50%), -103px -161.6666666667px hsl(170, 100%, 50%), -12px -118.6666666667px hsl(23, 100%, 50%), -175px 10.3333333333px hsl(271, 100%, 50%), -60px -410.6666666667px hsl(248, 100%, 50%), -242px -222.6666666667px hsl(319, 100%, 50%), 2px -288.6666666667px hsl(340, 100%, 50%), 167px 21.3333333333px hsl(158, 100%, 50%), 142px -411.6666666667px hsl(301, 100%, 50%), 76px -63.6666666667px hsl(355, 100%, 50%), 155px -342.6666666667px hsl(66, 100%, 50%), 58px -297.6666666667px hsl(9, 100%, 50%), -165px -345.6666666667px hsl(211, 100%, 50%), 29px -19.6666666667px hsl(46, 100%, 50%), -216px 71.3333333333px hsl(156, 100%, 50%), -107px -189.6666666667px hsl(308, 100%, 50%), -87px -153.6666666667px hsl(294, 100%, 50%), -228px -277.6666666667px hsl(88, 100%, 50%), -118px -65.6666666667px hsl(339, 100%, 50%), 3px -244.6666666667px hsl(323, 100%, 50%), -81px -73.6666666667px hsl(31, 100%, 50%), -129px -343.6666666667px hsl(94, 100%, 50%), -201px 72.3333333333px hsl(357, 100%, 50%), 245px -132.6666666667px hsl(341, 100%, 50%), 177px -316.6666666667px hsl(8, 100%, 50%), -224px -306.6666666667px hsl(349, 100%, 50%), 233px -24.6666666667px hsl(169, 100%, 50%), 178px -144.6666666667px hsl(232, 100%, 50%), -248px -43.6666666667px hsl(196, 100%, 50%), -197px -46.6666666667px hsl(338, 100%, 50%), -132px -2.6666666667px hsl(34, 100%, 50%), 50px -70.6666666667px hsl(42, 100%, 50%), -47px 31.3333333333px hsl(355, 100%, 50%), 81px -320.6666666667px hsl(42, 100%, 50%), 233px -83.6666666667px hsl(36, 100%, 50%);
-    }
+}
+@keyframes position {
+  0%, 19.9% {
+    margin-top: 10%;
+    margin-left: 40%;
   }
-  @keyframes gravity {
-    to {
-      transform: translateY(200px);
-      -moz-transform: translateY(200px);
-      -webkit-transform: translateY(200px);
-      -o-transform: translateY(200px);
-      -ms-transform: translateY(200px);
-      opacity: 0;
-    }
+  20%, 39.9% {
+    margin-top: 40%;
+    margin-left: 30%;
   }
-  @keyframes position {
-    0%, 19.9% {
-      margin-top: 10%;
-      margin-left: 40%;
-    }
-    20%, 39.9% {
-      margin-top: 40%;
-      margin-left: 30%;
-    }
-    40%, 59.9% {
-      margin-top: 20%;
-      margin-left: 70%;
-    }
-    60%, 79.9% {
-      margin-top: 30%;
-      margin-left: 20%;
-    }
-    80%, 99.9% {
-      margin-top: 30%;
-      margin-left: 80%;
-    }
+  40%, 59.9% {
+    margin-top: 20%;
+    margin-left: 70%;
   }
-  
-  .red {
+  60%, 79.9% {
+    margin-top: 30%;
+    margin-left: 20%;
+  }
+  80%, 99.9% {
+    margin-top: 30%;
+    margin-left: 80%;
+  }
+}
+
+.red {
+  fill: #aa1231;
+  animation: 0.6s red-flash ease-in-out infinite;
+}
+@keyframes red-flash {
+  40% {
+    fill: #ea385c;
+  }
+  80% {
     fill: #aa1231;
-    animation: 0.6s red-flash ease-in-out infinite;
   }
-  @keyframes red-flash {
-    40% {
-      fill: #ea385c;
-    }
-    80% {
-      fill: #aa1231;
-    }
-  }
-  
-  .gold-lt {
-    fill: #c1881c;
-    animation: 0.6s gold-lt-flash ease-in-out infinite;
-  }
-  @keyframes gold-lt-flash {
-    40% {
-      fill: #e7b75c;
-    }
-    80% {
-      fill: #c1881c;
-    }
-  }
-  
-  .blue-lt {
-    fill: #1f3e64;
-    animation: 0.6s blue-lt-flash ease-in-out infinite;
-  }
-  @keyframes blue-lt-flash {
-    40% {
-      fill: #386fb1;
-    }
-    80% {
-      fill: #1f3e64;
-    }
-  }
-  
-  .blue-dk {
-    fill: #0f1f2f;
-    animation: 0.6s blue-dk-flash ease-in-out infinite;
-  }
-  @keyframes blue-dk-flash {
-    40% {
-      fill: #28527c;
-    }
-    80% {
-      fill: #0f1f2f;
-    }
-  }
-  
-  .gold-dk {
-    fill: #69512a;
-    animation: 0.6s gold-dk-flash ease-in-out infinite;
-  }
-  @keyframes gold-dk-flash {
-    40% {
-      fill: #b28947;
-    }
-    80% {
-      fill: #69512a;
-    }
-  }
-  
-  .g1 {
-    animation-delay: 0s;
-  }
-  
-  .g2 {
-    animation-delay: 0.4s;
-  }
-  
-  .g3 {
-    animation-delay: 0.8s;
-  }
+}
 
-  /*CSS for Harry's rotating PhD congratulations message */
+.gold-lt {
+  fill: #c1881c;
+  animation: 0.6s gold-lt-flash ease-in-out infinite;
+}
+@keyframes gold-lt-flash {
+  40% {
+    fill: #e7b75c;
+  }
+  80% {
+    fill: #c1881c;
+  }
+}
+
+.blue-lt {
+  fill: #1f3e64;
+  animation: 0.6s blue-lt-flash ease-in-out infinite;
+}
+@keyframes blue-lt-flash {
+  40% {
+    fill: #386fb1;
+  }
+  80% {
+    fill: #1f3e64;
+  }
+}
+
+.blue-dk {
+  fill: #0f1f2f;
+  animation: 0.6s blue-dk-flash ease-in-out infinite;
+}
+@keyframes blue-dk-flash {
+  40% {
+    fill: #28527c;
+  }
+  80% {
+    fill: #0f1f2f;
+  }
+}
+
+.gold-dk {
+  fill: #69512a;
+  animation: 0.6s gold-dk-flash ease-in-out infinite;
+}
+@keyframes gold-dk-flash {
+  40% {
+    fill: #b28947;
+  }
+  80% {
+    fill: #69512a;
+  }
+}
+
+.g1 {
+  animation-delay: 0s;
+}
+
+.g2 {
+  animation-delay: 0.4s;
+}
+
+.g3 {
+  animation-delay: 0.8s;
+}
+
+/*CSS for Harry's rotating PhD congratulations message */
 .CongratsMessagePhD{ 
-  align-items: center;
-  display: flex;
-  height: 50vh;
-  text-align: center;
+align-items: center;
+display: flex;
+height: 50vh;
+text-align: center;
 }
 
 .CongratsMessagePhD-content{
-  position: relative;
-  width: 100%;
+position: relative;
+width: 100%;
 }
 
-  /* @media (min-width: 768px) { 
-    font-size: 18px;
-  } */
+/* @media (min-width: 768px) { 
+  font-size: 18px;
+} */
 
-  .CongratsMessagePhD-description{
-  font-family: 'Georgia', serif;
-  font-size: 22px;
-  font-weight: bold;
-  margin: 0;
-  color:#e7b75c;
-  }
+.CongratsMessagePhD-description{
+font-family: 'Georgia', serif;
+font-size: 22px;
+font-weight: bold;
+margin: 0;
+color:#e7b75c;
+}
 
 .CongratsMessagePhD-body {
-  font-family: 'Georgia', sans-serif;
-  font-weight: bold;
-  font-size: 22px;
-  left: 0;
-  margin-bottom: 15%;
-  margin-top: 15%;
-  opacity: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  text-transform: uppercase;
-  top: 0;
-  color:#e7b75c;
-  animation:  8s  rotate-text-up linear infinite;
-  -webkit-animation:  8s  rotate-text-up linear infinite;
- 
-  @media(max-width: 480px)
-  { 
-    font-size: 20px;
-  }
+font-family: 'Georgia', sans-serif;
+font-weight: bold;
+font-size: 22px;
+left: 0;
+margin-bottom: 15%;
+margin-top: 15%;
+opacity: 0;
+position: absolute;
+right: 0;
+text-align: center;
+text-transform: uppercase;
+top: 0;
+color:#e7b75c;
+animation:  8s  rotate-text-up linear infinite;
+-webkit-animation:  8s  rotate-text-up linear infinite;
+
+@media(max-width: 480px)
+{ 
+  font-size: 20px;
+}
 }
 
 @keyframes rotate-text-up { 
-  0% {
-    transform: translate3d(0, 200px, 0);
-    opacity: 0;
-    -webkit-transform: translate3d(0, 200px, 0);
-    -moz-transform: translate3d(0, 200px, 0);
-    -ms-transform: translate3d(0, 200px, 0);
-    -o-transform: translate3d(0, 200px, 0);
-}
-  
-  20%, 80% {
-    transform: translate3d(0, 50px, 0);
-    opacity: 1;
-    -webkit-transform: translate3d(0, 50px, 0);
-    -moz-transform: translate3d(0, 50px, 0);
-    -ms-transform: translate3d(0, 50px, 0);
-    -o-transform: translate3d(0, 50px, 0);
-}
-  
-  100% {
-    transform: translate3d(0, 20px, 0);
-    opacity: 0;
-    -webkit-transform: translate3d(0, 20px, 0);
-    -moz-transform: translate3d(0, 20px, 0);
-    -ms-transform: translate3d(0, 20px, 0);
-    -o-transform: translate3d(0, 20px, 0);
-}
+0% {
+  transform: translate3d(0, 200px, 0);
+  opacity: 0;
+  -webkit-transform: translate3d(0, 200px, 0);
+  -moz-transform: translate3d(0, 200px, 0);
+  -ms-transform: translate3d(0, 200px, 0);
+  -o-transform: translate3d(0, 200px, 0);
 }
 
-  /*@media queries for the sheep and cows*/
-   @media screen and (min-width:480px) and (max-width:900px){
-    /*To ensure on ipad screens and larger mobiles (min-width 480px, max-width 900px) that the sheep and lambs are correctly positioned*/
- #swaledaleSheep1{ 
-  transform: translate(-200px,0px); 
-  -webkit-transform: translate(-200px,0px); 
-  -moz-transform: translate(-200px,0px); 
-  -ms-transform: translate(-200px,0px); 
-  -o-transform: translate(-200px,0px); 
-  overflow: visible;
- }
-   
-   #swaledaleSheep2{
-     transform: translate(-600px,0px);
-     -webkit-transform: translate(-600px,0px);
-     -moz-transform: translate(-600px,0px);
-     -ms-transform: translate(-600px,0px);
-     -o-transform: translate(-600px,0px);
-     overflow: visible;
-}
-    }
-
-     /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
-    @media screen and (min-width:402px) and (max-width:900px){
-    .blogPhotoDivSeptember{
-      display:flex;
-      flex-direction: column;
-      background-color: #f2e3d6;
-      padding-bottom: 15%;
-      padding-top: 5%;
-      margin-top:2%;
-    }
-
-    .slideshowentrySeptember {
-      display: column;
-      justify-content: center;
-      margin-left: 25%;
-      margin-right: 25%;
-      pointer-events:none;
-      width:50%;
-      height:auto;
-      border:solid #757c88 3px;
-      border-radius:80%;
-      margin-top:5%;
-      margin-bottom:5%;
-      -webkit-border-radius:80%;
-      -moz-border-radius:80%;
-      -ms-border-radius:80%;
-      -o-border-radius:80%;
-    }
-    }
-
-    @media screen and (max-width:480px) {
-      /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
-       the site are displayed with the best dimensions for the smaller devices*/
-      
-      .SeptemberHeader {
-      display:block;
-      text-align: center;
-      font-size: 26px;
-      color:white;
-      font-weight: bold;    width: 100vw;
-      height:auto;
-      position:absolute; 
-      } 
-
-      .newsheaderSeptember{
-        margin-top:20%;
-      }
-
-      .slideshowentrySeptember {
-        display: column;
-        justify-content: center;
-        margin-left: 15%;
-        margin-right: 15%;
-        pointer-events:none;
-        width:70%;
-        height:auto;
-        border:solid #757c88 3px;
-        border-radius:80%;
-        margin-top:5%;
-        margin-bottom:5%;
-        -webkit-border-radius:80%;
-        -moz-border-radius:80%;
-        -ms-border-radius:80%;
-        -o-border-radius:80%;
-      }
-
-      /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of the site are displayed with the best dimensions for the smaller devices*/
-          
-     #swaledaleSheep1{
-      transform:scale(80%) translate(-400px,0px);
-      -webkit-transform:scale(80%) translate(-400px,0px);
-      -moz-transform:scale(80%) translate(-400px,0px);
-      -ms-transform:scale(80%) translate(-400px,0px);
-      -o-transform:scale(80%) translate(-400px,0px);
-      overflow: visible;
-}
-     
-     #swaledaleSheep2{
-       transform: scale(80%) translate(-600px,0px);
-       -webkit-transform: scale(80%) translate(-600px,0px);
-       -moz-transform: scale(80%) translate(-600px,0px);
-       -ms-transform: scale(80%) translate(-600px,0px);
-       -o-transform: scale(80%) translate(-600px,0px);
-       overflow: visible;
+20%, 80% {
+  transform: translate3d(0, 50px, 0);
+  opacity: 1;
+  -webkit-transform: translate3d(0, 50px, 0);
+  -moz-transform: translate3d(0, 50px, 0);
+  -ms-transform: translate3d(0, 50px, 0);
+  -o-transform: translate3d(0, 50px, 0);
 }
 
-    }
-    
-    @media screen and (max-width:401px) {
-    /*To ensure on mobile screens below 401px width (this includes one plus phones) that relevant components of 
+100% {
+  transform: translate3d(0, 20px, 0);
+  opacity: 0;
+  -webkit-transform: translate3d(0, 20px, 0);
+  -moz-transform: translate3d(0, 20px, 0);
+  -ms-transform: translate3d(0, 20px, 0);
+  -o-transform: translate3d(0, 20px, 0);
+}
+}
+
+/*@media queries for the sheep and cows*/
+ @media screen and (min-width:480px) and (max-width:900px){
+  /*To ensure on ipad screens and larger mobiles (min-width 480px, max-width 900px) that the sheep and lambs are correctly positioned*/
+#swaledaleSheep1{ 
+transform: translate(-200px,0px); 
+-webkit-transform: translate(-200px,0px); 
+-moz-transform: translate(-200px,0px); 
+-ms-transform: translate(-200px,0px); 
+-o-transform: translate(-200px,0px); 
+overflow: visible;
+}
+ 
+ #swaledaleSheep2{
+   transform: translate(-600px,0px);
+   -webkit-transform: translate(-600px,0px);
+   -moz-transform: translate(-600px,0px);
+   -ms-transform: translate(-600px,0px);
+   -o-transform: translate(-600px,0px);
+   overflow: visible;
+}
+  }
+
+   /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+  @media screen and (min-width:402px) and (max-width:900px){
+  .blogPhotoDivSeptember{
+    display:flex;
+    flex-direction: column;
+    background-color: #f2e3d6;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    margin-top:2%;
+  }
+
+  .slideshowentrySeptember {
+    display: column;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    pointer-events:none;
+    width:50%;
+    height:auto;
+    border:solid #757c88 3px;
+    border-radius:80%;
+    margin-top:5%;
+    margin-bottom:5%;
+    -webkit-border-radius:80%;
+    -moz-border-radius:80%;
+    -ms-border-radius:80%;
+    -o-border-radius:80%;
+  }
+  }
+
+  @media screen and (max-width:480px) {
+    /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
      the site are displayed with the best dimensions for the smaller devices*/
     
     .SeptemberHeader {
@@ -536,39 +478,97 @@
     .newsheaderSeptember{
       margin-top:20%;
     }
-    
-    /*To ensure on mobile screens below 401px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
-    .blogPhotoDivSeptember{
-    display:flex;
-    flex-direction: column;
-    background-color:#f2e3d6 ;
-    padding-bottom: 5%;
-    padding-top: 5%;
-    margin-top:2%;
+
+    .slideshowentrySeptember {
+      display: column;
+      justify-content: center;
+      margin-left: 15%;
+      margin-right: 15%;
+      pointer-events:none;
+      width:70%;
+      height:auto;
+      border:solid #757c88 3px;
+      border-radius:80%;
+      margin-top:5%;
+      margin-bottom:5%;
+      -webkit-border-radius:80%;
+      -moz-border-radius:80%;
+      -ms-border-radius:80%;
+      -o-border-radius:80%;
     }
 
-    .CowsAndSheep{
-       transform:scale(0.4)    ;
-       -webkit-transform:scale(0.4)    ;
-       -moz-transform:scale(0.4)    ;
-       -ms-transform:scale(0.4)    ;
-       -o-transform:scale(0.4)    ;
+    /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of the site are displayed with the best dimensions for the smaller devices*/
+        
+   #swaledaleSheep1{
+    transform:scale(80%) translate(-400px,0px);
+    -webkit-transform:scale(80%) translate(-400px,0px);
+    -moz-transform:scale(80%) translate(-400px,0px);
+    -ms-transform:scale(80%) translate(-400px,0px);
+    -o-transform:scale(80%) translate(-400px,0px);
+    overflow: visible;
+}
+   
+   #swaledaleSheep2{
+     transform: scale(80%) translate(-600px,0px);
+     -webkit-transform: scale(80%) translate(-600px,0px);
+     -moz-transform: scale(80%) translate(-600px,0px);
+     -ms-transform: scale(80%) translate(-600px,0px);
+     -o-transform: scale(80%) translate(-600px,0px);
+     overflow: visible;
+}
+
+  }
+  
+  @media screen and (max-width:401px) {
+  /*To ensure on mobile screens below 401px width (this includes one plus phones) that relevant components of 
+   the site are displayed with the best dimensions for the smaller devices*/
+  
+  .SeptemberHeader {
+  display:block;
+  text-align: center;
+  font-size: 26px;
+  color:white;
+  font-weight: bold;    width: 100vw;
+  height:auto;
+  position:absolute; 
+  } 
+
+  .newsheaderSeptember{
+    margin-top:20%;
+  }
+  
+  /*To ensure on mobile screens below 401px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+  .blogPhotoDivSeptember{
+  display:flex;
+  flex-direction: column;
+  background-color:#f2e3d6 ;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top:2%;
+  }
+
+  .CowsAndSheep{
+     transform:scale(0.4)    ;
+     -webkit-transform:scale(0.4)    ;
+     -moz-transform:scale(0.4)    ;
+     -ms-transform:scale(0.4)    ;
+     -o-transform:scale(0.4)    ;
 }
 
 .dateSeptember{
-  font-size:1.0rem;
+font-size:1.0rem;
 }
 
 .newsheaderSeptember, .headTitlesSeptember, .titlesSeptember, .newsSeptember, .SeptemberDailyNarrative{
-  font-size:1.0rem;
+font-size:1.0rem;
 }
 
 li{
-  font-size:1.0rem;
+font-size:1.0rem;
 }
 
-    }
+  }
 
-   
+ 
 
-    
+  

@@ -41019,7 +41019,7 @@ export default function May2024() {
       />
     </svg>
 
-<div className="datenewsDiv">
+<div className="datenewsDivMay2024">
             <section className="date">1st - 31st May 2024</section>
             <section className="newsheader">Welcome to our May 2024 blog</section> 
             <section className="news">This month's picture is an svg (Scalable Vector Graphics) image of a picture of the bluebells in Quarry Beck Wood, Cumbria
@@ -41032,7 +41032,7 @@ export default function May2024() {
             </section>
             </div>
 
-<div className="datenewsDiv">
+<div className="datenewsDivMay2024">
             <section className="date">1st May 2024, Wednesday</section>
             <section className="newsheader">Our day trip to the Holy Island of Lindisfarne</section>
             <br />
@@ -41117,11 +41117,11 @@ export default function May2024() {
             <br /> <br />The individual comments on the photos will take you through the full story of our visit. </em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
 
-            <img className="slideshowentry" src={LindisfarneCastle} alt="" />
+            <img className="slideshowentryMay" src={LindisfarneCastle} alt="" />
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
 
-            <div className="datenewsDiv">
+            <div className="datenewsDivMay2024">
             <section className="date">9th May 2024, Thursday</section>
             <section className="newsheader">'Nye', National Theatre Live</section> 
             <section className="news">
@@ -41148,11 +41148,11 @@ export default function May2024() {
             </div> 
 
             <div className="SlideshowHostPhoto">
-            <img className="slideshowentry1" src={NyeProgramme} alt="" />
+            <img className="slideshowentry1May" src={NyeProgramme} alt="" />
             </div> {/*Closing div SlideshowHostPhoto*/}
 
 
-            <div className="datenewsDiv">
+            <div className="datenewsDivMay2024">
             <section className="date">11th May 2024, Saturday</section>
             <section className="newsheader">Day 1 of our holiday in the Isle of Skye - Home to Broadford, Isle of Skye via Loch Lomond, Glencoe and Fort William 292 miles. Depart 8.10 Arrive 16.33</section> 
             <section className="news">Today we (Bernard and Jill) were off on our holiday to Broadford on the Isle of Skye, which is a long but very beautiful drive. Elena and Harry were working back at the house
@@ -41226,7 +41226,7 @@ export default function May2024() {
             </fig>
           </div>
 
-          <div className="datenewsDiv">
+          <div className="datenewsDivMay2024">
             <section className="date">12th May 2024, Sunday</section>
             <section className="newsheader">Day 2 of our holiday in the Isle of Skye - Walk on the Rubha Ardnish Peninsula 5.5 miles</section> 
             <section className="news">
@@ -41243,11 +41243,11 @@ export default function May2024() {
             <br /> <br />The individual comments on the photos will take you through the full story of our trip.</em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
 
-            <img className="slideshowentry" src={BernardIntrepidExplorer} alt="" />
+            <img className="slideshowentryMay" src={BernardIntrepidExplorer} alt="" />
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
 
-            <div className="datenewsDiv">
+            <div className="datenewsDivMay2024">
             <section className="date">13th May 2024, Monday</section>
             <section className="newsheader">Day 3 of our holiday in the Isle of Skye - Walk to Coire Chat-Achan 9 miles</section> 
             <section className="news">
@@ -41285,11 +41285,11 @@ export default function May2024() {
             <br /> <br />The individual comments on the photos will take you through the full story of our trip.</em></strong>
          </div>   {/*Closing div slideshowinstructions*/}
 
-            <img className="slideshowentry" src={JillCoireChatAchanWalk} alt="" />
+            <img className="slideshowentryMay" src={JillCoireChatAchanWalk} alt="" />
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
 
-            <div className="datenewsDiv">
+            <div className="datenewsDivMay2024">
             <section className="date">14th May 2024, Tuesday</section>
             <section className="newsheader">Day 4 of our holiday in the Isle of Skye - Visit to Armadale Castle and Chocolates of Glenshiel</section> 
             <section className="news">
@@ -41324,11 +41324,11 @@ export default function May2024() {
             <br /> <br />The individual comments on the photos will take you through the full story of our trip.</em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
 
-            <img className="slideshowentry" src={JillArmadale} alt="" />
+            <img className="slideshowentryMay" src={JillArmadale} alt="" />
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
 
-            <div className="datenewsDiv">
+            <div className="datenewsDivMay2024">
             <section className="date">15th May 2024, Wednesday</section>
             <section className="newsheader">Day 5 of our holiday in the Isle of Skye - Loch Coruisk Misty Isle Boat Trip and at last, the otter makes an appearance! </section> 
             <section className="news">
@@ -41373,11 +41373,11 @@ export default function May2024() {
              and <Link to="https://youtu.be/u6uCUjkHEMs" target="_blank">See the Otter</Link> </em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
 
-            <img className="slideshowentry" src={BernardLochCoruisk} alt="" />
+            <img className="slideshowentryMay" src={BernardLochCoruisk} alt="" />
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
 
-            <div className="datenewsDiv">
+            <div className="datenewsDivMay2024">
             <section className="date">16th May 2024, Thursday</section>
             <section className="newsheader">Day 6 of our holiday in the Isle of Skye - Scorrybreac and the Bile, Portree and Irishman's Point, Broadford </section> 
             <section className="news">
@@ -41408,11 +41408,11 @@ export default function May2024() {
             </em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
 
-            <img className="slideshowentry" src={PortreeHarbour} alt="" />
+            <img className="slideshowentryMay" src={PortreeHarbour} alt="" />
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
 
-            <div className="datenewsDiv">
+            <div className="datenewsDivMay2024">
             <section className="date">17th May 2024, Friday</section>
             <section className="newsheader">Day 6 of our holiday in the Isle of Skye - Kyle Station Museum, The Original Skye Ferry Crossing from Kylerhea to Glenelgh and the Kylerhea Otter Hide </section> 
             <section className="news">
@@ -41479,15 +41479,18 @@ export default function May2024() {
             </em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
 
-            <img className="slideshowentry" src={FerryOriginalGlenelg} alt="" />
+            <img className="slideshowentryMay" src={FerryOriginalGlenelg} alt="" />
             </strong></Link>
             </div> {/*Closing div SlideshowHostPhoto*/}
 
-            <div className="datenewsDiv">
+            <div className="datenewsDivMay2024">
             <section className="date">18th May 2024, Saturday</section>
             <section className="newsheader">Our return home from the Isle of Skye</section>
             <section className="news">
-             <div style={{textAlign:"center"}}>It was time today to return home from the Isle of Skye and to catch up with news of what Lennie had been up to whilst we had been away....</div>
+             <div style={{textAlign:"center"}}>It was time today to return home from the Isle of Skye and to catch up with news of what Lennie had been up to whilst we had been away....
+              <br />
+              <br />
+             </div>
             </section>
             </div>
   </div>

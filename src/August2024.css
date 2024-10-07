@@ -434,6 +434,64 @@ margin-bottom:5%;
 
 }
 
+@media screen and (min-width:480px) and (max-width:900px){
+
+.slideshowentryAugust {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events:none;
+  width:70%;
+  height:auto;
+  border-radius:100%;
+  margin-top:3%;
+  margin-bottom:5%;
+  -webkit-border-radius:100%;
+  -moz-border-radius:100%;
+  -ms-border-radius:100%;
+  -o-border-radius:100%;
+}  
+
+.blogPhoto1August img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width:70%;
+ height:auto;
+ border: solid #8bb285 4px;
+ border-radius:30px;
+ margin-top:2%;
+ margin-bottom:1%;
+ pointer-events: none;
+ margin-top: 5%;
+ pointer-events: all;
+ }
+
+ .blogPhotoAugust img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width:80%;
+   height:auto;
+   border:solid #8bb285  4px;
+   border-radius:10%;
+   -webkit-border-radius:10%;
+   -moz-border-radius:10%;
+   -ms-border-radius:10%;
+   -o-border-radius:10%;
+}
+
+.blogPhotoDivAugust{
+  display:flex;
+  flex-direction: column;
+  background-color:#eae374 ;
+  padding-bottom: 8%;
+  padding-top: 5%;
+  margin-top:5vh;
+}
+
+}
+
 @media screen and (max-width:601px) {
   body #buttonAugust{
     display:block;
@@ -500,6 +558,11 @@ margin-bottom:5%;
    -o-border-radius:15%;
  } 
 
+ .CongratsMessage {
+  animation: animated-text 3s linear 1s infinite normal both, animated-cursor 1000ms linear infinite;
+  -webkit-animation: animated-text 3s linear 1s infinite normal both, animated-cursor 1000ms linear infinite;
+}
+
  @keyframes cloudAnimationCyclist {
    0% {
      transform: translate(-2000px, 0);
@@ -532,7 +595,7 @@ margin-bottom:5%;
    margin-left: auto;
    margin-right: auto;
    pointer-events:none;
-   width:60%;
+   width:100%;
    height:auto;
    border-radius:100%;
    margin-top:3%;
@@ -542,6 +605,37 @@ margin-bottom:5%;
    -ms-border-radius:100%;
    -o-border-radius:100%;
  }  
+
+ .blogPhoto1August img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  height:auto;
+  border: solid #8bb285 4px;
+  border-radius:30px;
+  margin-top:2%;
+  margin-bottom:1%;
+  pointer-events: none;
+  margin-top: 5%;
+  pointer-events: all;
+  }
+
+  .blogPhotoAugust img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height:auto;
+    border:solid #8bb285  4px;
+    border-radius:10%;
+    -webkit-border-radius:10%;
+    -moz-border-radius:10%;
+    -ms-border-radius:10%;
+    -o-border-radius:10%;
+}
+
+
  
  .CongratsMessage{
   border-right: solid 5px rgba(255,255,255,.75);

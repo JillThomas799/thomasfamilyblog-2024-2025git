@@ -18,9 +18,8 @@
       height:auto;
       /* border:#E0DBD1 solid 5px; */
       border: solid black 2px;
-      border-radius: 25%;
       margin:auto;
-      pointer-events: none;
+      border-radius: 25%;
       -webkit-border-radius: 25%;
       -moz-border-radius: 25%;
       -ms-border-radius: 25%;
@@ -464,10 +463,9 @@ ul li {
  .headerPhotoJuly{
    width:15%;
    height:auto;
+   margin:auto;
    border:#E0DBD1 solid 5px;
    border-radius: 25%;
-   margin:auto;
-   pointer-events: none;
    -webkit-border-radius: 25%;
    -moz-border-radius: 25%;
    -ms-border-radius: 25%;
@@ -498,10 +496,9 @@ margin-bottom:5%;
   .headerPhotoJuly{
    width:70%;
    height:auto;
+   margin:auto;
    border:#E0DBD1 solid 5px;
    border-radius: 25%;
-   margin:auto;
-   /* pointer-events: none; */
    -webkit-border-radius: 25%;
    -moz-border-radius: 25%;
    -ms-border-radius: 25%;

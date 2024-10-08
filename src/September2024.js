@@ -61,7 +61,7 @@ export default function September2024() {
 
           </defs>
 
-          <svg id="swaledaleSheep1" width="100vw" height="83vh">
+          <svg id="swaledaleSheep1" width="100vw" height="83vh" >
             
             <g id="swaledaleSheep1frontlegright"><rect x="618" y="478" rx="6" ry="6" width="7" height="28" fill=" url(#GradLambLeg)" ></rect></g>
             <g id="swaledaleSheep1frontlegleft"><rect x="600" y="478" rx="6" ry="6" width="7" height="28" fill=" url(#GradLambLeg)" ></rect></g>
@@ -94,7 +94,7 @@ export default function September2024() {
             <g id="swaledaleSheep1noseleft"><path d="M 605 435 Q 607 436 610 439" fill="#36454F" /></g>     
           </svg>
 
-          <svg id="swaledaleSheep2" width="100vw" height="83vh" style={{transform:"translate(0px, -40px)"}}>
+          <svg id="swaledaleSheep2" width="100vw" height="83vh" style={{transform:"translate(-300px, -120px)"}}>
             
             <g id="swaledaleSheep2frontlegright"><rect x="453" y="478" rx="6" ry="6" width="7" height="48" fill=" url(#GradLambLeg)" ></rect></g>
             <g id="swaledaleSheep2frontlegleft"><rect x="465" y="478" rx="6" ry="6" width="7" height="48" fill=" url(#GradLambLeg)" ></rect></g>
@@ -132,7 +132,7 @@ export default function September2024() {
           <use xlinkHref="#swaledaleSheep1" x={300} y={150} style={{transform:"scale(2.2)"}} />
           </svg>
 
-         <svg id="sheepAdultLamb2" style={{transform:"scale(50%)"}} >
+         <svg id="sheepAdultLamb2" style={{transform:"scale(55%)"}} >
           <use xlinkHref="#swaledaleSheep2" x={600} y={150} style={{transform:"scale(2.2)"}} />
           </svg>
 

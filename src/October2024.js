@@ -3,6 +3,15 @@ import { Link } from "react-router-dom";
 import './October2024.css';
 import FallingLeaves from 'components/fallingleaves';
 import PenrithStationTitled from './imagesresized/PenrithStationTitled.jpg';
+import AspleyCottageTRIPLive from './imagesresized/AspleyCottageTRIPLive.jpg';
+import FullAuditorium from './imagesresized/FullAuditorium.jpg';
+import AcRsInAction from './imagesresized/AcRsInAction.jpg';
+import AcRs from './imagesresized/AcRs.jpg';
+import PreparingPart2 from './imagesresized/PreparingPart2.jpg';
+import ElenaTripLive from './imagesresized/ElenaTripLive.jpg';
+import AcKkAsRs from './imagesresized/AcKkAsRs.jpg';
+import Alistairbagpipes from './imagesresized/Alistairbagpipes.jpg';
+
 
 
 export default function October2024() {
@@ -86,7 +95,61 @@ export default function October2024() {
             </div> 
             {/*Closing div SlideshowHostPhotoOctober*/}
             
+            <section className="dateOctober">11th October 2024, Friday</section> 
+             <section className="newsheaderOctober">Trip with friends to see REST IS POLITICS LIVE at the O2 Apollo Theatre, Manchester</section> 
+            <section className="newsOctober" style={{textAlign:"center"}}>
+             Today it was time for our long awaited trip with friends to see the Rest of Politics Live Show with Alistair Campbell and Rory Stewart, 
+             and also Katty Kay and Anthony Scaramucci (former White House Director of Communications for Donald Trump) who host The Rest is Politics: US Edition, at the O2 Apollo Theatre, Manchester.
+             <br />
+             <br />
+             We had an early start to pick up Elena and then to drive down to meet and have a lovely lunch at our friends' house. We then headed off into Manchester to try and find some parking 
+             near the O2 Apollo Theatre. It was recommended that we only park on the official O2 car parks, as there are some alternative car parks where there have been reports 
+             of scams. Thankfully, as it was relatively small, we managed to get onto one of the official O2 car parks where we were shown to our place by an extremely entertaining and amusing car park attendant.
+             <br />
+             <br />
+            We were met by an amazing view of a queue of people stretching indefinitely, waiting to enter the theatre, which just did not seem to decrease as people moved into the theatre.
+            It was a phenomenal sight as, whilst we had expected it to be busy, we had not expected the sort of turn out you would expect for someone with pop start status!
+            <br />
+             <br />
+             Meanwhile Robin had spotted the Apsley Cottage pub, where he used to go drinking as a student.... So of course, it needed checking out for old times sake. By the time
+             we finally entered the Apollo Theatre, it was almost time for the show to start. We were pleased to see we had good seats with a great view. The first half was Alistair and 
+             Rory, then there was an interval and for the second half they were joined by Katty Kay and Anthony Scaramucci (former White House Director of Communications for Donald Trump), hosts of The Rest is Politics: US Edition
+             for a question and answer session.
+             <br />
+             <br />
+             It was a brilliant day out which everyone thoroughly enjoyed. It was a long drive back home in the evening, but it had been well worth the effort.
+             
+            </section>
+            <div className="blogPhotoDivOctober">
+            
+            <fig><section className = "blogPhotoOctober" ><img src={AspleyCottageTRIPLive} alt="" /><figcaption className='octoberfigcaption'><strong>We arrived and Robin disappeared immediately <br /> into the Apsley Cottage pub to check out <br /> his old haunt from student days.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoOctober" ><img src={FullAuditorium} alt="" /><figcaption className='octoberfigcaption'><strong>The auditorium was packed full,  <br /> even though there was another show <br /> after this one...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoOctober" ><img src={AcRsInAction} alt="" /><figcaption className='octoberfigcaption'><strong>Alistair Campbell and Rory Stewart <br /> in action...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoOctober" ><img src={AcRs} alt="" /><figcaption className='octoberfigcaption'><strong>We think Rory seems to really be enjoying <br /> these live shows. 
+            Here he is in his <br />  drainpipe trousers, modelling <br /> himself on one of the Beatles...</strong></figcaption></section>
+            </fig>
+            </div>
+
+            < div className="blogPhotoDivOctober">
+            <fig><section className = "blogPhotoOctober" ><img src={PreparingPart2} alt="" /><figcaption className='octoberfigcaption'><strong>The 2 halves were separated by an interval, <br />after which there was a question and answer <br /> session. You could send in your questions...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoOctober" ><img src={ElenaTripLive} alt="" /><figcaption className='octoberfigcaption'><strong>Elena at the interval. We had <br /> really good seats which was great.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoOctober" ><img src={AcKkAsRs} alt="" /><figcaption className='octoberfigcaption'><strong>Alistair Campbell, Katty Kay, Anthony <br /> Scaramucci and Rory Stewart
+              in action <br /> in question  and answers in the second half.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoOctober" ><img src={Alistairbagpipes} alt="" /><figcaption className='octoberfigcaption'><strong>Alistair always ends by playing his bagpipes, so <br /> the show ended to the sound of 'Happy Birthday' <br /> being 
+              played on the bagpipes to celebrate the <br /> birthday of a member of the audience.</strong></figcaption></section>
+            </fig>
+            </div>
+            
             </div> {/* Closing tag datenewsDivOctober */}
+
+            
+
             </div>
           </div>
     );

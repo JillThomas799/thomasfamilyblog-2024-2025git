@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thomasfamilyblog-2024-2025git/static/css/main.6580de4c.css",
-    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.be0b478f.js",
+    "main.css": "/thomasfamilyblog-2024-2025git/static/css/main.3b84ad0c.css",
+    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.1b946019.js",
     "static/js/488.6f20adc3.chunk.js": "/thomasfamilyblog-2024-2025git/static/js/488.6f20adc3.chunk.js",
     "static/media/July2024HeaderPhoto1.jpg": "/thomasfamilyblog-2024-2025git/static/media/July2024HeaderPhoto1.ebaac43aa58c486ac2dc.jpg",
     "static/media/BernardCroglin.jpg": "/thomasfamilyblog-2024-2025git/static/media/BernardCroglin.a894f8d8d663e284915e.jpg",
@@ -155,6 +155,7 @@
     "static/media/DuckDucklings2.jpg": "/thomasfamilyblog-2024-2025git/static/media/DuckDucklings2.c99487681fce68e54b56.jpg",
     "static/media/CatWillPoem.jpg": "/thomasfamilyblog-2024-2025git/static/media/CatWillPoem.1135e2d7242ffd670d55.jpg",
     "static/media/DaffodilsVillageCatApril24.jpg": "/thomasfamilyblog-2024-2025git/static/media/DaffodilsVillageCatApril24.a94e4a3e8da2bf3d6810.jpg",
+    "static/media/FullAuditorium.jpg": "/thomasfamilyblog-2024-2025git/static/media/FullAuditorium.820407bf217a41c32d02.jpg",
     "static/media/BroughamHall.jpg": "/thomasfamilyblog-2024-2025git/static/media/BroughamHall.c99ab571f0c1bab0cb09.jpg",
     "static/media/Deer24042024.jpg": "/thomasfamilyblog-2024-2025git/static/media/Deer24042024.4acae05f453062583af8.jpg",
     "static/media/CelebrationGoldMassam1.jpg": "/thomasfamilyblog-2024-2025git/static/media/CelebrationGoldMassam1.59533a9c77f9b4281837.jpg",
@@ -227,21 +228,28 @@
     "static/media/ElenaBioImage.jpg": "/thomasfamilyblog-2024-2025git/static/media/ElenaBioImage.36b4984c88a81d80048b.jpg",
     "static/media/ViewfromMoerakid1.jpg": "/thomasfamilyblog-2024-2025git/static/media/ViewfromMoerakid1.f53c256b4818e19e0941.jpg",
     "static/media/DevilsPorridgeMuseum.jpg": "/thomasfamilyblog-2024-2025git/static/media/DevilsPorridgeMuseum.79d3622ef43b2ba82ac6.jpg",
+    "static/media/AcKkAsRs.jpg": "/thomasfamilyblog-2024-2025git/static/media/AcKkAsRs.774256619891301605da.jpg",
     "static/media/CharnockStarbucks.jpg": "/thomasfamilyblog-2024-2025git/static/media/CharnockStarbucks.900cd5c378ae0c4e7aba.jpg",
     "static/media/ViewMorecambeBayApril2024.jpg": "/thomasfamilyblog-2024-2025git/static/media/ViewMorecambeBayApril2024.ffa938dbf90bc369d85d.jpg",
     "static/media/LennieAtHome.jpg": "/thomasfamilyblog-2024-2025git/static/media/LennieAtHome.510bd65e388e0b07faef.jpg",
     "static/media/TombAureliaAureliana.jpg": "/thomasfamilyblog-2024-2025git/static/media/TombAureliaAureliana.fb8cd0ba4cc75e3782a7.jpg",
     "static/media/Sundown1Broadford.jpg": "/thomasfamilyblog-2024-2025git/static/media/Sundown1Broadford.7298920000dc2d4e361e.jpg",
+    "static/media/AcRsInAction.jpg": "/thomasfamilyblog-2024-2025git/static/media/AcRsInAction.4f2aeee041b36c19152d.jpg",
     "static/media/PooleyJetty.jpg": "/thomasfamilyblog-2024-2025git/static/media/PooleyJetty.631a624a6633094b2074.jpg",
+    "static/media/AspleyCottageTRIPLive.jpg": "/thomasfamilyblog-2024-2025git/static/media/AspleyCottageTRIPLive.a6c845a183cc5d94cf6f.jpg",
+    "static/media/Alistairbagpipes.jpg": "/thomasfamilyblog-2024-2025git/static/media/Alistairbagpipes.384a1b8a19f437a332f6.jpg",
+    "static/media/AcRs.jpg": "/thomasfamilyblog-2024-2025git/static/media/AcRs.c3738fc6ce62aaf809ca.jpg",
     "static/media/WalterScottsCat.jpg": "/thomasfamilyblog-2024-2025git/static/media/WalterScottsCat.8706b275d26a76262b37.jpg",
     "static/media/FinalAscent.jpg": "/thomasfamilyblog-2024-2025git/static/media/FinalAscent.5d08eacb60f3982fa454.jpg",
     "static/media/Jill2BeyondForestHead24042024.jpg": "/thomasfamilyblog-2024-2025git/static/media/Jill2BeyondForestHead24042024.3a7695a079927ab8cda7.jpg",
     "static/media/ApproachingBroughamHall.jpg": "/thomasfamilyblog-2024-2025git/static/media/ApproachingBroughamHall.6466941fa28b952b77c7.jpg",
+    "static/media/ElenaTripLive.jpg": "/thomasfamilyblog-2024-2025git/static/media/ElenaTripLive.67de1acfb41eee05657e.jpg",
     "static/media/StudyBefore.jpg": "/thomasfamilyblog-2024-2025git/static/media/StudyBefore.1a4634e430e0da423870.jpg",
     "static/media/KitchenFloor2.jpg": "/thomasfamilyblog-2024-2025git/static/media/KitchenFloor2.b112843e40fa7b71a674.jpg",
     "static/media/KitchenWallNew.jpg": "/thomasfamilyblog-2024-2025git/static/media/KitchenWallNew.8c1e53a6acb72a7f8121.jpg",
     "static/media/SkyeBridged1.jpg": "/thomasfamilyblog-2024-2025git/static/media/SkyeBridged1.40474164df60eddefcdc.jpg",
     "static/media/KitchenFloorAfter.jpg": "/thomasfamilyblog-2024-2025git/static/media/KitchenFloorAfter.76a3feb19d979342831a.jpg",
+    "static/media/PreparingPart2.jpg": "/thomasfamilyblog-2024-2025git/static/media/PreparingPart2.45a33a2c6cfe1c317c18.jpg",
     "static/media/LunchFusedale.jpg": "/thomasfamilyblog-2024-2025git/static/media/LunchFusedale.fbd3d90d446bc9128fe7.jpg",
     "static/media/DevilsPorridgeCafe.jpg": "/thomasfamilyblog-2024-2025git/static/media/DevilsPorridgeCafe.e2631234ae9875c372d3.jpg",
     "static/media/JillMoerakid1.jpg": "/thomasfamilyblog-2024-2025git/static/media/JillMoerakid1.e9544610588aca931628.jpg",
@@ -255,12 +263,12 @@
     "static/media/BustWalterScott.jpg": "/thomasfamilyblog-2024-2025git/static/media/BustWalterScott.0eb935a19fd2bf0fffcb.jpg",
     "static/media/SunsetCumbria.jpg": "/thomasfamilyblog-2024-2025git/static/media/SunsetCumbria.c9706035842ca9c716d5.jpg",
     "index.html": "/thomasfamilyblog-2024-2025git/index.html",
-    "main.6580de4c.css.map": "/thomasfamilyblog-2024-2025git/static/css/main.6580de4c.css.map",
-    "main.be0b478f.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.be0b478f.js.map",
+    "main.3b84ad0c.css.map": "/thomasfamilyblog-2024-2025git/static/css/main.3b84ad0c.css.map",
+    "main.1b946019.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.1b946019.js.map",
     "488.6f20adc3.chunk.js.map": "/thomasfamilyblog-2024-2025git/static/js/488.6f20adc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6580de4c.css",
-    "static/js/main.be0b478f.js"
+    "static/css/main.3b84ad0c.css",
+    "static/js/main.1b946019.js"
   ]
 }

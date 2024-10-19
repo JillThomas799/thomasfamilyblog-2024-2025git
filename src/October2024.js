@@ -11,6 +11,10 @@ import PreparingPart2 from './imagesresized/PreparingPart2.jpg';
 import ElenaTripLive from './imagesresized/ElenaTripLive.jpg';
 import AcKkAsRs from './imagesresized/AcKkAsRs.jpg';
 import Alistairbagpipes from './imagesresized/Alistairbagpipes.jpg';
+import LaFuga from './imagesresized/LaFuga.jpg';
+import UUHardatwork from './imagesresized/UUHardatwork.jpg';
+import AnatomyHole from './imagesresized/AnatomyHole.jpg';
+import Repairsite from './imagesresized/Repairsite.jpg';
 
 
 
@@ -146,12 +150,50 @@ export default function October2024() {
             </fig>
             </div>
             
-            </div> {/* Closing tag datenewsDivOctober */}
+           
+
+            <section className="dateOctober">16th October 2024, Wednesday</section> 
+             <section className="newsheaderOctober">    THE DAY OF NO WATER......!</section> 
+            <section className="newsOctober" style={{textAlign:"center"}}>
+            We woke this morning and went to turn on the shower only to discover.....there was no water!<br /> <br /> 
+            We went to explore what the problem might be and soon identified the source, as overnight we appeared to have developed a new garden feature .... a spring, 
+            so it was time to identify who was responsible for the maintenance and repair of the affected part of the network and a number of urgent telephone calls ensued.
+            <br /> 
+            <br />             
+            We discovered that it was the water company, United Utilities who needed to come out to assess and undertake the repair. With all due respect to United Utilities it was 
+            a reasonably efficient process with us being updated by text every step of the way. 
+            <br /> 
+            <br />  
+            They have 3 teams; the first to come and assess the problem, the second team to undertake
+            the repair and the third team to undertake the back-fill and tidying of the site to how it was before. 
+            Teams 1 and 2 came out very promptly that day, not least because our supply appeared to be a high-pressure supply
+            , suitable for manning a fire-hydrant should there be a fire at the farm at our rear or at our 4 properties on the hill. This meant that 
+            United Utilities were losing a significant amount of water per minute from their supply. Apparently the problem was that a stopcock had sheared and broken,
+            so once this had been identified, repair was soon underway and before long the water supply reestablished.
+            <br /> 
+            <br />  
 
             
+            </section>
+            <div className="blogPhotoDivOctober">
+            
+            <fig><section className = "blogPhotoOctober" ><img src={LaFuga} alt="" /><figcaption className='octoberfigcaption'><strong>Our new garden feature of a spring, <br /> otherwise known as 'the leak'.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoOctober" ><img src={UUHardatwork} alt="" /><figcaption className='octoberfigcaption'><strong>The men from United Utilities, hard <br /> at work in the rain to stop the flood.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoOctober" ><img src={AnatomyHole} alt="" /><figcaption className='octoberfigcaption'><strong>The anatomy of the hole, <br /> with the stopcock now replaced.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoOctober" ><img src={Repairsite} alt="" /><figcaption className='octoberfigcaption'><strong>All secure. The 3rd team now just <br /> need to attend to undertake the back-fill.</strong></figcaption></section>
+            </fig>
+            </div>
+
+            
+            
+            </div> {/* Closing tag datenewsDivOctober */}
 
             </div>
           </div>
+          
     );
 };
 

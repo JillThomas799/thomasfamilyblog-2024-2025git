@@ -15,6 +15,10 @@ import LaFuga from './imagesresized/LaFuga.jpg';
 import UUHardatwork from './imagesresized/UUHardatwork.jpg';
 import AnatomyHole from './imagesresized/AnatomyHole.jpg';
 import Repairsite from './imagesresized/Repairsite.jpg';
+import LennieBed from './imagesresized/LennieBed.jpg';
+import LennieFire16102024 from './imagesresized/LennieFire16102024.jpg';
+import LenniePlaystation from './imagesresized/LenniePlaystation.jpg';
+import LennieStudying from './imagesresized/LennieStudying.jpg';
 
 
 
@@ -150,8 +154,6 @@ export default function October2024() {
             </fig>
             </div>
             
-           
-
             <section className="dateOctober">16th October 2024, Wednesday</section> 
              <section className="newsheaderOctober">    THE DAY OF NO WATER......!</section> 
             <section className="newsOctober" style={{textAlign:"center"}}>
@@ -186,6 +188,24 @@ export default function October2024() {
             <fig><section className = "blogPhotoOctober" ><img src={Repairsite} alt="" /><figcaption className='octoberfigcaption'><strong>All secure. The 3rd team now just <br /> need to attend to undertake the back-fill.</strong></figcaption></section>
             </fig>
             </div>
+
+            <section className="dateOctober">17th October 2024, Thursday</section> 
+             <section className="newsheaderOctober">Time for a Lennie update....</section> 
+            <section className="newsOctober" style={{textAlign:"center"}}>
+            We have realised that Lennie has not featured much recently, so we thought we would add a brief update of what he has been up to.....
+            </section>
+            <div className="blogPhotoDivOctober">
+            
+            <fig><section className = "blogPhotoOctober" ><img src={LennieBed} alt="" /><figcaption className='octoberfigcaption'><strong>Lennie is always trying to sneak on to the beds. <br /> Usually he does not succeed, but here he is <br /> on Elena's bed, having been successful.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoOctober" ><img src={LennieFire16102024} alt="" /><figcaption className='octoberfigcaption'><strong>Lennie has been trying to get us <br /> to light the log fire for ages, ...here he is <br /> last night, having been successful <br /> for the first time this Autumn.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoOctober" ><img src={LenniePlaystation} alt="" /><figcaption className='octoberfigcaption'><strong>Lennie does not like to feel left out. <br /> Here he is playing on the <br /> play station game ....</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoOctober" ><img src={LennieStudying} alt="" /><figcaption className='octoberfigcaption'><strong>Lennie is studying hard, <br /> the 'Terms and Conditions <br /> for cat owners.'... He thinks <br /> they may need some revision.</strong></figcaption></section>
+            </fig>
+            </div>
+
 
             
             

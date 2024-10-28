@@ -103,6 +103,14 @@ export default function October2024() {
             </Link>
             </div> 
             {/*Closing div SlideshowHostPhotoOctober*/}
+
+            <section className="dateOctober">10th - 26th October 2024</section> 
+             <section className="newsheaderOctober">    Friends and relatives come to visit...</section> 
+            <section className="newsOctober" style={{textAlign:"center"}}>
+          A big thank you to all our friends and relatives who have taken the time to call in to see us during this period including: Paul and Kamla on the 10th October,
+           Tom on the 22nd October and Phil and Claire on the 23rd - 26th October.
+          It has been great to see everyone, we really enjoyed it together with catching up on the news.
+            </section>
             
             <section className="dateOctober">11th October 2024, Friday</section> 
              <section className="newsheaderOctober">Trip with friends to see REST IS POLITICS LIVE at the O2 Apollo Theatre, Manchester</section> 

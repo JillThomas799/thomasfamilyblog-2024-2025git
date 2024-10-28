@@ -19,6 +19,7 @@ import LennieBed from './imagesresized/LennieBed.jpg';
 import LennieFire16102024 from './imagesresized/LennieFire16102024.jpg';
 import LenniePlaystation from './imagesresized/LenniePlaystation.jpg';
 import LennieStudying from './imagesresized/LennieStudying.jpg';
+import WinterDroving2024Title from "./imagesresized/WinterDroving2024Title.jpg";
 
 
 
@@ -206,7 +207,65 @@ export default function October2024() {
             </fig>
             </div>
 
+            <section className="dateOctober">26th October 2024, Saturday</section> 
+             <section className="newsheaderOctober">Winter Droving, Penrith, in which Paddington Bear also makes an appearance....</section> 
+            <section className="newsOctober" style={{textAlign:"center"}}>
+            Winter Droving in Penrith, Cumbria is an annual cultural event created by Eden Arts which is usually held in the last week of October and which started in 2012. 
+            It has grown in popularity each year and these days can see around 20,000 people attending annually. The motto of the festival is “turn your clocks back 400 years” and it marks the end of 
+            the harvest season and the beginning of the "darker half" of the year in a celebration of light, fire and rural life. 
+            There are torch-led processions and people wear animal effigies and masks.
+            <br />
+            <br />
+            During Winter Droving, the centre of the town is closed to traffic and there are stalls selling traditional mulled wine and hot chestnuts, alongside local produce including world foods, vegan and 
+            vegetarian cuisine, giftware, local artists’ works, quirky clothing and charity stalls. The day begins with a fancy dress competition for dogs, and there are
+            live musicians, street performances, drumming bands, carnival street shows and tug of war before the torch-led parade once it goes dark in the evening. 
+            <br />
+            <br />
+            This year was even better as Paddington Bear was visiting town! 23 Paddington Bear statues have been installed on benches throughout the UK from John O’Groats to Land's End, 
+            and Penrith has been very lucky as it is the only place in Cumbria to host a statue. Other locations Paddington will be visiting include: Ashby
+• Birmingham
+• Bury St Edmunds
+• Cardiff
+• Chester
+• County Mayo
+• Edinburgh
+• John O’ Groats
+• Lanark
+• Land’s End
+• Liverpool
+• London Paddington
+• London Westfield
+• Manchester
+• Newbury
+• Newtownards
+• Penrith
+• Peterborough
+• Reading
+• Salisbury
+• Southampton
+• Sunderland
+• York. 
+<br />
+<br />
 
+The Paddington Visits have been launched by the film company STUDIOCANAL ahead of Paddington bear’s latest cinematic outing, 
+Paddington in Peru, which will be released in UK and Ireland cinemas on November 8 2024. See whether you can spot Paddington in our Winter Droving album?
+ 
+ </section>
+
+            
+
+            <div className="SlideshowHostPhotoOctober">
+            <Link to ="https://photos.app.goo.gl/WtnnTBECNbttWMoY8" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our trip to London and the Silk Roads Exhibition." ><strong>
+            <div className="slideshowinstructionsOctober"> Click on the image below to open the photo album of Winter Droving, Penrith. 
+            <br /> <br />The individual comments on the photos will take you through the full story of our experience.
+            </div>   {/*Closing div slideshowinstructionsOctober*/}
+
+            <img className="slideshowentryOctober" src={WinterDroving2024Title} alt="" />
+            </strong> 
+            </Link>
+            </div> 
+            {/*Closing div SlideshowHostPhotoOctober*/}
             
             
             </div> {/* Closing tag datenewsDivOctober */}

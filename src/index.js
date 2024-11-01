@@ -18,6 +18,7 @@ import { JillBio } from 'indexbiojill';
 import { HarryBio } from 'indexbioharry';
 import { LennieBio } from 'indexbiolennie';
 import October2024 from 'October2024';
+import November2024 from 'November2024';
 
 
 
@@ -74,6 +75,12 @@ const router = createBrowserRouter(
     {
       path: '/october2024',
       element: <October2024/>,
+      errorElement: <ErrorPage/>
+    },
+
+    {
+      path: '/november2024',
+      element: <November2024/>,
       errorElement: <ErrorPage/>
     },
 

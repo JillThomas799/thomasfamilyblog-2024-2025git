@@ -1,3 +1,4 @@
+
 .May2024header {
   display:block;
   text-align: center;
@@ -10,11 +11,8 @@
   background: #e1eae7;
   position:absolute;
 
-  #May2024title {
-  display:block;
-  text-align: center;
-  margin-top:2%;
-  color: 	#52555c;
+  .May2024Title {
+ color: white;
 }
 
 #backbuttonMay{
@@ -35,6 +33,15 @@
   -ms-border-radius:15%;
   -o-border-radius:15%;
 } 
+}
+
+#Layer_1{
+  transform:scale(0.6);
+  -webkit-transform:scale(0.6);
+  -moz-transform:scale(0.6);
+  -ms-transform:scale(0.6);
+  -o-transform:scale(0.6);
+  border: gray solid 10px;
 }
 
 .backbuttonLink{

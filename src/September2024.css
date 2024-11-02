@@ -181,7 +181,7 @@ font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'
   text-decoration: underline;
 }
 
-#swaledaleSheep1{
+#swaledaleSheepS1{
   transform: translate(-150px,-300px);
   -webkit-transform: translate(-150px,-300px);
   -moz-transform: translate(-150px,-300px);
@@ -190,7 +190,7 @@ font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'
   overflow: visible;
 }
    
-   #swaledaleSheep2{
+   #swaledaleSheepS2{
      transform: translate(-600px,0px);
      -webkit-transform: translate(-600px,0px);
      -moz-transform: translate(-600px,0px);
@@ -199,12 +199,12 @@ font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif'
      overflow: visible;
 }
 
-#sheepAdultLamb1{
+#sheepAdultLambS1{
   overflow-x: visible;
   overflow-y: visible;
 }
 
-#sheepAdultLamb2{
+#sheepAdultLambS2{
   overflow-x: visible;
   overflow-y: visible;
 }
@@ -439,7 +439,7 @@ animation:  8s  rotate-text-up linear infinite;
 /*@media queries for the sheep and cows*/
  @media screen and (min-width:480px) and (max-width:900px){
   /*To ensure on ipad screens and larger mobiles (min-width 480px, max-width 900px) that the sheep and lambs are correctly positioned*/
-#swaledaleSheep1{ 
+#swaledaleSheepS1{ 
 transform: translate(-200px,0px); 
 -webkit-transform: translate(-200px,0px); 
 -moz-transform: translate(-200px,0px); 
@@ -448,7 +448,7 @@ transform: translate(-200px,0px);
 overflow: visible;
 }
  
- #swaledaleSheep2{
+ #swaledaleSheepS2{
    transform: translate(-600px,0px);
    -webkit-transform: translate(-600px,0px);
    -moz-transform: translate(-600px,0px);
@@ -487,7 +487,7 @@ overflow: visible;
     -o-border-radius:80%;
   }
 
-  #swaledaleSheep1{
+  #swaledaleSheepS1{
     transform:scale(120%) translate(-350px,-300px);
     -webkit-transform:scale(120%) translate(-350px,-300px);
     -moz-transform:scale(120%) translate(-350px,-300px);
@@ -496,7 +496,7 @@ overflow: visible;
     overflow: visible;
 }
    
-   #swaledaleSheep2{
+   #swaledaleSheepS2{
      transform: scale(100%) translate(-600px,-100px);
      -webkit-transform: scale(100%) translate(-600px,-100px);
      -moz-transform: scale(100%) translate(-600px,-100px);
@@ -548,7 +548,7 @@ overflow: visible;
       -o-border-radius:80%;
     }
 
-  #swaledaleSheep1{
+  #swaledaleSheepS1{
     transform:scale(120%) translate(-580px,-200px);
     -webkit-transform:scale(120%) translate(-580px,-200px);
     -moz-transform:scale(120%) translate(-580px,-200px);
@@ -557,7 +557,7 @@ overflow: visible;
     overflow: visible;
 }
    
-   #swaledaleSheep2{
+   #swaledaleSheepS2{
      transform: scale(100%) translate(-600px,-100px);
      -webkit-transform: scale(100%) translate(-600px,-100px);
      -moz-transform: scale(100%) translate(-600px,-100px);

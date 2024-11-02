@@ -33,9 +33,10 @@ export default function May2024() {
         <button id="backbutton">
           <Link to="/" className="backbuttonLink">Back</Link>
         </button>
-      </div>
-      <h1>May 2024</h1>
-
+        </div> 
+    <h1 style={{borderRadius:"0%"}}>May 2024</h1>
+           
+      
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -47,8 +48,7 @@ export default function May2024() {
       viewBox="0 0 375 500"
       enableBackground="new 0 0 375 500"
       xmlSpace="preserve"
-      
-    >
+      >
       <path
         fill="#2B2308"
         opacity={1.0}
@@ -41018,7 +41018,7 @@ export default function May2024() {
         d=" M164.846039,209.124115   C164.933578,210.001053 164.752197,210.767624 164.376389,211.755646   C163.215195,210.842834 161.516647,209.611008 164.846039,209.124115  z"
       />
     </svg>
-
+    
 <div className="datenewsDivMay2024">
             <section className="date">1st - 31st May 2024</section>
             <section className="newsheader">Welcome to our May 2024 blog</section> 

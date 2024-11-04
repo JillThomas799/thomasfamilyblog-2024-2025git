@@ -20,12 +20,15 @@ import GreatAshbyScar from './imagesresized/GreatAshbyScar.jpg';
 
 export default function September2024() {
     return (
-      <div style={{backgroundColor:"#98964D"}}>
-        <div className="SeptemberHeader"> 
-          <button id="backbuttonSeptember">
+      <div style={{backgroundColor:"#504F22"}}>
+      <div className="SeptemberheaderDisplay" style={{backgroundColor:"#98964D"}}>
+        <div> 
+          <button id="backbuttonSeptember" style={{Color:"#000000"}}>
             <Link to="/" className="backbuttonLink">Back</Link>
           </button>
         </div>
+    
+        <div className="SeptemberHeader2024">September 2024</div>
         <svg className="CowsAndSheep" version="1.1" x="0" y="20" width="100%" height="50vh" viewBox="0 0 -60 0" style={{overflow:"visible"}}>
           <defs>
           <radialGradient id="Gradsheepfur" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -135,13 +138,9 @@ export default function September2024() {
          <svg id="sheepAdultLambS2" style={{transform:"scale(55%)"}} >
           <use xlinkHref="#swaledaleSheepS2" x={600} y={150} style={{transform:"scale(2.2)"}} />
           </svg>
-
-          
+        
          </svg>
-        
-        
-        <div className="SeptemberHeader">September 2024</div>
-        
+         </div>  {/* Closing tag SeptemberheaderDisplay*/ } 
 
         <div className="datenewsDivSeptember" style={{marginTop:"5%"}}>
             <section className="newsheaderSeptember">Welcome to our September 2024 blog</section> 

@@ -21,7 +21,7 @@
   color:black;
   top:10%;
   text-decoration: underline;
-  margin: 5% 20% 5% 80%;
+  margin: 5% 25% 5% 75%;
   border-radius:15%;
   -webkit-border-radius:15%;
   -moz-border-radius:15%;
@@ -481,6 +481,13 @@ overflow: visible;
     margin-top:2%;
   }
 
+  .SeptemberheaderDisplay{
+    background-color:"#98964D";
+    padding-bottom:15%;
+    border: solid #eec170 8px;
+    padding-bottom: 20%;
+  }
+
   .slideshowentrySeptember {
     display: column;
     justify-content: center;
@@ -536,7 +543,15 @@ overflow: visible;
     font-weight: bold;    width: 100vw;
     height:auto;
     position:absolute; 
+    padding-bottom: 20%;
     } 
+
+    .SeptemberheaderDisplay{
+      background-color:"#98964D";
+      padding-bottom:15%;
+      border: solid #eec170 8px;
+      padding-bottom: 25%;
+    }
 
     .newsheaderSeptember{
       margin-top:20%;
@@ -610,7 +625,7 @@ font-size:1.0rem;
  
 /*To ensure on screens less than 362px, display of all items is optimised and scaled for the smaller display.*/
 @media screen and (max-width:361px){
-  .SeptemberHeader {
+  .SeptemberHeader2024 {
     display:block;
     text-align: center;
     font-size: 26px;
@@ -618,7 +633,15 @@ font-size:1.0rem;
     font-weight: bold;    width: 100vw;
     height:auto;
     position:absolute; 
+    padding-bottom: 20%;
     } 
+
+    .SeptemberheaderDisplay{
+      background-color:"#98964D";
+      padding-bottom:15%;
+      border: solid #eec170 8px;
+      padding-bottom: 20%;
+    }
 
     .newsheaderSeptember{
       margin-top:20%;
@@ -643,11 +666,11 @@ font-size:1.0rem;
     }
 
   #swaledaleSheepS1{
-    transform:scale(100%) translate(-650px,-300px);
-    -webkit-transform:scale(100%) translate(-650px,-300px);
-    -moz-transform:scale(100%) translate(-650px,-300px);
-    -ms-transform:scale(100%) translate(-650px,-300px);
-    -o-transform:scale(100%) translate(-650px,-300px);
+    transform:scale(90%) translate(-900px,-300px);
+    -webkit-transform:scale(90%) translate(-900px,-300px);
+    -moz-transform:scale(90%) translate(-900px,-300px);
+    -ms-transform:scale(90%) translate(-900px,-300px);
+    -o-transform:scale(90%) translate(-900px,-300px);
     overflow: visible;
 }
    

@@ -269,10 +269,10 @@ clip-path: polygon(44% 99%, 41% 99%, 35% 98%, 29% 97%, 24% 93%, 21% 86%, 20% 80%
 
 @media screen and (max-width: 401px){
   .FireworkContainer{
-    transform: scale(0.8) ;
-    -webkit-transform: scale(0.8) ;
-    -moz-transform: scale(0.8) ;
-    -ms-transform: scale(0.8) ;
-    -o-transform: scale(0.8) ;
+    transform: scale(0.75) ;
+    -webkit-transform: scale(0.75) ;
+    -moz-transform: scale(0.75) ;
+    -ms-transform: scale(0.75) ;
+    -o-transform: scale(0.75) ;
 }
 }

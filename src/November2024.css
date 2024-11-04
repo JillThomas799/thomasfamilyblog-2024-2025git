@@ -347,6 +347,14 @@
     -o-transform: scale(0.8)  ;
 }
 
+.titleNovember{
+  color: #ffd200;
+  font-weight: bold;
+  font-size: 56px;
+  margin-top: 25%;
+  
+}
+
 /* .pyro{
   transform: scale(0.9)  ;
   -webkit-transform: scale(0.9)  ;

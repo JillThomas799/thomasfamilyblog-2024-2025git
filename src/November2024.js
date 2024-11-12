@@ -6,6 +6,10 @@ import SycamoreExhibition1 from './imagesresized/SycamoreExhibition1.jpg';
 import SycamoreExhibition2 from './imagesresized/SycamoreExhibition2.jpg';
 import SycamoreExhibition3 from './imagesresized/SycamoreExhibition3.jpg';
 import SycamoreExhibition4 from './imagesresized/SycamoreExhibition4.jpg';
+import Birdoswald1Nov2nd2024 from './imagesresized/Birdoswald1Nov2nd2024.jpg';
+import Birdoswald2Nov2nd2024 from './imagesresized/Birdoswald2Nov2nd2024.jpg';
+import Birdoswald3Nov2nd2024 from './imagesresized/Birdoswald3Nov2nd2024.jpg';
+import Birdoswald4Nov2nd2024 from './imagesresized/Birdoswald4Nov2nd2024.jpg';
 
 export default function November2024() {
 
@@ -64,9 +68,12 @@ export default function November2024() {
             <br />  
             As part of the Trees of Hope initiative, all 15 UK National Parks will also receive a sapling that will find new homes 
             in some of the most beautiful landscapes in the UK.
-
-            
+            <br /> 
+            <br /> 
+            For all the information about our Hadrian's Wall Path trek this Summer, please come and join us at our  
+            <Link to="/hwp2024" className="LinkNovember"> Hadrian's Wall Path Expedition page. </Link>
             </section>
+            
             <div className="blogPhotoDivNovember">
             
             <fig><section className = "blogPhotoNovember" ><img src={SycamoreExhibition1} alt="" /><figcaption className='Novemberfigcaption'><strong>The largest section of the original  < br /> tree’s wood forms the centre piece <br />  of the exhibition display, as can <br /> be seen here.</strong></figcaption></section>
@@ -79,9 +86,37 @@ export default function November2024() {
             </fig>
             </div>
 
-</ div> {/*Closing div November2024header*/}
+                      
+            <section className="dateNovember">2nd November 2024, Saturday</section>
+            <section className="newsheaderNovember"><strong>ADDITIONAL DAY - CATCH-UP VISIT TO BIRDOSWALD FORT</strong></section>
+             <section className="newsNovember" style={{textAlign:"center"}}>
+           When we walked the Birdowswald Fort section of Hadrian's Wall on the 28th July 2024, there was not time to call in and explore the fort more fully, so we promised
+           that sometime over the quieter Winter months we would pay Birdoswald Fort a visit, especially as Harry had never had the opportunity to visit.
+            <br /> 
+            <br />  
+            It was lovely and quiet at the fort, so there was plenty of opportunity and time to study the information boards and findings carefully. 
+            It is an interesting fort and well worth a visit if you are in the area! It is probably worthwhile obtaining a copy of the English Heritage guidebook 
+            though as it contains some additional helpful information to provide further clarification.
+            <br /> 
+            <br /> 
+            For all the information about our Hadrian's Wall Path trek this Summer, please come and join us at our  
+            <Link to="/hwp2024" className="LinkNovember"> Hadrian's Wall Path Expedition page. </Link>
+            </section>                
 
-        </div> 
+            <div className="blogPhotoDivNovember">            
+            <fig><section className = "blogPhotoNovember" ><img src={Birdoswald1Nov2nd2024} alt="" /><figcaption className='Novemberfigcaption'><strong>Birdoswald Farmhouse, which <br /> stands on the site of the old Roman Fort Banna.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={Birdoswald2Nov2nd2024} alt="" /><figcaption className='Novemberfigcaption'><strong>We are standing here on the Via Principalis, <br /> about to enter what was the West Gate.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={Birdoswald3Nov2nd2024} alt="" /><figcaption className='Novemberfigcaption'><strong>There are helpful information boards, <br /> this one concerning the West Gate.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={Birdoswald4Nov2nd2024} alt="" /><figcaption className='Novemberfigcaption'><strong>It is well worth purchasing this <br /> English Heritage guidebook <br /> about the fort as it provides <br /> more detailed information.</strong></figcaption></section>
+            </fig>
+           </div>
+
+           </div>
+           </div>
         
-        );
+        
+    )
         };

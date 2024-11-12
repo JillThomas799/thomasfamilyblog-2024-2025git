@@ -32,6 +32,15 @@ import GreatNorthern from "./imagesresized/GreatNorthern.jpg";
 import MithrasAltar from "./imagesresized/MithrasAltar.jpg";
 import DisplayGreatNorthern from "./imagesresized/DisplayGreatNorthern.jpg";
 import TombAureliaAureliana from "./imagesresized/TombAureliaAureliana.jpg";
+import SycamoreExhibition1 from './imagesresized/SycamoreExhibition1.jpg';
+import SycamoreExhibition2 from './imagesresized/SycamoreExhibition2.jpg';
+import SycamoreExhibition3 from './imagesresized/SycamoreExhibition3.jpg';
+import SycamoreExhibition4 from './imagesresized/SycamoreExhibition4.jpg';
+import Birdoswald1Nov2nd2024 from './imagesresized/Birdoswald1Nov2nd2024.jpg';
+import Birdoswald2Nov2nd2024 from './imagesresized/Birdoswald2Nov2nd2024.jpg';
+import Birdoswald3Nov2nd2024 from './imagesresized/Birdoswald3Nov2nd2024.jpg';
+import Birdoswald4Nov2nd2024 from './imagesresized/Birdoswald4Nov2nd2024.jpg';
+
 
 
 
@@ -1598,12 +1607,87 @@ There have been 3 Redheugh Bridges spanning the River Tyne and currently carryin
           </div>
            </div> {/* Closing tag datenewsDivHwp */}
       </div>
+
+      <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>ADDITIONAL DAY - VISIT TO THE SYCAMORE GAP EXHIBITION AT THE SILL</strong></section>
+            <section className="dateHwp">1st November 2024, Friday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails"> 
+            <div className="hwpDailyNarrative">
+            We took the time today to go to see the temporary exhibition entitled 'Sycamore Gap: One Year On'
+            by the artist Charlie Whinney which is being hosted at 'The Sill' between the 28th September and the 3rd November 2024. The Guardian newspaper recently 
+            published an article regarding this exhibition which can be read here: <Link to="https://www.theguardian.com/uk-news/2024/sep/27/sycamore-gap-tree-exhibition-opens-to-mark-a-year-since-its-felling"
+            target="_black" title="Click here ot open Guardian article re the Sycamore Gap tree exhibition 27th September 2027" className="LinkHWP">Sycamore Gap Tree Exhibition opens to mark a year since its felling</Link>.
+            <br />
+            <br />
+            The felling of the Sycamore Gap Tree in the early hours of the morning on the 28th September 2023 gained widespread media coverage with people from all over the world adding 
+            their contributions as to the significance of this particular tree to their lives and experiences. As a result of this and in order to try and gain something hopeful and positive 
+            out of such a destructive event, the artist Charlie Whinney and Creative Communities CIC, have created the Sycamore Gap: One Year On exhibition. 
+            <br /> 
+            <br />  
+            This exhibition encourages contemplation of events and features the largest remaining section of the original tree. 
+            As part of the exhibition, it seeks the participation of the public with visitors being invited to make promises to nature, which will be incorporated into the second and final phase of the commission, set to open by Easter 2025. 
+            It is the first part of a 2 part exhibition in which the second and final part will see the wood installed permanently into The Sill and this will open by Easter 2025.
+            <br /> 
+            <br />  
+            As part of the Trees of Hope initiative, all 15 UK National Parks will also receive a sapling that will find new homes 
+            in some of the most beautiful landscapes in the UK.
+                        <br />
+            <br />
+           
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            </div>
+            </div>
+
+            <div className="blogPhotoDivHwp">
+            
+            <fig><section className = "blogPhoto" ><img src={SycamoreExhibition1} alt="" style={{border: "solid 4px #D5544F"}} /><figcaption className='augustfigcaption'><strong>The largest section of the original  < br /> tree’s wood forms the centre piece <br />  of the exhibition display, as can <br /> be seen here.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={SycamoreExhibition2} alt="" style={{border: "solid 4px #D5544F"}} /><figcaption className='augustfigcaption'><strong>It is framed by the artwork <br /> of the wood behind....</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={SycamoreExhibition3} alt="" style={{border: "solid 4px #D5544F"}} /><figcaption className='augustfigcaption'><strong>There are additional alcoves to the exhibition <br /> containing galleries where people have sent in <br /> their  own pictures of the Sycamore Gap tree</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={SycamoreExhibition4} alt="" style={{border: "solid 4px #D5544F"}} /><figcaption className='augustfigcaption'><strong>As well as the pictures shown here, <br /> there are also books of people's <br /> descriptions of what they were doing <br /> when they heard about the tree's < br /> abrupt and unexpected demise.</strong></figcaption></section>
+            </fig>
+            </div>
+
+            </div>
+
+            <div className="datenewsDivHwp">
+            <section className="newsheaderHwp"><strong>ADDITIONAL DAY - CATCH-UP VISIT TO BIRDOSWALD FORT</strong></section>
+            <section className="dateHwp">2nd November 2024, Saturday</section>
+             <div className="newsHwp">
+             <div className="componentWalkDetails"> 
+            <div className="hwpDailyNarrative">
+           When we walked the Birdowswald Fort section of Hadrian's Wall on the 28th July 2024, there was not time to call in and explore the fort more fully, so we promised
+           that sometime over the quieter Winter months we would pay Birdoswald Fort a visit, especially as Harry had never had the opportunity to visit.
+            <br /> 
+            <br />  
+            It was lovely and quiet at the fort, so there was plenty of opportunity and time to study the information boards and findings carefully. 
+            It is an interesting fort and well worth a visit if you are in the area! It is probably worthwhile obtaining a copy of the English Heritage guidebook 
+            though as it contains some additional helpful information to provide further clarification.
+         
+            </div> {/*Closing tag for hwpDailyNarrative div */}
+            </div>
+            </div>
+
+            <div className="blogPhotoDivHwp">
+            
+            <fig><section className = "blogPhoto" ><img src={Birdoswald1Nov2nd2024} alt="" style={{border: "solid 4px #D5544F"}} /><figcaption className='augustfigcaption'><strong>Birdoswald Farmhouse, <br /> which stands on the site <br />  of the old Roman Fort Banna.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={Birdoswald2Nov2nd2024} alt="" style={{border: "solid 4px #D5544F"}} /><figcaption className='augustfigcaption'><strong>We are standing here <br /> on the Via Principalis, <br /> about to enter what <br />  was the West Gate.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={Birdoswald3Nov2nd2024} alt="" style={{border: "solid 4px #D5544F"}} /><figcaption className='augustfigcaption'><strong>There are helpful information <br /> boards, this one concerning <br /> the West Gate.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhoto" ><img src={Birdoswald4Nov2nd2024} alt="" style={{border: "solid 4px #D5544F"}} /><figcaption className='augustfigcaption'><strong>This English Heritage guidebook <br /> about the fort  is worth <br /> purchasing as it provides <br /> more detailed information.</strong></figcaption></section>
+            </fig>
+           
+            </div>
+
+            </div>
      
       </div> 
-      
-      
-      
-      
+       
     );
 
   }

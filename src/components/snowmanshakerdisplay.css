@@ -35,7 +35,10 @@
     }
   }
   
-  .canvas:active {
+  /* CSS:active pseudo-class, The :active pseudo-class is used to select and style an element that is being activated by the user.
+The :active pseudo-class is most used on <a> and <button> elements. A link becomes activated when the user clicks on it, the same goes for a button.
+Refer to this link for further information https://www.w3schools.com/cssref/sel_active.php */
+  .canvas:active {                            
     animation: shake 1s infinite;
     -webkit-animation: shake 1s infinite;
 }
@@ -54,11 +57,13 @@
     bottom: 0;
     left: 20%;
     border-radius: 100% / 40%;
-    background:
-      radial-gradient(100% 50% at 50% 14%, #000, #0000 80%),
-      linear-gradient(to right, #0004, #0000, #0004);
+    background:      radial-gradient(100% 50% at 50% 14%, #000, #0000 80%),      linear-gradient(to right, #0004, #0000, #0004);
     background-color: #222;
-  }
+    -webkit-border-radius: 100% / 40%;
+    -moz-border-radius: 100% / 40%;
+    -ms-border-radius: 100% / 40%;
+    -o-border-radius: 100% / 40%;
+}
   
    .base ~ .base {
     -webkit-mask: radial-gradient(100% 50% at 50% 14%, #0000 50%, #000 51%);
@@ -201,18 +206,14 @@
     left: 50%;
     bottom: 23%;
     transform: translate(-50%, 0);
-    /* From Clippy by Bennett Feely */
-  /* clip-path: polygon(18% 100%, 24% 91%, 25% 85%, 25% 76%, 17% 84%, 11% 86%, 3% 86%, 1% 78%, 3% 70%, 14% 63%, 19% 55%, 24% 49%, 31% 45%, 37% 44%, 37% 38%, 43% 41%, 48% 42%, 47% 35%, 43% 26%, 47% 12%, 46% 7%, 49% 4%, 51% 8%, 59% 5%, 66% 7%, 70% 16%, 71% 23%, 70% 31%, 68% 46%, 76% 51%, 79% 47%, 80% 41%, 86% 48%, 88% 50%, 88% 53%, 87% 56%, 90% 63%, 98% 75%, 99% 82%, 98% 91%, 95% 96%, 88% 93%, 77% 85%, 78% 100%);
-    background: url(https://alvaromontoro.com/images/me6.webp);*/
     background-size: cover;  
     background:
-      radial-gradient(circle at 45% 22%, #222 3%, #0000 0),
+      radial-gradient(circle at 45% 22%, #222 3%, #0000 0), /*the first % is x-axis, 2nd is y-axis, 3rd color and radius*/
       radial-gradient(circle at 58% 22%, #222 3%, #0000 0),
       radial-gradient(circle at 58% 60%, #222 3%, #0000 0),
-      radial-gradient(circle at 60% 70%, #222 2.75%, #0000 0),
+      radial-gradient(circle at 58% 70%, #222 2.75%, #0000 0),
       radial-gradient(circle at 58% 80%, #222 2.5%, #0000 0),
-      /* conic-gradient(at 100% 50%, #0000 260deg, orange 0 280deg, #0000 0) 60% 25% / 15% 15%, */
-      radial-gradient(circle at 52% 30%, #222 3%, #0000 0),
+      conic-gradient(at 100% 50%, #0000 260deg, orange 0 280deg, #0000 0) 60% 25% / 15% 15%,
       linear-gradient(30deg, #0000 40%, brown 0 50%, #0000 0) 100% 70% / 20% 20%,
       linear-gradient(0deg, #0000 40%, brown 0 60%, #0000 0) 100% 70% / 10% 10%,
       linear-gradient(60deg, #0000 40%, brown 0 55%, #0000 0) 100% 74% / 10% 10%,

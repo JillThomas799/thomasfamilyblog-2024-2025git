@@ -10,6 +10,10 @@ import Birdoswald1Nov2nd2024 from './imagesresized/Birdoswald1Nov2nd2024.jpg';
 import Birdoswald2Nov2nd2024 from './imagesresized/Birdoswald2Nov2nd2024.jpg';
 import Birdoswald3Nov2nd2024 from './imagesresized/Birdoswald3Nov2nd2024.jpg';
 import Birdoswald4Nov2nd2024 from './imagesresized/Birdoswald4Nov2nd2024.jpg';
+import BlacksmithsMeal1Nov4th2024 from './imagesresized/BlacksmithsMeal1Nov4th2024.jpg';
+import BlacksmithsMeal2Nov4th2024 from './imagesresized/BlacksmithsMeal2Nov4th2024.jpg';
+import BlacksmithsEandH4112024 from './imagesresized/BlacksmithsEandH4112024.jpg';
+import BlacksmithsBernard4112024 from './imagesresized/BlacksmithsBernard4112024.jpg';
 
 export default function November2024() {
 
@@ -31,7 +35,7 @@ export default function November2024() {
         <div className="earth"></div>
       
 
-       <section className="dateNovember">November 1st - 30th 2024</section> 
+       <section className="dateNovember" style={{marginTop:'0%'}}>November 1st - 30th 2024</section> 
              <section className="newsheaderNovember"> WELCOME TO OUR GUY FAWKE'S BONFIRE AND FIREWORKS PARTY!</section> 
             <section className="newsNovember" style={{textAlign:"center"}}>
            Welcome to our November blog. This month we have created a virtual, animated bonfire and firework display for our Guy Fawke's party. This
@@ -113,6 +117,24 @@ export default function November2024() {
             <fig><section className = "blogPhotoNovember" ><img src={Birdoswald4Nov2nd2024} alt="" /><figcaption className='Novemberfigcaption'><strong>It is well worth purchasing this <br /> English Heritage guidebook <br /> about the fort as it provides <br /> more detailed information.</strong></figcaption></section>
             </fig>
            </div>
+
+           <section className="dateNovember">November 4th, 2024</section> 
+             <section className="newsheaderNovember"> BLACKSMITH'S ARMS FOR DINNER</section> 
+            <section className="newsNovember" style={{textAlign:"center"}}> The whole family met up today to go out for dinner at the Blacksmith's Arms. It was lovely, 
+              being relatively quiet and there was an open fire. The food was great also and reasonably priced. <br /> A great time was had by all.
+            </section>
+            
+            <div className="blogPhotoDivNovember">
+            
+            <fig><section className = "blogPhotoNovember" ><img src={BlacksmithsMeal1Nov4th2024} alt="" /><figcaption className='Novemberfigcaption'><strong>Cumberland Sausage and mash</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={BlacksmithsMeal2Nov4th2024} alt="" /><figcaption className='Novemberfigcaption'><strong>Trout, new potatoes and vegetables</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={BlacksmithsEandH4112024} alt="" /><figcaption className='Novemberfigcaption'><strong>The 'A' team - Elena and Harry</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={BlacksmithsBernard4112024} alt="" /><figcaption className='Novemberfigcaption'><strong>Bernard enjoying the most important <br /> thing .... the beer.</strong></figcaption></section>
+            </fig>
+            </div>
 
            </div>
            </div>

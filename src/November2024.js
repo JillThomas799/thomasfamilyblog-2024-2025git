@@ -14,6 +14,24 @@ import BlacksmithsMeal1Nov4th2024 from './imagesresized/BlacksmithsMeal1Nov4th20
 import BlacksmithsMeal2Nov4th2024 from './imagesresized/BlacksmithsMeal2Nov4th2024.jpg';
 import BlacksmithsEandH4112024 from './imagesresized/BlacksmithsEandH4112024.jpg';
 import BlacksmithsBernard4112024 from './imagesresized/BlacksmithsBernard4112024.jpg';
+import Bonniesmenu from './imagesresized/Bonniesmenu.jpg';
+import Bonniescafé from './imagesresized/Bonniescafé.jpg';
+import BonniesAbout from './imagesresized/BonniesAbout.jpg';
+import ParkingHaltwhistle from './imagesresized/ParkingHaltwhistle.jpg';
+import AccommodationHaltwhistle from './imagesresized/AccommodationHaltwhistle.jpg';
+import HaltwhistleBurn1 from './imagesresized/HaltwhistleBurn1.jpg';
+import HaltwhistleBurn2 from './imagesresized/HaltwhistleBurn2.jpg';
+import HaltwhistleBurn3 from './imagesresized/HaltwhistleBurn3.jpg';
+import HaltwhistleBurn4 from './imagesresized/HaltwhistleBurn4.jpg';
+import HaltwhistleBurn5 from './imagesresized/HaltwhistleBurn5.jpg';
+import CawfieldNov2024 from './imagesresized/CawfieldNov2024.jpg';
+import CawfieldVallum from './imagesresized/CawfieldVallum.jpg';
+import CliffsHaltwhistleGorge from './imagesresized/CliffsHaltwhistleGorge.jpg';
+import CawfieldsMilecastle42Mist from './imagesresized/CawfieldsMilecastle42Mist.jpg';
+import impassablepathCawfields from './imagesresized/impassablepathCawfields.jpg';
+import BernardUnimpressedCawfields from './imagesresized/BernardUnimpressedCawfields.jpg';
+
+
 
 export default function November2024() {
 
@@ -118,7 +136,7 @@ export default function November2024() {
             </fig>
            </div>
 
-           <section className="dateNovember">November 4th, 2024</section> 
+           <section className="dateNovember">November 4th 2024, Monday</section> 
              <section className="newsheaderNovember"> BLACKSMITH'S ARMS FOR DINNER</section> 
             <section className="newsNovember" style={{textAlign:"center"}}> The whole family met up today to go out for dinner at the Blacksmith's Arms. It was lovely, 
               being relatively quiet and there was an open fire. The food was great also and reasonably priced. <br /> A great time was had by all.
@@ -132,9 +150,91 @@ export default function November2024() {
             </fig>
             <fig><section className = "blogPhotoNovember" ><img src={BlacksmithsEandH4112024} alt="" /><figcaption className='Novemberfigcaption'><strong>The 'A' team - Elena and Harry</strong></figcaption></section>
             </fig>
-            <fig><section className = "blogPhotoNovember" ><img src={BlacksmithsBernard4112024} alt="" /><figcaption className='Novemberfigcaption'><strong>Bernard enjoying the most important <br /> thing .... the beer.</strong></figcaption></section>
+            <fig><section className = "blogPhotoNovember" ><img src={BlacksmithsBernard4112024} alt="" /><figcaption className='Novemberfigcaption'><strong><br />Bernard enjoying the most important <br /> thing .... the beer.</strong></figcaption></section>
             </fig>
             </div>
+
+            <section className="dateNovember">November 14th 2024, Thursday</section> 
+            <section className="newsheaderNovember"> HALTWHISTLE MYSTERY TOUR WALK , 5.25 miles: <br /> Haltwhistle, Haltwhistle Burn, Cawfields Quarry and return. </section> 
+            <section className="newsNovember" style={{textAlign:"center"}}> We went over to Haltwhistle today to undertake a walk which actually forms part of the 
+              optional 'Haltwhistle Detour' of the Hadrian's Wall Path, usually used by people walking Hadrian's Wall who have overnight accommodation booked in Haltwhistle.
+              This is one of the additional, optional add-ons to our Hadrian's Wall walk in the Summer, which we did not have chance to complete at the time, so what better time 
+              to do it than now? Whilst it was misty, when the sun periodically broke through, it turned into a lovely day. It also made it apporpriately spooky,
+              given it had just been halloween a few days previously....
+              <br />
+              <br />
+              There is free parking available on Fair Hill, behind Sainsbury's supermarket. On arrival, as it was still quite misty, we called in at
+              <Link to="https://www.tripadvisor.com/ShowUserReviews-g616269-d25569987-r955107966-Bonnie_s-Haltwhistle_Northumberland_England.html" target="_blank"
+              title="Click here to discover more about 'Bonnie's'" className="LinkNovember"> Bonnie's Café </Link> to have some coffees prior to starting our walk. 
+                <Link to="https://www.tripadvisor.com/ShowUserReviews-g616269-d25569987-r955107966-Bonnie_s-Haltwhistle_Northumberland_England.html" target="_blank"
+              title="Click here to discover more about 'Bonnie's'" className="LinkNovember"> Bonnie's</Link> is a quirky, friendly, reasonably-priced café on Haltwhistle Main 
+              Street. It seemed to be popular with local people, which is always a good sign. Coffees complete, we set off on our walk up Haltwhistle Burn towards Cawfield's 
+              Quarry, which sits on the Hadrian's Wall Path.
+              <br />
+              <br />
+              Haltwhistle Burn Gorge was formed millions of years ago. It contains large cliffs containing sandstone. It was an important source of coal, which was 
+              mined, and limestone, which was burnt to form lime, used in buildings and had an important role in improving the acid soil of the upland farms. 
+              The remains of 2 lime kilns are still visible as you climb the path. The footpath you walk on was, during the early 20th century, the narrow-gauge railway tank which transported road-stone from Cawfields Quarry on Hadrian's Wall,
+              where we were walking today, to the railway sidings at Town Foot. Earlier, in the 18th century, there were 2 mills in the gorge which had been set up by the Quakers to created
+              jobs for local people and which were used to produce wool. The gorge looks very peaceful today but it was once the industrial centre of Haltwhistle producing woollen fabric, coal, stone, lime and ceramics.
+              
+              <br />
+              <br />
+              
+            </section>
+            
+            <div className="blogPhotoDivNovember">
+            
+            <fig><section className = "blogPhotoNovember" ><img src={Bonniesmenu} alt="" /><figcaption className='Novemberfigcaption'><strong>Bonnie's menu had a wide range of choice, <br /> including: all day breakfasts, jacket potatoes, <br /> paninis, sandwiches and burgers with vegetarian <br /> and vegan options. There were also jacket <br />  potatoes, soup, paninis and sandwiches etc.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={Bonniescafé} alt="" /><figcaption className='Novemberfigcaption'><strong>A good place to stop for refreshments; <br /> <Link to="https://www.tripadvisor.com/ShowUserReviews-g616269-d25569987-r955107966-Bonnie_s-Haltwhistle_Northumberland_England.html" target="_blank"
+              title="Click here to discover more about 'Bonnie's'" className="LinkNovember"> Bonnie's Café </Link>, 16 Westgate, Haltwhistle.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={BonniesAbout} alt="" /><figcaption className='Novemberfigcaption'><strong>On the blackboard, the owners  <br /> have written a small piece all about  <br />themselves which adds to  the <br /> personal feel.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={ParkingHaltwhistle} alt="" /><figcaption className='Novemberfigcaption'><strong>Free parking can be found on Fair Hill, <br /> just behind Sainsbury's supermarket.</strong></figcaption></section>
+            </fig>
+            </div>
+
+            <div className="blogPhotoDivNovember">
+            
+            <fig><section className = "blogPhotoNovember" ><img src={AccommodationHaltwhistle} alt="" /><figcaption className='Novemberfigcaption'><strong><Link to="https://www.oldschoolhousehaltwhistle.com/" target="_blank"
+            title="Click here to discover more about the Old School House B and B" className="LinkNovember">The Old School House Bed and Breakfast</Link> <br /> 
+            in Haltwhistle, is a popular overnight stop, <br /> especially for walkers on the Hadrian's Wall  <br /> Path  and Pennine Way. It is adjoined  by  <br /> the aptly-named 'Eleven Plus' Cottage. <br /></strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={HaltwhistleBurn1} alt="" /><figcaption className='Novemberfigcaption'><strong>Haltwhistle Burn Gorge: <br /> First information board: Formation of the gorge, geology and flora and fauna..</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={HaltwhistleBurn2} alt="" /><figcaption className='Novemberfigcaption'><strong>Haltwhistle Burn Gorge: <br /> Second information board: Coal mining, <br /> narrow-gauge railway and the woollen mills.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={HaltwhistleBurn3} alt="" /><figcaption className='Novemberfigcaption'><strong><br /> Haltwhistle Burn Gorge: <br /> Third information board: More coal.., <br /> the corn mill and the Gas Light Company.</strong></figcaption></section>
+            </fig>
+            </div>
+
+           <div className="blogPhotoDivNovember">
+            
+            <fig><section className = "blogPhotoNovember" ><img src={HaltwhistleBurn4} alt="" /><figcaption className='Novemberfigcaption'><strong>Bernard in Haltwhistle Burn Gorge.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={HaltwhistleBurn5} alt="" /><figcaption className='Novemberfigcaption'><strong>The tumbling waters of the burn.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={CliffsHaltwhistleGorge} alt="" /><figcaption className='Novemberfigcaption'><strong>The ancient, jagged, sandstone-containing <br /> cliffs of the gorge.</strong></figcaption></section>
+            </fig>            
+            <fig><section className = "blogPhotoNovember" ><img src={CawfieldVallum} alt="" /><figcaption className='Novemberfigcaption'><strong><br /> The Roman Vallum, which lies just <br /> South of Hadrian's Wall. 
+            Here <br /> near Cawfields Quarry.</strong></figcaption></section>
+            </fig>
+            </div> 
+
+             <div className="blogPhotoDivNovember">
+            <fig><section className = "blogPhotoNovember" ><img src={CawfieldNov2024} alt="" /><figcaption className='Novemberfigcaption'><strong>Cawfield Quarry in the mist ...<br /> 
+            a little different to when we <br />  were last here in the Summer. </strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={CawfieldsMilecastle42Mist} alt="" /><figcaption className='Novemberfigcaption'><strong>Cawfields Milecastle 42 lying <br /> in the mist, deserted.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={impassablepathCawfields} alt="" /><figcaption className='Novemberfigcaption'><strong>Leaving Cawfields Quarry we ran <br /> into problems.....the path <br />
+            was totally flooded....</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={BernardUnimpressedCawfields} alt="" /><figcaption className='Novemberfigcaption'>Bernard was not too impressed....,<br /> however we quickly found an <br /> adjacent alternative path <br /> we could use.<strong><br /></strong></figcaption></section>
+            </fig>
+            </div> 
 
            </div>
            </div>

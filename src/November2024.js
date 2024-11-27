@@ -30,6 +30,18 @@ import CliffsHaltwhistleGorge from './imagesresized/CliffsHaltwhistleGorge.jpg';
 import CawfieldsMilecastle42Mist from './imagesresized/CawfieldsMilecastle42Mist.jpg';
 import impassablepathCawfields from './imagesresized/impassablepathCawfields.jpg';
 import BernardUnimpressedCawfields from './imagesresized/BernardUnimpressedCawfields.jpg';
+import WeatherGood16112024 from './imagesresized/WeatherGood16112024.jpg';
+import BernardHarryMiltonRigg16112024 from './imagesresized/BernardHarryMiltonRigg16112024.jpg';
+import JillBernardMiltonRigg16112024 from './imagesresized/JillBernardMiltonRigg16112024.jpg';
+import Naworth16112024 from './imagesresized/Naworth16112024.jpg';
+import LanercostMenu16112024 from './imagesresized/LanercostMenu16112024.jpg';
+import LanercostFoodJill16112024 from './imagesresized/LanercostFoodJill16112024.jpg';
+import LanercostFoodHarry16112024 from './imagesresized/LanercostFoodHarry16112024.jpg';
+import NaworthBernard16112024 from './imagesresized/NaworthBernard16112024.jpg';
+import QuarryBeck1_16112024 from './imagesresized/QuarryBeck1_16112024.jpg';
+import QuarryBeck2_16112024 from './imagesresized/QuarryBeck2_16112024.jpg';
+import RidgewoodHarry16112024 from './imagesresized/RidgewoodHarry16112024.jpg';
+import RidgewoodBernard16112024 from './imagesresized/RidgewoodBernard16112024.jpg';
 
 
 
@@ -233,6 +245,80 @@ export default function November2024() {
             was totally flooded....</strong></figcaption></section>
             </fig>
             <fig><section className = "blogPhotoNovember" ><img src={BernardUnimpressedCawfields} alt="" /><figcaption className='Novemberfigcaption'>Bernard was not too impressed....,<br /> however we quickly found an <br /> adjacent alternative path <br /> we could use.<strong><br /></strong></figcaption></section>
+            </fig>
+            </div> 
+
+            <section className="dateNovember">November 16th 2024, Saturday</section> 
+            <section className="newsheaderNovember"> Miltonrigg Wood, Lanercost, Quarry Beck, Ridgewood and Brampton Circular Walk, 15.11km = 9.45 miles, 3hr 24, elevation gained 253 metres </section> 
+            <section className="newsNovember" style={{textAlign:"center"}}> 
+              Today, was the first of a series of longer range walks which we will be undertaking over the forthcoming months. The aim is to increase our fitness and resilience so that
+              we can comfortably walk 10-15 miles a day over successive days. The challenges of this over the winter period of course are the shorter daylight hours and risk of 
+              inclement weather, so a prompt start and flexibility in consideration of the best routes will be important.
+              The walk today was just under 10 miles, on mixed terrain, along small country roads, and through several woods. 
+              <br />
+              <br />
+              Some highlights of the walk included:
+              <br />
+              <br />
+              <ul style={{textAlign:"center", marginLeft:"5%", marginRight:"5%"}}>
+                <li style={{textDecoration:"underline"}}>Milton Rigg Wood:</li> <div className="leftAlignli">Owned and managed by the Woodland Trust and containing a variety of interesting trees including many oak and birch, many of which date back 
+            over 100 years. Oak from this wood was used in rebuilding the roof of York Minster after it was destroyed by fire in 1984. The wildlife pond was 
+            created in 1990 as a habitat for toads, newts and dragonflies. There are birds such as wood warbler and willow tit which can be spotted.</div>
+              <br />
+              <br />
+              <li style={{textDecoration:"underline"}}>Naworth Castle:</li><div className="leftAlignli">Naworth Castle, belonging to the Dacre and Howard families, was built in 1335 to defend England’s borderlands 
+              against the Scots and Border Reivers. It is a private home, which is only available for private hire, and so it is not open to the general public.
+              Nevertheless, it forms an impressive site as you descend the hill and it is easy to see why it was chosen for this location during the time of the borderland conflicts.</div>
+              <br />
+              <br />
+              <li style={{textDecoration:"underline"}}>Lanercost tea room:</li><div className="leftAlignli">Lanercost tea room is adjacent to the fascinating 12th century Lanercost Priory and lies only 0.5 mile from the World Heritage Site of Hadrian’s Wall.
+              They serve a good range of freshly-prepared food. As you may have realised by now, for those of you who follow the blog, it is a favourite location of ours....</div> 
+              <br />
+              <br />
+              <li style={{textDecoration:"underline"}}>Quarrybeck:</li><div className="leftAlignli">A stream and falls running through woodland down towards Lanercost. This is an extremely pleasant walk, especially in the month of May
+              when the bluebells are out. It can be very muddy underfoot though, so adequate footwear is necessary. Our May 2024 header features the bluebells in Quarrybeck wood.....</div>
+              <br />
+              <br />
+              <li style={{textDecoration:"underline"}}>Ridgewood:</li><div className="leftAlignli">This also is an area of woodland owned and managed by the Woodland Trust. It has lots of wildlife including roe deer, red squirrel and foxes being seen.
+              There is a large ancient beech with a girth of 4.2m can be found to the east together with other species such as sycamore and lime. There are some lovely views from up here.</div>
+              </ul>
+              <br />
+              <br />
+              The photos below show some of the territory we covered....
+            </section>
+            
+            <div className="blogPhotoDivNovember">
+            
+            <fig><section className = "blogPhotoNovember" ><img src={WeatherGood16112024} alt="" /><figcaption className='Novemberfigcaption'><strong>A 10am start, and the weather is looking good.....</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={BernardHarryMiltonRigg16112024} alt="" /><figcaption className='Novemberfigcaption'><strong>Bernard and Harry, Miltonrigg Wood</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={JillBernardMiltonRigg16112024} alt="" /><figcaption className='Novemberfigcaption'><strong>Jill and Bernard, by the pond in Miltonrigg Wood. <br />Note the essential piece of kit....wellingtons!</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={NaworthBernard16112024} alt="" /><figcaption className='Novemberfigcaption'><strong>Bernard, on the road leading <br /> down to Naworth Castle</strong></figcaption></section>
+            </fig>
+            </div>
+
+            <div className="blogPhotoDivNovember">
+            <fig><section className = "blogPhotoNovember" ><img src={Naworth16112024} alt="" /><figcaption className='Novemberfigcaption'><strong>Naworth Castle</strong></figcaption></section>
+            </fig>            
+            <fig><section className = "blogPhotoNovember" ><img src={LanercostMenu16112024} alt="" /><figcaption className='Novemberfigcaption'><strong>Menu, Lanercost café: <br /> there is usually a good range <br /> of choice, such as...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={LanercostFoodJill16112024} alt="" /><figcaption className='Novemberfigcaption'><strong>Baked potato with beans and salad.....</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={LanercostFoodHarry16112024} alt="" /><figcaption className='Novemberfigcaption'><strong>Cheesy chips.... <br /> because lots of calories are needed <br /> for the walk...</strong></figcaption></section>
+            </fig>
+            </div>
+
+           <div className="blogPhotoDivNovember">
+            
+            <fig><section className = "blogPhotoNovember" ><img src={QuarryBeck1_16112024} alt="" /><figcaption className='Novemberfigcaption'><strong>A pleasant climb up <br /> through Quarrybeck Falls</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={QuarryBeck2_16112024} alt="" /><figcaption className='Novemberfigcaption'><strong>Quarrybeck again....</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoNovember" ><img src={RidgewoodHarry16112024} alt="" /><figcaption className='Novemberfigcaption'><strong>Harry, entering the Ridegwood</strong></figcaption></section>
+            </fig>            
+            <fig><section className = "blogPhotoNovember" ><img src={RidgewoodBernard16112024} alt="" /><figcaption className='Novemberfigcaption'><strong></strong>Bernard homeward bound in the Ridgewood,<br /> (well, maybe not quite yet)... </figcaption></section>
             </fig>
             </div> 
 

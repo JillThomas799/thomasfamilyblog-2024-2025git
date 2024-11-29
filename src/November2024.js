@@ -42,6 +42,7 @@ import QuarryBeck1_16112024 from './imagesresized/QuarryBeck1_16112024.jpg';
 import QuarryBeck2_16112024 from './imagesresized/QuarryBeck2_16112024.jpg';
 import RidgewoodHarry16112024 from './imagesresized/RidgewoodHarry16112024.jpg';
 import RidgewoodBernard16112024 from './imagesresized/RidgewoodBernard16112024.jpg';
+import EamontWay22112024Title from './imagesresized/EamontWay22112024Title.jpg';
 
 
 
@@ -321,6 +322,151 @@ export default function November2024() {
             <fig><section className = "blogPhotoNovember" ><img src={RidgewoodBernard16112024} alt="" /><figcaption className='Novemberfigcaption'><strong></strong>Bernard homeward bound in the Ridgewood,<br /> (well, maybe not quite yet)... </figcaption></section>
             </fig>
             </div> 
+
+            <section className="dateNovember">22nd November 2024, Friday</section> 
+             <section className="newsheaderNovember">Walk Eamont Bridge and Penrith: distance 13.5 miles; ascent 253 metres, 830 feet. </section> 
+             <div className="componentWalkDetailsNovember">     
+            <strong className="headTitlesNovember">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titlesNovember">Parking:</strong><br />We parked at Elena's house and walked from there. This added about 2.5 miles on to the walk in total. If going from Penrith station, there is paid parking available at the station.</li>
+                <br />
+                <br />
+                <li><strong className="titlesNovember">Paths: </strong><br /> Good, clear, well-signposted paths. A mixture of pavement, country bridleway and footpaths and field walking. </li>
+                <br />
+                <br />
+                <li><strong className="titlesNovember">Distance:</strong><br /> 13.5 miles from Elena's house. 11 miles if starting at Penrith station. <strong>  Ascent: 253 metres, 830 feet.</strong></li>
+                <br />
+                <br />
+                <li><strong className="titlesNovember">Refreshments:</strong><br /> There are plenty of pubs and cafés at Pooley Bridge, so take your pick. We chose one of our favourites, which is Granny Dowbekin's. </li> 
+                <br />
+                <br />
+                </ul>    
+               
+            <strong className="headTitlesNovember">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+              <li><strong className="titlesNovember">Variety : </strong>This is a walk with lots of variety both in the types of foot path, the historical features 
+              to see en route and the beautiful countryside.<br />  </li>
+                <br />
+                <br />
+                <li><strong className="titlesNovember">Walk :</strong><br /> This is a great longer distance walk which forms a good staging post for training for longer distance treks
+                where this kind of distance needs to be walked day after day. It can also be added on to walks such as the <Link to="https://www.ullswater.org/the-ullswater-way/"
+                target="_blank" className="LinkNovember">Ullswater Way</Link>, which is a 20 mile walk around Ullswater Lake.</li>
+                <br />
+                <br />
+                <li><strong className="titlesNovember">Refreshments : </strong><br /> There was plenty of opportunity for refreshments in Pooley Bridge and Penrith.
+                </li>
+                <br />
+                <br /> 
+                <li><strong className="titlesNovember">Environmentally-friendly : </strong><br /> One of the reasons this walk has been developed has been a means of connecting 
+                Penrith station to Ullswater Lake on foot, in order to reduce the need to use the car. We worked out it would be quite feasible to catch an early train
+                from Manchester, Liverpool or further a field and walk the whole walk, whilst still having time to return the same day.
+                </li>
+                <br />
+                <br />
+                <li><strong className="titlesNovember">Weather: </strong><br />Good weather, icy in parts.</li>
+                </div>
+                <br />
+                <br />
+                </ul>
+                                
+                <strong className="headTitlesNovember">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titlesNovember">Depends what you are looking for :</strong> This is a longish but fairly straightforward low-level walk
+                with plenty of interest and variety along the way.
+                For some people, especially with the proximity of the spectacular high level walking in the surrounding Lake District hills,
+                this might seem a bit too tame. It does have the definite advantage though that it can be undertaken at all times of year and in almost all 
+                weather conditions.<br /></li>
+                <br />
+                <br />
+                </ul>
+               
+            <strong className="headTitlesNovember">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titlesNovember">9.6 (out of 10):</strong> An enjoyable days walking which, despite the length, did not seem too challenging.</li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            <br />
+
+            <section className="newsNovember" style={{textAlign:"left"}}>
+            Today's walk was the second of a series of longer range walks which we will be undertaking over the forthcoming months.
+            The Eamont Way was opened on the 14th April 2023 and is a 5.5 mile walk linking Penrith Station to Pooley Bridge, on Ullswater Lake.
+            Volunteers from Friends of the Ullswater Way and SITU (Sustainable and Integrated Transport for Ullswater) 
+            had a role in designing the trail. The logo chosen for the sign-posted way is the eel, so it is a case of keeping a lookout for the 
+            eel signs.  
+            <br />
+            <br />
+            The footpaths are good and clear and the walk is fairly low level with only some gentle undulations. The route is a really interesting mix of town and roadside walking,
+            countryside foot paths, pretty cumbrian villages, several crossings of the river Eamont and a number of historic landmarks.
+            <br />
+            <br />
+            
+            Some historic highlights of the Eamont Way path from Penrith station to Pooley Bridge include:
+              <br />
+              <br />
+              <ul style={{textAlign:"left", marginLeft:"5%", marginRight:"5%"}}>
+                <li style={{textDecoration:"underline"}}>Penrith Station:</li> Penrith station was built by the Lancaster and Carlisle railway and opened 
+                on the 17th December 1846. The station was designed by Sir William Tite, designer of a number of early railway stations in Britain during 
+                the construction of the Lancaster and Carlisle line. It is recorded in the National Heritage List for England as a designated Grade II 
+                listed building. More about its interesting history can be found on the  <Link to="https://www.ullswaterheritage.org/eamont-way/penrith-station"
+                target="_blank" title="Click here to discover more about the history of Penrith station" className="LinkNovember">Friends of the
+                Ullswater Way website-Penrith station.</Link>
+              <br />
+              <br />
+              <li style={{textDecoration:"underline"}}>Penrith Castle:</li><div className="leftAlignli">Lying almost opposite Penrith station, although not so much remains of 
+                Penrith Castle remains today, it has a very interesting history. More about this history can be found on the   
+                <Link to="https://www.ullswaterheritage.org/eamont-way/penrith-castle"
+                target="_blank" title="Click here to discover more about the history of Penrith castle" className="LinkNovember"> Friends of the
+                Ullswater Way website-Penrith Castle</Link>.</div>
+              <br />
+              <br />
+              <li style={{textDecoration:"underline"}}>Yanwath Hall:</li><div className="leftAlignli">Yanwath Hall is privately owned but is of note because
+                it has one of the best surviving pele towers in Cumbria. More information about Yanwath Hall and its pele tower can be found on the   
+                <Link to="https://www.ullswaterheritage.org/eamont-way/yanwath-hall"  target="_blank" title="Click here to discover more about Yanwath Hall" className="LinkNovember"> Friends of the
+                Ullswater Way website-Yanwath Hall</Link>
+              </div>
+              <br />
+              <br />
+              <li style={{textDecoration:"underline"}}>Kirkbarrow Hall:</li>< div className="leftAlignli">Today Kirkbarrow Hall is a dairy farm 
+              but it has a history dating back to the late 16th or early 17th century. It once belonged to Leonard Dacre.
+              Information concerning the fascinating history of Kirkbarrow Hall can be found on the   
+                <Link to="https://www.ullswaterheritage.org/eamont-way/kirkbarrow-hall"
+                target="_blank" title="Click here to discover more about the history of Kirkbarrow Hall" className="LinkNovember"> Friends of the
+                Ullswater Way website-Kirkbarrow Hall</Link>.</div> 
+              <br />
+              <br />
+              <li style={{textDecoration:"underline"}}>St Michael's Church, Barton:</li>Information about the history and people 
+              involved in this church, which is adjacent to the route, can be found on the  <Link to="https://www.ullswaterheritage.org/locations/barton-church"
+                target="_blank" title="Click here to discover more about the history of St Michael's Church, Barton" className="LinkNovember">Friends of the
+                Ullswater Way website-St Michael's Church, Barton.</Link><div className="leftAlignli"></div>
+              <br />
+              <br />
+              <li style={{textDecoration:"underline"}}>Wordsworth House, Sockbridge:</li><div className="leftAlignli">
+              We passed Wordsworth House in Sockbridge village. Information on the <Link to="https://www.ullswaterheritage.org/eamont-way/wordsworth-house-sockbridge"
+                target="_blank" title="Click here to discover more about the history of William Wordsworth's grandfather and Sockbridge" className="LinkNovember">Friends of the
+                Ullswater Way website-Wordsworth House, Sockbridge</Link> tells us that it was built in 1699 and was formerly called Sockbridge House. The house was sold to Richard Wordsworth, 
+                who was both Viscount Lowther's agent and William Wordsworth's grandfather. In the Jacobite rebellion of 1745 he fled to Patterdale with the "county treasure" 
+                to save it from the rebels while Mrs Wordsworth entertained Jacobite officers at their home. We also passed a barn conversion named Wordsworth Cottage which was apparently formerly part of the estate once owned by 
+              Wordsworth’s grandfather. </div>
+              </ul>
+              <br />
+              <br />
+            </section>
+
+            
+
+            <div className="SlideshowHostPhotoNovember">
+            <Link to ="https://photos.app.goo.gl/iEZLUTSjCPUBeWEz9" target="_blank" title="Click on the link and read the full comments on 
+            each photo to accompany us on our Eamont Way and Pooley Bridge Walk." ><strong>
+            <div className="slideshowinstructionsNovember"> Click on the image below to open the photo album of our Eamont Way and Pooley Bridge walk. 
+            <br /> <br />The individual comments on the photos will take you through the full story of our walk.
+            </div>   {/*Closing div slideshowinstructionsNovember*/}
+
+            <img className="slideshowentryNovember" src={EamontWay22112024Title} alt="" />
+            </strong> 
+            </Link>
+            </div> 
+            {/*Closing div SlideshowHostPhotoNovemberr*/}
 
            </div>
            </div>

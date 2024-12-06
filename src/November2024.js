@@ -43,6 +43,7 @@ import QuarryBeck2_16112024 from './imagesresized/QuarryBeck2_16112024.jpg';
 import RidgewoodHarry16112024 from './imagesresized/RidgewoodHarry16112024.jpg';
 import RidgewoodBernard16112024 from './imagesresized/RidgewoodBernard16112024.jpg';
 import EamontWay22112024Title from './imagesresized/EamontWay22112024Title.jpg';
+import NaworthRear29112024Titled from './imagesresized/NaworthRear29112024Titled.jpg';
 
 
 
@@ -463,6 +464,94 @@ export default function November2024() {
             </div>   {/*Closing div slideshowinstructionsNovember*/}
 
             <img className="slideshowentryNovember" src={EamontWay22112024Title} alt="" />
+            </strong> 
+            </Link>
+            </div> 
+            {/*Closing div SlideshowHostPhotoNovemberr*/}
+
+            <section className="dateNovember">29th November 2024, Friday</section> 
+             <section className="newsheaderNovember">Walk Walton Village via Miltonrigg Wood and Lanercost: distance 14.4 miles; ascent 333 metres, 1092.52 feet. </section> 
+             <div className="componentWalkDetailsNovember">     
+            <strong className="headTitlesNovember">Details of the Walk </strong>
+            <ul className="hwpIntroList">
+                <li><strong className="titlesNovember">Parking:</strong><br />We did not need to take the car for this walk.</li>
+                <br />
+                <br />
+                <li><strong className="titlesNovember">Paths: </strong><br /> Good, clear, paths. A mixture of quiet, minor country roads and footpaths.</li>
+                <br />
+                <br />
+                <li><strong className="titlesNovember">Distance:</strong><br /> 14.4 miles<strong>  Ascent 333 metres, 1092.52.</strong></li>
+                <br />
+                <br />
+                <li><strong className="titlesNovember">Refreshments:</strong><br /> Lanercost Tea room. </li> 
+                <br />
+                <br />
+                </ul>    
+               
+            <strong className="headTitlesNovember">Good</strong> 
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+              <li><strong className="titlesNovember">All-weather : </strong>This is a walk which can be undertaken in almost all weathers and seasons.<br />  </li>
+                <br />
+                <br />
+                <li><strong className="titlesNovember">Walk :</strong><br /> This is a great longer distance walk which again, forms a good staging post for training for longer distance treks
+                where this kind of distance needs to be walked day after day.</li>
+                <br />
+                <br />
+                <li><strong className="titlesNovember">Refreshments : </strong><br /> There were refreshemnts available at Lanercost Tea room.
+                </li>
+                <br />
+                <br /> 
+                <li><strong className="titlesNovember">Environmentally-friendly : </strong><br /> We did not need to use the car at all for the walk roday.
+                </li>
+                <br />
+                <br />
+                {/* <li><strong className="titlesNovember">Weather: </strong><br />Good weather, icy in parts.</li> */}
+                </div>
+                <br />
+                <br />
+                </ul>
+                                
+                <strong className="headTitlesNovember">Not so good</strong> 
+            <ul className="hwpIntroList">
+                <li><strong className="titlesNovember">Walton Tea room was closed for December:<br /></strong> We had been looking forward to having our lunch at Walton Tea room which,
+                according to the website and the sign board on Walton Green was open for business. Unfortunately, when we arrived, we learnt they were closed
+                until the end of December. Luckily, in case of encountering such an eventuality, we had packed some back-up sandwiches and snacks,
+                which kept us going until we reached Lanercost Tea room, which fortunately was open for lunch.<br /></li>
+                <br />
+                <br />
+                </ul>
+               
+            <strong className="headTitlesNovember">Hike Rating</strong> 
+            <ul className="hwpIntroList">
+            <li><strong className="titlesNovember">9.6 (out of 10):</strong> An enjoyable days walking.</li>
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }          
+            <br />
+
+            <section className="newsNovember" style={{textAlign:"left"}}>
+            Today's walk to Walton Village and back via Miltonrigg wood and Lanercost was the third of a series of longer range 
+            walks which we we are undertaking over the forthcoming months.
+            <br />
+            <br />
+            There are good, clear, paths with a mixture of quiet, minor country roads and footpaths. Whilst the country roads were very quiet,
+            it is very important to keep a watch out as whilst there is only an occasional vehicle they can be travelling very quickly and not
+            be expecting to meet anyone en route!
+              <br />
+              <br />
+            </section>
+
+            
+
+            <div className="SlideshowHostPhotoNovember">
+            <Link to ="https://photos.app.goo.gl/E6Arq4B9U6Uedudd7" target="_blank" title="Click on the link and read the full comments on 
+            each photo to accompany us on our Walton Village Walk." ><strong>
+            <div className="slideshowinstructionsNovember"> Click on the image below to open the photo album of our walk over to Walton Village and back via Miltonrigg wood and 
+              Lanercost. 
+            <br /> <br />The individual comments on the photos will take you through the full story of our walk.
+            </div>   {/*Closing div slideshowinstructionsNovember*/}
+
+            <img className="slideshowentryNovember" src={NaworthRear29112024Titled} alt="" />
             </strong> 
             </Link>
             </div> 

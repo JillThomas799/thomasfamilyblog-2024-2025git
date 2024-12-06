@@ -104,6 +104,7 @@ body{
   
   .profileLink{
     color:white;
+    text-decoration: underline;
 }
 
 #MenuDropdown {

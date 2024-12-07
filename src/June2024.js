@@ -73,7 +73,7 @@ export default function June2024() {
               The header photo this month was taken returning along the Old Military Road which runs along Hadrian's Wall in Northumberland and Cumbria. We had been out in the car
               doing some route-planning for our Hadrian's Wall Expedition and this photograph just about sums up life up here. Everyone found the sign very amusing and, given this
               is usually a road which people tend to drive quite fast along, it was no mean achievement of the farmer's to get everyone sitting waiting quite patiently in their cars until all the cows had been successfully moved!<br/><br/>
-              From this month we have set up a separate page, the  <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link> , narrating our 84 (or so) mile Hadrian's Wall Path expedition which we will be undertaking in day-long segments over the coming weeks and months.
+              From this month we have set up a separate page, the  <Link to="/hwp2024" className="LinkJune"> Hadrian's Wall Path Expedition page </Link> , narrating our 84 (or so) mile Hadrian's Wall Path expedition which we will be undertaking in day-long segments over the coming weeks and months.
               We are hoping we will be able to provide tips and guidance to anyone else thinking of walking the path in this manner, as the challenges are a little different to when doing it as one block over 4-9 days.
               In part, this is why the blog will seem a little quieter this month as we have been busy planning out the <em>Great Expedition</em> .
               <br />
@@ -361,12 +361,12 @@ export default function June2024() {
               Army' Exhibition at the British Museum. Then it was lunch at Gaia on Great Russell Street and in the afternoon, we took the tube via Piccadilly Circus 
               to Regent's Park and St John's Lodge Park.<br /><br /> We then walked several miles across the city, exploring as we went along, to reach the
               <Link to="https://www.germangymnasium.com/" target="_blank" title="Click here to discover more about the German Gymnasium Restaurant"
-              > German Gymnasium </Link> Restaurant on King's Boulevard, King's Cross, where we had a very enjoyable meal.              
+              className="LinkJune"> German Gymnasium </Link> Restaurant on King's Boulevard, King's Cross, where we had a very enjoyable meal.              
             </section>
             </div> 
 
             <div className="SlideshowHostPhotoJune">
-            <Link to ="https://photos.app.goo.gl/ZQ7doyTucnoWWYmM7" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our visit to London" ><strong>
+            <Link to ="https://photos.app.goo.gl/ZQ7doyTucnoWWYmM7" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our visit to London" className="LinkJune"><strong>
             <div className="slideshowinstructionsJune"><strong> Click on the image below to open the photo album of our visit to London. 
             <br /> <br />The individual comments on the photos will take you through the full story of our trip.
             <br /><br /> 
@@ -385,7 +385,7 @@ export default function June2024() {
             <br />
             <section className="newsJune">
               Today we decided on a visit out to <Link to="https://knebworthhouse.com/" target="_blank" title="Click here 
-              to discover more about Knebworth House and Gardens">Knebworth House and Gardens</Link> ; well the gardens really
+              to discover more about Knebworth House and Gardens" className="LinkJune">Knebworth House and Gardens</Link> ; well the gardens really
                as it was a pleasant day and they are 28 acres of formal gardens in total, which include a dinosaur trail. The house and gardens
                are situated 29 miles north of London, just off junction 7 of the A1(M) motorway. It is important to follow the SG1 2AX postcode setting rather than google directions
                to accurately find the visitors entrance.
@@ -431,7 +431,7 @@ export default function June2024() {
             <br />
             <section className="newsJune">Today we successfully completed Stage 6 of our Hadrian's Wall Path Expedition, Chollerford to Carrawburgh/Broccolitia Fort ( 3a and 3b).
              All the information about this trip for today and for the remaining stages over the forthcoming weeks and months, please come and join us at our  
-             <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link>
+             <Link to="/hwp2024" className="LinkJune"> Hadrian's Wall Path Expedition page </Link>
             </section>
             </div>
 
@@ -441,7 +441,7 @@ export default function June2024() {
             <br />
             <section className="newsJune">Today we successfully completed Stage 7 of our Hadrian's Wall Path Expedition, Carrawburgh/Broccolitia Fort to Housesteads Roman Fort( 3c and 3d).
              All the information about this trip for today and for the remaining stages over the forthcoming weeks and months, please come and join us at our  
-             <Link to="/hwp2024"> Hadrian's Wall Path Expedition page </Link>
+             <Link to="/hwp2024" className="LinkJune"> Hadrian's Wall Path Expedition page </Link>
             </section>
             </div>
             

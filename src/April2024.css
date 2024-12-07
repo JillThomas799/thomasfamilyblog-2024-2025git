@@ -41,6 +41,11 @@
   color:white
   } 
 
+.LinkApril{
+  text-decoration: underline;
+  color:blue;
+}
+
 .datenewsDiv{
   border:solid #757c88 4px;
   background-color:#8bb285;

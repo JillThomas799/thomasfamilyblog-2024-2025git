@@ -41038,7 +41038,7 @@ export default function May2024() {
             <br />
             <section className="news">
               It was the first of May, so what better time to attempt one of our planned trips for this year, a day out to visit the
-               <Link to = "https://www.lindisfarne.org.uk/" target="_blank" title="Click here to discover more about the Holy Island of Lindisfarne"> Holy Island of Lindisfarne</Link>?
+               <Link to = "https://www.lindisfarne.org.uk/" target="_blank" title="Click here to discover more about the Holy Island of Lindisfarne" className="LinkApril"> Holy Island of Lindisfarne</Link>?
                We had last visited the island briefly in March 1994, when taking a short break in Berwick-on Tweed, and had long planned to return so now was our opportunity <em>( Ok, ok, I know
                 it has taken us 30 years.....)</em>.
                 <br/>
@@ -41049,20 +41049,20 @@ export default function May2024() {
                The Holy Island of Lindisfarne is situated in the North Sea and is a tidal island, which is approached via a paved causeway. It is cut off from the mainland twice
                daily by high tides. Its significance is that it was one of the most important centres of early English Christianity, being the base chosen
                in AD 635 by a group of 7th century Irish missionaries, led by <Link to = "https://en.wikipedia.org/wiki/Aidan_of_Lindisfarne" target="_blank" title="Click here
-              to discover more about St Aidan of Lindisfarne">St Aidan</Link> , who came to Lindisfarne from Iona, and who built the first monastery here, with the aim to
+              to discover more about St Aidan of Lindisfarne" className="LinkApril">St Aidan</Link> , who came to Lindisfarne from Iona, and who built the first monastery here, with the aim to
                take Christianity to Northumbria by converting the pagan northern Anglo-Saxons.
               The monastery quickly became a renowned centre for Christian life and learning. It was here at the monastery that the
-               <Link to="https://www.lindisfarne.org.uk/gospels/" target="_blank" title="Click here to discover about the Lindisfarne Gospels"> Lindisfarne Gospels </Link>
+               <Link to="https://www.lindisfarne.org.uk/gospels/" target="_blank" title="Click here to discover about the Lindisfarne Gospels" className="LinkApril"> Lindisfarne Gospels </Link>
                were created by the monks. Much of the information known today about the monks comes from Venerable <Link to = "https://en.wikipedia.org/wiki/Bede"
-               target="_blank" title="Click here to discover more about Bede"> Bede’s </Link> <Link to="https://en.wikipedia.org/wiki/Ecclesiastical_History_of_the_English_People"
-               target="blank"><em>Ecclesiastical History of the English Nation”</em></Link> , which tells how King Oswald, when he gained the crown of Northumbria,
+               target="_blank" title="Click here to discover more about Bede" className="LinkApril"> Bede’s </Link> <Link to="https://en.wikipedia.org/wiki/Ecclesiastical_History_of_the_English_People"
+               target="blank" className="LinkApril"><em>Ecclesiastical History of the English Nation”</em></Link> , which tells how King Oswald, when he gained the crown of Northumbria,
                sent to the monastic community of Iona for missionaries to convert his people. At first the mission was unsuccessful; but when a
                monk by the name of Aidan took over the work things quickly changed.
               <br/>
               <br/>
               Following on from the death of <Link to = "https://en.wikipedia.org/wiki/Aidan_of_Lindisfarne" target="_blank" title="Click here
-              to discover more about St Aidan of Lindisfarne">St Aidan</Link>  in 651, in 670 Lindisfarne became the home of <Link to = "https://www.holyisland-stcuthbert.org/st-cuthbert/"
-              target="_blank" title="Click here to find more about St Cutbert">Cuthbert (later St Cuthbert)</Link> , a young shepherd boy who had been inspired by a vision of Aidan's soul
+              to discover more about St Aidan of Lindisfarne" className="LinkApril">St Aidan</Link>  in 651, in 670 Lindisfarne became the home of <Link to = "https://www.holyisland-stcuthbert.org/st-cuthbert/"
+              target="_blank" title="Click here to find more about St Cutbert" className="LinkApril">Cuthbert (later St Cuthbert)</Link> , a young shepherd boy who had been inspired by a vision of Aidan's soul
                rising to heaven. After Cuthbert's death in 687, he was interred at Lindisfarne, but when his casket was opened 11 years later, his corpse was found to be preserved
                and miracles were attributed to him. Lindisfarne became the most important pilgrimage centre in the North. When the Vikings raided
                the island in 793, the monks were forced to flee to safety on the mainland, taking Cuthbert's remains with them. Cuthbert's body accompanied
@@ -41070,11 +41070,11 @@ export default function May2024() {
                <br/>
                <br/>
                It is a 2hr drive from home to Holy Island. Crossing when the tide to Holy Island  is safe is critical, 
-            so we had checked the <Link to = "https://holyislandcrossingtimes.northumberland.gov.uk/" target="_blank" title="Click here to check the Holy Island tide timetable"> tide timetable</Link> carefully. We were going to be a little early for the first safe time for crossing, 
-            so a break was called for at <Link to = "https://purdylodge.co.uk/" target="_blank">Purdy Lodge Services</Link> on the A1. After our break,
+            so we had checked the <Link to = "https://holyislandcrossingtimes.northumberland.gov.uk/" target="_blank" title="Click here to check the Holy Island tide timetable" className="LinkApril"> tide timetable</Link> carefully. We were going to be a little early for the first safe time for crossing, 
+            so a break was called for at <Link to = "https://purdylodge.co.uk/" target="_blank" className="LinkApril">Purdy Lodge Services</Link> on the A1. After our break,
             we set off on the very atmospheric journey across the causeway to arrive safely at Holy Island. 
             With the parking all sorted for the day (£9.50), we set off on our 6 mile walk. To join us on our walk, read about our adventure and see the photos
-            please either <Link to = "https://photos.app.goo.gl/NVX3qrBW2GEf9xg57" target="_blank">click here</Link> or alternatively, click on the image below...
+            please either <Link to = "https://photos.app.goo.gl/NVX3qrBW2GEf9xg57" target="_blank" className="LinkApril">click here</Link> or alternatively, click on the image below...
             <br/>
             <br/>
             It is important to allow sufficient time to undertake this walk, as walking across sand dunes is slower than on firm ground.
@@ -41083,17 +41083,17 @@ export default function May2024() {
             <br/>
             <br/>
             We saw many things of interest during our day including, the ruins of <Link to = "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/"
-            target="_blank" title="Click here to discover more about Lindisfarne Priory">Lindisfarne Priory and Priory Museum</Link> , which are owned by English Heritage and 
+            target="_blank" title="Click here to discover more about Lindisfarne Priory" className="LinkApril">Lindisfarne Priory and Priory Museum</Link> , which are owned by English Heritage and 
             a variety of birds including the eider or Cuddy ducks (Cuthbert, when living on the island, decreed protection for the nesting eider ducks, which today are known locally as Cuddy ducks), 
             pale-bellied Brent geese, Reed buntings and Sedge warblers.  <Link to = "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/"
-            target="_blank" title="Click here to discover more about Lindisfarne Priory Museum">Lindisfarne Priory Museum</Link> is especially worth a visit.
+            target="_blank" title="Click here to discover more about Lindisfarne Priory Museum" className="LinkApril">Lindisfarne Priory Museum</Link> is especially worth a visit.
             It is only small, but contains on display a number of items from the excavation of the Lindisfarne Priory site, including some Anglo-Saxon
             stones of historical significance as they preserve some important indicators which aid understanding of what was happening in the 7th and 8th centuries 
             in this area, and Anglo-Saxon coins. 
             <br/>
             <br/>
             We had ample opportunity to see from the outside <Link to = "https://www.nationaltrust.org.uk/visit/north-east/lindisfarne-castle" target="_blank"
-            title="Click here to discover more about Lindisfarne Castle">Lindisfarne Castle</Link> , which is owned and run by the National Trust. It was built in the 16th century, around 1540
+            title="Click here to discover more about Lindisfarne Castle" className="LinkApril">Lindisfarne Castle</Link> , which is owned and run by the National Trust. It was built in the 16th century, around 1540
             with the purpose of protecting the harbour and it was used by troops as a base when they had to deal with Border risings between England and Scotland. In 1901,
             it was bought by the publisher Edward Hudson, whose friend Edwin Lutyens transformed it into a comfortable house. It was eventually donated to the National
             Trust in 1944 by the Merchant Banker, Sir Edward de Stein.
@@ -41104,16 +41104,16 @@ export default function May2024() {
             <br/>
             <br/>
             Finally, we made our way to the village, where the <Link to = "https://www.pilgrimscoffee.com/" target="_blank" 
-            title="Click here to discover more about Pilgrims Coffee">Pilgrims Coffee Roastery and Coffee House</Link> awaited...
+            title="Click here to discover more about Pilgrims Coffee" className="LinkApril">Pilgrims Coffee Roastery and Coffee House</Link> awaited...
             Then it was time to head back safely across the causeway, and onwards towards home.... 
             </section>
             </div>
 
 
             <div className="SlideshowHostPhoto">
-            <Link to ="https://photos.app.goo.gl/NVX3qrBW2GEf9xg57" target="_blank" title="Click on the link to accompany us on our visit to Holy Island" 
+            <Link to ="https://photos.app.goo.gl/NVX3qrBW2GEf9xg57" target="_blank" title="Click on the link to accompany us on our visit to Holy Island" className="LinkApril"
                     ><strong>
-            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/NVX3qrBW2GEf9xg57" target="_blank">Click here</Link> or on the image below to accompany us on our visit to the Holy Island of Lindisfarne.
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/NVX3qrBW2GEf9xg57" target="_blank" className="LinkApril">Click here</Link> or on the image below to accompany us on our visit to the Holy Island of Lindisfarne.
             <br /> <br />The individual comments on the photos will take you through the full story of our visit. </em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
 
@@ -41125,20 +41125,20 @@ export default function May2024() {
             <section className="date">9th May 2024, Thursday</section>
             <section className="newsheader">'Nye', National Theatre Live</section> 
             <section className="news">
-              This evening we all met up at the <Link to="https://rheged.com/" target="_blank" title="Click here to discover more about the Rheged Centre">
+              This evening we all met up at the <Link to="https://rheged.com/" target="_blank" title="Click here to discover more about the Rheged Centre" className="LinkApril">
               Rheged Centre</Link> for the <Link to="https://nye.ntlive.com/"
-              target="_blank">National Theatre Live </Link> performance of  <Link to="https://www.nationaltheatre.org.uk/productions/nye/"
-              target="_blank" title="Click here to discover more about Tim Price's new play 'Nye'">'Nye'</Link> , which was being shown on Screen 1.
+              target="_blank" className="LinkApril">National Theatre Live </Link> performance of  <Link to="https://www.nationaltheatre.org.uk/productions/nye/"
+              target="_blank" title="Click here to discover more about Tim Price's new play 'Nye'" className ="LinkApril">'Nye'</Link> , which was being shown on Screen 1.
               We had heard and read some very positive <Link to="https://www.theguardian.com/commentisfree/2024/mar/14/michael-sheen-nye-aneurin-bevan-nhs-welsh-actor-national-theatre"
-              target="_blank">reviews</Link> about this play and whilst we had been to a <em>Live Streaming</em> performance at the Alhambra Cinema in Penrith
-              previously, we had never seen any <em>Live Streaming</em> performances at the <Link to="https://rheged.com/" target="_blank" title="Click here to discover more about the Rheged Centre">
+              target="_blank" className="LinkApril">reviews</Link> about this play and whilst we had been to a <em>Live Streaming</em> performance at the Alhambra Cinema in Penrith
+              previously, we had never seen any <em>Live Streaming</em> performances at the <Link to="https://rheged.com/" target="_blank" title="Click here to discover more about the Rheged Centre" className="LinkApril">
               Rheged Centre</Link>.
               <br />
               <br />
               There was a very good audience turn out and with Screen 1 being the largest of the 2 Rheged cinema screens, together with  the impressive
               audio surround sound and visual effects, it gave an immersive effect similar to sitting in a live theatre. <Link to="https://www.nationaltheatre.org.uk/artists/michael-sheen/" target="_blank"
-              title="Click here to discover more about Michael Sheen"> Michael Sheen </Link> was excellent as <Link to="https://en.wikipedia.org/wiki/Aneurin_Bevan" target="_blank"
-                title="Click here to discover more about Aneurin Bevin">Aneurin 'Nye' Bevin</Link>. 
+              title="Click here to discover more about Michael Sheen" className="LinkApril"> Michael Sheen </Link> was excellent as <Link to="https://en.wikipedia.org/wiki/Aneurin_Bevan" target="_blank"
+                title="Click here to discover more about Aneurin Bevin" className="LinkApril">Aneurin 'Nye' Bevin</Link>. 
                 <br />
                 <br />
               Being so far away from London, we will be exploring seeing more <em>Live Streaming</em> performances at this location as there are regular performances scheduled
@@ -41167,7 +41167,7 @@ export default function May2024() {
             First stop was the Hamilton motorway services 10 miles south of Glasgow and then on through Glasgow and over the Erskine Bridge, along the banks of Loch Lomond 
             and on through Crianlarich and Bridge of Orchy into the Glencoe valley, where we intended to have lunch at the Glencoe Visitor's Centre. However a loss of 3G/4G connection
             meant Google took us instead to the <Link to="https://clachaig.com/" target="_blank" title="Click here to find more about the
-            Clachaig Inn">Clachaig Inn, Glencoe</Link>, which was fine as we had a drink there and then walked down through <Link to ="https://www.wildlochaber.com/glencoe/walking/an-torr-and-signal-rock" target="_blank">An Torr Wood</Link> and sat to have our sandwiches by the River Coe. 
+            Clachaig Inn" className="LinkApril">Clachaig Inn, Glencoe</Link>, which was fine as we had a drink there and then walked down through <Link to ="https://www.wildlochaber.com/glencoe/walking/an-torr-and-signal-rock" target="_blank" className="LinkApril">An Torr Wood</Link> and sat to have our sandwiches by the River Coe. 
             Unfortunately, there was not time to walk a little further to see Signal Rock where, according to legend, the signal was given by the Campbells for the Glencoe Massacre.
             Then after lunch it was on to Fort William, where there are a number of stores (including Aldi, M and S Food to Go and Morrisons stores) to stock up with provisions before reaching Skye.
             Finally, it was northwards to Inverrary, Shiel Bridge and Kyle of Lochalsh before crossing the bridge to Skye and after a short drive, reaching our accommodation.
@@ -41231,14 +41231,14 @@ export default function May2024() {
             <section className="newsheader">Day 2 of our holiday in the Isle of Skye - Walk on the Rubha Ardnish Peninsula 5.5 miles</section> 
             <section className="news">
               For day 2 of our holiday we decided to undertake a walk which we had not had the opportunity to previously, but has been described as being excellent for 
-               <Link to="https://www.walkhighlands.co.uk/skye/rubhaardnish.shtml" target="_blank"> bird and widlife-watching</Link>, the Rubha Ardnish Peninsula walk.
+               <Link to="https://www.walkhighlands.co.uk/skye/rubhaardnish.shtml" target="_blank" className="LinkApril"> bird and widlife-watching</Link>, the Rubha Ardnish Peninsula walk.
             We had the advantage also that, by lengthening the walk by a couple of miles, we could walk on foot from our accommodation...
             </section>
             </div> 
 
             <div className="SlideshowHostPhoto">
             <Link to ="https://photos.app.goo.gl/4zSUkh2Hihr8q8GV9" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our visit to the Rubha Ardnish Peninsula, Broadford, Isle of Skye" 
-                    ><strong>
+            className="LinkApril"><strong>
             <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/4zSUkh2Hihr8q8GV9" target="_blank">Click here </Link> or on the image below to open the photo album of our visit to the Rubha Ardnish Peninsula, Broadford, Isle of Skye. 
             <br /> <br />The individual comments on the photos will take you through the full story of our trip.</em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
@@ -41253,21 +41253,21 @@ export default function May2024() {
             <section className="news">
               For day 3 of our holiday we set off at 9.30 am on a walk which we have done in the past and remember enjoying. This should have been 
               a relatively straightforward 5 3/4 mile circular walk from Harrapool, Broadford to Coire  Chat-Achan, but ended up being somewhat of a 9 mile trek due to an 
-              <Link to="https://en.wikipedia.org/wiki/Uncharted_4:_A_Thief%27s_End" target="_blank">'Uncharted'</Link>
+              <Link to="https://en.wikipedia.org/wiki/Uncharted_4:_A_Thief%27s_End" target="_blank" className="LinkApril">'Uncharted'</Link>
               -type detour up the lower slopes of <Link to="https://www.walkhighlands.co.uk/corbetts/beinn-dearg-mor" target="_blank" title="Click here to discover 
-              more about Beinn Dearg Mòr ">Beinn Dearg Mòr</Link>. 
+              more about Beinn Dearg Mòr " className="LinkApril">Beinn Dearg Mòr</Link>. 
               <br />
               <br />
-              <Link to="https://canmore.org.uk/site/11588/skye-coire-chat-achan" target="_blank" title="Click here to discover more about Coire Chat-Achan">Coire Chat-Achan </Link> 
+              <Link to="https://canmore.org.uk/site/11588/skye-coire-chat-achan" target="_blank" title="Click here to discover more about Coire Chat-Achan" className="LinkApril">Coire Chat-Achan </Link> 
                is the now ruined old mansion house of the Chief of the Mackinnon's where Dr Samuel Johnson author of the first dictionary of the English language, poet, playwright and essayist along with his travelling companion 
               James Boswell himself a renowned writer, were entertained in 1773 on their travels around Scotland as part of the tour that would form the 
-              basis for his much acclaimed works; <Link to="https://en.wikipedia.org/wiki/A_Journey_to_the_Western_Islands_of_Scotland" target="_blank"> A Journey to the Western Islands of Scotland (Johnson) </Link> and The Journal of a Tour to the Hebrides with 
+              basis for his much acclaimed works; <Link to="https://en.wikipedia.org/wiki/A_Journey_to_the_Western_Islands_of_Scotland" target="_blank" className="LinkApril"> A Journey to the Western Islands of Scotland (Johnson) </Link> and The Journal of a Tour to the Hebrides with 
               Samuel Johnson, LL.D (Boswell). At the time there were no roads on the Isle of Skye.... 
               
               <br />
               <br />
               Today however, we were commencing our walk a mile further down the road from Broadford in the other direction, which is where our accommodation 
-              was situated and it was all going to turn into a bit of an adventure. Bernard loved it as he went into full <Link to="https://en.wikipedia.org/wiki/Uncharted_4:_A_Thief%27s_End" target="_blank">'Uncharted' </Link> 
+              was situated and it was all going to turn into a bit of an adventure. Bernard loved it as he went into full <Link to="https://en.wikipedia.org/wiki/Uncharted_4:_A_Thief%27s_End" target="_blank" className="LinkApril">'Uncharted' </Link> 
               mode and had us going through bogs and fording streams until I pointed out we were at risk of getting totally lost and that we appeared to be 
               completely off-course. Join us below on our adventure....
               <br />
@@ -41278,9 +41278,9 @@ export default function May2024() {
 
             <div className="SlideshowHostPhoto">
             <Link to ="https://photos.app.goo.gl/kBwdPJxH4fiRnY1U9" target="_blank" title="Click on the link and read the full comments on each 
-            photo to accompany us on our walk to Coire Chat-Achan, Broadford, Isle of Skye">
+            photo to accompany us on our walk to Coire Chat-Achan, Broadford, Isle of Skye" className="LinkApril">
                     <strong>
-            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/kBwdPJxH4fiRnY1U9" target="_blank">Click here </Link> or on the image below to open the photo album 
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/kBwdPJxH4fiRnY1U9" target="_blank" className="LinkApril">Click here </Link> or on the image below to open the photo album 
             of our walk to Coire Chat-Achan, Broadford, Isle of Skye. 
             <br /> <br />The individual comments on the photos will take you through the full story of our trip.</em></strong>
          </div>   {/*Closing div slideshowinstructions*/}
@@ -41293,13 +41293,13 @@ export default function May2024() {
             <section className="date">14th May 2024, Tuesday</section>
             <section className="newsheader">Day 4 of our holiday in the Isle of Skye - Visit to Armadale Castle and Chocolates of Glenshiel</section> 
             <section className="news">
-             <Link to="https://www.armadalecastle.com/" target="_blank" title="Click here to discover more about Armadale Castle"> Armadale Castle</Link> , Sleat, 
+             <Link to="https://www.armadalecastle.com/" target="_blank" title="Click here to discover more about Armadale Castle" className="LinkApril"> Armadale Castle</Link> , Sleat, 
              in the south of Skye, has long been a favourite place of ours to visit when we are here on the Isle of Skye. We particularly like it because it has a spectacular and sheltered location,
             enjoys stunning views across the Sound of Sleat to the mountains of Knoydart on the Scottish mainland and gives access in total to about
              40 acres including several walking trails, gardens, a ruined castle which was the former manor house of the Macdonald chiefs, and the <Link to="https://www.armadalecastle.com/explore/museum/"
-             target="_blank" title="Click here to discover more about Museum of the Isles">Museum of the Isles</Link> where there is much to be learned about Macdonald and Highland history.
+             target="_blank" title="Click here to discover more about Museum of the Isles" className="LinkApril">Museum of the Isles</Link> where there is much to be learned about Macdonald and Highland history.
              Since 1971, it has, together with the castle gardens and the surrounding highland estate been owned and managed by the <Link to="https://www.armadalecastle.com/about/who-we-are/"
-             target="_blank">Clan Donald Lands Trust</Link> , a Scottish charitable trust dedicated to promoting and preserving 
+             target="_blank" className="LinkApril">Clan Donald Lands Trust</Link> , a Scottish charitable trust dedicated to promoting and preserving 
              it for future generations.
              <br />
              <br />
@@ -41310,7 +41310,7 @@ export default function May2024() {
             <br />      
             <br />
             Once we had finished at the castle, we headed off to <Link to="https://www.chocolatesofglenshiel.com/" target="_blank"
-            title="Click here to discover more about Glenshiel chocolates">Glenshiel Chocolates</Link> on the mainland as we needed some presents
+            title="Click here to discover more about Glenshiel chocolates" className="LinkApril">Glenshiel Chocolates</Link> on the mainland as we needed some presents
             and these chocolate producers seemed to have a good reputation. It would seem so anyway, as when we arrived at the shop,
             which is only small and is situated at the side of the A87, at the foot of <em>The Five Sisters of Kintail</em>, it was extremely busy. They were also doing a good trade 
             in coffees, which was great as we could avail ourselves of one before our return journey.
@@ -41318,9 +41318,9 @@ export default function May2024() {
             </div> 
 
             <div className="SlideshowHostPhoto">
-            <Link to ="https://photos.app.goo.gl/kdtqMoPk7uS8fNfu9" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our visit to Armadale Castle and Chocolates of Glenshiel, Isle of Skye" 
-                    ><strong>
-            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/kdtqMoPk7uS8fNfu9" target="_blank">Click here </Link> or on the image below to open the photo album of our visit to Armadale Castle and Chocolates of Glenshiel, Isle of Skye. 
+            <Link to ="https://photos.app.goo.gl/kdtqMoPk7uS8fNfu9" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our visit to Armadale 
+            Castle and Chocolates of Glenshiel, Isle of Skye" className="LinkApril"><strong>
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/kdtqMoPk7uS8fNfu9" target="_blank" className="LinkApril">Click here </Link> or on the image below to open the photo album of our visit to Armadale Castle and Chocolates of Glenshiel, Isle of Skye. 
             <br /> <br />The individual comments on the photos will take you through the full story of our trip.</em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
 
@@ -41333,24 +41333,24 @@ export default function May2024() {
             <section className="newsheader">Day 5 of our holiday in the Isle of Skye - Loch Coruisk Misty Isle Boat Trip and at last, the otter makes an appearance! </section> 
             <section className="news">
              Today was the day for heading the 15 miles on the single track road all the way over to Elgol, to travel to Loch Coruisk on our 
-              <Link to="https://mistyisleboattrips.co.uk/" target="_blank" title="Click here ot discover more about the Misty Isle Boat Trips"> Misty Isle Boat Trip</Link>,
-              which is a  <Link to="https://mistyisleboattrips.co.uk/about/our-people/" target="_blank"> local family-owned business </Link>  since 1969. The previous 
+              <Link to="https://mistyisleboattrips.co.uk/" target="_blank" title="Click here ot discover more about the Misty Isle Boat Trips" className="LinkApril"> Misty Isle Boat Trip</Link>,
+              which is a  <Link to="https://mistyisleboattrips.co.uk/about/our-people/" target="_blank" className="LinkApril"> local family-owned business </Link>  since 1969. The previous 
               occasions when we had driven this road it had been moderately challenging due to the distance involved as a single-track, although there are frequent passing places.
               This time around, after living in our current home which can only be accessed by a single track road for the past few years, it seemed much more straightforward, although
               care is still required as the vehicles can be travelling very quickly.
               <br />
               <br />
-             There are currently two companies which run these trips, <Link to="https://mistyisleboattrips.co.uk/" target="_blank" title="Click here ot discover more about the Misty Isle Boat Trips"> Misty Isle Boat Trips </Link>
-              and <Link to="https://www.bellajane.co.uk/" target="_blank" title="Click here to discover more about the Bella Jane Boat Trips"> Bella Jane Boat Trips</Link> . We can only comment on the 
-             <Link to="https://mistyisleboattrips.co.uk/" target="_blank" title="Click here ot discover more about the Misty Isle Boat Trips"> Misty Isle Boat Trip</Link>, as this is the one we went on, but both seem popular 
-             from both <Link to="https://www.tripadvisor.co.uk/Attraction_Review-g1224708-d1544341-Reviews-Misty_Isle_Boat_Trips-Elgol_Isle_of_Skye_The_Hebrides_Scotland.html" target="_blank">Misty Isle Boat reviews</Link> and
-             <Link to="https://www.tripadvisor.co.uk/Attraction_Review-g1224708-d2287003-Reviews-Bella_Jane_Boat_Trips_AquaXplore-Elgol_Isle_of_Skye_The_Hebrides_Scotland.html" target="_blank"> Bella Jane Boat reviews</Link>. 
+             There are currently two companies which run these trips, <Link to="https://mistyisleboattrips.co.uk/" target="_blank" title="Click here ot discover more about the Misty Isle Boat Trips" className="LinkApril"> Misty Isle Boat Trips </Link>
+              and <Link to="https://www.bellajane.co.uk/" target="_blank" title="Click here to discover more about the Bella Jane Boat Trips" className="LinkApril"> Bella Jane Boat Trips</Link> . We can only comment on the 
+             <Link to="https://mistyisleboattrips.co.uk/" target="_blank" title="Click here ot discover more about the Misty Isle Boat Trips" className="LinkApril"> Misty Isle Boat Trip</Link>, as this is the one we went on, but both seem popular 
+             from both <Link to="https://www.tripadvisor.co.uk/Attraction_Review-g1224708-d1544341-Reviews-Misty_Isle_Boat_Trips-Elgol_Isle_of_Skye_The_Hebrides_Scotland.html" target="_blank" className="LinkApril">Misty Isle Boat reviews</Link> and
+             <Link to="https://www.tripadvisor.co.uk/Attraction_Review-g1224708-d2287003-Reviews-Bella_Jane_Boat_Trips_AquaXplore-Elgol_Isle_of_Skye_The_Hebrides_Scotland.html" target="_blank" className="LinkApril"> Bella Jane Boat reviews</Link>. 
              <br />
              <br />
              Firstly, on leaving Elgol and approaching the Black Cuillins by boat, it is necessary to cross Loch Scavaig. The loch is nearly 2 miles (3 kilometres) long, but only about 400 yards (370 metres) wide.
              On disembarking at the jetty, one climbs up over a rocky path towards Loch Coruisk. Before long, From the southern end the Scavaig River, only a few hundred yards long can be seen discharging into Loch Scavaig. 
             Loch Coruisk is an inland fresh-water loch, lying at the foot of the Black Cuillin, which can only be reached by either a long walk from Sligachan
-             or from Kilmarie or Elgol via the notorious <Link to="https://www.youtube.com/watch?v=bXFUQJBrbuY" target="_blank">'Bad Step'</Link>. 
+             or from Kilmarie or Elgol via the notorious <Link to="https://www.youtube.com/watch?v=bXFUQJBrbuY" target="_blank" className="LinkApril">'Bad Step'</Link>. 
              <br />
              <br />
              We had a fantastic day and could not have hoped for better weather. We were also fortunate in being able to undertake this trip outside peak-season
@@ -41362,15 +41362,14 @@ export default function May2024() {
             </div> 
 
             <div className="SlideshowHostPhoto">
-            <Link to ="https://photos.app.goo.gl/ah3B1KL8xyfdn8LM6" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our Loch Coruisk Misty Isle Boat Trip and the appearance of the otter" 
-                    ><strong>
-            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/ah3B1KL8xyfdn8LM6" target="_blank">Click here </Link> or on the image below to open the photo and video album of our Loch Coruisk Misty Isle Boat Trip and the appearance of the otter. 
+            <Link to ="https://photos.app.goo.gl/ah3B1KL8xyfdn8LM6" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our Loch Coruisk Misty Isle Boat Trip and the appearance of the otter" className="LinkApril"><strong>
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/ah3B1KL8xyfdn8LM6" target="_blank" className="LinkApril">Click here </Link> or on the image below to open the photo and video album of our Loch Coruisk Misty Isle Boat Trip and the appearance of the otter. 
             <br /> <br />The individual comments on the photos will take you through the full story of our trip. 
             <br />
             <br />
             For anyone who may have trouble 
-            with the streaming of the videos in this album, they are also available via these You Tube links: <Link to="https://youtu.be/fg5GMTLEeEs" target="_blank"> See the Seals </Link>
-             and <Link to="https://youtu.be/u6uCUjkHEMs" target="_blank">See the Otter</Link> </em></strong>
+            with the streaming of the videos in this album, they are also available via these You Tube links: <Link to="https://youtu.be/fg5GMTLEeEs" target="_blank" className="LinkApril"> See the Seals </Link>
+             and <Link to="https://youtu.be/u6uCUjkHEMs" target="_blank" className="LinkApril">See the Otter</Link> </em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
 
             <img className="slideshowentryMay" src={BernardLochCoruisk} alt="" />
@@ -41381,7 +41380,7 @@ export default function May2024() {
             <section className="date">16th May 2024, Thursday</section>
             <section className="newsheader">Day 6 of our holiday in the Isle of Skye - Scorrybreac and the Bile, Portree and Irishman's Point, Broadford </section> 
             <section className="news">
-             Today, we decided to drive to Portree, the capital of Skye in the morning in order to undertake the short <Link to="https://www.isleofskye.com/skye-guide/top-ten-skye-walks/scorrybreac" target="_blank">
+             Today, we decided to drive to Portree, the capital of Skye in the morning in order to undertake the short <Link to="https://www.isleofskye.com/skye-guide/top-ten-skye-walks/scorrybreac" target="_blank" className="LinkApril">
               walk round Scorrybreac and the Bile</Link>. This is a popular walk and whilst it is only short, it is of average severity as it involves a short but steepish climb at one point 
               and some slightly rough areas underfoot. There are however some lovely views of Portree Bay and Harbour Front and Ben Tianavaig mountain. 
               <br />
@@ -41391,7 +41390,7 @@ export default function May2024() {
               <br />
               <br />
               <div style={{textAlign:"center"}}>In the afternoon, it was beautifully sunny so we walked over to <Link to="https://www.walkhighlands.co.uk/skye/irishmanspoint.shtml" target="_blank"
-              title="Click here to discover more about Rubh an Eireannaich, Broadford">Rubh an Eireannaich/Irishman's Point</Link>.</div>
+              title="Click here to discover more about Rubh an Eireannaich, Broadford" className="LinkApril">Rubh an Eireannaich/Irishman's Point</Link>.</div>
               <br />
               <br />
               <div style={{textAlign:"center"}}>We invite you to join us below on our adventure....</div>
@@ -41401,7 +41400,7 @@ export default function May2024() {
             <div className="SlideshowHostPhoto">
             <Link to ="https://photos.app.goo.gl/QeEq5Pi9WNXz1g9v5" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our Loch Coruisk Misty Isle Boat Trip and the appearance of the otter" 
                     ><strong>
-            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/QeEq5Pi9WNXz1g9v5" target="_blank">Click here </Link> or on the image below to open the photo album of our Scorrybreac and the Bile, Portree and Irishman's Point, Broadford. 
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/QeEq5Pi9WNXz1g9v5" target="_blank" className="LinkApril">Click here </Link> or on the image below to open the photo album of our Scorrybreac and the Bile, Portree and Irishman's Point, Broadford. 
             <br /> <br />The individual comments on the photos will take you through the full story of our trip. 
             <br />
             <br />
@@ -41416,9 +41415,9 @@ export default function May2024() {
             <section className="date">17th May 2024, Friday</section>
             <section className="newsheader">Day 6 of our holiday in the Isle of Skye - Kyle Station Museum, The Original Skye Ferry Crossing from Kylerhea to Glenelgh and the Kylerhea Otter Hide </section> 
             <section className="news">
-              In the morning, as the weather was dull, we headed over to Kyle of Lochalsh to visit the <Link to="https://www.kylestationmuseum.org/" target="_blank" title="Click here to discover more about the Kyle Station Museum">
+              In the morning, as the weather was dull, we headed over to Kyle of Lochalsh to visit the <Link to="https://www.kylestationmuseum.org/" target="_blank" title="Click here to discover more about the Kyle Station Museum" className="LinkApril">
                 Kyle Station Museum</Link>. Whilst small, it is a very interesting museum which is run by volunteers and tells the story of Kyle harbour, West Coast fishing and the Kyle Line railway. 
-                It also tells the very sad story of the <Link to="https://www.bbc.co.uk/news/uk-scotland-46522918" target="_blank" title="Click here to find out more about the Iolaire disaster">
+                It also tells the very sad story of the <Link to="https://www.bbc.co.uk/news/uk-scotland-46522918" target="_blank" title="Click here to find out more about the Iolaire disaster" className="LinkApril">
                 Iolaire Disaster </Link> in January 1919 .
                 It cost £5.00 each for us to enter and takes between 30-45 minutes to look around. It contains, amongst other things, information about how people 
                 travelled ‘over the sea to Skye’ before the Skye Bridge opened on the 16 October 1995. This latter set us up for later in the day, when we travelled on the Old Military Road from Glenshiel,
@@ -41427,32 +41426,32 @@ export default function May2024() {
                 <br />
                 <br />
                 
-                We travelled across the Kyle Rhea Strait using the <Link to="https://skyeferry.co.uk/" target="_blank" title="Click here to discover more about the Original Skye Ferry between Kylerhea and Glenelg">Old Skye Ferry</Link> crossing.
-                The boat we travelled on was the <Link to="https://skyeferry.co.uk/the-glenachulish-ferry/" target="_blank">MV Glenachulish</Link> . This boat was built in 1969 and is a manually-operated turntable ferry (as far as we are aware, the last of its 
+                We travelled across the Kyle Rhea Strait using the <Link to="https://skyeferry.co.uk/" target="_blank" title="Click here to discover more about the Original Skye Ferry between Kylerhea and Glenelg" className="LinkApril">Old Skye Ferry</Link> crossing.
+                The boat we travelled on was the <Link to="https://skyeferry.co.uk/the-glenachulish-ferry/" target="_blank" className="LinkApril">MV Glenachulish</Link> . This boat was built in 1969 and is a manually-operated turntable ferry (as far as we are aware, the last of its 
                 kind operating in the world). The ferry has a capacity of 6 cars but will allow any variation of foot passengers and vehicles within its safety specifications (maximum 12 passengers).
                 The ferry initially served near Ballachulish on Loch Leven but in 1975 was replaced there by a bridge, so in 1982 the ferry came to serve at the strait between Kylerhea and Glenelg.
                 <br />
                 <br />
                 The drive over to the ferry from Glenshiel via the <Link to="https://www.secret-scotland.com/blog/scotland-travel-blog-january-2015"
-                target="_blank">Bealach Ratagain</Link> may bring back memories for those who, like us, have driven some of the high European passes,
+                target="_blank" className="LinkApril">Bealach Ratagain</Link> may bring back memories for those who, like us, have driven some of the high European passes,
                 the route being on a narrow single track road with passing places and some spectacular views. A short video of a motorcyclist and his dog driving this route down
-                to the ferry can be found on this <Link to="https://skyeferry.co.uk/journey/" target="_blank" title="Click here to experience the exhilarating ride down to the ferry"> Journey to the Ferry </Link> link (keep a 
+                to the ferry can be found on this <Link to="https://skyeferry.co.uk/journey/" target="_blank" title="Click here to experience the exhilarating ride down to the ferry" className="LinkApril"> Journey to the Ferry </Link> link (keep a 
                 look out for the motorcyclist's very entertaining dog!). There is also our footage of part of this journey via the link to our photo and video album below. 
                 Keep an eye out also for the sign as you enter Glenelg village explaining that 'GLENELG(earth) is twinned with GLENELG(Mars). In fact, Glenelg is recognised by 
                 Nasa as the twin of the Glenelg Intrigue on the Red Planet as is explained in <Link to="https://www.scottishdailyexpress.co.uk/lifestyle/remote-scottish-village-twinned-mars-31202633"
-                target="_blank"> this </Link> article .
+                target="_blank" className="LinkApril"> this </Link> article .
                 <br />
                 <br/>
 
                 On arrival at the ferry, we had a short wait as the 2 ferrymen were taking their well-earned lunch break, then it was time for them to 
                 bring the ferry over, operate the turntable ferry to off-load the passengers and reload for the return journey. More additional interesting information about the
-                ferry can be found in this informative article <Link to="https://www.myhighlands.de/en/glenelg-skye-ferry/" target="_blank"> here </Link> . The dogs mentioned in the article were both there
+                ferry can be found in this informative article <Link to="https://www.myhighlands.de/en/glenelg-skye-ferry/" target="_blank" className="LinkApril"> here </Link> . The dogs mentioned in the article were both there
                 on the day we travelled and magically, as we crossed the Strait, there were 2 seals swimming along in the water at the side of the ferry....
              <br />
              <br />
             Once safely on the other side, we headed to undertake the walk at the 
-             <Link to="https://www.isleofskye.com/skye-guide/skye-walks/island-walks/kylerhea-otter-hide" target="_blank" title="Click here to discover more about the Kylerhea Otter Hide"> Kylerhea Otter Hide </Link> .
-             We did not see any otters on this particular day, but having seen an otter in close up <Link to="https://youtu.be/u6uCUjkHEMs" target="_blank">earlier in the week</Link> . It is worth mentioning that if you are visiting the Kylerhea otter hides,
+             <Link to="https://www.isleofskye.com/skye-guide/skye-walks/island-walks/kylerhea-otter-hide" target="_blank" title="Click here to discover more about the Kylerhea Otter Hide" className="LinkApril"> Kylerhea Otter Hide </Link> .
+             We did not see any otters on this particular day, but having seen an otter in close up <Link to="https://youtu.be/u6uCUjkHEMs" target="_blank" className="LinkApril">earlier in the week</Link> . It is worth mentioning that if you are visiting the Kylerhea otter hides,
              the Forestry Commission own the land and parking is chargeable via <em>Ring to Go</em> . Having said that, there is adequate parking, the path is clear and in good condition 
              underfoot, there are bathroom facilities and a picnic area and there are spectacular views down the Strait. You may also be lucky and see otters, a Minke whale, dolphins and/or sea eagles
              but patience is required.   On leaving the sanctuary, it was back out on to the single track road for the 7 miles back to Breakish and on to our accommodation.
@@ -41468,14 +41467,13 @@ export default function May2024() {
             </div> 
 
             <div className="SlideshowHostPhoto">
-            <Link to ="https://photos.app.goo.gl/Prbt5u4XG6FXk2sj6" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our Kyle Station Museum, The Original Skye Ferry from Glenelgh to Kylerhea and the Kylerhea Otter Hide" 
-                    ><strong>
-            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/Prbt5u4XG6FXk2sj6" target="_blank">Click here </Link> or on the image below to open the photo and video album of our Kyle Station Museum, The Original Skye Ferry from Glenelgh to Kylerhea and the Kylerhea Otter Hide. 
+            <Link to ="https://photos.app.goo.gl/Prbt5u4XG6FXk2sj6" target="_blank" title="Click on the link and read the full comments on each photo to accompany us on our Kyle Station Museum, The Original Skye Ferry from Glenelgh to Kylerhea and the Kylerhea Otter Hide" className="LinkApril"><strong>
+            <div className="slideshowinstructions"><strong><em><Link to="https://photos.app.goo.gl/Prbt5u4XG6FXk2sj6" target="_blank" className="LinkApril">Click here </Link> or on the image below to open the photo and video album of our Kyle Station Museum, The Original Skye Ferry from Glenelgh to Kylerhea and the Kylerhea Otter Hide. 
             <br /> <br />The individual comments on the photos will take you through the full story of our trip. 
             <br />
             <br />
             For anyone who may have trouble 
-            with the streaming of the videos in this album, they are also available via these You Tube links: <Link to="https://youtu.be/bxY2L1iDPNo" target="_blank"> On the Glenelg to Kylerhea Ferry Crossing </Link>
+            with the streaming of the videos in this album, they are also available via these You Tube links: <Link to="https://youtu.be/bxY2L1iDPNo" target="_blank" className="LinkApril"> On the Glenelg to Kylerhea Ferry Crossing </Link>
             </em></strong>
             </div>   {/*Closing div slideshowinstructions*/}
 
@@ -41493,6 +41491,7 @@ export default function May2024() {
              </div>
             </section>
             </div>
+            
   </div>
   )
 }

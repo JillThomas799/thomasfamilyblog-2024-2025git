@@ -15,6 +15,11 @@
  color: white;
 }
 
+.linkMay2024{
+  text-decoration: underline;
+  color: yellow;
+}
+
 #backbuttonMay{
   display:block;
   position:absolute;
@@ -120,8 +125,6 @@
   padding-top: 5%;
   margin-top:2%;
 }
-
-
 
 .blogPhoto img{
   display: block;

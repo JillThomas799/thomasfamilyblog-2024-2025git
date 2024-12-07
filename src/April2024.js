@@ -327,7 +327,8 @@ export default function April2024() {
             This month's theme is the local North Cumbrian Swaledale sheep in the area where we live and their very cute lambs who have been entertaining us, gambling around in the fields recently. 
             Swaledale sheep are a breed of sheep named after the Yorkshire valley of Swaledale in England. In this area of Northern Cumbria, 
             which is located in the Pennine fells of Cumbria, they are the main breed of sheep to be reared. They are especially suited to this area
-            as they are very hardy, able-bodied, thick-coated and bold. More information about Swaledales can be found <Link Link to = "https://en.wikipedia.org/wiki/Swaledale_sheep" target="_blank" title="Please click here to discover more about Swaledale sheep"><strong>here</strong></Link>.
+            as they are very hardy, able-bodied, thick-coated and bold. More information about Swaledales can be found <Link to = "https://en.wikipedia.org/wiki/Swaledale_sheep" target="_blank" 
+            title="Please click here to discover more about Swaledale sheep" className="LinkApril"><strong>here</strong></Link>.
             <br />
             <br />
             For those people who may be interested, the April header design this month has been created from first-principals using Scalable Vector Graphics (SVG). Firstly, pictures were taken of the local Swaledale sheep and their lambs, then the mountains,
@@ -340,7 +341,8 @@ export default function April2024() {
           </div> 
 
           <div className="blogPhotoDiv">
-          <fig><section className = "blogPhoto" ><img src={ChocolateEasterEggs} alt="" /><figcaption className='aprilfigcaption'><strong>Easter Eggs at <Link to = "https://www.castle-chocolates.co.uk/" target = "_blank" title = "Click here to discover more about Castle Chocolates, Carlisle">Castle Chocolates</Link>, <br />Carlisle for Easter</strong></figcaption></section>
+          <fig><section className = "blogPhoto" ><img src={ChocolateEasterEggs} alt="" /><figcaption className='aprilfigcaption'><strong>Easter Eggs at <Link to = "https://www.castle-chocolates.co.uk/" target = "_blank" 
+          title = "Click here to discover more about Castle Chocolates, Carlisle" className="LinkApril">Castle Chocolates</Link>, <br />Carlisle for Easter</strong></figcaption></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={CentralVillageSceneApril24} alt="" /><figcaption className='aprilfigcaption'><strong>Good Friday...a lovely warm, sunny day in the <br />village centre with daffodils everywhere..</strong></figcaption></section>
             </fig>
@@ -363,13 +365,16 @@ export default function April2024() {
           </div>
 
           <div className="blogPhotoDiv">
-          <fig><section className = "blogPhoto" ><img src={EasterBunniesandEggsBowness} alt="" /><figcaption className='aprilfigcaption'><strong>Over Easter we have been for a number of long walks including at <Link to = "https://www.solwaycoastaonb.org.uk/2019/places-to-explore/historic-hamlets/bowness-on-solway/" target="_blank" title="Click here to discover more about Bowness-on-Solway">Bowness-on-Solway</Link><br /> on Easter Saturday where we found these <br /> Easter bunnies and eggs </strong></figcaption></section>
+          <fig><section className = "blogPhoto" ><img src={EasterBunniesandEggsBowness} alt="" /><figcaption className='aprilfigcaption'><strong>Over Easter we have been for a number of long walks including at <Link to = "https://www.solwaycoastaonb.org.uk/2019/places-to-explore/historic-hamlets/bowness-on-solway/" target="_blank" title="Click here to discover more about Bowness-on-Solway" className="LinkApril">Bowness-on-Solway</Link><br /> on Easter Saturday where we found these <br /> Easter bunnies and eggs </strong></figcaption></section>
             </fig>
-            <fig><section className = "blogPhoto" ><img src={ApproachingBroughamHall} alt="" /><figcaption className='aprilfigcaption'><strong>And on Easter Monday in the countryside <br /> around <Link to = "https://www.broughamhall.co.uk/" target="_blank" title="Please click here to discover more about Brougham Hall">Brougham Hall</Link> (seen here),<br /> and <Link to = "https://www.english-heritage.org.uk/visit/places/brough-castle/" target="_blank" title="Click here to discover more about Brough Castle">Brough Castle</Link></strong></figcaption></section>
+            <fig><section className = "blogPhoto" ><img src={ApproachingBroughamHall} alt="" /><figcaption className='aprilfigcaption'><strong>And on Easter Monday in the countryside <br /> around <Link to = "https://www.broughamhall.co.uk/" target="_blank" title="Please click here to discover more about Brougham Hall" className="LinkApril">Brougham Hall</Link> (seen here),<br /> and <Link to = "https://www.english-heritage.org.uk/visit/places/brough-castle/" target="_blank" 
+            title="Click here to discover more about Brough Castle" className="LinkApril">Brough Castle</Link></strong></figcaption></section>
             </fig>
-            <fig><section className = "blogPhoto" ><img src={BroughamHall} alt="" /><figcaption className='aprilfigcaption'><strong><Link to = "https://www.broughamhall.co.uk/" target="_blank" title="Please click here to discover more about Brougham Hall">Brougham Hall</Link></strong></figcaption></section>
+            <fig><section className = "blogPhoto" ><img src={BroughamHall} alt="" /><figcaption className='aprilfigcaption'><strong><Link to = "https://www.broughamhall.co.uk/" target="_blank" 
+            title="Please click here to discover more about Brougham Hall" className="LinkApril">Brougham Hall</Link></strong></figcaption></section>
             </fig>
-            <fig><section className = "blogPhoto" ><img src={BroughamHallDoorKocker} alt="" /><figcaption className='aprilfigcaption'><strong><Link to = "https://www.broughamhall.co.uk/history/the-brougham-door-knocker/" target="_blank" title="Please click here to discover more about the door knocker at Brougham Hall">12th century style door knocker Brougham Hall</Link></strong>, <br /> quite an interesting story to this</figcaption></section>
+            <fig><section className = "blogPhoto" ><img src={BroughamHallDoorKocker} alt="" /><figcaption className='aprilfigcaption'><strong><Link to = "https://www.broughamhall.co.uk/history/the-brougham-door-knocker/" target="_blank" 
+            className="LinkApril" title="Please click here to discover more about the door knocker at Brougham Hall" className="LinkApril">12th century style door knocker Brougham Hall</Link></strong>, <br /> quite an interesting story to this</figcaption></section>
             </fig>
           </div>
 
@@ -391,7 +396,7 @@ export default function April2024() {
             <br />
             <div style={{textAlign:"center"}}>
             <Link to ="https://www.newsandstar.co.uk/news/24213986.tributes-paid-beloved-carlisle-pet-shop-cat-will/" target="_blank" title="click on link 
-            to read all about Will">News and Star Article on Will, the Bank Street cat</Link>. 
+            to read all about Will" className="LinkApril">News and Star Article on Will, the Bank Street cat</Link>. 
             </div>
             <br />
             <br />
@@ -472,7 +477,8 @@ export default function April2024() {
             <br />
             It was great to meet up with our friends, one of whom Jill has known since she was 11 years old and was bridesmaid at our wedding, and to catch up on news. There were some rainy showers, so for the first time we also 
             looked around the interior of Sizergh Castle, which was worth seeing. It was very busy as it was still the Easter holidays. By after lunch the weather had brightened, though it remained quite stormy, so we 
-            worked out a relatively tree-free route up to <Link to = "https://www.nationalchurchestrust.org/church/st-john-evangelist-helsington" target="_blank" title="Click here to discover more about St John the Evangelist Church, Hetherington">St John the Evangelist Church, Hetherington</Link>, from where
+            worked out a relatively tree-free route up to <Link to = "https://www.nationalchurchestrust.org/church/st-john-evangelist-helsington" target="_blank" title="Click here to discover more about St John the Evangelist Church, 
+            Hetherington" className="LinkApril">St John the Evangelist Church, Hetherington</Link>, from where
             there are fantastic, sweeping views across to Morecambe Bay, the Lyth Valley and the distant Lakeland Fells. 
             <br />
             <br />
@@ -503,7 +509,7 @@ export default function April2024() {
             <br />
             We had to have a pre-prepared plan for how we would manage Lennie for the day, as he is a little unsure about dogs, and we did not want it to turn out
             to be the trailer for 'Cats and Dogs 3' (a sequel to <Link to = "https://en.wikipedia.org/wiki/Cats_%26_Dogs:_The_Revenge_of_Kitty_Galore" target="_blank"
-            title="Click here to find more about the Cats and Dogs 2 film">'Cats and Dogs 2'</Link>). 
+            title="Click here to find more about the Cats and Dogs 2 film" className="LinkApril">'Cats and Dogs 2'</Link>). 
             Fortunately, he was not around when Archie was finishing off his food from his bowl in the kitchen....
             However, by the next morning Lennie seemed to have recovered ....(see photos below).
             <br />
@@ -536,7 +542,7 @@ export default function April2024() {
           <div className="datenewsDiv">
             <section className="date">20th April 2024</section> 
             <section className="newsheader">Visit to Lowther Castle including the new 'Story of Lowther' exhibition, the renovated Japanese Gardens and the
-            <Link to = "https://www.bbc.co.uk/news/articles/cz96n7n1revo" target="_blank">'Celebration of Gold' Exhibition</Link> by artist 
+            <Link to = "https://www.bbc.co.uk/news/articles/cz96n7n1revo" target="_blank" className="LinkApril">'Celebration of Gold' Exhibition</Link> by artist 
             Steve Massam.
             <br />
             </section>
@@ -544,7 +550,7 @@ export default function April2024() {
               We had a very pleasant trip to Lowther castle today. It was time for renewal of our annual membership, so this year we have obtained 
               <Link to = "https://www.historichouses.org/become-a-member/" target="_blank" title="Click here to discover more about Historic Houses membership"> Historic Houses membership</Link>,
               which not only gains us entrance to Lowther Castle, but also <Link to="https://www.historichouses.org/houses/?q=penrith" target ="_blank"
-              title="Click here to discover some of the houses to which Historic Houses membership will gain you entrance">many other Historic Houses</Link>. 
+              title="Click here to discover some of the houses to which Historic Houses membership will gain you entrance" className="LinkApril">many other Historic Houses</Link>. 
               So that is all a bonus.
               <br/>
               <br/>
@@ -597,8 +603,8 @@ export default function April2024() {
             <br />
             <br />
             It has all been worth it though and we are very happy with the result. For anyone who may be interested, here are the before and after photos below.
-            The fitted furniture is from <Link to = "https://www.hammonds-uk.com/" target="_blank" title="Click here to discover more about Hammonds Furniture">Hammond's Furniture</Link>. The chair and rug are from <Link to = "https://www.next.co.uk/homeware"
-            target="_blank" title = "Click here to discover more about Next Home">Next Home</Link>.
+            The fitted furniture is from <Link to = "https://www.hammonds-uk.com/" target="_blank" title="Click here to discover more about Hammonds Furniture" className="LinkApril">Hammond's Furniture</Link>. The chair and rug are from <Link to = "https://www.next.co.uk/homeware"
+            target="_blank" title = "Click here to discover more about Next Home" className="LinkApril">Next Home</Link>.
             </section>
           
           </div> 
@@ -621,10 +627,10 @@ export default function April2024() {
             <br />
             <section className="news">Today the bikes were taken out of storage and dusted down as it was our first cycling trip of the year. We cycled over to Lanercost Priory,
             where we took a break at the café, and then continued on the quieter back roads to the little village of <Link to = "https://en.wikipedia.org/wiki/Walton,_Cumbria"
-            target="_blank" title="Click here to discover more about Walton village, Cumbria">Walton </Link>, greeting a number of walkers undertaking a walk in 
+            target="_blank" title="Click here to discover more about Walton village, Cumbria" className="LinkApril">Walton </Link>, greeting a number of walkers undertaking a walk in 
             support of one of the Breast Cancer charities en route. The view of St Mary's church, ascending the hill into Walton village is lovely. There are some great views of the Tindale Fells 
             en route and a feeling that this is countryside which is little changed from Roman times. We also understand
-            there is a great little café in Walton, called the <Link to = "https://www.waltoncumbria.uk/tearoom/" target = "_blank" title='Click here to find out about the Walton tea room and menu'>Walton Tearoom</Link>, although we have not...as of yet... frequented it.
+            there is a great little café in Walton, called the <Link to = "https://www.waltoncumbria.uk/tearoom/" target = "_blank" title='Click here to find out about the Walton tea room and menu' className="LinkApril">Walton Tearoom</Link>, although we have not...as of yet... frequented it.
             That will have to wait until another day....
             <br />
             <br />
@@ -654,7 +660,7 @@ export default function April2024() {
               <br/>
               <br/>
               This area comes into the <Link to="https://www.northpennines.org.uk/wp-content/uploads/2019/03/Fellfoot-Forward_LCAP-Part-1_May-20-compressed.pdf
-" target="_blank" title="Click here to discover the full background and information on the 'Fell Foot Foward' Project">Fellfoot Forward Project</Link>, led by the North Pennines Area of Outstanding Natural Beauty (AONB)
+" target="_blank" title="Click here to discover the full background and information on the 'Fell Foot Foward' Project" className="LinkApril">Fellfoot Forward Project</Link>, led by the North Pennines Area of Outstanding Natural Beauty (AONB)
 Partnership and supported by the National Lottery Heritage Fund. The link provided will take you to the full 146 page Fellfoot Forward Action Plan which is very detailed. For those who are interested, this is a very interesting and informative document,
  but for anyone who wants a briefer overview, pages 20, 21, 25 and 32 talk about the landscape in the area within which we were walking today. Pg 59 talks about the breeding of Swaledales, Section 6 looks at the threats and opportunities in the Fellfoot Landscape,
 and Section 7.2 deals with Aims and Objectives of the scheme.
@@ -704,33 +710,33 @@ and Section 7.2 deals with Aims and Objectives of the scheme.
             <br />
             <section className="news">
               We had a very interesting and pleasant day today, visiting a museum which we had long intended to see, and never until today got around to, the 'Devil's Porridge'
-              Museum at Eastrigg, near Gretna Green, Scotland. The <Link to="https://www.devilsporridge.org.uk/" target="_blank" title="Click here to discover more about the Devil's Porridge Museum">Devil's Porridge Museum</Link>, recounts the 
+              Museum at Eastrigg, near Gretna Green, Scotland. The <Link to="https://www.devilsporridge.org.uk/" target="_blank" title="Click here to discover more about the Devil's Porridge Museum" className="LinkApril">Devil's Porridge Museum</Link>, recounts the 
               story of the huge ammunition factory based at Gretna in WW1 where the cordite (given the name 'Devil's Porridge') was made, and the stories of the people who lived and worked there. It is a popular museum, which receives good <Link to="https://www.tripadvisor.co.uk/Attraction_Review-g2222050-d2216930-Reviews-The_Devil_s_Porridge_Museum-Eastriggs_Dumfries_and_Galloway_Scotland.html"
-              target="_blank" title="Click here to read the reviews of the Devil's Porridge Museum">reviews</Link>.
+              target="_blank" title="Click here to read the reviews of the Devil's Porridge Museum" className="LinkApril">reviews</Link>.
               <br/>
               <br/>
               There were some really good aspects to the museum and how it has been set up and run which we really liked. The museum seemed to
               go out of its way to involve interested local young people who were working hard to make our visit an enjoyable experience, both serving in the entrance booth and also in the café. 
               It was also an interested group of local young people who went out to interview Bettie from Carlisle, who worked as a Landgirl in the Women's Land Army in Cumbria during the Second World War, and create 'The Story of a Landgirl' film which was shown at the museum and was very interesting, and also entertaining.
               More information about the making of 'The Story of a Landgirl' film with this group of young people, and Bettie's motivation in undertaking the project can be found in this <Link to="https://womenshistorynetwork.org/sharing-stories-of-women-in-war-betties-story-by-judith-hewitt-manager-of-the-devils-porridge-museum/"
-              target="_blank" title="Click here to discover more about Bettie's Story">Women's History Network article</Link>. 
+              target="_blank" title="Click here to discover more about Bettie's Story" className="LinkApril">Women's History Network article</Link>. 
               <br/>
               <br/>
               Like most museums now, there were some fun, interactive sections. Bernard had a great time undertaking the simulated creation of cordite via an interactive game 
               which takes you through the various stages required to make the cordite and transport it safely.
               <br/>
               <br/>
-              Then it was on into Gretna village to park by the <Link to="https://www.gretnagreen.com/the-famous-blacksmiths-shop-a1034" target="_blank">Gretna Green Village Blacksmith's shop</Link>, which is the famous home of the <Link to="https://www.gretnagreen.com/traditions-of-a-gretna-green-wedding-a742" target="_blank"> anvil  wedding</Link> . Find out more about 
+              Then it was on into Gretna village to park by the <Link to="https://www.gretnagreen.com/the-famous-blacksmiths-shop-a1034" target="_blank" className="LinkApril">Gretna Green Village Blacksmith's shop</Link>, which is the famous home of the <Link to="https://www.gretnagreen.com/traditions-of-a-gretna-green-wedding-a742" target="_blank" className="LinkApril"> anvil  wedding</Link> . Find out more about 
               Gretna Green <Link to="https://en.wikipedia.org/wiki/Gretna_Green"
-              target="_blank" >here</Link>. We then set off on the 
-              <Link to="https://info.dumgal.gov.uk/CorePathMaps/Walking/Quintinshill.pdf" target="_blank"> Quintinshill Walk</Link>, before returning home for a late lunch. 
+              target="_blank" className="LinkApril" >here</Link>. We then set off on the 
+              <Link to="https://info.dumgal.gov.uk/CorePathMaps/Walking/Quintinshill.pdf" target="_blank" className="LinkApril"> Quintinshill Walk</Link>, before returning home for a late lunch. 
               Everyone seemed to have enjoyed the trip.
 
             </section>
           
           </div> 
            <div className="blogPhotoDiv">
-          <fig><section className = "blogPhoto" ><img src={DevilsPorridgeMuseum} alt="" /><figcaption className='aprilfigcaption'><strong><Link to="https://www.devilsporridge.org.uk/" target="_blank" title="Click here to discover more about the Devil's Porridge Museum">Devil's Porridge Museum</Link></strong>, Annan Road, Eastrigg</figcaption></section>
+          <fig><section className = "blogPhoto" ><img src={DevilsPorridgeMuseum} alt="" /><figcaption className='aprilfigcaption'><strong><Link to="https://www.devilsporridge.org.uk/" target="_blank" title="Click here to discover more about the Devil's Porridge Museum" className="LinkApril">Devil's Porridge Museum</Link></strong>, Annan Road, Eastrigg</figcaption></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={DevilsPorridgeArrival} alt="" /><figcaption className='aprilfigcaption'><strong>We arrived promptly at the Devil's Porridge Museum when it opened, so it was nice and quiet...</strong></figcaption></section>
             </fig>
@@ -756,12 +762,12 @@ and Section 7.2 deals with Aims and Objectives of the scheme.
           <fig><section className = "blogPhoto" ><img src={QuintinshillWalkDeparture} alt="" /><figcaption className='aprilfigcaption'><strong>Then it was time to start the <br/> Quintinshill walk in the countryside around Gretna...</strong></figcaption></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={QuintinshillWalkInfoBoard} alt="" /><figcaption className='aprilfigcaption'><strong>Firstly, past the information board,<br/> telling the story of the tragic <br/> <Link to="https://www.nrscotland.gov.uk/research/learning/first-world-war/quintinshill-disaster"
-            target="_blank" title="Click here to discover more about the Quintinshill Rail Disaster">Quintinshill Rail Disaster</Link>
+            target="_blank" title="Click here to discover more about the Quintinshill Rail Disaster" className="LinkApril">Quintinshill Rail Disaster</Link>
             </strong></figcaption></section></fig>
             <fig><section className = "blogPhoto" ><img src={BabyCowsQuintinshill} alt="" /><figcaption className='aprilfigcaption'><strong>Past the Holstein dairy farm, where there were these baby calves...</strong></figcaption></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={CuckooFlowerWildGretna} alt="" /><figcaption className='aprilfigcaption'><strong>Then finally, we headed back into Gretna, noting the wild <Link to="https://www.wildlifetrusts.org/wildlife-explorer/wildflowers/cuckooflower" 
-            target="_blank" title="Click here to discover more about cuckoo flower">Cuckoo flower</Link> growing in the hedgerows around...</strong></figcaption></section>
+            target="_blank" title="Click here to discover more about cuckoo flower" className="LinkApril">Cuckoo flower</Link> growing in the hedgerows around...</strong></figcaption></section>
             </fig>
           </div>
 
@@ -776,10 +782,10 @@ and Section 7.2 deals with Aims and Objectives of the scheme.
             <br/>
             <br/>
             We had forgotten how really lovely it is. <Link to = "https://www.visitcumbria.com/evnp/armathwaite/" target="_blank" title='Click here to find out more about Armathwaite>
-          '>Armathwaite</Link> is a small village situated at the crossing of the River Eden, with the most amazing bridge, which during the 2015 floods 
+          ' className="LinkApril">Armathwaite</Link> is a small village situated at the crossing of the River Eden, with the most amazing bridge, which during the 2015 floods 
           in Cumbria was, as we discovered from personal experience, one of the last bridges remaining open and safe to cross.
           We parked on the bridge, from where you can see the River Eden, which is renowned for its salmon fishing and <Link to = "https://en.wikipedia.org/wiki/Armathwaite_Castle"
-          target="_blank" title="Click here to discover more about Armathwaite Castle">Armathwaite Castle</Link>, which with its 4-sided Pele tower, was built in the 15th Century 
+          target="_blank" title="Click here to discover more about Armathwaite Castle" className="LinkApril">Armathwaite Castle</Link>, which with its 4-sided Pele tower, was built in the 15th Century 
           to protect the Eden Valley from Scottish raiders. 
           <br/>
           <br/>
@@ -790,7 +796,7 @@ and Section 7.2 deals with Aims and Objectives of the scheme.
           on to the minor road leading into the Longsdales hamlet. From here we followed the bridleway which drops back down towards the road running between Armathwaite and Ainstable,
           with excellent views over to the Pennine ridge, including its highest point, Cross Fell. Once back on the road, we returned along this, dropping gradually down into 
           Armathwaite village to end at one of our favourite pubs, the  <Link to = "https://www.foxandpheasantarmathwaite.co.uk/" target="_blank" title='Click
-          here to find more about the Fox and Pheasant Inn, Armathwaite'>Fox and Pheasant</Link>, where they even have a canine menu now, so that is something 
+          here to find more about the Fox and Pheasant Inn, Armathwaite' className="LinkApril">Fox and Pheasant</Link>, where they even have a canine menu now, so that is something 
           to remember for our canine visitors for the future....
 
             </section>
@@ -799,7 +805,7 @@ and Section 7.2 deals with Aims and Objectives of the scheme.
             <fig><section className = "blogPhoto" ><img src={EdenNorthArmathwaite} alt="" /><figcaption className='aprilfigcaption'><strong>Looking North up the River Eden, from the bridge at Armathwaite</strong></figcaption></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={EdenSouthArmathwaite} alt="" /><figcaption className='aprilfigcaption'>View of <Link to = "https://en.wikipedia.org/wiki/Armathwaite_Castle" target="_blank" title=
-            "Click here to discover more about Armathwaite Castle">Armathwaite Castle</Link>, seen from the bridge over the River Eden <strong></strong></figcaption></section>
+            "Click here to discover more about Armathwaite Castle" className="LinkApril">Armathwaite Castle</Link>, seen from the bridge over the River Eden <strong></strong></figcaption></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={ArmathwaiteWoodsJill1} alt="" /><figcaption className='aprilfigcaption'><strong>Jill, on the footpath through the woods by the River Eden</strong></figcaption></section>
             </fig>
@@ -824,7 +830,7 @@ and Section 7.2 deals with Aims and Objectives of the scheme.
             <fig><section className = "blogPhoto" ><img src={ApproachingArmathwaite} alt="" /><figcaption className='aprilfigcaption'><strong>Returning into Armathwaite village</strong></figcaption></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={FoxandPheasant} alt="" /><figcaption className='aprilfigcaption'><strong>..to visit one of our favourite pubs..<Link to = "https://foxandpheasantarmathwaite.co.uk/"
-            target="_blank" >The Fox and Pheasant</Link></strong></figcaption></section>
+            target="_blank" className="LinkApril">The Fox and Pheasant</Link></strong></figcaption></section>
             </fig>
             <fig><section className = "blogPhoto" ><img src={Caninemenu} alt="" /><figcaption className='aprilfigcaption'><strong>...where they even have a Canine menu...</strong></figcaption></section>
             </fig>

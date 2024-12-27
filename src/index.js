@@ -20,6 +20,7 @@ import { LennieBio } from 'indexbiolennie';
 import October2024 from 'October2024';
 import November2024 from 'November2024';
 import December2024 from 'December2024';
+import January2025 from 'January2025';
 
 
 
@@ -89,6 +90,12 @@ const router = createBrowserRouter(
       path: '/december2024',
       element: <December2024/>,
       errorElement: <ErrorPage/>
+    },
+
+    {
+      path: '/january2025',
+      element: <January2025/>,
+        errorElement: <ErrorPage/>
     },
 
 

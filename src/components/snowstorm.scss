@@ -1,0 +1,55 @@
+.snowflakeV2 {
+    --size: 1vw;
+    width: var(--size);
+    height: var(--size);
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -5vh;
+  }
+  
+  @keyframes snowfallV2 {
+    0% {
+      transform: translate3d(var(--left-ini), 0, 0);
+    }
+    100% {
+      transform: translate3d(var(--left-end), 65vh, 0);
+      -webkit-transform: translate3d(var(--left-end), 65vh, 0);
+      -moz-transform: translate3d(var(--left-end), 65vh, 0);
+      -ms-transform: translate3d(var(--left-end), 65vh, 0);
+      -o-transform: translate3d(var(--left-end), 65vh, 0);
+}
+  }
+  
+  /*This is a SASS loop created by using @for. 1 through 50 means the loop includes the numbers 1 to 50 inclusive (in this
+  case the first to fiftieth snowflake).
+  The # part is the syntax to combine a variable (i) with text to make a string.
+  random() will return a number between 1-100 by itself, or you pass in a single integer parameter 
+  to define the upper limit. random(20) will return a number between 1-20.*/
+
+  @for $i from 1 through 50 {
+    .snowflakeV2:nth-child(#{$i}) {
+      --size: #{random(5) * 0.2}vw;   //random(5) returns a random number between 1 and 5.
+      --left-ini: #{random(20) - 10}vw;
+      --left-end: #{random(20) - 10}vw;
+      left: #{random(100)}vw;
+      animation: snowfallV2 #{5 + random(10)}s linear infinite;
+      animation-delay: -#{random(10)}s;
+    }
+  }
+
+  
+  @media screen and (max-width:480px){
+    @for $i from 1 through 50 {
+      .snowflakeV2:nth-child(#{$i}) {
+        --size: #{random(5) * 0.5}vw;   //random(5) returns a random number between 1 and 5.
+        --left-ini: #{random(20) - 10}vw;
+        --left-end: #{random(20) - 10}vw;
+        left: #{random(100)}vw;
+        animation: snowfallV2 #{7 + random(10)}s linear infinite;
+        animation-delay: -#{random(10)}s;
+      }
+    }
+  }
+    
+  

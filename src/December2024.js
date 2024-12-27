@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import './December2024.css';
 import SnowmanShakerDisplay from 'components/snowmanshakerdisplay';
 import Dinosaur1224Titled from './imagesresized/Dinosaur1224Titled.jpg';
+import XmasDayMeal20241Title from './imagesresized/XmasDayMeal20241Title.jpg';
 
 export default function December2024() {
 
@@ -79,8 +80,39 @@ export default function December2024() {
             </strong> 
             </Link>
             </div> 
-            {/*Closing div SlideshowHostPhotoOctober*/}
+            {/*Closing div SlideshowHostPhotoDecember*/}
+            
+            <section className="dateDecember">December 24th - 26th, 2024</section> 
+             <section className="newsheaderDecember"> CHRISTMAS 2024</section> 
+            <section className="newsDecember" style={{textAlign:"left"}}>
+          It is Christmas 2024 and Elena and Harry are here for the holiday. The home-made Christmas puddings and Christmas cake (with over half a bottle of sherry in it) are cooked and ready.
+          The food shopping has been done (thanks to ELena and Jill's intrepid voyage into town food shopping on the 21st December 2024 - say no more! ). 
+          <br />
+          <br />
+          The tree has been erected and decorated and Lennie has been happily eating his way through the cat advent calendar from which Harry has been merrily
+          feeding him each day. Needless to say Harry is now Lennie' favourite human being, so much so that Lennie starts purring when Harry even enters the room 
+          in a morning.....
+          <br />
+          <br />
+          There is however one problem, Lennie does not yet realise that advent calendar treats only run for 24 days 
+          until the 24th December and then they stop for a year! There may be difficult times ahead I think.....
+          <br />
+          <br />
+          </section>
+            
+          <div className="SlideshowHostPhotoDecember">
+            <Link to ="https://photos.app.goo.gl/BSWeChYShX1Axteo7" target="_blank" title="Click on the link and read the full comments on each photo to join us in our Christmas 2024 celebrations." ><strong>
+            <div className="slideshowinstructionsDecember"> Click on the image below to open the photo album and join us in our Christmas 2024 celebrations. 
+            <br /> <br />
+            </div>   {/*Closing div slideshowinstructionsDecember*/}
+
+            <img className="slideshowentryDecember" src={XmasDayMeal20241Title} alt="" />
+            </strong> 
+            </Link>
+            </div> 
+            {/*Closing div SlideshowHostPhotoDecember*/}
             </div>
+           
         </div>
         
         

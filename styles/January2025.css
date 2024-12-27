@@ -1,0 +1,12 @@
+.January2025Header {
+  /* background-color: #a4a4aC; */
+  background: linear-gradient(180deg, rgb(36, 60, 62) 65%, #F2F3F5, snow);
+  height: 70vh;
+  border: solid black 2px;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}/*# sourceMappingURL=January2025.css.map */

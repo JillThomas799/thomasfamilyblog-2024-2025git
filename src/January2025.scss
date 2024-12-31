@@ -1,7 +1,7 @@
 
 .January2025Header {
   /* background-color: #a4a4aC; */
-  background: linear-gradient(180deg,rgb(36,60,62) 65%,#F2F3F5, snow );
+  background: linear-gradient(180deg,rgb(36,60,62) 45%,#F2F3F5 55%, snow );
   height:70vh;
   border:solid black 2px;
   position:relative;
@@ -12,3 +12,55 @@
   font-weight:bold;
    }
 
+   .newsJanuary{
+    color:white;
+    border:solid 2px whitesmoke;
+    background-color:	#a4a4aC;
+    text-align: left;
+    padding:50px 20px 5px 20px;
+    margin-top:0%;
+    margin-bottom: 0%;
+    font-size:1.1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    width:100%;
+  }
+
+  .dateJanuary{
+    color:white;
+    border:solid 2px whitesmoke;
+    background-color:		#a4a4aC;
+    text-align: center;
+    padding:10px 10px 10px 10px;
+    margin-top:3%;
+    margin-bottom:1%;
+    font-size:1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    width:100%;
+  }
+  
+  .newsheaderJanuary{
+    color:white;
+    border:solid 2px whitesmoke;
+    background-color: 	#a4a4aC;
+    text-align: center;
+    padding:10px 20px 10px 20px;
+    margin-top:0.3%;
+    margin-bottom:2%;
+    font-size:1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    width:100%;
+  }
+
+  .dateNewsJanuary{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:#f7ca46;
+  }
+
+  .mainJanuary{
+    background-color: black;
+    height: 100vh;
+  }

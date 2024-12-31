@@ -4,15 +4,23 @@
    position:relative;
 }
 
+/* #robin1tailFly {
+  display:none;
+} */
+
+/* .lennieIceHouseCat { 
+  overflow : visible ; 
+} */
+
 /*Set lennieCat movement animations*/
 
 @keyframes catheadRotate{
     from{ transform:translate(0deg); -webkit-transform:translate(0deg); -moz-transform:translate(0deg); -ms-transform:translate(0deg); -o-transform:translate(0deg); }
-    to{ transform:translate(-6px); -webkit-transform:translate(-6px); -moz-transform:translate(-6px); -ms-transform:translate(-6px); -o-transform:translate(-6px); }
+    to{ transform:translate(4px,12px); -webkit-transform:translate(4px,12px); -moz-transform:translate(4px,12px); -ms-transform:translate(4px,12px); -o-transform:translate(4px,12px); }
     } 
   
   @keyframes cateyesBlink{
-      from{ ry:2.5px;}
+      from{ ry:1.7px;}
       to{ ry:0.1px;}
     }
   
@@ -20,53 +28,246 @@
     from{ width:65px; }
     to{width:75px;} 
   } 
+
+  @keyframes stretchlennielegleft{
+    from{ width:65px; }
+    to{width:75px;} 
+  } 
+  
   
   @keyframes lickingtonguelennie {
-    from{ height:12px;}
-    to{height:0px;}
+    from{ height:0px;}
+    to{height:12px;}
   }
   
-  #catHeadTotal{
-    animation: catheadRotate 1s linear infinite alternate;
-    -webkit-animation: catheadRotate 1s linear infinite alternate;
-  }
+  .catHeadTotal{
+    animation: catheadRotate 1.2s linear infinite alternate;
+    -webkit-animation: catheadRotate 1.2s linear infinite alternate;
+}
   
   #lennieLegRight{
     animation-name:stretchlennielegright;
-          animation-duration:1s;
+          animation-duration:1.2s;
           animation-iteration-count:infinite;
-          animation-timing-function:ease-in;
-          animation-direction:alternate;} 
+          animation-timing-function:linear;
+          animation-direction:alternate;}  
 
-          #catEyeLeft{
-            animation-name:cateyesBlink;
-            animation-duration:1s;
-            animation-iteration-count:infinite;
-            animation-timing-function:linear;
-            animation-direction:alternate;
+  #lennieLegLeft{
+          animation-name:stretchlennielegleft;
+          animation-duration:1.2s;
+          animation-iteration-count:infinite;
+          animation-timing-function:linear;
+          animation-direction:alternate;}  
+
+    #catEyeLeft{
+      animation-name:cateyesBlink;
+      animation-duration:1.2s;
+      animation-iteration-count:infinite;
+      animation-timing-function:linear;
+      animation-direction:alternate;
     }
     
     
     #catEyeRight{
       animation-name:cateyesBlink;
-      animation-duration:1s;
+      animation-duration:1.2s;
       animation-iteration-count:infinite;
       animation-timing-function:linear;
       animation-direction:alternate;
     }
+
+    #mouthTongue{
+      animation-name:lickingtonguelennie;
+      animation-duration:1.2s;
+      animation-iteration-count:infinite;
+      animation-timing-function:linear;
+      animation-direction:alternate;
+    } 
+
+    /*animation robin*/
+
+@keyframes robinHop{
+  0% { translate: -30px 0px }
+  1% { translate: -30px 0px }
+  2%{translate: -30px -15px}
+  3%{translate:-15px -15px}
+  5%{translate:-15px 0px}
   
+  30%{translate: -15px 0px}
+  31%{translate: -15px -15px}
+  33%{translate: -5px -15px}
+  35%{translate: -5px 0px}
+
+  54%{translate: -5px 0px}
+  55%{translate: -5px -15px}
+  57%{translate: 10px -15px}
+  59%{translate: 10px 0px}
+  
+
+  72%{translate: 10px 0px}
+  73%{translate: 10px -15px}
+  74%{translate: 20px -15px}
+  75%{translate: 20px 0px}
+
+  85%{translate: 20px 0px}
+  86%{translate: 20px -15px}
+  87%{translate: 25px -15px}
+  89%{translate: 25px 0px}
+
+  95%{translate: 25px 0px}
+  96%{translate: 25px -15px}
+  97%{translate: 50px -15px}
+  98%{translate: 50px 0px}
+
+  100%{translate: 50px 0px}
+}
+
+  .robin1 {
+  animation-name:robinHop;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction:alternate;
+ 
+}
+
+.robin2 {
+  animation-name:robinHop;
+  animation-duration: 5s;
+  animation-delay: 5s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction:alternate;
+ 
+}
+
+@keyframes robin1TailFly{
+  0%{ opacity:1; }
+  1%{ opacity:1; }
+  2%{ opacity:0; }
+  3%{ opacity:0; }
+  5%{ opacity:1; }
+  30%{ opacity:1; }
+  31%{ opacity:0; }
+  33%{ opacity:0; }
+  35%{ opacity:0; }
+  54%{ opacity:1; }
+  55%{ opacity:0; }
+  57%{ opacity:0; }
+  59%{ opacity:1; }
+  72%{ opacity:1; }
+  73%{  opacity:0;}
+  74%{  opacity:0;}
+  75%{ opacity:1;}
+  85% { opacity:1; }
+  86% { opacity:0; }
+  87% { opacity:0; }
+  89%{ opacity:1; }
+  58%{ opacity:0;}
+  96%{ opacity:1; }
+  97%{ opacity:1; }
+  98%{ opacity:0;}
+}
+
+
+@keyframes robin1Tail{
+  0%{ opacity:0; }
+  1%{ opacity:0; }
+  2%{ opacity:1; }
+  3%{ opacity:1; }
+  5%{ opacity:0; }
+  30%{ opacity:0; }
+  31%{ opacity:1; }
+  33%{ opacity:1; }
+  35%{ opacity:1; }
+  54%{ opacity:0; }
+  55%{ opacity:1; }
+  57%{ opacity:1; }
+  59%{ opacity:0; }
+  72%{ opacity:0; }
+  73%{  opacity:1;}
+  74%{  opacity:1;}
+  75%{ opacity:0;}
+  85% { opacity:0; }
+  86% { opacity:1; }
+  87% { opacity:1; }
+  89%{ opacity:0; }
+  58%{ opacity:1;}
+  96%{ opacity:0; }
+  97%{ opacity:0; }
+  98%{ opacity:1;}
+}
+
+#robin1Tail{
+  animation-name: robin1Tail;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction:alternate;
+}
+
+#robin1TailFly {
+  animation-name: robin1TailFly;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction:alternate;
+}
+
+#robin2Tail{
+  animation-name: robin1Tail;
+  animation-duration: 5s;
+  animation-delay: 5s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction:alternate;
+}
+
+#robin2TailFly {
+  animation-name: robin1TailFly;
+  animation-duration: 5s;
+  animation-delay: 5s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear;
+  animation-direction:alternate;
+}
+
 @media screen and (min-width:3000px) {       
     .lennieCat{
         bottom: 1%;
-        transform:scale(55%);
-    }
+        transform:scale(90%);
+        -webkit-transform:scale(98%);
+        -moz-transform:scale(90%);
+        -ms-transform:scale(90%);
+        -o-transform:scale(90%);
+}
 }
 
 @media screen and (min-width:601px) and (max-width: 1400px) {
     .lennie-cat{
         bottom: 1%;
         transform:scale(50%);
-    }
+        -webkit-transform:scale(50%);
+        -moz-transform:scale(50%);
+        -ms-transform:scale(50%);
+        -o-transform:scale(50%);
+}
+
+    .lennieIceHouseCat{
+      transform:scale(60%);
+      -webkit-transform:scale(60%);
+      -moz-transform:scale(60%);
+      -ms-transform:scale(60%);
+      -o-transform:scale(60%);
+}
+
+.robin1{
+  translate:scale(60%);
+}
+
     }
 
 @media screen and (min-width: 799px) and (max-width: 1200px) {
@@ -77,11 +278,21 @@
       }
     }
 
-    @media screen and (maxWidth: 600px) {              
+@media screen and (maxWidth: 600px) {              
         .lennieCat{
             padding-bottom: 10%;
             transform:scale(90%);
         }
-        }
 
-        
+.lennieIceHouseCat{
+      transform:scale(40%);
+      -webkit-transform:scale(40%);
+      -moz-transform:scale(40%);
+      -ms-transform:scale(40%);
+      -o-transform:scale(40%);
+}
+
+        }
+      
+
+          

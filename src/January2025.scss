@@ -12,6 +12,10 @@
   font-weight:bold;
    }
 
+   .backgroundJanuary2025{
+    background-color:black;
+   }
+
    .newsJanuary{
     color:white;
     border:solid 2px whitesmoke;
@@ -19,7 +23,7 @@
     text-align: left;
     padding:50px 20px 5px 20px;
     margin-top:0%;
-    margin-bottom: 0%;
+    margin-bottom: 10%;
     font-size:1.1rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:bold;
@@ -62,5 +66,6 @@
 
   .mainJanuary{
     background-color: black;
-    height: 100vh;
+    height: 100%;
+    padding-bottom:3%;
   }

@@ -4,7 +4,7 @@ import './December2024.css';
 import SnowmanShakerDisplay from 'components/snowmanshakerdisplay';
 import Dinosaur1224Titled from './imagesresized/Dinosaur1224Titled.jpg';
 import XmasDayMeal20241Title from './imagesresized/XmasDayMeal20241Title.jpg';
-
+import LennieBestWorstTitle from './imagesresized/LennieBestWorstTitle.jpg';
 export default function December2024() {
 
     return (
@@ -111,6 +111,26 @@ export default function December2024() {
             </Link>
             </div> 
             {/*Closing div SlideshowHostPhotoDecember*/}
+
+            <section className="dateDecember">December 31st, 2024</section> 
+             <section className="newsheaderDecember"> Best and worst of Lennie 2024</section> 
+            <section className="newsDecember" style={{textAlign:"left"}}>
+            This time last year there had been some feedback that Lennie was  not achieving as much prominence on the blog as he deserved, so to make amends,
+            we posted some photos of the best (and worse) of Lennie's activities and antics in the previous year which proved very popular... <br /><br /> As it is the last day of 2024, 
+            here it is again for 2024.....
+         
+          </section>
+
+            <div className="SlideshowHostPhotoDecember">
+            <Link to ="https://photos.app.goo.gl/U3EsSzVtSeFFzWdM8" target="_blank" title="Click on the link and read the full comments on each photo to see the best and worst of Lennie 2024." ><strong>
+            <div className="slideshowinstructionsDecember"> Click on the image below to open the photo album and see the best and worst of Lennie 2024. 
+            <br /> <br />
+            </div>   {/*Closing div slideshowinstructionsDecember*/}
+
+            <img className="slideshowentryDecember" src={LennieBestWorstTitle} alt="" />
+            </strong> 
+            </Link>
+            </div> 
             </div>
            
         </div>

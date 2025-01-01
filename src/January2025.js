@@ -15,7 +15,7 @@ export default function January2025() {
 <Snowstorm />
 <CatLennie />
         </div>
-
+          <div className="backgroundJanuary2025">
          <section className="dateJanuary" style={{marginTop:'0%'}}>January 1st - 31st 2025</section> 
                      <section className="newsheaderJanuary"> WISHING EVERYONE A VERY HAPPY NEW YEAR!</section> 
                     <section className="newsJanuary" style={{textAlign:"left"}}>
@@ -37,6 +37,16 @@ export default function January2025() {
                     of this website. It is much appreciated as whilst all the designs are tested using developer tools across different device settings before release, sometimes the displays
                     will not run in the intended way and it is only by knowing about it I can try and correct it.
                     </section>
+
+        {/* <section className="dateJanuary">January 1st 2025, Wednesday</section> 
+                     <section className="newsheaderJanuary"> REVIEW OF 2024 AND PLANS FOR 2025</section> 
+                    <section className="newsJanuary" style={{textAlign:"left"}}>
+                   Happy New Year to everyone.
+                    </section> */}
+
+                    </div>
         </div>
+
+        
     );
 };

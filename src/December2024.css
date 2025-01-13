@@ -1,206 +1,210 @@
 
 
 .December2024header {
-    display:block;
-    text-align: center;
-    font-size: 1.75em;
-    font-weight: bold;
-    width: 100vw;
-    height:100vh;
-    position:relative;
-    background-color: #165B33;
-    overflow-x: hidden;
-      } 
+  display:block;
+  text-align: center;
+  font-size: 1.75em;
+  font-weight: bold;
+  width: 100vw;
+  height:100vh;
+  position:relative;
+  background-color: #165B33;
+  overflow-x: hidden;
+    } 
 
-      #backbuttonDecember{
-        display:block;
-        position:absolute;
-        height:50px;
-        width:15%;
-        background-color: whitesmoke ;
-        border:grey 2px solid;
-        text-align: center;
-        font-size: large;
-        font-weight: bold;
-        color:white;
-        top:10%;
-        text-decoration: underline;
-        margin: 5% 25% 5% 75%;
-        border-radius:15%;
-        -webkit-border-radius:15%;
-        -moz-border-radius:15%;
-        -ms-border-radius:15%;
-        -o-border-radius:15%;
-      } 
+    #backbuttonDecember{
+      display:block;
+      position:absolute;
+      height:50px;
+      width:15%;
+      background-color: whitesmoke ;
+      border:grey 2px solid;
+      text-align: center;
+      font-size: large;
+      font-weight: bold;
+      color:white;
+      top:10%;
+      text-decoration: underline;
+      margin: 5% 25% 5% 75%;
+      border-radius:15%;
+      -webkit-border-radius:15%;
+      -moz-border-radius:15%;
+      -ms-border-radius:15%;
+      -o-border-radius:15%;
+    } 
 
-      .LinkDecember2024 {
-        color:#f7ca46;
-        font-size: 1.2rem;
-        text-decoration: underline;
-      }
+    .LinkDecember2024 {
+      color:#f7ca46;
+      font-size: 1.2rem;
+      text-decoration: underline;
+    }
 
-      .mainDecember{
-        background-color:black;
-        padding-top:5%;
-        padding-bottom:20%
-      }
+    .mainDecember{
+      background-color:black;
+      padding-top:5%;
+      padding-bottom:20%
+    }
 
-      .newsDecember{
-        color:white;
-        border:solid 2px whitesmoke;
-        background-color:	#BB252B;
-        text-align: left;
-        padding:20px 20px 20px 20px;
-        margin-top:0%;
-        margin-bottom: 4%;
-        font-size:1.1rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight:bold;
-        width:100%;
-      }
+    .newsDecember{
+      color:white;
+      border:solid 2px whitesmoke;
+      background-color:	#BB252B;
+      text-align: left;
+      padding:20px 20px 20px 20px;
+      margin-top:0%;
+      margin-bottom: 4%;
+      font-size:1.1rem;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight:bold;
+      width:100%;
+      opacity:0.9;
+    }
 
-      .dateDecember{
-        color:white;
-        border:solid 2px whitesmoke;
-        background-color:		#BB252B;
-        text-align: center;
-        padding:10px 10px 10px 10px;
-        margin-top:3%;
-        margin-bottom:1%;
-        font-size:1.2rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: bold;
-        width:100%;
-      }
-      
-      .newsheaderDecember{
-        color:white;
-        border:solid 2px whitesmoke;
-        background-color: 	#BB252B;
-        text-align: center;
-        padding:10px 20px 10px 20px;
-        margin-top:0.3%;
-        margin-bottom:2%;
-        font-size:1.2rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight:bold;
-        width:100%;
-      }
-
-      .dateNewsDecember{
-        font-weight: bold;
-        font-size: 1.2rem;
-        color:#f7ca46;
-      }
-
-      
-      .SlideshowHostPhotoDecember{
-        display:flex;
-        flex-direction: column;
-        border:solid 2px whitesmoke;
-        background-color:#BB252B;
-        padding-bottom: 1%;
-        padding-top: 1%;
-        
-        justify-content:center;
-        text-align:center;
-      }
-
-      .slideshowinstructionsDecember {
-        margin-top:1%;
-        margin-bottom:2%;
-        font-size:1.2rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        display:inline-block;
-        color:white; 
-      }
-
-      .slideshowentryDecember {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        pointer-events:none;
-        width:25%;
-        height:auto;
-        border:solid #1f3613 3px;
-        border-radius:100%;
-        margin-top:3%;
-        margin-bottom:5%;
-        -webkit-border-radius:100%;
-        -moz-border-radius:100%;
-        -ms-border-radius:100%;
-        -o-border-radius:100%;
-      } 
-
-
-
-      @media screen and (max-width:480px) {  
-        /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
-        the site are displayed with the best dimensions for the smaller devices*/
-        .December2024header {
-          display:block;
-          text-align: center;
-          font-size: 1.75em;
-          font-weight: bold;
-          width: 100vw;
-          height:50vh;
-          position:relative;
-          background-color: #165B33;
-          overflow-x: hidden;
-            } 
-
-            .newsDecember{
-              color:white;
-              border:solid 2px whitesmoke;
-              background-color:	#BB252B;
-              text-align: left;
-              padding:20px 10% 20px 10%;
-              margin-top:0%;
-              margin-bottom: 10%;
-              font-size:1.0rem;
-              font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-              font-weight:bold;
-              width:100%;
-            }
-
-            .blogPhotoDivDecember{
-                display: flex;
-                flex-direction: column;
-                background-color: #5b7248;
-                padding-bottom: 5%;
-                padding-top: 5%;
-                margin-top: 2%;
-                }
-            
-                .slideshowentryDecember {
-                  display: block;
-                  margin-left: auto;
-                  margin-right: auto;
-                  pointer-events:none;
-                  width:65%;
-                  height:auto;
-                  border:solid #1f3613 3px;
-                  border-radius:100%;
-                  margin-top:3%;
-                  margin-bottom:5%;
-                  -webkit-border-radius:100%;
-                  -moz-border-radius:100%;
-                  -ms-border-radius:100%;
-                  -o-border-radius:100%;
-                } 
-
-                .slideshowinstructionsDecember {
-                  margin-top:1%;
-                  margin-bottom:2%;
-                  padding-right: 10%;
-                  padding-left:10%;
-                  font-size:1.1rem;
-                  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                  display:inline-block;
-                  color:white; 
-                }
-                        
-              }
-            
-      
+    .dateDecember{
+      color:white;
+      border:solid 2px whitesmoke;
+      background-color:		#BB252B;
+      text-align: center;
+      padding:10px 10px 10px 10px;
+      margin-top:3%;
+      margin-bottom:1%;
+      font-size:1.2rem;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+      width:100%;
+      opacity:0.9;
+    }
     
+    .newsheaderDecember{
+      color:white;
+      border:solid 2px whitesmoke;
+      background-color: 	#BB252B;
+      text-align: center;
+      padding:10px 20px 10px 20px;
+      margin-top:0.3%;
+      margin-bottom:2%;
+      font-size:1.2rem;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight:bold;
+      width:100%;
+      opacity:0.9;
+    }
+
+    .dateNewsDecember{
+      font-weight: bold;
+      font-size: 1.2rem;
+      color:#f7ca46;
+    }
+
+    
+    .SlideshowHostPhotoDecember{
+      display:flex;
+      flex-direction: column;
+      border:solid 2px whitesmoke;
+      background-color:#BB252B;
+      padding-bottom: 1%;
+      padding-top: 1%;
+      justify-content:center;
+      text-align:center;
+      opacity:0.9;
+    }
+
+    .slideshowinstructionsDecember {
+      margin-top:1%;
+      margin-bottom:2%;
+      font-size:1.2rem;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display:inline-block;
+      color:white; 
+    }
+
+    .slideshowentryDecember {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      pointer-events:none;
+      width:25%;
+      height:auto;
+      border:solid #1f3613 3px;
+      border-radius:100%;
+      margin-top:1%;
+      margin-bottom:2%;
+      -webkit-border-radius:100%;
+      -moz-border-radius:100%;
+      -ms-border-radius:100%;
+      -o-border-radius:100%;
+    } 
+
+
+
+    @media screen and (max-width:480px) {  
+      /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
+      the site are displayed with the best dimensions for the smaller devices*/
+      .December2024header {
+        display:block;
+        text-align: center;
+        font-size: 1.75em;
+        font-weight: bold;
+        width: 100vw;
+        height:50vh;
+        position:relative;
+        background-color: #165B33;
+        overflow-x: hidden;
+          } 
+
+          .newsDecember{
+            color:white;
+            border:solid 2px whitesmoke;
+            background-color:	#BB252B;
+            text-align: left;
+            padding:20px 10% 20px 10%;
+            margin-top:0%;
+            margin-bottom: 10%;
+            font-size:1.0rem;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:bold;
+            width:100%;
+            opacity:0.9;
+          }
+
+          .blogPhotoDivDecember{
+              display: flex;
+              flex-direction: column;
+              background-color: #5b7248;
+              padding-bottom: 5%;
+              padding-top: 5%;
+              margin-top: 2%;
+              }
+          
+              .slideshowentryDecember {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                pointer-events:none;
+                width:65%;
+                height:auto;
+                border:solid #1f3613 3px;
+                border-radius:100%;
+                margin-top:1%;
+                margin-bottom:4%;
+                -webkit-border-radius:100%;
+                -moz-border-radius:100%;
+                -ms-border-radius:100%;
+                -o-border-radius:100%;
+              } 
+
+              .slideshowinstructionsDecember {
+                margin-top:1%;
+                margin-bottom:2%;
+                padding-right: 10%;
+                padding-left:10%;
+                font-size:1.1rem;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                display:inline-block;
+                color:white; 
+              }
+                      
+            }
+          
+    
+  

@@ -261,30 +261,24 @@ export default function November2024() {
               <br />
               Some highlights of the walk included:
               <br />
-              <br />
               <ul style={{textAlign:"center", marginLeft:"5%", marginRight:"5%"}}>
                 <li style={{textDecoration:"underline"}}>Milton Rigg Wood:</li> <div className="leftAlignli">Owned and managed by the Woodland Trust and containing a variety of interesting trees including many oak and birch, many of which date back 
             over 100 years. Oak from this wood was used in rebuilding the roof of York Minster after it was destroyed by fire in 1984. The wildlife pond was 
             created in 1990 as a habitat for toads, newts and dragonflies. There are birds such as wood warbler and willow tit which can be spotted.</div>
               <br />
-              <br />
               <li style={{textDecoration:"underline"}}>Naworth Castle:</li><div className="leftAlignli">Naworth Castle, belonging to the Dacre and Howard families, was built in 1335 to defend England’s borderlands 
               against the Scots and Border Reivers. It is a private home, which is only available for private hire, and so it is not open to the general public.
               Nevertheless, it forms an impressive site as you descend the hill and it is easy to see why it was chosen for this location during the time of the borderland conflicts.</div>
               <br />
-              <br />
               <li style={{textDecoration:"underline"}}>Lanercost tea room:</li><div className="leftAlignli">Lanercost tea room is adjacent to the fascinating 12th century Lanercost Priory and lies only 0.5 mile from the World Heritage Site of Hadrian’s Wall.
               They serve a good range of freshly-prepared food. As you may have realised by now, for those of you who follow the blog, it is a favourite location of ours....</div> 
-              <br />
               <br />
               <li style={{textDecoration:"underline"}}>Quarrybeck:</li><div className="leftAlignli">A stream and falls running through woodland down towards Lanercost. This is an extremely pleasant walk, especially in the month of May
               when the bluebells are out. It can be very muddy underfoot though, so adequate footwear is necessary. Our May 2024 header features the bluebells in Quarrybeck wood.....</div>
               <br />
-              <br />
               <li style={{textDecoration:"underline"}}>Ridgewood:</li><div className="leftAlignli">This also is an area of woodland owned and managed by the Woodland Trust. It has lots of wildlife including roe deer, red squirrel and foxes being seen.
               There is a large ancient beech with a girth of 4.2m can be found to the east together with other species such as sycamore and lime. There are some lovely views from up here.</div>
               </ul>
-              <br />
               <br />
               The photos below show some of the territory we covered....
             </section>
@@ -331,15 +325,11 @@ export default function November2024() {
             <ul className="hwpIntroList">
                 <li><strong className="titlesNovember">Parking:</strong><br />We parked at Elena's house and walked from there. This added about 2.5 miles on to the walk in total. If going from Penrith station, there is paid parking available at the station.</li>
                 <br />
-                <br />
                 <li><strong className="titlesNovember">Paths: </strong><br /> Good, clear, well-signposted paths. A mixture of pavement, country bridleway and footpaths and field walking. </li>
-                <br />
                 <br />
                 <li><strong className="titlesNovember">Distance:</strong><br /> 13.5 miles from Elena's house. 11 miles if starting at Penrith station. <strong>  Ascent: 253 metres, 830 feet.</strong></li>
                 <br />
-                <br />
                 <li><strong className="titlesNovember">Refreshments:</strong><br /> There are plenty of pubs and cafés at Pooley Bridge, so take your pick. We chose one of our favourites, which is Granny Dowbekin's. </li> 
-                <br />
                 <br />
                 </ul>    
                
@@ -349,25 +339,20 @@ export default function November2024() {
               <li><strong className="titlesNovember">Variety : </strong>This is a walk with lots of variety both in the types of foot path, the historical features 
               to see en route and the beautiful countryside.<br />  </li>
                 <br />
-                <br />
                 <li><strong className="titlesNovember">Walk :</strong><br /> This is a great longer distance walk which forms a good staging post for training for longer distance treks
                 where this kind of distance needs to be walked day after day. It can also be added on to walks such as the <Link to="https://www.ullswater.org/the-ullswater-way/"
                 target="_blank" className="LinkNovember">Ullswater Way</Link>, which is a 20 mile walk around Ullswater Lake.</li>
                 <br />
-                <br />
                 <li><strong className="titlesNovember">Refreshments : </strong><br /> There was plenty of opportunity for refreshments in Pooley Bridge and Penrith.
                 </li>
-                <br />
                 <br /> 
                 <li><strong className="titlesNovember">Environmentally-friendly : </strong><br /> One of the reasons this walk has been developed has been a means of connecting 
                 Penrith station to Ullswater Lake on foot, in order to reduce the need to use the car. We worked out it would be quite feasible to catch an early train
                 from Manchester, Liverpool or further a field and walk the whole walk, whilst still having time to return the same day.
                 </li>
                 <br />
-                <br />
                 <li><strong className="titlesNovember">Weather: </strong><br />Good weather, icy in parts.</li>
                 </div>
-                <br />
                 <br />
                 </ul>
                                 
@@ -378,7 +363,6 @@ export default function November2024() {
                 For some people, especially with the proximity of the spectacular high level walking in the surrounding Lake District hills,
                 this might seem a bit too tame. It does have the definite advantage though that it can be undertaken at all times of year and in almost all 
                 weather conditions.<br /></li>
-                <br />
                 <br />
                 </ul>
                
@@ -405,6 +389,7 @@ export default function November2024() {
             Some historic highlights of the Eamont Way path from Penrith station to Pooley Bridge include:
               <br />
               <br />
+
               <ul style={{textAlign:"left", marginLeft:"5%", marginRight:"5%"}}>
                 <li style={{textDecoration:"underline"}}>Penrith Station:</li> Penrith station was built by the Lancaster and Carlisle railway and opened 
                 on the 17th December 1846. The station was designed by Sir William Tite, designer of a number of early railway stations in Britain during 
@@ -413,20 +398,17 @@ export default function November2024() {
                 target="_blank" title="Click here to discover more about the history of Penrith station" className="LinkNovember">Friends of the
                 Ullswater Way website-Penrith station.</Link>
               <br />
-              <br />
               <li style={{textDecoration:"underline"}}>Penrith Castle:</li><div className="leftAlignli">Lying almost opposite Penrith station, although not so much remains of 
                 Penrith Castle remains today, it has a very interesting history. More about this history can be found on the   
                 <Link to="https://www.ullswaterheritage.org/eamont-way/penrith-castle"
                 target="_blank" title="Click here to discover more about the history of Penrith castle" className="LinkNovember"> Friends of the
                 Ullswater Way website-Penrith Castle</Link>.</div>
               <br />
-              <br />
               <li style={{textDecoration:"underline"}}>Yanwath Hall:</li><div className="leftAlignli">Yanwath Hall is privately owned but is of note because
                 it has one of the best surviving pele towers in Cumbria. More information about Yanwath Hall and its pele tower can be found on the   
                 <Link to="https://www.ullswaterheritage.org/eamont-way/yanwath-hall"  target="_blank" title="Click here to discover more about Yanwath Hall" className="LinkNovember"> Friends of the
                 Ullswater Way website-Yanwath Hall</Link>
               </div>
-              <br />
               <br />
               <li style={{textDecoration:"underline"}}>Kirkbarrow Hall:</li>< div className="leftAlignli">Today Kirkbarrow Hall is a dairy farm 
               but it has a history dating back to the late 16th or early 17th century. It once belonged to Leonard Dacre.
@@ -435,12 +417,10 @@ export default function November2024() {
                 target="_blank" title="Click here to discover more about the history of Kirkbarrow Hall" className="LinkNovember"> Friends of the
                 Ullswater Way website-Kirkbarrow Hall</Link>.</div> 
               <br />
-              <br />
               <li style={{textDecoration:"underline"}}>St Michael's Church, Barton:</li>Information about the history and people 
               involved in this church, which is adjacent to the route, can be found on the  <Link to="https://www.ullswaterheritage.org/locations/barton-church"
                 target="_blank" title="Click here to discover more about the history of St Michael's Church, Barton" className="LinkNovember">Friends of the
                 Ullswater Way website-St Michael's Church, Barton.</Link><div className="leftAlignli"></div>
-              <br />
               <br />
               <li style={{textDecoration:"underline"}}>Wordsworth House, Sockbridge:</li><div className="leftAlignli">
               We passed Wordsworth House in Sockbridge village. Information on the <Link to="https://www.ullswaterheritage.org/eamont-way/wordsworth-house-sockbridge"
@@ -450,7 +430,6 @@ export default function November2024() {
                 to save it from the rebels while Mrs Wordsworth entertained Jacobite officers at their home. We also passed a barn conversion named Wordsworth Cottage which was apparently formerly part of the estate once owned by 
               Wordsworth’s grandfather. </div>
               </ul>
-              <br />
               <br />
             </section>
 
@@ -476,15 +455,11 @@ export default function November2024() {
             <ul className="hwpIntroList">
                 <li><strong className="titlesNovember">Parking:</strong><br />We did not need to take the car for this walk.</li>
                 <br />
-                <br />
                 <li><strong className="titlesNovember">Paths: </strong><br /> Good, clear, paths. A mixture of quiet, minor country roads and footpaths.</li>
-                <br />
                 <br />
                 <li><strong className="titlesNovember">Distance:</strong><br /> 14.4 miles<strong>  Ascent 333 metres, 1092.52.</strong></li>
                 <br />
-                <br />
                 <li><strong className="titlesNovember">Refreshments:</strong><br /> Lanercost Tea room. </li> 
-                <br />
                 <br />
                 </ul>    
                
@@ -493,22 +468,17 @@ export default function November2024() {
               <div className="listItemsAlign">
               <li><strong className="titlesNovember">All-weather : </strong>This is a walk which can be undertaken in almost all weathers and seasons.<br />  </li>
                 <br />
-                <br />
                 <li><strong className="titlesNovember">Walk :</strong><br /> This is a great longer distance walk which again, forms a good staging post for training for longer distance treks
                 where this kind of distance needs to be walked day after day.</li>
-                <br />
                 <br />
                 <li><strong className="titlesNovember">Refreshments : </strong><br /> There were refreshemnts available at Lanercost Tea room.
                 </li>
                 <br />
-                <br /> 
                 <li><strong className="titlesNovember">Environmentally-friendly : </strong><br /> We did not need to use the car at all for the walk roday.
                 </li>
                 <br />
-                <br />
                 {/* <li><strong className="titlesNovember">Weather: </strong><br />Good weather, icy in parts.</li> */}
                 </div>
-                <br />
                 <br />
                 </ul>
                                 
@@ -518,7 +488,6 @@ export default function November2024() {
                 according to the website and the sign board on Walton Green was open for business. Unfortunately, when we arrived, we learnt they were closed
                 until the end of December. Luckily, in case of encountering such an eventuality, we had packed some back-up sandwiches and snacks,
                 which kept us going until we reached Lanercost Tea room, which fortunately was open for lunch.<br /></li>
-                <br />
                 <br />
                 </ul>
                
@@ -533,11 +502,9 @@ export default function November2024() {
             Today's walk to Walton Village and back via Miltonrigg wood and Lanercost was the third of a series of longer range 
             walks which we we are undertaking over the forthcoming months.
             <br />
-            <br />
             There are good, clear, paths with a mixture of quiet, minor country roads and footpaths. Whilst the country roads were very quiet,
             it is very important to keep a watch out as whilst there is only an occasional vehicle they can be travelling very quickly and not
             be expecting to meet anyone en route!
-              <br />
               <br />
             </section>
 

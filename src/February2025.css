@@ -59,6 +59,7 @@
   width:100vw;
   height:100vh;
   top:0;
+  
   }
 
   .groundSnow {
@@ -79,7 +80,7 @@
   content: '';   /*an empty content: property. This is necessary for these pseudo-elements to appear*/
   background: repeating-linear-gradient(to left, #7990AF 0%, #21467A 10%, #7990AF 15%);
   position: absolute;
-  transition-duration: 15s;
+  transition-duration: 5s;
 }
 
 .curtain1::after,

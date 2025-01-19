@@ -18,10 +18,10 @@ export default function February2025() {
         <div className="stageBorder"> 
         <div className="snowScene">            
        
-            <div className="curtain1"> </div>
+            {/* <div className="curtain1"> </div> */}
             < Deer />
             <div className="curtain2"></div>
-            <div className="groundSnow"></div>
+            {/* <div className="groundSnow"></div> */}
             </div> 
             
         </div>

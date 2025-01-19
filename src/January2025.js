@@ -61,7 +61,7 @@ export default function January2025() {
                     </Link>
                     </div> 
 
-                    <section className="dateJanuary">January 15th 2025, Thursday</section> 
+                    <section className="dateJanuary">January 15th 2025, Wednesday</section> 
                      <section className="newsheaderJanuary"> WENT TO SEE THE FILM 'MARIA', STARRING ANGELINA JOLIE, AT THE RHEGED CENTRE. </section> 
                     <section className="newsJanuary" style={{textAlign:"left"}}>
                   Today we went to see the newly-released film 'Maria', based on the final weeks in the opera singer Maria Callas's life, at the Rheged Centre. 

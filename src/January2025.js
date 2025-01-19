@@ -61,6 +61,35 @@ export default function January2025() {
                     </Link>
                     </div> 
 
+                    <section className="dateJanuary">January 15th 2025, Thursday</section> 
+                     <section className="newsheaderJanuary"> WENT TO SEE THE FILM 'MARIA', STARRING ANGELINA JOLIE, AT THE RHEGED CENTRE. </section> 
+                    <section className="newsJanuary" style={{textAlign:"left"}}>
+                  Today we went to see the newly-released film 'Maria', based on the final weeks in the opera singer Maria Callas's life, at the Rheged Centre. 
+                  <br />
+                  <br />
+                  Whilst not usually a great fan of Angelina Jolie, in my opinion she was particularly impressive in this film, as the role of Maria Callas
+                  is a very difficult one to play. I have had a personal fascination with Callas since I was in my teens and first read about her at the time of her death in 1977.
+                  She was and remains for me the most outstanding female opera singer of our time, not so much for the tonal perfection of her singing as for her ability 
+                  to bring alive the character of the parts she is playing in the same way that Rudolf Nureyev did for ballet. Both of them had something quite exceptional.
+                   <br /> 
+                   <br /> 
+                   The film was quite slow-moving to start but very artistically created; however after a while it draws you in. There had clearly been much work which had gone into the 
+                   production. Maria Callas had 2 very cute poodles and these were represented in the film so Bernard and I have nominated them for Oscars as they were brilliant actors. Bernard was rather unenthusiastic
+                   about going to this film but he came out having genuinely enjoyed it so it is not just for absolute opera-buffs. It was a change also to have a film 
+                   which was more in the style of the European Arts films which we used to see at the <Link to="https://homemcr.org/history/cornerhouse/" target="_blank" 
+                   title="Click here to discover about the Cornerhouse, Manchester" className="LinkJanuary2025"> Cornerhouse </ Link> in Manchester, but do not seem to be released as often these
+                   days.
+                   <br /> 
+                   <br /> 
+                   Actually, for anyone who is interested and who cannot make it as far as the Cornerhouse in Manchester, I have just noticed that these days, you can if you wish pay a monthly fee to have a HOME film pass
+                    and have access to tickets to view the new releases at the Cornerhouse (excepting occasional ones) at home, any time, as many times as you like. If anyone is interested,
+                    details about the <Link to="https://homemcr.org/visit/filmpass/" target="_blank" className="LinkJanuary2025">HOME film pass</Link> at the Cornerhouse can be found on the link.
+                    <br /> 
+                   <br /> 
+                   
+                    </section>
+                   
+
             </div>
             </div>
     );

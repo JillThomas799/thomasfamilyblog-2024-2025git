@@ -53,7 +53,7 @@
 }
 
 .snowScene {
-  background: linear-gradient(180deg, #C9C9C9 30%, #E3E3E3, #f4f4f4 ); 
+  background: linear-gradient(180deg, #E3E3E3 20% , #f4f4f4 30% , white 35% 100%); 
   display: block;
   position:absolute;
   width:100vw;
@@ -80,7 +80,7 @@
   content: '';   /*an empty content: property. This is necessary for these pseudo-elements to appear*/
   background: repeating-linear-gradient(to left, #7990AF 0%, #21467A 10%, #7990AF 15%);
   position: absolute;
-  transition-duration: 5s;
+  transition-duration: 10s;
 }
 
 .curtain1::after,

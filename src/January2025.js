@@ -5,6 +5,13 @@ import './January2025.scss';
 import CatLennie from 'components/catlennie'
 import Snowstorm from 'components/snowstorm'
 import SnowTalkinFell09012025Title  from './imagesresized/SnowTalkinFell09012025Title.jpg';
+import LennieJan20251 from './imagesresized/LennieJan20251.jpg';
+import LennieJan20252 from './imagesresized/LennieJan20252.jpg';
+import TreeDownTalkin20251 from './imagesresized/TreeDownTalkin20251.jpg';
+import TreeDownTalkin20252 from './imagesresized/TreeDownTalkin20252.jpg';
+import RooflessShedTalkin from './imagesresized/RooflessShedTalkin.jpg';
+
+
 
 export default function January2025() {
     return (
@@ -85,9 +92,49 @@ export default function January2025() {
                     and have access to tickets to view the new releases at the Cornerhouse (excepting occasional ones) at home, any time, as many times as you like. If anyone is interested,
                     details about the <Link to="https://homemcr.org/visit/filmpass/" target="_blank" className="LinkJanuary2025">HOME film pass</Link> at the Cornerhouse can be found on the link.
                     <br /> 
+                   <br />                
+                   </section>
+
+                   <section className="dateJanuary">January 24th -26th 2025, Thursday</section> 
+                     <section className="newsheaderJanuary"> STORM ÉOWYN and its aftermath... </section> 
+                    <section className="newsJanuary" style={{textAlign:"left"}}>
+                   Storm Éowyn hit Cumbria on the 24th January 2024 bringing maximum winds of 84 miles an hour at Brampton weather station and the most prolonged gale force storm we have ever had, hitting gale force 9.
+                   Harry had received a red alert on his mobile phone, although Bernard and I did not receive one on ours. We could see the tarn from our house, with what looked like mini tornadoes
+                   running across its surface.
                    <br /> 
-                   
+                   <br /> 
+                   The main challenge though was that the power lines went down at  about 10.45am and were not reinstated until after 20.00 in the evening.
+                   Fortunately, we have some battery driven lights and a gas hob so were still able to make some food and warm drinks and to use the log burner for heating. 
+                   The farmer at the rear of our property was rather more ingenious though and had a generator on his tractor which he was using to power the electricity
+                   to the farmhouse on an emergency supply. North West Electric had been helpful and set up a number of warm spaces across the county, where warm food and drink could be accessed, the closest one to us being Brampton. 
+                   Lennie does not like the wind and had been trying to hide in the wardrobe..... 
+                   <br /> 
+                   <br /> 
+                   The good news was that on review for any structural damage of the property the following morning, there was none noted and Bernard's greenhouse
+                   had once again survived the storm. Unfortunately, one of the houses locally has lost all the ridge tiles on the extension.
+                   <br /> 
+                   <br /> 
+                   Storm Éowyn has been reported as being one of the strongest storms in a generation, and caused widespread travel problems, power cuts and 
+                   significant damage to infrastructure. The area worse hit was Ireland.
+                   <br /> 
+                   <br /> 
                     </section>
+
+                    <div className="blogPhotoDivJanuary">
+            
+            <fig><section className = "blogPhotoJanuary" ><img src={TreeDownTalkin20251} alt="" /><figcaption className='Januaryfigcaption'><strong>Tree down by Talkin Tarn, blocking the path(1)</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJanuary" ><img src={TreeDownTalkin20252} alt="" /><figcaption className='Januaryfigcaption'><strong>Tree down by Talkin tarn, blocking the path(2)</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoJanuary" ><img src={RooflessShedTalkin} alt="" /><figcaption className='Januaryfigcaption'><strong>The boating shed at the tarn has lost its roof....</strong></figcaption></section>
+            </fig>
+            </div>
+            <div className="blogPhotoDivJanuary">
+            <fig><section className = "blogPhotoJanuary" ><img src={LennieJan20251} alt="" /><figcaption className='Januaryfigcaption'><strong> Lennie meanwhile is playing that age-old <br /> cat trick....of sleeping where you <br /> least want him to... </strong></figcaption></section>
+            </fig>            
+            <fig><section className = "blogPhotoJanuary" ><img src={LennieJan20252} alt="" /><figcaption className='Januaryfigcaption'><strong></strong>...in this case on Harry's clean interview clothes!..... </figcaption></section>
+            </fig>
+            </div> 
                    
 
             </div>

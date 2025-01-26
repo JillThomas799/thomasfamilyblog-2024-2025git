@@ -113,6 +113,49 @@
     text-align:center;
   }
 
+  .blogPhotoDivJanuary{
+    display:flex;
+    flex-direction: row;
+    border:solid 2px #757c88;
+    background-color: #a4a4ac;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-left: 2%;
+    padding-right:2%;
+    margin-top:5vh;
+  }
+  
+  .blogPhotoJanuary img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    height:auto;
+    border:solid whitesmoke 4px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+  }
+
+  .Januaryfigcaption {
+    text-align: center;
+    font-family: bold;
+    color:black;
+    font-size: 1.0rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-wrap:normal;
+    padding-top:5%;
+  }
+
+  @media screen and (max-width: 901px){
+    .blogPhotoDivJanuary{
+      display: flex;
+      flex-direction: column;
+    }
+    }
+
   @media screen and (min-width: 481px) and (max-width: 900px)  { 
     .slideshowentryJanuary {
       display: block;

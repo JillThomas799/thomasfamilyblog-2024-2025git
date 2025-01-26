@@ -20,8 +20,8 @@ export default function February2025() {
        
             {/* <div className="curtain1"> </div> */}
             < Deer />
-            <div className="curtain2"></div>
-            {/* <div className="groundSnow"></div> */}
+            {/* <div className="curtain2"></div> */}
+            <div className="groundSnow"></div>
             </div> 
             
         </div>

@@ -25,7 +25,16 @@ export default function February2025() {
             </div> 
             
         </div>
-        
+        <section className="dateFebruary" style={{marginTop:'0%'}}>February 1st - 28th 2025</section> 
+                     <section className="newsheaderFebruary"> WELCOME TO OUR FEBRUARY BLOG</section> 
+                    <section className="newsFebruary" style={{textAlign:"left"}}>
+                   This month we are introducing as part of our header design some new animal friends who live near to us. These are the
+                   3 deer who we see most days as we walk down to the lake. The design for the deer has been undertaken from first principles; 
+                   analyzing photographic images and then using SVG to create a set of images which represent as closely as possible the deer 
+                   whom we meet.  
+                    <br /> 
+                    <br /> 
+                    </section>
      </div>
 );
 };

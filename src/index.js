@@ -22,6 +22,7 @@ import November2024 from 'November2024';
 import December2024 from 'December2024';
 import January2025 from 'January2025';
 import February2025 from 'February2025';
+import March2025 from 'March2025';
 
 
 
@@ -102,6 +103,12 @@ const router = createBrowserRouter(
     {
       path: '/february2025',
       element: <February2025/>,
+        errorElement: <ErrorPage/>
+    },
+
+    {
+      path: '/march2025',
+      element: <March2025/>,
         errorElement: <ErrorPage/>
     },
 

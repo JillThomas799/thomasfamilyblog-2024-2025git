@@ -117,7 +117,7 @@
 }
 
 .newsFebruary{
-  color:#786D68;
+  color:#687875;
   border:solid 2px whitesmoke;
   background-color:	#C2B280;
   text-align: left;
@@ -131,7 +131,7 @@
 }
 
 .dateFebruary{
-  color:#786D68;
+  color:#687875;
   border:solid 2px whitesmoke;
   background-color:		#C2B280;
   text-align: center;
@@ -145,7 +145,7 @@
 }
 
 .newsheaderFebruary{
-  color:#786D68;
+  color:#687875;
   border:solid 2px whitesmoke;
   background-color: 	#C2B280;
   text-align: center;
@@ -169,11 +169,12 @@
   flex-direction: row;
   border:solid 2px #757c88;
   background-color: #C2B280;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   padding-top: 3%;
   padding-left: 2%;
   padding-right:2%;
   margin-top:5vh;
+  margin-bottom:5vh;
 }
 
 .blogPhotoFebruary img{
@@ -189,6 +190,7 @@
   -ms-border-radius: 20%;
   -o-border-radius: 20%;
 }
+
 
 .Februaryfigcaption {
   text-align: center;
@@ -216,6 +218,15 @@
     top:0%;
     bottom:0%;
       } 
+
+      .blogPhotoDivFebruary{
+        display: flex;
+        flex-direction: column;
+        background-color: #C2B280;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        margin-top: 2%;
+        }
 } 
 
 

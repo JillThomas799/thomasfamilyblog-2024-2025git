@@ -12,6 +12,13 @@ import LunchZedel from "./imagesresized/LunchZedel.jpg";
 import NickBuckinghamPalace from "./imagesresized/NickBuckinghamPalace.jpg";
 import Coffee15022025 from "./imagesresized/Coffee15022025.jpg";
 import GreenPark15022025 from "./imagesresized/GreenPark15022025.jpg";
+import WhitehavenHarbour1 from "./imagesresized/WhitehavenHarbour1.jpg";
+import WhitehavenHarbour2 from "./imagesresized/WhitehavenHarbour2.jpg";
+import SeagullSignWhitehaven from "./imagesresized/SeagullSignWhitehaven.jpg";
+import BAEBarrow from "./imagesresized/BAEBarrow.jpg";
+import ViewFromBridgeBarrowDocks from "./imagesresized/ViewFromBridgeBarrowDocks.jpg";
+import HarryBarrowDocks from "./imagesresized/HarryBarrowDocks.jpg";
+import SeagullBAE from "./imagesresized/SeagullBAE.jpg";
 
 
 export default function February2025() {
@@ -43,6 +50,38 @@ export default function February2025() {
                     <br /> 
                     <br /> 
                     </section>
+
+                    <section className="dateFebruary" style={{marginTop:'0%'}}>February 4th and 17th 2025</section> 
+                     <section className="newsheaderFebruary"> HARRY EXPLORES SOME OPPORTUNITIES FOR EMPLOYMENT</section> 
+                    <section className="newsFebruary" style={{textAlign:"left"}}>
+                  Harry has been working very hard to explore further job opportunities now he has successfully completed his PhD. This has involved 
+                  some reconnaissance activity, so on the 4th of February 2025 he was out near Whitehaven in Cumbria and then on the 17th February at the naval 
+                  dockyard in Barrow-in-Furness, Cumbria. Applying for a graduate job seems to be a full time job in itself.
+                    <br /> 
+                    <br /> 
+                    </section>
+
+                    <div className="blogPhotoDivFebruary">
+            <fig><section className = "blogPhotoFebruary" ><img src={WhitehavenHarbour1} alt="" /><figcaption className='Februaryfigcaption'><strong>Out at Whitehaven, <br/>
+            on the west coast of Cumbria.</strong></figcaption></section>
+            </fig>            
+            <fig><section className = "blogPhotoFebruary" ><img src={WhitehavenHarbour2} alt="" /><figcaption className='Februaryfigcaption'><strong></strong>Fishing boats on Whitehaven harbour.</figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoFebruary" ><img src={SeagullSignWhitehaven} alt="" /><figcaption className='Februaryfigcaption'><strong></strong>Checking out the seagull density <br/>
+            ... presumably not insignificant <br/> given this sign....</figcaption></section>
+            </fig>
+            </div> 
+
+            <div className="blogPhotoDivFebruary">
+            <fig><section className = "blogPhotoFebruary" ><img src={BAEBarrow} alt="" /><figcaption className='Februaryfigcaption'><strong>BAE Systems, Barrow,<br/>
+            on the west coast of Cumbria.</strong></figcaption></section></fig>            
+            <fig><section className = "blogPhotoFebruary" ><img src={ViewFromBridgeBarrowDocks} alt="" /><figcaption className='Februaryfigcaption'><strong></strong>View from the bridge, <br/> Barrow docks.</figcaption>
+            </section></fig> 
+            <fig><section className = "blogPhotoFebruary" ><img src={HarryBarrowDocks} alt="" /><figcaption className='Februaryfigcaption'><strong></strong>Harry exploring Barrow docks.
+           </figcaption></section></fig>
+            <fig><section className = "blogPhotoFebruary" ><img src={SeagullBAE} alt="" /><figcaption className='Februaryfigcaption'><strong></strong>Meeting and greeting one of <br/> the local seagulls....</figcaption></section>
+            </fig>           
+            </div> 
 
                     <section className="dateFebruary" style={{marginTop:'0%'}}>February 15th 2025</section> 
                      <section className="newsheaderFebruary"> VISIT TO LONDON, HOUSES OF PARLIAMENT TOUR AND LUNCH AT BRASSERIE ZÉDEL, LONDON ..... Well OK, with one woman down.</section> 

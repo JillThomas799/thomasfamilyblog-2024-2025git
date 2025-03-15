@@ -1,0 +1,31 @@
+#pheasantHeader {
+    box-sizing: border-box;
+    overflow: hidden;
+   overflow: visible;
+    height: 80vh;
+ }
+
+ @media screen and (min-width:601px) and (max-width:901px){
+   #pheasant1{ transform: translate(-200px,0px) scale(0.7); -webkit-transform: translate(-200px,0px) scale(0.7); -moz-transform: translate(-200px,0px) scale(0.7); -ms-transform: translate(-200px,0px) scale(0.7); -o-transform: translate(-200px,0px) scale(0.7); }
+   /* #pheasantLegs{ transform: translate(-310px,0px) scale(0.7); -webkit-transform: translate(-310px,0px) scale(0.4); -moz-transform: translate(-310px,0px) scale(0.7); -ms-transform: translate(-310px,0px) scale(0.7); -o-transform: translate(-310px,0px) scale(0.7); } */
+   #groundPheasant{ transform: translate(0px,-17%) scale(1); -webkit-transform: translate(0px,-17%) scale(1); -moz-transform: translate(0px,-17%) scale(1); -ms-transform: translate(0px,-17%) scale(1); -o-transform: translate(0px,-17%) scale(1); }
+  }
+
+ @media screen and (min-width:401px) and (max-width:600px){
+    #pheasant1{ transform: translate(-300px,3%) scale(0.7); -webkit-transform: translate(-300px,3%) scale(0.7); -moz-transform: translate(-300px,3%) scale(0.7); -ms-transform: translate(-300px,3%) scale(0.7); -o-transform: translate(-300px,3%) scale(0.7); }
+    /* #pheasantLegs{ transform: translate(-310px,0px) scale(0.7); -webkit-transform: translate(-310px,0px) scale(0.4); -moz-transform: translate(-310px,0px) scale(0.7); -ms-transform: translate(-310px,0px) scale(0.7); -o-transform: translate(-310px,0px) scale(0.7); } */
+    #groundPheasant{ transform: translate(0px,-17%) scale(1); -webkit-transform: translate(0px,-17%) scale(1); -moz-transform: translate(0px,-17%) scale(1); -ms-transform: translate(0px,-17%) scale(1); -o-transform: translate(0px,-17%) scale(1); }
+   }
+
+ @media screen and (max-width:400px){
+   #pheasant1{ transform: translate(-250px,9%) scale(0.6); -webkit-transform: translate(-250px,9%) scale(0.6); -moz-transform: translate(-250px,9%) scale(0.6); -ms-transform: translate(-250px,9%) scale(0.6); -o-transform: translate(-250px,9%) scale(0.6); }
+   #groundPheasant{ transform: translate(0px,-20%) scale(1); -webkit-transform: translate(0px,-20%) scale(1); -moz-transform: translate(0px,-20%) scale(1); -ms-transform: translate(0px,-20%) scale(1); -o-transform: translate(0px,-20%) scale(1);
+}   
+   /* #pheasantLegs{ transform: translate(-310px,0px) scale(0.7); -webkit-transform: translate(-310px,0px) scale(0.4); -moz-transform: translate(-310px,0px) scale(0.7); -ms-transform: translate(-310px,0px) scale(0.7); -o-transform: translate(-310px,0px) scale(0.7); } */
+   #pheasantHeader{ box-sizing: border-box;
+      overflow: hidden;
+     overflow: visible;
+      height: 90vh;}
+
+
+   }

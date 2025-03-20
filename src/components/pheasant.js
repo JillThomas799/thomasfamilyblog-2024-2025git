@@ -83,17 +83,17 @@ export default function Pheasant() {
           </g>
       </g>
     <g className="pheasantBody" >  
-      <path d = "M 640 410 Q 730 330 830 330 Q 835 340 880 345 Q 900 445 800 470 Q 730 490 640 460" fill="#633818" filter="url(#blur5)" opacity="0.9"/>
+      <path d = "M 640 410 Q 730 330 830 330 Q 835 340 880 345 Q 900 445 800 470 Q 730 490 640 460" fill="#633818" opacity="0.9"/>
       {/* <ellipse cx="300" cy="460" rx="70" ry="90" fill="#7e4820"  /> */}
       </g>
     <g className="pheasantCollar">
      < path d = "M 830 330  L 835 320 Q 860 340 885 345 L 880 355 Q 855 358 830 330" fill="#f5f5f5" />
     </g>
     <g className = "pheasantNeck">
-      <path d = "M 835 320 L 860 275 Q 890 270 900 300 L 885 345 Q 855 342 835 320" fill = "#163832" filter="url(#blur2)"  opacity="0.8" />
+      <path d = "M 835 320 L 860 275 Q 890 270 900 300 L 885 345 Q 855 342 835 320" fill = "#163832" opacity="0.8" />
     </g>
     <g className = "pheasantHeadBlack">
-     <path d = "M 860 275 Q 880 245 922 280 C 900 310 885 330 860 275" fill="black" filter="url(#blur2)"  opacity="0.8" />  
+     <path d = "M 860 275 Q 880 245 922 280 C 900 310 885 330 860 275" fill="black"  opacity="0.8" />  
     </g>
     <g className = "pheasantHeadRed">
     <path d = "M 870 282 Q 900 260 918 283 L 900 286 Q 904 323 870 282 " fill="#780606" />
@@ -130,11 +130,11 @@ export default function Pheasant() {
       </g>
 
       <g className = "pheasantTail1">
-        <path d = "M 640 410 Q 610 415 580 420 Q 575 425 450 430 Q 450 450 560 440 Q 600 460 640 460 Z   "  fill = "url(#gradPheasantTailFeather2)" filter="url(#blur5)" opacity = "0.8" stroke = "#cbcbcb" strokeWidth = "1" strokeOpacity = "0.5"/ >
+        <path d = "M 640 410 Q 610 415 580 420 Q 575 425 450 430 Q 450 450 560 440 Q 600 460 640 460 Z   "  fill = "url(#gradPheasantTailFeather2)" opacity = "0.8" stroke = "#cbcbcb" strokeWidth = "1" strokeOpacity = "0.5"/ >
       </g>  
 
       <g className = "pheasantTail2">
-        <path d = "M 640 410 Q 610 415 580 420 Q 575 425 450 430 Q 450 450 560 440 Q 600 460 640 460 Z   "  fill = "url(#gradPheasantTailFeather1)" filter="url(#blur5)" opacity = "0.8" stroke = "#cbcbcb" strokeWidth = "1" strokeOpacity = "0.5"/ >
+        <path d = "M 640 410 Q 610 415 580 420 Q 575 425 450 430 Q 450 450 560 440 Q 600 460 640 460 Z   "  fill = "url(#gradPheasantTailFeather1)" opacity = "0.8" stroke = "#cbcbcb" strokeWidth = "1" strokeOpacity = "0.5"/ >
       </g>      
 
       <g className="wingMarkers2" >

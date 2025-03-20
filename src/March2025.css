@@ -1,6 +1,7 @@
 .backgroundMarch2025{
   background-color:#57a788 ;
   padding-bottom: 50%;
+  height:100%;
   
 }
 
@@ -144,7 +145,7 @@
   }
   
   .LinkMarch2025 {
-    color: whitesmoke;
+    color: #ffd200;
     font-size: 1.2rem;
     text-decoration: underline;
   }
@@ -155,7 +156,8 @@
     font-size:1.2rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: block;
-    color:#636363;
+    color:whitesmoke;
+    background-color: #816c66;
   }
   
   .slideshowentryMarch2025 {

@@ -11,6 +11,7 @@ import AucklandPalaceThroneRoom from './imagesresized/AucklandPalaceThroneRoom.j
 import AucklandPalaceThrone from './imagesresized/AucklandPalaceThrone.jpg'; 
 import AucklandPalace from './imagesresized/AucklandPalace.jpg'; 
 import BishopsAuckland from './imagesresized/BishopsAuckland.jpg'; 
+import SuttonHooTitled from './imagesresized/SuttonHooTitled.jpg';
 
 export default function March2025() {
 
@@ -46,7 +47,7 @@ export default function March2025() {
                     
                     <br /> 
                     <br />
-                    Over the coming few weeks we will be working to update the March blog with our news .....
+                    <div style={{textAlign:"center"}}>Over the coming few weeks we will be working to update the March blog with our news .....</div>
                     <br /> 
                     <br />
                     </section>
@@ -91,9 +92,59 @@ export default function March2025() {
             <fig><section className = "blogPhotoMarch2025" ><img src={BishopsAuckland} alt="" /><figcaption className='March2025figcaption'><strong>Looking towards Bishops Auckland town <br /> from the entrance to the Castle.</strong></figcaption></section>
             </fig>           
             </div> 
-                    </div>
-
                     
+
+           <section className="dateMarch2025" >13th - 16th March 2025</section> 
+                     <section className="newsheaderMarch2025"> VISIT TO RELATIVES DOWN SOUTH INCLUDING A DAY OUT TO SUTTON HOO SUFFOLK.</section> 
+                    <section className="newsMarch2025" style={{textAlign:"left"}}> We have just returned from a visit down to the South and South East visiting relatives, and 
+                      whilst there took the opportunity to go and visit <Link to="https://www.nationaltrust.org.uk/visit/suffolk/sutton-hoo" className="LinkMarch2025"> Sutton Hoo </Link> in Suffolk. It is a really interesting location and well worth a visit for anyone 
+                      who has not been. We lasted visited the site back in 2009 and had been meaning to revisit for sometime but unfortunately it is only open at weekends 
+                      over the winter period, so this was the first opportunity that we had had. 
+                      <br />
+                      <br />
+                      I will not write too much here about the history of Sutton Hoo and the findings there because there is plenty of information on the site accessed by the link above and online, suffice it to 
+                      say that Sutton Hoo is the site of an Anglo-Saxon burial ground dating back to the 6th and 7th centuries. Excavations in 1939, just as World War 2 was starting, revealed an Anglo-Saxon ship burial 
+                      containing many treasures in what came to be called 'Mound 1'. It is thought, due to the riches found buried there, that it was most likely the grave of Raedwald, an east Anglian king who died in the 620s. This is one of only three Anglo-Saxon 
+                      ship burials in this country. The second and lesser ship burial was found at Sutton Hoo in Mound Two and the other was found in nearby Snape.
+                      <br />
+                      <br />
+                      One of the conditions of the National Trust owning the Sutton Hoo site is that the site has to have an educational purpose, so we had a fantastic local guide Catriona
+                      who was one of the original excavating team of Mound 2 back in the 1980s. She was very interesting and entertaining in our hour long talk and it was fascinating to hear about life on the dig back then.
+                      If anyone is a Time Team fan, <Link to="https://www.nationaltrust.org.uk/visit/suffolk/sutton-hoo/time-team-announcement" target="_blank" className="LinkMarch2025"> Time Team </Link> are back on the site from the 19th May 2025 - 13th June 2025.
+                      <br />
+                      <br />
+                      Following on from our visit to Sutton Hoo we caught up with the 2021 film <Link to="https://www.nationaltrust.org.uk/visit/suffolk/sutton-hoo/digging-the-dirt-at-sutton-hoo-the-true-story-behind-the-dig" target="_blank" className="LinkMarch2025">'The Dig'</Link> starring Ralph Fiennes as the archeologist Basil Brown 
+                      exploring the story of the excavation of the Great Ship Burial at Sutton Hoo in 1939 and which is currently available on Netflix.
+                      It is an enjoyable film in its own right which, whilst it is based on a true story and accurately portrays the Sutton Hoo excavation, it is a also in parts a fictionalized account with liberties taken for dramatic purposes especially with the relationships between certain of the characters 
+                      and the addition of fictional characters such as Rory Lomax who were added for dramatic effect.  We felt that it was a pity it was not able to be filmed on site using Tranmer House. There is an interesting article 
+                      <Link to="https://www.eadt.co.uk/news/21324495.ralph-fiennes-basil-brown-remarkable-man/" target="_blank" className="LinkMarch2025"> here </Link> in the East Anglian Times about 
+                      Ralph Fiennes when he was preparing for the film.
+                      <br />
+                      <br />
+                      Whilst visiting in the South East, we were also able to catch up on progress with Jill's relatives garden project, which is making good progress.
+                                        </section>
+
+            <div className="SlideshowHostPhotoMarch2025">
+            <div className="slideshowinstructionsMarch2025"> <strong>Click on the image below to open the album of our visit to Sutton Hoo and progress with the South East garden project (see photo album).</strong> 
+                    <br /> <br />
+            <Link to ="https://photos.app.goo.gl/512sy4tKr39WbLVP7" target="_blank" className="LinkMarch2025">
+                    <img className="slideshowentryMarch2025" src={SuttonHooTitled} alt="" />
+                    </Link>
+                    </div>   {/*Closing div slideshowinstructionsMarch*/}
+                            
       </div>
+           
+      {/* <section className="dateMarch2025" >8th March 2025 onwards</section> 
+                     <section className="newsheaderMarch2025"> THE TALE OF A RAT ..... AND OTHER POTENTIAL PETS FOR ELENA</section> 
+                    <section className="newsMarch2025" style={{textAlign:"left"}}>
+                      Elena has for some time expressed the desire to introduce a pet into her home, it has just been a case of her deciding which pet would be best...
+                      As could be imagined, various family members and friends have had their own suggestions to offer including Harry who initially suggested chickens
+                      <br />
+                      <br />
+                      
+                    </section> */}
+      </div>
+      </div>
+      
       );
       };

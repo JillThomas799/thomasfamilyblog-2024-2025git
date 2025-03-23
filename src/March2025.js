@@ -12,6 +12,7 @@ import AucklandPalaceThrone from './imagesresized/AucklandPalaceThrone.jpg';
 import AucklandPalace from './imagesresized/AucklandPalace.jpg'; 
 import BishopsAuckland from './imagesresized/BishopsAuckland.jpg'; 
 import SuttonHooTitled from './imagesresized/SuttonHooTitled.jpg';
+import CrasterDunstanburgh22052025Titled from './imagesresized/CrasterDunstanburgh22052025Titled.jpg';
 
 export default function March2025() {
 
@@ -143,8 +144,101 @@ export default function March2025() {
                       <br />
                       
                     </section> */}
-      </div>
-      </div>
+     
+
+
+      <div className="datenewsDivMarch2025">
+            <section className="dateMarch2025">22nd March 2025, Saturday</section>
+            <section className="newsheaderMarch2025"><strong>WALK CRASTER, LONGHOUGHTON, HOWICK  and DUNSTANBURGH CASTLE 11.9 miles. 
+            <br />
+            <br />
+              First half of the walk 8 miles and 185 metres ascent. The second half of the walk is 4 miles and 115 metres ascent. Both can be found in OS Explorer Map 332, Alnwick and Amble.</strong></section>
+             <div className="newsMarch2025">
+             <div className="componentWalkDetailsMarch2025">     
+            <strong className="headTitlesMarch2025">Details of the Walk </strong>
+            <br />
+            <br />
+            <ul className="hwpIntroList">
+                <li><strong className="titlesMarch2025">Parking:</strong> We parked on the pay and display car park by the tourist centre (GPS NU 256198) on entering Craster village. 
+                Currently it costs £9.00 for the day but it is important to note that the machines accept CASH ONLY. This car park can get <em>very</em> busy so best to arrive promptly.
+                However given the weather,today on arrival, it was still fairly quiet....
+                </li>
+                <br />
+                <li><strong className="titlesMarch2025">Paths:</strong> The route consists of an amalgamation of 2 separate walks. The first is an 8 mile circuit walking 
+                south from Craster and following the English Coastal Path and St Oswalds Way as far as Longhoughton beach where it is necessary to turn inland
+                and head towards Longhoughton village before returning to Craster via Howick Hall and across the fields to South Craster Farm and Arnold Nature Reserve.
+                <br />
+                The second half of the walk is a 4 mile circuit walking over to Dunstanburgh Castle and  heading onwards as far as Dunstan Steads before cutting back towards Craster village.
+                <br />
+                The route and is on clear paths, tracks and lanes. It is well-signposted.</li>
+                  <br />
+                <li><strong className="titlesMarch2025">Distance:</strong> Just under 12 miles in total <strong>, Ascent:</strong> 300 metres, 984 feet. </li>
+                <br />
+                <li><strong className="titlesMarch2025">Refreshments:</strong> In Craster village and the <Link to="https://runningfoxbakery.co.uk/"
+                target="_blank" className="LinkMarch2025">Running Fox Artisan Bakery</Link> at Longhoughton</li>    
+                <br />
+                </ul> 
+           
+            <strong className="headTitlesMarch2025">Good</strong> 
+            <br />
+            <br />
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titlesMarch2025">Spectacular coastal scenery and views :</strong> A very scenic walk along the Northumberland coast and across rolling farmland before returning via Howick Hall to Craster. Then onto the stunning scenery of Dunstanburgh Castle before retuning to the start point.
+                Howick Hall is the home of Lord Howick a descendant of the 2nd Earl Grey, who sponsored the Reform Bill and lent his name to the eponymous bergamot flavoured tea, and who lived in Howick Hall from 1801 to 1845.</li>
+                <br />
+                <li><strong className="titlesMarch2025"> Seal-sighting: The highlight of the day was spotting a seal which was looking directly up at us from the beach below and seemed to be waving!</strong> 
+                </li>
+                <br /> 
+                <li><strong className="titlesMarch2025">Hares: </strong> The other highlight of the day was seeing 2 March hares racing at amazing speed across one of the farm fields... </li>
+                <br />
+                <li><strong className="titlesMarch2025">Refreshments:</strong> The <Link to="https://runningfoxbakery.co.uk/"
+                target="_blank" className="LinkMarch2025">Running Fox Artisan Bakery</Link> at Longhoughton appeared just at a key point in out journey 
+                and the take-away coffees were much appreciated. </li>  
+                </div>
+                <br />
+                </ul>
+                
+            <strong className="headTitlesMarch2025">Not so good</strong> 
+            <br />
+            <br />
+            <ul className="hwpIntroList">
+            <li><strong className="titlesMarch2025"> Weather:</strong> As can be seen from the album intro photo, it was very wet when we arrived. 
+            The weather forecast had in fact not been great with wetter weather towards the east of the country (where we were today)
+            and slightly better weather in the west (where we had debated heading towards instead). However Bernard had decided that we would have to
+            walk whatever the weather on the Cmino de Santiago pilgrimage so the sooner we got used to all-weather walking the better......... </li>
+                <br /> 
+                <li><strong className="titlesMarch2025"> Popularity of the Running Fox artisan bakery at Longhoughton:</strong> which meant that there were no indoor tables 
+                available as we had not prebooked..... </li>
+                <br />              
+                </ul>
+               
+            <strong className="headTitlesMarch2025">Hike Rating</strong> 
+            <br />
+            <br />
+            <ul className="hwpIntroList">
+            <li><strong className="titlesMarch2025">10 (out of 10):</strong> A sreally uperb walk in spectacular countryside with some fascinating history and culture thrown in. 
+            It did not matter that the weather was poor because as long you have suitable waterproof clothing the adverse weather just adds to the atmosphere.
+            That said, for obvious reasons, we would not recommend walking along the coastal section in gale force winds....</li>
+            <br />
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }    
+            </div>
+            </div>
+            
+           <div className="SlideshowHostPhotoMarch2025">
+            <div className="slideshowinstructionsMarch2025"> <strong>Click on the image below to open the album of our walk at <br /> Craster, Longhoughton, Howick and Dunstanburgh Castle 
+              <br/> which forms the long walk for week 8 of our <br /> Camino de Santiago training programme (see photo album).</strong> 
+                    <br /> <br />
+            <Link to ="https://photos.app.goo.gl/bJAUtG3ERJAZSRsY6" target="_blank" className="LinkMarch2025">
+                    <img className="slideshowentryMarch2025" src={CrasterDunstanburgh22052025Titled} alt="" />
+                    </Link>
+                       </div>   {/*Closing div slideshowinstructionsMarch*/}
+           
+           
+           </div>
+           </div>
+           </div>
       
       );
       };

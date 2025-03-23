@@ -13,6 +13,7 @@ import AucklandPalace from './imagesresized/AucklandPalace.jpg';
 import BishopsAuckland from './imagesresized/BishopsAuckland.jpg'; 
 import SuttonHooTitled from './imagesresized/SuttonHooTitled.jpg';
 import CrasterDunstanburgh22052025Titled from './imagesresized/CrasterDunstanburgh22052025Titled.jpg';
+import CdSTrainingLongWk7Titled from './imagesresized/CdSTrainingLongWk7Titled.jpg';
 
 export default function March2025() {
 
@@ -144,8 +145,75 @@ export default function March2025() {
                       <br />
                       
                     </section> */}
+      
+      <div className="datenewsDivMarch2025">
+            <section className="dateMarch2025">19th March 2025, Wednesday</section>
+            <div className="newsheaderMarch2025"><strong>CAMINO DE SANTIAGO TRAINING, LONG WALK WEEK 7, 9.04 miles. </strong> </div>
+             <div className="newsMarch2025">
+             <div className="componentWalkDetailsMarch2025">     
+            <strong className="headTitlesMarch2025">Details of the Walk </strong>
+            <br />
+            <br />
+            <ul className="hwpIntroList">
+                <li><strong className="titlesMarch2025">Parking:</strong> None required as this walk can be undertaken directly from our home.
+                </li>
+                <br />
+                <li><strong className="titlesMarch2025">Paths:</strong> Mainly walking on very quiet, tarmacadam rural roads with occasional stretches across farmland.</li>
+                <br />
+                <li><strong className="titlesMarch2025">Distance:</strong> 9.04 miles in total. </li>
+                <br />
+                <li><strong className="titlesMarch2025">Refreshments:</strong> There is a lovely community café and shop after about 6.5 miles where refreshments can be obtained.</li>    
+                <br />
+                </ul> 
+           
+            <strong className="headTitlesMarch2025">Good</strong> 
+            <br />
+            <br />
+            <ul className="hwpIntroList">
+              <div className="listItemsAlign">
+                <li><strong className="titlesMarch2025">Spectacular scenery and views :</strong> Always a great walk which, because of its rurality and remoteness is exceptionally quiet.</li>
+                <br />
+                <li><strong className="titlesMarch2025"> Weather: The start of spring felt to be here with a bright, sunny day. </strong> 
+                </li>
+                <br /> 
+                <li><strong className="titlesMarch2025">Refreshments:</strong> There is a lovely community café and shop after about 6.5 miles where we obtained refreshments. It is also a community hub where 
+                you can read the papers and the Cumbria Life and where there is news of local events and opportunities and an opportunity to purchase one of the 
+                pictures by local artists which are displayed. </li>  
+                </div>
+                <br />
+                </ul>
+                
+            <strong className="headTitlesMarch2025">Not so good</strong> 
+            <br />
+            <br />
+            <ul className="hwpIntroList">
+            <li><strong className="titlesMarch2025"> Routine:</strong> We walk this walk a lot and it is one of our favourites. However for this reason,
+            it has the disadvantage that it does not pose new  challenges or skills</li>
+                <br /> 
+                <br />              
+                </ul>
+               
+            <strong className="headTitlesMarch2025">Hike Rating</strong> 
+            <br />
+            <br />
+            <ul className="hwpIntroList">
+            <li><strong className="titlesMarch2025">10 (out of 10):</strong> An excellent walk which is the amalgamation of a couple of our regular walks from home.</li>
+            <br />
+            </ul>
+            </div>    {/* Closing tag ComponentWalkDetails Class*/ }    
+            </div>
+            
+            
+           <div className="SlideshowHostPhotoMarch2025">
+            <div className="slideshowinstructionsMarch2025"> <strong>Click on the image below to open the album of our week 7 Camino de Santiago training long walk.</strong> 
+                    <br /> <br />
+            <Link to ="https://photos.app.goo.gl/ctFVnc8ZSP73oHD18" target="_blank" className="LinkMarch2025">
+                    <img className="slideshowentryMarch2025" src={CdSTrainingLongWk7Titled} alt="" />
+                    </Link>
+                       </div>   {/*Closing div slideshowinstructionsMarch*/}
      
-
+                       </div>
+                      
 
       <div className="datenewsDivMarch2025">
             <section className="dateMarch2025">22nd March 2025, Saturday</section>
@@ -217,7 +285,7 @@ export default function March2025() {
             <br />
             <br />
             <ul className="hwpIntroList">
-            <li><strong className="titlesMarch2025">10 (out of 10):</strong> A sreally uperb walk in spectacular countryside with some fascinating history and culture thrown in. 
+            <li><strong className="titlesMarch2025">10 (out of 10):</strong> A really superb walk in spectacular countryside with some fascinating history and culture thrown in. 
             It did not matter that the weather was poor because as long you have suitable waterproof clothing the adverse weather just adds to the atmosphere.
             That said, for obvious reasons, we would not recommend walking along the coastal section in gale force winds....</li>
             <br />
@@ -238,6 +306,8 @@ export default function March2025() {
            
            </div>
            </div>
+           </div>
+          
            </div>
       
       );

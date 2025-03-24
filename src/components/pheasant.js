@@ -42,6 +42,33 @@ export default function Pheasant() {
     <stop offset="100%" style={{ stopColor:"#633818", stopOpacity:0.8}} />
     </linearGradient>
 
+<radialGradient id="gradPheasantFeather2" cx="20%" cy="50%" >
+<stop offset="2%" style={{ stopColor:"#FFFDD1", stopOpacity:1}} />       
+<stop offset="3%" style={{ stopColor:"#7E4820", stopOpacity:0.8}} />
+<stop offset="20%" style={{ stopColor:"#FFFDD1", stopOpacity:1}} />       
+<stop offset="21%" style={{ stopColor:"#7E4820", stopOpacity:0.8}} />
+<stop offset="41%" style={{ stopColor:"#FFFDD1", stopOpacity:1}} />    
+<stop offset="42%" style={{ stopColor:"#7E4820", stopOpacity:0.8}} />
+<stop offset="62%" style={{ stopColor:"#FFFDD1", stopOpacity:1}} /> 
+<stop offset="63%" style={{ stopColor:"#7E4820", stopOpacity:0.8}} />
+<stop offset="83%" style={{ stopColor:"#FFFDD1", stopOpacity:1}} /> 
+<stop offset="84%" style={{ stopColor:"#7E4820", stopOpacity:0.8}} />
+<stop offset="100%" style={{ stopColor:"#FFFDD1", stopOpacity:1}} /> 
+</radialGradient>
+
+
+<linearGradient id="gradPheasantFeather3" x1="0%" x2="10%" y1="0%" y2="90%">
+<stop offset="0%" style={{ stopColor:"#F6E8B1", stopOpacity:1}} />       
+<stop offset="20%" style={{ stopColor:"#7E4820", stopOpacity:0.8}} />
+<stop offset="30%" style={{ stopColor:"#F6E8B1", stopOpacity:1}} />       
+<stop offset="50%" style={{ stopColor:"#7E4820", stopOpacity:0.8}} />
+<stop offset="60%" style={{ stopColor:"#F6E8B1", stopOpacity:1}} />    
+<stop offset="80%" style={{ stopColor:"##7E4820", stopOpacity:0.8}} />
+<stop offset="90%" style={{ stopColor:"#F6E8B1", stopOpacity:1}} /> 
+<stop offset="100%" style={{ stopColor:"#7E4820", stopOpacity:0.8}} />
+
+</linearGradient>
+
   <filter id="blur1" x="0" y="0">    
     <feGaussianBlur in="SourceGraphic" stdDeviation="3.4" />
   </filter>
@@ -108,8 +135,8 @@ export default function Pheasant() {
       <path d = "M 915 277 Q 930 280 940 290 Q 930 283 910 293 Z 915 277 " fill="#F6E8B1" opacity = "0.9" stroke = "black" strokeOpacity="0.2" />
     </g>
 
-    <g className = "pheasantFeather2">
-    <path d = "M 840 365 Q 800 340 760 350 Q 650 430 800 430 Q 885 440 835 365 " fill="#FFFDD1" opacity="0.6" />
+    <g className = "pheasantFeather2" >
+    <path d = "M 840 365 Q 800 340 760 350 Q 650 430 800 430 Q 885 440 835 365 " fill="url(#gradPheasantFeather2)" opacity="0.6" />
     </g>
 
     <g className="wingMarkers2" >
@@ -119,7 +146,7 @@ export default function Pheasant() {
           <use xlinkHref="#wingMarkers" x={800} y={250} style={{transform:"translate(-20px, 10px)"}} />
           </g>
     <g className = "pheasantFeather1">
-      <path d = "M 840 365 Q 820 355 780 395 Q 740 430 800 430 Q 885 440 835 365 " fill="#B87333" opacity="0.6" />
+      <path d = "M 840 365 Q 820 355 780 395 L 710 430 L 800 430 Q 885 440 835 365 " fill="#B87333" opacity="1" />
       <g id="wingMarkers">
       <ellipse id="ellipse1" cx= "780" cy="400" rx="3" ry="6" fill="black" opacity="0.8" />
       <ellipse id="ellipse2" cx= "790" cy="395" rx="3" ry="6" fill="black" opacity="0.8" />
@@ -128,6 +155,15 @@ export default function Pheasant() {
       <ellipse id="ellipse5" cx= "820" cy="380" rx="3" ry="6" fill="black" opacity="0.8" />
       <ellipse id="ellipse6" cx= "830" cy="375" rx="3" ry="6" fill="black" opacity="0.8" />
       </g>
+
+    
+    <g className = "pheasantFeather5">
+      <path d="M 770 344 Q 730 355 720 379 L 660 420 L 720 420 L 720 430 L 750 424 L 770 344 " fill="url(#gradPheasantFeather3)" opacity="1" />
+    </g>
+
+    <g className = "pheasantFeather4">
+      <path d="M 840 364 Q 770 324 760 364 L 785 380 Q 810 380 841 365" fill="#7E4820" opacity="1" />
+    </g>
 
       <g className = "pheasantTail1">
         <path d = "M 640 410 Q 610 415 580 420 Q 575 425 450 430 Q 450 450 560 440 Q 600 460 640 460 Z   "  fill = "url(#gradPheasantTailFeather2)" opacity = "0.8" stroke = "#cbcbcb" strokeWidth = "1" strokeOpacity = "0.5"/ >

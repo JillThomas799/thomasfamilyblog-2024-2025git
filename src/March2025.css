@@ -138,7 +138,7 @@
     text-align: center;
     font-family: bold;
     color:whitesmoke;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow-wrap:normal;
     padding-top:5%;
@@ -166,7 +166,7 @@
     margin-right: auto;
     pointer-events:none;
     height:auto;
-    width: 15%;
+    width: 25%;
     border:solid whitesmoke 4px;
     border-radius:70%;
     margin-top:1%;
@@ -252,7 +252,7 @@
             margin-right: auto;
             pointer-events:none;
             height:auto;
-            width: 20%;
+            width: 35%;
             border:solid var(--whiteSmoke) 3px;
             margin-top:3%;
             margin-bottom:5%;
@@ -328,7 +328,7 @@
               margin-right: auto;
               pointer-events:none;
               height:auto;
-              width: 50%;
+              width: 80%;
               border:solid var(--whiteSmoke) 3px;
               margin-top:3%;
               margin-bottom:5%;

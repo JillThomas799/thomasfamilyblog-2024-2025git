@@ -14,6 +14,22 @@ import BishopsAuckland from './imagesresized/BishopsAuckland.jpg';
 import SuttonHooTitled from './imagesresized/SuttonHooTitled.jpg';
 import CrasterDunstanburgh22052025Titled from './imagesresized/CrasterDunstanburgh22052025Titled.jpg';
 import CdSTrainingLongWk7Titled from './imagesresized/CdSTrainingLongWk7Titled.jpg';
+import AcerBrilliantissimum from './imagesresized/AcerBrilliantissimum.jpg';
+import GardenSlope270320252 from './imagesresized/GardenSlope270320252.jpg';
+import Lowther260320251 from './imagesresized/Lowther260320251.jpg';
+import Lowther260320252 from './imagesresized/Lowther260320252.jpg';
+import Lowther260320253 from './imagesresized/Lowther260320253.jpg';
+import Lowther260320254 from './imagesresized/Lowther260320254.jpg';
+import Lowther260320255 from './imagesresized/Lowther260320255.jpg';
+import Lowther260320256 from './imagesresized/Lowther260320256.jpg';
+import Lowther260320257 from './imagesresized/Lowther260320257.jpg';
+import CatLarchRadiator1 from './imagesresized/CatLarchRadiator1.jpg';
+import CatLarchRadiator2 from './imagesresized/CatLarchRadiator2.jpg';
+import PrunusPinkPerfection from './imagesresized/PrunusPinkPerfection.jpg';
+import WilfNell022024 from './imagesresized/WilfNell022024.jpg';
+import Lowther010620111 from './imagesresized/Lowther010620111.JPG';
+import Lowther010620112 from './imagesresized/Lowther010620112.JPG';
+import StatueLarchCottage from './imagesresized/StatueLarchCottage.jpg';
 
 export default function March2025() {
 
@@ -306,7 +322,92 @@ export default function March2025() {
            
            </div>
            </div>
-           </div>
+          
+
+
+
+
+           <section className="dateMarch2025" >26th March 2025, Wednesday</section> 
+                     <section className="newsheaderMarch2025"> DAY OUT AT LOWTHER CASTLE WITH FRIENDS ROBIN AND CATHY</section> 
+                    <section className="newsMarch2025" style={{textAlign:"left"}}> Had a great day out at Lowther Castle today with our friends Robin and Cathy.
+                      For those who remember, in February 2024 Robin and Cathy's 2 dogs Wilf and Nell featured as stars in the blog.
+                      This time though they were safely being looked after at home, so we have added their pictures from last year to represent them as they were not able to be 
+                      with us this time.
+                      <br />
+                      <br />
+                      It was an early start because we had decided to call off first at <Link to = "https://larchcottage.co.uk/" target="_blank" className="LinkMarch2025">Larch Cottage Nurseries </Link>
+                       at Melkinthorpe to acquire a couple more trees for the slope in our garden. Larch Cottage Nurseries is a garden centre with a difference as it has an array of interesting statues
+                       but also a number of plants. shrubs and trees which are not available at more standard garden centre. As a result, we ended up buying 2 new trees for the garden slope:
+                       an acer brilliantissimum and a prunus pink perfection flowering cherry together with some forget me not plants for the garden balcony boxes. 
+                       The nursery has an italian café called <Link to="https://larchcottage.co.uk/casa-verde/" target="_blank" className="LinkMarch2025"> La Casa Verde </Link> , which also serves coffees 
+                       so this was a good opportunity for some light refreshment and to meet their resident feline (see photos below).
+                       <br />
+                       <br />
+                       Cathy and Robin had not visited Lowther Castle before and were saying how good it was as an attraction and in terms of location.
+                       We discovered Lowther Castle on 1st June 2011 when we spent a short holiday in the nearby village of Helton and wanted to explore 
+                       further the ruined building and estate we could see across the valley. Looking back we must have been one of the first public visitors
+                       as after a £9 million pound restoration project the castle and some of the garden were opened to the public on the 22nd April 2011 for the first time since 1938. 
+                       At that time, Lowther was in the early stages of its renovations with many of the areas of the gardens still overgrown and only a very small café. Newcastle 
+                       University archives have some interesing further information about Lowther Castle <Link to="https://co-curate.ncl.ac.uk/lowther-castle/"
+                       target="_blank" className="LinkMarch2025"> here </Link> . A couple of the photos of Lowther Castle at the time of our 2011 visit are included below.
+                       <br />
+                       <br />
+                       The reimagination of the gardens at Lowther has been part of a 20 year plan initiated in 2008 by the gardener designer Dan Pearson
+                       More recently, the rose garden has been completed, together with the Japanese garden. There is also the creation of a scented garden. 
+                                        </section>
+
+                                        <div className="blogPhotoDivMarch2025">            
+            <fig><section className = "blogPhotoMarch2025" ><img src={AcerBrilliantissimum} alt="" /><figcaption className='March2025figcaption'><strong>First new tree: Acer Brilliantissimum </strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoMarch2025" ><img src={PrunusPinkPerfection} alt="" /><figcaption className='March2025figcaption'><strong>Second new tree: Prunus 'Pink Perfection', <br /> a pink flowering cherry.
+            </strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoMarch2025" ><img src={GardenSlope270320252} alt="" /><figcaption className='March2025figcaption'><strong>Here are the 2 new trees securely <br /> planted in their new locations <br /> in the garden...</strong></figcaption></section>
+            </fig>
+            </div>
+
+            <div className="blogPhotoDivMarch2025"> 
+            <fig><section className = "blogPhotoMarch2025" ><img src={StatueLarchCottage} alt="" /><figcaption className='March2025figcaption'><strong>One of the many interesting statues <br /> at Larch Cottage nurseries.</strong></figcaption></section>
+            </fig>         
+            <fig><section className = "blogPhotoMarch2025" ><img src={CatLarchRadiator1} alt="" /><figcaption className='March2025figcaption'><strong>We discovered the Casa Verde café, <br /> which had its own permanent resident <br /> keeping warm on the radiator!</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoMarch2025" ><img src={CatLarchRadiator2} alt="" /><figcaption className='March2025figcaption'><strong>It had no intention of moving <br /> anytime soon...</strong></figcaption></section>
+            </fig>
+            </div> 
+
+            <div className="blogPhotoDivMarch2025">          
+            <fig><section className = "blogPhotoMarch2025" ><img src={Lowther260320251} alt="" /><figcaption className='March2025figcaption'><strong>Approach to smart, clean <br /> Lowther Castle today....</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoMarch2025" ><img src={Lowther260320253} alt="" /><figcaption className='March2025figcaption'><strong>It is easy to imagine its <br /> previous splendour....</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoMarch2025" ><img src={Lowther260320252} alt="" /><figcaption className='March2025figcaption'><strong>Bernard in the courtyard.</strong></figcaption></section>
+            </fig>
+            </div> 
+
+            <div className="blogPhotoDivMarch2025">
+            <fig><section className = "blogPhotoMarch2025" ><img src={Lowther010620111} alt="" /><figcaption className='March2025figcaption'><strong>And here the castle is on 2nd June 2011, <br /> just after opening to the <br /> 
+            public once again.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoMarch2025" ><img src={Lowther010620112} alt="" /><figcaption className='March2025figcaption'><strong>And again......<br /> It is amazing the work which <br /> has been undertaken <br /> over the past 14 years...</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoMarch2025" ><img src={Lowther260320254} alt="" /><figcaption className='March2025figcaption'><strong>Robin, Bernard and Jill in front <br /> of Lowther Castle</strong></figcaption></section>
+            </fig>            
+            
+            </div>  
+
+            <div className="blogPhotoDivMarch2025">
+            <fig><section className = "blogPhotoMarch2025" ><img src={WilfNell022024} alt="" /><figcaption className='March2025figcaption'><strong>Wilf and Nell at our meet-up <br /> in February 2024.</strong></figcaption></section>
+            </fig>     
+            <fig><section className = "blogPhotoMarch2025" ><img src={Lowther260320256} alt="" /><figcaption className='March2025figcaption'><strong>Robin and Bernard on the footpath towards Whale.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoMarch2025" ><img src={Lowther260320257} alt="" /><figcaption className='March2025figcaption'><strong>The 'team': Cathy, Jill, Bernard and Robin <br /> on the footpath towards Whale.</strong></figcaption></section>
+            </fig>       
+            
+            </div>  
+
+
+           
+      </div>
           
            </div>
       

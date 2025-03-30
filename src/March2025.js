@@ -30,6 +30,7 @@ import WilfNell022024 from './imagesresized/WilfNell022024.jpg';
 import Lowther010620111 from './imagesresized/Lowther010620111.JPG';
 import Lowther010620112 from './imagesresized/Lowther010620112.JPG';
 import StatueLarchCottage from './imagesresized/StatueLarchCottage.jpg';
+import JillGelt30032025Titled from './imagesresized/JillGelt30032025Titled.jpg';
 
 export default function March2025() {
 
@@ -404,7 +405,29 @@ export default function March2025() {
             </fig>       
             
             </div>  
+  
+            <section className="dateMarch2025" >29th - 30th March 2025, Saturday and Sunday</section> 
+                     <section className="newsheaderMarch2025"> WEEK 9  OF CAMINO TRAINING: DAYS 1 AND 2 SEQUENTIAL LONG WALKS PLUS ALSO MOTHER'S DAY</section> 
+                    <section className="newsMarch2025" style={{textAlign:"left"}}> We are now into week 9 of our recommended training program for the Camino de Santiago...that is a slighty scary thought!
+                      Over the forthcoming weeks we have to increase steadily the length of our long weekend walks and start undertaking these on consecutive days without a break.
+                      This week's target for the longer weekend walks was one walk of 4 hours and one walk of three hours. For these we chose a 10 mile walk and a more challenging but
+                       slightly shorter 7 miles walks on the Saturday and Sunday respectively. Both were very enjoyable although the second walk, whilst shorter, seemed by far the harder of the two. 
+                       Even the google fit app agreed and sent us a message saying 'whew, that was intense!'......and we agreed with it! It was a good demonstration though
+                       that we need to continue working on and improving our fitness and stamina over the forthcoming weeks.....
+                       <br />
+                       <br />
+                       Also this weekend was mother' day and Elena and Harry had bought some lovely cards and Harry had baked a very impressive chocolate and rum ganache cake as can be seen in the attached photo album....
+                                        </section>
 
+            <div className="SlideshowHostPhotoMarch2025">
+            <div className="slideshowinstructionsMarch2025"> <strong>Click on the image below to open the album of our increasing intensity Camino training and Harry's mother's day cake...</strong> 
+                    <br /> <br />
+            <Link to ="https://photos.app.goo.gl/RsopwWHDUV4w2jEs9" target="_blank" className="LinkMarch2025">
+                    <img className="slideshowentryMarch2025" src={JillGelt30032025Titled} alt="" />
+                    </Link>
+                    </div>   {/*Closing div slideshowinstructionsMarch*/}
+                            
+      </div>
 
            
       </div>

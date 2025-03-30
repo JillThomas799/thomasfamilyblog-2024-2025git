@@ -31,6 +31,7 @@ import Lowther010620111 from './imagesresized/Lowther010620111.JPG';
 import Lowther010620112 from './imagesresized/Lowther010620112.JPG';
 import StatueLarchCottage from './imagesresized/StatueLarchCottage.jpg';
 import JillGelt30032025Titled from './imagesresized/JillGelt30032025Titled.jpg';
+import RatForYouTitled from './imagesresized/RatForYouTitled.jpg';
 
 export default function March2025() {
 
@@ -153,15 +154,35 @@ export default function March2025() {
                             
       </div>
            
-      {/* <section className="dateMarch2025" >8th March 2025 onwards</section> 
+      <section className="dateMarch2025" >8th March 2025 onwards</section> 
                      <section className="newsheaderMarch2025"> THE TALE OF A RAT ..... AND OTHER POTENTIAL PETS FOR ELENA</section> 
                     <section className="newsMarch2025" style={{textAlign:"left"}}>
                       Elena has for some time expressed the desire to introduce a pet into her home, it has just been a case of her deciding which pet would be best...
-                      As could be imagined, various family members and friends have had their own suggestions to offer including Harry who initially suggested chickens
                       <br />
                       <br />
-                      
-                    </section> */}
+                      As might be imagined, various family members and friends have had their own suggestions to offer including Harry who initially suggested chickens, despite
+                      being informed by Jill that these now have to be <Link to = "https://www.gov.uk/guidance/register-as-a-keeper-of-less-than-50-poultry-or-other-captive-birds" target="_blank"
+                      className="LinkMarch2025" > registered with Defra </Link> and a pheasant (again needs to be registered with Defra). He then moved on to sheep (numerous reasons this is not possible including, but not limited to, it not being permitted in the property deeds, and having to
+                      register your premises with the Rural Payments Agency (RPA) and obtain a CPH number.) 
+                     <br />
+                     <br />
+                      There is of course also the question of who would be looking after 
+                      said pet when Elena goes away ..... Jill has refused point black to undertake any rat care but would (possibly) be prepared to mind a cute exotic hamster....
+                      There had been one of the latter in the local pet shop which would jump on its wheel and show off, looking super cute. However, needless to say, this hamster was very quickly sold whilst the rat was still there (say no more).....
+                      <br />
+                      <br />
+                     
+                    </section>
+
+                    <div className="SlideshowHostPhotoMarch2025">
+            <div className="slideshowinstructionsMarch2025"> <strong>Click on the image below to open the album of Elena's plan to acquire a pet...</strong> 
+                    <br /> <br />
+            <Link to ="https://photos.app.goo.gl/9BhkhfLErkSsW8yc7" target="_blank" className="LinkMarch2025">
+                    <img className="slideshowentryMarch2025" src={RatForYouTitled} alt="" />
+                    </Link>
+                    </div>   {/*Closing div slideshowinstructionsMarch*/}
+                            
+      </div>
       
       <div className="datenewsDivMarch2025">
             <section className="dateMarch2025">19th March 2025, Wednesday</section>

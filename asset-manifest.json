@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thomasfamilyblog-2024-2025git/static/css/main.cffa0894.css",
-    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.e7360be3.js",
+    "main.css": "/thomasfamilyblog-2024-2025git/static/css/main.f95d52df.css",
+    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.119dadb5.js",
     "static/js/488.6f20adc3.chunk.js": "/thomasfamilyblog-2024-2025git/static/js/488.6f20adc3.chunk.js",
     "static/media/July2024HeaderPhoto1.jpg": "/thomasfamilyblog-2024-2025git/static/media/July2024HeaderPhoto1.ebaac43aa58c486ac2dc.jpg",
     "static/media/BernardCroglin.jpg": "/thomasfamilyblog-2024-2025git/static/media/BernardCroglin.a894f8d8d663e284915e.jpg",
@@ -10,6 +10,7 @@
     "static/media/NaworthRear29112024Titled.jpg": "/thomasfamilyblog-2024-2025git/static/media/NaworthRear29112024Titled.9e96fc445f40aca23de5.jpg",
     "static/media/ThirlwallElena1.jpg": "/thomasfamilyblog-2024-2025git/static/media/ThirlwallElena1.f65e135f89c99dbe4faa.jpg",
     "static/media/MithrasTemple.jpg": "/thomasfamilyblog-2024-2025git/static/media/MithrasTemple.bfdca3a6dda3970bbe35.jpg",
+    "static/media/ArchieTitled03042025.jpg": "/thomasfamilyblog-2024-2025git/static/media/ArchieTitled03042025.292d3e771c2c5bfa6dca.jpg",
     "static/media/MumblesCastellCoch.jpg": "/thomasfamilyblog-2024-2025git/static/media/MumblesCastellCoch.f45b1259458c86440886.jpg",
     "static/media/June2024HeaderPhoto1.jpg": "/thomasfamilyblog-2024-2025git/static/media/June2024HeaderPhoto1.f89a5a5affb3ca6033a4.jpg",
     "static/media/EamontWay22112024Title.jpg": "/thomasfamilyblog-2024-2025git/static/media/EamontWay22112024Title.da4f0716058ac61aa042.jpg",
@@ -195,6 +196,7 @@
     "static/media/MoerakiCottaged1.jpg": "/thomasfamilyblog-2024-2025git/static/media/MoerakiCottaged1.ce49dbf2d9576522aade.jpg",
     "static/media/PrunusPinkPerfection.jpg": "/thomasfamilyblog-2024-2025git/static/media/PrunusPinkPerfection.109eae7c7f1e352198d5.jpg",
     "static/media/RestWarwickBridgeBernard.jpg": "/thomasfamilyblog-2024-2025git/static/media/RestWarwickBridgeBernard.d1faad204ebb76d99dfe.jpg",
+    "static/media/CdSHeaderPhoto.jpg": "/thomasfamilyblog-2024-2025git/static/media/CdSHeaderPhoto.b5b4f1658f263ee72bbf.jpg",
     "static/media/CatDaffodilsApril24.jpg": "/thomasfamilyblog-2024-2025git/static/media/CatDaffodilsApril24.b6c1ec2f1d567b2245ca.jpg",
     "static/media/Bonniescafé.jpg": "/thomasfamilyblog-2024-2025git/static/media/Bonniescafé.c3f3ac715e1d20d234ca.jpg",
     "static/media/RidgegateReservoir.jpg": "/thomasfamilyblog-2024-2025git/static/media/RidgegateReservoir.ae813809858672401ebd.jpg",
@@ -370,12 +372,12 @@
     "static/media/SunsetCumbria.jpg": "/thomasfamilyblog-2024-2025git/static/media/SunsetCumbria.c9706035842ca9c716d5.jpg",
     "static/media/WestminsterBridge15022025.jpg": "/thomasfamilyblog-2024-2025git/static/media/WestminsterBridge15022025.b04c6ef9d6e98e3a6e5c.jpg",
     "index.html": "/thomasfamilyblog-2024-2025git/index.html",
-    "main.cffa0894.css.map": "/thomasfamilyblog-2024-2025git/static/css/main.cffa0894.css.map",
-    "main.e7360be3.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.e7360be3.js.map",
+    "main.f95d52df.css.map": "/thomasfamilyblog-2024-2025git/static/css/main.f95d52df.css.map",
+    "main.119dadb5.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.119dadb5.js.map",
     "488.6f20adc3.chunk.js.map": "/thomasfamilyblog-2024-2025git/static/js/488.6f20adc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cffa0894.css",
-    "static/js/main.e7360be3.js"
+    "static/css/main.f95d52df.css",
+    "static/js/main.119dadb5.js"
   ]
 }

@@ -129,6 +129,7 @@
       padding:5%;
     }
 
+
     /*To ensure on laptops that the sheep are not submerged into the ground*/
 @media screen and (min-width:901px) and (max-width:1600px){
   #swaledaleSheep1{ transform: translate(-200px,0px); -webkit-transform: translate(-200px,0px); -moz-transform: translate(-200px,0px); -ms-transform: translate(-200px,0px); -o-transform: translate(-200px,0px); overflow: visible;

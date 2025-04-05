@@ -1,0 +1,454 @@
+    
+      .LinkCdS{
+        color:blueviolet;
+        font-weight: bold;
+      }
+    
+      .BoldTitle{
+        font-weight:bold;
+      }
+    
+      .datenewsDivCdS{
+          color:white;
+          background-color:#FFD700	;
+          opacity: 0.9;
+          display:flex;
+          flex-direction:column;
+          margin-top: 2%;
+          margin-bottom:1%;
+          padding:4%;
+        }
+        
+        .dateCdS{
+          color:white;;
+          background-color:#4682B4;
+          text-align: center;
+          padding:10px 10px 10px 10px;
+          margin:5px;
+          font-size:1.2rem;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-weight: bold;
+        }
+      
+        .newsheaderCdS{
+          color:white;;
+          background-color:#4682B4;
+          text-align: center;
+          padding:1%;
+          margin:5px;
+          font-size:1.2rem;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+      
+        .newsCdS{
+          color:white;;
+          background-color:#4682B4;
+          text-align: left;
+          padding:10px 10px 10px 10px;
+          margin:5px;
+          font-size:1.2rem;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    
+        .blogPhotoDivCdS{
+          display:flex;
+          flex-direction: row;
+          background-color: #4682B4;
+          padding-bottom: 20%;
+          padding-top: 5%;
+          margin-top:2%;
+        }
+      
+        .blogPhoto img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width:70%;
+          height:70%;
+          border:solid grey;
+          border-radius:30px;
+          }
+    
+          .blogPhoto1CdS img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width:30%;
+            height:auto;
+            border:solid #36454F 4px;
+            border-radius:30px;
+            margin-top:2%;
+            margin-bottom:1%;
+            /* pointer-events: none; */
+            }
+    
+            .CdSfigcaption {
+              text-align: center;
+              font-family: bold;
+              color:#36454F;
+              font-size:1.2rem;
+              font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+              overflow-wrap:normal;
+              padding:1%;
+              margin-top:1%;
+              margin-bottom:1%;
+            }
+    
+          .slideshowentryCdS {
+            display: column;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            /* pointer-events:none; */
+            width:80%;
+            height:auto;
+            /* border:solid #D5544F 5px; */
+            border-radius:80%;
+            margin-top:5%;
+            margin-bottom:5%;
+            -webkit-border-radius:80%;
+            -moz-border-radius:80%;
+            -ms-border-radius:80%;
+            -o-border-radius:80%;
+    }    
+    
+    .CdSIntroPhoto {
+      margin-left: auto;
+      margin-right: auto;
+      pointer-events:none;
+      width:35%;
+      height:auto;
+      border:solid #4682B4 8px;
+      border-radius:80%;
+      margin-top:1%;
+      margin-bottom:1%;
+      -webkit-border-radius:80%;
+      -moz-border-radius:80%;
+      -ms-border-radius:80%;
+      -o-border-radius:80%;
+    }   
+    
+    .CdSIntroList{
+    padding-left: 10%;
+    list-style-type: none;
+    }
+    
+    li {
+    text-align: left;
+    }
+    
+    ul .listItemsAlign{
+      display:block;
+      align-items: center;
+    }
+    
+    .componentWalkDetails{
+      background-color: #D19B2F	;
+      text-Align:center;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      padding-right:2%;
+      color:black;
+      display:flex;
+      flex-direction:column;
+      font-size:1.2rem;
+      font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    }
+    
+    .CdSDailyNarrative{
+      background-color: #FFD700	;
+      text-Align:left;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      padding-right: 2%;
+      padding-left:2%;
+      color:black;
+      font-size:1.0 rem;
+      font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    }
+        
+    /* .slideshowHostPhotoCdS{
+      display:flex;
+      flex-direction: column;
+      background-color: #66023c;
+      padding-bottom: 5%;
+      padding-top: 5%;
+      margin-top:0;
+      margin-bottom: 0;
+      justify-content:center;
+      text-align:center;
+    } */
+    
+    .introHostPhotoCdS{
+      display:flex;
+      flex-direction: column;
+      background-color: #FFD700;
+      opacity: 0.9;
+      padding-bottom: 5%;
+      padding-top: 5%;
+      margin-top:5%;
+      margin-bottom: 0;
+      justify-content:center;
+      text-align:center;
+    }
+    
+    
+    .blogPhotoDivCdS{
+      display:flex;
+      flex-direction: row;
+      /* background-color: #D19B2F; */
+      background-color: #FFD700;
+      opacity: 0.9;
+      padding-bottom: 20%;
+      padding-top: 5%;
+      margin-top:2%;
+    }
+          
+
+
+      @media screen and (min-width:481) and (max-width:902px) {
+
+        /*To ensure on mobile screens below 902px width (this includes one plus phones) that relevant components of 
+        the site are displayed with the best dimensions for the smaller devices*/
+      
+      .CdS2024header {
+       display:block;
+       text-align: center;
+       font-size: 1.75em;
+       color:white;
+       font-weight: bold;
+       /* border:solid 3px; */
+       width: 100vw;
+       /* height: 50vh; */
+       height:auto;
+       position:absolute; 
+      } 
+      
+      /*To ensure on mobile screens above 480px but below 902px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+      .blogPhotoDivCdS{
+       display:flex;
+       flex-direction: column;
+       background-color: #0000FF;
+       padding-bottom: 15%;
+       padding-top: 5%;
+       margin-top:2%;
+      }
+      
+      .CdSIntroPhoto {
+       margin-left: auto;
+       margin-right: auto;
+       pointer-events:none;
+       width:65%;
+       height:auto;
+       border:solid #0000FF 8px;
+       border-radius:80%;
+       margin-top:1%;
+       margin-bottom:1%;
+       -webkit-border-radius:80%;
+       -moz-border-radius:80%;
+       -ms-border-radius:80%;
+       -o-border-radius:80%;
+      }   
+      } 
+      
+      @media screen and (min-width:402px) and (max-width:900px){
+        .blogPhotoDivCdS{
+          display:flex;
+          flex-direction: column;
+          background-color: #FFD700;
+          opacity: 0.9;
+          padding-bottom: 15%;
+          padding-top: 5%;
+          margin-top:2%;
+          transform:size(1.2);
+          -webkit-transform:size(1.2);
+          -moz-transform:size(1.2);
+          -ms-transform:size(1.2);
+          -o-transform:size(1.2);
+      }
+      
+      .blogPhoto1HWP CdS{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:50%;
+        height:auto;
+        border:solid #D5544F 4px;
+        border-radius:30px;
+        margin-top:2%;
+        margin-bottom:1%;
+        
+        }
+      }
+      
+      @media screen and (max-width:480px) {
+      
+        /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
+        the site are displayed with the best dimensions for the smaller devices*/
+      
+        .hadrianswallTitle{
+          padding-top:30%;
+          font-size:1.5rem;
+        }
+       
+        .CdS2024header h1 {
+       margin-bottom:-30%;
+      }
+      
+      .CdS2024header {
+       display:block;
+       text-align: center;
+       font-size: 1.75em;
+       color:white;
+       font-weight: bold;
+       /* border:solid 3px; */
+       width: 100vw;
+       /* height: 50vh; */
+       height:auto;
+       position:absolute; 
+      } 
+      
+      /*To ensure on mobile screens below 480px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+      .blogPhotoDivCdS{
+       display:flex;
+       flex-direction: column;
+       background-color: #FFD700;
+       opacity: 0.9;
+       padding-bottom: 15%;
+       padding-top: 5%;
+       margin-top:2%;
+      }
+      
+      .CdSIntroPhoto {
+       margin-left: auto;
+       margin-right: auto;
+       pointer-events:none;
+       width:65%;
+       height:auto;
+       border:solid #0000FF 8px;
+       border-radius:80%;
+       margin-top:1%;
+       margin-bottom:1%;
+       -webkit-border-radius:80%;
+       -moz-border-radius:80%;
+       -ms-border-radius:80%;
+       -o-border-radius:80%;
+      }  
+      
+      
+      .blogPhotoCdS img{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width:20%;
+       height:auto;
+       border:solid #D5544F;
+       border-radius:30px;
+       }
+      
+      .blogPhoto1CdS img{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width:60%;
+       height:auto;
+       border:solid #D5544F 4px;
+       border-radius:30px;
+       margin-top:2%;
+       margin-bottom:1%;
+       }
+      
+       .datenewsDivCdS{
+        color:white;
+        background-color:#0000FF	;
+        display:flex;
+        flex-direction:column;
+        margin-top: 2%;
+        margin-bottom:1%;
+        padding:4%;
+      }
+      
+      .dateCdS{
+        color:white;;
+        background-color:#6495ED;
+        text-align: center;
+        padding:10px 10px 10px 10px;
+        margin:5px;
+        font-size:1.0rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+      }
+      
+      .newsheaderCdS{
+        color:white;;
+        background-color:#6495ED;
+        text-align: center;
+        padding:1%;
+        margin:5px;
+        font-size:1.0rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+      }
+      
+      .newsCdS{
+        color:white;;
+        /* border:solid 3px white; */
+        background-color:#6495ED;
+        text-align: left;
+        padding:10px 10px 10px 10px;
+        margin:5px;
+        font-size:1.0rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      
+      
+      .CdSDailyNarrative{
+        background-color: #FFD700	;
+        text-Align:left;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 2%;
+        padding-left:2%;
+        color:black;
+        font-size:1.0rem;
+        font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+      }
+      
+      .titles{
+        color:#0000FF;
+        font-size:1.1rem;
+      }
+      
+      .headTitles{
+        color:#0000FF;
+        font-size:1.1rem; 
+        text-decoration: underline;
+      }
+      
+      .componentWalkDetails{
+        background-color: #FFD700	;
+        opacity: 0.9;
+        /* border:solid 4px grey; */
+        text-Align:center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right:2%;
+        color:black;
+        display:flex;
+        flex-direction:column;
+        font-size:1.1rem;
+        font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+      }
+      
+      .blogPhoto1CdSS img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:60%;
+        height:auto;
+        border:solid #36454F 4px;
+        border-radius:30px;
+        margin-top:2%;
+        margin-bottom:1%;
+        }
+      }

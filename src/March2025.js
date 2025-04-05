@@ -410,7 +410,7 @@ export default function March2025() {
             <fig><section className = "blogPhotoMarch2025" ><img src={Lowther010620111} alt="" /><figcaption className='March2025figcaption'><strong>And here the castle is on 2nd June 2011, <br /> just after opening to the <br /> 
             public once again.</strong></figcaption></section>
             </fig>
-            <fig><section className = "blogPhotoMarch2025" ><img src={Lowther010620112} alt="" /><figcaption className='March2025figcaption'><strong>And again......<br /> It is amazing the work which <br /> has been undertaken <br /> over the past 14 years...</strong></figcaption></section>
+            <fig><section className = "blogPhotoMarch2025" ><img src={Lowther010620112} alt="" /><figcaption className='March2025figcaption'><strong>And again......</strong></figcaption></section>
             </fig>
             <fig><section className = "blogPhotoMarch2025" ><img src={Lowther260320254} alt="" /><figcaption className='March2025figcaption'><strong>Robin, Bernard and Jill in front <br /> of Lowther Castle</strong></figcaption></section>
             </fig>            

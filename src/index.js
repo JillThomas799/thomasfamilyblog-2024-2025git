@@ -12,6 +12,7 @@ import July2024 from 'July2024';
 import August2024 from 'August2024';
 import September2024 from 'September2024';
 import Hwp2024 from 'Hwp2024';
+import CaminoDeSantiago from 'CaminoDeSantiago';
 import { BernardBio } from 'indexbiobernard';
 import { ElenaBio } from 'indexbioelena';
 import { JillBio } from 'indexbiojill';
@@ -23,7 +24,7 @@ import December2024 from 'December2024';
 import January2025 from 'January2025';
 import February2025 from 'February2025';
 import March2025 from 'March2025';
-
+import April2025 from 'April2025';
 
 
 // FIXME: this could be made a lot cleaner. Use a loop. Or something. :)
@@ -112,10 +113,22 @@ const router = createBrowserRouter(
         errorElement: <ErrorPage/>
     },
 
+    {
+      path: '/april2025',
+      element: <April2025/>,
+      errorElement: <ErrorPage/>
+    },
+
 
     {
       path: '/hwp2024',
       element: <Hwp2024/>,
+      errorElement: <ErrorPage/>
+    },
+
+    {
+      path: '/caminodesantiago',
+      element: <CaminoDeSantiago/>,
       errorElement: <ErrorPage/>
     },
 

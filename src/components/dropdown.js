@@ -27,7 +27,9 @@ export default function Dropdown(props) {
             <li className="spacing"><Link to="/january2025" className="monthLink">January 2025 Blog</Link></li>
             <li className="spacing"><Link to="/february2025" className="monthLink">February 2025 Blog</Link></li>
             <li className="spacing"><Link to="/march2025" className="monthLink">March 2025 Blog</Link></li>
+            <li className="spacing"><Link to="/april2025" className="monthLink">April 2025 Blog</Link></li>
             <li className="spacing"><Link to="/hwp2024" className="monthLink">Hadrian's Wall Path 2024 Blog</Link></li>
+            {/* <li className="spacing"><Link to="/caminodesantiago" className="monthLink">Camino de Santiago May 2025 Blog</Link></li> */}
           </ul> 
         </div>
       ) : null}

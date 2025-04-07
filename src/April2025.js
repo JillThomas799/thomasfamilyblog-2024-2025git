@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import './April2025.css';
+import Daffodil from 'components/daffodil';
 import ArchieTitled03042025 from './imagesresized/ArchieTitled03042025.jpg';
+import Derwentwater06042025Titled from './imagesresized/Derwentwater06042025Titled.jpg';
 
 export default function April2025() {
     return (
@@ -26,8 +28,8 @@ export default function April2025() {
             <linearGradient id="GradGroundApril2025" x1="0%" y1="0%" x2="0%" y2="100%">
                 {/* <stop offset="15%" style={{ stopColor: "#7ab48c", stopOpacity: 1}} /> */}
                 <stop offset="5%" style={{ stopColor: "#d1dd93", stopOpacity: 1}} />
-                <stop offset="25%" style={{ stopColor: "#A3D468", stopOpacity: 1}} />
-                <stop offset="40%" style={{ stopColor: "#8bb285", stopOpacity: 1}} />   
+                <stop offset="10%" style={{ stopColor: "#A3D468", stopOpacity: 1}} />
+                <stop offset="10%" style={{ stopColor: "#8bb285", stopOpacity: 1}} />   
             </linearGradient> 
   
             <radialGradient id="GradAprilSun" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -234,6 +236,8 @@ export default function April2025() {
             </svg>
             
             </svg>{/*Closing tag for mountains class*/} 
+
+              {/* < Daffodil /> */}
   
            
             
@@ -281,6 +285,44 @@ export default function April2025() {
                     <br /> <br />
             <Link to ="https://photos.app.goo.gl/YXA9HybyCAnpQCV36" target="_blank" className="LinkApril2025">
                     <img className="slideshowentryApril2025" src={ArchieTitled03042025} alt="" />
+                    </Link>
+                     </div>   {/*Closing div slideshowinstructionsApril2025*/} 
+            </div> 
+            
+            </div>
+
+
+            < div className="datenewsDivAprilHeader2025">
+              <section className="dateAprilHeader2025">6th April 2025</section>
+              <section className="newsheaderApril2025">Camino de Santiago Training Week 10 Day 1. Derwentwater Circuit 11 miles, 4 hrs 40 </section>  
+             <section className="newsApril2025">We are now on week 10 of the Camino de Santiago training and the schedule for this week is two walks of 60 mins
+             . One long walk of 3.5 hrs and one long walk of 4.5 hrs walked on consecutive days (to build up stamina). For the 4.5 hour walk we decided on the
+             Derwentwater Circuit starting from Keswick as we had not walked this route for quite some time. It was the weekend and the weather forecast was for a sunny, lovely day so Elena 
+             and Harry decided to join us. It was an early start then to pick up Elena from her home, which was probably as well as Bernard was so busy listening to the Spanish CD to further improve his Spanish,
+             that we missed the Penrith turn and ended up having to go to Shap,then come back again; a 20 mile detour in total!
+             <br />
+             <br />
+            In spite of the delay, we were in Keswick by 9.37am, so were fortunately able to find parking for free on the Heads. Firstly, it was off towards Friar's Crag with good views towards Derwent Isle on our right, the now-named 
+            little island just off shore where apparently some of the German community lived who came over as copper miners during the 16th century when they were invited by Elizabeth I to help her find the minerals urgently
+            needed for building cannons and minting coins. The German workers were known for their skill and helped bring prosperity to the area but even so, 
+            they decided to establish their own, relatively safe settlement a little part from the discord between the immigrant workers and the locals which was happening at that time. 
+            The centre of the copper and lead mining industry was in Keswick and was under the control of Company of Mines Royal. 
+            <br />
+            <br />
+            Then it was round into Strandshag Bay and on around the lake. This path has been vastly improved over the years although there was one tricky point where in the storms a number of trees had come 
+            down and Bernard had (so he says) to launch into his 'Uncharted' Nathan Drake impression, hopping along the tree trunks! The path across the bottom of the lake at Manesty was entirely passable today
+            but after heavy rain and especially in the Winter months the boardwalks can be submerged under water and are impassable. In that case, an alternative route bu the road and through Grange village is available.
+            <br />
+            <br />
+            As the day progressed it became busier as it was a beautiful spring day and a Sunday, but it was a great walk enjoyed by all and turned out to be a good choice for the first of our long walks this week.
+             </section>
+             
+
+             <div className="SlideshowHostPhotoApril2025">
+            <div className="slideshowinstructionsApril2025"> <strong>Click on the image below < br /> to open the album of our Derwentwater circuit walk</strong> 
+                    <br /> <br />
+            <Link to ="https://photos.app.goo.gl/Y7QwRmWK4X6PTZ3Q8" target="_blank" className="LinkApril2025">
+                    <img className="slideshowentryApril2025" src={Derwentwater06042025Titled} alt="" />
                     </Link>
                      </div>   {/*Closing div slideshowinstructionsApril2025*/} 
             </div> 

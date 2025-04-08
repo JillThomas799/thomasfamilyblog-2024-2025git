@@ -4,6 +4,7 @@ import './April2025.css';
 import Daffodil from 'components/daffodil';
 import ArchieTitled03042025 from './imagesresized/ArchieTitled03042025.jpg';
 import Derwentwater06042025Titled from './imagesresized/Derwentwater06042025Titled.jpg';
+import CdSTrainTitled07042025 from './imagesresized/CdSTrainTitled07042025.jpg';
 
 export default function April2025() {
     return (
@@ -237,7 +238,7 @@ export default function April2025() {
             
             </svg>{/*Closing tag for mountains class*/} 
 
-              {/* < Daffodil /> */}
+            {/* < Daffodil /> */}
   
            
             
@@ -327,9 +328,51 @@ export default function April2025() {
                      </div>   {/*Closing div slideshowinstructionsApril2025*/} 
             </div> 
             
+            < div className="datenewsDivApril2025">
+              <section className="dateAprilHeader2025">7th April 2025</section>
+              <section className="newsheaderApril2025">Camino de Santiago Training Week 10 Day 2. Walk in the locality 8 miles, 3 hours 40 </section>  
+             <section className="newsApril2025">
+              It was off again today for our 2nd long walk of week 10; this time the target was 3hrs 30 walking. To enable a slower start to the day, we decided to walk locally
+              but, as a means of opening up new, undiscovered routes, to undertake a route we had not been aware of previously. In actual fact, the longer the routes we are undertaking, the more we are having to do this and in so doing 
+              finding lots of interesting paths and ways we had not known existed! The OS app is great for this sort of thing as you can just search on your location and you will be able to 
+              see the available local footpaths.
+              The good news was that the good weather was holding out really well so there were set to be some lovely North Pennine views....
+            <br />
+            <br />
+            Today's walk took us out up towards the local fell (with Bernard having to become Nathan Drake ... yet again ... to undertake a rather tricky circumnavigation of a fallen tree) before cutting down and across the river and up again into the North Pennine landscape (see album below.)
+            The plan was to walk for about 1 hr 30 and then obtain a drink at the pub in the village. However, disaster! Well... not really, it just felt like that. We discovered that
+            the very nice pub in the village is not open on Mondays or Tuesdays, so we had to have only a brief rest before continuing on our way....
+            <br />
+            <br />
+            This lack of a pub stop was soon made up for though by Bernard being befriended by two very young lambs who seemed to think he was the local farmer (must be the grey hair, weary gait and frayed gardening cords!- these were Bernard's words about himself...)
+            See the album below for the extremely cute photos of these lambs. Just as exciting was after this when we noticed that one of the sheep was just giving birth to a newborn lamb in a nearby field. 
+            <br />
+            <br />
+            It was a lovely afternoon, brilliant sunshine and everywhere lookig pretty. The wood anenomes were in flower.
+            After 2hrs 45 we made it back as far as out local pub, which was open... So we stopped in for a well-deserved 
+            drink, before commencing the final section back home.
+        <br />
+        <br />
+            
+             </section>
+             
+
+             <div className="SlideshowHostPhotoApril2025">
+            <div className="slideshowinstructionsApril2025"> <strong>Click on the image below < br /> to open the album of our < br /> week 10 day 2 Camino de Santiago <br /> training walk</strong> 
+                    <br /> <br />
+            <Link to ="https://photos.app.goo.gl/Esya5J9GRB4t3paBA" target="_blank" className="LinkApril2025">
+                    <img className="slideshowentryApril2025" src={CdSTrainTitled07042025} alt="" />
+                    </Link>
+                     </div>   {/*Closing div slideshowinstructionsApril2025*/} 
+            </div> 
+            
+
+            </div> 
+            {/* < Daffodil /> */}
             </div>
             </div> 
             </div> 
+            
             
             
     );

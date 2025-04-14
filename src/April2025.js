@@ -5,11 +5,12 @@ import Daffodil from 'components/daffodil';
 import ArchieTitled03042025 from './imagesresized/ArchieTitled03042025.jpg';
 import Derwentwater06042025Titled from './imagesresized/Derwentwater06042025Titled.jpg';
 import CdSTrainTitled07042025 from './imagesresized/CdSTrainTitled07042025.jpg';
+import HighCupNickTitled from './imagesresized/HighCupNickTitled.jpg';
 
 export default function April2025() {
     return (
-      <div>
-        <div className="April2025header"> 
+      <div> {/*General div for April2025 function export*/}
+        <div className="April2025header"> {/*div for April2025header */}
         <button id="backbuttonApril">
             <Link to="/" className="backbuttonLink">Back</Link>
           </button>
@@ -262,9 +263,9 @@ export default function April2025() {
               <br />
               <br />              
               </section>    
-            </div> 
+            </div> {/* Closing div datenewsDivApril2025 */}
   
-            < div className="datenewsDivAprilHeader2025">
+            <div div className="datenewsDivApril2025">
               <section className="dateAprilHeader2025">3rd April 2025</section>
               <section className="newsheaderApril2025">Day with friends in Coniston in the Lake District National Park</section>  
              <section className="newsApril2025">Today we drove over to Coniston to spend the day with our friends Pat and Dermot and their dog Archie in Coniston, in the Lake District National Park.
@@ -288,12 +289,11 @@ export default function April2025() {
                     <img className="slideshowentryApril2025" src={ArchieTitled03042025} alt="" />
                     </Link>
                      </div>   {/*Closing div slideshowinstructionsApril2025*/} 
-            </div> 
-            
-            </div>
+            </div>  {/* Closing div SlideshowHostPhotoApril2025 */} 
+            </div> {/* Closing div datenewsDivApril2025 */}
 
 
-            < div className="datenewsDivAprilHeader2025">
+            <div div className="datenewsDivApril2025">
               <section className="dateAprilHeader2025">6th April 2025</section>
               <section className="newsheaderApril2025">Camino de Santiago Training Week 10 Day 1. Derwentwater Circuit 11 miles, 4 hrs 40 </section>  
              <section className="newsApril2025">We are now on week 10 of the Camino de Santiago training and the schedule for this week is two walks of 60 mins
@@ -318,7 +318,6 @@ export default function April2025() {
             As the day progressed it became busier as it was a beautiful spring day and a Sunday, but it was a great walk enjoyed by all and turned out to be a good choice for the first of our long walks this week.
              </section>
              
-
              <div className="SlideshowHostPhotoApril2025">
             <div className="slideshowinstructionsApril2025"> <strong>Click on the image below < br /> to open the album of our Derwentwater circuit walk</strong> 
                     <br /> <br />
@@ -326,7 +325,8 @@ export default function April2025() {
                     <img className="slideshowentryApril2025" src={Derwentwater06042025Titled} alt="" />
                     </Link>
                      </div>   {/*Closing div slideshowinstructionsApril2025*/} 
-            </div> 
+            </div> {/* Closing div SlideshowHostPhotoApril2025 */} 
+            </div> {/* Closing div datenewsDivApril2025 */}
             
             < div className="datenewsDivApril2025">
               <section className="dateAprilHeader2025">7th April 2025</section>
@@ -348,14 +348,13 @@ export default function April2025() {
             See the album below for the extremely cute photos of these lambs. Just as exciting was after this when we noticed that one of the sheep was just giving birth to a newborn lamb in a nearby field. 
             <br />
             <br />
-            It was a lovely afternoon, brilliant sunshine and everywhere lookig pretty. The wood anenomes were in flower.
+            It was a lovely afternoon, brilliant sunshine and everywhere looking pretty. The wood anenomes were in flower.
             After 2hrs 45 we made it back as far as out local pub, which was open... So we stopped in for a well-deserved 
             drink, before commencing the final section back home.
         <br />
         <br />
             
              </section>
-             
 
              <div className="SlideshowHostPhotoApril2025">
             <div className="slideshowinstructionsApril2025"> <strong>Click on the image below < br /> to open the album of our < br /> week 10 day 2 Camino de Santiago <br /> training walk</strong> 
@@ -364,16 +363,90 @@ export default function April2025() {
                     <img className="slideshowentryApril2025" src={CdSTrainTitled07042025} alt="" />
                     </Link>
                      </div>   {/*Closing div slideshowinstructionsApril2025*/} 
-            </div> 
-            
+            </div>  {/* Closing div SlideshowHostPhotoApril2025 */} 
+            </div> {/* Closing div datenewsDivApril2025 */}
 
-            </div> 
-            {/* < Daffodil /> */}
-            </div>
-            </div> 
-            </div> 
-            
-            
-            
-    );
-}
+
+             <div className="datenewsDivApril2025">
+                        <section className="dateApril2025">10th April 2025, Thursday </section>
+                        <section className="newsheaderApril2025"><strong> WALK UP HIGH CUP NICK FROM DUFTON: 8 miles, 4 hours</strong> <br /> </section>   
+                        <section className="newsApril2025">
+                         Today we decided to continue to make the most of the lovely weather and undertake a walk we have undertaken previously and long-wanted to repeat; that of High Cup Nick in the North Pennines.
+                          The walk is 8 miles in total by the there and back route although there are other alternatives available should you wish. For example we could have extended the walk up to Murton Point
+                          from the head of High Cup Nick, but chose not to on this occasion. The walk involves 490 metres or 1608 feet of ascent. The route can be found in OS Explorer Map OL19 Howgill Fells and Upper Eden Valley.
+                          </section >
+                       
+                         <div className="newsApril2025">
+                         <div className="componentWalkDetailsApril2025">     
+                        <strong className="headTitlesApril2025">DETAILS OF THE WALK </strong>
+                        <br />
+                        <br />
+                        <ul className="hwpIntroListApril2025">
+                            <li className="titlesApril2025"><strong>PARKING:</strong> There is parking on the public car park in Dufton village. This can get full at busy times and this is a popular route, so it is worth arriving promptly.
+                            There are also bathrooms here provided by the community which is a very well-run service, so they welcome any donations towards keeping this going.
+                            </li>
+                            <br />
+                            <li className="titlesApril2025"><strong>PATHS:</strong> The route consists of clear, well-signposted footpaths along the Pennine Way. It becomes a little rockier as you ascend further up,
+                            but nothing too challenging, so suitable hiking footwear is required.</li>
+                            <br />
+                            <li className="titlesApril2025"><strong>DISTANCE:</strong> 8 miles in total <strong>, Ascent:</strong> 490 metres, 1608 feet. </li>
+                            <br />
+                            <li className="titlesApril2025"><strong>REFRESHMENTS:</strong> The Stag Inn at Dufton currently opens on Saturdays and Sunday from 12 midday and during the week from 18.00 but
+                            it is worth checking the up to date opening times when you will be visiting as these times may change. There were no refreshments available in the village on the 
+                            day and time of our visit.</li>    
+                            <br />
+                            </ul> 
+                       
+                        <strong className="headTitlesApril2025">GOOD:</strong> 
+                        <br />
+                        <br />
+                        <ul className="hwpIntroListApril2025">
+                          <div className="listItemsAlign">
+                            <li className="titlesApril2025"><strong>SPECTACULAR LANDSCAPE AND VIEWS:</strong> The geological interest of this glacially-cut valley makes it a site well-worth seeing.
+                            From a personal point of view, we prefer it to other sites of geological interest such as Malham, not least because High Cup Nick, whilst busy,
+                            is less busy than Malham. On the day we were walking we hardly saw a soul apart from a couple of farmers until high up on the ridge. </li>
+                            <br />
+                            <li className="titlesApril2025"><strong> BEAUTIFULLY QUIET: </strong> See the comment above. It was beautifully quiet with hardly anyone about until later 
+                            on in the day when it became a bit busier. 
+                            </li>
+                            <br /> 
+                            <li className="titlesApril2025"> <strong>HIGH-LEVEL WALK: </strong> This is what we would call a proper high-level walk with the views to match. Choose a day where the weather is good if you can...</li>
+                            <br />
+                              
+                            </div>
+                            <br />
+                            </ul>
+                            
+                        <strong className="headTitlesApril2025">NOT SO GOOD:</strong> 
+                        <br />
+                        <br />
+                        <ul className="hwpIntroListApril2025">
+                        <li className="titlesApril2025"><strong> REFRESHMENTS:</strong> ...or lack thereof..... Make sure you take plenty of snacks! </li>
+                        <br /> 
+                        </ul>
+                           
+                        <strong className="headTitlesApril2025">HIKE RATING</strong> 
+                        <br />
+                        <br />
+                        <ul className="hwpIntroListApril2025">
+                        <li className="titlesApril2025"><strong>10 (OUT OF 10):</strong> A fantastic high level walk which amazing views. Well-worth undertaking. One of our favourite Pennine walks, not least because, unlikely many high Pennine walks, it is not too bad underfoot!</li>
+                        <br />
+                        </ul>
+                        </div>    {/* Closing tag ComponentWalkDetails Class*/ }   
+                        </div>
+                        
+
+                        <div className="SlideshowHostPhotoApril2025">
+            <div className="slideshowinstructionsApril2025"> <strong>Click on the image below < br /> to open the album of our < br /> climb up High Cup Nick < br /> in the Cumbrian Pennines</strong> 
+                    <br /> <br />
+            <Link to ="https://photos.app.goo.gl/7gzVDPtJAwECawWt8" target="_blank" className="LinkApril2025">
+                    <img className="slideshowentryApril2025" src={HighCupNickTitled} alt="" />
+                    </Link>
+                     </div>   {/*Closing div slideshowinstructionsApril2025*/} 
+            </div>  {/* Closing div SlideshowHostPhotoApril2025 */} 
+            </div> {/* Closing div datenewsDivApril2025 */}
+ 
+ </div>
+ </div>
+ );
+ }

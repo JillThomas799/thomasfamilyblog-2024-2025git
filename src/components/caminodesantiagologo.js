@@ -13,7 +13,7 @@ export default function Caminologo() {
     <g className="CdSLogo" id="CdSLogo">		
    
             <g>
-          <circle cx="50%" cy="50%" r="40%" fill="#4682B4"   /></g> 
+          <circle cx="50%" cy="50%" r="40%" stroke="black" stokeWidth="4px" fill="#0000FF"   /></g> 
           <g id="CdSArrow">
             <rect x="250" y="150" width="300" height="50" stroke="black" strokeWidth="1" fill="#FFD700" />
             <path d="M 550 250 L 550 100 L 600 175 Z " stroke="black" strokeWidth="1" fill="#FFD700" />
@@ -34,9 +34,6 @@ export default function Caminologo() {
           <path id="shell8" d="M 420 570 l 240 -220 a 5 5 10 0 0 -65 -20 Z" stroke="black" strokeWidth="1" fill="#FFD700" />
                     </g>
           
-                   
-
-
           <g id="YellowShell">
 <path d="M "></path>
           

@@ -205,20 +205,22 @@
       }
 
       .titlesApril2025{
-        font-size:1.1rem;
         font-family: bold;
         color:#36454F;
         padding-left: 10%;
         padding-right: 10%;
+        font-size:1.1rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;       
       }
       
       .headTitlesApril2025{
-        font-family: bold;
         color:#36454F;
-        font-size:1.2rem; 
+        font-size:1.1rem; 
+        padding-left: 10%;
+        padding-right: 10%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
         text-decoration: underline;
-        padding-left:10%;
-        
       }
 
       .largerFont {

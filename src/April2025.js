@@ -6,6 +6,7 @@ import ArchieTitled03042025 from './imagesresized/ArchieTitled03042025.jpg';
 import Derwentwater06042025Titled from './imagesresized/Derwentwater06042025Titled.jpg';
 import CdSTrainTitled07042025 from './imagesresized/CdSTrainTitled07042025.jpg';
 import HighCupNickTitled from './imagesresized/HighCupNickTitled.jpg';
+import CdSWk11Walk1Titled from './imagesresized/CdSWk11Walk1Titled.jpg';
 
 export default function April2025() {
     return (
@@ -445,6 +446,103 @@ export default function April2025() {
                      </div>   {/*Closing div slideshowinstructionsApril2025*/} 
             </div>  {/* Closing div SlideshowHostPhotoApril2025 */} 
             </div> {/* Closing div datenewsDivApril2025 */}
+
+            <div className="datenewsDivApril2025">
+                        <section className="dateApril2025">12th April 2025, Saturday </section>
+                        <section className="newsheaderApril2025"><strong> CAMINO DE SANTIAGO TRAINING WEEK 11 WALK 1: 13.5 miles, 5 hours. Ascent: 471 metres, 1545 feet</strong> <br /> </section>   
+                        <section className="newsApril2025">
+                         We are now in week 11 of training for the Camino de Santiago and this week the long walk increases in length to 5 hrs. At the pace we walk (approx 4.4km or 2.73 miles an hour),
+                         this works out to 13.65 miles in distance or thereabouts which in actual fact seems about correct as the longest distance we  will walk in a day on 
+                         the Camino de Santiago will be 14 miles....
+                         <br />
+                         <br />
+                         The training advice we are following advises, as distances lengthen, starting to integrate regular lower-volume weeks for 
+                         muscle healing and recovery. This is the reason that this week there is only one long distance walk rather than two....
+                         <br />
+                         <br />
+                         Today's walk is a sandwiching together of sections of 3 walks we have undertaken previously, to create a varied and interesting 
+                         walk of 13.5 miles, 5 hours.
+                          </section >
+                       
+                         <div className="newsApril2025">
+                         <div className="componentWalkDetailsApril2025">     
+                        <strong className="headTitlesApril2025">DETAILS OF THE WALK: </strong>
+                        <br />
+                        <br />
+                        <ul className="hwpIntroListApril2025">
+                            <li className="titlesApril2025"><strong>PARKING:</strong> If arriving by car, there are a number of points where you can park your car and then walk: Middle Gelt Brudge (under the Viaduct), Castle Carrock village,
+                            Jockey Shield to name just a few.</li>
+                            <br />
+                            <li className="titlesApril2025"><strong>PATHS:</strong> The route consists for the main part of clear footpaths. The route becomes rougher underfoot when ascending 
+                            up to Talkin Fell. This section can become quite boggy during the Winter months but was fine today as it was following a dry spell. We did not ascend the final section
+                            on to the summit of Talkin Fell but a number of people were doing so. We have visited the summit a number of times in the past and yes, you get some spectacular
+                            views but equally, it can be <em>extremely</em> windy.
+                            </li>
+                            <br />
+                            <li className="titlesApril2025"><strong>DISTANCE:</strong> 13.5 miles in total <strong>, Ascent:</strong> 471 metres, 1545 feet. </li>
+                            <br />
+                            <li className="titlesApril2025"><strong>REFRESHMENTS:</strong> The <Link to="https://www.the-dukeofcumberland.co.uk/" target="_blank" className="LinkApril2025">Duke of Cumberland pub </Link> in Castle Carrock.</li>    
+                            <br />
+                            </ul> 
+                       
+                        <strong className="headTitlesApril2025">GOOD:</strong> 
+                        <br />
+                        <br />
+                        <ul className="hwpIntroListApril2025">
+                          <div className="listItemsAlign">
+                            <li className="titlesApril2025"><strong>INTEREST:</strong> This is an interesting and very varied walk. It commences by walking down towards and traversing through Gelt Woods
+                            by the side of the river Gelt. </li>
+                            <br />
+                            <li className="titlesApril2025"> <strong>WRITTEN ROCK OF GELT: </strong> It is just on the other side of the river Gelt as it flows through Gelt Woods that the <Link to="https://historicengland.org.uk/listing/the-list/list-entry/1014582?section=official-list-entry"
+                            target="_blank" className="LinkApril2025">Written Rock of Gelt </Link> lies in a quarry. The Written Rock of Gelt Roman inscriptions are probably the most important on the Hadrian’s Wall frontier. 
+                            They provide insight into the organisation of the huge construction project of Hadrian’s Wall, as well as more human touches, such as the caricature of their 
+                            commanding officer inscribed by one group of soldiers. The path down to the inscriptions was until the 1980s accessible to the general public, but at that time the path collapsed and the inscriptions are no longer accessible. In 2019, a team from Newcastle University'a archaeology department 
+                            absailed down to the rock as described in this <Link to="https://www.theguardian.com/uk-news/2019/feb/27/written-rock-gelt-roman-graffiti-cumbria-quarry-wall-to-be-photogrammed" target="_blank" className="LinkApril2025"
+                            >Guardian Article 2019</Link> and this <Link to="https://historicengland.org.uk/whats-new/news/roman-graffiti-to-be-recorded-hadrians-wall-quarry/" target="_blank" className="LinkApril2025">Historic England article on the Written Rock of Gelt</Link> , which also show some photos of the inscriptions.</li>
+                            <br />
+                            <li className="titlesApril2025"><strong> BEAUTIFULLY QUIET: </strong> It is never particularly busy in this area but today was exceptionally quiet, until we reached the climb up to Talkin Fell where it became a little busier. 
+                            The orphan lambs in one of the fields tried to befriend Bernard again but he managed to sneak past them successfully this time. They were very cute....
+                            </li>
+                            <br /> 
+                            <li className="titlesApril2025"><strong> REFRESHMENTS: </strong> Unlike last week, the pub was open <em>(Yeh!)</em>, so we had the opportunity to buy some drinks and chill out there a short while for a well-earned break....
+                            </li>
+                            <br /> 
+                              
+                            </div>
+                            <br />
+                            </ul>
+                            
+                        <strong className="headTitlesApril2025">NOT SO GOOD:</strong> 
+                        <br />
+                        <br />
+                        <ul className="hwpIntroListApril2025">
+                        <li className="titlesApril2025"><strong> LENGTH:</strong> This is quite a long walk so it is tiring. However, 
+                        as we build up stamina over the forthcoming period, these 5 hour walks should become easier to undertake <em>(here's hoping)...</em> </li>
+                        <br /> 
+                        </ul>
+                           
+                        <strong className="headTitlesApril2025">HIKE RATING</strong> 
+                        <br />
+                        <br />
+                        <ul className="hwpIntroListApril2025">
+                        <li className="titlesApril2025"><strong>10 (OUT OF 10):</strong> Really interesting, varied, moderately challenging longer walk</li>
+                        <br />
+                        </ul>
+                        </div>    {/* Closing tag ComponentWalkDetails Class*/ }   
+                        </div>
+                        
+
+                        <div className="SlideshowHostPhotoApril2025">
+            <div className="slideshowinstructionsApril2025"> <strong>Click on the image below < br /> to open the album of our < br /> Week 11 Camino de Santiago  <br />  training long walk  in Gelt Woods, <br /> Geltsdale and up Talkin Fell. < br /> </strong> 
+                    <br /> <br />
+            <Link to ="https://photos.app.goo.gl/FF95G96dkYdkttgJ8" target="_blank" className="LinkApril2025">
+                    <img className="slideshowentryApril2025" src={CdSWk11Walk1Titled} alt="" />
+                    </Link>
+                     </div>   {/*Closing div slideshowinstructionsApril2025*/} 
+            </div>  {/* Closing div SlideshowHostPhotoApril2025 */} 
+            </div> {/* Closing div datenewsDivApril2025 */}
+
+            
  
  </div>
  </div>

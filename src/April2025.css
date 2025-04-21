@@ -401,14 +401,31 @@
        -o-transform: translate(-200px,-40px);
        overflow: visible;
   }
+
+  .blogPhotoDivApril2025{
+    display:flex;
+    flex-direction: column;
+    background-color: #f6f0a3;;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    margin-top:2%;
+    }
   
   }
   
   /*To ensure on devices  (min-width 598px, max-width 699px) that the April2024header height is correct size*/
   .April2024header{
     height:90vh;
-    
   }
+
+  .blogPhotoDivApril2025{
+    display:flex;
+    flex-direction: column;
+    background-color: #f6f0a3;;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    margin-top:2%;
+    }
   
   @media screen and (max-width:480px) {
   
@@ -481,12 +498,20 @@
     -o-transform:scale(60%) translate(-200px,0px);
     overflow: visible;
   }
+
+  .blogPhotoDivApril2025{
+    display:flex;
+    flex-direction: column;
+    background-color: #f6f0a3;;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    margin-top:2%;
+    }
   
-  /*To ensure on mobile screens below 480px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
-  .blogPhotoDiv{
+  .blogPhotoDivApril2025{
   display:flex;
   flex-direction: column;
-  background-color: #b3e5ab;
+  background-color: #f6f0a3;;
   padding-bottom: 15%;
   padding-top: 5%;
   margin-top:2%;
@@ -500,4 +525,12 @@
     } 
   
   }
+  
+ 
+        
+  
+  
+  
+  
+  
   

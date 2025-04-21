@@ -7,6 +7,12 @@ import Derwentwater06042025Titled from './imagesresized/Derwentwater06042025Titl
 import CdSTrainTitled07042025 from './imagesresized/CdSTrainTitled07042025.jpg';
 import HighCupNickTitled from './imagesresized/HighCupNickTitled.jpg';
 import CdSWk11Walk1Titled from './imagesresized/CdSWk11Walk1Titled.jpg';
+import EasterSun2025 from './imagesresized/EasterSun2025.jpg';
+import Gorse042025 from './imagesresized/Gorse042025.jpg';
+import CherryBlossom042025 from './imagesresized/CherryBlossom042025.jpg';
+import LennieonGuard from './imagesresized/LennieonGuard.jpg';
+import LennieArmchair from './imagesresized/LennieArmchair.jpg';
+import Sunset042025 from './imagesresized/Sunset042025.jpg';
 
 export default function April2025() {
     return (
@@ -540,10 +546,52 @@ export default function April2025() {
                     </Link>
                      </div>   {/*Closing div slideshowinstructionsApril2025*/} 
             </div>  {/* Closing div SlideshowHostPhotoApril2025 */} 
+            
+
+            <div className="datenewsDivApril2025">
+              <section className="dateApril2025">Saturday 19th and Sunday 20th April 2025</section>
+              <section className="newsheaderApril2025"><strong> PEAK OF CAMINO DE SANTIAGO TRAINING: WEEK 12 of training, 2 long walks of at least 5 hours.</strong> <br /> </section>   
+              <br />
+              <section className="newsApril2025">
+                These two days have been very exciting as we have now reached the peak of our Camino de Santiago training; 2 long walks of 5 hours.
+                <br />
+                <br />
+                In the end we actually exceeded this target as on Saturday, 19th April we walked 24 km , 15 miles, a total of 6 hours walking!
+                On Sunday 20th April we walked 21.5lm, 13.5 miles, 5hrs 5 minutes and climbed 446 metres or 1464 feet. Several people locally and on our walks have noticed we are walking a long way and 
+                as a results we have got into some interesting conversations, discovering some other people's experiences of 
+                long-distance walking....
+                <br />
+                <br />
+                It has also been lovely to see all the plants and trees coming into bloom as we have been out walking, as can be seen from the photos below: the gorse and the the cherry blossom to name but a few....
+              <br />
+              <br />  
+              We feel we are at a point now that we are prepared physically for our trip (or at least, as much as we will ever be) so it is just a case of keeping this up until we go....            
+              </section>    
             </div> {/* Closing div datenewsDivApril2025 */}
 
+            <div className="blogPhotoDivApril2025">
+            <fig><section className = "blogPhotoApril2025" ><img src={Gorse042025} alt="" /><figcaption className='april2025figcaption'><strong>The gorse in full flower.... <br /> 
+            </strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoApril2025" ><img src={CherryBlossom042025} alt="" /><figcaption className='april2025figcaption'><strong>The cherry blossom,<br /> looking lovely....</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoApril2025" ><img src={Sunset042025} alt="" /><figcaption className='april2025figcaption'><strong>The lovely weather has <br /> brought some gorgeous sunsets... <br /> 
+            </strong></figcaption></section>
+            </fig>  
+            </div>
+
+            <div className="blogPhotoDivApril2025">
+            <fig><section className = "blogPhotoApril2025" ><img src={EasterSun2025} alt="" /><figcaption className='april2025figcaption'><strong>Finishing our 13.5 miles walk <br /> with our Easter Sunday meal.</strong></figcaption></section>
+            </fig>
+            <fig><section className = "blogPhotoApril2025" ><img src={LennieonGuard} alt="" /><figcaption className='april2025figcaption'>Lennie meanwhile has not <br /> been featured for a while. <br />
+             He has been too busy, <br /> guarding his home...<strong></strong></figcaption></section>
+            </fig> 
+            <fig><section className = "blogPhotoApril2025" ><img src={LennieArmchair} alt="" /><figcaption className='april2025figcaption'><strong>...and generally stealing <br /> the best chairs in the house <br /> to sit on...</strong></figcaption></section>
+            </fig>   
             
- 
+            </div>
+            
+            </div> {/* Closing div datenewsDivApril2025 */}
  </div>
  </div>
  );

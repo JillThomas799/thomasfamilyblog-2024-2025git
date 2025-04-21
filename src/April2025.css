@@ -131,7 +131,7 @@
     margin-right: 10%;
   }
   
-  .blogPhoto img{
+  /* .blogPhoto img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -139,7 +139,22 @@
     height:70%;
     border:solid grey;
     border-radius:30px;
-    }
+    } */
+
+    
+  .blogPhotoApril2025 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
+    height:auto;
+    border:solid grey 4px;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
 
     .slideshowinstructionsApril2025 {
       margin-top:1%;
@@ -194,10 +209,10 @@
         vertical-align: top;
       }
   
-      .aprilfigcaption {
+      .april2025figcaption {
         text-align: center;
         font-family: bold;
-        color:#36454F;
+        color:black;
         font-size:60%;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         overflow-wrap:normal;
@@ -232,6 +247,46 @@
           padding-left: 10%;
           list-style-type: none;
       }
+
+        
+  .blogPhotoDivApril2025{
+    display:flex;
+    flex-direction: row;
+    border:solid 2px #757c88;
+    background-color:#f6f0a3;
+    padding-bottom: 2%;
+    padding-top: 3%;
+    /* padding-left: 2%;
+    padding-right:2%; */
+    margin-top:5vh;
+    margin-bottom:5vh;
+    width:100%;
+  }
+  
+  .blogPhotoMarch2025 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:75%;
+    height:auto;
+    border:solid #757c88 4px;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+  }
+  
+  
+  .April2025figcaption {
+    text-align: center;
+    font-family: bold;
+    color:#757c88;
+    font-size: 1.1rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-wrap:normal;
+    padding-top:5%;
+  }
 
       /*To ensure on laptops that the sheep are not submerged into the ground*/
   @media screen and (min-width:901px) and (max-width:1600px){

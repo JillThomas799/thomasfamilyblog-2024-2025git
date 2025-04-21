@@ -120,17 +120,6 @@
       
     } 
   
-  .blogPhotoDivApril2025{
-    display:flex;
-    flex-direction: row;
-    background-color: #f6f0a3;
-    padding-bottom: 20%;
-    padding-top: 5%;
-    margin-top:2%;
-    margin-left:auto;
-    margin-right: 10%;
-  }
-  
   /* .blogPhoto img{
     display: block;
     margin-left: auto;
@@ -256,14 +245,14 @@
     background-color:#f6f0a3;
     padding-bottom: 2%;
     padding-top: 3%;
-    /* padding-left: 2%;
-    padding-right:2%; */
+    padding-left: 2%;
+    padding-right:2%;
     margin-top:5vh;
     margin-bottom:5vh;
     width:100%;
   }
   
-  .blogPhotoMarch2025 img{
+  .blogPhotoApril2025 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -336,14 +325,6 @@
   
       /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
   @media screen and (min-width:480px) and (max-width:900px){
-  .blogPhotoDiv{
-    display:flex;
-    flex-direction: column;
-    background-color: #b3e5ab;
-    padding-bottom: 15%;
-    padding-top: 5%;
-    margin-top:2%;
-  }
   
     /*To ensure on ipad screens and larger mobiles (min-width 480px, max-width 900px) that the ground extends to meet the upper margin of the darker body colour */
     #groundApril2025{
@@ -413,11 +394,11 @@
   
   }
   
-  /*To ensure on devices  (min-width 598px, max-width 699px) that the April2024header height is correct size*/
+  /*To ensure on devices  (min-width 598px, max-width 699px) that the April2025header height is correct size*/
   .April2024header{
     height:90vh;
   }
-
+/* 
   .blogPhotoDivApril2025{
     display:flex;
     flex-direction: column;
@@ -425,7 +406,7 @@
     padding-bottom: 3%;
     padding-top: 2%;
     margin-top:2%;
-    }
+    } */
   
   @media screen and (max-width:480px) {
   

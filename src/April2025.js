@@ -13,6 +13,7 @@ import CherryBlossom042025 from './imagesresized/CherryBlossom042025.jpg';
 import LennieonGuard from './imagesresized/LennieonGuard.jpg';
 import LennieArmchair from './imagesresized/LennieArmchair.jpg';
 import Sunset042025 from './imagesresized/Sunset042025.jpg';
+import HighPikeLowPike24052025Titled from './imagesresized/HighPikeLowPike24052025Titled.jpg';
 
 export default function April2025() {
     return (
@@ -591,6 +592,33 @@ export default function April2025() {
             
             </div>
             
+            </div> {/* Closing div datenewsDivApril2025 */}
+
+
+            < div className="datenewsDivApril2025">
+              <section className="dateAprilHeader2025">24th April 2025</section>
+              <section className="newsheaderApril2025">High Level Fell Walk: Low Pike and High Pike (Summit at 658 meters, 2159 feet) from Ambleside via High Sweden Bridge and Low Sweden Bridge; 7 miles, 3hrs 17mins.</section>  
+             <section className="newsApril2025">
+              Our main Camino de Santiago training programme is now complete,so we decided to work on some additional specific training to develop muscle strength and endurance before we set off on our journey. Hence we opted 
+              for a high level hike taking in the 2 Wainwrights on the first section of the Fairfield Horseshoe: Low Pike and High Pike. This is considered to be a challenging route which should be avoided
+              in poor weather. However, today it was predicted to be sunny with some cloud but a 95% chance of clear summits. 
+              <br />
+              <br />
+              As this is a well-documented route we would suggest anyone interested in 
+            walking it accesses a reliable route description and reads and takes careful note on the relevant advice on this route.   In addition we would advice avoiding the 10 foot 
+            rocky drop at Sweden Crags by taking the alternative route.         
+           
+           
+             </section>
+
+             <div className="SlideshowHostPhotoApril2025">
+            <div className="slideshowinstructionsApril2025"> <strong>Click on the image below < br /> to open the album of our < br /> High and Low Sweden Bridge, < br /> Low Pike and High Pike walk</strong> 
+                    <br /> <br />
+            <Link to ="https://photos.app.goo.gl/jL7RTDCkcnFyBdAs7" target="_blank" className="LinkApril2025">
+                    <img className="slideshowentryApril2025" src={HighPikeLowPike24052025Titled} alt="" />
+                    </Link>
+                     </div>   {/*Closing div slideshowinstructionsApril2025*/} 
+            </div>  {/* Closing div SlideshowHostPhotoApril2025 */} 
             </div> {/* Closing div datenewsDivApril2025 */}
  </div>
  </div>

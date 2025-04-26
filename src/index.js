@@ -25,6 +25,7 @@ import January2025 from 'January2025';
 import February2025 from 'February2025';
 import March2025 from 'March2025';
 import April2025 from 'April2025';
+import May2025 from 'May2025';
 
 
 // FIXME: this could be made a lot cleaner. Use a loop. Or something. :)
@@ -116,6 +117,12 @@ const router = createBrowserRouter(
     {
       path: '/april2025',
       element: <April2025/>,
+      errorElement: <ErrorPage/>
+    },
+
+    {
+      path: '/may2025',
+      element: <May2025/>,
       errorElement: <ErrorPage/>
     },
 

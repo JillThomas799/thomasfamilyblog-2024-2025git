@@ -306,11 +306,27 @@
 @media screen and (min-width:300px) and (max-width:350px) {
   #CdSLogo_1{
     margin-top:20vh;
-    transform: scale(0.25) translate(-157%, -40%) ;
-    -webkit-transform: scale(0.25) translate(-157%, -40%) ;
-    -moz-transform: scale(0.25) translate(-157%, -40%) ;
-    -ms-transform: scale(0.25) translate(-157%, -40%) ;
-    -o-transform: scale(0.25) translate(-157%, -40%) ;
+    transform: scale(0.25) translate(-153%, -40%) ;
+    -webkit-transform: scale(0.25) translate(-153%, -40%) ;
+    -moz-transform: scale(0.25) translate(-153%, -40%) ;
+    -ms-transform: scale(0.25) translate(-153%, -40%) ;
+    -o-transform: scale(0.25) translate(-153%, -40%) ;
+}
+
+#outboundJourney{
+  transform:scale(0.8)  translate(10%, 22%) ;
+  -webkit-transform:scale(0.8)  translate(10%, 22%) ;
+  -moz-transform:scale(0.8)  translate(10%, 22%) ;
+  -ms-transform:scale(0.8)  translate(10%, 22%) ;
+  -o-transform:scale(0.8)  translate(10%, 22%) ;
+}
+
+#returnJourney{
+  transform: scale(0.8) translate(10%, 18%) ;
+  -webkit-transform: scale(0.8) translate(10%, 18%) ;
+  -moz-transform: scale(0.8) translate(10%, 18%) ;
+  -ms-transform: scale(0.8) translate(10%, 18%) ;
+  -o-transform: scale(0.8) translate(10%, 18%) ;
 }
 
     .May2025Santiago{
@@ -321,7 +337,7 @@
       color:navy;
       font-weight: bold;
       top:18%;
-      left:32%;
+      left:25%;
       }
 
       .may2025Background{

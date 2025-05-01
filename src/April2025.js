@@ -605,7 +605,7 @@ export default function April2025() {
               <br />
               <br />
               As this is a well-documented route we would suggest anyone interested in 
-            walking it accesses a reliable route description and reads and takes careful note on the relevant advice on this route.   In addition we would advice avoiding the 10 foot 
+            walking it accesses a reliable route description and reads and takes careful note on the relevant advice on this route.   In addition we would advise avoiding the 10 foot 
             rocky drop at Sweden Crags by taking the alternative route.         
            
            

@@ -2,9 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './CaminoDeSantiago.css';
 import Caminologo from 'components/caminodesantiagologo';
-import HwpIntro from "./imagesresized/HwpIntro.jpg";
-import HWPThermometer from 'components/charityfundraisingthermometer';
 import CdSHeaderPhoto from "./imagesresized/CdSHeaderPhoto.jpg";
+import CaminoDelNorte2011Titled from "./imagesresized/CaminoDelNorte2011Titled.jpg";
 
 
 export default function CaminoDeSantiago() {
@@ -18,7 +17,7 @@ export default function CaminoDeSantiago() {
           </div>
         <h1 className="CdSTitle" style={{backgroundColor:"#4682B4", color:"#FFD700", borderRadius:"0"}}><div style={{paddingBottom:"10%"}}>Camino de Santiago 2025</div>
         <Caminologo />
-        {/* <HWPThermometer /> */}
+
         <div className="introHostPhotoCdS">
         <img className="CdSIntroPhoto" src={CdSHeaderPhoto} alt="" />
         </div>
@@ -34,15 +33,29 @@ export default function CaminoDeSantiago() {
                   whom Jesus mentored directly during his life and who took his message to the world after his death.
                   <br />
                   <br />
-                  The decision to make this journey came about following our completion of the Hadrian's Wall Path last year. That expedition had been so enjoyable and informative and the experience itself
-                  something exceptional in a way we had never anticipated that we wanted to undertake a similar venture but may be this time somewhere over seas.
+                  Our decision to make this journey came about following our completion of the Hadrian's Wall Path last year. That expedition had been so enjoyable and informative and the experience itself
+                  something exceptional in a way we had never anticipated that we wanted to undertake a similar venture but may be this time somewhere overseas.
                   <br />
                   <br />
-                  In 2011, we did actually walk a section of an alternative route option for the Camino de Santiago, the Camino del Norte from Ainhoa (see album below) a village in the Basque Country of France which is located on Camino del Norte toute of the Camino de Santiago and also along the GR10 (Grande Randonnée 10) hiking trail. 
-                  We remember seeing the the pilgrims and the crosses and people, thinking we too were pilgrims, wishing us 'Buen Camino'.
-                </div> {/*Closing tab for hwpDailyNarrative div */}
+                  In 2011, we did actually walk a section of an alternative route option for the Camino de Santiago, the Camino del Norte from Ainhoa (see album below), 
+                  a village in the Basque Country of France which is located on the Camino del Norte route of the Camino de Santiago and also along the GR10 (Grande Randonnée 10) hiking trail. 
+                  We remember seeing the pilgrims and the crosses and people thinking we too were pilgrims, wishing us 'Buen Camino'.
+                 </div> {/*Closing tab for hwpDailyNarrative div */}
                 </div>  {/*Closing tab for newsCdS div */}
                 </div>  {/*Closing tab for datenewsDivCdS div */}
+
+                <div className="SlideshowHostPhotoCdS">
+            <div className="slideshowinstructionsCdS"> <strong>Click on the image below to open the album of our walking < br /> the Ainhoa segment of the 
+            Camino del Norte in the French Basque < br /> country many years ago back in 2011. Here is a link to an article on this walk <br /> <Link to="https://www.guide-du-paysbasque.com/en/experiences/sport/article-ainhoa-hawthorn-chapel-hike-252.html"
+            target="_blank" className="LinkCdS"> Ainhoa : randonnée de la Chapelle <br /> de l’Aubépine</Link>
+           </strong> 
+                    <br /> <br />
+            <Link to ="https://photos.app.goo.gl/vGooB6M5u9NNBtZQA" target="_blank" className="LinkCdS">
+                    <img className="slideshowentryCdS" src={CaminoDelNorte2011Titled} alt="" />
+                    </Link>
+                     </div>   {/*Closing div slideshowinstructionsCdS*/} 
+                     </div>
+           
 
                 <div className="datenewsDivCdS">
             <section className="newsheaderCdS"><strong>A Brief History of the Camino de Santiago</strong>
@@ -64,8 +77,8 @@ export default function CaminoDeSantiago() {
             so its history goes back <em>a very long time.....</em>   
             <br />
             <br />
-            Tim Mathis in his book 'The Camino for the Rest of Us' explains how King Alfonso II completed the first pilgrimage to see the bone 
-            and then went on to develop the pilrgrimage and encourage others to visit, a fact made easier by the fact the site was on an existing trade route, with a relatively clear path.
+            Tim Mathis in his book 'The Camino for the Rest of Us' explains how King Alfonso II completed the first pilgrimage to see the bones 
+            and then went on to develop the pilgrimage and to encourage others to visit, a fact made easier by the fact the site was on an existing trade route, with a relatively clear path.
             <br />
             <br />
             By 1300, Santiago de Compostela, together with Rome and Jerusalem, had become one of the most important pilgrimage sites in the ancient Christian world. 

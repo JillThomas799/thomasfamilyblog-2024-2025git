@@ -1,12 +1,12 @@
 import React from 'react'
-import './eagle.css';
+import './caminodesantiagologo.css';
 
 
 export default function Caminologo() {
     return (
       <div>
       <svg
-        xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="CdSLogo_1"
+        xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="CdSScallop"
         x="0px" y="0px" width="841.89px" height="595.276px" xmlSpace="preserve"  
       >     
        
@@ -33,12 +33,6 @@ export default function Caminologo() {
           <path id="shell7" d="M 420 570 l 180 -250 a 5 5 10 0 0 -65 -20 Z" stroke="black" strokeWidth="1" fill="#FFD700" />
           <path id="shell8" d="M 420 570 l 240 -220 a 5 5 10 0 0 -65 -20 Z" stroke="black" strokeWidth="1" fill="#FFD700" />
                     </g>
-          
-          <g id="YellowShell">
-<path d="M "></path>
-          
-    </g>
-
     </g>
     
         </svg>

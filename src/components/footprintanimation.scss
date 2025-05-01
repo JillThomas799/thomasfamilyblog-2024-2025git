@@ -1,0 +1,184 @@
+.ajaxLoader{
+  position: absolute;
+  transform-origin: 50% 50%;
+  font-size: 70px;
+  width: 1em;
+  height: 3em;
+  
+
+ 
+.walkingBoot{
+  width: 1.5em;
+  height: 1.0em;
+  animation: 2050ms pawAnimation ease-in-out infinite;
+  opacity: 0;
+
+  svg {
+    width: 100%;
+		height: 100%;
+		}
+		
+		.icon{
+			fill: blue;
+		}
+
+    
+    &:nth-child(odd){                        //The & is an extremely useful feature in Sass. It’s used when nesting. Here .walkingBoot is the parent element.
+			transform: rotate(0deg);
+		}
+
+		&:nth-child(even){
+			transform: rotate(0deg) scaleX(-1) translate(15%, -50%);
+			-webkit-transform: rotate(0deg) scaleX(-1) translate(15%, -50%);
+			-moz-transform: rotate(0deg) scaleX(-1) translate(15%, -50%);
+			-ms-transform: rotate(0deg) scaleX(-1) translate(15%, -50%);
+			-o-transform: rotate(0deg) scaleX(-1) translate(15%, -50%);
+}
+
+// $ symbol is used to make something a variable in Sass. 
+// @for, @if, @else etc are loop expressions as in javascript.
+/* % is modulus (remainder) as in javascript.
+In arithmetic, the division of two integers produces a quotient and a remainder.eg. 5/2 = 2 with 1 as remainder.
+In mathematics, the result of a modulo operation is the remainder of an arithmetic division. */
+
+		@for $i from 1 through 10{
+      
+       @if($i % 2 == 0){
+            &:nth-child(#{$i}){
+            	animation-delay: #{ (($i * -1)+10)*0.25 }
+                                                        s;
+              transform: rotate(0deg) scaleX(-1) translate3d($i*5%, $i*-50%, 0);
+              -webkit-transform: rotate(0deg) scaleX(-1) translate3d($i*5%, $i*-50%, 0);
+              -moz-transform: rotate(0deg) scaleX(-1) translate3d($i*5%, $i*-50%, 0);
+              -ms-transform: rotate(0deg) scaleX(-1) translate3d($i*5%, $i*-50%, 0);
+              -o-transform: rotate(0deg) scaleX(-1) translate3d($i*5%, $i*-50%, 0);
+}
+      }
+      @else{
+         &:nth-child(#{$i}){
+            	animation-delay: #{ (($i * -1)+10)*0.25 }s;
+              transform: rotate(0deg) translate3d($i*-4%, $i*-48%, 0);
+            }
+      }
+      
+      
+         
+     @if($i == 1){
+           &:nth-child(#{$i}){
+            	animation-delay: #{ (($i * -1)+10)*0.25 }
+                                          s;
+              transform: rotate(-8deg) translate3d($i*30%, $i*-50%, 0);
+              -webkit-transform: rotate(-8deg) translate3d($i*30%, $i*-50%, 0);
+              -moz-transform: rotate(-8deg) translate3d($i*30%, $i*-50%, 0);
+              -ms-transform: rotate(-8deg) translate3d($i*30%, $i*-50%, 0);
+              -o-transform: rotate(-8deg) translate3d($i*30%, $i*-50%, 0);
+}
+      }
+      @if($i == 2){
+           &:nth-child(#{$i}){
+            	animation-delay: #{ (($i * -1)+10)*0.25 }s;
+              transform: rotate(-8deg) scaleX(-1) translate3d($i*-15%, $i*-60%, 0);
+              //animation: ($i/2)*0.5s path1 ease-in-out;
+              -webkit-transform: rotate(-8deg) scaleX(-1) translate3d($i*-15%, $i*-60%, 0);
+              -moz-transform: rotate(-8deg) scaleX(-1) translate3d($i*-15%, $i*-60%, 0);
+              -ms-transform: rotate(-8deg) scaleX(-1) translate3d($i*-15%, $i*-60%, 0);
+              -o-transform: rotate(-8deg) scaleX(-1) translate3d($i*-15%, $i*-60%, 0);
+}
+      }
+      
+      
+      
+      
+     @if($i == 3){
+           &:nth-child(#{$i}){
+            	animation-delay: #{ (($i * -1)+10)*0.25 }s;
+              transform: rotate(0deg) translate3d($i*15%, $i*-48%, 0);
+            }
+      }
+      @if($i == 4){
+           &:nth-child(#{$i}){
+            	animation-delay: #{ (($i * -1)+10)*0.25 }
+              s;
+              transform: rotate(0deg) scaleX(-1) translate3d($i*-8%, $i*-50%, 0);
+              //animation: ($i/2)*0.5s path1 ease-in-out;
+              -webkit-transform: rotate(0deg) scaleX(-1) translate3d($i*-8%, $i*-50%, 0);
+              -moz-transform: rotate(0deg) scaleX(-1) translate3d($i*-8%, $i*-50%, 0);
+              -ms-transform: rotate(0deg) scaleX(-1) translate3d($i*-8%, $i*-50%, 0);
+              -o-transform: rotate(0deg) scaleX(-1) translate3d($i*-8%, $i*-50%, 0);
+}
+      }
+      
+      
+      
+      @if($i == 5){
+           &:nth-child(#{$i}){
+            	animation-delay: #{ (($i * -1)+10)*0.25 }s;
+              transform: rotate(0deg) translate3d($i*8%, $i*-48%, 0);
+            }
+      }
+      
+      @if($i == 6){
+           &:nth-child(#{$i}){
+            	animation-delay: #{ (($i * -1)+10)*0.25 }
+              s;
+              transform: rotate(0deg) scaleX(-1) translate3d($i*-5%, $i*-50%, 0);
+              //animation: ($i/2)*0.5s path1 ease-in-out;
+              -webkit-transform: rotate(0deg) scaleX(-1) translate3d($i*-5%, $i*-50%, 0);
+              -moz-transform: rotate(0deg) scaleX(-1) translate3d($i*-5%, $i*-50%, 0);
+              -ms-transform: rotate(0deg) scaleX(-1) translate3d($i*-5%, $i*-50%, 0);
+              -o-transform: rotate(0deg) scaleX(-1) translate3d($i*-5%, $i*-50%, 0);
+}
+      }
+      
+            
+      @if($i == 7){
+           &:nth-child(#{$i}){
+            	animation-delay: #{ (($i * -1)+10)*0.25 }s;
+              transform: rotate(1deg) translate3d($i*1%, $i*-48%, 0);
+            }
+      }
+      @if($i == 8){
+        &:nth-child(#{$i}){
+           animation-delay: #{ (($i * -1)+10)*0.25 }
+           s;
+           transform: rotate(1deg) scaleX(-1) translate3d($i*1%, $i*-50%, 0);
+           //animation: ($i/2)*0.5s path1 ease-in-out;
+           -webkit-transform: rotate(1deg) scaleX(-1) translate3d($i*1%, $i*-50%, 0);
+           -moz-transform: rotate(1deg) scaleX(-1) translate3d($i*1%, $i*-50%, 0);
+           -ms-transform: rotate(1deg) scaleX(-1) translate3d($i*1%, $i*-50%, 0);
+           -o-transform: rotate(1deg) scaleX(-1) translate3d($i*1%, $i*-50%, 0);
+}
+      }
+      
+      
+  } /*for loop ends*/
+  
+
+        .no-cssanimations &{
+        	opacity: 1;
+        }
+	}
+}
+
+.ajaxLoader{
+	top: 8%;
+	left: 50%;
+	transform: rotate(40deg) translate(-50%, 0%);
+	-webkit-transform: rotate(40deg) translate(-50%, 0%);
+	-moz-transform: rotate(40deg) translate(-50%, 0%);
+	-ms-transform: rotate(40deg) translate(-50%, 0%);
+	-o-transform: rotate(40deg) translate(-50%, 0%);
+}
+
+@keyframes pawAnimation {
+	0%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+

@@ -1,6 +1,9 @@
-    
+      .bodyCdS{
+        overflow: hidden;
+      }      
+      
       .LinkCdS{
-        color:blueviolet;
+        color:blue;
         font-weight: bold;
       }
     
@@ -8,8 +11,36 @@
         font-weight:bold;
       }
 
-      
-    
+      .introHostPhotoCdS{
+        display:flex;
+        flex-direction: column;
+        background-color: #FFD700;
+        opacity: 0.9;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        margin-top:5%;
+        margin-bottom: 0;
+        justify-content:center;
+        text-align:center;
+        border:blue solid 4px;
+      }
+
+      .CdSIntroPhoto {
+        margin-left: auto;
+        margin-right: auto;
+        pointer-events:none;
+        width:35%;
+        height:auto;
+        border:solid blue 8px;
+        border-radius:80%;
+        margin-top:1%;
+        margin-bottom:1%;
+        -webkit-border-radius:80%;
+        -moz-border-radius:80%;
+        -ms-border-radius:80%;
+        -o-border-radius:80%;
+      }  
+   
       .datenewsDivCdS{
           color:white;
           background-color:#FFD700	;
@@ -19,6 +50,7 @@
           margin-top: 2%;
           margin-bottom:1%;
           padding:4%;
+          border:blue solid 4px;
         }
         
         .dateCdS{
@@ -55,34 +87,11 @@
         .blogPhotoDivCdS{
           display:flex;
           flex-direction: row;
-          background-color: #4682B4;
+          background-color: blue;
           padding-bottom: 20%;
           padding-top: 5%;
           margin-top:2%;
         }
-      
-        .blogPhoto img{
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          width:70%;
-          height:70%;
-          border:solid grey;
-          border-radius:30px;
-          }
-    
-          .blogPhoto1CdS img{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width:30%;
-            height:auto;
-            border:solid #36454F 4px;
-            border-radius:30px;
-            margin-top:2%;
-            margin-bottom:1%;
-            /* pointer-events: none; */
-            }
     
             .CdSfigcaption {
               text-align: center;
@@ -96,15 +105,13 @@
               margin-bottom:1%;
             }
     
-          .slideshowentryCdS {
+           .slideshowentryCdS {
             display: column;
             justify-content: center;
             margin-left: auto;
             margin-right: auto;
-            /* pointer-events:none; */
             width:80%;
             height:auto;
-            /* border:solid #D5544F 5px; */
             border-radius:80%;
             margin-top:5%;
             margin-bottom:5%;
@@ -114,23 +121,7 @@
             -o-border-radius:80%;
     }    
     
-    .CdSIntroPhoto {
-      margin-left: auto;
-      margin-right: auto;
-      pointer-events:none;
-      width:35%;
-      height:auto;
-      border:solid #4682B4 8px;
-      border-radius:80%;
-      margin-top:1%;
-      margin-bottom:1%;
-      -webkit-border-radius:80%;
-      -moz-border-radius:80%;
-      -ms-border-radius:80%;
-      -o-border-radius:80%;
-    }   
-    
-    .CdSIntroList{
+       .CdSIntroList{
     padding-left: 10%;
     list-style-type: none;
     }
@@ -168,32 +159,6 @@
       font-size:1.0 rem;
       font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     }
-        
-    /* .slideshowHostPhotoCdS{
-      display:flex;
-      flex-direction: column;
-      background-color: #66023c;
-      padding-bottom: 5%;
-      padding-top: 5%;
-      margin-top:0;
-      margin-bottom: 0;
-      justify-content:center;
-      text-align:center;
-    } */
-    
-    .introHostPhotoCdS{
-      display:flex;
-      flex-direction: column;
-      background-color: #FFD700;
-      opacity: 0.9;
-      padding-bottom: 5%;
-      padding-top: 5%;
-      margin-top:5%;
-      margin-bottom: 0;
-      justify-content:center;
-      text-align:center;
-    }
-    
     
     .blogPhotoDivCdS{
       display:flex;
@@ -205,28 +170,71 @@
       padding-top: 5%;
       margin-top:2%;
     }
-          
+
+    .slideshowinstructionsCdS{
+      margin-top:1%;
+      margin-bottom:1%;
+      font-size:1.1rem;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: block;
+      color:black;
+      background-color: #f6f0a3;
+      
+    }
+    
+    .slideshowentryCdS {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      pointer-events:none;
+      height:auto;
+      width: 50%;
+      border:solid navy 4px;
+      border-radius:70%;
+      margin-top:1%;
+      margin-bottom:1%;
+      -webkit-border-radius:70%;
+      -moz-border-radius:70%;
+      -ms-border-radius:70%;
+      -o-border-radius:70%;
+      padding: 5%;
+  } 
+    
+    .SlideshowHostPhotoCdS{
+      display:flex;
+      flex-direction: column;
+      border:solid 3px navy;
+      background-color:#f6f0a3;
+      padding-bottom: 2%;
+      padding-top: 2%;    
+      margin-right: auto;
+      margin-left: auto;
+      justify-content:center;
+      text-align:center;
+    }
 
 
+  /*To ensure on mobile screens below 902px width (this includes one plus phones) that relevant components of 
+        the site are displayed with the best dimensions and appearance for the smaller devices*/ 
       @media screen and (min-width:481) and (max-width:902px) {
 
-        /*To ensure on mobile screens below 902px width (this includes one plus phones) that relevant components of 
-        the site are displayed with the best dimensions for the smaller devices*/
+      .slideshowentryCdS {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        pointer-events:none;
+        height:auto;
+        width: 50%;
+        border:solid navy 4px;
+        border-radius:70%;
+        margin-top:1%;
+        margin-bottom:1%;
+        -webkit-border-radius:70%;        -moz-border-radius:70%;
+        -ms-border-radius:70%;
+        -o-border-radius:70%;
+        padding: 5%;
+      }
       
-      .CdS2024header {
-       display:block;
-       text-align: center;
-       font-size: 1.75em;
-       color:white;
-       font-weight: bold;
-       /* border:solid 3px; */
-       width: 100vw;
-       /* height: 50vh; */
-       height:auto;
-       position:absolute; 
-      } 
-      
-      /*To ensure on mobile screens above 480px but below 902px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
       .blogPhotoDivCdS{
        display:flex;
        flex-direction: column;
@@ -268,49 +276,53 @@
           -ms-transform:size(1.2);
           -o-transform:size(1.2);
       }
-      
-      .blogPhoto1HWP CdS{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width:50%;
-        height:auto;
-        border:solid #D5544F 4px;
-        border-radius:30px;
-        margin-top:2%;
-        margin-bottom:1%;
-        
-        }
+
+        .slideshowentryCdS {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          pointer-events:none;
+          height:auto;
+          width: 70%;
+          border:solid navy 4px;
+          border-radius:70%;
+          margin-top:1%;
+          margin-bottom:1%;
+          -webkit-border-radius:70%;
+          -moz-border-radius:70%;
+          -ms-border-radius:70%;
+          -o-border-radius:70%;
+          padding: 5%;
+      } 
       }
       
+
+      /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
+        the site are displayed with the best dimensions and appearance for the smaller devices*/
       @media screen and (max-width:480px) {
-      
-        /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
-        the site are displayed with the best dimensions for the smaller devices*/
-      
-        .hadrianswallTitle{
-          padding-top:30%;
-          font-size:1.5rem;
+
+        #backbutton{
+          top:15%;
         }
-       
-        .CdS2024header h1 {
-       margin-bottom:-30%;
-      }
-      
-      .CdS2024header {
-       display:block;
-       text-align: center;
-       font-size: 1.75em;
-       color:white;
-       font-weight: bold;
-       /* border:solid 3px; */
-       width: 100vw;
-       /* height: 50vh; */
-       height:auto;
-       position:absolute; 
+        
+        .slideshowentryCdS {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          pointer-events:none;
+          height:auto;
+          width: 70%;
+          border:solid navy 4px;
+          border-radius:70%;
+          margin-top:1%;
+          margin-bottom:1%;
+          -webkit-border-radius:70%;
+          -moz-border-radius:70%;
+          -ms-border-radius:70%;
+          -o-border-radius:70%;
+          padding: 5%;
       } 
       
-      /*To ensure on mobile screens below 480px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
       .blogPhotoDivCdS{
        display:flex;
        flex-direction: column;
@@ -336,29 +348,6 @@
        -ms-border-radius:80%;
        -o-border-radius:80%;
       }  
-      
-      
-      .blogPhotoCdS img{
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       width:20%;
-       height:auto;
-       border:solid #D5544F;
-       border-radius:30px;
-       }
-      
-      .blogPhoto1CdS img{
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       width:60%;
-       height:auto;
-       border:solid #D5544F 4px;
-       border-radius:30px;
-       margin-top:2%;
-       margin-bottom:1%;
-       }
       
        .datenewsDivCdS{
         color:white;
@@ -388,8 +377,7 @@
         padding:1%;
         margin:5px;
         font-size:1.0rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
       }
       
       .newsCdS{
@@ -402,8 +390,7 @@
         font-size:1.0rem;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
-      
-      
+        
       .CdSDailyNarrative{
         background-color: #FFD700	;
         text-Align:left;
@@ -415,18 +402,7 @@
         font-size:1.0rem;
         font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
       }
-      
-      .titles{
-        color:#0000FF;
-        font-size:1.1rem;
-      }
-      
-      .headTitles{
-        color:#0000FF;
-        font-size:1.1rem; 
-        text-decoration: underline;
-      }
-      
+            
       .componentWalkDetails{
         background-color: #FFD700	;
         opacity: 0.9;

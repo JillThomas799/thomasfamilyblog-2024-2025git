@@ -1,483 +1,512 @@
 .June2024header {
-  display:block;
+  display: block;
   text-align: center;
   font-size: 1.75em;
-  color:white;
+  color: white;
   font-weight: bold;
   width: 100vw;
-  height:auto;
-  position:absolute; 
-  } 
-
-.headerPhotoJune{
-    width:40%;
-    height:auto;
-    /* border: solid 10px; */
-    border-radius:50%;
-    margin:auto;
-    -webkit-border-radius:20%;
-    -moz-border-radius:50%;
-    -ms-border-radius:50%;
-    -o-border-radius:50%;
+  height: auto;
+  position: absolute;
 }
 
-.backbuttonLink{
-    color:white
-    } 
+.headerPhotoJune {
+  width: 40%;
+  height: auto;
+  margin: auto;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
 
-    .LinkJune{
+.backbuttonLink {
+  color: white;
+}
+
+.LinkJune {
   text-decoration: underline;
   color: blue;
-    }
-  
-  .datenewsDivJune{
-    background-color: #B0C4DE;
-    display:flex;
-    flex-direction:column;
-    margin-top: 0vh;
-    margin-bottom:0vh;
-    padding-top: 5vh;
-    padding-bottom:5vh;
-}
-  
-  .dateJune{
-    color:white;
-    border:solid 2px #757c88;
-    background-color:#5D8AA8;
-    text-align: center;
-    padding:10px 10px 10px 10px;
-    margin:5px;
-    font-size:1.2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
-  }
-  
-  .newsheaderJune{
-    color:white;
-    border:solid 2px #757c88;
-    background-color:#5D8AA8;
-    text-align: center;
-    padding:10px 10px 10px 10px;
-    margin:5px;
-    font-size:1.2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight:bold;
-  }
-  
-  .newsJune{
-    color:white;
-    border:solid 2px #757c88;
-    background-color:#5D8AA8;
-    text-align: left;
-    padding:20px 20px 20px 20px;
-    margin-top:1%;
-    margin-bottom: 0vh;
-    font-size:1.1rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight:bold;
-  }
-
-  .blogPhotoDivJune{
-    display:flex;
-    flex-direction: row;
-    border:solid 2px #757c88;
-    background-color: #5D8AA8;
-    padding-bottom: 8%;
-    padding-top: 5%;
-    margin-top:0vh;
-  }
-  
-  .blogPhotoJune img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:70%;
-    height:70%;
-    /* border:solid 2px; */
-    border-radius:20%;
-    -webkit-border-radius:20%;
-    -moz-border-radius:20%;
-    -ms-border-radius:20%;
-    -o-border-radius:20%;
 }
 
-figjune{
+.datenewsDivJune {
+  background-color: #b0c4de;
   display: flex;
   flex-direction: column;
-  margin-left: auto;
-  margin-right:auto;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
-figjune img {
-  vertical-align: top;
+.dateJune {
+  color: white;
+  border: solid 2px #757c88;
+  background-color: #5d8aa8;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 5px;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.newsheaderJune {
+  color: white;
+  border: solid 2px #757c88;
+  background-color: #5d8aa8;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 5px;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.newsJune {
+  color: white;
+  border: solid 2px #757c88;
+  background-color: #5d8aa8;
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  margin-top: 1%;
+  margin-bottom: 0vh;
+  font-size: 1.1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.blogPhotoDivJune {
+  display: flex;
+  flex-direction: row;
+  border: solid 2px #757c88;
+  background-color: #5d8aa8;
+  padding-bottom: 8%;
+  padding-top: 5%;
+  margin-top: 0vh;
+}
+
+.blogPhotoJune img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 70%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  border-radius: 20%;
 }
 
 .junefigcaption {
   text-align: center;
   font-family: bold;
-  color:white;
+  color: white;
   font-size: 1.2rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  overflow-wrap:normal;
-  padding-top:5%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow-wrap: normal;
+  padding-top: 5%;
 }
 
 .slideshowentryJune {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  pointer-events:none;
-  width:25%;
-  height:auto;
-  /* border:solid 2px; */
-  border-radius:100%;
-  margin-top:3%;
-  margin-bottom:5%;
-  -webkit-border-radius:100%;
-  -moz-border-radius:100%;
-  -ms-border-radius:100%;
-  -o-border-radius:100%;
-}      
+  pointer-events: none;
+  width: 25%;
+  height: auto;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+}
 
-.slideshowentry1June { 
-  display: block; 
-  margin-left: auto; 
-  margin-right: auto; 
-  pointer-events:none; 
-  width:15%; 
-  height:auto; 
-  border:solid 2px; 
-  border-radius:50%; 
-  margin-top:3%; 
-  margin-bottom:5%; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%;
-}      
+.slideshowentry1June {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
+  width: 15%;
+  height: auto;
+  border: solid 2px;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
 
 .slideshowinstructionsJune {
-  margin-top:5%;
-  margin-bottom:2%;
-  font-size:1.2rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  display:inline-block;
-  color:white; 
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: inline-block;
+  color: white;
 }
 
-.SlideshowHostPhotoJune{
-  display:flex;
+.SlideshowHostPhotoJune {
+  display: flex;
   flex-direction: column;
-  background-color: #5D8AA8;
+  background-color: #5d8aa8;
   padding-bottom: 5%;
   padding-top: 5%;
-  margin-top:0vh;
-  justify-content:center;
-  text-align:center;
-}
-
-.newsCongratsJune{
-  color:black;
-  /* border:solid 3px #757c88; */
-  background-color:#5D8AA8;
+  margin-top: 0vh;
+  justify-content: center;
   text-align: center;
-  padding:10% 1% 1% 1%;
-  margin:10px;
-  font-size:1.5rem;
+}
+
+.newsCongratsJune {
+  color: black;
+  /* border:solid 3px #757c88; */
+  background-color: #5d8aa8;
+  text-align: center;
+  padding: 10% 1% 1% 1%;
+  margin: 10px;
+  font-size: 1.5rem;
   font-weight: bold;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.CongratsMessageJune{
-    /* border-right: solid 5px rgba(255,255,255,.75); */
-    white-space: wrap;
-    overflow: hidden;    
-    font-family: 'Source Code Pro', monospace;  
-    font-size: 48px;
-    color: #757c88;
-    padding-top:10%;
-  }
-  
-  /* Animation Congrats Animation */
-  .CongratsMessageJune {
-    animation: animated-text 12s linear 1s infinite normal both, animated-cursor1 1000ms linear infinite;
-    -webkit-animation: animated-text 12s linear 1s infinite normal both, animated-cursor1 1000ms linear infinite;
+.CongratsMessageJune {
+  /* border-right: solid 5px rgba(255,255,255,.75); */
+  white-space: wrap;
+  overflow: hidden;
+  font-family: "Source Code Pro", monospace;
+  font-size: 48px;
+  color: #757c88;
+  padding-top: 10%;
 }
-  
-  /* text animation */
-  
-  @keyframes animated-text1{
-    from{width: 10px;}
-    to{width: 1500px;}
-  }
-  
-  /* cursor animations */
-  
-  @keyframes animated-cursor1{
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
-  }
 
-  /* Animation Congrats Animation */
-  .CongratsMessageJune{
-    /* border-right: solid 5px rgba(255,255,255,.75); */
-    white-space: nowrap;
-    overflow: hidden;    
-    font-family: 'Source Code Pro', monospace;  
-    font-size: 48px;
-    color: whitesmoke;
-  }
-
-  .CongratsMessageJune {
-    animation: animated-text 12s linear 1s infinite normal both, animated-cursor 1000ms linear infinite;
-    -webkit-animation: animated-text 12s linear 1s infinite normal both, animated-cursor 1000ms linear infinite;
+/* Animation Congrats Animation */
+.CongratsMessageJune {
+  -webkit-animation: animated-text 12s linear 1s infinite normal both,
+    animated-cursor1 1000ms linear infinite;
+  animation: animated-text 12s linear 1s infinite normal both,
+    animated-cursor1 1000ms linear infinite;
 }
-  
-  /* text animation */
-  
-  @keyframes animated-text{
-    from{width: 10px;}
-    to{width: 1500px;}
-  }
-  
-  /* cursor animations */
-  
-  @keyframes animated-cursor{
-    from{border-right-color: rgba(255,255,255,.75);}
-    to{border-right-color: transparent;}
-  }
 
-  
-      /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
-  @media screen and (min-width:481px) and (max-width:900px){
-  .blogPhotoDivJune{
-    display:flex;
+/* text animation */
+
+@keyframes animated-text1 {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 1500px;
+  }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor1 {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/* Animation Congrats Animation */
+.CongratsMessageJune {
+  /* border-right: solid 5px rgba(255,255,255,.75); */
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: "Source Code Pro", monospace;
+  font-size: 48px;
+  color: whitesmoke;
+}
+
+.CongratsMessageJune {
+  -webkit-animation: animated-text 12s linear 1s infinite normal both,
+    animated-cursor 1000ms linear infinite;
+  animation: animated-text 12s linear 1s infinite normal both,
+    animated-cursor 1000ms linear infinite;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 1500px;
+  }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+/*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .blogPhotoDivJune {
+    display: flex;
     flex-direction: column;
-    background-color: #5D8AA8;
+    background-color: #5d8aa8;
     padding-bottom: 15%;
     padding-top: 5%;
-    margin-top:2%;
+    margin-top: 2%;
   }
 
-  .headerPhotoJune{
-    width:60%;
-    height:auto;
-    /* border: solid 10px; */
-    border-radius:50%;
-    margin:auto;
-    -webkit-border-radius:20%;
-    -moz-border-radius:50%;
-    -ms-border-radius:50%;
-    -o-border-radius:50%;
-}
-
-.newsCongratsJune{
-  color:black;
-  /* border:solid 3px #757c88; */
-  background-color:#5D8AA8;
-  text-align: center;
-  padding:20% 1% 1% 1%;
-  margin:10px;
-  font-size:1.5rem;
-  font-weight: bold;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-  .slideshowentryJune {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    pointer-events:none;
-    width:70%;
-    height:auto;
-    /* border:solid 2px; */
-    border-radius:100%;
-    margin-top:3%;
-    margin-bottom:5%;
-    -webkit-border-radius:100%;
-    -moz-border-radius:100%;
-    -ms-border-radius:100%;
-    -o-border-radius:100%;
-  }      
-  
-  .slideshowentry1June { 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-    pointer-events:none; 
-    width:70%; 
-    height:auto; 
-    border:solid 2px; 
-    border-radius:50%; 
-    margin-top:3%; 
-    margin-bottom:5%; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%;
-  }      
-  
-  .slideshowinstructionsJune {
-    margin-top:5%;
-    margin-bottom:2%;
-    font-size:1.0rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display:inline-block;
-    color:white; 
-    padding:3%;
-  }
-  }
-  
-  @media screen and (max-width:480px) {
-  
-   /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
-   the site are displayed with the best dimensions for the smaller devices*/
-  
-  
-  .June2024header {
-  display:block;
-  text-align: center;
-  font-size: 1.75em;
-  color:white;
-  font-weight: bold;
-  width: 100vw;
-  height:auto;
-  position:absolute; 
-  } 
-  
-  /*To ensure on mobile screens below 480px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
-  .blogPhotoDivJune{
-  display:flex;
-  flex-direction: column;
-  background-color: #5D8AA8;
-  padding-bottom: 15%;
-  padding-top: 5%;
-  margin-top:2%;
+  .headerPhotoJune {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
   }
 
-  .headerPhotoJune{
-    width:80%;
-    height:auto;
-    /* border: solid 10px; */
-    border-radius:50%;
-    margin:auto;
-    -webkit-border-radius:20%;
-    -moz-border-radius:50%;
-    -ms-border-radius:50%;
-    -o-border-radius:50%;
-}
-
-  .slideshowentryJune {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    pointer-events:none;
-    width:80%;
-    height:auto;
-    border-radius:100%;
-    margin-top:3%;
-    margin-bottom:5%;
-    -webkit-border-radius:100%;
-    -moz-border-radius:100%;
-    -ms-border-radius:100%;
-    -o-border-radius:100%;
-  }      
-  
-  .slideshowentry1June { 
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto; 
-    pointer-events:none; 
-    width:80%; 
-    height:auto; 
-    border:solid 2px; 
-    border-radius:50%; 
-    margin-top:3%; 
-    margin-bottom:5%; -webkit-border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%; -o-border-radius:50%;
-  }    
-
-  .slideshowinstructionsJune {
-    margin-top:5%;
-    margin-bottom:2%;
-    padding:3%;
-    font-size:1.0rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display:inline-block;
-    color:white; 
-  }
-  
-  .newsCongratsJune{
-    color:black;
-    /* border:solid 3px #757c88; */
-    background-color:#5D8AA8;
+  .newsCongratsJune {
+    color: black;
+    background-color: #5d8aa8;
     text-align: center;
-    padding:20% 1% 1% 1%;
-    margin:10px;
-    font-size:1.5rem;
+    padding: 20% 1% 1% 1%;
+    margin: 10px;
+    font-size: 1.5rem;
     font-weight: bold;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  
-  
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
   }
 
-  @media screen and (max-width:480px) {
+  .slideshowentryJune {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    width: 70%;
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+  }
 
-  /*To ensure on mobile screens below 480px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/ 
-  .CongratsMessageJune{
-   border-right: solid 5px rgba(255,255,255,.75);
-   white-space: nowrap;
-   overflow:hidden;    
-   font-family: 'Source Code Pro', monospace;  
-   font-size: 14px;
-   color: #757c88;
- }
- 
- /* Animation */
- .CongratsMessageJune {
-   animation: animated-text 6s linear 1s infinite normal both, animated-cursor 1000ms linear infinite;
-   -webkit-animation: animated-text 6s linear 1s infinite normal both, animated-cursor 1000ms linear infinite;
-}
- 
- /* text animation */
- 
- @keyframes animated-text{
-   from{width: 5vw;}
-   to{width: 95vw;}
- }
- 
- /* cursor animations */
- 
- @keyframes animated-cursor{
-   from{border-right-color: rgba(255,255,255,.75);}
-   to{border-right-color: transparent;}
- }
- 
+  .slideshowentry1June {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    width: 70%;
+    height: auto;
+    border: solid 2px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
   }
- 
-  /*To resize the congrats animation for devices between 1000 and 481px (includes ipads)*/
- 
-  @media screen and (max-width: 1000px) and (min-width:481px){
-   .CongratsMessageJune{
-     border-right: solid 5px rgba(255,255,255,.75);
-     white-space: nowrap;
-     overflow:hidden;    
-     font-family: 'Source Code Pro', monospace;  
-     font-size: 22px;
-     color:  #757c88;;
-   }
-   
-   /* Animation */
-   .CongratsMessageJune {
-     animation: animated-text 6s linear 1s infinite normal both, animated-cursor 1000ms linear infinite;
-     -webkit-animation: animated-text 6s linear 1s infinite normal both, animated-cursor 1000ms linear infinite;
-}
-   
-   /* text animation */
-   
-   @keyframes animated-text{
-     from{width: 5vw;}
-     to{width: 95vw;}
-   }
-   
-   /* cursor animations */
-   
-   @keyframes animated-cursor{
-     from{border-right-color: rgba(255,255,255,.75);}
-     to{border-right-color: transparent;}
-   }
+
+  .slideshowinstructionsJune {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 1rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    display: inline-block;
+    color: white;
+    padding: 3%;
   }
- 
-  
+}
+
+@media screen and (max-width: 480px) {
+  /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
+   the site are displayed with the best dimensions for the smaller devices*/
+
+  .June2024header {
+    display: block;
+    text-align: center;
+    font-size: 1.75em;
+    color: white;
+    font-weight: bold;
+    width: 100vw;
+    height: auto;
+    position: absolute;
+  }
+
+  /*To ensure on mobile screens below 480px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+  .blogPhotoDivJune {
+    display: flex;
+    flex-direction: column;
+    background-color: #5d8aa8;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    margin-top: 2%;
+  }
+
+  .headerPhotoJune {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .slideshowentryJune {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    width: 80%;
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+  }
+
+  .slideshowentry1June {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    width: 80%;
+    height: auto;
+    border: solid 2px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .slideshowinstructionsJune {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding: 3%;
+    font-size: 1rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    display: inline-block;
+    color: white;
+  }
+
+  .newsCongratsJune {
+    color: black;
+    /* border:solid 3px #757c88; */
+    background-color: #5d8aa8;
+    text-align: center;
+    padding: 20% 1% 1% 1%;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*To ensure on mobile screens below 480px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+  .CongratsMessageJune {
+    border-right: solid 5px rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Source Code Pro", monospace;
+    font-size: 14px;
+    color: #757c88;
+  }
+
+  /* Animation */
+  .CongratsMessageJune {
+    -webkit-animation: animated-text 6s linear 1s infinite normal both,
+      animated-cursor 1000ms linear infinite;
+    animation: animated-text 6s linear 1s infinite normal both,
+      animated-cursor 1000ms linear infinite;
+  }
+
+  /* text animation */
+
+  @keyframes animated-text {
+    from {
+      width: 5vw;
+    }
+    to {
+      width: 95vw;
+    }
+  }
+
+  /* cursor animations */
+
+  @keyframes animated-cursor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+}
+
+/*To resize the congrats animation for devices between 1000 and 481px (includes ipads)*/
+
+@media screen and (max-width: 1000px) and (min-width: 481px) {
+  .CongratsMessageJune {
+    border-right: solid 5px rgba(255, 255, 255, 0.75);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: "Source Code Pro", monospace;
+    font-size: 22px;
+    color: #757c88;
+  }
+
+  /* Animation */
+  .CongratsMessageJune {
+    -webkit-animation: animated-text 6s linear 1s infinite normal both,
+      animated-cursor 1000ms linear infinite;
+    animation: animated-text 6s linear 1s infinite normal both,
+      animated-cursor 1000ms linear infinite;
+  }
+
+  /* text animation */
+
+  @keyframes animated-text {
+    from {
+      width: 5vw;
+    }
+    to {
+      width: 95vw;
+    }
+  }
+
+  /* cursor animations */
+
+  @keyframes animated-cursor {
+    from {
+      border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+}

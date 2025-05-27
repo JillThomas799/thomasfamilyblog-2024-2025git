@@ -1,33 +1,50 @@
-import React from "react"
-import './fallingleaves.css';
+import React from "react";
+import "./fallingleaves.css";
 
 export default function FallingLeaves({ title }) {
-    return (
-            <div>
-            <div className="autumnal">
-            <div id="leaves">
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
-            </div>
+  return (
+    <div>
+      <div className="autumnal">
+        <div id="leaves">
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
 
-            <div className="MonthTitle">{title}</div>
-            
-            <svg className="Treesheddingleaves" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="20" width="100%" height="100vh" viewBox="0 0 -60 0" /*min-x min-y width height*/ preserveAspectRatio="xMidYMid" style={{overflow:"visible"}}>     
-            <g id="tree" transform="translate(0.000000,378.000000) scale(0.100000,-0.100000)" fill="#53350A" stroke="none">
-<path d="M7546 11742 c27 -192 98 -333 190 -377 41 -19 158 -20 213 -1 35 13
+        <div className="MonthTitle">{title}</div>
+
+        <svg
+          className="Treesheddingleaves"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          x="0"
+          y="20"
+          width="100%"
+          height="100vh"
+          viewBox="0 0 -60 0"
+          /*min-x min-y width height*/ preserveAspectRatio="xMidYMid"
+          style={{ overflow: "visible" }}
+        >
+          <g
+            id="tree"
+            transform="translate(0.000000,378.000000) scale(0.100000,-0.100000)"
+            fill="#53350A"
+            stroke="none"
+          >
+            <path
+              d="M7546 11742 c27 -192 98 -333 190 -377 41 -19 158 -20 213 -1 35 13
 42 13 55 0 26 -26 27 -49 3 -118 l-24 -67 23 -116 c62 -304 86 -591 56 -675
 -8 -21 -17 -38 -21 -38 -16 0 -264 213 -354 303 -110 111 -129 146 -222 395
 -65 172 -70 182 -95 182 -41 0 -103 86 -112 156 -10 77 -63 171 -117 209 -42
@@ -260,29 +277,28 @@ c-8 19 -14 48 -14 64 0 16 -6 32 -12 34 -8 3 -6 6 5 6 19 1 57 56 57 84 0 9
 31 57 0 8 -23 36 -52 62 l-51 47 26 95 c33 116 33 140 2 243 -13 44 -45 174
 -70 287 -48 221 -48 222 -4 312 16 33 20 52 14 61 -6 8 -23 31 -40 51 -24 31
 -31 51 -36 110 -7 74 -40 154 -76 187 -35 32 -94 49 -198 58 -79 7 -116 15
--154 34 l-50 26 5 -38z"/>
-<path d="M8536 8101 c-116 -137 -159 -257 -122 -346 19 -45 89 -120 127 -135
+-154 34 l-50 26 5 -38z"
+            />
+            <path
+              d="M8536 8101 c-116 -137 -159 -257 -122 -346 19 -45 89 -120 127 -135
 24 -10 28 -17 23 -34 -10 -34 -33 -74 -46 -82 -18 -11 24 -23 44 -13 10 5 24
 32 32 59 10 32 26 60 46 76 35 30 77 98 91 148 14 52 -4 106 -65 195 -28 42
--58 92 -65 111 -7 19 -16 42 -19 51 -6 13 -15 6 -46 -30z"/>
-</g>
-
-<g id="tree2" >
-          <use xlinkHref="#tree"  style={{transform:"scale(70%)"}}></use>
+-58 92 -65 111 -7 19 -16 42 -19 51 -6 13 -15 6 -46 -30z"
+            />
           </g>
 
-<g id="tree3" >
-          <use xlinkHref="#tree"  style={{transform:"translate(800px, 0px"}}></use>
+          <g id="tree2">
+            <use xlinkHref="#tree" style={{ transform: "scale(70%)" }}></use>
           </g>
-</svg>
 
-
-
-            </div>
-            
-            </div>  
-
-    );
+          <g id="tree3">
+            <use
+              xlinkHref="#tree"
+              style={{ transform: "translate(800px, 0px" }}
+            ></use>
+          </g>
+        </svg>
+      </div>
+    </div>
+  );
 }
-
-           

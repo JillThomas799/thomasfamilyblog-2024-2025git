@@ -1,353 +1,321 @@
-.may2025Background{
-    background: linear-gradient(#FFD700 5%, #FFFF00 15%, #F0E68c 20%,#87CEEb, #00BFFF, #6495ED, #1E90FF, #4682B4);
-    opacity:0.7;
-    height: 30%;
-    overflow: hidden;
-    position:relative;
+.backgroundMay2025 {
+  background: linear-gradient(
+    #ffd700 10%,
+    #ffff00,
+    #f0e68c,
+    #fffacd,
+    #87ceeb,
+    #00bfff,
+    #6495ed,
+    #1e90ff,
+    #4682b4
+  );
 }
 
-
-#backbuttonMay2025{
-    display:block;
-    position:absolute;
-    height:50px;
-    width:15%;
-    background-color: navy ;
-    border:grey 2px solid;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    color:#FFD700;
-    top:10%;
-    text-decoration: underline;
-    margin: 5% 25% 5% 75%;
-    border-radius:15%;
-    -webkit-border-radius:15%;
-    -moz-border-radius:15%;
-    -ms-border-radius:15%;
-    -o-border-radius:15%;
-  } 
-
-  .LinkMay2025{                     /*This is the coloring and underlining for hyperlinks in the main body of the text */
-    text-decoration: underline;
-    color:#960000;
-  }
-  
-      .May2025Header{
-        display:block;
-        text-align: center;
-        font-size: 1.75em;
-        color:navy;
-        font-weight: bold;
-        padding-top:3%;
-        position:relative;
-      }
-
-      .May2025Santiago{
-        display:block;
-        position:absolute;
-        text-align: center;
-        font-size: 1.50em;
-        color:navy;
-        font-weight: bold;
-        top:8%;
-        left:40vw;
-        background-color:#FFD700;
-        border: solid navy 3px;
-        padding: 5%;
-        
-      }
-
-      #CdSLogo_1{
-        margin-top:30vh;
-        transform: translate(-5%, 0%);
-        -webkit-transform: translate(-5%, 0%);
-        -moz-transform: translate(-5%, 0%);
-        -ms-transform: translate(-5%, 0%);
-        -o-transform: translate(-5%, 0%);
+.may2025Background {
+  background: linear-gradient(
+    #ffd700 5%,
+    #ffff00 15%,
+    #f0e68c 20%,
+    #87ceeb,
+    #00bfff,
+    #6495ed,
+    #1e90ff,
+    #4682b4
+  );
+  opacity: 1;
+  height: 30%;
+  overflow: hidden;
+  position: relative;
 }
 
-      #outboundJourney{
-        transform:scale(0.8) translate(10%, 17%)      ;
-        -webkit-transform:scale(0.8) translate(10%, 17%)      ;
-        -moz-transform:scale(0.8) translate(10%, 17%)      ;
-        -ms-transform:scale(0.8) translate(10%, 17%)      ;
-        -o-transform:scale(0.8) translate(10%, 17%)      ;
-}
-
-      #returnJourney{
-        transform:scale(0.8) translate(25%, 15%)      ;
-        -webkit-transform:scale(0.8) translate(25%, 15%)      ;
-        -moz-transform:scale(0.8) translate(25%, 15%)      ;
-        -ms-transform:scale(0.8) translate(25%, 15%)      ;
-        -o-transform:scale(0.8) translate(25%, 15%)      ;
-}
-
-#outboundArrow{
-  transform:scale(0.6) translate( 400px, -10px);
-  -webkit-transform:scale(0.6) translate( 400px, -10px);
-  -moz-transform:scale(0.6) translate( 400px, -10px);
-  -ms-transform:scale(0.6) translate( 400px, -10px);
-  -o-transform:scale(0.6) translate( 400px, -10px);
-}
-
-.datenewsDivMay2025{
-  background-color:#00BFFF;
-  display:flex;
-  flex-direction:column;
-  margin-top: 0%;
-  margin-bottom:0%;
-  padding-top: 10%;
-  padding-bottom:1%;
-}
-
-.dateMay2025{
-  color:navy;
-  border:solid 3px navy;
-  background-color:#FFD700;
+#backButtonMay2025 {
+  display: block;
+  position: absolute;
+  height: 50px;
+  width: 15%;
+  background-color: navy;
+  border: grey 2px solid;
   text-align: center;
-  padding:10px 10px 10px 10px;
-  margin:5px;
-  font-size:1.2rem;
+  font-size: large;
   font-weight: bold;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffd700;
+  top: 10%;
+  text-decoration: underline;
+  margin: 5% 25% 5% 75%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  border-radius: 15%;
 }
 
-.newsMay2025{
-  color:navy;
-  border:solid 3px navy;
-  background-color:#FFD700;
-  text-align: left;
-  padding:10px 10px 20px 10px;
-  margin:3%;
-  font-size:1.1rem;
+.backbuttonLinkMay2025 {
+  color: #ffd700;
+}
+
+.LinkMay2025 {
+  /*This is the coloring and underlining for hyperlinks in the main body of the text */
+  text-decoration: underline;
+  color: #1e90ff;
+}
+
+.May2025Header {
+  display: block;
+  text-align: center;
+  font-size: 1.75em;
+  color: navy;
   font-weight: bold;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 3%;
+  position: relative;
+}
+
+.May2025Santiago {
+  display: block;
+  position: absolute;
+  text-align: center;
+  font-size: 1.5em;
+  color: navy;
+  font-weight: bold;
+  padding-top: 25%;
+  padding-bottom: 3%;
+  top: 30%;
+  left: 38vw;
+  background-color: #ffd700;
+  border: solid navy 3px;
+  padding: 5%;
+}
+
+#CdSLogo_1 {
+  margin-top: 30vh;
+  -webkit-transform: translate(-5%, 0%);
+  -moz-transform: translate(-5%, 0%);
+  -ms-transform: translate(-5%, 0%);
+  -o-transform: translate(-5%, 0%);
+  transform: translate(-5%, 0%);
+}
+
+#outboundJourney {
+  -webkit-transform: scale(0.8) translate(10%, 17%);
+  -moz-transform: scale(0.8) translate(10%, 17%);
+  -ms-transform: scale(0.8) translate(10%, 17%);
+  -o-transform: scale(0.8) translate(10%, 17%);
+  transform: scale(0.8) translate(10%, 17%);
+}
+
+#returnJourney {
+  -webkit-transform: scale(0.8) translate(25%, 15%);
+  -moz-transform: scale(0.8) translate(25%, 15%);
+  -ms-transform: scale(0.8) translate(25%, 15%);
+  -o-transform: scale(0.8) translate(25%, 15%);
+  transform: scale(0.8) translate(25%, 15%);
+}
+
+#outboundArrow {
+  -webkit-transform: scale(0.6) translate(400px, -10px);
+  -moz-transform: scale(0.6) translate(400px, -10px);
+  -ms-transform: scale(0.6) translate(400px, -10px);
+  -o-transform: scale(0.6) translate(400px, -10px);
+  transform: scale(0.6) translate(400px, -10px);
+}
+
+.datenewsDivMay2025 {
+  background-color: #00bfff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 10%;
+  padding-bottom: 1%;
+}
+
+.dateMay2025 {
+  color: navy;
+  border: solid 3px navy;
+  background-color: #ffd700;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 5px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.newsMay2025 {
+  color: navy;
+  border: solid 3px navy;
+  background-color: #ffd700;
+  text-align: left;
+  padding: 10px 10px 20px 10px;
+  margin: 3%;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /*To ensure on laptop screens between 1200px and 1350px screens that the CdSLogo_1 and .May2025Santiago display correctly*/
-@media screen and (min-width:1200px) and (max-width:1300px){
 
-  #CdSLogo_1{
-    margin-top:40vh;
-    transform: scale(0.7) translate(-16%,10%) ;
-    -webkit-transform: scale(0.7) translate(-16%,10%) ;
-    -moz-transform: scale(0.7) translate(-16%,10%) ;
-    -ms-transform: scale(0.7) translate(-16%,10%) ;
-    -o-transform: scale(0.7) translate(-16%,10%) ;
-}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  #CdSLogo_1 {
+    margin-top: 40vh;
+    -webkit-transform: scale(0.7) translate(-16%, 10%);
+    -moz-transform: scale(0.7) translate(-16%, 10%);
+    -ms-transform: scale(0.7) translate(-16%, 10%);
+    -o-transform: scale(0.7) translate(-16%, 10%);
+    transform: scale(0.7) translate(-16%, 10%);
+  }
 
-    .May2025Santiago{
-      display:block;
-      position:absolute;
-      text-align: center;
-      font-size: 1.5em;
-      color:navy;
-      font-weight: bold;
-      top:30%;
-      left:40%;
-      
-    }
-
-
+  .May2025Santiago {
+    top: 50%;
+    left: 35%;
+  }
 }
 
 /*To ensure on laptop screens between 1000px and 1200px screens that the CdSLogo_1 and .May2025Santiago display correctly*/
-@media screen and (min-width:1000px) and (max-width:1200px){
 
-  #CdSLogo_1{
-    margin-top:40vh;
-    transform: scale(0.7) translate(-18%,0%) ;
-    -webkit-transform: scale(0.7) translate(-18%,10%) ;
-    -moz-transform: scale(0.7) translate(-18%,10%) ;
-    -ms-transform: scale(0.7) translate(-18%,10%) ;
-    -o-transform: scale(0.7) translate(-18%,10%) ;
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  #CdSLogo_1 {
+    margin-top: 40vh;
+    -webkit-transform: scale(0.7) translate(-18%, 10%);
+    -moz-transform: scale(0.7) translate(-18%, 10%);
+    -ms-transform: scale(0.7) translate(-18%, 10%);
+    -o-transform: scale(0.7) translate(-18%, 10%);
+    transform: scale(0.7) translate(-18%, 0%);
+  }
+
+  .May2025Santiago {
+    top: 35%;
+    left: 40%;
+  }
 }
 
-    .May2025Santiago{
-      display:block;
-      position:absolute;
-      text-align: center;
-      font-size: 1.5em;
-      color:navy;
-      font-weight: bold;
-      top:35%;
-      left:40%;
-      
-    }
+/*To ensure on ipad screens and larger mobiles that svg elements display correctly and  photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
 
+@media screen and (min-width: 480px) and (max-width: 900px) {
+  #CdSLogo_1 {
+    margin-top: 40vh;
+    -webkit-transform: scale(0.6) translate(-41%, 0%);
+    -moz-transform: scale(0.6) translate(-41%, 0%);
+    -ms-transform: scale(0.6) translate(-41%, 0%);
+    -o-transform: scale(0.6) translate(-41%, 0%);
+    transform: scale(0.6) translate(-41%, 0%);
+  }
 
-}
-    
+  #outboundJourney {
+    -webkit-transform: scale(0.8) translate(10%, 20%);
+    -moz-transform: scale(0.8) translate(10%, 20%);
+    -ms-transform: scale(0.8) translate(10%, 20%);
+    -o-transform: scale(0.8) translate(10%, 20%);
+    transform: scale(0.8) translate(10%, 20%);
+  }
 
-      /*To ensure on ipad screens and larger mobiles that svg elements display correctly and  photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
-      @media screen and (min-width:480px) and (max-width:900px){
-
-        #CdSLogo_1{
-          margin-top:40vh;
-          transform: scale(0.6) translate(-41%,0%) ;
-          -webkit-transform: scale(0.6) translate(-41%,0%) ;
-          -moz-transform: scale(0.6) translate(-41%,0%) ;
-          -ms-transform: scale(0.6) translate(-41%,0%) ;
-          -o-transform: scale(0.6) translate(-41%,0%) ;
+  .May2025Santiago {
+    top: 50%;
+    left: 35%;
+  }
 }
 
+@media screen and (min-width: 400px) and (max-width: 480px) {
+  #CdSLogo_1 {
+    margin-top: 20vh;
+    -webkit-transform: scale(0.3) translate(-123%, -40%);
+    -moz-transform: scale(0.3) translate(-123%, -40%);
+    -ms-transform: scale(0.3) translate(-123%, -40%);
+    -o-transform: scale(0.3) translate(-123%, -40%);
+    transform: scale(0.3) translate(-123%, -40%);
+  }
 
-#outboundJourney{
-  transform: scale(0.8) translate(10%,30%) ;
-  -webkit-transform: scale(0.8) translate(10%,30%) ;
-  -moz-transform: scale(0.8) translate(10%,30%) ;
-  -ms-transform: scale(0.8) translate(10%,30%) ;
-  -o-transform: scale(0.8) translate(10%,30%) ;
+  #outboundJourney {
+    -webkit-transform: scale(0.8) translate(12%, 20%);
+    -moz-transform: scale(0.8) translate(10%, 20%);
+    -ms-transform: scale(0.8) translate(10%, 20%);
+    -o-transform: scale(0.8) translate(10%, 20%);
+    transform: scale(0.8) translate(10%, 20%);
+  }
+
+  .May2025Santiago {
+    font-size: 1em;
+    top: 35%;
+    left: 35%;
+  }
+
+  .may2025Background {
+    opacity: 0.7;
+  }
 }
 
-          .May2025Santiago{
-            display:block;
-            position:absolute;
-            text-align: center;
-            font-size: 1.5em;
-            color:navy;
-            font-weight: bold;
-            top:32%;
-            left:38%;
-            
-          }
+@media screen and (min-width: 350px) and (max-width: 400px) {
+  #CdSLogo_1 {
+    margin-top: 15vh;
+    -webkit-transform: scale(0.25) translate(-155%, -40%);
+    -moz-transform: scale(0.25) translate(-155%, -40%);
+    -ms-transform: scale(0.25) translate(-155%, -40%);
+    -o-transform: scale(0.25) translate(-155%, -40%);
+    transform: scale(0.25) translate(-155%, -40%);
+  }
 
+  #outboundJourney {
+    -webkit-transform: scale(0.9) translate(16%, 15%);
+    -moz-transform: scale(0.9) translate(16%, 15%);
+    -ms-transform: scale(0.9) translate(16%, 15%);
+    -o-transform: scale(0.9) translate(16%, 15%);
+    transform: scale(0.9) translate(16%, 15%);
+  }
 
-    }
+  #returnJourney {
+    -webkit-transform: scale(0.9) translate(11%, 10%);
+    -moz-transform: scale(0.9) translate(11%, 10%);
+    -ms-transform: scale(0.9) translate(11%, 10%);
+    -o-transform: scale(0.9) translate(11%, 10%);
+    transform: scale(0.9) translate(11%, 10%);
+  }
 
-    @media screen and (min-width:400px) and (max-width:480px) {
-      #CdSLogo_1{
-        margin-top:20vh;
-        transform: scale(0.3) translate(-123%, -40%) ;
-        -webkit-transform: scale(0.3) translate(-123%, -40%) ;
-        -moz-transform: scale(0.3) translate(-123%, -40%) ;
-        -ms-transform: scale(0.3) translate(-123%, -40%) ;
-        -o-transform: scale(0.3) translate(-123%, -40%) ;
+  .May2025Santiago {
+    font-size: 1em;
+    top: 37%;
+    left: 33%;
+  }
+
+  .may2025Background {
+    opacity: 0.7;
+    height: 10%;
+  }
 }
 
-#outboundJourney{
-  transform: scale(0.8) translate(10%,20%) ;
-  -webkit-transform: scale(0.8) translate(10%,20%) ;
-  -moz-transform: scale(0.8) translate(10%,20%) ;
-  -ms-transform: scale(0.8) translate(10%,20%) ;
-  -o-transform: scale(0.8) translate(10%,20%) ;
+@media screen and (min-width: 300px) and (max-width: 350px) {
+  #CdSLogo_1 {
+    margin-top: 20vh;
+    -webkit-transform: scale(0.25) translate(-157%, -40%);
+    -moz-transform: scale(0.25) translate(-157%, -40%);
+    -ms-transform: scale(0.25) translate(-157%, -40%);
+    -o-transform: scale(0.25) translate(-157%, -40%);
+    transform: scale(0.25) translate(-157%, -40%);
+  }
+
+  #outboundJourney {
+    -webkit-transform: scale(0.8) translate(16%, 15%);
+    -moz-transform: scale(0.8) translate(16%, 15%);
+    -ms-transform: scale(0.8) translate(16%, 15%);
+    -o-transform: scale(0.8) translate(16%, 15%);
+    transform: scale(0.8) translate(16%, 15%);
+  }
+
+  #returnJourney {
+    -webkit-transform: scale(0.85) translate(11%, 10%);
+    -moz-transform: scale(0.85) translate(11%, 10%);
+    -ms-transform: scale(0.85) translate(11%, 10%);
+    -o-transform: scale(0.85) translate(11%, 10%);
+    transform: scale(0.85) translate(11%, 10%);
+  }
+
+  .May2025Santiago {
+    font-size: 1em;
+    top: 42%;
+    left: 32%;
+  }
+
+  .may2025Background {
+    opacity: 0.7;
+    height: 10%;
+  }
 }
-
-        .May2025Santiago{
-          display:block;
-          position:absolute;
-          text-align: center;
-          font-size: 1.5em;
-          color:navy;
-          font-weight: bold;
-          top:17%;
-          left:30%;
-          }
-
-          .may2025Background{
-            background: linear-gradient(#FFD700 5%, #FFFF00 15%, #F0E68c 20%,#87CEEb, #00BFFF, #6495ED, #1E90FF, #4682B4);
-            opacity:0.7;
-            height: 30%;
-            overflow: hidden;
-            position:relative;
-        }
-
-}
-
-@media screen and (min-width:350px) and (max-width:400px) {
- 
-  #CdSLogo_1{
-    margin-top:15vh;
-    transform: scale(0.25) translate(-155%, -40%) ;
-    -webkit-transform: scale(0.25) translate(-155%, -40%) ;
-    -moz-transform: scale(0.25) translate(-155%, -40%) ;
-    -ms-transform: scale(0.25) translate(-155%, -40%) ;
-    -o-transform: scale(0.25) translate(-155%, -40%) ;
-}
-
-#outboundJourney{
-  transform: scale(0.9) translate(20%, 15%) ;
-  -webkit-transform: scale(0.9) translate(20%, 15%) ;
-  -moz-transform: scale(0.9) translate(20%, 15%) ;
-  -ms-transform: scale(0.9) translate(20%, 15%) ;
-  -o-transform: scale(0.9) translate(20%, 15%) ;
-}
-
-#returnJourney{
-  transform: scale(0.9) translate(15%, 10%) ;
-  -webkit-transform: scale(0.9) translate(15%, 10%) ;
-  -moz-transform: scale(0.9) translate(15%, 10%) ;
-  -ms-transform: scale(0.9) translate(15%, 10%) ;
-  -o-transform: scale(0.9) translate(15%, 10%) ;
-}
-
-    .May2025Santiago{
-      display:block;
-      position:absolute;
-      text-align: center;
-      font-size: 1.1em;
-      color:navy;
-      font-weight: bold;
-      top:17%;
-      left:34%;
-      }
-
-      .may2025Background{
-        background: linear-gradient(#FFD700 5%, #FFFF00 15%, #F0E68c 20%,#87CEEb, #00BFFF, #6495ED, #1E90FF, #4682B4);
-        opacity:0.7;
-        height: 10%;
-        overflow: hidden;
-        position:relative;
-    }
-
-}
-
-@media screen and (min-width:300px) and (max-width:350px) {
-  #CdSLogo_1{
-    margin-top:20vh;
-    transform: scale(0.25) translate(-153%, -40%) ;
-    -webkit-transform: scale(0.25) translate(-153%, -40%) ;
-    -moz-transform: scale(0.25) translate(-153%, -40%) ;
-    -ms-transform: scale(0.25) translate(-153%, -40%) ;
-    -o-transform: scale(0.25) translate(-153%, -40%) ;
-}
-
-#outboundJourney{
-  transform:scale(0.8)  translate(10%, 30%) ;
-  -webkit-transform:scale(0.8)  translate(10%, 30%) ;
-  -moz-transform:scale(0.8)  translate(10%, 30%) ;
-  -ms-transform:scale(0.8)  translate(10%, 30%) ;
-  -o-transform:scale(0.8)  translate(10%, 30%) ;
-}
-
-#returnJourney{
-  transform: scale(0.8) translate(10%, 26%) ;
-  -webkit-transform: scale(0.8) translate(10%, 26%) ;
-  -moz-transform: scale(0.8) translate(10%, 26%) ;
-  -ms-transform: scale(0.8) translate(10%, 26%) ;
-  -o-transform: scale(0.8) translate(10%, 26%) ;
-}
-
-    .May2025Santiago{
-      display:block;
-      position:absolute;
-      text-align: center;
-      font-size: 1.1em;
-      color:navy;
-      font-weight: bold;
-      top:18%;
-      left:25%;
-      }
-
-      .may2025Background{
-        background: linear-gradient(#FFD700 5%, #FFFF00 15%, #F0E68c 20%,#87CEEb, #00BFFF, #6495ED, #1E90FF, #4682B4);
-        opacity:0.7;
-        height: 10%;
-        overflow: hidden;
-        position:relative;
-    }
-}
-
-
-    

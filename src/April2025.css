@@ -1,497 +1,462 @@
 .April2025header {
-    display:block;
+  display: block;
+  text-align: center;
+  font-size: 1.75em;
+  color: white;
+  font-weight: bold;
+  border: solid 3px;
+  width: 100vw;
+  height: 83vh;
+  background: #e1eae7;
+  position: absolute;
+
+  #April2025title {
+    display: block;
     text-align: center;
-    font-size: 1.75em;
-    color:white;
-    font-weight: bold;
-    border:solid 3px;
-    width: 100vw;
-    height: 83vh;
-    background: #e1eae7;
-    position:absolute; 
-  
-  #April2025title{
-    display:block;
-    text-align: center;
-    margin-top:2%;
-    color: 	#52555c;
+    margin-top: 2%;
+    color: #52555c;
   }
-  
-  #backbuttonApril{
-    display:block;
-    position:absolute;
-    height:50px;
-    width:15%;
-    background-color:gray;
-    border:black 2px solid;
+
+  #backbuttonApril {
+    display: block;
+    position: absolute;
+    height: 50px;
+    width: 15%;
+    background-color: gray;
+    border: black 2px solid;
     text-align: center;
     font-size: large;
     font-weight: bold;
-    color:white;
+    color: white;
     margin: 5% 25% 5% 75%;
-    border-radius:15%;
-    -webkit-border-radius:15%;
-    -moz-border-radius:15%;
-    -ms-border-radius:15%;
-    -o-border-radius:15%;
-  } 
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+    border-radius: 15%;
   }
-  
-  .backbuttonLink{
-    color:white
-    } 
-  
-  .LinkApril2025{
-    text-decoration: underline;
-    color:blue;
-  }
-  
-  .datenewsDivApril2025{
-   
-    background-color:#8bb285;
-    display:flex;
-    flex-direction:column;
-    margin-top: 0%;
-    margin-bottom:0%;
-    padding-top: 10%;
-    padding-bottom:1%;
-  }
-  
-  .dateApril2025{
-    color:#36454F;
-    border:solid 3px #757c88;
-    background-color:#f6f0a3;
-    text-align: center;
-    padding:10px 10px 10px 10px;
-    margin:5px;
-    font-size:1.2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-
-  .dateAprilHeader2025{
-    color:#36454F;
-    border:solid 3px #757c88;
-    background-color:#f6f0a3;
-    text-align: center;
-    padding:10px 10px 10px 10px;
-    margin:5px;
-    font-size:1.2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  
-  .newsheaderApril2025{
-    color:#36454F;
-    border:solid 3px #757c88;
-    background-color:#f6f0a3;
-    text-align: center;
-    padding:10px 10px 10px 10px;
-    margin:5px;
-    font-size:1.2rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-  
-  .newsApril2025{
-    color:#36454F;
-    border:solid 3px #757c88;
-    background-color:#f6f0a3;
-    text-align: left;
-    padding:10px 10px 20px 10px;
-    margin:3%;
-    font-size:1.1rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
-
-  #groundApril2025{
-      width:400vw;
-      x:-50px;
-      y:480px;
-      height:2000px;
-      
-    } 
-  
-  /* .blogPhoto img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:70%;
-    height:70%;
-    border:solid grey;
-    border-radius:30px;
-    } */
-
-    
-  .blogPhotoApril2025 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:70%;
-    height:auto;
-    border:solid grey 4px;
-    border-radius: 30%;
-    -webkit-border-radius: 30%;
-    -moz-border-radius: 30%;
-    -ms-border-radius: 30%;
-    -o-border-radius: 30%;
 }
 
-    .slideshowinstructionsApril2025 {
-      margin-top:1%;
-      margin-bottom:1%;
-      font-size:1.1rem;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      display: block;
-      color:black;
-      background-color: #f6f0a3;
-      
-    }
-    
-    .slideshowentryApril2025 {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      pointer-events:none;
-      height:auto;
-      width: 70%;
-      border:solid grey 4px;
-      border-radius:70%;
-      margin-top:1%;
-      margin-bottom:1%;
-      -webkit-border-radius:70%;
-      -moz-border-radius:70%;
-      -ms-border-radius:70%;
-      -o-border-radius:70%;
-      padding: 5%;
-  } 
-    
-    .SlideshowHostPhotoApril2025{
-      display:flex;
-      flex-direction: column;
-      border:solid 3px grey;
-      background-color:#f6f0a3;
-      padding-bottom: 2%;
-      padding-top: 2%;    
-      margin-right: auto;
-      margin-left: auto;
-      justify-content:center;
-      text-align:center;
-    }
-  
-    fig{
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right:auto;
-      }
-      
-      fig img {
-        vertical-align: top;
-      }
-  
-      .april2025figcaption {
-        text-align: center;
-        font-family: bold;
-        color:black;
-        font-size:60%;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        overflow-wrap:normal;
-        padding:5%;
-      }
+.backbuttonLink {
+  color: white;
+}
 
-      .titlesApril2025{
-        font-family: bold;
-        color:#36454F;
-        padding-left: 10%;
-        padding-right: 10%;
-        font-size:1.1rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;       
-      }
-      
-      .headTitlesApril2025{
-        color:#36454F;
-        font-size:1.1rem; 
-        padding-left: 10%;
-        padding-right: 10%;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: bold;
-        text-decoration: underline;
-      }
+.LinkApril2025 {
+  text-decoration: underline;
+  color: blue;
+}
 
-      .largerFont {
-        font-size: 1.2rem;
-      }
+.datenewsDivApril2025 {
+  background-color: #8bb285;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 10%;
+  padding-bottom: 1%;
+}
 
-      hwpIntroListApril2025{
-        font-size:1.2rem;
-          padding-left: 10%;
-          list-style-type: none;
-      }
+.dateApril2025 {
+  color: #36454f;
+  border: solid 3px #757c88;
+  background-color: #f6f0a3;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 5px;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
-        
-  .blogPhotoDivApril2025{
-    display:flex;
-    flex-direction: row;
-    border:solid 2px #757c88;
-    background-color:#f6f0a3;
-    padding-bottom: 2%;
-    padding-top: 3%;
-    padding-left: 2%;
-    padding-right:2%;
-    margin-top:5vh;
-    margin-bottom:5vh;
-    width:100%;
-  }
-  
-  .blogPhotoApril2025 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:75%;
-    height:auto;
-    border:solid #757c88 4px;
-    border-radius: 20%;
-    -webkit-border-radius: 20%;
-    -moz-border-radius: 20%;
-    -ms-border-radius: 20%;
-    -o-border-radius: 20%;
-  }
-  
-  
-  .April2025figcaption {
-    text-align: center;
-    font-family: bold;
-    color:#757c88;
-    font-size: 1.1rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    overflow-wrap:normal;
-    padding-top:5%;
+.dateAprilHeader2025 {
+  color: #36454f;
+  border: solid 3px #757c88;
+  background-color: #f6f0a3;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 5px;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.newsheaderApril2025 {
+  color: #36454f;
+  border: solid 3px #757c88;
+  background-color: #f6f0a3;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 5px;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.newsApril2025 {
+  color: #36454f;
+  border: solid 3px #757c88;
+  background-color: #f6f0a3;
+  text-align: left;
+  padding: 10px 10px 20px 10px;
+  margin: 3%;
+  font-size: 1.1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#groundApril2025 {
+  width: 400vw;
+  x: -50px;
+  y: 480px;
+  height: 2000px;
+}
+
+.blogPhotoApril2025 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+  border: solid grey 4px;
+  -webkit-border-radius: 30%;
+  -moz-border-radius: 30%;
+  -ms-border-radius: 30%;
+  -o-border-radius: 30%;
+  border-radius: 30%;
+}
+
+.slideshowinstructionsApril2025 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1.1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: block;
+  color: black;
+  background-color: #f6f0a3;
+}
+
+.slideshowentryApril2025 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
+  height: auto;
+  width: 70%;
+  border: solid grey 4px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  -webkit-border-radius: 70%;
+  -moz-border-radius: 70%;
+  -ms-border-radius: 70%;
+  -o-border-radius: 70%;
+  padding: 5%;
+  border-radius: 70%;
+}
+
+.SlideshowHostPhotoApril2025 {
+  display: flex;
+  flex-direction: column;
+  border: solid 3px grey;
+  background-color: #f6f0a3;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+fig {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+fig img {
+  vertical-align: top;
+}
+
+.april2025figcaption {
+  text-align: center;
+  font-family: bold;
+  color: black;
+  font-size: 60%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow-wrap: normal;
+  padding: 5%;
+}
+
+.titlesApril2025 {
+  font-family: bold;
+  color: #36454f;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.headTitlesApril2025 {
+  color: #36454f;
+  font-size: 1.1rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.largerFont {
+  font-size: 1.2rem;
+}
+
+hwpIntroListApril2025 {
+  font-size: 1.2rem;
+  padding-left: 10%;
+  list-style-type: none;
+}
+
+.blogPhotoDivApril2025 {
+  display: flex;
+  flex-direction: row;
+  border: solid 2px #757c88;
+  background-color: #f6f0a3;
+  padding-bottom: 2%;
+  padding-top: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 100%;
+}
+
+.blogPhotoApril2025 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  height: auto;
+  border: solid #757c88 4px;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  border-radius: 20%;
+}
+
+.April2025figcaption {
+  text-align: center;
+  font-family: bold;
+  color: #757c88;
+  font-size: 1.1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow-wrap: normal;
+  padding-top: 5%;
+}
+
+/*To ensure on laptops that the sheep are not submerged into the ground*/
+@media screen and (min-width: 901px) and (max-width: 1600px) {
+  #swaledaleSheep1 {
+    -webkit-transform: translate(-200px, 0px);
+    -moz-transform: translate(-200px, 0px);
+    -ms-transform: translate(-200px, 0px);
+    -o-transform: translate(-200px, 0px);
+    transform: translate(-200px, 0px);
+    overflow: visible;
   }
 
-      /*To ensure on laptops that the sheep are not submerged into the ground*/
-  @media screen and (min-width:901px) and (max-width:1600px){
-    #swaledaleSheep1{ transform: translate(-200px,0px); -webkit-transform: translate(-200px,0px); -moz-transform: translate(-200px,0px); -ms-transform: translate(-200px,0px); -o-transform: translate(-200px,0px); overflow: visible;
+  #swaledaleSheep2 {
+    -webkit-transform: translate(-600px, 0px);
+    -moz-transform: translate(-600px, 0px);
+    -ms-transform: translate(-600px, 0px);
+    -o-transform: translate(-600px, 0px);
+    transform: translate(-600px, 0px);
+    overflow: visible;
   }
-    
-    #swaledaleSheep2{
-      transform: translate(-600px,0px);
-      -webkit-transform: translate(-600px,0px);
-      -moz-transform: translate(-600px,0px);
-      -ms-transform: translate(-600px,0px);
-      -o-transform: translate(-600px,0px);
-      overflow: visible;
+
+  #lamb1 {
+    -webkit-transform: translate(-200px, -20px);
+    -moz-transform: translate(-200px, -20px);
+    -ms-transform: translate(-200px, -20px);
+    -o-transform: translate(-200px, -20px);
+    transform: translate(-200px, -20px);
+    overflow: visible;
   }
-    
-    #lamb1{
-      transform: translate(-200px,-20px);
-      -webkit-transform: translate(-200px,-20px);
-      -moz-transform: translate(-200px,-20px);
-      -ms-transform: translate(-200px,-20px);
-      -o-transform: translate(-200px,-20px);
-      overflow: visible;
+
+  #lamb2 {
+    -webkit-transform: translate(-200px, -20px);
+    -moz-transform: translate(-200px, -20px);
+    -ms-transform: translate(-200px, -20px);
+    -o-transform: translate(-200px, -20px);
+    transform: translate(-200px, -20px);
+    overflow: visible;
   }
-    
-    
-    #lamb2{
-      transform: translate(-200px,-20px);
-      -webkit-transform: translate(-200px,-20px);
-      -moz-transform: translate(-200px,-20px);
-      -ms-transform: translate(-200px,-20px);
-      -o-transform: translate(-200px,-20px);
-      overflow: visible;
+
+  .April2025header {
+    height: 90vh;
   }
-  
-  .April2024header {
-    height:90vh;
+
+  #ground {
+    width: 400vw;
+    x: -50px;
+    y: 480px;
+    height: 400px;
   }
-  
-  #ground{
-    width:400vw;
-    x:-50px;
-    y:480px;
-    height:400px;
-  } 
+}
+
+/*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+@media screen and (min-width: 480px) and (max-width: 900px) {
+  /*To ensure on ipad screens and larger mobiles (min-width 480px, max-width 900px) that the ground extends to meet the upper margin of the darker body colour */
+  #groundApril2025 {
+    width: 400vw;
+    x: -50px;
+    y: 480px;
+    height: 2500px;
   }
-    
-  
-      /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
-  @media screen and (min-width:480px) and (max-width:900px){
-  
-    /*To ensure on ipad screens and larger mobiles (min-width 480px, max-width 900px) that the ground extends to meet the upper margin of the darker body colour */
-    #groundApril2025{
-      width:400vw;
-      x:-50px;
-      y:480px;
-      height:2500px;
-   } 
-  
-  
+
   /*To ensure on ipad screens and larger mobiles (min-width 480px, max-width 900px) that the sheep and lambs are correctly positioned*/
-   #swaledaleSheep1{ transform: translate(-200px,0px); -webkit-transform: translate(-200px,0px); -moz-transform: translate(-200px,0px); -ms-transform: translate(-200px,0px); -o-transform: translate(-200px,0px); overflow: visible;
-   }
-     
-     #swaledaleSheep2{
-       transform: translate(-600px,0px);
-       -webkit-transform: translate(-600px,0px);
-       -moz-transform: translate(-600px,0px);
-       -ms-transform: translate(-600px,0px);
-       -o-transform: translate(-600px,0px);
-       overflow: visible;
-  }
-     
-     #lamb1{
-       transform: translate(-200px,-50px);
-       -webkit-transform:rotate(-30,530, 485);
-       -moz-transform:rotate(-30,530, 485);
-       -ms-transform:rotate(-30,530, 485);
-       -o-transform:rotate(-30,530, 485);
-       overflow: visible;
-  }
-  
-  #lambtail1{
-    transform:translate(5px,10px);
-    -webkit-transform:translate(5px,10px);
-    -moz-transform:translate(5px,10px);
-    -ms-transform:translate(5px,10px);
-    -o-transform:translate(5px,10px);
-  }
-  
-  #lambtail2{
-    transform:translate(0px, -10px);
-    -webkit-transform:translate(0px, -10px);
-    -moz-transform:translate(0px, -10px);
-    -ms-transform:translate(0px, -10px);
-    -o-transform:translate(0px, -10px);
-  }
-  
-  #lamb2
-  {
-       transform: translate(-200px,-40px);
-       -webkit-transform: translate(-200px,-40px);
-       -moz-transform: translate(-200px,-40px);
-       -ms-transform: translate(-200px,-40px);
-       -o-transform: translate(-200px,-40px);
-       overflow: visible;
+  #swaledaleSheep1 {
+    -webkit-transform: translate(-200px, 0px);
+    -moz-transform: translate(-200px, 0px);
+    -ms-transform: translate(-200px, 0px);
+    -o-transform: translate(-200px, 0px);
+    transform: translate(-200px, 0px);
+    overflow: visible;
   }
 
-  .blogPhotoDivApril2025{
-    display:flex;
+  #swaledaleSheep2 {
+    -webkit-transform: translate(-600px, 0px);
+    -moz-transform: translate(-600px, 0px);
+    -ms-transform: translate(-600px, 0px);
+    -o-transform: translate(-600px, 0px);
+    transform: translate(-600px, 0px);
+    overflow: visible;
+  }
+
+  #lamb1 {
+    -webkit-transform: rotate(-30, 530, 485);
+    -moz-transform: rotate(-30, 530, 485);
+    -ms-transform: rotate(-30, 530, 485);
+    -o-transform: rotate(-30, 530, 485);
+    transform: translate(-200px, -50px);
+    overflow: visible;
+  }
+
+  #lambtail1 {
+    -webkit-transform: translate(5px, 10px);
+    -moz-transform: translate(5px, 10px);
+    -ms-transform: translate(5px, 10px);
+    -o-transform: translate(5px, 10px);
+    transform: translate(5px, 10px);
+  }
+
+  #lambtail2 {
+    -webkit-transform: translate(0px, -10px);
+    -moz-transform: translate(0px, -10px);
+    -ms-transform: translate(0px, -10px);
+    -o-transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
+  }
+
+  #lamb2 {
+    -webkit-transform: translate(-200px, -40px);
+    -moz-transform: translate(-200px, -40px);
+    -ms-transform: translate(-200px, -40px);
+    -o-transform: translate(-200px, -40px);
+    transform: translate(-200px, -40px);
+    overflow: visible;
+  }
+
+  .blogPhotoDivApril2025 {
+    display: flex;
     flex-direction: column;
-    background-color: #f6f0a3;;
+    background-color: #f6f0a3;
     padding-bottom: 3%;
     padding-top: 2%;
-    margin-top:2%;
-    }
-  
+    margin-top: 2%;
   }
-  
-  /*To ensure on devices  (min-width 598px, max-width 699px) that the April2025header height is correct size*/
-  .April2024header{
-    height:90vh;
+}
+
+/*To ensure on devices  (min-width 598px, max-width 699px) that the April2025header height is correct size*/
+.April2025header {
+  height: 90vh;
+}
+
+@media screen and (max-width: 480px) {
+  /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of the site are displayed with the best dimensions for the smaller devices*/
+
+  .mountainForeground,
+  .mountainMiddle,
+  .mountainBackground {
+    -webkit-transform: scale(50%) translate(-150px, 0px);
+    -moz-transform: scale(50%) translate(-150px, 0px);
+    -ms-transform: scale(50%) translate(-150px, 0px);
+    -o-transform: scale(50%) translate(-150px, 0px);
+    transform: scale(50%) translate(-150px, 0px);
   }
-  
-  @media screen and (max-width:480px) {
-  
-   /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of the site are displayed with the best dimensions for the smaller devices*/
-  
-  .mountainForeground, .mountainMiddle, .mountainBackground{
-    transform:scale(50%) translate(-150px,0px);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+
+  #gradSpringSun {
+    -webkit-transform: translateY(-300px);
+    -moz-transform: translateY(-300px);
+    -ms-transform: translateY(-300px);
+    -o-transform: translateY(-300px);
+    transform: translateY(-300px);
   }
-  
-  #gradSpringSun{
-    transform:translateY(-300px);
-    -webkit-transform:translateY(-300px);
-    -moz-transform:translateY(-300px);
-    -ms-transform:translateY(-300px);
-    -o-transform:translateY(-300px);
+
+  #groundApril2025 {
+    width: 400vw;
+    x: -50px;
+    y: 260px;
+    height: 2500px;
   }
-  
-  #groundApril2025{
-  width:400vw;
-  x:-50px;
-  y:260px;
-  height:2500px;
-  } 
-  
-  .April2024header {
-  display:block;
-  text-align: center;
-  font-size: 1.75em;
-  color:white;
-  font-weight: bold;
-  border:solid 3px;
-  width: 100vw;
-  height: 50vh;
-  background: #e1eae7;
-  position:absolute; 
-  
-  } 
-  
-  #swaledaleSheep1{ transform:scale(50%) translate(-200px,0px); -webkit-transform:scale(50%) translate(-200px,0px); -moz-transform:scale(50%) translate(-200px,0px); -ms-transform:scale(50%) translate(-200px,0px); -o-transform:scale(50%) translate(-200px,0px); overflow: visible;
+
+  .April2025header {
+    height: 50vh;
   }
-  
-  #swaledaleSheep2{
-    transform:scale(50%) translate(-600px,0px);
-    -webkit-transform:scale(50%) translate(-600px,0px);
-    -moz-transform:scale(50%) translate(-600px,0px);
-    -ms-transform:scale(50%) translate(-600px,0px);
-    -o-transform:scale(50%) translate(-600px,0px);
-    overflow: visible;
-  }
-  
-  #lamb1{
-    transform:scale(60%) translate(-200px,0px);
-    -webkit-transform:scale(60%) translate(-200px,0px);
-    -moz-transform:scale(60%) translate(-200px,0px);
-    -ms-transform:scale(60%) translate(-200px,0px);
-    -o-transform:scale(60%) translate(-200px,0px);
-    overflow: visible;
-  }
-  
-  
-  #lamb2{
-    transform:scale(60%) translate(-200px,0px);
-    -webkit-transform:scale(60%) translate(-200px,0px);
-    -moz-transform:scale(60%) translate(-200px,0px);
-    -ms-transform:scale(60%) translate(-200px,0px);
-    -o-transform:scale(60%) translate(-200px,0px);
+
+  #swaledaleSheep1 {
+    -webkit-transform: scale(50%) translate(-200px, 0px);
+    -moz-transform: scale(50%) translate(-200px, 0px);
+    -ms-transform: scale(50%) translate(-200px, 0px);
+    -o-transform: scale(50%) translate(-200px, 0px);
+    transform: scale(50%) translate(-200px, 0px);
     overflow: visible;
   }
 
-  .blogPhotoDivApril2025{
-    display:flex;
+  #swaledaleSheep2 {
+    -webkit-transform: scale(50%) translate(-600px, 0px);
+    -moz-transform: scale(50%) translate(-600px, 0px);
+    -ms-transform: scale(50%) translate(-600px, 0px);
+    -o-transform: scale(50%) translate(-600px, 0px);
+    transform: scale(50%) translate(-600px, 0px);
+    overflow: visible;
+  }
+
+  #lamb1 {
+    -webkit-transform: scale(60%) translate(-200px, 0px);
+    -moz-transform: scale(60%) translate(-200px, 0px);
+    -ms-transform: scale(60%) translate(-200px, 0px);
+    -o-transform: scale(60%) translate(-200px, 0px);
+    transform: scale(60%) translate(-200px, 0px);
+    overflow: visible;
+  }
+
+  #lamb2 {
+    -webkit-transform: scale(60%) translate(-200px, 0px);
+    -moz-transform: scale(60%) translate(-200px, 0px);
+    -ms-transform: scale(60%) translate(-200px, 0px);
+    -o-transform: scale(60%) translate(-200px, 0px);
+    transform: scale(60%) translate(-200px, 0px);
+    overflow: visible;
+  }
+
+  .blogPhotoDivApril2025 {
     flex-direction: column;
-    background-color: #f6f0a3;;
     padding-bottom: 15%;
     padding-top: 5%;
-    margin-top:2%;
-    }
-  
-  .blogPhotoDivApril2025{
-  display:flex;
-  flex-direction: column;
-  background-color: #f6f0a3;;
-  padding-bottom: 15%;
-  padding-top: 5%;
-  margin-top:2%;
+    margin-top: 2%;
   }
 
-  #groundApril2025{
-    width:400vw;
-    x:-50px;
-    y:260px;
-    height:3000px;
-    } 
-  
+  #groundApril2025 {
+    width: 400vw;
+    x: -50px;
+    y: 260px;
+    height: 3000px;
   }
-  
- 
-        
-  
-  
-  
-  
-  
-  
+}

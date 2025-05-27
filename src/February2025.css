@@ -1,415 +1,303 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 .bodyFeb2025 {
-  background-color:#6B7A8F;
-  margin:0;
-  padding:0;
-  height:100vh;
-  }
-
-.February2025header {
-    color:white;
-    display:block;
-    text-align: center;
-    justify-items: center;
-    font-size: 1.55em;
-    font-weight: bold;
-    width: 100%;
-    height:15vh;
-    position:relative;
-    background-color:#7393B3;
-    padding:4%;
+  background-color: #6b7a8f;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
-#backbuttonFebruary2025{
-  display:block;
-  position:absolute;
-  height:fit-content;
-  width:fit-content;
-  padding:2%;
-  background-color: #786D68 ;
-  border:grey 2px solid;
+.February2025header {
+  color: white;
+  display: block;
+  text-align: center;
+  justify-items: center;
+  font-size: 1.55em;
+  font-weight: bold;
+  width: 100%;
+  height: 15vh;
+  position: relative;
+  background-color: #7393b3;
+  padding: 4%;
+}
+
+#backbuttonFebruary2025 {
+  display: block;
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  padding: 2%;
+  background-color: #786d68;
+  border: grey 2px solid;
   text-align: center;
   font-size: large;
   font-weight: bold;
-  color:whitesmoke;
-  top:10%;
+  color: whitesmoke;
+  top: 10%;
   text-decoration: underline;
   margin: 1% 25% 5% 75%;
-  border-radius:15%;
-  -webkit-border-radius:15%;
-  -moz-border-radius:15%;
-  -ms-border-radius:15%;
-  -o-border-radius:15%;
-} 
-
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  border-radius: 15%;
+}
 
 /* .stageBorder is the container for .curtain1 and .curtain2 */
 .stageBorder {
-    height:100%;
-    position:relative; /* As stageBorder is the container for curtain1 and curtain2, this needs to be position: relative 
-    to enable the curtain1 and curtain2, both position:absolute to be positioned in relation to this container.*/
+  height: 100%;
+  position: relative;
 }
 
 .snowScene {
-  background: linear-gradient(180deg, #a6c0cd 20% , #dde6eb 30% , #f4f4f4 35% 100%); 
+  background: linear-gradient(
+    180deg,
+    #a6c0cd 20%,
+    #dde6eb 30%,
+    #f4f4f4 35% 100%
+  );
   display: block;
-  position:absolute;
-  width:100vw;
-  height:100vh;
-  top:0;
-    }
-
-  .groundSnow {
-    position:absolute;
-    background:linear-gradient(45deg, #736e68, #f4f4f4);
-
-  }
-
-.curtain1{
-    display:block;
-    position:absolute;
-    height: 100vh;
-    width: 100%;
-}
-
-.curtain1::after,
-.curtain1::before {
-  content: '';   /*an empty content: property. This is necessary for these pseudo-elements to appear*/
-  background: repeating-linear-gradient(to left, #7990AF 0%, #21467A 10%, #7990AF 15%);
   position: absolute;
-  transition-duration: 10s;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
 }
 
-.curtain1::after,
-.curtain1::before {
-  height: 100%;
-  width: 50%;
+.groundSnow {
+  position: absolute;
+  background: linear-gradient(45deg, #736e68, #f4f4f4);
 }
 
-/*Left half*/
-.curtain1::before {
-  left: 0;
-  transform-origin: left;
-}
-
-/*Right half*/
-.curtain1::after {
-  right: 0;
-  transform-origin: right;
-}
-
-.curtain1:hover:after,
-.curtain1:hover:before {
-  opacity: 1;
-}
-
-/*For the left and right halves:*/
-.curtain1:hover:after,
-.curtain1:hover:before {
-  transform: scaleX(0);
-  -webkit-transform: scaleX(0);
-  -moz-transform: scaleX(0);
-  -ms-transform: scaleX(0);
-  -o-transform: scaleX(0);
-}
-
-.newsFebruary{
-  color:#687875;
-  border:solid 2px whitesmoke;
-  background-color:	#C2B280;
+.newsFebruary {
+  color: #687875;
+  border: solid 2px whitesmoke;
+  background-color: #c2b280;
   text-align: left;
-  padding:50px 20px 25px 20px;
-  margin-top:0%;
+  padding: 50px 20px 25px 20px;
+  margin-top: 0%;
   margin-bottom: 5%;
-  font-size:1.2rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight:bold;
-  width:100%;
-}
-
-.dateFebruary{
-  color:#687875;
-  border:solid 2px whitesmoke;
-  background-color:		#C2B280;
-  text-align: center;
-  padding:10px 10px 10px 10px;
-  margin-top:3%;
-  margin-bottom:1%;
-  font-size:1.2rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
-  width:100%;
+  width: 100%;
 }
 
-.newsheaderFebruary{
-  color:#687875;
-  border:solid 2px whitesmoke;
-  background-color: 	#C2B280;
+.dateFebruary {
+  color: #687875;
+  border: solid 2px whitesmoke;
+  background-color: #c2b280;
   text-align: center;
-  padding:10px 20px 10px 20px;
-  margin-top:0.3%;
-  margin-bottom:2%;
-  font-size:1.2rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight:bold;
-  width:100%;
+  padding: 10px 10px 10px 10px;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  width: 100%;
 }
 
-.dateNewsFebruary{
+.newsheaderFebruary {
+  color: #687875;
+  border: solid 2px whitesmoke;
+  background-color: #c2b280;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  margin-top: 0.3%;
+  margin-bottom: 2%;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  width: 100%;
+}
+
+.dateNewsFebruary {
   font-weight: bold;
   font-size: 1.2rem;
-  color:#f7ca46;
+  color: #f7ca46;
 }
 
-.blogPhotoDivFebruary{
-  display:flex;
+.blogPhotoDivFebruary {
+  display: flex;
   flex-direction: row;
-  border:solid 2px #757c88;
-  background-color: #C2B280;
+  border: solid 2px #757c88;
+  background-color: #c2b280;
   padding-bottom: 2%;
   padding-top: 3%;
   padding-left: 2%;
-  padding-right:2%;
-  margin-top:5vh;
-  margin-bottom:5vh;
+  padding-right: 2%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
-.blogPhotoFebruary img{
+.blogPhotoFebruary img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:90%;
-  height:auto;
-  border:solid whitesmoke 4px;
-  border-radius: 20%;
+  width: 90%;
+  height: auto;
+  border: solid whitesmoke 4px;
   -webkit-border-radius: 20%;
   -moz-border-radius: 20%;
   -ms-border-radius: 20%;
   -o-border-radius: 20%;
+  border-radius: 20%;
 }
 
-
-.Februaryfigcaption {
+.februaryFigCaption {
   text-align: center;
-  font-family: bold;
-  color:black;
-  font-size: 1.0rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  overflow-wrap:normal;
-  padding-top:5%;
+  color: #687875;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow-wrap: normal;
+  padding-top: 5%;
 }
 
 .LinkFebruary2025 {
-  color:whitesmoke;
+  color: whitesmoke;
   font-size: 1.2rem;
   text-decoration: underline;
 }
 
 .slideshowinstructionsFebruary {
-  margin-top:1%;
-  margin-bottom:1%;
-  font-size:1.2rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: block;
-  color:#687875;
+  color: #687875;
 }
 
 .slideshowentryFebruary {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  pointer-events:none;
-  height:auto;
+  pointer-events: none;
+  height: auto;
   width: 30%;
-  border:solid whitesmoke 4px;
-  border-radius:100%;
-  margin-top:1%;
-  margin-bottom:1%;
-  -webkit-border-radius:100%;
-  -moz-border-radius:100%;
-  -ms-border-radius:100%;
-  -o-border-radius:100%;
-} 
-
-.SlideshowHostPhotoFebruary{
-  display:flex;
-  flex-direction: column;
-  border:solid 2px whitesmoke;
-  background-color:#C2B280;
-  padding-bottom: 2%;
-  padding-top: 2%;    
-  justify-content:center;
-  text-align:center;
+  border: solid whitesmoke 4px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
 }
 
-@media screen and (min-width:480px) and (max-width:900px) { 
+.SlideshowHostPhotoFebruary {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px whitesmoke;
+  background-color: #c2b280;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) and (max-width: 900px) {
   .snowScene {
-    background: linear-gradient(180deg, #a6c0cd 20% , #dde6eb 30% , #f4f4f4 35% 100%); 
+    height: 90vh;
+    bottom: 0%;
+    padding-left: 20%;
+  }
+
+  .blogPhotoDivFebruary {
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-top: 2%;
+  }
+
+  .slideshowentryFebruary {
     display: block;
-    position:absolute;
-    width:100vw;
-    height:90vh;
-    top:0%;
-    bottom:0%;
-      } 
-
-      .blogPhotoDivFebruary{
-        display: flex;
-        flex-direction: column;
-        background-color: #C2B280;
-        padding-bottom: 5%;
-        padding-top: 5%;
-        margin-top: 2%;
-        }
-
-        .slideshowentryFebruary {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          pointer-events:none;
-          height:auto;
-          width: 40%;
-          border:solid whitesmoke 3px;
-          border-radius:100%;
-          margin-top:3%;
-          margin-bottom:5%;
-          -webkit-border-radius:100%;
-          -moz-border-radius:100%;
-          -ms-border-radius:100%;
-          -o-border-radius:100%;
-        } 
-} 
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    height: auto;
+    width: 40%;
+    border: solid whitesmoke 3px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+  }
+}
 
 .tickList {
-  margin-left:5%;
+  margin-left: 5%;
 }
 
-
-@media screen and (max-width:480px) {  
+@media screen and (max-width: 480px) {
   /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
   the site are displayed with the best dimensions for the smaller devices*/
   .February2025header {
-    display:block;
-    text-align: center;
     font-size: 1.75em;
-    font-weight: bold;
-    width: 100vw;
-    height:15vh;
-    position:relative;
-    background-color: #7393B3;
     overflow-x: hidden;
-      } 
+  }
 
-      .dateFebruary{
-        color:#786D68;
-        border:solid 2px whitesmoke;
-        background-color:		#C2B280;
-        text-align: center;
-        padding:10px 10px 10px 10px;
-        margin-top:1%;
-        margin-bottom:1%;
-        font-size:1.2rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: bold;
-        width:100%;
-      }
+  .dateFebruary {
+    color: #687875;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.2rem;
+  }
 
-      .newsFebruary{
-        color:white;
-        border:solid 2px whitesmoke;
-        background-color:	#C2B280;
-        text-align: left;
-        padding:20px 10% 20px 10%;
-        margin-top:0%;
-        margin-bottom: 0%;
-        font-size:1.0rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight:bold;
-        width:100%;
-      }
+  .newsFebruary {
+    color: #687875;
+    padding: 20px 10% 20px 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 1rem;
+  }
 
-      .blogPhotoDivFebruary{
-          display: flex;
-          flex-direction: column;
-          background-color: #C2B280;
-          padding-bottom: 5%;
-          padding-top: 5%;
-          margin-top: 2%;
-          }
-      
-          .slideshowentryFebruary {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            pointer-events:none;
-            width:65%;
-            height:auto;
-            border:solid whitesmoke 3px;
-            border-radius:100%;
-            margin-top:3%;
-            margin-bottom:5%;
-            -webkit-border-radius:100%;
-            -moz-border-radius:100%;
-            -ms-border-radius:100%;
-            -o-border-radius:100%;
-          } 
+  .blogPhotoDivFebruary {
+    flex-direction: column;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-top: 2%;
+  }
 
-          .slideshowinstructionsFebruary {
-            margin-top:1%;
-            margin-bottom:2%;
-            padding-right: 10%;
-            padding-left:10%;
-            font-size:1.1rem;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            display: block;
-            color:white; 
-          }
+  .slideshowentryFebruary {
+    width: 65%;
+    height: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
 
-          .snowScene {
-            background: linear-gradient(180deg, #a6c0cd 20% , #dde6eb 30% , #f4f4f4 35% 100%); 
-            display: block;
-            position:absolute;
-            width:100vw;
-            height:90vh;
-            top:0;
-            bottom:0;
-              }
+  .slideshowinstructionsFebruary {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 1.1rem;
+    color: #687875;
+  }
 
-              .slideshowentryFebruary {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                pointer-events:none;
-                width:65%;
-                height:auto;
-                border:solid whitesmoke 3px;
-                border-radius:100%;
-                margin-top:3%;
-                margin-bottom:5%;
-                -webkit-border-radius:100%;
-                -moz-border-radius:100%;
-                -ms-border-radius:100%;
-                -o-border-radius:100%;
-              } 
-  
-              .slideshowinstructionsFebruary {
-                margin-top:1%;
-                margin-bottom:2%;
-                padding-right: 10%;
-                padding-left:10%;
-                font-size:1.1rem;
-                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                display: block;
-                color:white; 
-              }
-                  
-        }
-      
+  .snowScene {
+    height: 90vh;
+    top: 0;
+    bottom: 0;
+    padding-left: 20%;
+  }
 
+  .slideshowentryFebruary {
+    width: 65%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
 
-
-
-
+  .slideshowinstructionsFebruary {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 1.1rem;
+  }
+}

@@ -57,11 +57,11 @@ export default function HwpDailyTemplate(props) {
         </div>{" "}
         {/*Closing tag for hwpDailyNarrative div */}
         <div className="slideshowHostPhotoHwp">
-          <fig>
+          <figure>
             {/* <Link to="https://photos.app.goo.gl/sRhBPqCMEbCajSdf9" target="_blank">
             <img className="slideshowentryHwp" src={NewcastleQuayside} alt="" />
             </Link> */}
-          </fig>
+          </figure>
         </div>{" "}
         {/* Closing div SlideshowHostPhotoHwp */}
       </div>{" "}

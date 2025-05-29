@@ -416,7 +416,7 @@ export default function Hwp2024() {
           </div>{" "}
           {/*Closing tag for hwpDailyNarrative div */}
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <Link
                 to="https://photos.app.goo.gl/sRhBPqCMEbCajSdf9"
                 target="_blank"
@@ -427,7 +427,7 @@ export default function Hwp2024() {
                   alt=""
                 />
               </Link>
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -610,17 +610,17 @@ export default function Hwp2024() {
               the south. The bridge consists of two steel arches, a deck that
               acts as the pedestrian and cycle path and a supporting arch. It
               was the world's first tilting bridge.
-              <fig>
+              <figure>
                 <section className="blogPhoto1HWP">
                   <img src={GatesheadMillennium} alt="" />
-                  <figcaption className="HWPfigcaption">
+                  <figcaption className="hwpFigCaption">
                     <strong>
                       Gateshead Millennium Bridge <br /> (seen in the
                       foreground)
                     </strong>
                   </figcaption>
                 </section>
-              </fig>
+              </figure>
             </li>
             <li>
               <strong>George V or Tyne Bridge :</strong> <br /> was officially
@@ -632,14 +632,14 @@ export default function Hwp2024() {
               and to cope with increasing traffic crossing the Tyne. At the time
               of its construction, the Tyne Bridge was the world’s longest span
               bridge.
-              <fig>
+              <figure>
                 <section className="blogPhoto1HWP">
                   <img src={TyneKingGeorge} alt="" />
-                  <figcaption className="HWPfigcaption">
+                  <figcaption className="hwpFigCaption">
                     <strong>Tyne Bridge</strong>
                   </figcaption>
                 </section>
-              </fig>
+              </figure>
             </li>
             <li>
               <strong>Swing Bridge :</strong> <br /> stands on the site of the
@@ -661,17 +661,17 @@ export default function Hwp2024() {
               shipyard commenced in 1884 and various other works benefited. Coal
               shipments from northwest Durham became much easier and facilitated
               the opening of new staiths at Dunston in 1893 and 1903.
-              <fig>
+              <figure>
                 <section className="blogPhoto1HWP">
                   <img src={Swing} alt="" />
-                  <figcaption className="HWPfigcaption">
+                  <figcaption className="hwpFigCaption">
                     <strong>
                       Swing Bridge (The low-level red and cream bridge <br />{" "}
                       seen in the foreground)
                     </strong>
                   </figcaption>
                 </section>
-              </fig>
+              </figure>
             </li>
             <li>
               <strong>High Level Bridge :</strong> <br /> over which the
@@ -679,29 +679,29 @@ export default function Hwp2024() {
               Stephenson opened in 1849 and was part of the objective to create
               a continuous line from London to Edinburgh being the first in the
               world to combine rail and road traffic
-              <fig>
+              <figure>
                 <section className="blogPhoto1HWP">
                   <img src={HighLevel} alt="" />
-                  <figcaption className="HWPfigcaption">
+                  <figcaption className="hwpFigCaption">
                     <strong>High Level Bridge (seen in the foreground)</strong>
                   </figcaption>
                 </section>
-              </fig>
+              </figure>
             </li>
             <li>
               <strong>Queen Elizabeth II Bridge :</strong> <br /> was built as
               part of the Tyne and Wear Metro system and opened on the 6th
               November 1981, 9 days before the regular Metro service began,
-              <fig>
+              <figure>
                 <section className="blogPhoto1HWP">
                   <img src={QEii} alt="" />
-                  <figcaption className="HWPfigcaption">
+                  <figcaption className="hwpFigCaption">
                     <strong>
                       Queen Elizabeth II bridge (seen in the foreground)
                     </strong>
                   </figcaption>
                 </section>
-              </fig>
+              </figure>
             </li>
             <li>
               <strong>King Edward VII Bridge : </strong> <br /> The King Edward
@@ -717,17 +717,17 @@ export default function Hwp2024() {
               was opened by King Edward VII and Queen Alexandra on 10 July
               1906.Today it carries the main East Coast railway and is Listed
               Grade II.
-              <fig>
+              <figure>
                 <section className="blogPhoto1HWP">
                   <img src={KingEdwardVII} alt="" />
-                  <figcaption className="HWPfigcaption">
+                  <figcaption className="hwpFigCaption">
                     <strong>
                       King Edward VII Bridge (seen in the background, <br />{" "}
                       behind the blue Queen Elizabeth II Bridge)
                     </strong>
                   </figcaption>
                 </section>
-              </fig>
+              </figure>
             </li>
             <li>
               <strong>Redheugh Bridge :</strong>
@@ -778,14 +778,14 @@ export default function Hwp2024() {
           of coal was moved this way each year.
           <br />
           <br />
-          <fig>
+          <figure>
             <section className="blogPhoto1HWP">
               <img src={DunstonStaithes} alt="" />
-              <figcaption className="HWPfigcaption">
+              <figcaption className="hwpFigCaption">
                 <strong>Dunston Staithes</strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
           <strong style={{ fontSize: "1.2rem" }}>
             {" "}
             Elswick and Scotwood :{" "}
@@ -816,14 +816,14 @@ export default function Hwp2024() {
           existence.
           <br />
           <br />
-          <fig>
+          <figure>
             <section className="blogPhoto1HWP">
               <img src={Lemington} alt="" />
-              <figcaption className="HWPfigcaption">
+              <figcaption className="hwpFigCaption">
                 <strong>Lemington</strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
           <strong style={{ fontSize: "1.2rem" }}>
             {" "}
             Battle of Newburn Ford :{" "}
@@ -842,14 +842,14 @@ export default function Hwp2024() {
           impose a new prayer book on the Scots.
           <br />
           <br />
-          <fig>
+          <figure>
             <section className="blogPhoto1HWP">
               <img src={Newburn} alt="" />
-              <figcaption className="HWPfigcaption">
+              <figcaption className="hwpFigCaption">
                 <strong>Site of Battle of Newburn Ford</strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
           <strong style={{ fontSize: "1.2rem" }}> Denton Hall Turret : </strong>
           Denton Hall Turret lies in the western suburbs of Newcastle, part of a
           63-metre section of Hadrian’s Wall in a small public space adjacent to
@@ -859,27 +859,27 @@ export default function Hwp2024() {
           metres west, alongside the south verge of the A69.
           <br />
           <br />
-          <fig>
+          <figure>
             <section className="blogPhoto1HWP">
               <img src={DentonHallTurret} alt="" />
-              <figcaption className="HWPfigcaption">
+              <figcaption className="hwpFigCaption">
                 <strong>Denton Hall Turret </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
           Join us on our 2nd day of the Hadrian's Wall Path by clicking on the
           album below and following our narrative by clicking on the added
           comments.
         </div>
         <div className="slideshowHostPhotoHwp">
-          <fig>
+          <figure>
             <Link
               to="https://photos.app.goo.gl/VWvo8FVKnFQaRuQ38"
               target="_blank"
             >
               <img className="slideshowentryHwp" src={Branzinos} alt="" />
             </Link>
-          </fig>
+          </figure>
           <br />
           <br />
         </div>{" "}
@@ -1137,7 +1137,7 @@ export default function Hwp2024() {
           <br />
           <br />
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <Link
                 to="https://photos.app.goo.gl/rnn51hGg2vQVA3tFA"
                 target="_blank"
@@ -1148,7 +1148,7 @@ export default function Hwp2024() {
                   alt=""
                 />
               </Link>
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -1501,7 +1501,7 @@ export default function Hwp2024() {
           </div>{" "}
           {/*Closing tag for hwpDailyNarrative div */}
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <Link
                 to="https://photos.app.goo.gl/hL1BhXrSTocuc3Vq9"
                 target="_blank"
@@ -1512,7 +1512,7 @@ export default function Hwp2024() {
                   alt=""
                 />
               </Link>
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -1765,7 +1765,7 @@ export default function Hwp2024() {
           </div>{" "}
           {/*Closing tag for hwpDailyNarrative div */}
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <Link
                 to="https://photos.app.goo.gl/v2pBu6efu65sxcvy6"
                 target="_blank"
@@ -1776,7 +1776,7 @@ export default function Hwp2024() {
                   alt=""
                 />
               </Link>
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -1993,14 +1993,14 @@ export default function Hwp2024() {
           </div>{" "}
           {/*Closing tag for hwpDailyNarrative div */}
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <Link
                 to="https://photos.app.goo.gl/n89VM6fbi7B8hBZL8"
                 target="_blank"
               >
                 <img className="slideshowentryHwp" src={MithrasTemple} alt="" />
               </Link>
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -2197,7 +2197,7 @@ export default function Hwp2024() {
           </div>{" "}
           {/*Closing tag for hwpDailyNarrative div */}
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <Link
                 to="https://photos.app.goo.gl/xhjYZ7WvttfxMbsB6"
                 target="_blank"
@@ -2208,7 +2208,7 @@ export default function Hwp2024() {
                   alt=""
                 />
               </Link>
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -2480,7 +2480,7 @@ export default function Hwp2024() {
           </div>{" "}
           {/*Closing tag for hwpDailyNarrative div */}
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <Link
                 to="https://photos.app.goo.gl/X2NPiiG1bZnzoBASA"
                 target="_blank"
@@ -2491,7 +2491,7 @@ export default function Hwp2024() {
                   alt=""
                 />
               </Link>
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -2930,7 +2930,7 @@ export default function Hwp2024() {
           <br />
           <br />
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <Link
                 to="https://photos.app.goo.gl/FuAKD2gL1mYdsh2f8"
                 target="_blank"
@@ -2941,7 +2941,7 @@ export default function Hwp2024() {
                   alt=""
                 />
               </Link>
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -3182,7 +3182,7 @@ export default function Hwp2024() {
           <br />
           <br />
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <Link
                 to="https://photos.app.goo.gl/bruTNaavSFaWnL5q6"
                 target="_blank"
@@ -3193,7 +3193,7 @@ export default function Hwp2024() {
                   alt=""
                 />
               </Link>
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -3362,14 +3362,14 @@ export default function Hwp2024() {
           <br />
           <br />
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <Link
                 to="https://photos.app.goo.gl/9KSM8naKSH2qRduWA"
                 target="_blank"
               >
                 <img className="slideshowentryHwp" src={KingEdward1} alt="" />
               </Link>
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -3697,14 +3697,14 @@ export default function Hwp2024() {
           <br />
           <br />
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <Link
                 to="https://photos.app.goo.gl/S6Gd7nzR4Bi5wbq47"
                 target="_blank"
               >
                 <img className="slideshowentryHwp" src={Day12Album} alt="" />
               </Link>
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -3741,9 +3741,9 @@ export default function Hwp2024() {
           <br />
           <br />
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <img className="slideshowentryHwp" src={TheEnd} alt="" />
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -3787,7 +3787,7 @@ export default function Hwp2024() {
               helicopter. The eagle had a camera strapped to its chest.
               <br />
               <br />
-              Both museums are well woth a visit although we would recommend
+              Both museums are well worth a visit although we would recommend
               taking a full day for Vindolanda and a separate half-day for the
               Roman Army Museum. We went on free guided tours at both sites
               which were very interesting.
@@ -3800,7 +3800,7 @@ export default function Hwp2024() {
             {/*Closing tag for hwpDailyNarrative div */}
           </div>
           <div className="slideshowHostPhotoHwp">
-            <fig>
+            <figure>
               <Link
                 to="https://photos.app.goo.gl/7UbS3Bujzjgc79C87"
                 target="_blank"
@@ -3811,7 +3811,7 @@ export default function Hwp2024() {
                   alt=""
                 />
               </Link>
-            </fig>
+            </figure>
           </div>{" "}
           {/* Closing div SlideshowHostPhotoHwp */}
         </div>{" "}
@@ -3860,7 +3860,7 @@ export default function Hwp2024() {
           </div>
 
           <div className="blogPhotoDivHwp">
-            <fig>
+            <figure>
               <section className="blogPhoto">
                 <img
                   src={GreatNorthern}
@@ -3873,8 +3873,8 @@ export default function Hwp2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img
                   src={DisplayGreatNorthern}
@@ -3887,8 +3887,8 @@ export default function Hwp2024() {
                   remaining wall sites through Newcastle
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img
                   src={MithrasAltar}
@@ -3902,8 +3902,8 @@ export default function Hwp2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img
                   src={TombAureliaAureliana}
@@ -3919,7 +3919,7 @@ export default function Hwp2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
         </div>{" "}
         {/* Closing tag datenewsDivHwp */}
@@ -3984,7 +3984,7 @@ export default function Hwp2024() {
         </div>
 
         <div className="blogPhotoDivHwp">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img
                 src={SycamoreExhibition1}
@@ -3999,8 +3999,8 @@ export default function Hwp2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img
                 src={SycamoreExhibition2}
@@ -4013,8 +4013,8 @@ export default function Hwp2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img
                 src={SycamoreExhibition3}
@@ -4029,8 +4029,8 @@ export default function Hwp2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img
                 src={SycamoreExhibition4}
@@ -4046,7 +4046,7 @@ export default function Hwp2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
       </div>
       <div className="datenewsDivHwp">
@@ -4076,7 +4076,7 @@ export default function Hwp2024() {
         </div>
 
         <div className="blogPhotoDivHwp">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img
                 src={Birdoswald1Nov2nd2024}
@@ -4090,8 +4090,8 @@ export default function Hwp2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img
                 src={Birdoswald2Nov2nd2024}
@@ -4105,8 +4105,8 @@ export default function Hwp2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img
                 src={Birdoswald3Nov2nd2024}
@@ -4120,8 +4120,8 @@ export default function Hwp2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img
                 src={Birdoswald4Nov2nd2024}
@@ -4136,7 +4136,7 @@ export default function Hwp2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
       </div>
     </div>

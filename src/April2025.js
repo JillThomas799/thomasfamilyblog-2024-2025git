@@ -1628,7 +1628,7 @@ export default function April2025() {
           </div>{" "}
           {/* Closing div datenewsDivApril2025 */}
           <div className="blogPhotoDivApril2025">
-            <fig>
+            <figure>
               <section className="blogPhotoApril2025">
                 <img src={Gorse042025} alt="" />
                 <figcaption className="april2025figcaption">
@@ -1637,8 +1637,8 @@ export default function April2025() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoApril2025">
                 <img src={CherryBlossom042025} alt="" />
                 <figcaption className="april2025figcaption">
@@ -1648,8 +1648,8 @@ export default function April2025() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoApril2025">
                 <img src={Sunset042025} alt="" />
                 <figcaption className="april2025figcaption">
@@ -1659,10 +1659,10 @@ export default function April2025() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
           <div className="blogPhotoDivApril2025">
-            <fig>
+            <figure>
               <section className="blogPhotoApril2025">
                 <img src={EasterSun2025} alt="" />
                 <figcaption className="april2025figcaption">
@@ -1672,8 +1672,8 @@ export default function April2025() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoApril2025">
                 <img src={LennieonGuard} alt="" />
                 <figcaption className="april2025figcaption">
@@ -1683,8 +1683,8 @@ export default function April2025() {
                   <strong></strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoApril2025">
                 <img src={LennieArmchair} alt="" />
                 <figcaption className="april2025figcaption">
@@ -1694,7 +1694,7 @@ export default function April2025() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
         </div>{" "}
         {/* Closing div datenewsDivApril2025 */}

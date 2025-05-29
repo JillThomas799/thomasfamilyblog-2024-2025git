@@ -64,7 +64,7 @@
   padding: 10px 10px 10px 10px;
   margin: 5px;
   font-size: 1.2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, Trebuchet MS, sans-serif;
 }
 
 .dateAprilHeader2025 {
@@ -75,7 +75,7 @@
   padding: 10px 10px 10px 10px;
   margin: 5px;
   font-size: 1.2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, Trebuchet MS, sans-serif;
 }
 
 .newsheaderApril2025 {
@@ -86,7 +86,7 @@
   padding: 10px 10px 10px 10px;
   margin: 5px;
   font-size: 1.2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, Trebuchet MS, sans-serif;
 }
 
 .newsApril2025 {
@@ -97,7 +97,7 @@
   padding: 10px 10px 20px 10px;
   margin: 3%;
   font-size: 1.1rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, Trebuchet MS, sans-serif;
 }
 
 #groundApril2025 {
@@ -125,7 +125,7 @@
   margin-top: 1%;
   margin-bottom: 1%;
   font-size: 1.1rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, Trebuchet MS, sans-serif;
   display: block;
   color: black;
   background-color: #f6f0a3;
@@ -162,14 +162,14 @@
   text-align: center;
 }
 
-fig {
+figure {
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
 }
 
-fig img {
+figure img {
   vertical-align: top;
 }
 
@@ -178,7 +178,7 @@ fig img {
   font-family: bold;
   color: black;
   font-size: 60%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, Trebuchet MS, sans-serif;
   overflow-wrap: normal;
   padding: 5%;
 }
@@ -189,7 +189,7 @@ fig img {
   padding-left: 10%;
   padding-right: 10%;
   font-size: 1.1rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, Trebuchet MS, sans-serif;
 }
 
 .headTitlesApril2025 {
@@ -197,7 +197,7 @@ fig img {
   font-size: 1.1rem;
   padding-left: 10%;
   padding-right: 10%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, Trebuchet MS, sans-serif;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -245,7 +245,7 @@ hwpIntroListApril2025 {
   font-family: bold;
   color: #757c88;
   font-size: 1.1rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, Trebuchet MS, sans-serif;
   overflow-wrap: normal;
   padding-top: 5%;
 }

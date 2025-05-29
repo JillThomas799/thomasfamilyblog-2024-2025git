@@ -214,38 +214,38 @@ export default function January2025() {
         </section>
 
         <div className="blogPhotoDivJanuary">
-          <fig>
+          <figure>
             <section className="blogPhotoJanuary">
               <img src={TreeDownTalkin20251} alt="" />
-              <figcaption className="Januaryfigcaption">
+              <figcaption className="januaryFigCaption">
                 <strong>Tree down by Talkin Tarn, blocking the path(1)</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJanuary">
               <img src={TreeDownTalkin20252} alt="" />
-              <figcaption className="Januaryfigcaption">
+              <figcaption className="januaryFigCaption">
                 <strong>Tree down by Talkin tarn, blocking the path(2)</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJanuary">
               <img src={RooflessShedTalkin} alt="" />
-              <figcaption className="Januaryfigcaption">
+              <figcaption className="januaryFigCaption">
                 <strong>
                   The boating shed at the tarn has lost its roof....
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
         <div className="blogPhotoDivJanuary">
-          <fig>
+          <figure>
             <section className="blogPhotoJanuary">
               <img src={LennieJan20251} alt="" />
-              <figcaption className="Januaryfigcaption">
+              <figcaption className="januaryFigCaption">
                 <strong>
                   {" "}
                   Lennie meanwhile is playing that age-old <br /> cat
@@ -253,16 +253,16 @@ export default function January2025() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJanuary">
               <img src={LennieJan20252} alt="" />
-              <figcaption className="Januaryfigcaption">
+              <figcaption className="januaryFigCaption">
                 <strong></strong>...in this case on Harry's clean interview
                 clothes!.....{" "}
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
       </div>
     </div>

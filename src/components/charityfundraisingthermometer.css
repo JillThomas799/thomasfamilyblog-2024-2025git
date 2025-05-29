@@ -1,7 +1,6 @@
-
 :root {
-   --chart-line-color: black;
-  --chart-x-color: white;  
+  --chart-line-color: black;
+  --chart-x-color: white;
   --black: #2d2929;
   --white: white;
 }
@@ -23,7 +22,7 @@ a {
 
 .chartWrapper {
   display: grid;
-  justify-content:center;
+  justify-content: center;
   grid-column-gap: 3rem;
   grid-template-columns: 30% auto 30%;
   margin-top: 10%;
@@ -32,7 +31,7 @@ a {
 .chartWrapper .chartY {
   display: grid;
   grid-row-gap: 3rem;
-  }
+}
 
 .chartY {
   font-size: 1.5rem;
@@ -43,72 +42,81 @@ a {
 .chartWrapper .chartX {
   position: relative;
   width: 75px;
-  border-radius: 50px;
   border: 8px solid var(--chart-line-color);
-  background: #D5544F;
+  background: #d5544f;
   overflow: hidden;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
+  border-radius: 50px;
 }
 
 .chartWrapper .chartX1 {
   position: relative;
   width: 85px;
-  height:0%;
-  background:#66023c ;
+  height: 0%;
+  background: #66023c;
   overflow: hidden;
 }
 
 .chartLabels {
-  margin-top:100%;
+  margin-top: 100%;
   font-size: 1.4rem;
   margin-left: 30%;
 }
 
-@media screen and (min-width: 481px) and (max-width: 902px){
+@media screen and (min-width: 481px) and (max-width: 902px) {
   .chartWrapper {
     display: grid;
-    justify-content:center;
+    justify-content: center;
     grid-column-gap: 3rem;
     grid-template-columns: 30% auto 30%;
     margin-top: 10%;
-    margin-bottom:-20%;
-    -webkit-transform:scale(0.5);
-    -moz-transform:scale(0.5);
-    -ms-transform:scale(0.5);
-    -o-transform:scale(0.5);
-}
+    margin-bottom: -20%;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
 
-.chartLabels {
-  margin-top:100%;
-  font-size: 1.8rem;
-  margin-left: 30%;
+  .chartLabels {
+    margin-top: 100%;
+    font-size: 1.8rem;
+    margin-left: 30%;
+  }
 }
-}
-
 
 @media screen and (max-width: 480px) {
   /*To ensure on mobile screens below 900px width (this includes one plus phones) that relevant components of 
-  the site are displayed with the best dimensions for the smaller devices*/ 
-    .chartWrapper {
-      display: grid;
-      justify-content:center;
-      grid-column-gap: 2rem;
-      grid-template-columns: 40% 20% 40%;
-      margin-top: 30%;
-      margin-bottom:-50%;
-      transform:scale(0.7);
-      -webkit-transform:scale(0.7);
-      -moz-transform:scale(0.7);
-      -ms-transform:scale(0.7);
-      -o-transform:scale(0.7);
+  the site are displayed with the best dimensions for the smaller devices*/
+  .chartWrapper {
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 2rem;
+    grid-template-columns: 40% 20% 40%;
+    margin-top: 30%;
+    margin-bottom: -50%;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
+  }
+
+  .chartY {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  .chartX {
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    transform: scale(0.9);
+  }
 }
-
-.chartY{ transform:scale(0.9); -webkit-transform:scale(0.9); -moz-transform:scale(0.9); -ms-transform:scale(0.9); -o-transform:scale(0.9); }
-.chartX{ transform:scale(0.9); -webkit-transform:scale(0.9); -moz-transform:scale(0.9); -ms-transform:scale(0.9); -o-transform:scale(0.9); } 
-
-}
-
-

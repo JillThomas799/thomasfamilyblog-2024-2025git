@@ -763,10 +763,10 @@ export default function September2024() {
           <br />
           <br />
           <div className="blogPhotoDivSeptember">
-            <fig>
+            <figure>
               <section className="blogPhotoSeptember">
                 <img src={AbbotsfordCafe} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     It had been a very impressive but <br /> long(ish) drive so
                     first and foremost on arrival, it was time for a café
@@ -774,22 +774,22 @@ export default function September2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoSeptember">
                 <img src={EntranceAbbotsford} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     Entrance to Abbotsford ... it is easy to see why Sir Walter
                     Scott liked this house so much.
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoSeptember">
                 <img src={HallAbbotsford} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     This is the entrance hall - <br /> Walter Scott was also
                     known as an antiquarian <br /> and collector and all of
@@ -797,11 +797,11 @@ export default function September2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoSeptember">
                 <img src={HallShieldsAbbotsford} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     {" "}
                     The shields of Walter Scott's Ancestors are these down the
@@ -810,13 +810,13 @@ export default function September2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
           <div className="blogPhotoDivSeptember">
-            <fig>
+            <figure>
               <section className="blogPhotoSeptember">
                 <img src={AbbotsfordLibrary} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     Walter Scott's library, Abbotsford...Here are about 7000 of
                     the 9000 books Walter Scott collected, each in the same spot
@@ -824,22 +824,22 @@ export default function September2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoSeptember">
                 <img src={BustWalterScott} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     ...and here is the bust of Sir Walter Scott which was moved
                     here from the drawing room by Walter Scott the younger.
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoSeptember">
                 <img src={DrawingRoomAbbotsford} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     Evening leisure pursuits were centred on the the drawing
                     room next door, a room which Scott's wife Charlotte
@@ -848,11 +848,11 @@ export default function September2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoSeptember">
                 <img src={AbbotsfordGargoyles} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     Sir Walter Scott's armoury, intended for the display of his
                     collections of fine arms and armoury but often used as his
@@ -861,13 +861,13 @@ export default function September2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
           <div className="blogPhotoDivSeptember">
-            <fig>
+            <figure>
               <section className="blogPhotoSeptember">
                 <img src={AbbotsfordRear} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     {" "}
                     Abbotsford as seen from the rear. <br /> The central section
@@ -875,32 +875,32 @@ export default function September2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoSeptember">
                 <img src={AbbotsfordfromGarden2} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     Sir Walter Scott's gardens at Abbotsford were also an
                     extension <br /> of his creative talent....
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoSeptember">
                 <img src={AbbotsfordfromGarden} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     View of Abbotsford from a seat in the walled garden.
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoSeptember">
                 <img src={WalterScottsCat} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     Although Walter Scott was a passionate dog-lover, <br /> in
                     later life he also grew to like cats. He said <br /> ' Cats
@@ -910,7 +910,7 @@ export default function September2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
         </section>
       </div>
@@ -1117,7 +1117,7 @@ export default function September2024() {
             <br />
             <br />
             <div className="slideshowHostPhotoSeptember">
-              <fig>
+              <figure>
                 <Link
                   to="https://photos.app.goo.gl/vxKMk4pgjxCRD1eo8"
                   target="_blank"
@@ -1128,7 +1128,7 @@ export default function September2024() {
                     alt=""
                   />
                 </Link>
-              </fig>
+              </figure>
             </div>{" "}
             {/* Closing div SlideshowHostPhotoSeptember */}
           </div>{" "}
@@ -1214,7 +1214,8 @@ export default function September2024() {
                   </strong>
                   <br /> Whilst it is usually steadily busy at the RSPB
                   Geltsdale car park (there are 8 spaces), after departing from
-                  there we did not see anyother people for the whole day's hike.
+                  there we did not see any other people for the whole day's
+                  hike.
                 </li>
                 <br />
                 <br />
@@ -1226,7 +1227,7 @@ export default function September2024() {
                   All this area was a site in which there is much evidence of
                   prehistoric settlement. For example, when walking up the path
                   away from the RSPB Geltsdale car park, after passing the white
-                  cottage neamed Tortie cottage on the left, can be seen a large
+                  cottage named Tortie cottage on the left, can be seen a large
                   boulder in the field to the left which is the 'Tortie Stone'
                   and which bears small cup marks, prehistoric rock art which is
                   very prevalent in Northumberland but rarer in Cumbria.
@@ -1361,7 +1362,7 @@ export default function September2024() {
             <br />
             <br />
             <div className="slideshowHostPhotoSeptember">
-              <fig>
+              <figure>
                 <Link
                   to="https://photos.app.goo.gl/qKiRrU1nHCZd5bYM7"
                   target="_blank"
@@ -1372,7 +1373,7 @@ export default function September2024() {
                     alt=""
                   />
                 </Link>
-              </fig>
+              </figure>
             </div>{" "}
             {/* Closing div SlideshowHostPhotoSeptember */}
           </div>{" "}
@@ -1504,7 +1505,7 @@ export default function September2024() {
             many different weather conditions, from rain to cloud, mist, ice and
             snow. We have taken the liberty of including in the album below some
             scenes from this walk which were taken at other times and more
-            adverse weather condtions over the years.
+            adverse weather conditions over the years.
             <br />
             <br />
             It was great to be back here again on this beautiful day,
@@ -1517,7 +1518,7 @@ export default function September2024() {
             <br />
             <br />
             <div className="slideshowHostPhotoSeptember">
-              <fig>
+              <figure>
                 <Link
                   to="https://photos.app.goo.gl/54EF1SVdAJ2bnZYn7"
                   target="_blank"
@@ -1528,7 +1529,7 @@ export default function September2024() {
                     alt=""
                   />
                 </Link>
-              </fig>
+              </figure>
             </div>{" "}
             {/* Closing div SlideshowHostPhotoSeptember */}
           </div>{" "}
@@ -1552,10 +1553,10 @@ export default function September2024() {
               <li>
                 <strong className="titlesSeptember">Parking:</strong>
                 <br />
-                We parked on the free parking on a small layby with a litter-bin
-                on the B6261, 400m east of Orton (NY 629080). However there is
-                also adequate on road free parking (with care so as not to
-                inconvenience local residents) within Orton village itself.
+                We parked on the free parking on a small lay-by with a
+                litter-bin on the B6261, 400m east of Orton (NY 629080). However
+                there is also adequate on road free parking (with care so as not
+                to inconvenience local residents) within Orton village itself.
               </li>
               <br />
               <br />
@@ -1678,9 +1679,9 @@ export default function September2024() {
                 <strong className="titlesSeptember"> Cows:</strong>
                 <br />
                 We counted at least 5 fields containing cows which had to be
-                traveresed with care. Some had calves with them and there was
-                one field with large numbers of cattle just before we reached
-                Ashby Great Scar SSSI.{" "}
+                traversed with care. Some had calves with them and there was one
+                field with large numbers of cattle just before we reached Ashby
+                Great Scar SSSI.{" "}
               </li>
               <br />
               <br />
@@ -1713,14 +1714,14 @@ export default function September2024() {
           <br />
           <br />
           <div className="SeptemberDailyNarrative">
-            Great Asby Scar is an area of high ground lying between the villages
-            of Orton and Great Asby. It contains some of the best examples of
-            Limestone Pavement in Britain. Limestone pavements are rare in this
-            country and have been extensively damaged by removal for garden
-            rockery stone. They are formed by weathering of the limestone since
-            the glaciers of the last ice age melted (about 10,000 years ago),
-            which has created deep fissures, or grikes, which divide the
-            pavement into blocks called clints.
+            Great Ashby Scar is an area of high ground lying between the
+            villages of Orton and Great Asby. It contains some of the best
+            examples of Limestone Pavement in Britain. Limestone pavements are
+            rare in this country and have been extensively damaged by removal
+            for garden rockery stone. They are formed by weathering of the
+            limestone since the glaciers of the last ice age melted (about
+            10,000 years ago), which has created deep fissures, or grikes, which
+            divide the pavement into blocks called clints.
             <br />
             <br />
             This has resulted in this area being designated an SSSI - a site of
@@ -1758,7 +1759,7 @@ export default function September2024() {
             <br />
             <br />
             <div className="slideshowHostPhotoSeptember">
-              <fig>
+              <figure>
                 <Link
                   to="https://photos.app.goo.gl/cMVKJvE9aAwjnmoV9"
                   target="_blank"
@@ -1769,7 +1770,7 @@ export default function September2024() {
                     alt=""
                   />
                 </Link>
-              </fig>
+              </figure>
             </div>{" "}
             {/* Closing div SlideshowHostPhotoSeptember */}
           </div>{" "}

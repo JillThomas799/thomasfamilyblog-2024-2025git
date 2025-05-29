@@ -1089,10 +1089,10 @@ export default function April2024() {
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={ChocolateEasterEggs} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Easter Eggs at{" "}
                   <Link
@@ -1108,49 +1108,49 @@ export default function April2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CentralVillageSceneApril24} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Good Friday...a lovely warm, sunny day in the <br />
                   village centre with daffodils everywhere..
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={FarmDaffodilsApril24} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>...at the central village farm</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={DaffodilsVillageExitApril24} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>...on exiting the village</strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={DaffodilsVillageCatApril24} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>...and on entering the village</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CatDaffodilsApril24} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   ..where there is also one of the village cats, nicknamed
                   'bread cat' because it likes eating bread <br />
@@ -1158,30 +1158,30 @@ export default function April2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={HarryTarnApril24} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Harry enjoying the fine weather at the tarn</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={HarryVillageCentreApril24} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>..and the walk back into the center village</strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={EasterBunniesandEggsBowness} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Over Easter we have been for a number of long walks including
                   at{" "}
@@ -1198,11 +1198,11 @@ export default function April2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={ApproachingBroughamHall} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   And on Easter Monday in the countryside <br /> around{" "}
                   <Link
@@ -1226,11 +1226,11 @@ export default function April2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={BroughamHall} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   <Link
                     to="https://www.broughamhall.co.uk/"
@@ -1243,11 +1243,11 @@ export default function April2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={BroughamHallDoorKnocker} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   <Link
                     to="https://www.broughamhall.co.uk/history/the-brougham-door-knocker/"
@@ -1261,7 +1261,7 @@ export default function April2024() {
                 , <br /> quite an interesting story to this
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="datenewsDiv">
@@ -1347,80 +1347,80 @@ export default function April2024() {
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={CatWill1} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Will, 10 days before he died peacefully of old age
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CatWill2} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Will fighting bravely on, shortly before he died...
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CatWill3photo} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Will, a handsome cat in his younger days</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CatWillPetShopNotice} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Pet shop announcement of Will's death</strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={CatWillPrint} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Print of Will created by local artist</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CatWillTribute} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Tribute to Cat Will</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CatWillPoem} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Poem written for Will (see above)</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CatWillCumbrianFelt} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Beautiful Cumbrian Felt picture and memoriam of Will, created
                   by local artist
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="datenewsDiv">
@@ -1490,10 +1490,10 @@ export default function April2024() {
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={BlossomSizerghApril2024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Signs of Spring...
                   <br />
@@ -1501,30 +1501,30 @@ export default function April2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={GardenSizerghApril2024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>...and the daffodils on the lawns</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={HoleslackFarmSizergh} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   It was quite stormy so we chose a <br /> (relatively)
                   tree-free route. <br /> Up by Holeslack Farmhouse ....
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={ViewMorecambeBayApril2024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   ... and on up to St John the Evangelist church, <br /> from
                   where there are fantastic views <br /> over the Lyth Valley,
@@ -1532,7 +1532,7 @@ export default function April2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="datenewsDiv">
@@ -1569,85 +1569,85 @@ export default function April2024() {
           </section>
 
           <div className="blogPhotoDiv">
-            <fig>
+            <figure>
               <section className="blogPhoto">
                 <img src={PatDermotBlacksmiths} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     Pat and Dermot relaxing at the pub <br /> en route on the
                     walk
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={ArchiePub} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     Archie, also having a well-earned <br /> rest at the pub
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={HerdwickLamb} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     Pat and I have been comparing the lambs. Pat has been <br />{" "}
                     with the Herdwicks, who have black lambs (shown here)....
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={LambsFieldTarn2} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     Whilst we have been with the Swaledale Lambs, as shown here
                     near the tarn
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
 
           <div className="blogPhotoDiv">
-            <fig>
+            <figure>
               <section className="blogPhoto">
                 <img src={DucklingsTalkin042024} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     The tarn ducklings were unfortunately nowhere <br /> to be
                     seen on this particular day...
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={ArchieCatFood} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     Later in the day, Archie is helping himself to the
                     left-overs <br /> of Lennie's cat food...
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={LennieArchie} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     By the following morning however, Lennie seems to <br />{" "}
                     have recovered....or just about....
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
         </div>
 
@@ -1719,71 +1719,69 @@ export default function April2024() {
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={LowtherCastle20042024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Lowther Castle from the Parterre Garden</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CelebrationGoldMassam2} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong></strong>First sight of Steven Massam's 'Celebration of
                 Gold' Exhibition
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CelebrationGoldMassam1} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   ....and looking towards the exhibition from just up from the
                   Rose Garden
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={HarryDaffodilsLowther20042024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Harry and the beds of daffodils at Lowther</strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={JapaneseGarden20042024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>The renovated Japanese Garden, Lowther</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={JillJapaneseGardenLowther} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Jill in the renovated Japanese Garden, Lowther</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={BernardJapaneseGardenLowther} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>and Bernard ...</strong>
               </figcaption>
             </section>
-          </fig>
-          {/* <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='aprilfigcaption'><strong></strong></figcaption></section>
-            </fig> */}
+          </figure>
         </div>
 
         <div className="datenewsDiv">
@@ -1826,38 +1824,38 @@ export default function April2024() {
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={StudyBefore} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Study - Before</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={StudyComplete1} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Study - After (1)</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={StudyComplete2} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Study - After (2)</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={StudyComplete3} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Study - After (3)</strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="datenewsDiv">
@@ -1902,43 +1900,43 @@ export default function April2024() {
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={CyclingApril2320241} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Jill, taking a break at Lanercost tea room</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CyclingApril2320242} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>....and Bernard...</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CyclingApril2320244} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Taking the opportunity to admire the view from Walton village
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CyclingApril2320243} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   ....as there are fantastic views out towards the Tindale Fells
                   from there..
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="datenewsDiv">
@@ -1985,122 +1983,122 @@ export default function April2024() {
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={BernardBackTalkin42024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Bernard, with Talkin Fell in the background</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={GreyGooseFFF1} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Grey geese (1)</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={GreyGooseFFF2} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>Grey goose in close up...</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={GreyGooseFFF3} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong></strong>Grey geese enjoying the water...
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={Deer24042024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   A deer has been spotted in the distance, <br /> we once saw 10
                   deer up here...
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={DeerCloseup24042024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>...and closer up</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={SheepLambsBackTalkin24042024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>... on past the Swaledales with their lambs....</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={ForestHead24042024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   ...through the picturesque hamlet of <br /> Forest Head
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={BernardForestHead24042024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   ...Bernard, the other side of Forest Head, <br /> with the
                   Tindale Fells in the background
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={Jill1BeyondForestHead24042024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   On a clear day like to day, there are amazing views from here
                   across the Border Country...
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={Jill2BeyondForestHead24042024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>...and out for miles into Scotland...</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={SheepLambsKirkhouse24042024} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Then, on the final stretch home, <br /> more Swaledales and
                   their lambs, looking very comfortable enjoying the sun...{" "}
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="datenewsDiv">
@@ -2206,10 +2204,10 @@ export default function April2024() {
           </section>
         </div>
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={DevilsPorridgeMuseum} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   <Link
                     to="https://www.devilsporridge.org.uk/"
@@ -2223,22 +2221,22 @@ export default function April2024() {
                 , Annan Road, Eastrigg
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={DevilsPorridgeArrival} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   We arrived promptly at the Devil's Porridge Museum when it
                   opened, so it was nice and quiet...
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={FirelessLocomotiveSirJames} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Bernard and Harry, by the renovated fireless locomotive, St
                   James, which was used to transport the 'Devil's Porridge'
@@ -2247,11 +2245,11 @@ export default function April2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={DevilsPorridgeAnimalMemorial} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   The Devils Porridge animal memorial. Dogs and <br /> horses, 2
                   pigeons but only one cat had received a medal. Cats were used
@@ -2259,71 +2257,71 @@ export default function April2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={DevilsPorridgeCafe} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   The museum has a good, reasonably-priced café, which was
                   proving quite popular
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={DevilsPorridgeJill} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Then it was time to say goodbye to the museum, and head off
                   into Gretna village <br /> to start the walk....
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={GretnaGreenBlacksmithsHarry} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Harry in front of the famous Gretna village Blacksmith's shop
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={ScotsPiperGretna} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   The Scottish piper was good, playing for all the tourists, who
                   were arriving in ever increasing numbers
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDiv">
-          <fig>
+          <figure>
             <section className="blogPhoto">
               <img src={QuintinshillWalkDeparture} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Then it was time to start the <br /> Quintinshill walk in the
                   countryside around Gretna...
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={QuintinshillWalkInfoBoard} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Firstly, past the information board,
                   <br /> telling the story of the tragic <br />{" "}
@@ -2338,22 +2336,22 @@ export default function April2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={BabyCowsQuintinshill} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Past the Holstein dairy farm, where there were these baby
                   calves...
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhoto">
               <img src={CuckooFlowerWildGretna} alt="" />
-              <figcaption className="aprilfigcaption">
+              <figcaption className="aprilFigCaption">
                 <strong>
                   Then finally, we headed back into Gretna, noting the wild{" "}
                   <Link
@@ -2368,7 +2366,7 @@ export default function April2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="datenewsDiv">
@@ -2444,21 +2442,21 @@ export default function April2024() {
           </section>
 
           <div className="blogPhotoDiv">
-            <fig>
+            <figure>
               <section className="blogPhoto">
                 <img src={EdenNorthArmathwaite} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     Looking North up the River Eden, from the bridge at
                     Armathwaite
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={EdenSouthArmathwaite} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   View of{" "}
                   <Link
                     to="https://en.wikipedia.org/wiki/Armathwaite_Castle"
@@ -2471,91 +2469,91 @@ export default function April2024() {
                   , seen from the bridge over the River Eden <strong></strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={ArmathwaiteWoodsJill1} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     Jill, on the footpath through the woods by the River Eden
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={WildWoodAnenomes} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>Wild wood anenomes</strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
 
           <div className="blogPhotoDiv">
-            <fig>
+            <figure>
               <section className="blogPhoto">
                 <img src={ArmathwaiteCastle} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     Armathwaite Castle...peeping through the trees
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={BernardCoombsWood} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     Bernard by the <em>Vista</em> sculptures at the viewpoint,
                     Coombs Wood
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={RiverEdenViewpoint} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     View looking up the River Eden from the <em>Vista</em>{" "}
                     viewpoint Coombs Wood
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={DucksSheepLongdales} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>Cute sheep, lambs and ducks, the Longsdales</strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
 
           <div className="blogPhotoDiv">
-            <fig>
+            <figure>
               <section className="blogPhoto">
                 <img src={ViewNPennineRidge} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>The Pennine Ridge viewed from the bridleway</strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={ApproachingArmathwaite} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>Returning into Armathwaite village</strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={FoxandPheasant} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>
                     ..to visit one of our favourite pubs..
                     <Link
@@ -2568,39 +2566,17 @@ export default function April2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhoto">
                 <img src={Caninemenu} alt="" />
-                <figcaption className="aprilfigcaption">
+                <figcaption className="aprilFigCaption">
                   <strong>...where they even have a Canine menu...</strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
         </div>
-
-        {/* <div className="blogPhotoDiv">
-          <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='aprilfigcaption'><strong></strong></figcaption></section>
-            </fig>
-            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='aprilfigcaption'><strong></strong></figcaption></section>
-            </fig>
-            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='aprilfigcaption'><strong></strong></figcaption></section>
-            </fig>
-            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='aprilfigcaption'><strong></strong></figcaption></section>
-            </fig>
-          </div> */}
-
-        {/* <div className="blogPhotoDiv">
-          <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='aprilfigcaption'><strong></strong></figcaption></section>
-            </fig>
-            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='aprilfigcaption'><strong></strong></figcaption></section>
-            </fig>
-            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='aprilfigcaption'><strong></strong></figcaption></section>
-            </fig>
-            <fig><section className = "blogPhoto" ><img src={} alt="" /><figcaption className='aprilfigcaption'><strong></strong></figcaption></section>
-            </fig>
-          </div> */}
       </div>{" "}
       {/*Closing tag April2024header*/}
     </div> /* Closing tag for root div*/

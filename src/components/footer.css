@@ -30,9 +30,8 @@
 
 .buttonFooter a {
   color: white;
-  text-decoration: none;
+  -moz-text-decoration: underline;
   text-decoration: underline;
-  -moz-text-decoration: none;
   padding: 10%;
   font-weight: bold;
 }

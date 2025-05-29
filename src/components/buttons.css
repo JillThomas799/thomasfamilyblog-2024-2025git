@@ -1,69 +1,67 @@
-#button{
-  display:block;
-  position:absolute;
-  height:50px;
-  width:20%;
-  background-color:gray;
-  border:black 2px solid;
+#button {
+  display: block;
+  position: absolute;
+  height: 50px;
+  width: 20%;
+  background-color: gray;
+  border: black 2px solid;
   text-align: center;
   font-size: large;
   font-weight: bold;
-  color:white;
+  color: white;
   text-decoration: underline;
-  margin:10% 20% 5% 60%;
-  border-radius:15%;
-  -webkit-border-radius:15%;
-  -moz-border-radius:15%;
-  -ms-border-radius:15%;
-  -o-border-radius:15%;
-} 
-
-@media screen and (max-width:900px) {
-  body #button{
-    display:block;
-    position:relative;
-    height:auto;
-    width:60%;
-    background-color:gray;
-    border:black 2px solid;
-    text-align:center;
-    font-size: large;
-    font-weight: bold;
-    padding:2%;
-    color:white;
-    margin-top: 25%;
-    margin-left:25%;
-    margin-right:25%;
-    border-radius:15%;
-    -webkit-border-radius:15%;
-    -moz-border-radius:15%;
-    -ms-border-radius:15%;
-    -o-border-radius:15%;
-  }  
+  margin: 10% 20% 5% 60%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  border-radius: 15%;
 }
 
-
-
-@media screen and (max-width:601px) {
-  body #button{
-    display:block;
-    position:relative;
-    height:auto;
-    width:60%;
-    background-color:gray;
-    border:black 2px solid;
-    text-align:center;
+@media screen and (max-width: 900px) {
+  body #button {
+    display: block;
+    position: relative;
+    height: auto;
+    width: 60%;
+    background-color: gray;
+    border: black 2px solid;
+    text-align: center;
     font-size: large;
     font-weight: bold;
-    padding:2%;
-    color:white;
+    padding: 2%;
+    color: white;
+    margin-top: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+    border-radius: 15%;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  body #button {
+    display: block;
+    position: relative;
+    height: auto;
+    width: 60%;
+    background-color: gray;
+    border: black 2px solid;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 2%;
+    color: white;
     margin-top: 15%;
-    margin-left:25%;
-    margin-right:25%;
-    border-radius:15%;
-    -webkit-border-radius:15%;
-    -moz-border-radius:15%;
-    -ms-border-radius:15%;
-    -o-border-radius:15%;
-  }  
+    margin-left: 25%;
+    margin-right: 25%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+    border-radius: 15%;
+  }
 }

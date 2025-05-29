@@ -154,10 +154,10 @@ export default function November2024() {
           </Link>
         </section>
         <div className="blogPhotoDivNovember">
-          <fig>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={SycamoreExhibition1} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   The largest section of the original <br /> tree’s wood forms
                   the centre piece <br /> of the exhibition display, as can{" "}
@@ -165,21 +165,21 @@ export default function November2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={SycamoreExhibition2} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   It is framed by the artwork <br /> of the wood behind....
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={SycamoreExhibition3} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   There are additional alcoves to the exhibition <br />{" "}
                   containing galleries where people have sent in <br /> their
@@ -187,11 +187,11 @@ export default function November2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={SycamoreExhibition4} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   As well as the pictures shown here, <br /> there are also
                   books of people's <br /> descriptions of what they were doing{" "}
@@ -200,7 +200,7 @@ export default function November2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
         <section className="dateNovember">2nd November 2024, Saturday</section>
         <section className="newsheaderNovember">
@@ -230,43 +230,43 @@ export default function November2024() {
           </Link>
         </section>
         <div className="blogPhotoDivNovember">
-          <fig>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={Birdoswald1Nov2nd2024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   Birdoswald Farmhouse, which <br /> stands on the site of the
                   old Roman Fort Banna.
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={Birdoswald2Nov2nd2024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   We are standing here on the Via Principalis, <br /> about to
                   enter what was the West Gate.
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={Birdoswald3Nov2nd2024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   There are helpful information boards, <br /> this one
                   concerning the West Gate.
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={Birdoswald4Nov2nd2024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   It is well worth purchasing this <br /> English Heritage
                   guidebook <br /> about the fort as it provides <br /> more
@@ -274,7 +274,7 @@ export default function November2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
         <section className="dateNovember">November 4th 2024, Monday</section>
         <section className="newsheaderNovember">
@@ -289,34 +289,34 @@ export default function November2024() {
           time was had by all.
         </section>
         <div className="blogPhotoDivNovember">
-          <fig>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={BlacksmithsMeal1Nov4th2024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>Cumberland Sausage and mash</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={BlacksmithsMeal2Nov4th2024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>Trout, new potatoes and vegetables</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={BlacksmithsEandH4112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>The 'A' team - Elena and Harry</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={BlacksmithsBernard4112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   <br />
                   Bernard enjoying the most important <br /> thing .... the
@@ -324,7 +324,7 @@ export default function November2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
         <section className="dateNovember">November 14th 2024, Thursday</section>
         <section className="newsheaderNovember">
@@ -390,10 +390,10 @@ export default function November2024() {
           <br />
         </section>
         <div className="blogPhotoDivNovember">
-          <fig>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={Bonniesmenu} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   Bonnie's menu had a wide range of choice, <br /> including:
                   all day breakfasts, jacket potatoes, <br /> paninis,
@@ -403,11 +403,11 @@ export default function November2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={Bonniescafé} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   A good place to stop for refreshments; <br />{" "}
                   <Link
@@ -423,11 +423,11 @@ export default function November2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={BonniesAbout} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   On the blackboard, the owners <br /> have written a small
                   piece all about <br />
@@ -435,24 +435,24 @@ export default function November2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={ParkingHaltwhistle} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   Free parking can be found on Fair Hill, <br /> just behind
                   Sainsbury's supermarket.
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
         <div className="blogPhotoDivNovember">
-          <fig>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={AccommodationHaltwhistle} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   <Link
                     to="https://www.oldschoolhousehaltwhistle.com/"
@@ -470,86 +470,86 @@ export default function November2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={HaltwhistleBurn1} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   Haltwhistle Burn Gorge: <br /> First information board:
                   Formation of the gorge, geology and flora and fauna..
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={HaltwhistleBurn2} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   Haltwhistle Burn Gorge: <br /> Second information board: Coal
                   mining, <br /> narrow-gauge railway and the woollen mills.
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={HaltwhistleBurn3} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   <br /> Haltwhistle Burn Gorge: <br /> Third information board:
                   More coal.., <br /> the corn mill and the Gas Light Company.
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
         <div className="blogPhotoDivNovember">
-          <fig>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={HaltwhistleBurn4} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>Bernard in Haltwhistle Burn Gorge.</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={HaltwhistleBurn5} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>The tumbling waters of the burn.</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={CliffsHaltwhistleGorge} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   The ancient, jagged, sandstone-containing <br /> cliffs of the
                   gorge.
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={CawfieldVallum} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   <br /> The Roman Vallum, which lies just <br /> South of
                   Hadrian's Wall. Here <br /> near Cawfields Quarry.
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
         <div className="blogPhotoDivNovember">
-          <fig>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={CawfieldNov2024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   Cawfield Quarry in the mist ...
                   <br />
@@ -558,21 +558,21 @@ export default function November2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={CawfieldsMilecastle42Mist} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   Cawfields Milecastle 42 lying <br /> in the mist, deserted.
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={impassablepathCawfields} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   Leaving Cawfields Quarry we ran <br /> into problems.....the
                   path <br />
@@ -580,11 +580,11 @@ export default function November2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={BernardUnimpressedCawfields} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 Bernard was not too impressed....,
                 <br /> however we quickly found an <br /> adjacent alternative
                 path <br /> we could use.
@@ -593,7 +593,7 @@ export default function November2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
         <section className="dateNovember">November 16th 2024, Saturday</section>
         <section className="newsheaderNovember">
@@ -672,122 +672,122 @@ export default function November2024() {
           The photos below show some of the territory we covered....
         </section>
         <div className="blogPhotoDivNovember">
-          <fig>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={WeatherGood16112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   A 10am start, and the weather is looking good.....
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={BernardHarryMiltonRigg16112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>Bernard and Harry, Miltonrigg Wood</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={JillBernardMiltonRigg16112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   Jill and Bernard, by the pond in Miltonrigg Wood. <br />
                   Note the essential piece of kit....wellingtons!
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={NaworthBernard16112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   Bernard, on the road leading <br /> down to Naworth Castle
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
         <div className="blogPhotoDivNovember">
-          <fig>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={Naworth16112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>Naworth Castle</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={LanercostMenu16112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   Menu, Lanercost café: <br /> there is usually a good range{" "}
                   <br /> of choice, such as...
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={LanercostFoodJill16112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>Baked potato with beans and salad.....</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={LanercostFoodHarry16112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   Cheesy chips.... <br /> because lots of calories are needed{" "}
                   <br /> for the walk...
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
         <div className="blogPhotoDivNovember">
-          <fig>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={QuarryBeck1_16112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>
                   A pleasant climb up <br /> through Quarrybeck Falls
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={QuarryBeck2_16112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>Quarrybeck again....</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={RidgewoodHarry16112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong>Harry, entering the Ridegwood</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoNovember">
               <img src={RidgewoodBernard16112024} alt="" />
-              <figcaption className="Novemberfigcaption">
+              <figcaption className="novemberFigCaption">
                 <strong></strong>Bernard homeward bound in the Ridgewood,
                 <br /> (well, maybe not quite yet)...{" "}
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
         <section className="dateNovember">22nd November 2024, Friday</section>
         <section className="newsheaderNovember">

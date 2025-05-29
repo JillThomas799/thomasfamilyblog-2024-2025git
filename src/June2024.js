@@ -165,21 +165,21 @@ export default function June2024() {
         </section>
       </div>
       <div className="blogPhotoDivJune">
-        <fig>
+        <figure>
           <section className="blogPhotoJune">
             <img src={CygnetSwans1} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 The swans have had cygnets this year, <br /> seen here tucked
                 under the trees <br /> on the far left of the photo{" "}
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={CygnetSwans2} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 {" "}
                 The two parents are <em>very</em> defensive of their young{" "}
@@ -187,24 +187,24 @@ export default function June2024() {
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={CygnetSwans3} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 They have to be defensive though. <br /> The first year we were
                 here <br /> one of the little cygnets died...
               </strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
       <div className="blogPhotoDivJune">
-        <fig>
+        <figure>
           <section className="blogPhotoJune">
             <img src={DuckDucklings2} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 {" "}
                 Meanwhile, elsewhere on the tarn <br /> a number of the ducks
@@ -212,22 +212,22 @@ export default function June2024() {
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={DuckDucklings1} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 The little ducklings grow very quickly <br /> and soon learn
                 from their parents.{" "}
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={ChickMoorhen} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 ...and tucked away undercover <br /> in another area of the tarn{" "}
                 <br />
@@ -235,7 +235,7 @@ export default function June2024() {
               </strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
       <div className="datenewsDivJune">
         <section className="newsheaderJune">A June Garden Update </section>
@@ -274,78 +274,78 @@ export default function June2024() {
       ; ;{" "}
       <div className="datenewsDivJune">
         <div className="blogPhotoDivJune">
-          <fig>
+          <figure>
             <section className="blogPhotoJune">
               <img src={RaisedBed1} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong> Raised bed 1 - Mixed lettuce and Leeks </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJune">
               <img src={RaisedBed2} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong> Raised Bed 2 - Peas and rhubarb </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJune">
               <img src={RaisedBed3} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong>Raised bed 3 - Courgettes and tomatoes</strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
       </div>
       <div className="datenewsDivJune">
         <div className="blogPhotoDivJune">
-          <fig>
+          <figure>
             <section className="blogPhotoJune">
               <img src={RaisedBed4} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong> Raised bed 4 - Runner beans</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJune">
               <img src={StrawberryBed} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong> The strawberry beds </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJune">
               <img src={ProductiveGarden} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong> The productive garden </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
       </div>
       ;{" "}
       <div className="datenewsDivJune">
         <div className="blogPhotoDivJune">
-          <fig>
+          <figure>
             <section className="blogPhotoJune">
               <img src={NepetaInBloom1} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong>
                   The nepeta are currently in their first <br /> flowering of
                   the year. They look beautiful <br /> and the bees love them...{" "}
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJune">
               <img src={NepetaMichelmas} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong>
                   Bernard has intermingled them with some <br /> michelmas
                   daisies and the contrasting <br /> white and blue works very
@@ -353,26 +353,26 @@ export default function June2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJune">
               <img src={TalkinTarnView} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong>
                   There are some atmospheric views out <br /> towards the tarn.
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
       </div>
       ;
       <div className="datenewsDivJune">
         <div className="blogPhotoDivJune">
-          <fig>
+          <figure>
             <section className="blogPhotoJune">
               <img src={Meadow1} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong>
                   {" "}
                   Bernard has created a meadow <br /> at the bottom of the main
@@ -380,11 +380,11 @@ export default function June2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJune">
               <img src={Meadow2} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong>
                   {" "}
                   Hopefully, over time, wild flows will grow <br /> and it will
@@ -392,36 +392,36 @@ export default function June2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJune">
               <img src={BlueTitNesting} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong>
                   There are baby blue tits nesting in the nesting box.
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
       </div>
       <div className="datenewsDivJune">
         <div className="blogPhotoDivJune">
-          <fig>
+          <figure>
             <section className="blogPhotoJune">
               <img src={GoatsbeardBorder} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong>
                   {" "}
                   The borders are <br /> filling out nicely....{" "}
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJune">
               <img src={FoxglovesPatio3} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong>
                   {" "}
                   There are quite a lot of <br />
@@ -429,15 +429,15 @@ export default function June2024() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoJune">
               <img src={GardenView} alt="" />
-              <figcaption className="junefigcaption">
+              <figcaption className="juneFigCaption">
                 <strong> View looking down the main garden </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
       </div>
       <div className="datenewsDivJune">
@@ -606,29 +606,29 @@ export default function June2024() {
         </section>
       </div>
       <div className="blogPhotoDivJune">
-        <fig>
+        <figure>
           <section className="blogPhotoJune">
             <img src={Charnock} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 First stop was Charnock Richard Services, <br /> where it was
                 amazingly quiet...
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={CharnockStarbucks} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               ..even more so in Starbucks.<strong></strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={MiddletonJill1} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 Having safely arrived at <br />{" "}
                 <Link
@@ -642,11 +642,11 @@ export default function June2024() {
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={MiddletonJillCourtyard} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 There are picnic tables where you <br /> are allowed to bring
                 and eat your own <br /> food, or there is a{" "}
@@ -657,118 +657,118 @@ export default function June2024() {
               </strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
       <div className="blogPhotoDivJune">
-        <fig>
+        <figure>
           <section className="blogPhotoJune">
             <img src={MiddletonBernard1} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>Bernard enjoying the lunchtime sunshine.</strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={MiddletonBernard2} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 Then it is time to <br /> have a look around...
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={MiddletonEntrance} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong></strong>...past the entrance sign...
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={MiddletonBernard3} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>..across the bridge...</strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
       <div className="blogPhotoDivJune">
-        <fig>
+        <figure>
           <section className="blogPhotoJune">
             <img src={MiddletonJill2} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong></strong>...with a quick pause for <br /> a photo stop.
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={MiddletonCat} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 Under the watchful cat statues, <br /> on the archway roof...
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={JettiedBuilding} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>The jettied building...on the left</strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={MiddletonInterior} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>The interior of the jettied building</strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
       <div className="blogPhotoDivJune">
-        <fig>
+        <figure>
           <section className="blogPhotoJune">
             <img src={MiddletonGarden1} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>View of the lake in the garden.</strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={MiddletonGarden2} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>Bernard in the walled garden.</strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={OldBell} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong></strong>Later in the day, having <br /> safely arrived at
               our destination <br />
               we decamped to one of the local pubs for our evening meal{" "}
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={Lennie30pieces} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="junFigCaption">
               Meanwhile, back at home <br /> Lennie has accidentally been fed{" "}
               <br /> more dried cat food than he was due <br /> to receive by
               Harry <br /> but is saying that
               <br /> he is not complaining...<strong></strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
       <div className="datenewsDivJune">
         <section className="dateJune">21st June 2024, Friday</section>
@@ -886,83 +886,83 @@ export default function June2024() {
         </section>
       </div>
       <div className="blogPhotoDivJune">
-        <fig>
+        <figure>
           <section className="blogPhotoJune">
             <img src={GiraffesKnebworth} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 Giraffes wandering in the garden <br /> at Knebworth....well,
                 models of <br /> giraffes anyway, not the real thing...
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={GardensKnebworth1} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>Wandering through the gardens, Knebworth House</strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={DinosaursKnebworth} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 Model of Pteranodon <br /> Dinosaur - from the Cretaceous <br />{" "}
                 period, 135 million years ago
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={HerbgardenKnebworth} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>Herb garden Knebworth House</strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
       <div className="blogPhotoDivJune">
-        <fig>
+        <figure>
           <section className="blogPhotoJune">
             <img src={JillAlanKnebworth} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 Enjoying the gardens <br /> at Knebworth
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={RosegardenKnebworth} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>Rose garden, Knebworth</strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={HouseKnebworth} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>Knebworth House</strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoJune">
             <img src={SunsetCumbria} alt="" />
-            <figcaption className="junefigcaption">
+            <figcaption className="juneFigCaption">
               <strong>
                 Arriving home to <br /> a beautiful Cumbrian <br /> sunset at
                 23.00
               </strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
       <div className="datenewsDivJune">
         <section className="dateJune">29th June 2024</section>

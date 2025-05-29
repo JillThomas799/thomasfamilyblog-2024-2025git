@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 const BernardPortalEntry = () => {
   return (
     <div>
-      <fig>
+      <div className="figApp">
         <Link to="/bernard-bio" className="profileLink">
           <img
             id="Bernard_profile_photo"
@@ -26,7 +26,7 @@ const BernardPortalEntry = () => {
         <Link to="/bernard-bio" className="profileLink">
           <figcaption>Bernard</figcaption>
         </Link>
-      </fig>
+      </div>
     </div>
   );
 };
@@ -34,7 +34,7 @@ const BernardPortalEntry = () => {
 const JillPortalEntry = () => {
   return (
     <div>
-      <fig>
+      <div className="figApp">
         <Link to="/jill-bio" className="profileLink">
           <img
             id="Jill_profile_photo"
@@ -46,7 +46,7 @@ const JillPortalEntry = () => {
         <Link to="/jill-bio" className="profileLink">
           <figcaption>Jill</figcaption>
         </Link>
-      </fig>
+      </div>
     </div>
   );
 };
@@ -54,7 +54,7 @@ const JillPortalEntry = () => {
 const ElenaPortalEntry = () => {
   return (
     <div>
-      <fig>
+      <div className="figApp">
         <Link to="/elena-bio" className="profileLink">
           <img
             id="Elena_profile_photo"
@@ -66,7 +66,7 @@ const ElenaPortalEntry = () => {
         <Link to="/elena-bio" className="profileLink">
           <figcaption>Elena</figcaption>
         </Link>
-      </fig>
+      </div>
     </div>
   );
 };
@@ -74,7 +74,7 @@ const ElenaPortalEntry = () => {
 const LenniePortalEntry = () => {
   return (
     <div>
-      <fig>
+      <div className="figApp">
         <Link to="/lennie-bio" className="profileLink">
           <img
             id="Lennie_profile_photo"
@@ -86,7 +86,7 @@ const LenniePortalEntry = () => {
         <Link to="/lennie-bio" className="profileLink">
           <figcaption>Lennie</figcaption>
         </Link>
-      </fig>
+      </div>
     </div>
   );
 };
@@ -94,7 +94,7 @@ const LenniePortalEntry = () => {
 const HarryPortalEntry = () => {
   return (
     <div>
-      <fig>
+      <div className="figApp">
         <Link to="/harry-bio" className="profileLink">
           <img
             id="Harry_profile_photo"
@@ -106,7 +106,7 @@ const HarryPortalEntry = () => {
         <Link to="/harry-bio" className="profileLink">
           <figcaption>Harry</figcaption>
         </Link>
-      </fig>
+      </div>
     </div>
   );
 };

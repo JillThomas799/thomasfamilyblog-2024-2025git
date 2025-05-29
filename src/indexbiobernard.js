@@ -50,7 +50,7 @@ export function BernardBio() {
             <li>Foreign holidays</li>
           </section>
         </div>
-        <section className="Surprisingfacts">
+        <section className="surprisingFacts">
           <h2>Surprising Facts</h2>
           <li>Bernard has an 'O' level in Astronomy.</li>
           <li>

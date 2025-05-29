@@ -42,7 +42,7 @@ export function ElenaBio() {
             <li>Excess drama </li>
             <li>Warm weather</li>
           </section>
-          <section className="Surprisingfacts">
+          <section className="surprisingFacts">
             <h2>Surprising Facts</h2>
             <li>Elena was once on the TV</li>
           </section>

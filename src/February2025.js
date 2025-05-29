@@ -78,7 +78,7 @@ export default function February2025() {
       </section>
 
       <div className="blogPhotoDivFebruary">
-        <fig>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={WhitehavenHarbour1} alt="" />
             <figcaption className="februaryFigCaption">
@@ -88,16 +88,16 @@ export default function February2025() {
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={WhitehavenHarbour2} alt="" />
             <figcaption className="februaryFigCaption">
               <strong></strong>Fishing boats on Whitehaven harbour.
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={SeagullSignWhitehaven} alt="" />
             <figcaption className="februaryFigCaption">
@@ -105,11 +105,11 @@ export default function February2025() {
               ... presumably not insignificant <br /> given this sign....
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
 
       <div className="blogPhotoDivFebruary">
-        <fig>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={BAEBarrow} alt="" />
             <figcaption className="februaryFigCaption">
@@ -120,24 +120,24 @@ export default function February2025() {
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={ViewFromBridgeBarrowDocks} alt="" />
             <figcaption className="februaryFigCaption">
               <strong></strong>View from the bridge, <br /> Barrow docks.
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={HarryBarrowDocks} alt="" />
             <figcaption className="februaryFigCaption">
               <strong></strong>Harry exploring Barrow docks.
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={SeagullBAE} alt="" />
             <figcaption className="februaryFigCaption">
@@ -145,7 +145,7 @@ export default function February2025() {
               seagulls....
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
 
       <section className="dateFebruary" style={{ marginTop: "0%" }}>
@@ -233,7 +233,7 @@ export default function February2025() {
       </section>
 
       <div className="blogPhotoDivFebruary">
-        <fig>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={BigBen15022025} alt="" />
             <figcaption className="februaryFigCaption">
@@ -243,8 +243,8 @@ export default function February2025() {
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={WestminsterBridge15022025} alt="" />
             <figcaption className="februaryFigCaption">
@@ -256,8 +256,8 @@ export default function February2025() {
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={HoPTour1} alt="" />
             <figcaption className="februaryFigCaption">
@@ -267,11 +267,11 @@ export default function February2025() {
               </strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
 
       <div className="blogPhotoDivFebruary">
-        <fig>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={HoPTour2} alt="" />
             <figcaption className="februaryFigCaption">
@@ -283,8 +283,8 @@ export default function February2025() {
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={HoPTour3} alt="" />
             <figcaption className="februaryFigCaption">
@@ -292,42 +292,42 @@ export default function February2025() {
               famous parliamentarians.
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={LunchZedel} alt="" />
             <figcaption className="februaryFigCaption">
               <strong>Lunch at Brasserie Zédel</strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
 
       <div className="blogPhotoDivFebruary">
-        <fig>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={NickBuckinghamPalace} alt="" />
             <figcaption className="februaryFigCaption">
               <strong>Nicholas outside Buckingham Palace</strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={Coffee15022025} alt="" />
             <figcaption className="februaryFigCaption">
               <strong></strong>Time for a well-earned coffee
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhotoFebruary">
             <img src={GreenPark15022025} alt="" />
             <figcaption className="februaryFigCaption">
               <strong>Then time to head home ....</strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
 
       <section className="dateFebruary" style={{ marginTop: "0%" }}>

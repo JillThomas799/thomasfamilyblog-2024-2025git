@@ -65,7 +65,7 @@
   padding: 10px 10px 10px 10px;
   margin: 5px;
   font-size: 1.2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 
 .newsheader {
@@ -76,7 +76,7 @@
   padding: 10px 10px 10px 10px;
   margin: 5px;
   font-size: 1.2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 
 .news {
@@ -87,7 +87,7 @@
   padding: 10px 10px 10px 10px;
   margin: 5px;
   font-size: 1rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 
 .blogPhotoDiv {
@@ -109,23 +109,23 @@
   border-radius: 30px;
 }
 
-fig {
+figure {
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
 }
 
-fig img {
+figure img {
   vertical-align: top;
 }
 
-.aprilfigcaption {
+.aprilFigCaption {
   text-align: center;
   font-family: bold;
   color: #36454f;
   font-size: 60%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
   overflow-wrap: normal;
   padding: 5%;
 }

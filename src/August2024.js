@@ -108,43 +108,43 @@ export default function August2024() {
             and it is looking much better, so it has all been worth the effort.
             Here are some of the before and after photos...
             <div className="blogPhotoDivAugust">
-              <fig>
+              <figure>
                 <section className="blogPhotoAugust">
                   <img src={KitchenFloorBefore} alt="" />
-                  <figcaption className="augustfigcaption">
+                  <figcaption className="augustFigCaption">
                     <strong>Kitchen floor and wall tiles - BEFORE</strong>
                   </figcaption>
                 </section>
-              </fig>
-              <fig>
+              </figure>
+              <figure>
                 <section className="blogPhotoAugust">
                   <img src={KitchenFloor2} alt="" />
-                  <figcaption className="augustfigcaption">
+                  <figcaption className="augustFigCaption">
                     <strong>
                       Kitchen floor with the <br /> old tiles removed and <br />{" "}
                       matting laid down
                     </strong>
                   </figcaption>
                 </section>
-              </fig>
-              <fig>
+              </figure>
+              <figure>
                 <section className="blogPhotoAugust">
                   <img src={KitchenWallNew} alt="" />
-                  <figcaption className="augustfigcaption">
+                  <figcaption className="augustFigCaption">
                     <strong>
                       Kitchen wall tiles - in the <br /> process of being laid
                     </strong>
                   </figcaption>
                 </section>
-              </fig>
-              <fig>
+              </figure>
+              <figure>
                 <section className="blogPhotoAugust">
                   <img src={KitchenFloorAfter} alt="" />
-                  <figcaption className="augustfigcaption">
+                  <figcaption className="augustFigCaption">
                     <strong>Kitchen floor and wall tiles - AFTER</strong>
                   </figcaption>
                 </section>
-              </fig>
+              </figure>
             </div>
           </section>
         </div>
@@ -167,10 +167,10 @@ export default function August2024() {
             family.
             <br />
             <br />
-            <fig>
+            <figure>
               <section className="blogPhoto1August">
                 <img src={Internment} alt="" />
-                <figcaption className="julyfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong style={{ color: "black" }}>
                     The Thomas family plus one <br /> additional non-family
                     member. Can <br /> you spot who they are <br /> and what
@@ -178,7 +178,7 @@ export default function August2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </section>
         </div>
       </div>
@@ -204,38 +204,38 @@ export default function August2024() {
             are looking better now after some slightly warmer days and they are
             starting to brighten the garden up. Here are some of the photos...
             <div className="blogPhotoDivAugust">
-              <fig>
+              <figure>
                 <section className="blogPhotoAugust">
                   <img src={ElenaGarden1} alt="" />
-                  <figcaption className="augustfigcaption">
+                  <figcaption className="augustFigCaption">
                     <strong>Elena's raised beds(1)</strong>
                   </figcaption>
                 </section>
-              </fig>
-              <fig>
+              </figure>
+              <figure>
                 <section className="blogPhotoAugust">
                   <img src={ElenaGarden4} alt="" />
-                  <figcaption className="augustfigcaption">
+                  <figcaption className="augustFigCaption">
                     <strong>Elena's raised beds(2)</strong>
                   </figcaption>
                 </section>
-              </fig>
-              <fig>
+              </figure>
+              <figure>
                 <section className="blogPhotoAugust">
                   <img src={ElenaGarden5} alt="" />
-                  <figcaption className="augustfigcaption">
+                  <figcaption className="augustFigCaption">
                     <strong></strong>Elena's Raised beds (3)
                   </figcaption>
                 </section>
-              </fig>
-              <fig>
+              </figure>
+              <figure>
                 <section className="blogPhotoAugust">
                   <img src={ElenaGarden7} alt="" />
-                  <figcaption className="augustfigcaption">
+                  <figcaption className="augustFigCaption">
                     <strong></strong>Elena's Raised beds (4)
                   </figcaption>
                 </section>
-              </fig>
+              </figure>
             </div>
           </section>
         </div>
@@ -289,16 +289,16 @@ export default function August2024() {
               <br /> <br /> Finally, we arrived and the accommodation was
               lovely, so that was great, and it was time for a well-earned rest
               before the busy week to come. <br /> <br />
-              <fig>
+              <figure>
                 <section className="blogPhoto1August">
                   <img src={LennieAtHome} alt="" />
-                  <figcaption className="julyfigcaption">
+                  <figcaption className="augustFigCaption">
                     <strong style={{ color: "black" }}>
                       Lennie, happy at home back in Cumbria
                     </strong>
                   </figcaption>
                 </section>
-              </fig>
+              </figure>
             </div>
 
             <div className="newsAugust">
@@ -406,7 +406,7 @@ export default function August2024() {
               <br /> <br />
               Click on the Caerleon and RSPB holiday album below to see selected
               photos of day 2 of the holiday.
-              <fig>
+              <figure>
                 <Link
                   to="https://photos.app.goo.gl/wbuncLw4Lh6Hx3Js5"
                   target="_blank"
@@ -417,7 +417,7 @@ export default function August2024() {
                     alt=""
                   />
                 </Link>
-              </fig>
+              </figure>
             </div>
 
             <div className="newsAugust">
@@ -429,44 +429,44 @@ export default function August2024() {
               morning. The old haunts were visited including the Danish pastry
               shop and the café on the pier...
               <div className="blogPhotoDivAugust">
-                <fig>
+                <figure>
                   <section className="blogPhotoAugust">
                     <img src={JillPenarthPier} alt="" />
-                    <figcaption className="augustfigcaption">
+                    <figcaption className="augustFigCaption">
                       <strong>Jill on Penarth pier...</strong>
                     </figcaption>
                   </section>
-                </fig>
-                <fig>
+                </figure>
+                <figure>
                   <section className="blogPhotoAugust">
                     <img src={BernardHarryPenarthPier} alt="" />
-                    <figcaption className="augustfigcaption">
+                    <figcaption className="augustFigCaption">
                       ...and also Harry <br /> and Bernard.<strong></strong>
                     </figcaption>
                   </section>
-                </fig>
-                <fig>
+                </figure>
+                <figure>
                   <section className="blogPhotoAugust">
                     <img src={PenarthPier} alt="" />
-                    <figcaption className="augustfigcaption">
+                    <figcaption className="augustFigCaption">
                       <strong>
                         The pier was very quiet as the weather was not great,
                         but it was still very pleasant.
                       </strong>
                     </figcaption>
                   </section>
-                </fig>
-                <fig>
+                </figure>
+                <figure>
                   <section className="blogPhotoAugust">
                     <img src={AneurinBevan} alt="" />
-                    <figcaption className="augustfigcaption">
+                    <figcaption className="augustFigCaption">
                       <strong>
                         Then into Cardiff in the afternoon to say hello to{" "}
                         <br /> the founder of the NHS, <br /> Aneurin Bevan.
                       </strong>
                     </figcaption>
                   </section>
-                </fig>
+                </figure>
               </div>{" "}
             </div>
 
@@ -563,7 +563,7 @@ export default function August2024() {
               <br />
               Click on the Mumbles and Castell Coch holiday album below to see
               selected photos of day 4 of the holiday.
-              <fig>
+              <figure>
                 <Link
                   to="https://photos.app.goo.gl/wfxJEfiXTYWePDxk7"
                   target="_blank"
@@ -574,7 +574,7 @@ export default function August2024() {
                     alt=""
                   />
                 </Link>
-              </fig>
+              </figure>
             </div>
 
             <div className="newsAugust">
@@ -794,94 +794,94 @@ export default function August2024() {
       <div className="news">
         <section className="newsAugust">
           <div className="blogPhotoDivAugustColumn">
-            <fig>
+            <figure>
               <section className="blogPhotoAugust">
                 <img src={PooleyJetty} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     Safely arrived at Pooley Bridge Jetty <br /> ....waiting for
                     the steamer to take us to Howtown.
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoAugust">
                 <img src={AscentFusedale} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     Ascending Fusedale above the beck, <br /> even Harry is
                     tired ...
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoAugust">
                 <img src={LunchFusedale} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   Decided to have lunch just before we reached the summit
                   ridge...
                   <br /> a good plan as it was very windy on the top and there
                   are some <br /> superb views from here...<strong></strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoAugust">
                 <img src={FinalAscent} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   The final steep ascent from Fusedale <br /> up on to High
                   Street Roman Road, <br /> need I say more....
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
 
           <div className="blogPhotoDivAugustColumn">
-            <fig>
+            <figure>
               <section className="blogPhotoAugust">
                 <img src={EHRomanHighStreet} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     Elena and Harry now successfully <br /> up on High Street
                     Roman Road....
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoAugust">
                 <img src={LoneRangerLoadPot} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     The Lone Ranger or Last Man Standing.....
                     <br /> a.k.a Bernard on High Street Roman Road....
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoAugust">
                 <img src={SummitLoadPotJill} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     Jill has made it to the summit of Load Pot Hill....
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoAugust">
                 <img src={MoorDivockPooleyBridge} alt="" />
-                <figcaption className="augustfigcaption">
+                <figcaption className="augustFigCaption">
                   <strong>
                     After many miles walking, Jill still smiling <br /> on the
                     final descent from Moor Divock <br /> into Pooley Bridge.
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
         </section>
       </div>

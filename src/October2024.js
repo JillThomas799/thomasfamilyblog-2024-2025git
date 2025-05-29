@@ -235,10 +235,10 @@ export default function October2024() {
             the effort.
           </section>
           <div className="blogPhotoDivOctober">
-            <fig>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={AspleyCottageTRIPLive} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     We arrived and Robin disappeared immediately <br /> into the
                     Apsley Cottage pub to check out <br /> his old haunt from
@@ -246,32 +246,32 @@ export default function October2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={FullAuditorium} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     The auditorium was packed full, <br /> even though there was
                     another show <br /> after this one...
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={AcRsInAction} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     Alistair Campbell and Rory Stewart <br /> in action...
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={AcRs} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     We think Rory seems to really be enjoying <br /> these live
                     shows. Here he is in his <br /> drainpipe trousers,
@@ -279,14 +279,14 @@ export default function October2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
 
           <div className="blogPhotoDivOctober">
-            <fig>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={PreparingPart2} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     The 2 halves were separated by an interval, <br />
                     after which there was a question and answer <br /> session.
@@ -294,22 +294,22 @@ export default function October2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={ElenaTripLive} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     Elena at the interval. We had <br /> really good seats which
                     was great.
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={AcKkAsRs} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     Alistair Campbell, Katty Kay, Anthony <br /> Scaramucci and
                     Rory Stewart in action <br /> in question and answers in the
@@ -317,11 +317,11 @@ export default function October2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={Alistairbagpipes} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     Alistair always ends by playing his bagpipes, so <br /> the
                     show ended to the sound of 'Happy Birthday' <br /> being
@@ -330,7 +330,7 @@ export default function October2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
 
           <section className="dateOctober">
@@ -372,50 +372,50 @@ export default function October2024() {
             <br />
           </section>
           <div className="blogPhotoDivOctober">
-            <fig>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={LaFuga} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     Our new garden feature of a spring, <br /> otherwise known
                     as 'the leak'.
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={UUHardatwork} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     The men from United Utilities, hard <br /> at work in the
                     rain to stop the flood.
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={AnatomyHole} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     The anatomy of the hole, <br /> with the stopcock now
                     replaced.
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={Repairsite} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     All secure. The 3rd team now just <br /> need to attend to
                     undertake the back-fill.
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
 
           <section className="dateOctober">17th October 2024, Thursday</section>
@@ -427,10 +427,10 @@ export default function October2024() {
             thought we would add a brief update of what he has been up to.....
           </section>
           <div className="blogPhotoDivOctober">
-            <fig>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={LennieBed} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     Lennie is always trying to sneak on to the beds. <br />{" "}
                     Usually he does not succeed, but here he is <br /> on
@@ -438,11 +438,11 @@ export default function October2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={LennieFire16102024} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     Lennie has been trying to get us <br /> to light the log
                     fire for ages, ...here he is <br /> last night, having been
@@ -450,22 +450,22 @@ export default function October2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={LenniePlaystation} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     Lennie does not like to feel left out. <br /> Here he is
                     playing on the <br /> play station game ....
                   </strong>
                 </figcaption>
               </section>
-            </fig>
-            <fig>
+            </figure>
+            <figure>
               <section className="blogPhotoOctober">
                 <img src={LennieStudying} alt="" />
-                <figcaption className="octoberfigcaption">
+                <figcaption className="octoberFigCaption">
                   <strong>
                     Lennie is studying hard, <br /> the 'Terms and Conditions{" "}
                     <br /> for cat owners.'... He thinks <br /> they may need
@@ -473,7 +473,7 @@ export default function October2024() {
                   </strong>
                 </figcaption>
               </section>
-            </fig>
+            </figure>
           </div>
 
           <section className="dateOctober">26th October 2024, Saturday</section>

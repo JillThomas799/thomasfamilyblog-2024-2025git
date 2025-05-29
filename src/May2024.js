@@ -41461,63 +41461,63 @@ export default function May2024() {
         </section>
       </div>
       <div className="blogPhotoDiv">
-        <fig>
+        <figure>
           <section className="blogPhoto">
             <img src={LennieHappyNoSnuggles} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>
                 We left Lennie happy ... <br /> at home rather than in the
                 cattery....
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhoto">
             <img src={BernardCostaHamiltonservices} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>
                 After an hour and a half we took <br /> a break at Hamilton
                 services <br /> just before Glasgow...
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhoto">
             <img src={ApproachingErskine} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>
                 Then it was on through Glasgow <br /> and over the Erskine
                 Bridge, <br /> the first way-marker on our journey.
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhoto">
             <img src={ClachaigInn} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>Clachaig Inn, Glencoe ... </strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
       <div className="blogPhotoDiv">
-        <fig>
+        <figure>
           <section className="blogPhoto">
             <img src={JillClachaigInn} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>
                 ....where we enjoyed a lunchtime <br /> drink in the sunshine...
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhoto">
             <img src={ViewfromClachaigInn} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>
                 ..and from where there are amazing views <br /> of the Glencoe
                 mountains including towards <br /> Stob Coire nan Beith and Stob
@@ -41525,94 +41525,94 @@ export default function May2024() {
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhoto">
             <img src={BernardAnTorrWoodland} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>
                 Then we walked through An Torr Wood <br /> and sat to have our
                 sandwiches <br /> by the River Coe...
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhoto">
             <img src={SkyeBridged1} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>
                 Onwards with our journey <br /> until we reach the bridge to
                 Skye...
               </strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
       <div className="blogPhotoDiv">
-        <fig>
+        <figure>
           <section className="blogPhoto">
             <img src={MoerakiCottaged1} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>
                 ...and finally, we arrived at our accommodation....
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhoto">
             <img src={ViewfromMoerakid1} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>...and admired the view...</strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhoto">
             <img src={BernardMoerakid1} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>
                 ...Bernard taking the opportunity to <br /> make the most of the
                 lovely weather...
               </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhoto">
             <img src={JillMoerakid1} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>...and also Jill...</strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
       <div className="blogPhotoDiv">
-        <fig>
+        <figure>
           <section className="blogPhoto">
             <img src={ViewBroadfordEveningd1} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>As the evening came in, we admired the view </strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhoto">
             <img src={Sundown1Broadford} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>...and watched the sun going down...</strong>
             </figcaption>
           </section>
-        </fig>
-        <fig>
+        </figure>
+        <figure>
           <section className="blogPhoto">
             <img src={Sundown2Broadford} alt="" />
-            <figcaption className="mayfigcaption">
+            <figcaption className="mayFigCaption">
               <strong>...until finally night fell...</strong>
             </figcaption>
           </section>
-        </fig>
+        </figure>
       </div>
       <div className="datenewsDivMay2024">
         <section className="date">12th May 2024, Sunday</section>

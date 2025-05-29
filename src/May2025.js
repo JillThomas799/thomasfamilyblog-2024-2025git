@@ -1,6 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./May2025.css";
+import tullieEntrance1 from "./imagesresized/tullieEntrance1.jpg";
+import tullieEntrance2 from "./imagesresized/tullieEntrance2.jpg";
+import tullieReceptionArea from "./imagesresized/tullieReceptionArea.jpg";
+import tullieCakeBreak from "./imagesresized/tullieCakeBreak.jpg";
+import faunusNicoleBishop1 from "./imagesresized/faunusNicoleBishop1.jpg";
+import faunusNicoleBishop2 from "./imagesresized/faunusNicoleBishop2.jpg";
+import tullieCourtyardView from "./imagesresized/tullieCourtyardView.jpg";
+import tullieLunch1 from "./imagesresized/tullieLunch1.jpg";
+import tullieLunch2 from "./imagesresized/tullieLunch2.jpg";
 
 export default function May2025() {
   return (
@@ -261,9 +270,6 @@ export default function May2025() {
               <path d="M 1360 450 L 1440 430 L 1430 350 Z" fill="#FFD700" />
             </g>
           </g>
-
-          {/* <g id="santiagoCircle"><path d="M 500,-20 A 20,20 30 0 0 800,-20 " stroke="#FFA500" strokeWidth="1" fill="#FFD700" transform="translate(70,0)" /> </g>         */}
-          {/* <g id="santiagoCircle"><circle cx="720" cy="145" r="150" stroke="#FFA500" strokeWidth="1" fill="#FFD700"></circle></g> */}
         </svg>
       </div>
       <div className="May2025Santiago">
@@ -290,7 +296,7 @@ export default function May2025() {
           <br />
           <br />
           For anyone who may be interested, this link to our{" "}
-          <Link to="/caminodesantiago" className="LinkMay2025">
+          <Link to="/caminodesantiago" target="_blank" className="LinkMay2025">
             {" "}
             Camino de Santiago Information page{" "}
           </Link>
@@ -299,8 +305,152 @@ export default function May2025() {
           <br />
           <br />
         </section>
-      </div>{" "}
-      {/* Closing div datenewsDivMay2025 */}
+        <section className="dateMay2025">28th May 2025</section>
+        <section className="newsHeaderMay2025">
+          Visit to the new and improved Tullie Museum, Carlisle
+        </section>
+        <section className="newsMay2025">
+          {" "}
+          It was a day out today to see the much awaited, new and improved
+          <Link
+            to="https://tullie.org.uk/"
+            target="_blank"
+            className="LinkMay2025"
+          >
+            {" "}
+            Tullie Museum
+          </Link>{" "}
+          in Carlisle. Tullie House is Cumbria's largest museum and it recently
+          underwent a major upgrade which was the second phase of a 10-15 year
+          upgrade being completed in phases. The completion of phase 2 of the
+          project has improved the entrance and vastly improved the atrium
+          space. There is a new shop and a ground floor gallery dedicated to
+          Carlisle. The café has also had a major refurbish and upgrade. It is
+          well worth a visit if you are ever in Carlisle.
+          <br />
+          <br />
+          There is a lot to see at the museum so this time we concentrated on
+          the Winifred Nicholson Cumbrian rag rugs exhibition, the ground floor
+          Gallery and the Roman Frontier Gallery downstairs. However, for a
+          single entry adult ticket it was £8.00 but if you buy an annual
+          ticket, with which you gain entry to all exhibitions, it is only
+          £15.00. So armed with annual tickets we will be returning in the
+          forthcoming weeks to see the dinosaur exhibition, which starts on the
+          28th June and runs until the 14th September 2025 and to visit the
+          Costume Collection and Reiver and Viking sections. The British Museum
+          touring exhibition{" "}
+          <Link
+            to="https://www.britishmuseum.org/our-work/national/uk-touring-exhibitions-and-loans/current-tours/gladiators-britain"
+            target="_blank"
+            className="LinkMay2025"
+          >
+            {" "}
+            'Gladiators in Britain'{" "}
+          </Link>{" "}
+          will also be at the Tullie between 7th February and the 19th April
+          2025.
+        </section>
+        <div className="blogPhotoDivMay2025">
+          <figure>
+            <section className="blogPhotoMay2025">
+              <img src={tullieEntrance1} alt="" />
+              <div className="may2025FigCaption">
+                <strong>
+                  The entrance to Tullie House <br />
+                </strong>
+              </div>
+            </section>
+          </figure>
+          <figure>
+            <section className="blogPhotoMay2025">
+              <img src={tullieEntrance2} alt="" />
+              <div className="may2025FigCaption">
+                <strong>
+                  Harry, Elena and Bernard by the new, <br /> improved Tullie
+                  entrance.
+                </strong>
+              </div>
+            </section>
+          </figure>
+          <figure>
+            <section className="blogPhotoMay2025">
+              <img src={tullieReceptionArea} alt="" />
+              <div className="may2025FigCaption">
+                <strong>
+                  The open, airy new atrium/ reception area <br />
+                </strong>
+              </div>
+            </section>
+          </figure>
+        </div>
+        <div className="blogPhotoDivMay2025">
+          <figure>
+            <section className="blogPhotoMay2025">
+              <img src={tullieCakeBreak} alt="" />
+              <div className="may2025FigCaption">
+                <strong>
+                  Having obtained our tickets and prior to visiting <br /> the
+                  exhibitions, we required some refreshments...
+                </strong>
+              </div>
+            </section>
+          </figure>
+          <figure>
+            <section className="blogPhotoMay2025">
+              <img src={faunusNicoleBishop1} alt="" />
+              <div className="may2025FigCaption">
+                <strong>'faunus' by Nicole Bishop from Brampton</strong>
+              </div>
+            </section>
+          </figure>
+          <figure>
+            <section className="blogPhotoMay2025">
+              <img src={faunusNicoleBishop2} alt="" />
+              <div className="may2025FigCaption">
+                <strong>Information board about creator of 'faunus'</strong>
+              </div>
+            </section>
+          </figure>
+        </div>
+        <div className="blogPhotoDivMay2025">
+          <figure>
+            <section className="blogPhotoMay2025">
+              <img src={tullieCourtyardView} alt="" />
+              <div className="may2025FigCaption">
+                <strong>
+                  Harry in the café. <br /> A doorway leads out to the garden,{" "}
+                  <br />
+                  where you can also dine on a nice day.
+                </strong>
+              </div>
+            </section>
+          </figure>
+          <figure>
+            <section className="blogPhotoMay2025">
+              <img src={tullieLunch1} alt="" />
+              <div className="may2025FigCaption">
+                <strong>
+                  ...Even better, they have loaded chips <br /> as a tapas, so
+                  Bernard and Harry <br />
+                  are happy....
+                </strong>
+              </div>
+            </section>
+          </figure>
+          <figure>
+            <section className="blogPhotoMay2025">
+              <img src={tullieLunch2} alt="" />
+              <div className="may2025FigCaption">
+                <strong>
+                  Meanwhile, Jill is on the Mediterranean diet. <br />
+                  They are quite large portions!
+                </strong>
+              </div>
+            </section>
+          </figure>
+        </div>{" "}
+        {/* Closing div datenewsDivMay2025 */}
+      </div>
     </div>
   );
 }

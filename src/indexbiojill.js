@@ -54,7 +54,7 @@ export function JillBio() {
           </section>
         </div>
 
-        <section className="Surprisingfacts">
+        <section className="surprisingFacts">
           <h2>Surprising Facts</h2>
           <li>Jill has an additional degree in European Studies</li>
           <li>

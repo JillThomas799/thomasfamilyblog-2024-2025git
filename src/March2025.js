@@ -126,91 +126,91 @@ export default function March2025() {
         </section>
 
         <div className="blogPhotoDivMarch2025">
-          <fig>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={OutsideAucklandPalace} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   'The Team': Bernard, Elena and Harry outside Auckland Palace
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={AucklandPalaceBH} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 Bernard and Harry preparing to enter Auckland Palace
                 <strong></strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={CafeAucklandPalace} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   First though, after a long drive, <br /> it is time for a
                   coffee and cake.....{" "}
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={AucklandPalaceWelcome} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   There are plenty of very informative signs as <br /> you enter
                   and go on to <br /> explore the property.
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDivMarch2025">
-          <fig>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={AucklandPalaceThroneRoom} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   Throne Room, where the Bishops would behave <br /> in the
                   manner expected of a high-ranking <br /> individual.
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={AucklandPalaceThrone} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   It is likely that the presence of the throne was <br />{" "}
                   symbolic, a reminder of the Bishop's authority.{" "}
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={AucklandPalace} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>Bishops Auckland Palace</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={BishopsAuckland} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   Looking towards Bishops Auckland town <br /> from the entrance
                   to the Castle.
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <section className="dateMarch2025">13th - 16th March 2025</section>
@@ -794,109 +794,109 @@ export default function March2025() {
         </section>
 
         <div className="blogPhotoDivMarch2025">
-          <fig>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={AcerBrilliantissimum} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>First new tree: Acer Brilliantissimum </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={PrunusPinkPerfection} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   Second new tree: Prunus 'Pink Perfection', <br /> a pink
                   flowering cherry.
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={GardenSlope270320252} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   Here are the 2 new trees securely <br /> planted in their new
                   locations <br /> in the garden...
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDivMarch2025">
-          <fig>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={StatueLarchCottage} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   One of the many interesting statues <br /> at Larch Cottage
                   nurseries.
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={CatLarchRadiator1} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   We discovered the Casa Verde café, <br /> which had its own
                   permanent resident <br /> keeping warm on the radiator!
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={CatLarchRadiator2} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   It had no intention of moving <br /> anytime soon...
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDivMarch2025">
-          <fig>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={Lowther260320251} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   Approach to smart, clean <br /> Lowther Castle today....
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={Lowther260320253} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   It is easy to imagine its <br /> previous splendour....
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={Lowther260320252} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>Bernard in the courtyard.</strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDivMarch2025">
-          <fig>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={Lowther010620111} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   And here the castle is on 2nd June 2011, <br /> just after
                   opening to the <br />
@@ -904,59 +904,59 @@ export default function March2025() {
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={Lowther010620112} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>And again......</strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={Lowther260320254} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   Robin, Bernard and Jill in front <br /> of Lowther Castle
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <div className="blogPhotoDivMarch2025">
-          <fig>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={WilfNell022024} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   Wilf and Nell at our meet-up <br /> in February 2024.
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={Lowther260320256} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   Robin and Bernard on the footpath towards Whale.
                 </strong>
               </figcaption>
             </section>
-          </fig>
-          <fig>
+          </figure>
+          <figure>
             <section className="blogPhotoMarch2025">
               <img src={Lowther260320257} alt="" />
-              <figcaption className="March2025figcaption">
+              <figcaption className="march2025FigCaption">
                 <strong>
                   The 'team': Cathy, Jill, Bernard and Robin <br /> on the
                   footpath towards Whale.
                 </strong>
               </figcaption>
             </section>
-          </fig>
+          </figure>
         </div>
 
         <section className="dateMarch2025">

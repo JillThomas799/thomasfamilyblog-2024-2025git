@@ -1,130 +1,128 @@
-body{
-  display:flex;
-  flex-direction:column;
-  background-color:#6B7A8F;
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #6b7a8f;
 }
 
- #menu ul{
-  display:flex;
+#menu ul {
+  display: flex;
   flex-direction: row;
-  width:100%;
+  width: 100%;
   gap: 5%; /* Sets the desired spacing between flex items */
   font-weight: bold;
 }
 
-#the_Thomas_Family_Blog{
-  color:white;
+#the_Thomas_Family_Blog {
+  color: white;
   text-align: center;
-  margin-top:20%;
-  margin-bottom:5%;
-  font-family:sans-serif helvetica;
-  padding:2%;
-  border-radius: 0%;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  font-family: sans-serif helvetica;
+  padding: 2%;
   -webkit-border-radius: 0%;
   -moz-border-radius: 0%;
   -ms-border-radius: 0%;
   -o-border-radius: 0%;
-  width:100%;
+  border-radius: 0%;
+  width: 100%;
 }
 
-.gridContainer{
-  display:grid;
+.gridContainer {
+  display: grid;
   grid-template-columns: 35vw 35vw 35vw; /*specifies the number of columns in the grid. The fr unit allows you to set the size of a track
   as a fraction of the free space of the grid container. For example, this will set each item to one third the width of the grid container:*/
-  grid-template-rows: 20vh 20vh 20vh ; /*specifies the number of rows in the grid*/
+  grid-template-rows: 20vh 20vh 20vh; /*specifies the number of rows in the grid*/
   column-gap: 0vw; /*specifies the size of the gaps between the columns*/
   row-gap: 2vh; /*specifies the size of the gaps between the rows*/
-  padding-bottom:25%;
+  padding-bottom: 25%;
 }
 
-#Bernard_profile_photo{
+#Bernard_profile_photo {
   height: auto;
-  width:auto; 
-  border:solid grey 5px;
-  border-radius: 15%;
+  width: auto;
+  border: solid grey 5px;
   -webkit-border-radius: 15%;
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
-}
-
-#Jill_profile_photo{
-  height:auto;
-  width:auto; 
-  border:solid grey 5px;
   border-radius: 15%;
-  -webkit-border-radius: 15%;
-  -moz-border-radius: 15%;
-  -ms-border-radius: 15%;
-  -o-border-radius: 15%;
 }
 
-#Elena_profile_photo{
+#Jill_profile_photo {
   height: auto;
-  width:auto; 
-  border:solid grey 5px;
-  border-radius: 15%;
+  width: auto;
+  border: solid grey 5px;
   -webkit-border-radius: 15%;
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
+  border-radius: 15%;
 }
 
-#Harry_profile_photo{
+#Elena_profile_photo {
   height: auto;
-  width:auto; 
-  border:solid grey 5px;
-  border-radius: 15%;
+  width: auto;
+  border: solid grey 5px;
   -webkit-border-radius: 15%;
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
+  border-radius: 15%;
 }
 
-
-#Lennie_profile_photo{
+#Harry_profile_photo {
   height: auto;
-  width:auto;
-  border:solid grey 5px;
-  border-radius: 15%;
+  width: auto;
+  border: solid grey 5px;
   -webkit-border-radius: 15%;
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
-  }
+  border-radius: 15%;
+}
 
-  fig figcaption {
-    text-align: center;
-    font-weight: bold;
-    color:white;
-    font-size:32px;
-    justify-content: center;
-    margin-bottom:10%;
-  }
-  
-  .profileLink{
-    color:white;
-    text-decoration: underline;
+#Lennie_profile_photo {
+  height: auto;
+  width: auto;
+  border: solid #808080 5px;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  border-radius: 15%;
+}
+
+.figApp figcaption {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 32px;
+  justify-content: center;
+  margin-bottom: 10%;
+}
+
+.profileLink {
+  color: white;
+  text-decoration: underline;
 }
 
 #MenuDropdown {
   margin-bottom: 10em;
 }
 
-@media screen and (max-width:401px) {
-#the_Thomas_Family_Blog{
-  color:white;
-  text-align: center;
-  margin-top:25%;
-  margin-bottom:5%;
-  font-family:sans-serif helvetica;
-  padding:5%;
-  border-radius: 0%;
-  -webkit-border-radius: 0%;
-  -moz-border-radius: 0%;
-  -ms-border-radius: 0%;
-  -o-border-radius: 0%;
-  width:100%;
-}
-
+@media screen and (max-width: 401px) {
+  #the_Thomas_Family_Blog {
+    color: white;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 5%;
+    font-family: sans-serif helvetica;
+    padding: 5%;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+    width: 100%;
+  }
 }

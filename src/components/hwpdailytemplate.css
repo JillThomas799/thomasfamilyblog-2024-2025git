@@ -1,270 +1,262 @@
-.bodyHwp{
-    display:flex;
-    flex-direction:column;
-    background-color:#850f55;
-    }
-    
-    .hwp2024Header {
-        display:block;
-        position:absolute;
-        text-align: center;
-        font-size: 1.75em;
-        color:white;
-        font-weight: bold;
-        border:solid 3px;
-        width: 100vw;
-        height: auto;
-    } 
-    
-     #hwp2024title {
-        display:block;
-        text-align: center;
-        margin-top:1%;
-        color: 	#52555c;
-    }
-    
-     #backbutton{
-        display:block;
-        position:absolute;
-        height:50px;
-        width:15%;
-        background-color:gray;
-        border:black 2px solid;
-        text-align: center;
-        font-size: large;
-        font-weight: bold;
-        color:white;
-        margin: 5% 25% 5% 75%;
-        border-radius:15%;
-        -webkit-border-radius:15%;
-        -moz-border-radius:15%;
-        -ms-border-radius:15%;
-        -o-border-radius:15%;
-      } 
-    
-    
-      .backbuttonLink{
-        color:white
-        } 
-    
-      .datenewsDivHwp{
-          color:white;
-          background-color:#850f55	;
-          display:flex;
-          flex-direction:column;
-          margin-top: 2%;
-          margin-bottom:1%;
-          padding:4%;
-        }
-        
-        .dateHwp{
-          color:white;;
-          background-color:#66023c;
-          text-align: center;
-          padding:10px 10px 10px 10px;
-          margin:5px;
-          font-size:1.2rem;
-          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          font-weight: bold;
-        }
-      
-        .newsheaderHwp{
-          color:white;;
-          background-color:#66023c;
-          text-align: center;
-          padding:1%;
-          margin:5px;
-          font-size:1.2rem;
-          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          font-weight:bold;
-        }
-      
-        .newsHwp{
-          color:white;;
-          /* border:solid 3px white; */
-          background-color:#66023c;
-          text-align: left;
-          padding:10px 10px 10px 10px;
-          margin:5px;
-          font-size:1.0rem;
-          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          font-weight:bold;
-        }
-    
-        .blogPhotoDivHwp{
-          display:flex;
-          flex-direction: row;
-          background-color:#66023c;
-          padding-bottom: 20%;
-          padding-top: 5%;
-          margin-top:2%;
-        }
-      
-        .blogPhoto img{
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          width:70%;
-          height:70%;
-          border:solid grey;
-          border-radius:30px;
-          }
-    
-          .slideshowentryHwp {
-            display: column;
-            justify-content: center;
-            margin-left: auto;
-            margin-right: auto;
-            pointer-events:none;
-            width:80%;
-            height:auto;
-            border:solid #66023c 8px;
-            border-radius:80%;
-            margin-top:5%;
-            margin-bottom:5%;
-            -webkit-border-radius:80%;
-            -moz-border-radius:80%;
-            -ms-border-radius:80%;
-            -o-border-radius:80%;
-    }    
-    
-    .hwpIntroPhoto {
-      margin-left: auto;
-      margin-right: auto;
-      pointer-events:none;
-      width:35%;
-      height:auto;
-      border:solid #66023c 8px;
-      border-radius:80%;
-      margin-top:1%;
-      margin-bottom:1%;
-      -webkit-border-radius:80%;
-      -moz-border-radius:80%;
-      -ms-border-radius:80%;
-      -o-border-radius:80%;
-    }   
-    
-    .hwpIntroList{
-    padding-left: 10%;
-    list-style-type: none;
-    }
-    
-    li {
-    text-align: left;
-    }
-    
-    ul .listItemsAlign{
-      display:block;
-      align-items: center;
-    }
-    .componentWalkDetails{
-      background-color: #D19B2F	;
-      /* border:solid 4px grey; */
-      text-Align:center;
-      padding-top: 2%;
-      padding-bottom: 2%;
-      color:black;
-      display:flex;
-      flex-direction:column;
-      font-size:1.2rem;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-weight: bold;
-    }
-    
-    .hwpDailyNarrative{
-      background-color: #D19B2F	;
-      /* border:solid 4px grey; */
-      text-Align:left;
-      padding-top: 2%;
-      padding-bottom: 2%;
-      padding-right: 2%;
-      padding-left:2%;
-      color:black;
-      display:flex;
-      flex-direction:column;
-      font-size:1.2rem;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-weight: bold;
-    }
-    
-    .titles{
-      color:#850f55;
-      font-size:1.3rem;
-    }
-    
-    .headTitles{
-      color:#850f55;
-      font-size:1.3rem; 
-      text-decoration: underline;
-    }
-    
-    .slideshowHostPhotoHwp{
-      display:flex;
-      flex-direction: column;
-      background-color: #66023c;
-      padding-bottom: 5%;
-      padding-top: 5%;
-      margin-top:0;
-      margin-bottom: 0;
-      justify-content:center;
-      text-align:center;
-    }
-    
-    .introHostPhotoHwp{
-      display:flex;
-      flex-direction: column;
-      background-color: #66023c;
-      padding-bottom: 0;
-      padding-top: 5%;
-      margin-top:5%;
-      margin-bottom: 0;
-      justify-content:center;
-      text-align:center;
-    }
-          
-    
-           /*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
-    @media screen and (min-width:402px) and (max-width:900px){
-      .blogPhotoDivHwp{
-        display:flex;
-        flex-direction: column;
-        background-color: #66023c;
-        padding-bottom: 15%;
-        padding-top: 5%;
-        margin-top:2%;
-      }
-    }
-    
-    @media screen and (max-width:401px) {
-    
-       /*To ensure on mobile screens below 401px width (this includes one plus phones) that relevant components of 
+.bodyHwp {
+  display: flex;
+  flex-direction: column;
+  background-color: #850f55;
+}
+
+.hwp2024Header {
+  display: block;
+  position: absolute;
+  text-align: center;
+  font-size: 1.75em;
+  color: white;
+  font-weight: bold;
+  border: solid 3px;
+  width: 100vw;
+  height: auto;
+}
+
+#hwp2024title {
+  display: block;
+  text-align: center;
+  margin-top: 1%;
+  color: #52555c;
+}
+
+#backbutton {
+  display: block;
+  position: absolute;
+  height: 50px;
+  width: 15%;
+  background-color: gray;
+  border: black 2px solid;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  margin: 5% 25% 5% 75%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  border-radius: 15%;
+}
+
+.backbuttonLink {
+  color: white;
+}
+
+.datenewsDivHwp {
+  color: white;
+  background-color: #850f55;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  padding: 4%;
+}
+
+.dateHwp {
+  color: white;
+  background-color: #66023c;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 5px;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.newsheaderHwp {
+  color: white;
+  background-color: #66023c;
+  text-align: center;
+  padding: 1%;
+  margin: 5px;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.newsHwp {
+  color: white;
+  /* border:solid 3px white; */
+  background-color: #66023c;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  margin: 5px;
+  font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.blogPhotoDivHwp {
+  display: flex;
+  flex-direction: row;
+  background-color: #66023c;
+  padding-bottom: 20%;
+  padding-top: 5%;
+  margin-top: 2%;
+}
+
+.blogPhoto img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 70%;
+  border: solid grey;
+  border-radius: 30px;
+}
+
+.slideshowentryHwp {
+  display: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
+  width: 80%;
+  height: auto;
+  border: solid #66023c 8px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  -ms-border-radius: 80%;
+  -o-border-radius: 80%;
+  border-radius: 80%;
+}
+
+.hwpIntroPhoto {
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
+  width: 35%;
+  height: auto;
+  border: solid #66023c 8px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  -ms-border-radius: 80%;
+  -o-border-radius: 80%;
+  border-radius: 80%;
+}
+
+.hwpIntroList {
+  padding-left: 10%;
+  list-style-type: none;
+}
+
+li {
+  text-align: left;
+}
+
+ul .listItemsAlign {
+  display: block;
+  align-items: center;
+}
+.componentWalkDetails {
+  background-color: #d19b2f;
+  /* border:solid 4px grey; */
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.hwpDailyNarrative {
+  background-color: #d19b2f;
+  /* border:solid 4px grey; */
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
+
+.titles {
+  color: #850f55;
+  font-size: 1.3rem;
+}
+
+.headTitles {
+  color: #850f55;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+.slideshowHostPhotoHwp {
+  display: flex;
+  flex-direction: column;
+  background-color: #66023c;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.introHostPhotoHwp {
+  display: flex;
+  flex-direction: column;
+  background-color: #66023c;
+  padding-bottom: 0;
+  padding-top: 5%;
+  margin-top: 5%;
+  margin-bottom: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+/*To ensure on ipad screens and larger mobiles that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+@media screen and (min-width: 402px) and (max-width: 900px) {
+  .blogPhotoDivHwp {
+    display: flex;
+    flex-direction: column;
+    background-color: #66023c;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 401px) {
+  /*To ensure on mobile screens below 401px width (this includes one plus phones) that relevant components of 
        the site are displayed with the best dimensions for the smaller devices*/
-    
-    
-    .hwp2024header {
-      display:block;
-      text-align: center;
-      font-size: 1.75em;
-      color:white;
-      font-weight: bold;
-      /* border:solid 3px; */
-      width: 100vw;
-      /* height: 50vh; */
-      height:auto;
-      position:absolute; 
-    
-    } 
-    
-    /*To ensure on mobile screens below 401px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
-    .blogPhotoDivHwp{
-      display:flex;
-      flex-direction: column;
-      background-color: #66023c;
-      padding-bottom: 15%;
-      padding-top: 5%;
-      margin-top:2%;
-    }
-    }
-    
-    
-      
+
+  .hwp2024header {
+    display: block;
+    text-align: center;
+    font-size: 1.75em;
+    color: white;
+    font-weight: bold;
+    /* border:solid 3px; */
+    width: 100vw;
+    /* height: 50vh; */
+    height: auto;
+    position: absolute;
+  }
+
+  /*To ensure on mobile screens below 401px that photos are displayed in columnar format to ensure sizing and clarity of image optimal*/
+  .blogPhotoDivHwp {
+    display: flex;
+    flex-direction: column;
+    background-color: #66023c;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    margin-top: 2%;
+  }
+}

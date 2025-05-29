@@ -26,11 +26,11 @@
   top: 10%;
   text-decoration: underline;
   margin: 5% 25% 5% 75%;
-  border-radius: 15%;
   -webkit-border-radius: 15%;
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
+  border-radius: 15%;
 }
 
 .backbuttonLink {
@@ -52,13 +52,13 @@ ul li {
   pointer-events: none;
   width: 25%;
   height: auto;
-  border-radius: 50%;
   margin-top: 3%;
   margin-bottom: 5%;
   -webkit-border-radius: 20%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  border-radius: 50%;
   border: solid #8bb285 4px;
 }
 
@@ -68,7 +68,7 @@ ul li {
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
   margin-bottom: 1%;
 }
 
@@ -82,7 +82,7 @@ ul li {
   border: solid #8bb285 3px;
   font-weight: bold;
   font-size: 1.1rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
 }
 
@@ -95,7 +95,7 @@ ul li {
   margin: 5px;
   font-size: 1.5rem;
   font-weight: bold;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
 }
 
 .CongratsMessage {
@@ -109,14 +109,13 @@ ul li {
 
 /* Animation Congrats Animation */
 .CongratsMessage {
-  animation: animated-text 12s linear 1s infinite normal both,
-    animated-cursor1 1000ms linear infinite;
   -webkit-animation: animated-text 12s linear 1s infinite normal both,
+    animated-cursor1 1000ms linear infinite;
+  animation: animated-text 12s linear 1s infinite normal both,
     animated-cursor1 1000ms linear infinite;
 }
 
 /* text animation */
-
 @keyframes animated-text1 {
   from {
     width: 10px;
@@ -127,7 +126,6 @@ ul li {
 }
 
 /* cursor animations */
-
 @keyframes animated-cursor1 {
   from {
     border-right-color: rgba(255, 255, 255, 0.75);
@@ -148,9 +146,9 @@ ul li {
 }
 
 .CongratsMessage {
-  animation: animated-text 12s linear 1s infinite normal both,
-    animated-cursor 1000ms linear infinite;
   -webkit-animation: animated-text 12s linear 1s infinite normal both,
+    animated-cursor 1000ms linear infinite;
+  animation: animated-text 12s linear 1s infinite normal both,
     animated-cursor 1000ms linear infinite;
 }
 
@@ -184,7 +182,7 @@ ul li {
   padding: 10px 10px 10px 10px;
   margin: 5px;
   font-size: 1.1rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
 }
 
@@ -196,7 +194,7 @@ ul li {
   padding: 10px 10px 10px 10px;
   margin: 5px;
   font-size: 1.1rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
 }
 
@@ -238,11 +236,11 @@ ul li {
   width: 80%;
   height: auto;
   border: solid #8bb285 4px;
-  border-radius: 10%;
   -webkit-border-radius: 10%;
   -moz-border-radius: 10%;
   -ms-border-radius: 10%;
   -o-border-radius: 10%;
+  border-radius: 10%;
 }
 
 .blogPhotoDivAugust {
@@ -263,12 +261,12 @@ ul li {
   margin-top: 5vh;
 }
 
-.augustfigcaption {
+.augustFigCaption {
   text-align: center;
   font-family: bold;
   color: black;
   font-size: 1rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Calibri, "Trebuchet MS", sans-serif;
   overflow-wrap: normal;
   padding-top: 5%;
 }
@@ -301,16 +299,16 @@ ul li {
   border-radius: 50%;
   position: relative;
   top: -30px;
-  -webkit-filter: blur(6px);
+  filter: blur(6px);
   z-index: 11;
   left: -50px;
   opacity: 0.76;
   zoom: 0.5;
-  transform: translateY(250px);
   -webkit-transform: translateY(250px);
   -moz-transform: translateY(250px);
   -ms-transform: translateY(250px);
   -o-transform: translateY(250px);
+  transform: translateY(250px);
 }
 
 .cloudCyclist:before {
@@ -319,7 +317,7 @@ ul li {
   background: white;
   width: 100px;
   height: 100px;
-  -webkit-filter: blur(3px);
+  filter: blur(3px);
   position: relative;
   border-radius: 50%;
   top: 0px;
@@ -332,7 +330,7 @@ ul li {
   background: white;
   width: 200px;
   height: 100px;
-  -webkit-filter: blur(3px);
+  filter: blur(3px);
   position: relative;
   border-radius: 50%;
   top: -80px;
@@ -397,23 +395,23 @@ ul li {
 
 @keyframes cloudAnimationCyclist {
   0% {
-    transform: translate(-1200px, 0);
     -webkit-transform: translate(-1200px, 0);
     -moz-transform: translate(-1200px, 0);
     -ms-transform: translate(-1200px, 0);
     -o-transform: translate(-1200px, 0);
+    transform: translate(-1200px, 0);
   }
   100% {
-    transform: translate(500px, 0);
     -webkit-transform: translate(500px, 0);
     -moz-transform: translate(500px, 0);
     -ms-transform: translate(500px, 0);
     -o-transform: translate(500px, 0);
+    transform: translate(500px, 0);
   }
 }
 .allcloudCyclist {
-  animation: 4000ms cloudAnimationCyclist linear reverse infinite;
   -webkit-animation: 4000ms cloudAnimationCyclist linear reverse infinite;
+  animation: 4000ms cloudAnimationCyclist linear reverse infinite;
 }
 
 /*To ensure on screens above 2000 width that relevant components of 
@@ -424,13 +422,13 @@ ul li {
     width: 15%;
     height: auto;
     border: #e0dbd1 solid 5px;
-    border-radius: 25%;
     margin: auto;
     pointer-events: none;
     -webkit-border-radius: 25%;
     -moz-border-radius: 25%;
     -ms-border-radius: 25%;
     -o-border-radius: 25%;
+    border-radius: 25%;
   }
 
   .slideshowentryAugust {
@@ -440,13 +438,13 @@ ul li {
     pointer-events: none;
     width: 10%;
     height: auto;
-    border-radius: 100%;
     margin-top: 3%;
     margin-bottom: 5%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
+    border-radius: 100%;
   }
 }
 
@@ -458,13 +456,13 @@ ul li {
     pointer-events: none;
     width: 70%;
     height: auto;
-    border-radius: 100%;
     margin-top: 3%;
     margin-bottom: 5%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
+    border-radius: 100%;
   }
 
   .blogPhoto1August img {
@@ -489,11 +487,11 @@ ul li {
     width: 80%;
     height: auto;
     border: solid #8bb285 4px;
-    border-radius: 10%;
     -webkit-border-radius: 10%;
     -moz-border-radius: 10%;
     -ms-border-radius: 10%;
     -o-border-radius: 10%;
+    border-radius: 10%;
   }
 
   .blogPhotoDivAugust {
@@ -522,11 +520,11 @@ ul li {
     margin-top: 15%;
     margin-left: 20%;
     margin-right: 25%;
-    border-radius: 15%;
     -webkit-border-radius: 15%;
     -moz-border-radius: 15%;
     -ms-border-radius: 15%;
     -o-border-radius: 15%;
+    border-radius: 15%;
   }
 }
 
@@ -544,11 +542,11 @@ ul li {
   }
 
   .cloudCyclist {
-    transform: scale(0.8) translate(0px, 500px);
     -webkit-transform: scale(0.8) translate(0px, 500px);
     -moz-transform: scale(0.8) translate(0px, 500px);
     -ms-transform: scale(0.8) translate(0px, 500px);
     -o-transform: scale(0.8) translate(0px, 500px);
+    transform: scale(0.8) translate(0px, 500px);
   }
 
   #backbuttonAugust {
@@ -565,34 +563,34 @@ ul li {
     top: 20%;
     text-decoration: underline;
     margin: 45% 25% 5% 75%;
-    border-radius: 15%;
     -webkit-border-radius: 15%;
     -moz-border-radius: 15%;
     -ms-border-radius: 15%;
     -o-border-radius: 15%;
+    border-radius: 15%;
   }
 
   .CongratsMessage {
-    animation: animated-text 3s linear 1s infinite normal both,
-      animated-cursor 1000ms linear infinite;
     -webkit-animation: animated-text 3s linear 1s infinite normal both,
+      animated-cursor 1000ms linear infinite;
+    animation: animated-text 3s linear 1s infinite normal both,
       animated-cursor 1000ms linear infinite;
   }
 
   @keyframes cloudAnimationCyclist {
     0% {
-      transform: translate(-2000px, 0);
       -webkit-transform: translate(-2000px, 0);
       -moz-transform: translate(-2000px, 0);
       -ms-transform: translate(-2000px, 0);
       -o-transform: translate(-2000px, 0);
+      transform: translate(-2000px, 0);
     }
     100% {
-      transform: translate(-350px, 0);
       -webkit-transform: translate(-350px, 0);
       -moz-transform: translate(-350px, 0);
       -ms-transform: translate(-350px, 0);
       -o-transform: translate(-350px, 0);
+      transform: translate(-350px, 0);
     }
   }
 
@@ -613,13 +611,13 @@ ul li {
     pointer-events: none;
     width: 100%;
     height: auto;
-    border-radius: 100%;
     margin-top: 3%;
     margin-bottom: 5%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
+    border-radius: 100%;
   }
 
   .blogPhoto1August img {
@@ -644,11 +642,11 @@ ul li {
     width: 100%;
     height: auto;
     border: solid #8bb285 4px;
-    border-radius: 10%;
     -webkit-border-radius: 10%;
     -moz-border-radius: 10%;
     -ms-border-radius: 10%;
     -o-border-radius: 10%;
+    border-radius: 10%;
   }
 
   .CongratsMessage {
@@ -662,9 +660,9 @@ ul li {
 
   /* Animation */
   .CongratsMessage {
-    animation: animated-text 3s linear 1s infinite normal both,
-      animated-cursor 1000ms linear infinite;
     -webkit-animation: animated-text 3s linear 1s infinite normal both,
+      animated-cursor 1000ms linear infinite;
+    animation: animated-text 3s linear 1s infinite normal both,
       animated-cursor 1000ms linear infinite;
   }
 
@@ -705,9 +703,9 @@ ul li {
 
   /* Animation */
   .CongratsMessage {
-    animation: animated-text 3s linear 1s infinite normal both,
-      animated-cursor 1000ms linear infinite;
     -webkit-animation: animated-text 3s linear 1s infinite normal both,
+      animated-cursor 1000ms linear infinite;
+    animation: animated-text 3s linear 1s infinite normal both,
       animated-cursor 1000ms linear infinite;
   }
 

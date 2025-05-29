@@ -49,7 +49,6 @@ export function HarryBio() {
               University.
             </article>
           </section>
-
           <section className="Dislikes">
             <h2>Dislikes</h2>
             <li>Cows</li>
@@ -58,7 +57,7 @@ export function HarryBio() {
           </section>
         </div>
 
-        <section className="Surprisingfacts">
+        <section className="SurprisingFacts">
           <h2>Surprising Facts</h2>
           <li>
             Harry has won more awards and prizes than any one else in the family

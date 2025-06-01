@@ -1794,7 +1794,7 @@ export default function September2024() {
                     <p className="CongratsMessagePhD-description">
                       CONGRATULATIONS HARRY{" "}
                     </p>
-                    <h2 className="CongratsMessagePhD-body">
+                    <h2 className="CongratsMessagePhD-main">
                       ON YOUR SUCCESS <br /> IN YOUR PHD VIVA
                     </h2>
                   </div>

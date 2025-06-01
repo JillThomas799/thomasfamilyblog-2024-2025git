@@ -1,4 +1,4 @@
-body {
+.mainBody {
   display: flex;
   flex-direction: column;
   background-color: #6b7a8f;
@@ -118,11 +118,11 @@ body {
     margin-bottom: 5%;
     font-family: sans-serif helvetica;
     padding: 5%;
-    border-radius: 0%;
     -webkit-border-radius: 0%;
     -moz-border-radius: 0%;
     -ms-border-radius: 0%;
     -o-border-radius: 0%;
+    border-radius: 0%;
     width: 100%;
   }
 }

@@ -450,6 +450,13 @@ export default function May2025() {
           </figure>
         </div>{" "}
         {/* Closing div datenewsDivMay2025 */}
+        <div className="datenewsDivMay2025">
+          <section className="dateMay2025">31st May 2025</section>
+          <section className="newsHeaderMay2025">
+            Visit to Dodd's Wood and Mirehouse to check out the feasibility of
+            the Cumbria Way.
+          </section>
+        </div>
       </div>
     </div>
   );

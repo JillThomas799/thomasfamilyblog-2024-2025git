@@ -1,0 +1,49 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+.backgroundJune2025 {
+  background-color: #6b7a8f;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.june2025Header {
+  display: block;
+  text-align: center;
+  font-size: 1.75em;
+  font-weight: bold;
+  width: 100vw;
+  height: 70vh;
+  position: absolute;
+}
+
+.catWalkingDisplay {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: navy;
+}
+
+#backbuttonJune2025 {
+  display: block;
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  padding: 2%;
+  background-color: #786d68;
+  border: grey 2px solid;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  color: whitesmoke;
+  top: 10%;
+  text-decoration: underline;
+  margin: 1% 25% 5% 75%;
+  -webkit-border-radius: 15%;
+  -moz-border-radius: 15%;
+  -ms-border-radius: 15%;
+  -o-border-radius: 15%;
+  border-radius: 15%;
+}

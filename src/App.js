@@ -119,7 +119,7 @@ export default function App() {
   };
 
   return (
-    <body>
+    <div className="mainBody">
       <div className="App">
         <Button onClick={toggleVisibility} />
         <Dropdown isVisible={isVisible} />
@@ -138,6 +138,6 @@ export default function App() {
         </div>
         <Footer />
       </div>
-    </body>
+    </div>
   );
 }

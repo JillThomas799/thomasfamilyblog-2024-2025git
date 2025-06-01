@@ -57,7 +57,7 @@ export function HarryBio() {
           </section>
         </div>
 
-        <section className="SurprisingFacts">
+        <section className="surprisingFacts">
           <h2>Surprising Facts</h2>
           <li>
             Harry has won more awards and prizes than any one else in the family

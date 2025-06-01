@@ -53,7 +53,7 @@ export function LennieBio() {
           </section>
         </div>
 
-        <section className="Surprisingfacts">
+        <section className="surprisingFacts">
           <h2>Surprising Facts</h2>
           <li>
             Lennie has been occasionally known to have overstepped his hunting

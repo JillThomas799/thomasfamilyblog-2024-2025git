@@ -165,6 +165,7 @@
   font-size: 1.1rem;
   font-weight: bold;
   font-family: Calibri, Trebuchet MS, sans-serif;
+  padding: 3%;
 }
 
 .blogPhotoDivMay2025 {
@@ -203,6 +204,46 @@
   font-family: Calibri, Trebuchet MS, sans-serif;
   overflow-wrap: normal;
   padding-top: 5%;
+}
+
+.slideshowinstructionsMay2025 {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1.1rem;
+  font-family: Calibri, Trebuchet MS, sans-serif;
+  display: block;
+  color: black;
+  background-color: #ffd700;
+}
+
+.slideshowentryMay2025 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
+  height: auto;
+  width: 70%;
+  border: solid navy 4px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  -webkit-border-radius: 70%;
+  -moz-border-radius: 70%;
+  -ms-border-radius: 70%;
+  -o-border-radius: 70%;
+  border-radius: 70%;
+}
+
+.SlideshowHostPhotoMay2025 {
+  display: flex;
+  flex-direction: column;
+  border: solid 3px navy;
+  background-color: #ffd700;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  text-align: center;
 }
 
 /*To ensure on laptop screens between 1200px and 1350px screens that the CdSLogo_1 and .May2025Santiago display correctly*/

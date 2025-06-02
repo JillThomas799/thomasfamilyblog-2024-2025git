@@ -731,7 +731,7 @@ export default function April2025() {
               <text
                 fill=" 	#880808"
                 fontSize="12"
-                font-family="Serif"
+                fontFamily="Serif"
                 fontStyle="italic"
                 x="409"
                 y="512"
@@ -881,7 +881,7 @@ export default function April2025() {
               <text
                 fill=" 	#880808"
                 fontSize="12"
-                font-family="Serif"
+                fontFamily="Serif"
                 fontStyle="italic"
                 x="508"
                 y="504"

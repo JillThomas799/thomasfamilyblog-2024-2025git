@@ -1,29 +1,29 @@
-/* * {
-  box-sizing: border-box;
-} */
-
-.backgroundJune2025 {
-  background-color: #6b7a8f;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-}
-
 .june2025Header {
   display: block;
   text-align: center;
   font-size: 1.75em;
   font-weight: bold;
   width: 100vw;
-  height: 70vh;
+  height: auto;
   position: absolute;
+  background-color: #7bb369;
 }
 
-.catWalkingDisplay {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: navy;
+.monthHeaderJune2025 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.headerPhotoJune2025 {
+  height: 100vh;
+  pointer-events: none;
+  border: #6b7a8f solid 3px;
+  margin-top: 5%;
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2);
 }
 
 #backbuttonJune2025 {
@@ -31,19 +31,101 @@
   position: absolute;
   height: fit-content;
   width: fit-content;
-  padding: 2%;
+  padding: 1%;
   background-color: #786d68;
   border: grey 2px solid;
   text-align: center;
   font-size: large;
   font-weight: bold;
   color: whitesmoke;
-  top: 10%;
+  top: 3%;
   text-decoration: underline;
-  margin: 1% 25% 5% 75%;
+  margin: 0% 25% 5% 75%;
   -webkit-border-radius: 15%;
   -moz-border-radius: 15%;
   -ms-border-radius: 15%;
   -o-border-radius: 15%;
   border-radius: 15%;
+}
+
+/* css for catwalkinganimation */
+#bodyWalkingCatAnimation {
+  overflow-x: hidden;
+}
+
+#rootWalkingCat {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerWalkingCat {
+  width: 100%;
+}
+
+.catWalking {
+  width: 400px;
+  height: 200px;
+  margin: 50px auto 0;
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  transform: scale(0.7);
+}
+
+.move {
+  -webkit-animation: move-animation 16.5s infinite;
+  animation: move-animation 16.5s infinite;
+}
+
+.walking {
+  -webkit-animation: walk-animation 2s steps(12) infinite;
+  background: url("../assets/cat_tiles.png") 0 0 no-repeat;
+  animation: walk-animation 2s steps(12) infinite;
+}
+
+.sitting {
+  -webkit-animation: sit-animation 2s steps(6) infinite;
+  background: url("../assets/cat_tiles.png") 0 0 no-repeat;
+  animation: sit-animation 2s steps(6) infinite;
+}
+
+.walkThenSit {
+  -webkit-animation: walk-animation 2s steps(12) infinite,
+    sit-animation 3s 2s steps(6) infinite;
+  animation: walk-animation 2s steps(12) infinite,
+    sit-animation 3s 2s steps(6) infinite;
+  background: url("../assets/cat_tiles.png") 0 0 no-repeat;
+}
+
+@keyframes walk-animation {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -2391px;
+  }
+}
+
+@keyframes move-animation {
+  from {
+    margin-top: -38%;
+    margin-left: 100%;
+  }
+  to {
+    margin-top: -37%;
+    margin-left: -100%;
+  }
+}
+
+@keyframes sit-animation {
+  from {
+    background-position: -400px 0;
+  }
+  to {
+    background-position: -400px -1200px;
+  }
 }

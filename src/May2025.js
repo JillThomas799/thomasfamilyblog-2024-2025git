@@ -10,6 +10,7 @@ import faunusNicoleBishop2 from "./imagesresized/faunusNicoleBishop2.jpg";
 import tullieCourtyardView from "./imagesresized/tullieCourtyardView.jpg";
 import tullieLunch1 from "./imagesresized/tullieLunch1.jpg";
 import tullieLunch2 from "./imagesresized/tullieLunch2.jpg";
+import stBeesBeach25052025Titled from "./imagesresized/stBeesBeach25052025Titled.jpg";
 
 export default function May2025() {
   return (
@@ -64,7 +65,7 @@ export default function May2025() {
               fill="white"
               fontSize="15"
               fontWeight="bold"
-              font-family="Serif"
+              fontFamily="Serif"
               fontStyle="italic"
               x="6"
               y="383"
@@ -84,7 +85,7 @@ export default function May2025() {
               fill="white"
               fontSize="15"
               fontWeight="bold"
-              font-family="Serif"
+              fontFamily="Serif"
               fontStyle="italic"
               x="134"
               y="295"
@@ -104,7 +105,7 @@ export default function May2025() {
               fill="white"
               fontSize="15"
               fontWeight="bold"
-              font-family="Serif"
+              fontFamily="Serif"
               fontStyle="italic"
               x="238"
               y="210"
@@ -124,7 +125,7 @@ export default function May2025() {
               fill="white"
               fontSize="15"
               fontWeight="bold"
-              font-family="Serif"
+              fontFamily="Serif"
               fontStyle="italic"
               x="365"
               y="125"
@@ -144,7 +145,7 @@ export default function May2025() {
               fill="white"
               fontSize="15"
               fontWeight="bold"
-              font-family="Serif"
+              fontFamily="Serif"
               fontStyle="italic"
               x="495"
               y="40"
@@ -179,7 +180,7 @@ export default function May2025() {
               fill="white"
               fontSize="15"
               fontWeight="bold"
-              font-family="Serif"
+              fontFamily="Serif"
               fontStyle="italic"
               x="867"
               y="70"
@@ -199,7 +200,7 @@ export default function May2025() {
               fill="white"
               fontSize="15"
               fontWeight="bold"
-              font-family="Serif"
+              fontFamily="Serif"
               fontStyle="italic"
               x="978"
               y="148"
@@ -219,7 +220,7 @@ export default function May2025() {
               fill="white"
               fontSize="15"
               fontWeight="bold"
-              font-family="Serif"
+              fontFamily="Serif"
               fontStyle="italic"
               x="1110"
               y="224"
@@ -239,7 +240,7 @@ export default function May2025() {
               fill="white"
               fontSize="15"
               fontWeight="bold"
-              font-family="Serif"
+              fontFamily="Serif"
               fontStyle="italic"
               x="1225"
               y="300"
@@ -259,7 +260,7 @@ export default function May2025() {
               fill="white"
               fontSize="15"
               fontWeight="bold"
-              font-family="Serif"
+              fontFamily="Serif"
               fontStyle="italic"
               x="1350"
               y="380"
@@ -451,11 +452,120 @@ export default function May2025() {
         </div>{" "}
         {/* Closing div datenewsDivMay2025 */}
         <div className="datenewsDivMay2025">
-          <section className="dateMay2025">31st May 2025</section>
+          <section className="dateMay2025">25th May 2025, Sunday</section>
           <section className="newsHeaderMay2025">
-            Visit to Dodd's Wood and Mirehouse to check out the feasibility of
-            the Cumbria Way.
+            Visit to West Cumbria to assess the feasibility <br /> of walking
+            the Coast to Coast walk.
           </section>
+          <div className="newsMay2025">
+            There has been some debate as to whether, after the success of
+            walking the Hadrian's Wall Path last year, we should undertake
+            another UK-based long distance walk over a number of weekends.
+            Today, we were looking at the feasibility of undertaking the Coast
+            to Coast path in such a manner.
+            <br />
+            <br />
+            <em>
+              {" "}
+              A bit of history about the Coast to Coast: <br />{" "}
+            </em>
+            The original idea was devised by the well-known walker{" "}
+            <em>Alfred Wainwright</em> and stretches some 190 miles across
+            England from the Cumbrian Coast to the North Sea. Unlike the
+            Hadrian's Wall Path, it has not until now been an official National
+            Trail. Whilst people tend to undertake the original walk chosen by
+            Wainwright, there are actually any one of a number of routes
+            following a series of footpaths which join the two coasts. It runs
+            through 3 National Parks: the Lake District National Park, the
+            Yorkshire Dales and the North York Moors. Traditionally, the route
+            starts at the beach in St Bees on the west coast of Cumbria and runs
+            across to Robin Hood's Bay on the East coast.
+            <em>
+              {" "}
+              <br />
+              <br />
+              What did we discover on our reconnaissance mission?: <br />{" "}
+            </em>
+            In spite of the fact this was only a reconnaissance mission we had a
+            great day. St Bees is always very atmospheric and whilst the weather
+            forecast had not been great, when we got there it was lovely and
+            sunny with some cloud albeit <em>very</em> windy. The waves crashing
+            into the shore were very dramatic.
+            <br />
+            <br />
+            We concluded that for the first day's walking, heading as far as
+            Cleator would be the best option, which is a 9 mile walk via the
+            cliff path, RSPB reserve and St Bees lighthouse before heading
+            inland. There is parking either at Cleator village or at{" "}
+            <Link
+              to="https://www.westcumbriariverstrust.org/projects/longlands-lake"
+              target="_blank"
+              className="LinkMay2025"
+            >
+              Longlands Lake
+            </Link>
+            , which was an interesting discovery owned by West Cumbria Council
+            and situated on the site of a previous iron ore mine which flooded.
+            It is now a community space and wildlife haven. There is free
+            parking on site. En route to Cleator we had passed a significant
+            number of very tired-looking Coast to Coast walkers. It would have
+            been tiring walking the initial stretch up on the cliffs though as
+            it was so windy.
+            <br />
+            <br />
+            Then it was on to the remote Ennerdale Water. It is many years since
+            we have been here and the footpaths had been significantly improved.
+            There was plenty of parking also which was helpful. Ennerdale Water
+            is set deep in the heart fo the West Cumbrian fells and due to its
+            relative inaccessibility, it tends to be quieter than for example
+            Windermere, Derwentwater or Rydal Water.
+            <br />
+            <br />
+            The other important thing we discovered today was that there is no
+            prescribed route as such for the Coast to Coast. It is just a case
+            of selecting a series of connecting footpaths across the country.
+            This means that if any of the sections are too challenging or
+            impracticable, or you just fancy taking a slightly different route
+            to avoid the crowds, it is perfectly possible to do so and still to
+            have undertaken the 'Coast to Coast'.
+            <br />
+            <br />
+            Next time we will be exploring a different option which is the
+            Cumbrian Way, which runs between Carlisle and Ulverston. This is a
+            less challenging, more valley-based walk, although there are still
+            some more difficult sections. It will all depend really on the
+            feasibility and the transport logistics.
+          </div>
+          <div className="SlideshowHostPhotoMay2025">
+            <div className="slideshowinstructionsMay2025">
+              {" "}
+              <strong>
+                Click on the image below to open the album of our <br /> Coast
+                to Coast reconnaissance exhibition to St Bees, <br /> Cleator
+                and Ennerdale Water. <br />{" "}
+              </strong>
+              <br /> <br />
+              <Link
+                to="https://photos.app.goo.gl/NWo1SfZPsQcWFKQr6"
+                target="_blank"
+                className="LinkMay2025"
+              >
+                <img
+                  className="slideshowentryMay2025"
+                  src={stBeesBeach25052025Titled}
+                  alt=""
+                />
+              </Link>
+            </div>{" "}
+            {/*Closing div slideshowinstructionsMay2025*/}
+          </div>
+          <div className="datenewsDivMay2025">
+            <section className="dateMay2025">31st May 2025, Saturday</section>
+            <section className="newsHeaderMay2025">
+              Visit to Dodd's Wood and Mirehouse to check out the feasibility{" "}
+              <br /> of the Cumbria Way.
+            </section>
+          </div>
         </div>
       </div>
     </div>

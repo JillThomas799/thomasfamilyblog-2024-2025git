@@ -1,434 +1,437 @@
-      .bodyCdS{
-        overflow: hidden;
-      }      
-      
-      .LinkCdS{
-        color:blue;
-        font-weight: bold;
-      }
-    
-      .BoldTitle{
-        font-weight:bold;
-      }
+.bodyCdS {
+  overflow: hidden;
+}
 
-      .introHostPhotoCdS{
-        display:flex;
-        flex-direction: column;
-        background-color: #FFD700;
-        opacity: 0.9;
-        padding-bottom: 5%;
-        padding-top: 5%;
-        margin-top:5%;
-        margin-bottom: 0;
-        justify-content:center;
-        text-align:center;
-        border:blue solid 4px;
-      }
+.LinkCdS {
+  color: blue;
+  font-weight: bold;
+}
 
-      .CdSIntroPhoto {
-        margin-left: auto;
-        margin-right: auto;
-        pointer-events:none;
-        width:35%;
-        height:auto;
-        border:solid blue 8px;
-        border-radius:80%;
-        margin-top:1%;
-        margin-bottom:1%;
-        -webkit-border-radius:80%;
-        -moz-border-radius:80%;
-        -ms-border-radius:80%;
-        -o-border-radius:80%;
-      }  
-   
-      .datenewsDivCdS{
-          color:white;
-          background-color:#FFD700	;
-          opacity: 0.9;
-          display:flex;
-          flex-direction:column;
-          margin-top: 2%;
-          margin-bottom:1%;
-          padding:4%;
-          border:blue solid 4px;
-        }
-        
-        .dateCdS{
-          color:white;;
-          background-color:#4682B4;
-          text-align: center;
-          padding:10px 10px 10px 10px;
-          margin:5px;
-          font-size:1.2rem;
-          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          font-weight: bold;
-        }
-      
-        .newsheaderCdS{
-          color:white;;
-          background-color:#4682B4;
-          text-align: center;
-          padding:1%;
-          margin:5px;
-          font-size:1.2rem;
-          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-      
-        .newsCdS{
-          color:white;;
-          background-color:#4682B4;
-          text-align: left;
-          padding:10px 10px 10px 10px;
-          margin:5px;
-          font-size:1.2rem;
-          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-    
-        .blogPhotoDivCdS{
-          display:flex;
-          flex-direction: row;
-          background-color: blue;
-          padding-bottom: 20%;
-          padding-top: 5%;
-          margin-top:2%;
-        }
-    
-            .CdSfigcaption {
-              text-align: center;
-              font-family: bold;
-              color:#36454F;
-              font-size:1.2rem;
-              font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-              overflow-wrap:normal;
-              padding:1%;
-              margin-top:1%;
-              margin-bottom:1%;
-            }
-    
-           .slideshowentryCdS {
-            display: column;
-            justify-content: center;
-            margin-left: auto;
-            margin-right: auto;
-            width:80%;
-            height:auto;
-            border-radius:80%;
-            margin-top:5%;
-            margin-bottom:5%;
-            -webkit-border-radius:80%;
-            -moz-border-radius:80%;
-            -ms-border-radius:80%;
-            -o-border-radius:80%;
-    }    
-    
-       .CdSIntroList{
-    padding-left: 10%;
-    list-style-type: none;
-    }
-    
-    li {
-    text-align: left;
-    }
-    
-    ul .listItemsAlign{
-      display:block;
-      align-items: center;
-    }
-    
-    .componentWalkDetails{
-      background-color: #D19B2F	;
-      text-Align:center;
-      padding-top: 2%;
-      padding-bottom: 2%;
-      padding-right:2%;
-      color:black;
-      display:flex;
-      flex-direction:column;
-      font-size:1.2rem;
-      font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    }
-    
-    .CdSDailyNarrative{
-      background-color: #FFD700	;
-      text-Align:left;
-      padding-top: 2%;
-      padding-bottom: 2%;
-      padding-right: 2%;
-      padding-left:2%;
-      color:black;
-      font-size:1.0 rem;
-      font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-    }
-    
-    .blogPhotoDivCdS{
-      display:flex;
-      flex-direction: row;
-      /* background-color: #D19B2F; */
-      background-color: #FFD700;
-      opacity: 0.9;
-      padding-bottom: 20%;
-      padding-top: 5%;
-      margin-top:2%;
-    }
+.BoldTitle {
+  font-weight: bold;
+}
 
-    .slideshowinstructionsCdS{
-      margin-top:1%;
-      margin-bottom:1%;
-      font-size:1.1rem;
-      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      display: block;
-      color:black;
-      background-color: #FFD700;
-      opacity:0.9;
-      
-    }
-    
-    .slideshowentryCdS {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      pointer-events:none;
-      height:auto;
-      width: 50%;
-      border:solid navy 4px;
-      border-radius:70%;
-      margin-top:1%;
-      margin-bottom:1%;
-      -webkit-border-radius:70%;
-      -moz-border-radius:70%;
-      -ms-border-radius:70%;
-      -o-border-radius:70%;
-      padding: 5%;
-  } 
-    
-    .SlideshowHostPhotoCdS{
-      display:flex;
-      flex-direction: column;
-      border:solid 3px navy;
-      background-color:#FFD700;
-      opacity:0.9;
-      padding-bottom: 2%;
-      padding-top: 2%;    
-      margin-right: auto;
-      margin-left: auto;
-      justify-content:center;
-      text-align:center;
-    }
+.introHostPhotoCdS {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffd700;
+  opacity: 0.9;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top: 5%;
+  margin-bottom: 0;
+  justify-content: center;
+  text-align: center;
+  border: blue solid 4px;
+}
 
+.CdSIntroPhoto {
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
+  width: 35%;
+  height: auto;
+  border: solid blue 8px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  -ms-border-radius: 80%;
+  -o-border-radius: 80%;
+  border-radius: 80%;
+}
 
-  /*To ensure on mobile screens below 902px width (this includes one plus phones) that relevant components of 
-        the site are displayed with the best dimensions and appearance for the smaller devices*/ 
-      @media screen and (min-width:481) and (max-width:902px) {
+.datenewsDivCdS {
+  color: white;
+  background-color: #ffd700;
+  opacity: 0.9;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  padding: 4%;
+  border: blue solid 4px;
+}
 
-      .slideshowentryCdS {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        pointer-events:none;
-        height:auto;
-        width: 50%;
-        border:solid navy 4px;
-        border-radius:70%;
-        margin-top:1%;
-        margin-bottom:1%;
-        -webkit-border-radius:70%;        -moz-border-radius:70%;
-        -ms-border-radius:70%;
-        -o-border-radius:70%;
-        padding: 5%;
-      }
-      
-      .blogPhotoDivCdS{
-       display:flex;
-       flex-direction: column;
-       background-color: #0000FF;
-       padding-bottom: 15%;
-       padding-top: 5%;
-       margin-top:2%;
-      }
-      
-      .CdSIntroPhoto {
-       margin-left: auto;
-       margin-right: auto;
-       pointer-events:none;
-       width:65%;
-       height:auto;
-       border:solid #0000FF 8px;
-       border-radius:80%;
-       margin-top:1%;
-       margin-bottom:1%;
-       -webkit-border-radius:80%;
-       -moz-border-radius:80%;
-       -ms-border-radius:80%;
-       -o-border-radius:80%;
-      }   
-      } 
-      
-      @media screen and (min-width:402px) and (max-width:900px){
-        .blogPhotoDivCdS{
-          display:flex;
-          flex-direction: column;
-          background-color: #FFD700;
-          opacity: 0.9;
-          padding-bottom: 15%;
-          padding-top: 5%;
-          margin-top:2%;
-          transform:size(1.2);
-          -webkit-transform:size(1.2);
-          -moz-transform:size(1.2);
-          -ms-transform:size(1.2);
-          -o-transform:size(1.2);
-      }
+.dateCdS {
+  color: white;
+  background-color: #4682b4;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 5px;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+}
 
-        .slideshowentryCdS {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          pointer-events:none;
-          height:auto;
-          width: 70%;
-          border:solid navy 4px;
-          border-radius:70%;
-          margin-top:1%;
-          margin-bottom:1%;
-          -webkit-border-radius:70%;
-          -moz-border-radius:70%;
-          -ms-border-radius:70%;
-          -o-border-radius:70%;
-          padding: 5%;
-      } 
-      }
-      
+.newsheaderCdS {
+  color: white;
+  background-color: #4682b4;
+  text-align: center;
+  padding: 1%;
+  margin: 5px;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
-      /*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
+.newsCdS {
+  color: white;
+  background-color: #4682b4;
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  margin: 5px;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.blogPhotoDivCdS {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  padding-bottom: 20%;
+  padding-top: 5%;
+  margin-top: 2%;
+}
+
+.CdSfigcaption {
+  text-align: center;
+  font-family: bold;
+  color: #36454f;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  overflow-wrap: normal;
+  padding: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.slideshowentryCdS {
+  display: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  -webkit-border-radius: 80%;
+  -moz-border-radius: 80%;
+  -ms-border-radius: 80%;
+  -o-border-radius: 80%;
+  border-radius: 80%;
+}
+
+.CdSIntroList {
+  padding-left: 10%;
+  list-style-type: none;
+}
+
+li {
+  text-align: left;
+}
+
+ul .listItemsAlign {
+  display: block;
+  align-items: center;
+}
+
+.componentWalkDetails {
+  background-color: #d19b2f;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    "sans-serif";
+}
+
+.CdSDailyNarrative {
+  background-color: #ffd700;
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+  color: black;
+  font-size: 1 rem;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    "sans-serif";
+}
+
+.blogPhotoDivCdS {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #D19B2F; */
+  background-color: #ffd700;
+  opacity: 0.9;
+  padding-bottom: 20%;
+  padding-top: 5%;
+  margin-top: 2%;
+}
+
+.slideshowinstructionsCdS {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1.1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: block;
+  color: black;
+  background-color: #ffd700;
+  opacity: 0.9;
+}
+
+.slideshowentryCdS {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
+  height: auto;
+  width: 50%;
+  border: solid navy 4px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  -webkit-border-radius: 70%;
+  -moz-border-radius: 70%;
+  -ms-border-radius: 70%;
+  -o-border-radius: 70%;
+  padding: 5%;
+  border-radius: 70%;
+}
+
+.SlideshowHostPhotoCdS {
+  display: flex;
+  flex-direction: column;
+  border: solid 3px navy;
+  background-color: #ffd700;
+  opacity: 0.9;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+/*To ensure on mobile screens below 902px width (this includes one plus phones) that relevant components of 
         the site are displayed with the best dimensions and appearance for the smaller devices*/
-      @media screen and (max-width:480px) {
+@media screen and (min-width: 481) and (max-width: 902px) {
+  .slideshowentryCdS {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    height: auto;
+    width: 50%;
+    border: solid navy 4px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    -webkit-border-radius: 70%;
+    -moz-border-radius: 70%;
+    -ms-border-radius: 70%;
+    -o-border-radius: 70%;
+    padding: 5%;
+    border-radius: 70%;
+  }
 
-        #backbutton{
-          top:15%;
-        }
-        
-        .slideshowentryCdS {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          pointer-events:none;
-          height:auto;
-          width: 70%;
-          border:solid navy 4px;
-          border-radius:70%;
-          margin-top:1%;
-          margin-bottom:1%;
-          -webkit-border-radius:70%;
-          -moz-border-radius:70%;
-          -ms-border-radius:70%;
-          -o-border-radius:70%;
-          padding: 5%;
-      } 
-      
-      .blogPhotoDivCdS{
-       display:flex;
-       flex-direction: column;
-       background-color: #FFD700;
-       opacity: 0.9;
-       padding-bottom: 15%;
-       padding-top: 5%;
-       margin-top:2%;
-      }
-      
-      .CdSIntroPhoto {
-       margin-left: auto;
-       margin-right: auto;
-       pointer-events:none;
-       width:65%;
-       height:auto;
-       border:solid #0000FF 8px;
-       border-radius:80%;
-       margin-top:1%;
-       margin-bottom:1%;
-       -webkit-border-radius:80%;
-       -moz-border-radius:80%;
-       -ms-border-radius:80%;
-       -o-border-radius:80%;
-      }  
-      
-       .datenewsDivCdS{
-        color:white;
-        background-color:#0000FF	;
-        display:flex;
-        flex-direction:column;
-        margin-top: 2%;
-        margin-bottom:1%;
-        padding:4%;
-      }
-      
-      .dateCdS{
-        color:white;;
-        background-color:#6495ED;
-        text-align: center;
-        padding:10px 10px 10px 10px;
-        margin:5px;
-        font-size:1.0rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: bold;
-      }
-      
-      .newsheaderCdS{
-        color:white;;
-        background-color:#6495ED;
-        text-align: center;
-        padding:1%;
-        margin:5px;
-        font-size:1.0rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
-      }
-      
-      .newsCdS{
-        color:white;;
-        /* border:solid 3px white; */
-        background-color:#6495ED;
-        text-align: left;
-        padding:10px 10px 10px 10px;
-        margin:5px;
-        font-size:1.0rem;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      }
-        
-      .CdSDailyNarrative{
-        background-color: #FFD700	;
-        text-Align:left;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        padding-right: 2%;
-        padding-left:2%;
-        color:black;
-        font-size:1.0rem;
-        font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-      }
-            
-      .componentWalkDetails{
-        background-color: #FFD700	;
-        opacity: 0.9;
-        /* border:solid 4px grey; */
-        text-Align:center;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        padding-right:2%;
-        color:black;
-        display:flex;
-        flex-direction:column;
-        font-size:1.1rem;
-        font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
-      }
-      
-      .blogPhoto1CdSS img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width:60%;
-        height:auto;
-        border:solid #36454F 4px;
-        border-radius:30px;
-        margin-top:2%;
-        margin-bottom:1%;
-        }
-      }
+  .blogPhotoDivCdS {
+    display: flex;
+    flex-direction: column;
+    background-color: #0000ff;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    margin-top: 2%;
+  }
+
+  .CdSIntroPhoto {
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    width: 65%;
+    height: auto;
+    border: solid #0000ff 8px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    -webkit-border-radius: 80%;
+    -moz-border-radius: 80%;
+    -ms-border-radius: 80%;
+    -o-border-radius: 80%;
+    border-radius: 80%;
+  }
+}
+
+@media screen and (min-width: 402px) and (max-width: 900px) {
+  .blogPhotoDivCdS {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd700;
+    opacity: 0.9;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    margin-top: 2%;
+    -webkit-transform: size(1.2);
+    -moz-transform: size(1.2);
+    -ms-transform: size(1.2);
+    -o-transform: size(1.2);
+    transform: size(1.2);
+  }
+
+  .slideshowentryCdS {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    height: auto;
+    width: 70%;
+    border: solid navy 4px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    -webkit-border-radius: 70%;
+    -moz-border-radius: 70%;
+    -ms-border-radius: 70%;
+    -o-border-radius: 70%;
+    padding: 5%;
+    border-radius: 70%;
+  }
+}
+
+/*To ensure on mobile screens below 480px width (this includes one plus phones) that relevant components of 
+        the site are displayed with the best dimensions and appearance for the smaller devices*/
+@media screen and (max-width: 480px) {
+  #backbutton {
+    top: 15%;
+  }
+
+  .slideshowentryCdS {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    height: auto;
+    width: 70%;
+    border: solid navy 4px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    -webkit-border-radius: 70%;
+    -moz-border-radius: 70%;
+    -ms-border-radius: 70%;
+    -o-border-radius: 70%;
+    padding: 5%;
+    border-radius: 70%;
+  }
+
+  .blogPhotoDivCdS {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffd700;
+    opacity: 0.9;
+    padding-bottom: 15%;
+    padding-top: 5%;
+    margin-top: 2%;
+  }
+
+  .CdSIntroPhoto {
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    width: 65%;
+    height: auto;
+    border: solid #0000ff 8px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    -webkit-border-radius: 80%;
+    -moz-border-radius: 80%;
+    -ms-border-radius: 80%;
+    -o-border-radius: 80%;
+    border-radius: 80%;
+  }
+
+  .datenewsDivCdS {
+    color: white;
+    background-color: #0000ff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 4%;
+  }
+
+  .dateCdS {
+    color: white;
+    background-color: #6495ed;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
+    font-size: 1rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-weight: bold;
+  }
+
+  .newsheaderCdS {
+    color: white;
+    background-color: #6495ed;
+    text-align: center;
+    padding: 1%;
+    margin: 5px;
+    font-size: 1rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .newsCdS {
+    color: white;
+    /* border:solid 3px white; */
+    background-color: #6495ed;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    margin: 5px;
+    font-size: 1rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .CdSDailyNarrative {
+    background-color: #ffd700;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    color: black;
+    font-size: 1rem;
+    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+      "sans-serif";
+  }
+
+  .componentWalkDetails {
+    background-color: #ffd700;
+    opacity: 0.9;
+    /* border:solid 4px grey; */
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+      "sans-serif";
+  }
+
+  .blogPhoto1CdSS img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+    border: solid #36454f 4px;
+    border-radius: 30px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+}

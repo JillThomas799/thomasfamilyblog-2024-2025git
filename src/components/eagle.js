@@ -55,7 +55,7 @@ export default function Romaneagle() {
             <text
               fill="black"
               fontSize="36"
-              font-family="Serif"
+              fontFamily="Serif"
               fontWeight="bold"
               x="350"
               y="460"

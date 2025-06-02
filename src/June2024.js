@@ -75,7 +75,7 @@ export default function June2024() {
         </h1>
         <br />
       </div>
-      <div className="datenewsDivJune" style={{ marginTop: "5%" }}>
+      <div className="datenewsDivJune">
         <section className="dateJune">1st - 30th June 2024</section>
         <section className="newsheaderJune">
           Welcome to our June 2024 blog

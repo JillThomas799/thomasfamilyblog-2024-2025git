@@ -49,10 +49,14 @@ export default function June2025() {
             that I need to adjust the settings for your device!
             <br />
             <br />
-            Therefore could you <em>please</em> left me know via the ...... at
-            the bottom of the home page of the blog including your device type
-            and dimensions if that is the case, in order that I can adjust it
-            for your device then it displays accurately.
+            Therefore could you <em>please</em> left me know via the{" "}
+            <Link to="/" className="linkJune2025">
+              {" "}
+              Problem Feedback Link{" "}
+            </Link>{" "}
+            at the bottom of the home page of the blog including your device
+            type and dimensions if that is the case, in order that I can adjust
+            it for your device then it displays accurately.
             <br />
             <br />
             Other than that, it should be a good month because summer is here{" "}

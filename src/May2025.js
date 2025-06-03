@@ -11,6 +11,7 @@ import tullieCourtyardView from "./imagesresized/tullieCourtyardView.jpg";
 import tullieLunch1 from "./imagesresized/tullieLunch1.jpg";
 import tullieLunch2 from "./imagesresized/tullieLunch2.jpg";
 import stBeesBeach25052025Titled from "./imagesresized/stBeesBeach25052025Titled.jpg";
+import mirehouse31052025Titled from "./imagesresized/mirehouse31052025Titled.jpg";
 
 export default function May2025() {
   return (
@@ -565,13 +566,23 @@ export default function May2025() {
               Visit to Dodd's Wood and Mirehouse to check out the feasibility{" "}
               <br /> of the Cumbria Way.
             </section>
+            <section className="newsMay2025">
+              Today we decided to explore a different option for a long-distance
+              walk which is the Cumbrian Way, which runs between Carlisle and
+              Ulverston. This is a less challenging, more valley-based walk,
+              although there are still some more difficult sections.
+              <br />
+              <br />
+              So, we headed off down to Dodds Wood and Mirehouse Gardens on the
+              Eastern shore of Lake Bassenthwaite. We were here last September
+            </section>
           </div>
           <div className="SlideshowHostPhotoMay2025">
             <div className="slideshowinstructionsMay2025">
               {" "}
               <strong>
                 Click on the image below to open the album of our <br /> Cumbria
-                Way reconnaissance exhibition to Mirehouse, <br /> Scarness and
+                Way reconnaissance expedition to Mirehouse, <br /> Scarness and
                 Dodd's Wood. <br />{" "}
               </strong>
               <br /> <br />
@@ -582,7 +593,7 @@ export default function May2025() {
               >
                 <img
                   className="slideshowentryMay2025"
-                  src={stBeesBeach25052025Titled}
+                  src={mirehouse31052025Titled}
                   alt=""
                 />
               </Link>

@@ -501,7 +501,7 @@ export default function May2025() {
             <Link
               to="https://www.westcumbriariverstrust.org/projects/longlands-lake"
               target="_blank"
-              className="LinkMay2025"
+              className="linkMay2025"
             >
               Longlands Lake
             </Link>
@@ -568,13 +568,48 @@ export default function May2025() {
             </section>
             <section className="newsMay2025">
               Today we decided to explore a different option for a long-distance
-              walk which is the Cumbrian Way, which runs between Carlisle and
-              Ulverston. This is a less challenging, more valley-based walk,
-              although there are still some more difficult sections.
+              walk, the Cumbrian Way which runs between Carlisle and Ulverston.
+              This is a less challenging, more valley-based walk, although there
+              are still some more difficult sections.
               <br />
               <br />
-              So, we headed off down to Dodds Wood and Mirehouse Gardens on the
-              Eastern shore of Lake Bassenthwaite. We were here last September
+              So, we headed off down to Dodd Wood and Mirehouse Gardens on the
+              eastern shore of Lake Bassenthwaite. We were here last September
+              when we climbed Dodd summit. Today however, we decided on a walk
+              through Mirehouse gardens and along Bassenthwaite lakeside to
+              Scarness Bay before cutting back along the road. The total
+              distance for this walk, if you add in the section along
+              Bassenthwaite lakeside through Mirehouse grounds (you need an
+              entrance ticket to access this), is 6 miles long. It is a really
+              lovely walk anytime but especially for a poor weather or winter
+              day as it takes you through{" "}
+              <Link
+                to="https://www.mirehouse.co.uk/"
+                target="_blank"
+                className="linkMay2025"
+              >
+                Mirehouse Gardens
+              </Link>{" "}
+              and on past{" "}
+              <Link
+                to="https://www.carlislediocese.org.uk/acny/church/28/"
+                target="_blank"
+                className="linkMay2025"
+              >
+                {" "}
+                St Bega's Church
+              </Link>{" "}
+              before taking a path along the lake shore up to Scarness Bay. The
+              return is straightforward as it is along a minor road.
+              <br />
+              <br />
+              Does this form part of the Cumbria Way you make ask? The answer is
+              no, this walk does not form part of the traditional Cumbria Way.
+              However this reconnaissance trip enabled us to look for parking
+              locations where we could use to break the Cumbria Way into smaller
+              segments and to assess whether there are any alternative suitable
+              routes available for some of the less accessible sections.
+              Logistically though, it is looking a bit tricky.
             </section>
           </div>
           <div className="SlideshowHostPhotoMay2025">
@@ -582,8 +617,8 @@ export default function May2025() {
               {" "}
               <strong>
                 Click on the image below to open the album of our <br /> Cumbria
-                Way reconnaissance expedition to Mirehouse, <br /> Scarness and
-                Dodd's Wood. <br />{" "}
+                Way reconnaissance expedition to Mirehouse, <br /> Scarness Bay
+                and Dodd's Wood. <br />{" "}
               </strong>
               <br /> <br />
               <Link

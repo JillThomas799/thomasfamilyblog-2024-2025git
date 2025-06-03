@@ -566,6 +566,29 @@ export default function May2025() {
               <br /> of the Cumbria Way.
             </section>
           </div>
+          <div className="SlideshowHostPhotoMay2025">
+            <div className="slideshowinstructionsMay2025">
+              {" "}
+              <strong>
+                Click on the image below to open the album of our <br /> Cumbria
+                Way reconnaissance exhibition to Mirehouse, <br /> Scarness and
+                Dodd's Wood. <br />{" "}
+              </strong>
+              <br /> <br />
+              <Link
+                to="https://photos.app.goo.gl/8ghfPpkcKfhpet3Y9"
+                target="_blank"
+                className="LinkMay2025"
+              >
+                <img
+                  className="slideshowentryMay2025"
+                  src={stBeesBeach25052025Titled}
+                  alt=""
+                />
+              </Link>
+            </div>{" "}
+            {/*Closing div slideshowinstructionsMay2025*/}
+          </div>
         </div>
       </div>
     </div>

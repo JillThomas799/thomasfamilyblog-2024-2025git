@@ -465,15 +465,85 @@
   }
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2.625),
-  only screen and (min--moz-device-pixel-ratio: 2.625),
-  only screen and (-o-min-device-pixel-ratio: 2.625/1),
-  only screen and (min-device-pixel-ratio: 2.625),
-  only screen and (min-resolution: 408dpi),
-  only screen and (min-resolution: 2.625dppx),
-  only screen and (min-device-width: 412px) and (max-device-height: 920px) {
+@media only screen and (min-device-width: 412px) and (max-device-height: 920px) {
   .headerPhotoJune2025 {
-    /* Scripting for oneplusnord AC2003 Jill's phone see React evernote note's on family blog for further info*/
+    margin-top: -30%;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  .monthHeaderJune2025 {
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+
+  .catWalking {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto 0;
+    -webkit-transform: translate(0, -280%) scale (0.3);
+    -moz-transform: translate(0, -280%) scale (0.3);
+    -ms-transform: translate(0, -280%) scale (0.3);
+    -o-transform: translate(0, -280%) scale (0.3);
+    transform: translate(0, -280%) scale (0.3);
+  }
+
+  @keyframes move-animation {
+    from {
+      top: -151%;
+      margin-left: 100%;
+    }
+    to {
+      top: 150%;
+      margin-left: -100%;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 412px) and (max-device-height: 920px) {
+  .headerPhotoJune2025 {
+    margin-top: -30%;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+
+  .monthHeaderJune2025 {
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+
+  .catWalking {
+    width: 400px;
+    height: 200px;
+    margin: 50px auto 0;
+    -webkit-transform: translate(0, -280%) scale (0.3);
+    -moz-transform: translate(0, -280%) scale (0.3);
+    -ms-transform: translate(0, -280%) scale (0.3);
+    -o-transform: translate(0, -280%) scale (0.3);
+    transform: translate(0, -280%) scale (0.3);
+  }
+
+  @keyframes move-animation {
+    from {
+      top: -151%;
+      margin-left: 100%;
+    }
+    to {
+      top: 150%;
+      margin-left: -100%;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 412px) and (max-device-height: 920px) and (min-device-pixel-ratio: 2.625) {
+  /*This will target OnePlusNord phones*/
+  .headerPhotoJune2025 {
     margin-top: -30%;
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);

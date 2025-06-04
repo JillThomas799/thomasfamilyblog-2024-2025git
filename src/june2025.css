@@ -369,11 +369,11 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0%, -346%) scale(0.4);
-    -moz-transform: translate(0%, -346%) scale(0.4);
-    -ms-transform: translate(0%, -346%) scale(0.4);
-    -o-transform: translate(0%, -346%) scale(0.4);
-    transform: translate(0%, -346%) scale(0.4);
+    -webkit-transform: translate(0%, -350%) scale(0.4);
+    -moz-transform: translate(0%, -350%) scale(0.4);
+    -ms-transform: translate(0%, -350%) scale(0.4);
+    -o-transform: translate(0%, -350%) scale(0.4);
+    transform: translate(0%, -350%) scale(0.4);
   }
 
   @keyframes move-animation {
@@ -469,7 +469,7 @@
 }
 
 @media screen and (min-width: 359px) and (max-width: 379px) {
-  /*To ensure on mobile screens below between 359px and 379px width and min-height:799px and max-height: 899px  (this includes one plus phones) that relevant components 
+  /*To ensure on mobile screens below between 359px and 379px width (this includes one plus phones) that relevant components 
   of the site are displayed with the best dimensions for the smaller devices*/
 
   .headerPhotoJune2025 {

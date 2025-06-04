@@ -427,7 +427,7 @@
   }
 }
 
-@media only screen and (min-device-width: 412px) and (max-device-width: 950px) and (max-device-height: 920px) {
+@media only screen and (min-width: 410px) and (min-height: 900px) and (max-width: 950px) and (max-height: 920px) {
   .headerPhotoJune2025 {
     margin-top: -30%;
     -webkit-transform: scale(0.5);
@@ -446,11 +446,11 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0, -280%) scale (0.3);
-    -moz-transform: translate(0, -280%) scale (0.3);
-    -ms-transform: translate(0, -280%) scale (0.3);
-    -o-transform: translate(0, -280%) scale (0.3);
-    transform: translate(0, -280%) scale (0.3);
+    -webkit-transform: translate(0, -220%) scale (0.5);
+    -moz-transform: translate(0, -220%) scale (0.5);
+    -ms-transform: translate(0, -220%) scale (0.5);
+    -o-transform: translate(0, -220%) scale (0.5);
+    transform: translate(0, -220%) scale (0.5);
   }
 
   @keyframes move-animation {
@@ -466,7 +466,7 @@
 }
 
 @media screen and (min-width: 401px) and (max-width: 480px) and (max-height: 899px) {
-  /*To ensure on mobile screens below between 401px and S480px width (this includes one plus phones) that relevant components 
+  /*To ensure on mobile screens below between 401px and 480px width and max height 899px that relevant components 
   of the site are displayed with the best dimensions for the smaller devices*/
 
   .headerPhotoJune2025 {

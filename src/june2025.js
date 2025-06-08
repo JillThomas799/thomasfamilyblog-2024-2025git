@@ -63,6 +63,20 @@ export default function June2025() {
             <em>(Yeah!).....</em>.
           </section>
         </div>
+        <div className="datenewsDivJune2025">
+          <section className="dateJune2025">7th June 2025</section>
+          <section className="newsHeaderJune2025">
+            Day in Grasmere (long time no see...)
+          </section>
+          <section className="newsJune2025">
+            Today we decided, despite the very poor weather forecast, to head
+            over to Grasmere.
+            <br />
+            <br />
+            Despite living so close to the National Park, we tend not to stop in
+            Grasmere because it can be <em>so.......</em> busy.
+          </section>
+        </div>
       </div>
     </div>
   );

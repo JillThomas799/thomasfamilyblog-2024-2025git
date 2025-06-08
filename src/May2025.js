@@ -317,7 +317,7 @@ export default function May2025() {
           <Link
             to="https://tullie.org.uk/"
             target="_blank"
-            className="LinkMay2025"
+            className="linkMay2025"
           >
             {" "}
             Tullie Museum
@@ -344,7 +344,7 @@ export default function May2025() {
           <Link
             to="https://www.britishmuseum.org/our-work/national/uk-touring-exhibitions-and-loans/current-tours/gladiators-britain"
             target="_blank"
-            className="LinkMay2025"
+            className="linkMay2025"
           >
             {" "}
             'Gladiators in Britain'{" "}
@@ -549,7 +549,7 @@ export default function May2025() {
               <Link
                 to="https://photos.app.goo.gl/NWo1SfZPsQcWFKQr6"
                 target="_blank"
-                className="LinkMay2025"
+                className="linkMay2025"
               >
                 <img
                   className="slideshowentryMay2025"
@@ -624,7 +624,7 @@ export default function May2025() {
               <Link
                 to="https://photos.app.goo.gl/8ghfPpkcKfhpet3Y9"
                 target="_blank"
-                className="LinkMay2025"
+                className="linkMay2025"
               >
                 <img
                   className="slideshowentryMay2025"

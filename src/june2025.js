@@ -74,7 +74,8 @@ export default function June2025() {
             <br />
             <br />
             Despite living so close to the National Park, we tend not to stop in
-            Grasmere because it can be <em>so.......</em> busy.
+            Grasmere because it can be <em>so.......</em> busy. So, it was fortunate today because, due to the poor weather forecast, 
+            there were plenty people but not so many that it was not enjoyable.
           </section>
         </div> */}
       </div>

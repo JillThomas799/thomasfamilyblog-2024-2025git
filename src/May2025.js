@@ -298,7 +298,11 @@ export default function May2025() {
           <br />
           <br />
           For anyone who may be interested, this link to our{" "}
-          <Link to="/caminodesantiago" target="_blank" className="LinkMay2025">
+          <Link
+            to="../caminodesantiago"
+            target="_blank"
+            className="linkMay2025"
+          >
             {" "}
             Camino de Santiago Information page{" "}
           </Link>

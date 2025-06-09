@@ -403,11 +403,11 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0%, -240%) scale(0.3);
-    -moz-transform: translate(0%, -240%) scale(0.3);
-    -ms-transform: translate(0%, -240%) scale(0.3);
-    -o-transform: translate(0%, -240%) scale(0.3);
-    transform: translate(0%, -240%) scale(0.3);
+    -webkit-transform: translate(0%, -280%) scale(0.3);
+    -moz-transform: translate(0%, -280%) scale(0.3);
+    -ms-transform: translate(0%, -280%) scale(0.3);
+    -o-transform: translate(0%, -280%) scale(0.3);
+    transform: translate(0%, -280%) scale(0.3);
   }
 
   @keyframes move-animation {
@@ -422,7 +422,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 480px) and (max-height: 899px) {
   /*To ensure on mobile screens between 320px and 480px width that relevant components 
-  of the site are displayed with the best dimensions for the smaller devices (This includes Bernard's and certain other mobile devices)*/
+  of the site are displayed with the best dimensions for the smaller devices (This includes Bernard's and certain other mobile devices)-working on live site*/
 
   .headerPhotoJune2025 {
     margin-top: -30%;

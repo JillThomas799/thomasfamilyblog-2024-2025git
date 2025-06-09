@@ -75,11 +75,11 @@
   width: 400px;
   height: 200px;
   margin: 50px auto 0;
-  -webkit-transform: translate(0%, -8%) scale(0.7);
-  -moz-transform: translate(0%, -8%) scale(0.7);
-  -ms-transform: translate(0%, -8%) scale(0.7);
-  -o-transform: translate(0%, -8%) scale(0.7);
-  transform: translate(0%, -8%) scale(0.7);
+  -webkit-transform: translate(0%, -28%) scale(0.7);
+  -moz-transform: translate(0%, -28%) scale(0.7);
+  -ms-transform: translate(0%, -28%) scale(0.7);
+  -o-transform: translate(0%, -28%) scale(0.7);
+  transform: translate(0%, -28%) scale(0.7);
 }
 
 .move {
@@ -265,9 +265,9 @@
   text-align: center;
 }
 
-@media screen and (min-width: 1200px) and (min-height: 900px) {
-  /*To ensure on mobile screens between above 1200px in width and above 900px height that relevant components 
-  of the site are displayed with the best dimensions for the device*/
+@media screen and (min-width: 1201px) {
+  /*To ensure on screens above 1201px in width that relevant components 
+  of the site are displayed with the best dimensions for the device (This includes extra large screens and TVs)*/
 
   .headerPhotoJune2025 {
     margin-top: -20%;
@@ -287,27 +287,25 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0%, -212%) scale(0.6);
-    -moz-transform: translate(0%, -212%) scale(0.6);
-    -ms-transform: translate(0%, -212%) scale(0.6);
-    -o-transform: translate(0%, -212%) scale(0.6);
-    transform: translate(0%, -212%) scale(0.6);
+    -webkit-transform: translate(0%, -181%) scale(0.6);
+    -moz-transform: translate(0%, -181%) scale(0.6);
+    -ms-transform: translate(0%, -181%) scale(0.6);
+    -o-transform: translate(0%, -181%) scale(0.6);
+    transform: translate(0%, -181%) scale(0.6);
   }
 
   @keyframes move-animation {
     from {
-      top: -181%;
       margin-left: 100%;
     }
     to {
-      top: -180%;
       margin-left: -100%;
     }
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 900px) and (min-height: 1101px) {
-  /*To ensure on mobile screens between 480px and 900px width and up to 1100px height (this includes ipads) that relevant components 
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  /*To ensure on screens between 769px and 1200px width (this includes small screens and laptops) that relevant components 
   of the site are displayed with the best dimensions for the device*/
 
   .headerPhotoJune2025 {
@@ -328,29 +326,26 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0%, -390%) scale(0.4);
-    -moz-transform: translate(0%, -390%) scale(0.4);
-    -ms-transform: translate(0%, -390%) scale(0.4);
-    -o-transform: translate(0%, -390%) scale(0.4);
-    transform: translate(0%, -390%) scale(0.4);
+    -webkit-transform: translate(0%, -295%) scale(0.5);
+    -moz-transform: translate(0%, -295%) scale(0.5);
+    -ms-transform: translate(0%, -295%) scale(0.5);
+    -o-transform: translate(0%, -295%) scale(0.5);
+    transform: translate(0%, -295%) scale(0.5);
   }
 
   @keyframes move-animation {
     from {
-      top: -181%;
       margin-left: 100%;
     }
     to {
-      top: 180%;
       margin-left: -100%;
     }
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 900px) and (max-height: 1100px) {
-  /*To ensure on mobile screens between 480px and 900px width and up to 1100px height (this includes ipads) that relevant components 
+/*To ensure on mobile screens between 481px and 768px width (this includes ipads, mini ipads and tablets) that relevant components 
   of the site are displayed with the best dimensions for the device*/
-
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .headerPhotoJune2025 {
     margin-top: -50%;
     -webkit-transform: scale(0.8);
@@ -369,11 +364,11 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0%, -350%) scale(0.4);
-    -moz-transform: translate(0%, -350%) scale(0.4);
-    -ms-transform: translate(0%, -350%) scale(0.4);
-    -o-transform: translate(0%, -350%) scale(0.4);
-    transform: translate(0%, -350%) scale(0.4);
+    -webkit-transform: translate(0%, -260%) scale(0.4);
+    -moz-transform: translate(0%, -260%) scale(0.4);
+    -ms-transform: translate(0%, -260%) scale(0.4);
+    -o-transform: translate(0%, -260%) scale(0.4);
+    transform: translate(0%, -260%) scale(0.4);
   }
 
   @keyframes move-animation {
@@ -386,9 +381,9 @@
   }
 }
 
-@media screen and (min-width: 401px) and (max-width: 480px) {
-  /*To ensure on mobile screens below between 401px and 480px width that relevant components 
-  of the site are displayed with the best dimensions for the smaller devices*/
+@media screen and (min-width: 320px) and (max-width: 480px) and (min-height: 900px) {
+  /*To ensure on mobile screens between 320px and 480px width that relevant components 
+  of the site are displayed with the best dimensions for the smaller devices (This includes mobile devices)*/
 
   .headerPhotoJune2025 {
     margin-top: -30%;
@@ -417,22 +412,20 @@
 
   @keyframes move-animation {
     from {
-      top: -151%;
       margin-left: 100%;
     }
     to {
-      top: 150%;
       margin-left: -100%;
     }
   }
 }
 
-@media screen and (min-width: 380px) and (max-width: 400px) {
-  /*To ensure on mobile screens below between 380px and 400px width (this includes one plus phones) that relevant components 
-  of the site are displayed with the best dimensions for the smaller devices*/
+@media screen and (min-width: 320px) and (max-width: 480px) and (max-height: 899px) {
+  /*To ensure on mobile screens between 320px and 480px width that relevant components 
+  of the site are displayed with the best dimensions for the smaller devices (This includes mobile devices)*/
 
   .headerPhotoJune2025 {
-    margin-top: -50%;
+    margin-top: -30%;
     -webkit-transform: scale(0.5);
     -moz-transform: scale(0.5);
     -ms-transform: scale(0.5);
@@ -449,102 +442,18 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0%, -273%) scale(0.3);
-    -moz-transform: translate(0%, -273%) scale(0.3);
-    -ms-transform: translate(0%, -273%) scale(0.3);
-    -o-transform: translate(0%, -273%) scale(0.3);
-    transform: translate(0%, -273%) scale(0.3);
+    -webkit-transform: translate(0%, -260%) scale(0.3);
+    -moz-transform: translate(0%, -260%) scale(0.3);
+    -ms-transform: translate(0%, -260%) scale(0.3);
+    -o-transform: translate(0%, -260%) scale(0.3);
+    transform: translate(0%, -260%) scale(0.3);
   }
 
   @keyframes move-animation {
     from {
-      top: -91%;
       margin-left: 100%;
     }
     to {
-      top: 90%;
-      margin-left: -100%;
-    }
-  }
-}
-
-@media screen and (min-width: 359px) and (max-width: 379px) {
-  /*To ensure on mobile screens below between 359px and 379px width (this includes one plus phones) that relevant components 
-  of the site are displayed with the best dimensions for the smaller devices*/
-
-  .headerPhotoJune2025 {
-    margin-top: -50%;
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5);
-  }
-
-  .monthHeaderJune2025 {
-    margin-top: 15%;
-    margin-bottom: 15%;
-  }
-
-  .catWalking {
-    width: 400px;
-    height: 200px;
-    margin: 50px auto 0;
-    -webkit-transform: translate(0%, -257%) scale(0.3);
-    -moz-transform: translate(0%, -257%) scale(0.3);
-    -ms-transform: translate(0%, -257%) scale(0.3);
-    -o-transform: translate(0%, -257%) scale(0.3);
-    transform: translate(0%, -257%) scale(0.3);
-  }
-
-  @keyframes move-animation {
-    from {
-      top: -91%;
-      margin-left: 100%;
-    }
-    to {
-      top: 90%;
-      margin-left: -100%;
-    }
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 358px) {
-  /*To ensure on mobile screens below between 320px and 358px width that relevant components 
-  of the site are displayed with the best dimensions for the smaller devices*/
-
-  .headerPhotoJune2025 {
-    margin-top: -50%;
-    -webkit-transform: scale(0.6);
-    -moz-transform: scale(0.6);
-    -ms-transform: scale(0.6);
-    -o-transform: scale(0.6);
-    transform: scale(0.6);
-  }
-
-  .monthHeaderJune2025 {
-    margin-top: 15%;
-    margin-bottom: 15%;
-  }
-
-  .catWalking {
-    width: 400px;
-    height: 200px;
-    margin: 50px auto 0;
-    -webkit-transform: translate(0%, -245%) scale(0.3);
-    -moz-transform: translate(0%, -245%) scale(0.3);
-    -ms-transform: translate(0%, -245%) scale(0.3);
-    -o-transform: translate(0%, -245%) scale(0.3);
-    transform: translate(0%, -245%) scale(0.3);
-  }
-
-  @keyframes move-animation {
-    from {
-      top: -91%;
-      margin-left: 100%;
-    }
-    to {
-      top: 90%;
       margin-left: -100%;
     }
   }

@@ -403,11 +403,11 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0%, -280%) scale(0.3);
-    -moz-transform: translate(0%, -280%) scale(0.3);
-    -ms-transform: translate(0%, -280%) scale(0.3);
-    -o-transform: translate(0%, -280%) scale(0.3);
-    transform: translate(0%, -280%) scale(0.3);
+    -webkit-transform: translate(0%, -260%) scale(0.3);
+    -moz-transform: translate(0%, -260%) scale(0.3);
+    -ms-transform: translate(0%, -260%) scale(0.3);
+    -o-transform: translate(0%, -260%) scale(0.3);
+    transform: translate(0%, -260%) scale(0.3);
   }
 
   @keyframes move-animation {

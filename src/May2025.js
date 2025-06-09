@@ -298,11 +298,11 @@ export default function May2025() {
           <br />
           <br />
           For anyone who may be interested, this link to our{" "}
-          <Link to="/caminodesantiago" className="monthLink">
+          <Link to="/caminodesantiago" className="linkMay2025">
             Camino de Santiago
-          </Link>
-          takes you to a little background information and history on the Camino
-          de Santiago.
+          </Link>{" "}
+          information page takes you to a little background information and
+          history on the Camino de Santiago.
           <br />
           <br />
         </section>

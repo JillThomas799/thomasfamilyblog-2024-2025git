@@ -267,15 +267,15 @@
 
 @media screen and (min-width: 1201px) {
   /*To ensure on screens above 1201px in width that relevant components 
-  of the site are displayed with the best dimensions for the device (This includes extra large screens and TVs)*/
+  of the site are displayed with the best dimensions for the device (This includes extra large screens and TVs, including my laptop)*/
 
   .headerPhotoJune2025 {
     margin-top: -20%;
-    -webkit-transform: scale(1.9);
-    -moz-transform: scale(1.9);
-    -ms-transform: scale(1.9);
-    -o-transform: scale(1.9);
-    transform: scale(1.9);
+    -webkit-transform: scale(1.9, 0.5);
+    -moz-transform: scale(1.9, 0.5);
+    -ms-transform: scale(1.9, 0.5);
+    -o-transform: scale(1.9, 0.5);
+    transform: scale(1.9, 0.5);
   }
 
   .monthHeaderJune2025 {
@@ -287,11 +287,11 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0%, -181%) scale(0.6);
-    -moz-transform: translate(0%, -181%) scale(0.6);
-    -ms-transform: translate(0%, -181%) scale(0.6);
-    -o-transform: translate(0%, -181%) scale(0.6);
-    transform: translate(0%, -181%) scale(0.6);
+    -webkit-transform: translate(0%, -320%) scale(0.7);
+    -moz-transform: translate(0%, -320%) scale(0.7);
+    -ms-transform: translate(0%, -320%) scale(0.7);
+    -o-transform: translate(0%, -320%) scale(0.7);
+    transform: translate(0%, -320%) scale(0.7);
   }
 
   @keyframes move-animation {
@@ -349,11 +349,12 @@
 
   .headerPhotoJune2025 {
     margin-top: -50%;
-    -webkit-transform: scale(0.8);
-    -moz-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    -o-transform: scale(0.8);
-    transform: scale(0.8);
+    width: 100vh;
+    -webkit-transform: scaleY(0.4);
+    -moz-transform: scaleY(0.4);
+    -ms-transform: scaleY(0.4);
+    -o-transform: scaleY(0.4);
+    transform: scaleY(0.4);
   }
 
   .monthHeaderJune2025 {
@@ -365,11 +366,11 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0%, -295%) scale(0.5);
-    -moz-transform: translate(0%, -295%) scale(0.5);
-    -ms-transform: translate(0%, -295%) scale(0.5);
-    -o-transform: translate(0%, -295%) scale(0.5);
-    transform: translate(0%, -295%) scale(0.5);
+    -webkit-transform: translate(0%, -400%) scale(0.6);
+    -moz-transform: translate(0%, -400%) scale(0.6);
+    -ms-transform: translate(0%, -400%) scale(0.6);
+    -o-transform: translate(0%, -400%) scale(0.6);
+    transform: translate(0%, -400%) scale(0.6);
   }
 
   @keyframes move-animation {
@@ -403,11 +404,11 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0%, -240%) scale(0.4);
-    -moz-transform: translate(0%, -240%) scale(0.4);
-    -ms-transform: translate(0%, -240%) scale(0.4);
-    -o-transform: translate(0%, -240%) scale(0.4);
-    transform: translate(0%, -240%) scale(0.4);
+    -webkit-transform: translate(0%, -240%) scale(0.6);
+    -moz-transform: translate(0%, -240%) scale(0.6);
+    -ms-transform: translate(0%, -240%) scale(0.6);
+    -o-transform: translate(0%, -240%) scale(0.6);
+    transform: translate(0%, -240%) scale(0.6);
   }
 
   @keyframes move-animation {
@@ -442,11 +443,11 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0%, -280%) scale(0.3);
-    -moz-transform: translate(0%, -280%) scale(0.3);
-    -ms-transform: translate(0%, -280%) scale(0.3);
-    -o-transform: translate(0%, -280%) scale(0.3);
-    transform: translate(0%, -280%) scale(0.3);
+    -webkit-transform: translate(0%, -280%) scale(0.5);
+    -moz-transform: translate(0%, -280%) scale(0.5);
+    -ms-transform: translate(0%, -280%) scale(0.5);
+    -o-transform: translate(0%, -280%) scale(0.5);
+    transform: translate(0%, -280%) scale(0.5);
   }
 
   @keyframes move-animation {
@@ -465,11 +466,11 @@
 
   .headerPhotoJune2025 {
     margin-top: -30%;
-    -webkit-transform: scale(0.5);
-    -moz-transform: scale(0.5);
-    -ms-transform: scale(0.5);
-    -o-transform: scale(0.5);
-    transform: scale(0.5);
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    transform: scale(0.6);
   }
 
   .monthHeaderJune2025 {
@@ -481,11 +482,11 @@
     width: 400px;
     height: 200px;
     margin: 50px auto 0;
-    -webkit-transform: translate(0%, -260%) scale(0.3);
-    -moz-transform: translate(0%, -260%) scale(0.3);
-    -ms-transform: translate(0%, -260%) scale(0.3);
-    -o-transform: translate(0%, -260%) scale(0.3);
-    transform: translate(0%, -260%) scale(0.3);
+    -webkit-transform: translate(0%, -260%) scale(0.5);
+    -moz-transform: translate(0%, -260%) scale(0.5);
+    -ms-transform: translate(0%, -260%) scale(0.5);
+    -o-transform: translate(0%, -260%) scale(0.5);
+    transform: translate(0%, -260%) scale(0.5);
   }
 
   @keyframes move-animation {

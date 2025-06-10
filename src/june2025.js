@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./june2025.css";
-import fulbeckGarden28052025 from "./imagesresized/fulbeckGarden28052025.jpg";
+import GardenCatAnimation10062025 from "./imagesresized/GardenCatAnimation10062025.jpg";
 
 export default function June2025() {
   return (
@@ -17,7 +17,7 @@ export default function June2025() {
         <div id="bodyWalkingCatAnimation">
           <div id="rootWalkingCat">
             <img
-              src={fulbeckGarden28052025}
+              src={GardenCatAnimation10062025}
               alt=""
               className="headerPhotoJune2025"
             />
@@ -35,28 +35,11 @@ export default function June2025() {
             This month's header shows an animated cat (representing either our
             cat Lennie, or our next door's black cat, who we call 'Blackie '
             walking across our lawn, you can take your pick). Creating this
-            header has been good fun as it has meant learning how to run a more
-            complex animation moving through 'tiles' on a png file in steps.
-            However, it has also meant rather more complexity in scripting the
-            adjustments so it displays accurately on all devices.
-            <br />
-            <br />
-            Speaking of which, it has been tested on all the usual developers
-            test screens but your device may be different. Therefore, if it is
-            not displaying sensibly (for example the cat may be walking in
-            mid-air etc.), it does not mean the cat has developed super-human
-            qualities (although our cat Lennie already thinks he has those!) but
-            that I need to adjust the settings for your device!
-            <br />
-            <br />
-            Therefore could you <em>please</em> left me know via the{" "}
-            <Link to="/" className="linkJune2025">
-              {" "}
-              Problem Feedback Link{" "}
-            </Link>{" "}
-            at the bottom of the home page of the blog including your device
-            type and dimensions if that is the case, in order that I can adjust
-            it for your device then it displays accurately.
+            header has been good fun but challenging as it has meant learning
+            how to run a more complex animation moving through 'tiles' on a png
+            file in steps. However, it has also meant rather more complexity in
+            scripting the adjustments so it displays as accurately as possible
+            on all devices.
             <br />
             <br />
             Other than that, it should be a good month because summer is here{" "}

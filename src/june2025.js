@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./june2025.css";
-import GardenCatAnimation10062025 from "./imagesresized/GardenCatAnimation10062025.jpg";
+import GardenCatAnimation10062025V4 from "./imagesresized/GardenCatAnimation10062025V4.jpg";
 
 export default function June2025() {
   return (
@@ -17,7 +17,7 @@ export default function June2025() {
         <div id="bodyWalkingCatAnimation">
           <div id="rootWalkingCat">
             <img
-              src={GardenCatAnimation10062025}
+              src={GardenCatAnimation10062025V4}
               alt=""
               className="headerPhotoJune2025"
             />

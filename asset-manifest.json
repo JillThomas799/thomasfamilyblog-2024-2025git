@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thomasfamilyblog-2024-2025git/static/css/main.fce2acc3.css",
-    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.4775e37f.js",
+    "main.css": "/thomasfamilyblog-2024-2025git/static/css/main.4b6537a9.css",
+    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.5975c099.js",
     "static/js/488.6f20adc3.chunk.js": "/thomasfamilyblog-2024-2025git/static/js/488.6f20adc3.chunk.js",
     "static/media/July2024HeaderPhoto1.jpg": "/thomasfamilyblog-2024-2025git/static/media/July2024HeaderPhoto1.ebaac43aa58c486ac2dc.jpg",
     "static/media/BernardCroglin.jpg": "/thomasfamilyblog-2024-2025git/static/media/BernardCroglin.a894f8d8d663e284915e.jpg",
@@ -49,7 +49,6 @@
     "static/media/ArmathwaiteCastle.jpg": "/thomasfamilyblog-2024-2025git/static/media/ArmathwaiteCastle.e266340064b690131c2d.jpg",
     "static/media/GoatsbeardBorder.jpg": "/thomasfamilyblog-2024-2025git/static/media/GoatsbeardBorder.391d0c36b8521801cac2.jpg",
     "static/media/mirehouse31052025Titled.jpg": "/thomasfamilyblog-2024-2025git/static/media/mirehouse31052025Titled.077d8942d90d66098ed2.jpg",
-    "static/media/fulbeckGarden28052025.jpg": "/thomasfamilyblog-2024-2025git/static/media/fulbeckGarden28052025.95d759c9f3b499e4d3f5.jpg",
     "static/media/KingEdward1.jpg": "/thomasfamilyblog-2024-2025git/static/media/KingEdward1.fe9783e46738c63a3e7c.jpg",
     "static/media/DinosaursKnebworth.jpg": "/thomasfamilyblog-2024-2025git/static/media/DinosaursKnebworth.22a96b03ded9e0ebae02.jpg",
     "static/media/ProductiveGarden.jpg": "/thomasfamilyblog-2024-2025git/static/media/ProductiveGarden.4c6d86796ab39a06575c.jpg",
@@ -97,6 +96,7 @@
     "static/media/CentralVillageSceneApril24.jpg": "/thomasfamilyblog-2024-2025git/static/media/CentralVillageSceneApril24.d424ccd2f085f5498f76.jpg",
     "static/media/FoxglovesPatio3.jpg": "/thomasfamilyblog-2024-2025git/static/media/FoxglovesPatio3.d74ff4f80d1bde38e12c.jpg",
     "static/media/LowtherCastle20042024.jpg": "/thomasfamilyblog-2024-2025git/static/media/LowtherCastle20042024.d95eda0b41e2705bdde3.jpg",
+    "static/media/GardenCatAnimation10062025.jpg": "/thomasfamilyblog-2024-2025git/static/media/GardenCatAnimation10062025.15af5a8d930da6169cad.jpg",
     "static/media/JapaneseGarden20042024.jpg": "/thomasfamilyblog-2024-2025git/static/media/JapaneseGarden20042024.159c51573796e7650a23.jpg",
     "static/media/LambsFieldTarn2.jpg": "/thomasfamilyblog-2024-2025git/static/media/LambsFieldTarn2.8d3c12be066cc20410ed.jpg",
     "static/media/ElenaGarden1.jpg": "/thomasfamilyblog-2024-2025git/static/media/ElenaGarden1.9e0927f16801ec41c03d.jpg",
@@ -396,12 +396,12 @@
     "static/media/SunsetCumbria.jpg": "/thomasfamilyblog-2024-2025git/static/media/SunsetCumbria.c9706035842ca9c716d5.jpg",
     "static/media/WestminsterBridge15022025.jpg": "/thomasfamilyblog-2024-2025git/static/media/WestminsterBridge15022025.b04c6ef9d6e98e3a6e5c.jpg",
     "index.html": "/thomasfamilyblog-2024-2025git/index.html",
-    "main.fce2acc3.css.map": "/thomasfamilyblog-2024-2025git/static/css/main.fce2acc3.css.map",
-    "main.4775e37f.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.4775e37f.js.map",
+    "main.4b6537a9.css.map": "/thomasfamilyblog-2024-2025git/static/css/main.4b6537a9.css.map",
+    "main.5975c099.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.5975c099.js.map",
     "488.6f20adc3.chunk.js.map": "/thomasfamilyblog-2024-2025git/static/js/488.6f20adc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fce2acc3.css",
-    "static/js/main.4775e37f.js"
+    "static/css/main.4b6537a9.css",
+    "static/js/main.5975c099.js"
   ]
 }

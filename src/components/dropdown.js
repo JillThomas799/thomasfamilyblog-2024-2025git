@@ -95,11 +95,11 @@ export default function Dropdown(props) {
                 Hadrian's Wall Path 2024 Blog
               </Link>
             </li>
-            <li className="spacing">
+            {/* <li className="spacing">
               <Link to="/caminodesantiago" className="monthLink">
                 Camino de Santiago
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       ) : null}

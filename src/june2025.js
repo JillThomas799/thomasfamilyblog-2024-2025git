@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./june2025.css";
-import GardenCatAnimation10062025V4 from "./imagesresized/GardenCatAnimation10062025V4.jpg";
+import GardenCatAnimation10062025 from "./imagesresized/GardenCatAnimation10062025.jpg";
 import DoveCottageGrasmere from "./imagesresized/DoveCottageGrasmere.jpg";
 import RhodedendraInBloom from "./imagesresized/RhodedendraInBloom.JPG";
 import PrettyViewsGrasmere from "./imagesresized/PrettyViewsGrasmere.jpg";
@@ -26,7 +26,7 @@ export default function June2025() {
         <div id="bodyWalkingCatAnimation">
           <div id="rootWalkingCat">
             <img
-              src={GardenCatAnimation10062025V4}
+              src={GardenCatAnimation10062025}
               alt=""
               className="headerPhotoJune2025"
             />

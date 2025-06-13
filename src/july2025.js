@@ -25,7 +25,10 @@ export default function July2025() {
           <section className="newsHeaderJuly2025">
             Welcome to our July 2025 blog
           </section>
-          <section className="newsJuly2025"></section>
+          <section className="newsJuly2025">
+            It is already July and thankfully, so far this year, the weather has
+            been generally good. Yeah....
+          </section>
         </div>
       </div>
       {/*Closing div for backgroundColorJuly2025 */}

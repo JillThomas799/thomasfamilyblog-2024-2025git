@@ -11,6 +11,14 @@ import GrasmereLake1 from "./imagesresized/GrasmereLake1.jpg";
 import GrasmereLake2 from "./imagesresized/GrasmereLake2.JPG";
 import BandJGrasmere from "./imagesresized/BandJGrasmere.JPG";
 import HeidisCafeGrasmere from "./imagesresized/HeidisCafeGrasmere.jpg";
+import Rain140622025V2 from "./imagesresized/Rain140622025V1.jpg";
+import Rain140622025V1 from "./imagesresized/Rain140622025V2.jpg";
+import PollokPark14062025 from "./imagesresized/PollokPark14062025.jpg";
+import PollokHouse14062025 from "./imagesresized/PollokHouse14062025.jpg";
+import BurrellCollection from "./imagesresized/BurrellCollection.jpg";
+import StoneBridgeWilliamandJohnAdam from "./imagesresized/StoneBridgeWilliamandJohnAdam.jpg";
+import RestaurantBurrellCollection from "./imagesresized/RestaurantBurrellCollection.jpg";
+import GuidedTourSign from "./imagesresized/GuidedTourSign.jpg";
 
 export default function June2025() {
   return (
@@ -211,6 +219,224 @@ export default function June2025() {
                 <strong>
                   Finally of course, we <br /> had to take advantage of <br />{" "}
                   the many cafés in Grasmere....
+                </strong>
+              </div>
+            </section>
+          </figure>
+        </div>
+        <div className="datenewsDivJune2025">
+          <section className="dateJune2025">14th June 2025, Saturday</section>
+          <section className="newsHeaderJune2025">
+            Visit to Glasgow: The Burrell Collection, Pollok House, Park and
+            Gardens.
+          </section>
+          <section className="newsJune2025">
+            We had the opportunity today to finally get up to Glasgow to visit
+            the city as Bernard's brother was there on retreat and we had agreed
+            to meet him there. Our intention had originally been to travel up by
+            train, but due to a number of adverse experiences with train travel
+            of recent times, it was decided car would be the far better option
+            and indeed, this proved to be the case as we were heading for the
+            day towards the south of the city, which is easily accessible by the
+            M74 and M8 motorways.
+            <br />
+            <br />
+            There was only a limited amount of time available and heavy rain was
+            forecast, so we decided to visit the exceptional{" "}
+            <Link
+              to="https://burrellcollection.com/"
+              target="_blank"
+              className="linkJune2025"
+            >
+              Burrell Collection
+            </Link>{" "}
+            , together with{" "}
+            <Link
+              to="https://burrellcollection.com/visit/pollok-country-park-glasgows-largest-green-space/"
+              target="_blank"
+              className="linkJune2025"
+            >
+              Pollok House, Gardens and Park.
+            </Link>{" "}
+            If you click on these prior links, they will take you to the
+            respective sites for the Burrell Collection and Pollok House, Park
+            and Gardens where there is a lot more information.
+            <br />
+            <br />
+            The{" "}
+            <Link
+              to="https://burrellcollection.com/"
+              target="_blank"
+              className="linkJune2025"
+            >
+              Burrell Collection
+            </Link>{" "}
+            is located 3 miles out of the city centre, in Pollok Park and is one
+            of Glasgow's top attractions. It opened in 1983 and is considered to
+            be one of the most significant civic museum collections in the UK,
+            comparable to the National Gallery and the V&A in London. Some of
+            the highlights we saw there included one of the most important
+            collections of Chinese art in the UK and one of the casts of Auguste
+            Rodin's 'The Thinker' 1880-1881 which started out as the crowning
+            element of{" "}
+            <Link
+              to="https://www.musee-rodin.fr/en/musee/collections/oeuvres/gates-hell"
+              target="_blank"
+              className="linkJune2025"
+            >
+              The Gates of Hell
+            </Link>{" "}
+            (when, instead of 'The Thinker' it was entitled 'The Poet'). He
+            represented Dante, author of the Divine Comedy which had inspired
+            The Gates, leaning forward to observe the circles of Hell, while
+            meditating on his work.
+            <br />
+            <br />
+            We also saw 'Self Portrait of Rembrandt van Rijn' 1632. Rembrandt
+            van Rijn was 26 when he created this self portrait, one of the first
+            paintings he made when he moved to Amsterdam in search of work. We
+            also saw a painting of Saskia, Rembrandt's wife, which was
+            originally thought to have been painted by Rembrandt himself but is
+            now thought to be the work of one of his most talented pupils.
+            <br />
+            <br />
+            Particularly impressive were six panels from the huge seven-window
+            stained glass window, Life of Jesus Christ and the Virgin Mary from
+            about 1444. Other sections of this stained glass survive in museums
+            all over the world. Germany, Boppard on Rhine, Carmelite Church
+            (place associated); Germany, Rhine Region (place of manufacture);
+            Jesse Tree Window (place of use).
+            <br />
+            <br />
+            Amidst the collection there are also 2 very important Tudor items
+            from the time of Henry VIII. There is a rare valance (1532-1536)
+            which was made for Henry VIII of England and his second wife, Anne
+            Boleyn. The design includes their initials ‘HA’, acorns symbolizing
+            Henry’s royalty and honeysuckles for Anne. This is a rare piece of
+            surviving Tudor embroidery. There is also a headboard from bed of
+            Henry VIII and Anne of Cleves. Although dating back to 2014, this
+            <Link
+              to="https://www.theguardian.com/uk-news/2014/dec/07/headboard-henry-viii-anne-cleves-london-glasgow-scottish-parliament"
+              target="_blank"
+              className="linkJune2025"
+            >
+              {" "}
+              Guardian newspaper article about the headboard
+            </Link>{" "}
+            provides some very interesting background information.
+            <br />
+            <br />
+            <Link
+              to="https://burrellcollection.com/visit/pollok-country-park-glasgows-largest-green-space/"
+              target="_blank"
+              className="linkJune2025"
+            >
+              Pollok House, Gardens and Park
+            </Link>{" "}
+            : Pollok park is the largest park in Glasgow and the only one which
+            lies within the city limits. It is part of the old Pollok estate,
+            ancestral home of the Maxwell family for 7 centuries. It was
+            eventually gifted to the city in 1966. Pollok House was built in
+            1752 as a stately home for the Maxwells, who were patrons of art and
+            learning. It is here the National Trust for Scotland was conceived
+            in 1931 by a group led by Sr John Stirling-Maxwell. Unfortunately,
+            Pollok House closed temporarily on 20 November 2023 for
+            approximately two years for a major conservation project led by
+            Glasgow City Council, so it is not possible to go in the house
+            currently. However, it should be a great place to visit when it
+            eventually reopen and Pollok Park is meanwhile open for everyone to
+            enjoy....
+          </section>
+        </div>
+        <div className="blogPhotoDivJune2025">
+          <figure>
+            <section className="blogPhotoJune2025">
+              <img src={PollokPark14062025} alt="" />
+              <div className="june2025FigCaption">
+                <strong>
+                  Pollok Park, Glasgow, a great <br /> place to visit for the 3{" "}
+                  <br /> of us, but <em>very</em> rainy today....
+                </strong>
+              </div>
+            </section>
+          </figure>
+          <figure>
+            <section className="blogPhotoJune2025">
+              <img src={Rain140622025V2} alt="" />
+              <div className="june2025FigCaption">
+                <strong>
+                  Eventually, we reached the Burrell <br /> Collection and were
+                  glad to be <br /> inside out of the rain....
+                </strong>
+              </div>
+            </section>
+          </figure>
+          <figure>
+            <section className="blogPhotoJune2025">
+              <img src={Rain140622025V1} alt="" />
+              <div className="june2025FigCaption">
+                <strong>
+                  It was time for some lunch, so <br /> we found a table in the
+                  restaurant <br /> and watched the rain from inside ......
+                </strong>
+              </div>
+            </section>
+          </figure>
+          <figure>
+            <section className="blogPhotoJune2025">
+              <img src={RestaurantBurrellCollection} alt="" />
+              <div className="june2025FigCaption">
+                <strong>
+                  However, the restaurant was great, <br /> with a good menu and{" "}
+                  <br /> plenty of tables...
+                </strong>
+              </div>
+            </section>
+          </figure>
+        </div>
+        <div className="blogPhotoDivJune2025">
+          <figure>
+            <section className="blogPhotoJune2025">
+              <img src={GuidedTourSign} alt="" />
+              <div className="june2025FigCaption">
+                <strong>
+                  After lunch we joined a guided tour <br /> of the Burrell
+                  Collection which was
+                  <br /> excellent and well-worth doing.{" "}
+                </strong>
+              </div>
+            </section>
+          </figure>
+          <figure>
+            <section className="blogPhotoJune2025">
+              <img src={BurrellCollection} alt="" />
+              <div className="june2025FigCaption">
+                <strong>
+                  By the time we had finished at the museum <br /> it had
+                  stopped raining so we went outside <br /> for the mandatory
+                  photo.....
+                </strong>
+              </div>
+            </section>
+          </figure>
+          <figure>
+            <section className="blogPhotoJune2025">
+              <img src={PollokHouse14062025} alt="" />
+              <div className="june2025FigCaption">
+                <strong>
+                  ...then we went for a walk <br /> down to Pollok house and
+                  gardens....
+                </strong>
+              </div>
+            </section>
+          </figure>
+          <figure>
+            <section className="blogPhotoJune2025">
+              <img src={StoneBridgeWilliamandJohnAdam} alt="" />
+              <div className="june2025FigCaption">
+                <strong>
+                  ...which include this stone bridge built in 1750 <br /> by
+                  William and John Adam.
                 </strong>
               </div>
             </section>

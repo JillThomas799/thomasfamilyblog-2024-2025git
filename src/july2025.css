@@ -60,7 +60,7 @@
 
 /*Instructions for text and news parts of the blog page*/
 .datenewsDivJuly2025 {
-  background-color: #869f77;
+  background-color: #c0b9bf;
   display: flex;
   flex-direction: column;
   margin-top: 0%;
@@ -72,7 +72,7 @@
 .dateJuly2025 {
   color: whitesmoke;
   border: solid 3px #22311d;
-  background-color: #c0b9bf;
+  background-color: #869f77;
   text-align: center;
   padding: 10px 10px 10px 10px;
   margin: 5px;
@@ -84,7 +84,7 @@
 .newsHeaderJuly2025 {
   color: #22311d;
   border: solid 3px #22311d;
-  background-color: #c0b9bf;
+  background-color: #869f77;
   text-align: center;
   padding: 10px 3% 20px 30px;
   margin-top: 53%;
@@ -99,7 +99,7 @@
 .newsJuly2025 {
   color: #22311d;
   border: solid 3px #22311d;
-  background-color: #c0b9bf;
+  background-color: #869f77;
   text-align: center;
   padding: 10px 10px 20px 10px;
   margin: 3%;
@@ -113,7 +113,7 @@
   display: flex;
   flex-direction: row;
   border: solid 2px #22311d;
-  background-color: #c0b9bf;
+  background-color: #869f77;
   padding-bottom: 2%;
   padding-top: 3%;
   padding-left: 2%;
@@ -154,7 +154,7 @@
   font-family: Calibri, Trebuchet MS, sans-serif;
   display: block;
   color: #22311d;
-  background-color: #c0b9bf;
+  background-color: #869f77;
 }
 
 .slideshowentryJuly2025 {
@@ -178,7 +178,7 @@
   display: flex;
   flex-direction: column;
   border: solid 3px #22311d;
-  background-color: #c0b9bf;
+  background-color: #869f77;
   padding-bottom: 2%;
   padding-top: 2%;
   margin-right: auto;

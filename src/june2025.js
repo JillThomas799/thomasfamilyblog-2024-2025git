@@ -225,6 +225,12 @@ export default function June2025() {
           </figure>
         </div>
         <div className="datenewsDivJune2025">
+          <section className="dateJune2025">12th June 2025, Saturday</section>
+          <section className="newsHeaderJune2025">
+            Gardens and lots of ducklings at the tarn.
+          </section>
+        </div>
+        <div className="datenewsDivJune2025">
           <section className="dateJune2025">14th June 2025, Saturday</section>
           <section className="newsHeaderJune2025">
             Visit to Glasgow: The Burrell Collection, Pollok House, Park and

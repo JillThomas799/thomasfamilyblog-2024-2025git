@@ -19,6 +19,7 @@ import BurrellCollection from "./imagesresized/BurrellCollection.jpg";
 import StoneBridgeWilliamandJohnAdam from "./imagesresized/StoneBridgeWilliamandJohnAdam.jpg";
 import RestaurantBurrellCollection from "./imagesresized/RestaurantBurrellCollection.jpg";
 import GuidedTourSign from "./imagesresized/GuidedTourSign.jpg";
+import strawberries062025titled from "./imagesresized/strawberries062025titled.jpg";
 
 export default function June2025() {
   return (
@@ -227,9 +228,47 @@ export default function June2025() {
         <div className="datenewsDivJune2025">
           <section className="dateJune2025">12th June 2025, Saturday</section>
           <section className="newsHeaderJune2025">
-            Gardens and lots of ducklings at the tarn.
+            All about gardens both here and in the South East and it is the time
+            again for lots of ducklings at the tarn.
           </section>
         </div>
+        <div className="SlideshowHostPhotoJune2025">
+          <div className="slideshowinstructionsJune2025">
+            {" "}
+            <strong>
+              Click on the image below to open the album of some of our garden
+              photos here in Cumbria this month. <br />
+              Staying on the subject of gardens, Phil and Claire's landscaping
+              project on their garden in the South East has finally reached its
+              conclusion and its is lovely to see that all the months of work
+              have been well worth it, so we have included a couple of photos of
+              their completed garden. It is also that time of year again for all
+              the ducklings at the tarn, so how could we resist including some
+              photos of some of them.....? <br />
+              <br /> It has been quite the job getting the strawberries to
+              maturity successfully and has involved getting the straw-laid down
+              at the correct time together with the netting, mouse-control (mice
+              like strawberries and do not see the netting as a deterrent...)
+              and blackbird-control as the blackbird managed to find a way under
+              the netting. However, we made it in the end and they taste
+              delicious so it has been worth all the hard work.{" "}
+            </strong>
+            <br />
+            <Link
+              to="https://photos.app.goo.gl/KYKPjs24bNXS8jLJ6"
+              target="_blank"
+              className="linkJune2025"
+            >
+              <img
+                className="slideshowentryJune2025"
+                src={strawberries062025titled}
+                alt=""
+              />
+            </Link>
+          </div>{" "}
+          {/*Closing div slideshowinstructionsJune2025*/}
+        </div>
+        {/*Closing div slideshowHostJune2025*/}
         <div className="datenewsDivJune2025">
           <section className="dateJune2025">14th June 2025, Saturday</section>
           <section className="newsHeaderJune2025">

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thomasfamilyblog-2024-2025git/static/css/main.9bdd07ac.css",
-    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.c4433313.js",
+    "main.css": "/thomasfamilyblog-2024-2025git/static/css/main.1c79f506.css",
+    "main.js": "/thomasfamilyblog-2024-2025git/static/js/main.644bac36.js",
     "static/js/488.6f20adc3.chunk.js": "/thomasfamilyblog-2024-2025git/static/js/488.6f20adc3.chunk.js",
     "static/media/July2024HeaderPhoto1.jpg": "/thomasfamilyblog-2024-2025git/static/media/July2024HeaderPhoto1.ebaac43aa58c486ac2dc.jpg",
     "static/media/BernardCroglin.jpg": "/thomasfamilyblog-2024-2025git/static/media/BernardCroglin.a894f8d8d663e284915e.jpg",
@@ -23,6 +23,7 @@
     "static/media/ChollerfordBroccolitia.jpg": "/thomasfamilyblog-2024-2025git/static/media/ChollerfordBroccolitia.6e9b537bc92973aa1f7d.jpg",
     "static/media/PenrithStationTitled.jpg": "/thomasfamilyblog-2024-2025git/static/media/PenrithStationTitled.8a21dade6bbedfe29f70.jpg",
     "static/media/XmasDayMeal20241Title.jpg": "/thomasfamilyblog-2024-2025git/static/media/XmasDayMeal20241Title.13d2aead26a379d112df.jpg",
+    "static/media/strawberries062025titled.jpg": "/thomasfamilyblog-2024-2025git/static/media/strawberries062025titled.325e328ed15ccd1958f5.jpg",
     "static/media/NewcastleQuayside.jpg": "/thomasfamilyblog-2024-2025git/static/media/NewcastleQuayside.dfe94db8c13a70b7afd6.jpg",
     "static/media/CdSTrainingLongWk7Titled.jpg": "/thomasfamilyblog-2024-2025git/static/media/CdSTrainingLongWk7Titled.826084176b166151601f.jpg",
     "static/media/cat_tiles.png": "/thomasfamilyblog-2024-2025git/static/media/cat_tiles.da843e98104b23a0caec.png",
@@ -414,12 +415,12 @@
     "static/media/SunsetCumbria.jpg": "/thomasfamilyblog-2024-2025git/static/media/SunsetCumbria.c9706035842ca9c716d5.jpg",
     "static/media/WestminsterBridge15022025.jpg": "/thomasfamilyblog-2024-2025git/static/media/WestminsterBridge15022025.b04c6ef9d6e98e3a6e5c.jpg",
     "index.html": "/thomasfamilyblog-2024-2025git/index.html",
-    "main.9bdd07ac.css.map": "/thomasfamilyblog-2024-2025git/static/css/main.9bdd07ac.css.map",
-    "main.c4433313.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.c4433313.js.map",
+    "main.1c79f506.css.map": "/thomasfamilyblog-2024-2025git/static/css/main.1c79f506.css.map",
+    "main.644bac36.js.map": "/thomasfamilyblog-2024-2025git/static/js/main.644bac36.js.map",
     "488.6f20adc3.chunk.js.map": "/thomasfamilyblog-2024-2025git/static/js/488.6f20adc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bdd07ac.css",
-    "static/js/main.c4433313.js"
+    "static/css/main.1c79f506.css",
+    "static/js/main.644bac36.js"
   ]
 }

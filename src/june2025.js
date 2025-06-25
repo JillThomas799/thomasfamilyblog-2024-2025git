@@ -487,6 +487,40 @@ export default function June2025() {
             </section>
           </figure>
         </div>
+        <div className="datenewsDivJune2025">
+          <section className="dateJune2025">21st June 2025, Sunday</section>
+          <section className="newsHeaderJune2025">
+            Saw 'The Ballad of Wallis Island' film at the Rheged cinema.
+          </section>
+          <section className="newsJune2025">
+            We went to see the film{" "}
+            <Link
+              to="https://www.imdb.com/title/tt27674982/"
+              target="_blank"
+              className="linkJune2025"
+            >
+              The Ballad of Wallis Island
+            </Link>
+            {}, a comedy-drama film about an eccentric lottery winner who lives
+            alone on a remote island and who tries to make his fantasies come
+            true by getting his favorite musicians to perform at his home. It is
+            directed by James Griffith and written by Tom Basden and Tim Key,
+            who also, together with Carey Mulligan as Nell Mortimer and Sian
+            Clifford as Amanda, star in the film.
+            <br />
+            <br />
+            It has received some{" "}
+            <Link
+              to="https://www.theguardian.com/film/2025/may/28/the-ballad-of-wallis-island-review-lottery-folk-tim-key-carey-mulligan"
+              target="_blank"
+              className="linkJune2025"
+            >
+              good reviews
+            </Link>{" "}
+            in the press and we enjoyed the film. We would recommend it as worth
+            going to see.
+          </section>
+        </div>
       </div>
     </div>
   );

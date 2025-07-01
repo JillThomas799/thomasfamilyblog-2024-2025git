@@ -18,6 +18,12 @@
   color: #588061;
 }
 
+.linkJuly2025 {
+  /*This is the coloring and underlining for hyperlinks in the main body of the text */
+  text-decoration: underline;
+  color: #ff1d8d;
+}
+
 #backbuttonJuly2025 {
   display: block;
   position: absolute;
@@ -41,7 +47,7 @@
   color: black;
 }
 
-.sunflowerTiles {
+.roseTiles {
   margin-top: 10%;
   background-image: url(./imagesresized/Roses1.jpg);
   background-repeat: repeat round;

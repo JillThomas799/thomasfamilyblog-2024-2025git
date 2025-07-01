@@ -6,7 +6,7 @@
   font-weight: bold;
   border: solid 3px;
   width: 100vw;
-  height: 83vh;
+  height: 53vh;
   background: #c0b9bf;
   position: absolute;
 }
@@ -191,4 +191,28 @@
   margin-left: auto;
   justify-content: center;
   text-align: center;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px) {
+  /*To ensure on mobile screens between 769px and 1000px width that relevant components 
+  of the site are displayed with the best dimensions for the smaller devices (This includes Bernard's and certain other mobile devices)*/
+  .july2025Header {
+    height: 28vh;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /*To ensure on mobile screens between 481px and 768px width that relevant components 
+  of the site are displayed with the best dimensions for the smaller devices (This includes Bernard's and certain other mobile devices)*/
+  .july2025Header {
+    height: 23vh;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  /*To ensure on mobile screens between 320px and 480px width that relevant components 
+  of the site are displayed with the best dimensions for the smaller devices (This includes Bernard's and certain other mobile devices)*/
+  .july2025Header {
+    height: 23vh;
+  }
 }

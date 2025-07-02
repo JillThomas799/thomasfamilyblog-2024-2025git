@@ -41,7 +41,8 @@ export default function July2025() {
               Glyndebourne
             </Link>{" "}
             in East Sussex to see Verdi's opera Falstaff, the last of his 26
-            operas, which we have never seen before.
+            operas, which we have never seen before. The pink roses in the
+            header photo from this month are from our garden.
           </section>
         </div>
       </div>

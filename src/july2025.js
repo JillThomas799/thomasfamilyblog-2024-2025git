@@ -26,7 +26,8 @@ export default function July2025() {
           <section className="newsJuly2025">
             Welcome to our July blog. Thankfully so far this year, the weather
             has been good so let's hope that continues this month as there is
-            lots going on.
+            lots going on. The pink shrub roses in the header photo this month
+            are from our garden.
             <br />
             <br />
             It is a very exciting month this month as we will be travelling down
@@ -41,8 +42,7 @@ export default function July2025() {
               Glyndebourne
             </Link>{" "}
             in East Sussex to see Verdi's opera Falstaff, the last of his 26
-            operas, which we have never seen before. The pink roses in the
-            header photo from this month are from our garden.
+            operas, which we have never seen before.
           </section>
         </div>
       </div>

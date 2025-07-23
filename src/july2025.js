@@ -10,6 +10,7 @@ import pilotbPassed from "imagesresized/pilotbPassed.jpg";
 import departuresBoard from "imagesresized/departuresBoard.jpg";
 import preflightEntertainment from "imagesresized/preflightEntertainment.jpg";
 import flightTicket from "./imagesresized/flightTicket.jpg";
+import GraduationCardiff1Titled from "./imagesresized/GraduationCardiff1Titled.jpg";
 
 export default function July2025() {
   return (
@@ -211,9 +212,121 @@ export default function July2025() {
               </section>
             </figure>
           </div>
+
+          <section className="dateJuly2025">18th July 2025, Friday</section>
+          <section className="newsHeaderJuly2025">
+            Cardiff PhD Graduation Day: Harry officially becomes 'Dr Harry'
+            <br /> accompanied by lots of Welsh singing and speaking.
+          </section>
+          <section className="newsJuly2025">
+            The day had finally arrived which we had all been awaiting for some
+            time: that of Harry's doctoral graduation ceremony in Cardiff. Harry
+            had been looking forward to the 'floppy hat' ceremony, more
+            officially known as the ceremony where the full doctoral regalia is
+            worn including the 'Tam' hats. Much better than the 'bucket hats',
+            more officially known as the 'mortarboards' of the graduation
+            ceremony.
+            <br />
+            <br />
+            We had fortunately managed to rent some very pleasant{" "}
+            <Link
+              to="https://www.airbnb.co.uk/rooms/609320701093859071?adults=1&search_mode=regular_search&check_in=2025-08-09&check_out=2025-08-14&children=0&infants=0&pets=0&source_impression_id=p3_1753261446_P3onrYSGnR9aShXj&previous_page_section_name=1000&federated_search_id=8292d703-7e53-49a8-9b2e-fcda546f054d"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              {} self-catering accommodation in an airBNB in Bonvilston
+            </Link>
+            , just outside Cardiff, for a few days.
+            <br />
+            <br />
+            Our experience of Cardiff University over the past 5 years has been
+            that it is a great university which makes its students feel very
+            welcome. Cardiff is a lovely city which is well worth a visit for
+            anyone who has never been, or a revisit for those who have.
+            <br />
+            <br />
+            The graduation ceremony was held at the{" "}
+            <Link
+              to="https://www.utilitaarenacardiff.co.uk/"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              {} Utilita Arena, Cardiff.
+            </Link>
+            {} Harry's ceremony was at 15.30 and consisted of the School of
+            Architecture, Chemistry and Physics and Astronomy graduates and
+            doctorates. We were sat towards the back of the auditorium but the
+            view was clear and there were large TV screens on either side to
+            project the close-up images. The university were running a live-feed
+            of the ceremony online so Elena (who was back in Cumbria minding
+            Lennie), and Lennie himself were watching the ceremony on the
+            live-feed on you tube.
+            <br />
+            <br />
+            The opening procession of the ceremony was accompanied by the Welsh
+            hymn{" "}
+            <Link
+              to="https://en.wikipedia.org/wiki/Calon_L%C3%A2n"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              Calon Lân
+            </Link>{" "}
+            {}, which can be heard{" "}
+            <Link
+              to="https://open.spotify.com/track/4018M1GQWCpjdHOwdFmVgU"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              here
+            </Link>{" "}
+            sung by the Treorchy Male Voice Choir. The words were written in the
+            1890s by Daniel James (Gwyrosydd) and sung to a tune by John Hughes.
+            For all Welsh rugby supporters, whilst originally being written as a
+            hymn, it is more widely recognised now as a rugby anthem associated
+            with the Welsh rugby union.
+            <br />
+            <br />
+            It was lovely to see Harry obtaining his well-deserved award and to
+            take part in the ceremony. After some lovely speeches in both
+            English and Welsh,{" "}
+            <Link
+              to="https://www.bass12.co.uk/"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              Bass12
+            </Link>{" "}
+            a riot jazz, brass covers band, put on a very impressive show to
+            lead the exit procession.
+          </section>
+          <div className="SlideshowHostPhotoJuly2025">
+            <div className="slideshowinstructionsJuly2025">
+              {" "}
+              <strong>
+                Click on the image below to open the album <br /> of Harry's
+                Cardiff graduation ceremony.
+                <br />
+              </strong>
+              <br />
+              <Link
+                to="https://photos.app.goo.gl/wM5DEM5YUrXNbqTk7"
+                target="_blank"
+                className="linkJuly2025"
+              >
+                <img
+                  className="slideshowentryJuly2025"
+                  src={GraduationCardiff1Titled}
+                  alt=""
+                />
+              </Link>
+            </div>{" "}
+            {/*Closing div slideshowinstructionsJune2025*/}
+          </div>
+          {/*Closing div slideshowHostJune2025*/}
         </div>
+        {/*Closing div for backgroundColorJuly2025 */}
       </div>
-      {/*Closing div for backgroundColorJuly2025 */}
     </div>
   );
 }

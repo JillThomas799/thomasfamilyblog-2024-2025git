@@ -11,6 +11,7 @@ import departuresBoard from "imagesresized/departuresBoard.jpg";
 import preflightEntertainment from "imagesresized/preflightEntertainment.jpg";
 import flightTicket from "./imagesresized/flightTicket.jpg";
 import GraduationCardiff1Titled from "./imagesresized/GraduationCardiff1Titled.jpg";
+import medievalReenactmentTitled from "./imagesresized/medievalReenactmentTitled.jpg";
 
 export default function July2025() {
   return (
@@ -321,12 +322,133 @@ export default function July2025() {
                 />
               </Link>
             </div>{" "}
-            {/*Closing div slideshowinstructionsJune2025*/}
+            {/*Closing div slideshowinstructionsJuly2025*/}
           </div>
-          {/*Closing div slideshowHostJune2025*/}
+          {/*Closing div slideshowHostJuly2025*/}
+
+          <section className="dateJuly2025">20th July 2025, Friday</section>
+          <section className="newsHeaderJuly2025">
+            A day of Medieval Reenactment at Greystoke Castle
+          </section>
+          <section className="newsJuly2025">
+            Our friends had invited us to a Medieval Reenactment Weekend taking
+            place at Greystoke Castle, Penrith on the weekend of the 19th and
+            20th July, 2025 as their daughter was taking part, and we had never
+            attended such an event before. The event was to feature living
+            history encampments, displays of medieval fashion, squire school,
+            arming of the knight demonstrations, medieval music, a battle
+            reenactment, and a medieval court of justice.
+            <br />
+            <br />
+            It was a super-enjoyable day and far more interesting than we had
+            envisaged. The preparation work and detailed research which goes in
+            behind the scenes is very impressive. The medieval reenactment at
+            Greystoke Castle involved the group{" "}
+            <Link
+              to="https://normannis.co.uk/joining-us/"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              {" "}
+              Historia Normannis
+            </Link>{" "}
+            which is a 12th century reenactment group, focusing primarily on the
+            events between the reign of Henry I and King John. The events when
+            staged tend to be hosted by a number of the regional groups. This
+            event included a Scottish group, Yorkshire group, Cumbria group and
+            West Mercia group. For anyone interested in joining or finding out
+            more about a group, contact
+            <Link
+              to="https://normannis.co.uk/joining-us/"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              {" "}
+              Historia Normannis
+            </Link>
+            <br />
+            <br />
+            The events of the day were as follows :
+            <ul>
+              <li>
+                <strong>10am Living History Encampment:</strong> an opportunity
+                to step back in time and explore a medieval encampment with
+                various displays and demonstrations.
+                <br />
+                <br />
+              </li>
+              <li>
+                <strong> 11am Medieval Fashion:</strong> Including a fashion
+                parade demonstrating examples of clothing and attire from the
+                13th century and how, in the 13th century, what you wear is who
+                you are.
+                <br />
+                <br />
+              </li>
+
+              <li>
+                <strong>12 noon Medieval Tournament: </strong> Treason at the
+                Castle? - when the Sheriff of Cumberland’s men visit Greystoke
+                Castle in 1214 they find an army of Scottish soldiers on the
+                castle grounds. Will they suspect the Castellan of Greystoke of
+                plotting treason against King John?
+                <br />
+                <br />
+              </li>
+
+              <li>
+                <strong>13.00 Squire School: </strong>Young aspiring knights
+                learnt basic combat skills and were generally more blood-thirsty
+                than their parents.
+                <br />
+                <br />
+              </li>
+              <li>
+                <strong>14.00 Medieval Music: </strong> An undercover medieval
+                talent show contest .
+                <br />
+                <br />
+              </li>
+              <li>
+                <strong>15.00 Medieval Battle: </strong> Barons Rebellion -
+                Robert de Ros, the Sheriff of Cumberland and his army arrive to
+                ensure the Castellan of Greystoke castle pledges allegiance to
+                King John of England. With civil war on the horizon, will
+                Greystoke kneel to the King, or join forces with Scotland
+                against him?
+                <br />
+                <br />
+              </li>
+              <li></li>
+            </ul>{" "}
+          </section>
+          <div className="SlideshowHostPhotoJuly2025">
+            <div className="slideshowinstructionsJuly2025">
+              {" "}
+              <strong>
+                Click on the image below to open the album <br /> of our
+                medieval reenactment day at Greystoke Castle.
+                <br />
+              </strong>
+              <br />
+              <Link
+                to="https://photos.app.goo.gl/kwBEApWmLAH8yutM7"
+                target="_blank"
+                className="linkJuly2025"
+              >
+                <img
+                  className="slideshowentryJuly2025"
+                  src={medievalReenactmentTitled}
+                  alt=""
+                />
+              </Link>
+            </div>{" "}
+            {/*Closing div slideshowinstructionsJuly2025*/}
+          </div>
+          {/*Closing div slideshowHostJuly2025*/}
         </div>
-        {/*Closing div for backgroundColorJuly2025 */}
       </div>
+      {/*Closing div for backgroundColorJuly2025 */}
     </div>
   );
 }

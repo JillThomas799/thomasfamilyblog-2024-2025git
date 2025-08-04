@@ -12,6 +12,7 @@ import preflightEntertainment from "imagesresized/preflightEntertainment.jpg";
 import flightTicket from "./imagesresized/flightTicket.jpg";
 import GraduationCardiff1Titled from "./imagesresized/GraduationCardiff1Titled.jpg";
 import medievalReenactmentTitled from "./imagesresized/medievalReenactmentTitled.jpg";
+import Glynebourne2025Titled from "./imagesresized/Glynebourne2025Titled.jpg";
 
 export default function July2025() {
   return (
@@ -439,6 +440,88 @@ export default function July2025() {
                 <img
                   className="slideshowentryJuly2025"
                   src={medievalReenactmentTitled}
+                  alt=""
+                />
+              </Link>
+            </div>{" "}
+            {/*Closing div slideshowinstructionsJuly2025*/}
+          </div>
+          {/*Closing div slideshowHostJuly2025*/}
+          <section className="dateJuly2025">29th July 2025, Tuesday</section>
+          <section className="newsHeaderJuly2025">
+            Visit to Glynebourne in East Sussex, to see Verdi's Falstaff
+          </section>
+          <section className="newsJuly2025">
+            Today, was very exciting as we were off to Glynebourne in East
+            Sussex to see Verdi's Falstaff. We were last at Glynebourne in 2013,
+            when we saw the Marriage of Figaro by Mozart. On that occasion we
+            all 4 were in attendance as it was to celebrate a special occasion
+            and included an overnight stay in a local hotel in Lewes, a prepared
+            meal in the interval and the more expensive seats in the circle.
+            Don't ask about the cost....we try not to think about it....
+            <br />
+            <br />
+            However, just to prove you don't need to break the bank to go to
+            Glynebourne, we adopted a very different strategy this time. Firstly
+            we combined the Glynebourne trip with a visit to Jill's brother and
+            sister-in-law in the South East, with whom we stayed for a few days
+            and Bernard's father in the South. We took our own home-made picnic
+            and, as the parking facilities are good and the roads more
+            accessible than previously, we took the car. Additionally, as the
+            auditorium is reasonably compact and most seats have excellent views
+            and all have excellent acoustics, we opted for more affordable seats
+            which really were no different in price from that which you would be
+            paying for the opera or ballet in the large cities.
+            <br />
+            <br />
+            This production of Verdi's Falstaff was originally conceived in 2009
+            and is directed by Richard Jones. It is set in 1945 in Windsor, just
+            after the end of the Second World War. The opera is adapted from
+            Shakespeare’s The Merry Wives of Windsor (with passages from Henry
+            IV Part One) and is a comedy.
+            <br />
+            <br />
+            The cast included: Sir John Falstaff – Renato Girolami; Ford –
+            Rodion Pogossov; Alice Ford – Anna Princeva; Nannetta – Mariam
+            Battistelli; Fenton – Filipe Manu; Meg Page – Stephanie Lauricella;
+            Mistress Quickly – Valentina Pernozzoli; Dr Caius – Gregory
+            Bonfatti; Bardolfo – Colin Judon; Pistola – Callum, Thorpe
+            <br />
+            <br />
+            However, the stars of the show were not just the excellent singers
+            and accompanying London Philharmonic orchestra but also a number of
+            very clever props and a set of animatronic cats. The first of these,
+            a ginger and white cat on the bar of the Garter Inn, can be seen
+            from 0.57 onwards until the end of this{" "}
+            <Link
+              to="https://youtu.be/wy3Z7akRtYo"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              {" "}
+              excerpt from the 1st Act of Falstaff at Glynebourne
+            </Link>
+            . In each scene, there is a cat which reappears in different forms.
+            In the last act, it is a black cat sat high up in the tree with eyes
+            which light-up and flash.
+          </section>
+          <div className="SlideshowHostPhotoJuly2025">
+            <div className="slideshowinstructionsJuly2025">
+              {" "}
+              <strong>
+                Click on the image below to open the album <br /> of our trip to
+                the opera at Glynebourne to see Verdi's Falstaff.
+                <br />
+              </strong>
+              <br />
+              <Link
+                to="https://photos.app.goo.gl/S7Vp5KAfdfmFSsJS8"
+                target="_blank"
+                className="linkJuly2025"
+              >
+                <img
+                  className="slideshowentryJuly2025"
+                  src={Glynebourne2025Titled}
                   alt=""
                 />
               </Link>

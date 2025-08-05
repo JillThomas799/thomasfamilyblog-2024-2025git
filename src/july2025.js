@@ -13,6 +13,7 @@ import flightTicket from "./imagesresized/flightTicket.jpg";
 import GraduationCardiff1Titled from "./imagesresized/GraduationCardiff1Titled.jpg";
 import medievalReenactmentTitled from "./imagesresized/medievalReenactmentTitled.jpg";
 import Glynebourne2025Titled from "./imagesresized/Glynebourne2025Titled.jpg";
+import London30072025Titled from "./imagesresized/London30072025Titled.jpg";
 
 export default function July2025() {
   return (
@@ -522,6 +523,110 @@ export default function July2025() {
                 <img
                   className="slideshowentryJuly2025"
                   src={Glynebourne2025Titled}
+                  alt=""
+                />
+              </Link>
+            </div>{" "}
+            {/*Closing div slideshowinstructionsJuly2025*/}
+          </div>
+          {/*Closing div slideshowHostJuly2025*/}
+          <section className="dateJuly2025">30th July 2025, Wednesday</section>
+          <section className="newsHeaderJuly2025">
+            Visit to London: ride on the Elizabeth line, British Museum Sutton
+            Hoo exhibits, walking tour of London and lunch at Brasserie Zédel.
+          </section>
+          <section className="newsJuly2025">
+            Today was a visit into London and an opportunity to try out the
+            newest of the London trains, the Elizabeth Line which opened in
+            2022. It is a high-frequency, high-capacity railway that connects
+            the east and west of London with a new central section and is
+            similar to the RER in Paris and the S-Bahn systems of
+            German-speaking countries.
+            <br />
+            <br />
+            Having arrived safely at Stratford (where Jill showed her age by
+            spotting and becoming quite excited about the Abba arena where the
+            production Abba Voyage is performed) and changing trains to
+            Tottenham Court Road Elizabeth Line station, we were soon at the
+            British Museum. Our membership tickets enabled us to avoid the
+            queues and access easily. Today the focus was on{" "}
+            <Link
+              to="https://www.britishmuseum.org/collection/galleries/medieval-europe"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              Room 40: Medieval Europe AD 1050–1500
+            </Link>{" "}
+            and{" "}
+            <Link
+              to="https://www.britishmuseum.org/collection/galleries/sutton-hoo-and-europe"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              Room 41: Sutton Hoo and Europe AD 300–1100.{" "}
+            </Link>
+            <br />
+            <br />
+            In room 41, it was great to see the original Sutton Hoo finds and
+            whilst some, such as the iron chain mail armour found at the burial
+            site and which was most likely part of a three-quarter length coat
+            of mail, consist now of rusted together iron links and copper rivets
+            in alternate rows, nonetheless this find, along with others, give
+            clear insights into the wealth and status of the individual buried
+            at Sutton Hoo. The Sutton Hoo helmet was very impressive.
+            <br />
+            <br />
+            In room 40, which was dedicated to Medieval Europe, there was the
+            Lewis Chessmen: A set of 12th-century chess pieces, discovered on
+            the Isle of Lewis, made of walrus ivory and whalebone; a Royal Gold
+            Cup: A lavishly decorated gold cup, likely a presentation piece from
+            the French royal family; a ceremonial knight's shield, a 2-handed
+            sword (which Bernard was very excited about as it resembled the
+            sword he uses on the computer game 'Dark Souls') and the Fishpool
+            Hoard: A collection of jewelry and coins found buried in
+            Nottinghamshire.
+            <br />
+            <br />
+            On leaving the British Museum, we headed round the corner to the
+            café at the Cordon Bleu School in Bloomsbury to grab some coffees
+            and a sit down before commencing our walking tour which took us
+            through Bloomsbury, Piccadilly Circus, Shaftesbury Avenue and the
+            theatres, Regent Street and Waterloo Place, Trafalgar Square and the
+            best Waterstones store in London ending at{" "}
+            <Link
+              to="https://www.brasseriezedel.com/"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              {" "}
+              Brasserie Zédel{" "}
+            </Link>{" "}
+            for some lunch.
+            <br />
+            <br />
+            As we left Brasserie Zedel, there was a flurry of activity and some
+            filming appeared to be taking place. All was shortly revealed when
+            we realised that Sadiq Khan was giving a recorded interview. After
+            lunch, we took an interesting diversion through Soho before taking
+            our return train home.
+          </section>
+          <div className="SlideshowHostPhotoJuly2025">
+            <div className="slideshowinstructionsJuly2025">
+              {" "}
+              <strong>
+                Click on the image below to open the album <br /> of our trip to
+                London on the 30th July 2025.
+                <br />
+              </strong>
+              <br />
+              <Link
+                to="https://photos.app.goo.gl/ZFbE3sJn2t8ngrpE8"
+                target="_blank"
+                className="linkJuly2025"
+              >
+                <img
+                  className="slideshowentryJuly2025"
+                  src={London30072025Titled}
                   alt=""
                 />
               </Link>

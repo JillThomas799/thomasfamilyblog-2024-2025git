@@ -14,6 +14,7 @@ import GraduationCardiff1Titled from "./imagesresized/GraduationCardiff1Titled.j
 import medievalReenactmentTitled from "./imagesresized/medievalReenactmentTitled.jpg";
 import Glynebourne2025Titled from "./imagesresized/Glynebourne2025Titled.jpg";
 import London30072025Titled from "./imagesresized/London30072025Titled.jpg";
+import ShawsCorner31072025Titled from "./imagesresized/ShawsCorner31072025Titled.jpg";
 
 export default function July2025() {
   return (
@@ -627,6 +628,92 @@ export default function July2025() {
                 <img
                   className="slideshowentryJuly2025"
                   src={London30072025Titled}
+                  alt=""
+                />
+              </Link>
+            </div>{" "}
+            {/*Closing div slideshowinstructionsJuly2025*/}
+          </div>
+          {/*Closing div slideshowHostJuly2025*/}
+          <section className="dateJuly2025">31st July 2025, Thursday</section>
+          <section className="newsHeaderJuly2025">
+            Visit to George Bernard Shaw's former home at Shaw's Corner, Ayot St
+            Lawrence, Hertfordshire
+          </section>
+          <section className="newsJuly2025">
+            Today we were heading over to Hertfordshire, so took the opportunity
+            to stop off at a location we had last visited 35 years ago, namely
+            the former home (or at least one of them) of the activist,
+            intellectual and playwright George Bernard Shaw!
+            <br />
+            <br />
+            <Link
+              to="https://www.nationaltrustcollections.org.uk/place/shaw%27s-corner"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              Shaw's Corner, Ayot St Lawrence
+            </Link>{" "}
+            was the principal residence of the Irish playwright George Bernard
+            Shaw and it was here where he died. It is now owned by the National
+            Trust and open to the public as a writer's house museum. Apparently
+            the house, which is Edwardian, was built in 1902 as a new rectory
+            for the village and when George Bernard Shaw first came here in 1906
+            it was to rent it from the rector as a country retreat away from the
+            city. He later went on to buy the property. He lived here for 44
+            years until his death in 1950 and the house has been kept to reflect
+            his life.
+            <br />
+            <br />
+            We were fortunate as it was a week day and we had booked to enter
+            during the morning when they run guided tours by volunteers. A very
+            entertaining gentleman took us round who gave a very interesting
+            talk including impressions of George Bernard Shaw. We think he may
+            have done some practising in front of his bedroom mirror... In the
+            afternoon, there are no guided tours and people can look around the
+            property in their own time. Even some of the children looking around
+            found it interesting as we overheard one of them saying on exit
+            'That was amazing!', which it certainly was, including the bathroom
+            facilities for visitors which is essentially the original Edwardian
+            toilet in the right hand corner of the house together with delayed
+            flushing mechanism.
+            <br />
+            <br />
+            It was also a trip down memory lane to some degree as it took Jill
+            back to a very hot Summer 35 years ago in 1990 when she was
+            undertaking her post qualification GP training year (now known as GP
+            Specialty Trainees GPST) in this area, including driving around the
+            countryside undertaking house visits. Also time spent, on the few
+            nights off, having a rare period of relaxation by calling in for a
+            drink at{" "}
+            <Link
+              to="https://www.brocketarms.com/"
+              target="_blank"
+              className="linkJuly2025"
+            >
+              The Brocket Arms
+            </Link>{" "}
+            , Ayot St Lawrence.
+          </section>
+          <div className="SlideshowHostPhotoJuly2025">
+            <div className="slideshowinstructionsJuly2025">
+              {" "}
+              <strong>
+                Click on the image below to open the album <br /> of our trip to
+                the home (or at least one of them) <br /> of George Bernard
+                Shaw: Shaw's Corner, <br /> Ayot St Lawrence on the 31st July
+                2025.
+                <br />
+              </strong>
+              <br />
+              <Link
+                to="https://photos.app.goo.gl/Wq26VHxPyEHvd2s69"
+                target="_blank"
+                className="linkJuly2025"
+              >
+                <img
+                  className="slideshowentryJuly2025"
+                  src={ShawsCorner31072025Titled}
                   alt=""
                 />
               </Link>

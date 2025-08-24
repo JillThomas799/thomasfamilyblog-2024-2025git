@@ -96,6 +96,12 @@ export default function Dropdown(props) {
               </Link>
             </li>
             <li className="spacing">
+              <Link to="/august2025" className="monthLink">
+                August 2025 Blog
+              </Link>
+            </li>
+
+            <li className="spacing">
               <Link to="/hwp2024" className="monthLink">
                 Hadrian's Wall Path 2024 Blog
               </Link>

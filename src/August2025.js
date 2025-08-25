@@ -35,7 +35,8 @@ export default function August2025() {
             THE THOMAS FAMILY BLOG HAS BEEN UPDATED AND WE HAVE A NEW, LIVE,
             SECURE SITE AND WEB ADDRESS.
             <br />
-            <br /> WEB ADDRESS:
+            <br />
+            NEW WEB ADDRESS:
           </div>
           <Link
             to="https://thomfamblog-current.vercel.app/"

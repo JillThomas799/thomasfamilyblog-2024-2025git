@@ -1,33 +1,32 @@
-
 /*styling for the elements of the dropdown menu 'monthly blogs'*/
-#menu ul{
-    color:white;
-    background-color: #a4a4aC;
-    border: solid  #36454F 2px;
-    box-sizing:border-box;
-    margin-top:0%;
-    margin-bottom: 10%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    width: fit-content;
+#menu ul {
+  color: white;
+  background-color: #a4a4ac;
+  border: solid #36454f 2px;
+  box-sizing: border-box;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.spacing {
+  padding: 5px;
+}
+
+.monthLink {
+  color: white;
+  text-decoration: underline;
+  font-size: large;
+}
+
+@media screen and (max-width: 480px) {
+  #menu ul {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.spacing{
-    padding: 5px ;
-} 
-
-.monthLink{
-    color:white;
-    text-decoration: underline;
-    font-size: large;
-}
-
-@media screen and (max-width:480px){
-    #menu ul{
-        display:flex;
-        flex-direction:column;
-    }
+    flex-direction: column;
+  }
 }
